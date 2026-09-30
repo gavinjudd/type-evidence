@@ -9,9 +9,9 @@ import re
 import stat
 import zipfile
 
-ROOT_FILES = {'README.md','AGENTS.md','pyproject.toml','sources.lock.json','.gitignore','requirements-lock.txt'}
+ROOT_FILES = {'README.md','AGENTS.md','pyproject.toml','sources.lock.json','.gitignore','requirements-lock.txt','requirements-visual-lock.txt'}
 ROOT_DIRS = {'type_evidence','tests','docs','examples','evidence','scripts'}
-SUFFIXES = {'.py','.md','.json','.toml','.txt','.xml','.png','.html'}
+SUFFIXES = {'.py','.md','.json','.toml','.txt','.xml','.png','.html','.css','.js'}
 FONT_MAGIC = {b'\0\1\0\0',b'OTTO',b'ttcf',b'wOFF',b'wOF2',b'true',b'typ1'}
 SECRET = re.compile(rb'(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}|sk-[A-Za-z0-9_-]{35,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)')
 
@@ -66,7 +66,9 @@ def build(root, destination):
         if data[:4] in FONT_MAGIC or SECRET.search(data):
             raise ValueError('Font or secret signature: '+str(rel))
         files.append((rel.as_posix(),data))
-    manifest={'version':'0.1.0','kind':'source-and-evidence-review','font_binaries_included':False,
+    version_file=root/'type_evidence/__init__.py'
+    version_match=re.search(r'^__version__\s*=\s*[\x22\x27]([^\x22\x27]+)', version_file.read_text(), re.M) if version_file.exists() else None
+    manifest={'version':version_match.group(1) if version_match else 'unversioned','kind':'source-and-evidence-review','font_binaries_included':False,
               'files':[{'path':name,'bytes':len(data),'sha256':sha(data)} for name,data in files]}
     files.append(('REVIEW-MANIFEST.json',(json.dumps(manifest,indent=2)+'\n').encode()))
     destination.parent.mkdir(parents=True,exist_ok=True)

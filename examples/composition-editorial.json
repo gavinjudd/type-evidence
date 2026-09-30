@@ -1,0 +1,133 @@
+{
+  "template": "editorial",
+  "title": "Field Notes — the river returns",
+  "width": 1080,
+  "padding": 64,
+  "background": "#f5f2e8",
+  "roles": {
+    "eyebrow": {
+      "font_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+      "size": 13,
+      "line_height": 1.4,
+      "color": "#52625b"
+    },
+    "title": {
+      "font_id": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2:0",
+      "size": 64,
+      "line_height": 1.06,
+      "color": "#26322e"
+    },
+    "dek": {
+      "font_id": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2:0",
+      "size": 25,
+      "line_height": 1.35,
+      "color": "#26322e"
+    },
+    "body": {
+      "font_id": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2:0",
+      "size": 21,
+      "line_height": 1.55,
+      "color": "#26322e"
+    },
+    "caption": {
+      "font_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+      "size": 14,
+      "line_height": 1.5,
+      "color": "#52625b"
+    },
+    "heading": {
+      "font_id": "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8:0",
+      "size": 18,
+      "line_height": 1.3,
+      "color": "#26322e"
+    }
+  },
+  "blocks": [
+    {
+      "role": "eyebrow",
+      "text": "FIELD NOTES     /     LANDSCAPE & CULTURE     /     08"
+    },
+    {
+      "type": "rule",
+      "color": "#aeb8ae",
+      "gap": 24
+    },
+    {
+      "role": "title",
+      "text": "When the river\nfinds its way home",
+      "gap": 32
+    },
+    {
+      "role": "dek",
+      "text": "A restored floodplain is teaching one small town to make room for the water.",
+      "gap": 24
+    },
+    {
+      "role": "caption",
+      "text": "Words by Mira Ellis   ·   Photography by Luca Morgan   ·   8 minute read",
+      "gap": 20
+    },
+    {
+      "type": "spacer",
+      "height": 18,
+      "gap": 0
+    },
+    {
+      "type": "columns",
+      "gap": 40,
+      "columns": [
+        {
+          "width": 2.25,
+          "blocks": [
+            {
+              "role": "body",
+              "text": "At first, the change was almost invisible. A line of willow cuttings followed an old bend in the river, and the fence that had divided the meadow for a century was gone."
+            },
+            {
+              "role": "body",
+              "text": "By spring, shallow pools had gathered in the hollows. Herons stood among the reeds. On the path above the water, neighbours stopped to compare what they had seen that morning."
+            },
+            {
+              "role": "body",
+              "text": "The project began with a simple question: what would happen if the valley could hold rain again? Its answer is neither a monument nor a machine. It is a landscape learning to move."
+            }
+          ]
+        },
+        {
+          "width": 1,
+          "blocks": [
+            {
+              "type": "panel",
+              "padding": 20,
+              "background": "#e5e9df",
+              "blocks": [
+                {
+                  "role": "heading",
+                  "text": "Room for water"
+                },
+                {
+                  "role": "caption",
+                  "text": "34 hectares of floodplain reconnected\n\n2.8 kilometres of public paths\n\n16 native plant species returning"
+                }
+              ]
+            },
+            {
+              "role": "caption",
+              "text": "This is a faithful editorial sample with fictional reporting. Inspect the reading rhythm, hierarchy and relationship between the two type families."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "color": "#aeb8ae",
+      "gap": 32
+    },
+    {
+      "role": "caption",
+      "text": "FIELD NOTES   /   A journal of places in transition",
+      "gap": 14
+    }
+  ]
+}

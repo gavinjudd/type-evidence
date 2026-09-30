@@ -20,7 +20,7 @@ def test_mcp_initialization_discovery_and_errors(tmp_path):
     replies=[json.loads(x) for x in output.getvalue().splitlines()]
     assert len(replies)==5
     assert replies[0]['result']['protocolVersion']=='2025-06-18'
-    assert len(replies[1]['result']['tools'])==5
+    assert {tool['name'] for tool in replies[1]['result']['tools']} == {'font_search','font_inspect','font_resolve','font_family','font_compare','font_compose','font_stats','font_project','font_image','font_issues','font_visual_status'}
     assert json.loads(replies[2]['result']['content'][0]['text'])['faces']==1
     assert replies[3]['result']['isError'] is True
     assert replies[4]['error']['code']==-32601

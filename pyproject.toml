@@ -4,13 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "type-evidence"
-version = "0.1.0"
+version = "0.2.0"
 description = "Local font evidence and exact asset resolution for capable agents"
 requires-python = ">=3.10"
 dependencies = ["fonttools[woff]==4.60.2", "Pillow==11.3.0", "uharfbuzz==0.52.0", "freetype-py==2.5.1"]
 
 [project.optional-dependencies]
 test = ["pytest==8.4.2"]
+visual = ["torch==2.8.0", "torchvision==0.23.0", "open_clip_torch==3.2.0", "gdown==5.2.0", "numpy>=1.26,<3"]
 
 [project.scripts]
 type-evidence = "type_evidence.cli:main"

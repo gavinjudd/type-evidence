@@ -135,10 +135,10 @@ def test_equal_scores_are_stable_under_input_order_and_family_rename():
 
 
 def test_unsupported_semantics_and_unknown_brief_fields_are_visible():
-    result = search([face("a")], {"query": "friendly futuristic", "audience": "children"})
+    result = search([face("a")], {"query": "friendly futuristic", "imaginary_preference": "children"})
     interpretation = result["query_interpretation"]
     assert interpretation["unmodeled_terms"] == ["friendly", "futuristic"]
-    assert interpretation["unrecognized_brief_fields"] == ["audience"]
+    assert interpretation["unrecognized_brief_fields"] == ["imaginary_preference"]
     assert "unrecognized brief fields have no effect" in interpretation["method"]
 
 

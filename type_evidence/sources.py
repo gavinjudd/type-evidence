@@ -17,6 +17,9 @@ import stat
 import subprocess
 import threading
 import tarfile
+import tempfile
+from urllib.parse import quote, urlparse
+from urllib.request import Request, urlopen
 import zipfile
 
 MAGIC_EXT = {b'\x00\x01\x00\x00': '.ttf', b'OTTO': '.otf', b'true': '.ttf',
@@ -57,6 +60,8 @@ def fetch(lock_path, library_root, *, portable=None):
     """Fetch exact commits into library_root/sources; refuse modified/mismatched trees.
 
     Lock shape: {"sources": [{"id": "name", "url": "https://...git", "commit": "40 hex"}]}.
+    A github-subtree entry additionally carries exact path/hash/length records;
+    it downloads only that reviewed subset instead of the entire repository.
     Existing trees are reused only at the exact pin, with the expected remote and
     clean status. Failed/partial downloads are left for inspection, never reset.
     """
@@ -78,6 +83,11 @@ def fetch(lock_path, library_root, *, portable=None):
             raise ValueError('Only credential-free HTTPS source URLs are accepted')
         seen.add(ident)
         root = _safe_directory(destination / ident)
+        if entry.get('acquisition') == 'github-subtree':
+            result.append(_fetch_github_subset(entry, root, url))
+            continue
+        if entry.get('acquisition') not in {None, 'git'}:
+            raise ValueError('Unknown source acquisition mode')
         if portable:
             result.append(_fetch_portable(entry, root, Path(library_root) / 'repositories' / (ident + '.git'), url))
             continue
@@ -100,6 +110,149 @@ def fetch(lock_path, library_root, *, portable=None):
                 raise ValueError('Fetched commit does not match lock')
         result.append(dict(id=ident, root=str(root), url=url, commit=commit.lower()))
     return result
+
+
+def _github_repository(value):
+    match = re.fullmatch(r'(?:https://github\.com/)?([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?)(?:\.git)?/?', value)
+    if not match or any(p in {'.', '..'} for p in match.group(1).split('/')):
+        raise ValueError('A public GitHub owner/repository is required')
+    return match.group(1)
+
+
+def _upstream_path(value):
+    if not isinstance(value, str) or '\\' in value or '\x00' in value or any(p in {'', '.', '..'} for p in value.split('/')):
+        raise ValueError('Unsafe source path')
+    portable_path(value)
+    return value
+
+
+def _https_bytes(url, limit):
+    """Read bounded public HTTPS data; no credentials or local scripts are used."""
+    request = Request(url, headers={'User-Agent': 'type-evidence-source-fetch/0.2', 'Accept': 'application/vnd.github+json'})
+    with urlopen(request, timeout=90) as response:
+        final = urlparse(response.geturl())
+        if final.scheme != 'https' or final.hostname not in {'api.github.com', 'raw.githubusercontent.com'}:
+            raise ValueError('Unexpected source download redirect')
+        data = response.read(limit + 1)
+    if len(data) > limit:
+        raise ValueError('Source download exceeded byte limit')
+    return data
+
+
+def pin_github_source(repository, commit, paths, ident):
+    """Build a reviewed lock entry from exact files or immediate directory files.
+
+    Directories select their fonts, license files, METADATA.pb and descriptions;
+    nested directories are not traversed. Add a nested directory explicitly when
+    static styles are required. Returned hashes identify the downloaded bytes,
+    while Git blob hashes verify their relationship to the pinned upstream tree.
+    This returns metadata only and never installs or saves font binaries.
+    """
+    repository = _github_repository(repository)
+    if not re.fullmatch(r'[0-9a-fA-F]{40}', commit):
+        raise ValueError('Full 40-character commit pin required')
+    if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]{0,79}', ident):
+        raise ValueError('Source id must be a safe directory name')
+    if not isinstance(paths, list) or not 1 <= len(paths) <= 100:
+        raise ValueError('Select 1–100 exact files or directories')
+    selected = {}
+    for path in paths:
+        path = _upstream_path(path)
+        endpoint = 'https://api.github.com/repos/' + repository + '/contents/' + quote(path, safe='/') + '?ref=' + commit.lower()
+        listing = json.loads(_https_bytes(endpoint, 4 * 1024 * 1024))
+        records = listing if isinstance(listing, list) else [listing]
+        # GitHub contents responses cap a directory listing at 1000 entries.
+        if len(records) >= 1000:
+            raise ValueError('Directory listing may be truncated; select narrower paths')
+        for record in records:
+            name = _upstream_path(record['path'])
+            if record.get('type') != 'file':
+                continue
+            if isinstance(listing, list) and not (Path(name).suffix.lower() in FONT_EXT or _license(name)
+                                                  or Path(name).name in {'METADATA.pb', 'DESCRIPTION.en_us.html'}):
+                continue
+            size, blob = record.get('size'), record.get('sha')
+            if not isinstance(size, int) or not 0 <= size <= MAX_FILE or not re.fullmatch(r'[0-9a-f]{40}', blob or ''):
+                raise ValueError('Invalid pinned file metadata')
+            selected[name] = dict(path=name, bytes=size, git_blob=blob)
+    if not selected or len(selected) > MAX_MEMBERS or sum(r['bytes'] for r in selected.values()) > MAX_ARCHIVE_TOTAL:
+        raise ValueError('Source selection is empty or exceeds bounded source limits')
+    for record in selected.values():
+        data = _https_bytes('https://raw.githubusercontent.com/' + repository + '/' + commit.lower() + '/' + quote(record['path'], safe='/'), record['bytes'])
+        _verify_source_bytes(data, record, require_sha=False)
+        record['sha256'] = _sha(data)
+    return dict(id=ident, url='https://github.com/' + repository, commit=commit.lower(),
+                acquisition='github-subtree', selection=paths, files=sorted(selected.values(), key=lambda r: r['path']))
+
+
+def _verify_source_bytes(data, record, *, require_sha=True):
+    if len(data) != record['bytes'] or (require_sha and _sha(data) != record['sha256']):
+        raise ValueError('Source byte length or SHA-256 differs from lock')
+    blob = hashlib.sha1(b'blob ' + str(len(data)).encode('ascii') + b'\0' + data).hexdigest()
+    if blob != record['git_blob']:
+        raise ValueError('Source Git blob hash differs from lock')
+
+
+def _fetch_github_subset(entry, root, url):
+    repository = _github_repository(url)
+    files = entry.get('files')
+    if not isinstance(files, list) or not 1 <= len(files) <= MAX_MEMBERS:
+        raise ValueError('A bounded list of locked files is required')
+    records, names, components, total = [], set(), {}, 0
+    for record in files:
+        upstream = _upstream_path(record['path'])
+        safe = portable_path(upstream)
+        if safe.casefold() in names or safe.casefold() == '.type-evidence-source.json':
+            raise ValueError('Portable source path collision')
+        names.add(safe.casefold())
+        parts = safe.split('/')
+        for end in range(1, len(parts) + 1):
+            prefix = '/'.join(parts[:end])
+            folded = prefix.casefold()
+            if folded in components and components[folded] != (prefix, end == len(parts)):
+                raise ValueError('Portable source directory or file collision')
+            components[folded] = (prefix, end == len(parts))
+        if (not re.fullmatch(r'[0-9a-f]{64}', record.get('sha256', ''))
+                or not re.fullmatch(r'[0-9a-f]{40}', record.get('git_blob', ''))
+                or not isinstance(record.get('bytes'), int) or not 0 <= record['bytes'] <= MAX_FILE):
+            raise ValueError('Every selected file needs SHA-256, Git blob hash and bounded byte length')
+        total += record['bytes']
+        records.append(dict(record, path=safe, upstream_path=upstream))
+    if total > MAX_ARCHIVE_TOTAL:
+        raise ValueError('Selected source exceeds total byte limit')
+    config = dict(id=entry['id'], root=str(root), url=url, commit=entry['commit'].lower(),
+                  upstream_paths={r['path']: r['upstream_path'] for r in records if r['path'] != r['upstream_path']},
+                  acquisition=dict(mode='pinned-github-subtree', files=len(records), bytes=total,
+                                   selection=entry.get('selection', []), path_spelling='portable percent encoding'))
+    expected = dict(config, files=records)
+    marker = root / '.type-evidence-source.json'
+    if root.exists():
+        if marker.is_symlink() or not marker.is_file() or json.loads(marker.read_text(encoding='utf-8')) != expected:
+            raise ValueError('Existing subset manifest differs from lock; preserved')
+        actual = {p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file() or p.is_symlink()}
+        if actual != {r['path'] for r in records} | {marker.name}:
+            raise ValueError('Existing subset has added/missing files; preserved')
+        for record in records:
+            path = root / record['path']
+            _safe_directory(path.parent)
+            if path.is_symlink():
+                raise ValueError('Source symlink refused')
+            _verify_source_bytes(path.read_bytes(), record)
+        return config
+    # The final directory appears only once every pinned file verifies. A failed
+    # download does not leave a destination that looks like a usable source.
+    with tempfile.TemporaryDirectory(prefix='.' + entry['id'] + '-', dir=root.parent) as staging:
+        staging = Path(staging)
+        for record in records:
+            raw_url = 'https://raw.githubusercontent.com/' + repository + '/' + entry['commit'].lower() + '/' + quote(record['upstream_path'], safe='/')
+            data = _https_bytes(raw_url, record['bytes'])
+            _verify_source_bytes(data, record)
+            target = staging / record['path']
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(data)
+        (staging / marker.name).write_text(json.dumps(expected, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        staging.rename(root)
+    return config
 
 
 def portable_path(upstream_path):

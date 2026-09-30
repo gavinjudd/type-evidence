@@ -38,6 +38,24 @@ def parser():
     s.add_argument('--category')
     s.add_argument('--require-open-evidence', action='store_true', default=None)
     s.add_argument('--existing-id')
+    s.add_argument('--offset', type=int)
+    s.add_argument('--exclude', nargs='+')
+    s.add_argument('--exclude-families', nargs='+')
+    s.add_argument('--style')
+    s.add_argument('--required-styles', help='JSON list of weight/italic objects')
+    s.add_argument('--similar-to')
+    s.add_argument('--avoid-like')
+    s.add_argument('--audience')
+    s.add_argument('--medium')
+    s.add_argument('--tone')
+    s.add_argument('--language')
+    s.add_argument('--hierarchy')
+    s.add_argument('--surroundings')
+    s.add_argument('--density', choices=['comfortable','balanced','dense'])
+    s.add_argument('--size', type=float)
+    s.add_argument('--visual', choices=['auto','on','off'], default=None)
+    s.add_argument('--reference-image', help='Local cropped typography image for learned resemblance retrieval')
+    s.add_argument('--upright', dest='italic', action='store_false', default=None)
     for name in ['inspect', 'resolve', 'family']:
         s = sub.add_parser(name)
         s.add_argument('id', help='Full sha256:face_index returned by search')
@@ -51,6 +69,25 @@ def parser():
     s.add_argument('--features', nargs='*', default=[])
     s.add_argument('--direction', default=None)
     s.add_argument('--language', default=None)
+    s = sub.add_parser('compose', help='Render a contextual layout and exact application recipe')
+    s.add_argument('--spec', required=True, help='JSON layout specification')
+    s.add_argument('--out', required=True)
+    s = sub.add_parser('visual-setup', help='Explicitly download and verify the optional local FontCLIP checkpoint')
+    s.add_argument('--directory', default=None)
+    s = sub.add_parser('visual-index', help='Incrementally embed exact rendered faces; resume safely by rerunning')
+    s.add_argument('--out', default=None)
+    s.add_argument('--checkpoint', default=None)
+    s.add_argument('--limit', type=int)
+    s.add_argument('--device', choices=['cpu','mps','cuda'], default='cpu')
+    s.add_argument('--batch-size', type=int, default=16)
+    s.add_argument('--script', help='Embed this actual script, e.g. Arabic, Greek, Devanagari; uses a separate index')
+    sub.add_parser('visual-status')
+    s = sub.add_parser('pin-source', help='Add an official GitHub subset to a source lock by full commit and selected paths')
+    s.add_argument('--repository', required=True)
+    s.add_argument('--commit', required=True)
+    s.add_argument('--paths', nargs='+', required=True)
+    s.add_argument('--id', required=True)
+    s.add_argument('--lock', default='sources.lock.json')
     s = sub.add_parser('project', help='Bounded existing typography inventory; project text stays local')
     s.add_argument('root')
     s = sub.add_parser('mcp', help='Local stdio MCP server; no listening network port')
@@ -71,6 +108,20 @@ def _text(args):
 
 
 def run(args):
+    if args.command == 'visual-setup':
+        from .visual import setup_model
+        return setup_model(args.directory or Path(args.catalog).resolve().parent / 'models')
+    if args.command == 'pin-source':
+        from .sources import pin_github_source
+        path = Path(args.lock)
+        data = json.loads(path.read_text()) if path.exists() else {'schema':2,'sources':[]}
+        if any(s['id'] == args.id for s in data['sources']):
+            raise ValueError('Source id already exists; use a new id or review/edit the existing lock explicitly')
+        source = pin_github_source(args.repository,args.commit,args.paths,args.id)
+        data['sources'].append(source)
+        data['schema'] = 2
+        path.write_text(json.dumps(data,indent=2)+'\n',encoding='utf-8')
+        return {'lock':str(path.resolve()),'added_source':source['id'],'next':'type-evidence fetch; type-evidence index'}
     if args.command == 'fetch':
         from .sources import fetch, prepare
         root = Path(args.library).resolve()
@@ -106,23 +157,38 @@ def run(args):
         if args.command == 'resolve':
             return catalog.resolve(args.id)
         if args.command == 'family':
-            chosen = catalog.get(args.id)
-            related = [f for f in catalog.all() if f['family'].casefold() == chosen['family'].casefold()]
-            return {'family':chosen['family'], 'chosen_group':chosen['family_key'],
-                    'grouping':'Exact family + vendor + version + width class. Different groups are not silently merged.',
-                    'faces':[{k:f[k] for k in ['id','style','weight','italic','axes','family_key','version','vendor','family_limits']} for f in related][:200],
-                    'total_faces':len(related), 'truncated':len(related)>200}
+            from .operations import family
+            return family(catalog, args.id)
         if args.command == 'search':
-            from .discovery import search
+            from .operations import discover
             brief = json.loads(Path(args.brief).read_text(encoding='utf-8')) if args.brief else {}
-            for key in ['query','family','role','limit','weight','italic','min_styles','category','require_open_evidence','existing_id']:
+            saved_visual = brief.pop('visual','auto')
+            saved_reference = brief.pop('reference_image',None)
+            for key in ['query','family','role','limit','weight','italic','min_styles','category','require_open_evidence','existing_id',
+                        'offset','exclude','exclude_families','style','similar_to','avoid_like','audience','medium','tone',
+                        'language','hierarchy','surroundings','density','size']:
                 value = getattr(args, key)
                 if value is not None:
                     brief[key] = value
+            if args.required_styles is not None:
+                brief['required_styles'] = json.loads(args.required_styles)
             text = _text(args)
             if text is not None:
                 brief['text'] = text
-            return search(catalog, brief)
+            return discover(catalog, brief, visual=args.visual if args.visual is not None else saved_visual,
+                            reference_image=args.reference_image if args.reference_image is not None else saved_reference)
+        if args.command == 'compose':
+            from .composition import compose
+            path = Path(args.spec)
+            if path.stat().st_size > 100000: raise ValueError('Composition spec exceeds 100 KB')
+            return compose(catalog, json.loads(path.read_text(encoding='utf-8')), Path(args.out))
+        if args.command == 'visual-index':
+            from .visual import build_index
+            return build_index(catalog, args.out, args.checkpoint, args.limit, args.device, args.batch_size,
+                               progress=lambda data: print(json.dumps(data),file=sys.stderr,flush=True), script=args.script)
+        if args.command == 'visual-status':
+            from .operations import visual_status
+            return visual_status(catalog)
         if args.command == 'compare':
             from .render import compare
             text = _text(args)
@@ -137,6 +203,11 @@ def run(args):
 
 
 def main():
+    # JSON is UTF-8 across terminals and redirected pipes, including Windows
+    # hosts whose legacy default code page cannot represent the requested text.
+    for stream in (sys.stdout,sys.stderr):
+        if hasattr(stream,'reconfigure'):
+            stream.reconfigure(encoding='utf-8')
     args = parser().parse_args()
     try:
         result = run(args)

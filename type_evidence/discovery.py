@@ -1,4 +1,4 @@
-"""Bounded, evidence-led font discovery. No model, network, or visual claims.
+"""Bounded, evidence-led font discovery with optional content-based visual evidence.
 
 Scores are deliberately simple preferences, not typography-quality measurements.
 Exact-file constraints are applied before ranking. Inspect/render finalists with
@@ -19,7 +19,9 @@ import unicodedata
 ROLES = {"ui", "body", "display", "code", "brand", "game", "document"}
 CATEGORIES = {"sans", "serif", "mono", "script", "display", "unknown"}
 _BRIEF_FIELDS = {"role", "text", "query", "family", "limit", "weight", "italic", "min_styles", "required_styles",
-                 "category", "require_open_evidence", "exclude", "existing_id", "style"}
+                 "category", "require_open_evidence", "exclude", "existing_id", "style",
+                 "offset", "exclude_families", "similar_to", "avoid_like", "audience",
+                 "medium", "tone", "language", "hierarchy", "surroundings", "density", "size"}
 _SPACE = re.compile(r"\s+")
 _ALIASES = {
     "sans": "category:sans", "sans-serif": "category:sans",
@@ -110,6 +112,13 @@ def _validate_brief(brief):
     limit = brief.get("limit", 6)
     if isinstance(limit, bool) or not isinstance(limit, int) or not 1 <= limit <= 20:
         raise ValueError("limit must be an integer between 1 and 20")
+    offset = brief.get("offset", 0)
+    if isinstance(offset, bool) or not isinstance(offset, int) or not 0 <= offset <= 5000:
+        raise ValueError("offset must be an integer between 0 and 5000")
+    if "size" in brief and (isinstance(brief["size"], bool) or not isinstance(brief["size"], (int, float)) or not 6 <= brief["size"] <= 300):
+        raise ValueError("size must be a number between 6 and 300 CSS pixels")
+    if "density" in brief and brief["density"] not in {"comfortable", "balanced", "dense"}:
+        raise ValueError("density must be comfortable, balanced, or dense")
     minimum = brief.get("min_styles", 1)
     if isinstance(minimum, bool) or not isinstance(minimum, int) or not 1 <= minimum <= 1000:
         raise ValueError("min_styles must be an integer between 1 and 1000")
@@ -127,7 +136,10 @@ def _validate_brief(brief):
     for style in required:
         if not isinstance(style, dict) or set(style) != {'weight', 'italic'} or not isinstance(style['italic'], bool) or isinstance(style['weight'], bool) or not isinstance(style['weight'], int) or not 1 <= style['weight'] <= 1000:
             raise ValueError('Each required style needs integer weight 1..1000 and boolean italic')
-    for field, maximum in (("text", 20000), ("query", 300), ("family", 300), ("style", 100), ("existing_id", 100)):
+    for field, maximum in (("text", 20000), ("query", 300), ("family", 300), ("style", 100), ("existing_id", 100),
+                           ("similar_to", 100), ("avoid_like", 100),
+                           ("audience", 300), ("medium", 100), ("tone", 300),
+                           ("language", 100), ("hierarchy", 300), ("surroundings", 500)):
         if field in brief and (not isinstance(brief[field], str) or len(brief[field]) > maximum):
             raise ValueError(f"{field} must be a string of at most {maximum} characters")
     if "category" in brief and brief["category"] not in CATEGORIES:
@@ -135,6 +147,9 @@ def _validate_brief(brief):
     excluded = brief.get("exclude", [])
     if not isinstance(excluded, list) or len(excluded) > 1000 or not all(isinstance(x, str) for x in excluded):
         raise ValueError("exclude must be a list of at most 1000 exact IDs")
+    excluded_families = brief.get("exclude_families", [])
+    if not isinstance(excluded_families, list) or len(excluded_families) > 100 or not all(isinstance(x, str) and len(x) <= 300 for x in excluded_families):
+        raise ValueError("exclude_families must be a list of at most 100 literal family names")
     return role, limit, minimum
 
 
@@ -147,11 +162,13 @@ def _hard_constraints(font, brief, codepoints, family_styles):
         failures.append('no_usable_unicode_cmap')
     if 'family' in brief and _key(font.get('family')) != _key(brief['family']):
         failures.append('exact_family_name_mismatch')
-    name_slanted = bool(re.search(r'\b(italic|oblique|slanted)\b', str(font.get('style', '')), re.I))
+    name_slanted = bool(re.search(r'\b(italic|oblique|slanted|obl)\b', ' '.join(str(font.get(field, '')) for field in ('style', 'full_name')), re.I))
     if 'italic' in brief and name_slanted and not font.get('italic'):
         failures.append('style_metadata_conflict')
     if font["id"] in brief.get("exclude", []):
         failures.append("explicitly_excluded")
+    if _key(font.get("family")) in {_key(value) for value in brief.get("exclude_families", [])}:
+        failures.append("explicitly_excluded_family")
     if codepoints and not _covers(font, codepoints):
         failures.append("missing_requested_characters")
     if "weight" in brief:
@@ -181,7 +198,135 @@ def _hard_constraints(font, brief, codepoints, family_styles):
     return failures, axes
 
 
-def _rank(font, brief, role, family_styles, query_terms):
+# Keep language interpretation deliberately inspectable. Negation scopes across
+# coordinated terms, but resets at punctuation or an explicit contrast. It is
+# not silently discarded before aliases or visual-semantic retrieval.
+_NEGATORS = {"not", "no", "without", "avoid", "avoiding", "neither", "less", "exclude", "excluding"}
+_CONTRAST = {"but", "however", "yet", "instead", "except"}
+_GRAMMAR = _NEGATORS | _CONTRAST | {"and", "or", "nor", "a", "an", "the", "too", "very", "rather"}
+
+
+def interpret_query(query):
+    """Return positive/negative terms for transparent ranking and visual adapters.
+
+    Unknown words are retained with their polarity so a content-based adapter
+    can interpret 'not playful' without accidentally rewarding playfulness.
+    """
+    tokens = re.findall(r"[\w-]+|[,;.!?:]", _key(query))
+    positive, negative, unknown_positive, unknown_negative = {}, {}, [], []
+    negated = False
+    i = 0
+    while i < len(tokens):
+        token = tokens[i]
+        if token in {",", ";", ".", "!", "?", ":"} or token in _CONTRAST:
+            negated = False
+            i += 1
+            continue
+        if token in _NEGATORS:
+            if token == 'without' and i + 1 < len(tokens) and tokens[i + 1] == 'losing':
+                i += 2
+                continue
+            # 'not only X but also Y' is additive, not a request to avoid X.
+            if token == "not" and i + 1 < len(tokens) and tokens[i + 1] == "only":
+                i += 2
+                continue
+            negated = True
+            i += 1
+            continue
+        local_negative = negated
+        term = token
+        if token.startswith("non-") and len(token) > 4:
+            term = token[4:]
+            local_negative = True
+        if term == "sans" and i + 1 < len(tokens) and tokens[i + 1] == "serif":
+            term = "sans-serif"
+            i += 1
+        elif term in {'high','low'} and i + 1 < len(tokens) and tokens[i + 1] == 'contrast':
+            term += ' contrast'
+            i += 1
+        if term in {"high", "large"} and i + 1 < len(tokens) and tokens[i + 1] == "x-height":
+            term += " x-height"
+            i += 1
+        preference = "measured:high-x-height" if term in {"high x-height", "large x-height"} else _ALIASES.get(term)
+        if preference:
+            (negative if local_negative else positive)[term] = preference
+        elif term not in _GRAMMAR and term not in {"only", "also"}:
+            destination = unknown_negative if local_negative else unknown_positive
+            if term not in destination:
+                destination.append(term)
+        i += 1
+    return {"positive": positive, "negative": negative,
+            "unmodeled_positive": unknown_positive, "unmodeled_negative": unknown_negative}
+
+
+def _preference_match(font, preference, weight, italic):
+    metrics = font.get("metrics") or {}
+    category = font.get("category", "unknown")
+    if preference.startswith("category:"):
+        return category == preference.split(":", 1)[1], "metadata"
+    if preference in {"measured:mono", "measured:tabular"}:
+        key = "mono_measured" if preference.endswith("mono") else "digit_tabular_default"
+        return metrics.get(key) is True, "measured"
+    if preference == "measured:compact":
+        value = metrics.get("average_advance_em")
+        return isinstance(value, (int, float)) and 0 < value <= 0.52, "measured+heuristic"
+    if preference == "measured:high-x-height":
+        value = metrics.get("x_height_em")
+        return isinstance(value, (int, float)) and value >= 0.5, "measured+heuristic"
+    if preference == "metadata:condensed":
+        return 1 <= (font.get("width_class") or 5) <= 4, "metadata"
+    if preference == "metadata:wide":
+        return (font.get("width_class") or 5) >= 6, "metadata"
+    if preference == "metadata:bold":
+        return weight >= 700, "metadata"
+    if preference == "metadata:light":
+        return weight <= 300, "metadata"
+    if preference == "metadata:italic":
+        return italic, "metadata"
+    return False, "metadata"
+
+
+def _similarity(font, reference):
+    """Low-dimensional shape proximity, explicitly distinct from visual judgment."""
+    left, right = font.get("metrics") or {}, reference.get("metrics") or {}
+    distances, fields = [], []
+    for key, scale in (("x_height_em", .3), ("cap_height_em", .3), ("average_advance_em", .5)):
+        a, b = left.get(key), right.get(key)
+        if isinstance(a, (float, int)) and isinstance(b, (float, int)) and math.isfinite(a) and math.isfinite(b):
+            distances.append(min(1, abs(a - b) / scale))
+            fields.append(key)
+    # One isolated metric is too little evidence for a similarity claim.
+    if len(distances) < 2:
+        return None, fields
+    return 1 - sum(distances) / len(distances), fields
+
+
+def _visual_record(value):
+    if not isinstance(value, dict):
+        return None
+    score = value.get("score")
+    if isinstance(score, bool) or not isinstance(score, (int, float)) or not math.isfinite(score):
+        return None
+    matches = value.get("matches", [])
+    result = {"score": round(max(-20, min(20, score)), 4),
+            "description": _clean(value.get("description"), 400),
+            "basis": _clean(value.get("basis", "visual-adapter"), 80),
+            "matches": [_clean(x, 80) for x in matches[:12]] if isinstance(matches, list) else []}
+    similarity = value.get("raw_similarity")
+    if isinstance(similarity, (int, float)) and not isinstance(similarity, bool) and math.isfinite(similarity):
+        result["raw_similarity"] = round(similarity, 6)
+    if "sample_script" in value:
+        result["sample_script"] = _clean(value["sample_script"], 40)
+    if "sample_language" in value:
+        result["sample_language"] = _clean(value["sample_language"], 40)
+    axes = value.get("sample_axes")
+    if isinstance(axes, dict):
+        result["sample_axes"] = {str(tag)[:4]: number for tag, number in list(axes.items())[:16]
+                                 if isinstance(number, (int, float)) and not isinstance(number, bool) and math.isfinite(number)}
+    return result
+
+
+def _rank(font, brief, role, family_styles, interpretation, references, visual=None):
     score = 0
     reasons = []
     category = font.get("category", "unknown")
@@ -192,7 +337,7 @@ def _rank(font, brief, role, family_styles, query_terms):
     def add(points, basis, reason):
         nonlocal score
         score += points
-        reasons.append({"basis": basis, "points": points, "reason": reason})
+        reasons.append({"basis": basis, "points": round(points, 4), "reason": reason})
 
     if role == "code":
         if metrics.get("mono_measured") is True:
@@ -208,7 +353,6 @@ def _rank(font, brief, role, family_styles, query_terms):
         if family_styles["count"] >= 3:
             add(1, "metadata", "At least three distinct face styles are present for hierarchy.")
     elif role in {"display", "brand"} and category in {"display", "script", "serif", "sans"}:
-        # All these categories remain equal: role alone is not a style brief.
         add(1, "heuristic", "This role permits multiple categories; compare its actual letterforms.")
 
     if "weight" not in brief and 350 <= weight <= 500:
@@ -223,40 +367,48 @@ def _rank(font, brief, role, family_styles, query_terms):
     elif query and len(query) >= 3 and query in family:
         add(5, "metadata", "The query occurs in the family name; this is a text match, not visual evidence.")
 
-    preferences = set(query_terms.values())
-    for preference in sorted(preferences):
-        match = False
-        basis = "metadata"
-        if preference.startswith("category:"):
-            match = category == preference.split(":", 1)[1]
-        elif preference == "measured:mono":
-            match = metrics.get("mono_measured") is True
-            basis = "measured"
-        elif preference == "measured:tabular":
-            match = metrics.get("digit_tabular_default") is True
-            basis = "measured"
-        elif preference == "measured:compact":
-            advance = metrics.get("average_advance_em")
-            match = isinstance(advance, (int, float)) and 0 < advance <= 0.52
-            basis = "measured+heuristic"
-        elif preference == "metadata:condensed":
-            match = 1 <= font.get("width_class", 5) <= 4
-        elif preference == "metadata:wide":
-            match = font.get("width_class", 5) >= 6
-        elif preference == "metadata:bold":
-            match = weight >= 700
-        elif preference == "metadata:light":
-            match = weight <= 300
-        elif preference == "metadata:italic":
-            match = italic
+    negative_preferences = set(interpretation["negative"].values())
+    for preference in sorted(set(interpretation["positive"].values()) | negative_preferences):
+        match, basis = _preference_match(font, preference, weight, italic)
         if match:
-            add(3, basis, f"Transparent query preference matched: {preference}.")
+            # In a contradictory brief an explicit avoidance wins. A preference
+            # is still soft; known matching candidates can be explored later.
+            if preference in negative_preferences:
+                add(-6, basis, f"Negated query preference matched and penalized: {preference}.")
+            else:
+                add(3, basis, f"Transparent query preference matched: {preference}.")
 
-    if "high x-height" in query or "large x-height" in query:
-        xheight = metrics.get("x_height_em")
-        if isinstance(xheight, (int, float)) and xheight >= 0.5:
-            add(3, "measured+heuristic", "Query preference: measured x-height is at least 0.5 em.")
-    return score, reasons
+    xheight = metrics.get("x_height_em")
+    size = brief.get("size")
+    if size is not None and size <= 16 and isinstance(xheight, (int, float)):
+        if .5 <= xheight <= .7:
+            add(2, "measured+context", "At the requested small size, x-height 0.50–0.70 em is a useful starting point; inspect counters and spacing in context.")
+        elif xheight < .42:
+            add(-2, "measured+context", "Small measured x-height may make this requested small size harder to use; inspect the composition.")
+    audience = _key(brief.get("audience"))
+    if re.search(r"\b(children|child|seniors|older|early readers)\b", audience) and isinstance(xheight, (int, float)) and .5 <= xheight <= .7:
+        add(1, "measured+context", "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility.")
+    advance = metrics.get("average_advance_em")
+    density = brief.get("density")
+    if density == "dense" and isinstance(advance, (int, float)) and 0 < advance <= .55:
+        add(2, "measured+context", "Sampled average advances support the requested dense layout; verify actual line breaks and readable spacing.")
+    if density == "comfortable" and isinstance(advance, (int, float)) and .5 <= advance <= .7:
+        add(1, "measured+context", "Moderate sampled advances are a starting point for the requested comfortable density.")
+    if metrics.get("digit_tabular_default") is True and (sum(c.isdigit() for c in brief.get("text", "")) >= 6 or re.search(r"\b(table|dashboard|data|numeric|schedule)\b", _key(brief.get("medium")))):
+        add(1, "measured+context", "Equal default digit advances support the numeric content or medium supplied.")
+    if brief.get("hierarchy") and family_styles["count"] >= 3:
+        add(1, "metadata+context", "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions.")
+
+    if visual is not None:
+        add(visual["score"], visual["basis"], "Content-based visual retrieval: " + (visual["description"] or "adapter similarity score"))
+    else:
+        for key, polarity in (("similar_to", 1), ("avoid_like", -1)):
+            if key not in references:
+                continue
+            similarity, fields = _similarity(font, references[key])
+            if similarity is not None:
+                add(round(5 * similarity * polarity, 4), "measured-similarity", f"{'Similarity to' if polarity > 0 else 'Avoidance of'} reference proportions across {', '.join(fields)}; this does not measure letterform personality.")
+    return round(score, 4), reasons
 
 
 def _compact(font, score, reasons, axes, styles, baseline=False):
@@ -267,7 +419,7 @@ def _compact(font, score, reasons, axes, styles, baseline=False):
         "style": _clean(font.get("style"), 60), "weight": font.get("weight"),
         "italic": bool(font.get("italic")), "category": font.get("category", "unknown"),
         "score": score, "score_meaning": "Heuristic preference points; not a quality or readability score.",
-        "reasons": reasons[:8], "required_axes": axes,
+        "reasons": sorted(reasons, key=lambda item: -abs(item["points"]))[:12], "required_axes": axes,
         "metrics": {k: (font.get("metrics") or {}).get(k) for k in metric_keys},
         "family_available_styles": styles,
         "rights": {"status": rights.get("status", "unknown"), "review_required": True},
@@ -295,7 +447,7 @@ def _distance(left, right):
                if a is not None and b is not None and a != b)
 
 
-def search(catalog, brief: dict) -> dict:
+def search(catalog, brief: dict, visual_index=None) -> dict:
     """Return at most 20 exact-face candidates, one per family plus baseline.
 
     ``catalog`` implements ``all()``; a list of font dicts is also accepted for
@@ -306,6 +458,8 @@ def search(catalog, brief: dict) -> dict:
     """
     role, limit, _ = _validate_brief(brief)
     originals = catalog if isinstance(catalog, list) else catalog.all()
+    if visual_index is not None and not isinstance(visual_index, dict):
+        raise ValueError("visual_index must map exact IDs to visual evidence objects")
     fonts = []
     for original in originals:
         font = dict(original)
@@ -320,6 +474,14 @@ def search(catalog, brief: dict) -> dict:
     for font in fonts:
         families[_family_key(font)].append(font)
         by_id[font["id"]] = font
+    references = {}
+    for field in ("similar_to", "avoid_like"):
+        if brief.get(field):
+            if brief[field] not in by_id:
+                raise ValueError(f"{field} ID is not in this catalog")
+            references[field] = by_id[brief[field]]
+    visual_records = {ident: record for ident, raw in (visual_index or {}).items()
+                      if ident in by_id and (record := _visual_record(raw)) is not None}
     family_styles = {key: _styles([font for font in items if font.get("render_probe") is not False])
                      for key, items in families.items()}
     # Newline, tab, and carriage return are layout controls, not font glyphs.
@@ -343,12 +505,8 @@ def search(catalog, brief: dict) -> dict:
             resolutions.append(dict(requested, id=ident, required_axes=applied))
         family_resolutions[family_key] = resolutions
     query = _key(brief.get("query"))
-    tokens = set(re.findall(r"[\w-]+", query))
-    query_terms = {token: _ALIASES[token] for token in sorted(tokens) if token in _ALIASES}
-    for phrase in ("high x-height", "large x-height"):
-        if phrase in query:
-            query_terms[phrase] = "measured:high-x-height"
-    modeled_words = {word for term in query_terms for word in term.split()}
+    interpretation = interpret_query(" ".join(brief.get(field, "") for field in ("query", "tone")))
+    query_terms = interpretation["positive"]
     eligible = []
     rejected = Counter()
     reject_by_id = {}
@@ -363,7 +521,7 @@ def search(catalog, brief: dict) -> dict:
             if font["id"] == existing_id:
                 reject_by_id[font["id"]] = failures
             continue
-        score, reasons = _rank(font, brief, role, styles, query_terms)
+        score, reasons = _rank(font, brief, role, styles, interpretation, references, visual_records.get(font["id"]))
         eligible.append((score, font, reasons, axes, styles))
     # Content digest breaks equal-score ties without familiarity/name favoritism.
     eligible.sort(key=lambda entry: (-entry[0], entry[1].get("canonical_hash") or entry[1]["id"], entry[1]["id"]))
@@ -383,27 +541,41 @@ def search(catalog, brief: dict) -> dict:
             selected.append(entry)
             seen_families.add(_shortlist_family(entry[1]))
             seen_content.add(entry[1].get("canonical_hash") or entry[1]["id"])
-    signatures = {entry[1]["id"]: _diversity_signature(entry[1]) for entry in eligible}
-    while len(selected) < limit:
-        best = None
-        best_key = None
-        for entry in eligible:
-            font = entry[1]
-            family = _shortlist_family(font)
-            content = font.get("canonical_hash") or font["id"]
-            if family in seen_families or content in seen_content:
-                continue
-            novelty = min((_distance(signatures[font["id"]], signatures[previous[1]["id"]])
-                           for previous in selected), default=0)
-            key = (entry[0], novelty)
-            # Equal evidence keeps the earlier content-hash ordering.
-            if best_key is None or key > best_key:
-                best, best_key = entry, key
-        if best is None:
+    # Pick the strongest exact face per family before pagination. This prevents
+    # another style of a seen family from filling every next page.
+    representatives = []
+    for entry in eligible:
+        family = _shortlist_family(entry[1])
+        content = entry[1].get("canonical_hash") or entry[1]["id"]
+        if family in seen_families or content in seen_content:
+            continue
+        representatives.append(entry)
+        seen_families.add(family)
+        seen_content.add(content)
+    offset = brief.get("offset", 0)
+    capacity = limit - len(selected)
+    wanted = min(len(representatives), offset + capacity)
+    # Greedy diversity only breaks equal score ties. Incremental minimum
+    # distances keep later pages bounded rather than recomputing all pairs.
+    signatures = [_diversity_signature(entry[1]) for entry in representatives]
+    baseline_signatures = [_diversity_signature(entry[1]) for entry in selected]
+    novelty = [min((_distance(sig, other) for other in baseline_signatures), default=0)
+               for sig in signatures]
+    used = set()
+    ordered = []
+    while len(ordered) < wanted:
+        remaining = [i for i in range(len(representatives)) if i not in used]
+        if not remaining:
             break
-        selected.append(best)
-        seen_families.add(_shortlist_family(best[1]))
-        seen_content.add(best[1].get("canonical_hash") or best[1]["id"])
+        best = max(remaining, key=lambda i: (representatives[i][0], novelty[i], -i))
+        used.add(best)
+        ordered.append(representatives[best])
+        for i in remaining:
+            if i == best:
+                continue
+            distance = _distance(signatures[i], signatures[best])
+            novelty[i] = min(novelty[i], distance) if baseline_signatures or len(ordered) > 1 else distance
+    selected.extend(ordered[offset:offset + capacity])
     candidates = [_compact(font, score, reasons, axes, styles, font["id"] == existing_id)
                   for score, font, reasons, axes, styles in selected]
     for candidate, entry in zip(candidates, selected):
@@ -413,6 +585,9 @@ def search(catalog, brief: dict) -> dict:
             failures, applied = _hard_constraints(entry[1], requested, codepoints, entry[4])
             resolutions.append(dict(requested, id=candidate['id'], required_axes=applied) if not failures else chosen)
         candidate['family_style_resolutions'] = resolutions
+        if candidate['id'] in visual_records:
+            candidate['visual_evidence'] = visual_records[candidate['id']]
+        candidate['evidence_gaps'] = (["visual_category_unknown"] if candidate['category'] == 'unknown' else []) + ([] if candidate['id'] in visual_records else ["no_visual_index_evidence"])
     alternatives = [
         {"option": "single_family", "advice": "Compare a single family's observed styles before adding a second typeface; additional fonts are not inherently an improvement."},
         {"option": "keep_existing", "advice": "Keeping the current typography is a valid outcome. Supply existing_id to include an exact catalog face as the comparison baseline."},
@@ -421,16 +596,34 @@ def search(catalog, brief: dict) -> dict:
         "schema_version": 1, "status": "candidates" if candidates else "no_matches",
         "role": role, "candidates": candidates, "baseline": baseline,
         "counts": {"catalog_faces": len(fonts), "eligible_faces": len(eligible),
-                   "returned_faces": len(candidates)},
+                   "returned_faces": len(candidates),
+                   "eligible_distinct_alternatives": len(representatives),
+                   "visual_scored_faces": sum(entry[1]["id"] in visual_records for entry in eligible)},
+        "pagination": {"offset": offset, "limit": limit,
+                       "next_offset": offset + max(0, len(candidates) - len(baseline_signatures)) if capacity and offset + capacity < len(representatives) else None,
+                       "has_more": offset + capacity < len(representatives),
+                       "meaning": "Offset counts distinct alternatives, excluding the reserved baseline. Keep the brief and catalog fixed between pages; changing either starts a new exploration."},
         "constraint_rejections": dict(sorted(rejected.items())),
         "query_interpretation": {
             "exact_name_match_count": sum(query in {_key(f.get('family')), _key(f.get('full_name')), _key(f.get('postscript_name'))} for f in fonts) if query else 0,
             "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
             "aliases": query_terms,
-            "unmodeled_terms": sorted(tokens - modeled_words)[:20],
+            "negated_aliases": interpretation["negative"],
+            "unmodeled_terms": sorted(set(interpretation["unmodeled_positive"] + interpretation["unmodeled_negative"]))[:20],
+            "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases. The active visual adapter may interpret their appearance; inspect its evidence and render finalists." if visual_records else "Terms not interpreted by deterministic aliases; only literal name matching can use them without a visual adapter.",
+            "negation_scope": "Negation extends across coordinated terms until punctuation or an explicit contrast such as but. Ambiguous prose should be rewritten or checked against these reported terms.",
+            "unmodeled_positive": interpretation["unmodeled_positive"][:20],
+            "unmodeled_negative": interpretation["unmodeled_negative"][:20],
+            "visual_scoring_active": bool(visual_records),
             "unrecognized_brief_fields": [_clean(field, 60) for field in sorted(set(brief) - _BRIEF_FIELDS)[:20]],
-            "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed.",
+            "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect.",
         },
+        "refinement": {"similar_to": brief.get("similar_to"), "avoid_like": brief.get("avoid_like"),
+                       "method": "Content-based visual evidence when supplied for a face; otherwise proximity in at least two measured proportions. Reference IDs remain eligible unless excluded."},
+        "context_interpretation": {"supplied_fields": [field for field in ("audience", "medium", "tone", "language", "hierarchy", "surroundings", "density", "size") if field in brief],
+                                   "measurement_rules": ["small-size lowercase proportions", "audience lowercase proportions", "density sampled advances", "numeric alignment", "observed hierarchy styles"],
+                                   "handoff_fields": [field for field in ("language", "surroundings") if field in brief],
+                                   "advice": "Use the actual language, size, text, hierarchy and surrounding design in a contextual composition. Context fields guide preferences; none proves aesthetic fit."},
         "constraints": {"coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
                         "text_codepoint_count": len(codepoints),
                         "text_supplied": bool(brief.get("text")),
@@ -438,7 +631,7 @@ def search(catalog, brief: dict) -> dict:
                         "open_evidence_requested": bool(brief.get("require_open_evidence"))},
         "alternatives": alternatives,
         "limitations": [
-            "Rankings are transparent starting preferences. No font was visually judged by this search.",
+            "Rankings combine explicitly labeled evidence. Visual adapter scores are interpretations, not quality or readability measurements; missing visual evidence remains eligible.",
             "Render the selected exact faces on project text at intended sizes. Coverage alone cannot establish legibility, shaping, personality, or good pairing.",
             "Metadata categories and family groupings may be imperfect. Available styles describe this collection, not a complete upstream family.",
             "Unknown rights remain unknown. Embedded open-license evidence is not legal clearance; review source and license evidence before distribution.",

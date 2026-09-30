@@ -1,5 +1,5 @@
 {
-  "schema": 1,
+  "schema": 2,
   "sources": [
     {
       "id": "bekah",
@@ -10,6 +10,998 @@
       "id": "extsalt",
       "url": "https://github.com/extsalt/10000-font-collection",
       "commit": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c"
+    },
+    {
+      "id": "google-curated-2026",
+      "url": "https://github.com/google/fonts",
+      "commit": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+      "acquisition": "github-subtree",
+      "selection": [
+        "ofl/atkinsonhyperlegible",
+        "ofl/atkinsonhyperlegiblenext",
+        "ofl/literata",
+        "ofl/sourceserif4",
+        "ofl/rajdhani",
+        "ofl/orbitron",
+        "ofl/fraunces",
+        "ofl/newsreader",
+        "ofl/alegreya",
+        "ofl/instrumentserif",
+        "ofl/dmserifdisplay",
+        "ofl/gabarito",
+        "ofl/bricolagegrotesque",
+        "ofl/splinesans",
+        "ofl/kalam",
+        "ofl/notosans",
+        "ofl/notoserif",
+        "ofl/notosansarabic",
+        "ofl/notonaskharabic",
+        "ofl/notosansdevanagari",
+        "ofl/notoserifdevanagari",
+        "ofl/notosansjp",
+        "ofl/notosanssc",
+        "ofl/notosanskr",
+        "ofl/notosansthai",
+        "ofl/notosansbengali",
+        "ofl/notosanshebrew",
+        "ofl/notosansarmenian",
+        "ofl/notosansgeorgian",
+        "ofl/notosansethiopic"
+      ],
+      "files": [
+        {
+          "path": "ofl/alegreya/Alegreya-Italic[wght].ttf",
+          "bytes": 425852,
+          "git_blob": "890f8f127bf3ea38676272dc589df02fd3072397",
+          "sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391"
+        },
+        {
+          "path": "ofl/alegreya/Alegreya[wght].ttf",
+          "bytes": 425288,
+          "git_blob": "af2b22024311daaa15ec4ab879bd67f790abb9f1",
+          "sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12"
+        },
+        {
+          "path": "ofl/alegreya/DESCRIPTION.en_us.html",
+          "bytes": 1537,
+          "git_blob": "4ad493a76ee28ec01f4028f057a11534d408ec17",
+          "sha256": "f6bf6130300818c10f6f89b50ed180e8feb401d97d343020bfc44dfe79f9df57"
+        },
+        {
+          "path": "ofl/alegreya/METADATA.pb",
+          "bytes": 1375,
+          "git_blob": "1e4c76a056e63c7dc1713b2dfe7f18f2dbb86f76",
+          "sha256": "9bff810f5954762cad87d175c60b4bd7a5dbd1c6deb2540c56dfaf1186d5f5fc"
+        },
+        {
+          "path": "ofl/alegreya/OFL.txt",
+          "bytes": 4395,
+          "git_blob": "1a25b6d8a7f84147962200321d2ffa75b960b9af",
+          "sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68"
+        },
+        {
+          "path": "ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Bold.ttf",
+          "bytes": 55256,
+          "git_blob": "ca3f613847de62b8da83d2dab500ec391c8fe477",
+          "sha256": "5a3b0c8cc8ca545155150b4512a1fa248298df121c50d6557e651e61fbdab92f"
+        },
+        {
+          "path": "ofl/atkinsonhyperlegible/AtkinsonHyperlegible-BoldItalic.ttf",
+          "bytes": 55288,
+          "git_blob": "2804fdb8f06c328afb96409d7498c6f5f287b79c",
+          "sha256": "7a46f1b0ef2f64b61065c1a6b5a11fcb9b019b44062d88ba121a083cc39e86bf"
+        },
+        {
+          "path": "ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Italic.ttf",
+          "bytes": 54892,
+          "git_blob": "9ee68183aed5bf84af3bd4eac52e3c723a02d5a5",
+          "sha256": "021beda4d3c6edfc78872e436d74009f9a1bcb294331908fe5747c61d3dcc514"
+        },
+        {
+          "path": "ofl/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf",
+          "bytes": 54348,
+          "git_blob": "b3cc4200fcf09d600eac74002ab4ea65b404a536",
+          "sha256": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669"
+        },
+        {
+          "path": "ofl/atkinsonhyperlegible/DESCRIPTION.en_us.html",
+          "bytes": 771,
+          "git_blob": "a83c349c9457dd2fd7e055b3d0c94ef269feb844",
+          "sha256": "fa794d475af203124db7f578acee9c1d7f49b4251ec623f433ab7e8b3001e19b"
+        },
+        {
+          "path": "ofl/atkinsonhyperlegible/METADATA.pb",
+          "bytes": 2242,
+          "git_blob": "7af5831b9c027bbe2a96e049ae3a24991156d1c8",
+          "sha256": "13d7f7361ca762420bc0b8a483fbcae6c94598b5a372aee4b8b6f4e382d3282f"
+        },
+        {
+          "path": "ofl/atkinsonhyperlegible/OFL.txt",
+          "bytes": 4352,
+          "git_blob": "2befc89b0ee81d5a37e6ca6503bb0db099feb70f",
+          "sha256": "f32d22b3908fcad2c86a74000614ec22e6a7f66ea7e867e616026a27aebdc143"
+        },
+        {
+          "path": "ofl/atkinsonhyperlegiblenext/AtkinsonHyperlegibleNext-Italic[wght].ttf",
+          "bytes": 123916,
+          "git_blob": "a21e13bcbacc0a33e536bc107973cc458e85ef54",
+          "sha256": "ce9cffed32742ad2d9238c561a93220385e5934cdc02b8eb4097a50efa957dc6"
+        },
+        {
+          "path": "ofl/atkinsonhyperlegiblenext/AtkinsonHyperlegibleNext[wght].ttf",
+          "bytes": 114552,
+          "git_blob": "92a357554bdcca62a7e80d5e3724bf4eb8932e5e",
+          "sha256": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745"
+        },
+        {
+          "path": "ofl/atkinsonhyperlegiblenext/METADATA.pb",
+          "bytes": 1639,
+          "git_blob": "46bf17848ee7f9a3f7aabe51cd10e8f47089c853",
+          "sha256": "9d0050e8a74b976099f69ba23a25063b60deeb91eae89388bb20dffb5b4a5669"
+        },
+        {
+          "path": "ofl/atkinsonhyperlegiblenext/OFL.txt",
+          "bytes": 4431,
+          "git_blob": "88955733b80000358ef3e5521f3369b276e066a9",
+          "sha256": "aca6a428580965d2297d1b718042dd427c2a9443ece3b0d02d758e161e0c4030"
+        },
+        {
+          "path": "ofl/bricolagegrotesque/BricolageGrotesque[opsz,wdth,wght].ttf",
+          "bytes": 408496,
+          "git_blob": "9a4ca271ff84357bb8f8830ce71b85ea3571f731",
+          "sha256": "413e7357809ddd12fd80a96a8a396de0e401638d4acd3cb3e37532f0472ac682"
+        },
+        {
+          "path": "ofl/bricolagegrotesque/DESCRIPTION.en_us.html",
+          "bytes": 1356,
+          "git_blob": "2b3e6f2139143f96783e6c1dff4dc4f89279cb70",
+          "sha256": "9159d6311bca068ffe70b9f1a7b33ebc3095a1086639175a478ff87dd510a261"
+        },
+        {
+          "path": "ofl/bricolagegrotesque/METADATA.pb",
+          "bytes": 1211,
+          "git_blob": "01df1af60a926bed7cfd9ca4f12de889325be37c",
+          "sha256": "b15e69738219507699f04337a3d6e8f2a22cfac5a81d0a6106c343355cca456c"
+        },
+        {
+          "path": "ofl/bricolagegrotesque/OFL.txt",
+          "bytes": 4403,
+          "git_blob": "a397658a5c4ab27c349964553b7caca61a4346f6",
+          "sha256": "4b5a7d8f37f5602621c8a8d7358a6a2e71317e6c231c661e15aef0275d3e07ba"
+        },
+        {
+          "path": "ofl/dmserifdisplay/DESCRIPTION.en_us.html",
+          "bytes": 746,
+          "git_blob": "a4d747d5958d877b3a9cb8f7b80948659aa089c8",
+          "sha256": "aadb6f6946d13b1fb543db910a3f889ce1ae448b78ed0a4887951c5c316628ce"
+        },
+        {
+          "path": "ofl/dmserifdisplay/DMSerifDisplay-Italic.ttf",
+          "bytes": 71208,
+          "git_blob": "5369414a2df59bf462a88aa0f04a81ff18f1eb80",
+          "sha256": "df74c0ac387baeaeb0fe4f2324e1668e6a3ed8c09cd9796fe162c71753e19e45"
+        },
+        {
+          "path": "ofl/dmserifdisplay/DMSerifDisplay-Regular.ttf",
+          "bytes": 76580,
+          "git_blob": "bc5ed0cea657f264ea9c2a11a54da62ed619c5da",
+          "sha256": "8cc3643535edf039aa5d95440a8542735e9197e4f4b8d9303e980fefbf5ab616"
+        },
+        {
+          "path": "ofl/dmserifdisplay/METADATA.pb",
+          "bytes": 1024,
+          "git_blob": "5e0109802b01faecdb51cece01cf1477e31fde23",
+          "sha256": "3014380ddec81e774af2ab07a903542367573ce4e4d19ca8c01b928e970c1268"
+        },
+        {
+          "path": "ofl/dmserifdisplay/OFL.txt",
+          "bytes": 4605,
+          "git_blob": "be384f0ec9b54c6fed236106d3f6dfa029780b1b",
+          "sha256": "a3e5cdd67d4571dd0a24fcc968de0efde7ae97ef752daf0906e4767619dd7231"
+        },
+        {
+          "path": "ofl/fraunces/DESCRIPTION.en_us.html",
+          "bytes": 1117,
+          "git_blob": "fc52b32ecfff6d791d412281d0bcb497f655ec30",
+          "sha256": "e6760d82bc65846d0e0f9e150d9f2de77c0cbf35885b59281aaaa53da0370ed9"
+        },
+        {
+          "path": "ofl/fraunces/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf",
+          "bytes": 414904,
+          "git_blob": "2ddf59a11b89a3d6b2816ea6ae7965026c08143a",
+          "sha256": "b24448c43702fac4ee856781d461a0dfba8d8e594b6e8e190234b75fed2c0e01"
+        },
+        {
+          "path": "ofl/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf",
+          "bytes": 360440,
+          "git_blob": "8210f9488d3c732359a9292dd09aca3f2bae830e",
+          "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+        },
+        {
+          "path": "ofl/fraunces/METADATA.pb",
+          "bytes": 1197,
+          "git_blob": "3bbdb646ce7ae89e2b4c5593c313b4f139a59940",
+          "sha256": "812aeaea90af8021a306b8fbb5490e0a861c27a5291d2253b403d9fc9f37afd5"
+        },
+        {
+          "path": "ofl/fraunces/OFL.txt",
+          "bytes": 4391,
+          "git_blob": "22fa7ce5733434d0c634f6e55116f410858e938c",
+          "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+        },
+        {
+          "path": "ofl/gabarito/DESCRIPTION.en_us.html",
+          "bytes": 0,
+          "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "ofl/gabarito/Gabarito[wght].ttf",
+          "bytes": 158144,
+          "git_blob": "f048f3b6527b2aff1adb92bd682acb1d8adcdc9c",
+          "sha256": "8650e2bd7747f7d74619fd7aecbcb0309e6f37b7964024f3fb15ae4833b67ca5"
+        },
+        {
+          "path": "ofl/gabarito/METADATA.pb",
+          "bytes": 903,
+          "git_blob": "02d2701f3ddc84152eaf31cd7bd3f7fe055f024b",
+          "sha256": "5caad5d75fe8df87c85da128882e3e2092ca70629834c720da2c345e0d9ad5af"
+        },
+        {
+          "path": "ofl/gabarito/OFL.txt",
+          "bytes": 4391,
+          "git_blob": "b3fef63ddc518006d477f3ad102eb0c8fec09bb2",
+          "sha256": "21506cc7106bbfd4aa1c40371f33f9f4296182a8e4bb46658e99af24feb4bfca"
+        },
+        {
+          "path": "ofl/instrumentserif/DESCRIPTION.en_us.html",
+          "bytes": 402,
+          "git_blob": "d226b980fba1771249ae2ca38191383b7fdee71b",
+          "sha256": "0ff61cf264f1244c514beca3ae69cac4eaaf4e1092f65755d25ee1a08fc9c3a5"
+        },
+        {
+          "path": "ofl/instrumentserif/InstrumentSerif-Italic.ttf",
+          "bytes": 71592,
+          "git_blob": "192c3eda9864241ad280e9bcc84e258c80a4a588",
+          "sha256": "08939b8bdf534afec24ae0ef5e03f948940cd9a8fe08e7fecbad040e62327385"
+        },
+        {
+          "path": "ofl/instrumentserif/InstrumentSerif-Regular.ttf",
+          "bytes": 70012,
+          "git_blob": "36fac00ef9b7d523236df6536cb09c712bb2c7e4",
+          "sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88"
+        },
+        {
+          "path": "ofl/instrumentserif/METADATA.pb",
+          "bytes": 1287,
+          "git_blob": "22619007900d69b3d136ca68ecc08ec56c6ac4d5",
+          "sha256": "9a650bee57af3478f9294c8765292dcea36322082b987b857e29a2ea64861f6a"
+        },
+        {
+          "path": "ofl/instrumentserif/OFL.txt",
+          "bytes": 4405,
+          "git_blob": "669ce7917bec662fcf7244d37f49c4277f6fbd73",
+          "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521"
+        },
+        {
+          "path": "ofl/kalam/DESCRIPTION.en_us.html",
+          "bytes": 1768,
+          "git_blob": "8613b09942dbbfe3e4a58e3e71bc60d3ba8d6b48",
+          "sha256": "2bb47fcbefbdc559d62de69d1b639143dfd198b22f6eb37773a12646d4b6e405"
+        },
+        {
+          "path": "ofl/kalam/Kalam-Bold.ttf",
+          "bytes": 460896,
+          "git_blob": "321272d977887fefb4911789a2691d3131d1bcf0",
+          "sha256": "2f6576601db015d4f6c08678120277fc8510b98c06e932ce7a6a9cbff4cbdded"
+        },
+        {
+          "path": "ofl/kalam/Kalam-Light.ttf",
+          "bytes": 437512,
+          "git_blob": "cc5fd24ae151bda2cdb8b47477435e5b4a0762fd",
+          "sha256": "2b8f2c0208d397a1823688783da3317d6af18ea007a9a1b56ddb17e27820507e"
+        },
+        {
+          "path": "ofl/kalam/Kalam-Regular.ttf",
+          "bytes": 427360,
+          "git_blob": "0c956a29348e69bff24a1ae8952fd0b42569311c",
+          "sha256": "57cecb63d4608019371954274ae1d8c397764debd5b19d4a33c1efa4dc923c0b"
+        },
+        {
+          "path": "ofl/kalam/METADATA.pb",
+          "bytes": 1019,
+          "git_blob": "ff769f315c0371f50c769047bfac50c69215c148",
+          "sha256": "03f29affead9650d1e0ec0ab6e4f8c18cc202619fbf95da3883fd015279b2806"
+        },
+        {
+          "path": "ofl/kalam/OFL.txt",
+          "bytes": 4373,
+          "git_blob": "6dd809659a8ccace7ccee108d024d33cd4f936da",
+          "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f"
+        },
+        {
+          "path": "ofl/literata/DESCRIPTION.en_us.html",
+          "bytes": 1158,
+          "git_blob": "6275e723e8c0999da8209e5365fe19c4b8ed6112",
+          "sha256": "3cb6dc9c817c15ee4c3fe546664d5f567accd88120b20254efff7d3cbd7f68ee"
+        },
+        {
+          "path": "ofl/literata/Literata-Italic[opsz,wght].ttf",
+          "bytes": 902728,
+          "git_blob": "8690209cd1bb4d9be1c1a0e976ee2f740c94093b",
+          "sha256": "d483dfaeba9cbf4ce71d32a52ee65df82f7e35b15fff8d1011cdb242d1fcd465"
+        },
+        {
+          "path": "ofl/literata/Literata[opsz,wght].ttf",
+          "bytes": 955132,
+          "git_blob": "0a81b4984a4a4eb101e0ddc28babc85bb137efef",
+          "sha256": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440"
+        },
+        {
+          "path": "ofl/literata/METADATA.pb",
+          "bytes": 1408,
+          "git_blob": "66ac59e0dc32de37c917cbd0bfb085f8349da472",
+          "sha256": "8dbc5c48f254be32c879f006391cb5f6781941beb1a643c13acf66fa989b6a83"
+        },
+        {
+          "path": "ofl/literata/OFL.txt",
+          "bytes": 4389,
+          "git_blob": "9d3b4e3b1e9068fbda799f57833ff831d05cc271",
+          "sha256": "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e"
+        },
+        {
+          "path": "ofl/newsreader/DESCRIPTION.en_us.html",
+          "bytes": 284,
+          "git_blob": "f1afea434ba675c9b006664fb58aaf1f1d0cd077",
+          "sha256": "449e463cd1226ac86945b4f1a39de53120c0ccaf7dd357869d22332011fc2087"
+        },
+        {
+          "path": "ofl/newsreader/METADATA.pb",
+          "bytes": 7076,
+          "git_blob": "4b527fcbf6751626bc42e850e924981eb749615a",
+          "sha256": "dc0bcb264c09d663c9a4f559e4f5392fd7d9f62139ad9cbba39253ec43aa315b"
+        },
+        {
+          "path": "ofl/newsreader/Newsreader-Italic[opsz,wght].ttf",
+          "bytes": 495684,
+          "git_blob": "d25879656a601d44c49836f9e773d100190c62e1",
+          "sha256": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792"
+        },
+        {
+          "path": "ofl/newsreader/Newsreader[opsz,wght].ttf",
+          "bytes": 451664,
+          "git_blob": "ad4a9a8c44ec328c80b61c773f1ba02f6b5ed292",
+          "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1"
+        },
+        {
+          "path": "ofl/newsreader/OFL.txt",
+          "bytes": 4394,
+          "git_blob": "d2d4f407109e9c74b8ab502fc79b912408ab8e41",
+          "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+        },
+        {
+          "path": "ofl/notonaskharabic/DESCRIPTION.en_us.html",
+          "bytes": 305,
+          "git_blob": "6876f6345708b3f98522b8e9fe20007c490aa59a",
+          "sha256": "72b4a09327be0a37dfeba70446b80d80c9866c235febccc248259250843d55a6"
+        },
+        {
+          "path": "ofl/notonaskharabic/METADATA.pb",
+          "bytes": 4340,
+          "git_blob": "37dc7d09fcbf15c9f92f70bb6296b13c4ef27452",
+          "sha256": "764bf357c5009432b715b931271f59ae0f7588c99ff2537bfc0c7dbe56b3b1bb"
+        },
+        {
+          "path": "ofl/notonaskharabic/NotoNaskhArabic[wght].ttf",
+          "bytes": 307592,
+          "git_blob": "a8d2867262dc7bb28492ad746de5d56235735c8b",
+          "sha256": "67b5a525a661b607971fbd3f96a81b89d3a768e74534fca84f18ac97e6fab72f"
+        },
+        {
+          "path": "ofl/notonaskharabic/OFL.txt",
+          "bytes": 4382,
+          "git_blob": "d4e170557fc8bcf8d1dcb317d9f1accaf8acf223",
+          "sha256": "a7a5a25eb188bf1cd96982030d53e23c33485c69b1044a562254226857ee13af"
+        },
+        {
+          "path": "ofl/notosans/DESCRIPTION.en_us.html",
+          "bytes": 532,
+          "git_blob": "c66d77c92819176bfff260103b1ad733e28d7647",
+          "sha256": "027b003c180d1cdcec3bc4a9ceeb3fc9c2d807818f3f5d24d4d4108eef41ad88"
+        },
+        {
+          "path": "ofl/notosans/METADATA.pb",
+          "bytes": 32340,
+          "git_blob": "87f93924f3fa3dbdfd2a5e38329d409159fa5126",
+          "sha256": "9fd9566184e9833ae3a33b8950e2782a8abb1f0a9d6fb2c51b3fb615f2d78cfe"
+        },
+        {
+          "path": "ofl/notosans/NotoSans-Italic[wdth,wght].ttf",
+          "bytes": 2322640,
+          "git_blob": "429692da4c3f2751f50bdfab7d0fdb3639717524",
+          "sha256": "58e6e0ebd1931b29a365aa2d3e2ee9a9e831a3af7cf3ad1462d4e72154f0b291"
+        },
+        {
+          "path": "ofl/notosans/NotoSans[wdth,wght].ttf",
+          "bytes": 2049096,
+          "git_blob": "75575046c015ff623a848096a15779867ba71453",
+          "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d"
+        },
+        {
+          "path": "ofl/notosans/OFL.txt",
+          "bytes": 4396,
+          "git_blob": "6843f31878c9945e1e71e1baa275546b4eefead8",
+          "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+        },
+        {
+          "path": "ofl/notosansarabic/DESCRIPTION.en_us.html",
+          "bytes": 270,
+          "git_blob": "2478c286d864f418f6fc54de22ee006f24ad8b20",
+          "sha256": "a80577db5136a932cf59f2a27e9d23ffb736d4be7730c22d23a15e3daf3d9d7b"
+        },
+        {
+          "path": "ofl/notosansarabic/METADATA.pb",
+          "bytes": 4424,
+          "git_blob": "9783ab4a128b7c80f52a2c0a4a6a0c014ff4cd93",
+          "sha256": "514bf8961fb28742be1947e6627d6c46f5a5bf3c6d7136548b16e9a8885991b9"
+        },
+        {
+          "path": "ofl/notosansarabic/NotoSansArabic[wdth,wght].ttf",
+          "bytes": 844676,
+          "git_blob": "f1d01edce4ebaedcbe9a06fc75fec07b304ec3df",
+          "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e"
+        },
+        {
+          "path": "ofl/notosansarabic/OFL.txt",
+          "bytes": 4382,
+          "git_blob": "14c589f6384505ede3f8e52627d397513af3662d",
+          "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96"
+        },
+        {
+          "path": "ofl/notosansarmenian/DESCRIPTION.en_us.html",
+          "bytes": 266,
+          "git_blob": "5b88f62991bf9732bce3efaa38ded919bd30b80c",
+          "sha256": "3bf2f0f5ba24bafae6c59c4ecd9537548ce1b07345cd345fd870b3f27c430b74"
+        },
+        {
+          "path": "ofl/notosansarmenian/METADATA.pb",
+          "bytes": 1452,
+          "git_blob": "776ab65313eb8a85da1123185ac81a4dbafa8a76",
+          "sha256": "60fcbbe4d3fb8a93f3697cfb0d6ec51d73c343d17f758d78d44ff5c611a5862e"
+        },
+        {
+          "path": "ofl/notosansarmenian/NotoSansArmenian[wdth,wght].ttf",
+          "bytes": 221936,
+          "git_blob": "b36ecaf73f746d66f3ac3e4acb029a5784efdf55",
+          "sha256": "0870908d8318435a5daf1cd280ae15063f990cd9ad60f3e94c734ce9e1ffef71"
+        },
+        {
+          "path": "ofl/notosansarmenian/OFL.txt",
+          "bytes": 4384,
+          "git_blob": "ff91c77a6d7c685ae633cca02b2092c452a9baf0",
+          "sha256": "0468358b316f69f405b55cadf8a8314e16e3610b8feaad96772bd5d968112d02"
+        },
+        {
+          "path": "ofl/notosansbengali/DESCRIPTION.en_us.html",
+          "bytes": 270,
+          "git_blob": "0ee0322bbdff782e12d2cd3c2e9a48c09d3b4b2c",
+          "sha256": "79adf8a662ffac59fafcc1f2ab27fc07d323da845dbd897922b896e93bdbd376"
+        },
+        {
+          "path": "ofl/notosansbengali/METADATA.pb",
+          "bytes": 1778,
+          "git_blob": "978d20b731b8de5887ef1f0ab12daf8aa57c6f37",
+          "sha256": "4f61246bf1c5a36c89532271bd1283ecf4b26967dcf29ce87815e617b6d5d571"
+        },
+        {
+          "path": "ofl/notosansbengali/NotoSansBengali[wdth,wght].ttf",
+          "bytes": 463668,
+          "git_blob": "25e13e26dc15c4933f8fe49c9efcda54152349db",
+          "sha256": "dcd42978094e584a849c84a51450eeac40c8826057d566ea6d4b9627a403a05a"
+        },
+        {
+          "path": "ofl/notosansbengali/OFL.txt",
+          "bytes": 4383,
+          "git_blob": "d11cac69316ec3d80e5aff86e4a2dba4114cca2b",
+          "sha256": "754f0e221aa7d5a915489f3bf1f20fe53ddc35ab2834a4d91656d78f9622de70"
+        },
+        {
+          "path": "ofl/notosansdevanagari/DESCRIPTION.en_us.html",
+          "bytes": 232,
+          "git_blob": "a5ffc033215499c2146d3f5dc4b64710cd16b39b",
+          "sha256": "3c323ca49d4b3329905e96da590d6c27d20a7b5ce36011f53c6abf20a52587a5"
+        },
+        {
+          "path": "ofl/notosansdevanagari/METADATA.pb",
+          "bytes": 4273,
+          "git_blob": "65e5091693cdf0ded2262cc8c80ba61348d0c691",
+          "sha256": "270c852f690d505bf6b503304ab97ef7aee4d9b86b87847a25c303f1e821a3d5"
+        },
+        {
+          "path": "ofl/notosansdevanagari/NotoSansDevanagari[wdth,wght].ttf",
+          "bytes": 641944,
+          "git_blob": "163f04bddc5a96fc523e4080466cac5c588f6594",
+          "sha256": "14ec4af41f27482216d1c2229f417ff9b1425e1babb014e57d1d40d03229853e"
+        },
+        {
+          "path": "ofl/notosansdevanagari/OFL.txt",
+          "bytes": 4386,
+          "git_blob": "cd2cc5c94b4151933eba6ee508e3975274d6fa07",
+          "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331"
+        },
+        {
+          "path": "ofl/notosansethiopic/DESCRIPTION.en_us.html",
+          "bytes": 265,
+          "git_blob": "993d646964ddf599ad4b867bd81339a2a94cf68d",
+          "sha256": "32ce3f7c4f101361faddf61d3ab3cb327ae5d77b088b19121ba9822d01ee416b"
+        },
+        {
+          "path": "ofl/notosansethiopic/METADATA.pb",
+          "bytes": 1601,
+          "git_blob": "59a2a879d95ba3f823aaae0d588bc167147bb852",
+          "sha256": "01b49b10d29f7446d44a221f884b237552732857964e50ae1f68935345caafaf"
+        },
+        {
+          "path": "ofl/notosansethiopic/NotoSansEthiopic[wdth,wght].ttf",
+          "bytes": 1143168,
+          "git_blob": "0910ed80aac7398582c515225304623a60d6f35a",
+          "sha256": "0dbccc00b22d180ebd6a4bd8a733918a29e709fa6798023adc3e6cd40da65077"
+        },
+        {
+          "path": "ofl/notosansethiopic/OFL.txt",
+          "bytes": 4384,
+          "git_blob": "23e1a135d51a4bfba0ef048fba7f3bce61465475",
+          "sha256": "72606b23f312cb25973958f2892d4d2c2012deabadbf0f763232624a9649fc69"
+        },
+        {
+          "path": "ofl/notosansgeorgian/DESCRIPTION.en_us.html",
+          "bytes": 266,
+          "git_blob": "32b79c956db1d3bbbc2eec52b8a44993a4ba4031",
+          "sha256": "13c0a9f55291d40e78cc1215f0e4fc58b8689917f351182fd60905aa2c379f89"
+        },
+        {
+          "path": "ofl/notosansgeorgian/METADATA.pb",
+          "bytes": 1545,
+          "git_blob": "6abf67b3ed2566bcb7d4da781b931c5ed48f23d8",
+          "sha256": "bb2e675b25b0b6ce4538da4587ffba030b3f86c67d17cb64e39a5ad3579f6e9e"
+        },
+        {
+          "path": "ofl/notosansgeorgian/NotoSansGeorgian[wdth,wght].ttf",
+          "bytes": 231988,
+          "git_blob": "2b52bdf12ef35bfe9a18cad49d4e1303d9474e52",
+          "sha256": "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9"
+        },
+        {
+          "path": "ofl/notosansgeorgian/OFL.txt",
+          "bytes": 4384,
+          "git_blob": "437070a9ee723a4018777b51bd7e4a6830b36502",
+          "sha256": "8c02263c5d73d40544f9ed91e30c4e947407057a3cc430d7b786189aeceff6df"
+        },
+        {
+          "path": "ofl/notosanshebrew/DESCRIPTION.en_us.html",
+          "bytes": 268,
+          "git_blob": "1d899c55e6f8995594447934fa74119606220d64",
+          "sha256": "ee59f3dd4d43ac2a975f82d13838a21ca9ff3471ffba7d95ef4e9f4b958c1f76"
+        },
+        {
+          "path": "ofl/notosanshebrew/METADATA.pb",
+          "bytes": 1443,
+          "git_blob": "bdbc08a779057af4930ea30d24619910c6bf6e88",
+          "sha256": "14715b15694dcfaa11d8be07fbd6fe08724813f81ca26205e17e172f2031ab34"
+        },
+        {
+          "path": "ofl/notosanshebrew/NotoSansHebrew[wdth,wght].ttf",
+          "bytes": 112640,
+          "git_blob": "f31f73b8be8086692ff0156544f80975640e5a42",
+          "sha256": "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88"
+        },
+        {
+          "path": "ofl/notosanshebrew/OFL.txt",
+          "bytes": 4382,
+          "git_blob": "56662b6243717dbe8acee6d87c3f0e795f9c4295",
+          "sha256": "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47"
+        },
+        {
+          "path": "ofl/notosansjp/DESCRIPTION.en_us.html",
+          "bytes": 390,
+          "git_blob": "9b6f1521667c92b79750b96fa70807df3041b295",
+          "sha256": "3da090d026ef9e0a8f530f098836f95609d4696ff95137d506560ac631eb1196"
+        },
+        {
+          "path": "ofl/notosansjp/METADATA.pb",
+          "bytes": 983,
+          "git_blob": "f34cf447dd213822c446e07d70f2039bcd54a298",
+          "sha256": "5aa23f70fba3eb1afa6d92cb89de3b5c4690018caddbdded678b5e595e56825b"
+        },
+        {
+          "path": "ofl/notosansjp/NotoSansJP[wght].ttf",
+          "bytes": 9589900,
+          "git_blob": "cdd8f083c1f5928ff3361f8cda4d3fc9462cbe89",
+          "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f"
+        },
+        {
+          "path": "ofl/notosansjp/OFL.txt",
+          "bytes": 4388,
+          "git_blob": "1c9f43281b8f216c5461fe9ac729afbade7724e4",
+          "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+        },
+        {
+          "path": "ofl/notosanskr/DESCRIPTION.en_us.html",
+          "bytes": 360,
+          "git_blob": "edc093be70f9f498a18b500ce465585724a074ae",
+          "sha256": "1529133d0f8187d2906b62089737b0e4a062598537eb13bbefed9e168731884f"
+        },
+        {
+          "path": "ofl/notosanskr/METADATA.pb",
+          "bytes": 767,
+          "git_blob": "d253d94d1b21097f0e4be87882fc299726c05051",
+          "sha256": "9b8b27c0dd1adbb0057d1fbe9534207ab3606114ace6755453d14668912471a1"
+        },
+        {
+          "path": "ofl/notosanskr/NotoSansKR[wght].ttf",
+          "bytes": 10414588,
+          "git_blob": "b386890ba945e1f39448a6b59f20c5d194f58808",
+          "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252"
+        },
+        {
+          "path": "ofl/notosanskr/OFL.txt",
+          "bytes": 4388,
+          "git_blob": "1c9f43281b8f216c5461fe9ac729afbade7724e4",
+          "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+        },
+        {
+          "path": "ofl/notosanssc/DESCRIPTION.en_us.html",
+          "bytes": 378,
+          "git_blob": "4497d17be9b43cf061aa6f562fd0a1d85627ea1c",
+          "sha256": "05ef1b6673b1ec826b56691be57bd5b189e96d014e32134c3c5dddd819396142"
+        },
+        {
+          "path": "ofl/notosanssc/METADATA.pb",
+          "bytes": 1296,
+          "git_blob": "2da7e54d742a000810c6ec99ffae919158d9d4d6",
+          "sha256": "c6c4bdb785793b2de1da177caeeffcd0c90d7680bdab2de8f88ab45007bc59bc"
+        },
+        {
+          "path": "ofl/notosanssc/NotoSansSC[wght].ttf",
+          "bytes": 17772300,
+          "git_blob": "fb0637bafbcd804fe32152370a1225990745b4bc",
+          "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+        },
+        {
+          "path": "ofl/notosanssc/OFL.txt",
+          "bytes": 4388,
+          "git_blob": "1c9f43281b8f216c5461fe9ac729afbade7724e4",
+          "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+        },
+        {
+          "path": "ofl/notosansthai/DESCRIPTION.en_us.html",
+          "bytes": 352,
+          "git_blob": "63dacbbd9a4adb3c0fbfa707b423feee2699c69c",
+          "sha256": "f019261096f24a4f4d5f9b776e54db234059a1ed9d80e5145fcfb320e58e082e"
+        },
+        {
+          "path": "ofl/notosansthai/METADATA.pb",
+          "bytes": 1598,
+          "git_blob": "0a0d3a14559c095e2451e63e77b0230301bdb8f1",
+          "sha256": "0e1fe87b021b33449363fef2d489f9f0b65f23baf1f0c15dcf181090551ae4ac"
+        },
+        {
+          "path": "ofl/notosansthai/NotoSansThai[wdth,wght].ttf",
+          "bytes": 218652,
+          "git_blob": "34b48ab6f74867dbfce19410a2f452abef34e3ff",
+          "sha256": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8"
+        },
+        {
+          "path": "ofl/notosansthai/OFL.txt",
+          "bytes": 4380,
+          "git_blob": "7fa8dcb08ce4d2667b683ac4a8e79166e44e5277",
+          "sha256": "2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0"
+        },
+        {
+          "path": "ofl/notoserif/DESCRIPTION.en_us.html",
+          "bytes": 371,
+          "git_blob": "3455336ebb89c96c138a858760a65030f60ca739",
+          "sha256": "47c0d876aff1aae6bdd6d2320b7f4a3179b23ff11d6f2ebd56a7739ce373e9fa"
+        },
+        {
+          "path": "ofl/notoserif/METADATA.pb",
+          "bytes": 29397,
+          "git_blob": "5e878ae462bf8dca275c79b27ed821bef65f32a4",
+          "sha256": "659cf6a2475eabfa3e3bbb92e3ed15c604e6fb035b3b1057d469cc88e67357bb"
+        },
+        {
+          "path": "ofl/notoserif/NotoSerif-Italic[wdth,wght].ttf",
+          "bytes": 2448496,
+          "git_blob": "0e60f3e9248b524e6c9a28d38fbfc147463b1f5a",
+          "sha256": "e87acbc6c0efd0d9a20d6a8cbbda2b266c14be3a3a6f5af8ec9d7b2460570ad1"
+        },
+        {
+          "path": "ofl/notoserif/NotoSerif[wdth,wght].ttf",
+          "bytes": 1887192,
+          "git_blob": "7664d59c95d6c589f7b15017a218f7a42b93f86d",
+          "sha256": "4d8e6761424656867019081a1a01336f3cb086982682698714054fc33f782713"
+        },
+        {
+          "path": "ofl/notoserif/OFL.txt",
+          "bytes": 4396,
+          "git_blob": "6843f31878c9945e1e71e1baa275546b4eefead8",
+          "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+        },
+        {
+          "path": "ofl/notoserifdevanagari/DESCRIPTION.en_us.html",
+          "bytes": 262,
+          "git_blob": "b7ec91aad5fc7a0b67f90790af188d6d9dc71427",
+          "sha256": "0188d5d00429900fd38bd24b7f33f8d6aa2ad4d5712813ba240d109b7b644071"
+        },
+        {
+          "path": "ofl/notoserifdevanagari/METADATA.pb",
+          "bytes": 4252,
+          "git_blob": "3c954809c7fe10e74da05b9a200f03fcf3babf58",
+          "sha256": "856f397e3a689af1374f22d2bb34a3a39bd957e800400e057ed77223a1f87b80"
+        },
+        {
+          "path": "ofl/notoserifdevanagari/NotoSerifDevanagari[wdth,wght].ttf",
+          "bytes": 757692,
+          "git_blob": "3d90da279fe70b5017d9b51f58772f0c9ea4146e",
+          "sha256": "1191e07bfeb062d80e252eb85b0eafdfbda1e350707a2a60628668e8f677dbbb"
+        },
+        {
+          "path": "ofl/notoserifdevanagari/OFL.txt",
+          "bytes": 4386,
+          "git_blob": "cd2cc5c94b4151933eba6ee508e3975274d6fa07",
+          "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331"
+        },
+        {
+          "path": "ofl/orbitron/DESCRIPTION.en_us.html",
+          "bytes": 1114,
+          "git_blob": "b30a40305f492c1952344ccc2ad0c63c9d3f9e52",
+          "sha256": "cc54854cf017858f9124fa63fbfa606323ea3350c2d3b92f1cd7d012c9648f4c"
+        },
+        {
+          "path": "ofl/orbitron/METADATA.pb",
+          "bytes": 679,
+          "git_blob": "bc491e70186b9c36a081c6bb25b95b10d6b4f9ad",
+          "sha256": "6e897c83b8fcdeccb78accb132efd7b279267b684484aa0735b78aba711d0b36"
+        },
+        {
+          "path": "ofl/orbitron/OFL.txt",
+          "bytes": 4426,
+          "git_blob": "91ede459e18c22d3f2ba7c27d925b49cc945abe4",
+          "sha256": "ab609b0e110d622435ff337cdf233288556e011bbf9bd0550be98846c0630819"
+        },
+        {
+          "path": "ofl/orbitron/Orbitron[wght].ttf",
+          "bytes": 38576,
+          "git_blob": "1fc54ce7116a6ec549f37358466bcc92f9a72c33",
+          "sha256": "f42db2dd16e642258e35782916eceb1dcdbea06fb958d77ad71dc5963587e8fd"
+        },
+        {
+          "path": "ofl/rajdhani/DESCRIPTION.en_us.html",
+          "bytes": 738,
+          "git_blob": "0dcfff18f7e1a0bbdfb6194b7cc44e4605b4f242",
+          "sha256": "d53953662f0045ecd6c6f0b39f46948feaa07c02b514b246c79606227f7581e6"
+        },
+        {
+          "path": "ofl/rajdhani/METADATA.pb",
+          "bytes": 1568,
+          "git_blob": "47893eef5da7e7a7c00f4762dc44ae1eee7a6fc0",
+          "sha256": "1b8e7333c6bd3449be6d576f7a2a4c06087c94591860cc470e95f0812ba847ed"
+        },
+        {
+          "path": "ofl/rajdhani/OFL.txt",
+          "bytes": 4373,
+          "git_blob": "6dd809659a8ccace7ccee108d024d33cd4f936da",
+          "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f"
+        },
+        {
+          "path": "ofl/rajdhani/Rajdhani-Bold.ttf",
+          "bytes": 400680,
+          "git_blob": "47af15713b45605a5d98241b8211a3409f522b34",
+          "sha256": "691470dd3286a14e9677940d0bf75796179841ba5215cbda1a2c8910a3226afd"
+        },
+        {
+          "path": "ofl/rajdhani/Rajdhani-Light.ttf",
+          "bytes": 383928,
+          "git_blob": "1015ce5f4627bba57efe786eedd56f2f572d5fec",
+          "sha256": "140e9f13af69538161c5780fcf7f81594c069aea887e7bffd417ae1c641213c3"
+        },
+        {
+          "path": "ofl/rajdhani/Rajdhani-Medium.ttf",
+          "bytes": 384348,
+          "git_blob": "a6960c6d7f50f57de0bb117158626f3c31edad9a",
+          "sha256": "12ff7dcfe4c206e3875ac53b1762eab57de6a2fa7f5a86c26b97b88d6591eac2"
+        },
+        {
+          "path": "ofl/rajdhani/Rajdhani-Regular.ttf",
+          "bytes": 377860,
+          "git_blob": "d25bd37233b672ef565e01d998a9412d761d7b00",
+          "sha256": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98"
+        },
+        {
+          "path": "ofl/rajdhani/Rajdhani-SemiBold.ttf",
+          "bytes": 390340,
+          "git_blob": "d43750bd05c130d36c8e7fbeb06ecd7c5d3c3b17",
+          "sha256": "94bbd25a18ca665999feb05a537de9fd2b860dcfb78bbe9ca00270825bf235da"
+        },
+        {
+          "path": "ofl/sourceserif4/DESCRIPTION.en_us.html",
+          "bytes": 1670,
+          "git_blob": "44eed2eefb388a6aa3aeefa23dc84a3305d0c1bc",
+          "sha256": "5c8231a66e006c73ed280c8066bc4fea4601e9c40bf84e6171de945ed3cfc291"
+        },
+        {
+          "path": "ofl/sourceserif4/METADATA.pb",
+          "bytes": 1132,
+          "git_blob": "d11fa635f826bd90df219bf574e0fe83fff531a6",
+          "sha256": "f7b88902c1d2f41839a3f7bf6723d1e64044c7c183b82871ce770a95f24b84e3"
+        },
+        {
+          "path": "ofl/sourceserif4/OFL.txt",
+          "bytes": 4400,
+          "git_blob": "318074ec9d43c936a56ee1dae92999f4df073ce8",
+          "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+        },
+        {
+          "path": "ofl/sourceserif4/SourceSerif4-Italic[opsz,wght].ttf",
+          "bytes": 855432,
+          "git_blob": "ccb969aa6847e1169ff9c8c8bdc28daff6966861",
+          "sha256": "15fbc7e4679489a501998c3669272637a6646388ef7e4bd77eebb5bf967a1f42"
+        },
+        {
+          "path": "ofl/sourceserif4/SourceSerif4[opsz,wght].ttf",
+          "bytes": 1209508,
+          "git_blob": "40bbb58cb58e893ad0470f0bb291e096c73d3554",
+          "sha256": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b"
+        },
+        {
+          "path": "ofl/splinesans/DESCRIPTION.en_us.html",
+          "bytes": 912,
+          "git_blob": "d35587770bedc42d0db889bac440406ee20c5c83",
+          "sha256": "577ccc036730afbb8ba0ddd4a78affb7d9131c1fa8d5d3db09e04d1a7b4cf29e"
+        },
+        {
+          "path": "ofl/splinesans/METADATA.pb",
+          "bytes": 874,
+          "git_blob": "873a44d071aeff0cdde1ce36f3a272316ac8164c",
+          "sha256": "b0764d94b143a33d3a3f399c19b3f91f1b5c7944200e56d34b9bb481b0e1128a"
+        },
+        {
+          "path": "ofl/splinesans/OFL.txt",
+          "bytes": 4394,
+          "git_blob": "ee2bacd126b07010eb2a68dbe0199a05887468bb",
+          "sha256": "45b2aa0796f435bd620d864b6b44ff08855dc575524f23ffb43161e69cb5dbfc"
+        },
+        {
+          "path": "ofl/splinesans/SplineSans[wght].ttf",
+          "bytes": 146896,
+          "git_blob": "00a76442c3633700560f0638929dcce04b035e3d",
+          "sha256": "65250939de0ab412d2b2349c9cb85304a5919fc3c5d4e74713a2d8a1f45f2947"
+        }
+      ]
+    },
+    {
+      "id": "arrowtype-recursive-1.085",
+      "url": "https://github.com/arrowtype/recursive",
+      "commit": "6d491202cea5cf6a493ef710cbef2527b9b08939",
+      "acquisition": "github-subtree",
+      "selection": [
+        "OFL.txt",
+        "fonts/ArrowType-Recursive-1.085/Recursive_Desktop/Recursive_VF_1.085.ttf",
+        "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoCasual",
+        "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoDuotone",
+        "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoLinear",
+        "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoSemicasual"
+      ],
+      "files": [
+        {
+          "path": "OFL.txt",
+          "bytes": 4389,
+          "git_blob": "d4361a99fe5b5091c2a7596ee55818da51373a3d",
+          "sha256": "f9f539cf7549bd417159dbdb9c400943a5b60a7366c2c6fbde9f095173d82479"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoCasual/RecMonoCasual-Bold-1.085.ttf",
+          "bytes": 479612,
+          "git_blob": "3523ad1c07486e29f2538e6c817ba91d1fa0b917",
+          "sha256": "539892e40f53251caf14db86e44a9d2458b6b773adc4421b8d2892341898ba4b"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoCasual/RecMonoCasual-BoldItalic-1.085.ttf",
+          "bytes": 484184,
+          "git_blob": "568c87fac74b5de4b943617e740bcabd6c6b7f15",
+          "sha256": "93ffeb304f3d431e5182fd9a5eaab7e4991efd090d2938e7a6b74bd6335db1b2"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoCasual/RecMonoCasual-Italic-1.085.ttf",
+          "bytes": 465036,
+          "git_blob": "b2ad9a3163906cc061ec9e7ff74932f593bc418b",
+          "sha256": "4afcdb84e4ef44af2c4640f5b8f04f70c097eaaf7cc22766a8dc46ed6ee0c957"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoCasual/RecMonoCasual-Regular-1.085.ttf",
+          "bytes": 483004,
+          "git_blob": "2ae620faf85d6b0e05960a8a2de6f967e19b0239",
+          "sha256": "0f534445f3b591608b69d68de74e9cc81e5030f6a3c855db461d8a1f481cc233"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoDuotone/RecMonoDuotone-Bold-1.085.ttf",
+          "bytes": 483364,
+          "git_blob": "554d9947a23e9102a81ae0f2f56b07ed6fb07c97",
+          "sha256": "25fd3352f579d630bac6239295eaf6a51185fb066e4392e33e3eda25f0ab11ad"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoDuotone/RecMonoDuotone-BoldItalic-1.085.ttf",
+          "bytes": 488052,
+          "git_blob": "e51a5b21e418f1176159661a41d23db8b4a74a92",
+          "sha256": "40a356f18a9fe14b835c3c4b5b0cee45c19c0e410e614fa2a4d5856d610d4049"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoDuotone/RecMonoDuotone-Italic-1.085.ttf",
+          "bytes": 465052,
+          "git_blob": "12c25d66722259ae6c8ead905997164162957314",
+          "sha256": "83db5b59ee5188fef25f7c6d3cbd67803a879ac229baef3e47b4b609cbd78760"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoDuotone/RecMonoDuotone-Regular-1.085.ttf",
+          "bytes": 478036,
+          "git_blob": "1cfb18fac1ea5583f233bc982d8c0c6c8cf414b8",
+          "sha256": "c8e882d1de2e029447978778f6153497ae16ed3a907201124cb58351fd586a9b"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoLinear/RecMonoLinear-Bold-1.085.ttf",
+          "bytes": 484936,
+          "git_blob": "1a32173c7b145da4e2e964cbc6ca01cfe4e8e109",
+          "sha256": "b52f2fa50af7e8f27e2fd655628c2a515dfe4da967312befd3a5e78b935ea7ee"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoLinear/RecMonoLinear-BoldItalic-1.085.ttf",
+          "bytes": 487648,
+          "git_blob": "ea24ba4f39e28500c44d25b04c3b0834f35a3f3d",
+          "sha256": "02529f67cb9939962585ee9f5f46e847ac029335edd55a22ac31bcd1a0dd785e"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoLinear/RecMonoLinear-Italic-1.085.ttf",
+          "bytes": 487024,
+          "git_blob": "0ba68a5487a0dc7bae7f3558d534b5da425a0ddb",
+          "sha256": "1c8334043bd94276e3523bc2778615bf1b82a0bf10cea7b72b23b94016bcb49e"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoLinear/RecMonoLinear-Regular-1.085.ttf",
+          "bytes": 478020,
+          "git_blob": "ba6baffb3604132c5d4bcaf785a46fbdb9230718",
+          "sha256": "3f2948e76bbc6665af00dd3b358cfe617d673689a5491082d08cf70b868d3713"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoSemicasual/RecMonoSemicasual-Bold-1.085.ttf",
+          "bytes": 513668,
+          "git_blob": "b400b62dbabc36441a00e9b751f3004d24a6e2b6",
+          "sha256": "ba673819e4b5e8a460b8a4ef586b5ee6d801e97356799c61be0a1b41eedf5f84"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoSemicasual/RecMonoSemicasual-BoldItalic-1.085.ttf",
+          "bytes": 528684,
+          "git_blob": "8df2901dc1288b50dda5789fd9be49099779af37",
+          "sha256": "afd47881ec42dfab0ff7bb7378041e0159bcdee87a9e46c7ab901690b9e66589"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoSemicasual/RecMonoSemicasual-Italic-1.085.ttf",
+          "bytes": 475312,
+          "git_blob": "8fe4e7aa545f7134ea97241a3e1004de6e7d56a5",
+          "sha256": "6283c7851d85790ea586aa40a6028503615083bb782d51c918228dbe60315eb2"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Code/RecMonoSemicasual/RecMonoSemicasual-Regular-1.085.ttf",
+          "bytes": 494908,
+          "git_blob": "e06e3baa91304fc3922432af90d479431ae270d1",
+          "sha256": "7bb3b11966c1ad5e100d9728271d94139c8454d6225f75a5d6d0d5c932fc8a2e"
+        },
+        {
+          "path": "fonts/ArrowType-Recursive-1.085/Recursive_Desktop/Recursive_VF_1.085.ttf",
+          "bytes": 2379132,
+          "git_blob": "367e2df5ad567b3dcd958d11a712de9fe7d3bac1",
+          "sha256": "653221ca467f4732fe6856ac493f6c409e9f56a7674abe36b2364acc89796f7c"
+        }
+      ]
     }
   ]
 }
