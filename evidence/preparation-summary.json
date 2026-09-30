@@ -1,0 +1,31 @@
+{
+  "sources": 2,
+  "preparation": [
+    {
+      "base64_fonts": 204,
+      "archive_fonts": 367,
+      "license_sidecars": 7,
+      "archives_seen": 14,
+      "derived_files": 578,
+      "issues": [],
+      "limitations": [
+        "No nested archive traversal",
+        "Original sidecar scope and rights remain unverified",
+        "EOT, source UFO/TTX and legacy formats are preserved in originals; no conversion"
+      ]
+    },
+    {
+      "base64_fonts": 0,
+      "archive_fonts": 0,
+      "license_sidecars": 0,
+      "archives_seen": 0,
+      "derived_files": 0,
+      "issues": [],
+      "limitations": [
+        "No nested archive traversal",
+        "Original sidecar scope and rights remain unverified",
+        "EOT, source UFO/TTX and legacy formats are preserved in originals; no conversion"
+      ]
+    }
+  ]
+}

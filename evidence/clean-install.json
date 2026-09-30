@@ -1,0 +1,60 @@
+{
+  "setup": "Fresh virtualenv installed from independently extracted review ZIP using cached pinned dependencies; offline install succeeded.",
+  "import_location_verified_in_extracted_tree": true,
+  "tests": "........................................................................ [ 62%]\n............................................                             [100%]\n116 passed in 3.41s",
+  "doctor": {
+    "version": "0.1.0",
+    "python": "3.12.13",
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "fonttools": "4.60.2",
+    "pillow": "11.3.0",
+    "harfbuzz": "12.1.0",
+    "pillow_raqm": false,
+    "catalog_exists": false,
+    "rights_policy": "Evidence is not permission. Unknown rights remain unknown."
+  },
+  "font_binaries_required_for_tests": false,
+  "runtime_source": [
+    {
+      "path": "type_evidence/__init__.py",
+      "sha256": "0572186a2026e199de2182ccf6a512944f9c121d2de3ea8a9cff8a61f59dc659",
+      "identical_to_final_runtime_source": true
+    },
+    {
+      "path": "type_evidence/__main__.py",
+      "sha256": "bd045ddd5242d002f692dac452be9afba38deef5cde541a5fc074bfef5987b91",
+      "identical_to_final_runtime_source": true
+    },
+    {
+      "path": "type_evidence/catalog.py",
+      "sha256": "b8ac317cb3678eec82b2907aeaed9d1330f5d56cf00bdee3bfa520fe7661d944",
+      "identical_to_final_runtime_source": true
+    },
+    {
+      "path": "type_evidence/cli.py",
+      "sha256": "a174d4f90429daa907b211d2c687ae95928772e36ce8c68dbfe66a8ace63d1c5",
+      "identical_to_final_runtime_source": true
+    },
+    {
+      "path": "type_evidence/discovery.py",
+      "sha256": "6210de2627ad7ab732d3fce0aca273784bf30534cfd23cd3a75cb5f01c4446d9",
+      "identical_to_final_runtime_source": true
+    },
+    {
+      "path": "type_evidence/mcp.py",
+      "sha256": "5eb229ce59616ce8ccc551e65deb832eacfd1f6e0a656dd4377ba258f345f89c",
+      "identical_to_final_runtime_source": true
+    },
+    {
+      "path": "type_evidence/render.py",
+      "sha256": "30f548b6e15b724c9307c492cb08787ca01d2448544b209d5a388a1acb9a8b71",
+      "identical_to_final_runtime_source": true
+    },
+    {
+      "path": "type_evidence/sources.py",
+      "sha256": "5a8084a8d427f44cb9838c702283006c62a699cda97a353c113c42df1b1b19f2",
+      "identical_to_final_runtime_source": true
+    }
+  ],
+  "scope": "macOS clean local install, not a native Windows run. The final ZIP adds this receipt and XML evidence; runtime source remains identical."
+}

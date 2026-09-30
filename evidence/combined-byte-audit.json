@@ -1,0 +1,39 @@
+{
+  "font_extension_or_signature_occurrences": 30341,
+  "unique_original_byte_hashes": 27651,
+  "cross_source_exact_duplicate_groups": 0,
+  "recognized_fonts_without_font_extensions": [
+    {
+      "path": "Designers/David Jonathan Ross/Input/Scripts/_template_Bold.txt",
+      "bytes": 111068,
+      "sha256": "7a02aa6e0036f8688384e5248d4a530c2c4baa36ca95ff242e4f60652a14aab1",
+      "signature": "sfnt_truetype",
+      "extension": ".txt",
+      "source": "bekahmcdonald-fonts"
+    },
+    {
+      "path": "Designers/David Jonathan Ross/Input/Scripts/_template_BoldItalic.txt",
+      "bytes": 113256,
+      "sha256": "29ba4b8d7c0c78aad76a384e89a4b098181956052b5b06ad6b7d86fb719cae4d",
+      "signature": "sfnt_truetype",
+      "extension": ".txt",
+      "source": "bekahmcdonald-fonts"
+    },
+    {
+      "path": "Designers/David Jonathan Ross/Input/Scripts/_template_Italic.txt",
+      "bytes": 113024,
+      "sha256": "88af7bcbaf2423f8509fa0d19d2ed7403f5ae4f9e9bc8371ac34801cac74b8db",
+      "signature": "sfnt_truetype",
+      "extension": ".txt",
+      "source": "bekahmcdonald-fonts"
+    },
+    {
+      "path": "Designers/David Jonathan Ross/Input/Scripts/_template_Regular.txt",
+      "bytes": 110636,
+      "sha256": "b936534c91364e459f52d4712e4a06979c2d9d8cb6d6b7fd4c9b396510b79b79",
+      "signature": "sfnt_truetype",
+      "extension": ".txt",
+      "source": "bekahmcdonald-fonts"
+    }
+  ]
+}

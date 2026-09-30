@@ -1,0 +1,114 @@
+[
+  {
+    "brief": "dashboard",
+    "phase": "search-with-baseline",
+    "seconds": 1.777,
+    "returncode": 0
+  },
+  {
+    "brief": "dashboard",
+    "phase": "compare-primary",
+    "ids": [
+      "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+      "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "ed0f479f7d729465faae2d32f5d70bc3a3693748c16cbf6da43493ff42d89623:0",
+      "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0"
+    ],
+    "seconds": 0.717,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "brief": "dashboard",
+    "phase": "compare-companions",
+    "ids": [
+      "2063cee9aa495f29af09625d88dc18305e6e96d81c2684381d155ecd857de251:0",
+      "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "010fb98b45d9fd9d9937bf0384f2e2e64c9498372e0ae5fa288dcdbcefb99389:0",
+      "01f3e2bf144db0b5b68a64d1ffeb3c82ce67afd20e1dba73d4c0b6e933119b8f:0"
+    ],
+    "seconds": 0.745,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "brief": "reading",
+    "phase": "search-with-baseline",
+    "seconds": 1.805,
+    "returncode": 0
+  },
+  {
+    "brief": "reading",
+    "phase": "compare-primary",
+    "ids": [
+      "3c490fbc8b3578f595c4cbd441e9beba59560cc4525531e47cbcea770009f1b3:0",
+      "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2:0",
+      "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a:0"
+    ],
+    "seconds": 0.565,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "brief": "reading",
+    "phase": "compare-companions",
+    "ids": [
+      "8b87c18feb458297d541697b6d9c1dc835dc98eb21705627bf75ea01ce85cef9:0",
+      "98d724b86280f991c869cdbb04652700c7820715de6823a34af43f9fb4d127f7:0",
+      "b5a8bfaa63155d2813fdd51b26c1f7787346409aca2125f55c2fd81723088833:0"
+    ],
+    "seconds": 0.591,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "brief": "game",
+    "phase": "search-with-baseline",
+    "seconds": 1.541,
+    "returncode": 0
+  },
+  {
+    "brief": "game",
+    "phase": "compare-primary",
+    "ids": [
+      "5d4ba5e8d894601672d04f1663c66c306e581b12eb60163314d764a2306d1110:0",
+      "910279e0dfa75a38e9847b830983e51251509613592766f2e6aacb24acb2048d:0",
+      "83384807d037617026e1f746d3f17474d7684b9cc9b515ad1f3a2fe7e30f7d42:0"
+    ],
+    "seconds": 0.683,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "brief": "museum",
+    "phase": "search-with-baseline",
+    "seconds": 1.636,
+    "returncode": 0
+  },
+  {
+    "brief": "museum",
+    "phase": "compare-primary",
+    "ids": [
+      "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+      "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+      "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a:0",
+      "f4b48bda047d72465fbed8fe8243cc621ab159ef6f17f28dd255241ee160bcbf:0"
+    ],
+    "seconds": 0.76,
+    "returncode": 0,
+    "stderr": ""
+  },
+  {
+    "brief": "museum",
+    "phase": "compare-companions",
+    "ids": [
+      "2063cee9aa495f29af09625d88dc18305e6e96d81c2684381d155ecd857de251:0",
+      "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8:0",
+      "e66959edce75b8fde8e009c4c64b2d142d907cf4acbf3f7f8197602e507d8cb3:0",
+      "b58ae067c76631070aa1dd4482f6fdf7fcf9cd0fd571de3e1c91ade28fd5a5ec:0"
+    ],
+    "seconds": 0.751,
+    "returncode": 0,
+    "stderr": ""
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "role": "code",
+  "query": "mono",
+  "text": "const orbit = { queue: 1024 }; // O0 I1l",
+  "weight": 400,
+  "italic": false,
+  "limit": 4
+}

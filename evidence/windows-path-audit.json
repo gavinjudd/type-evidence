@@ -1,0 +1,4677 @@
+[
+  {
+    "source": "bekahmcdonald-fonts",
+    "forbidden_paths": [
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Black Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Black.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Bold Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Bold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Extra Bold Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Extra Bold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Light Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Light.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Medium Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Medium.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Regular Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Regular.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Text Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Text.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Thin Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Designers/Connary Fagen, Inc./Quincy/Quincy CF Thin.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Craft Supply Co./Marques/OTF/Marques Italic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Craft Supply Co./Marques/OTF/Marques.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Craft Supply Co./Marques/TTF/Marques Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Craft Supply Co./Marques/TTF/Marques.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Acari-Sans/AcariSans-Black.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Acari-Sans/AcariSans-BlackItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Acari-Sans/AcariSans-Bold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Acari-Sans/AcariSans-BoldItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Acari-Sans/AcariSans-ExtraLight.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Acari-Sans/AcariSans-ExtraLightItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Acari-Sans/AcariSans-Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Acari-Sans/AcariSans-Light.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Acari-Sans/AcariSans-LightItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Acari-Sans/AcariSans-Medium.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Acari-Sans/AcariSans-MediumItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Acari-Sans/AcariSans-Regular.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Acari-Sans/AcariSans-SemiBold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Acari-Sans/AcariSans-SemiBoldItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Acari-Sans/OFL.TXT",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Glacial-Indifference-130/Changelog/Glacial Indifference Changelog.rtf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Glacial-Indifference-130/OFL.txt",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Glacial-Indifference-130/OTF/GlacialIndifference-Bold.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Glacial-Indifference-130/OTF/GlacialIndifference-Regular.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Glacial-Indifference-130/TTF/GlacialIndifference-Bold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Glacial-Indifference-130/TTF/GlacialIndifference-Regular.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Glacial-Indifference-130/WEB/GlacialIndifference-Bold.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Glacial-Indifference-130/WEB/GlacialIndifference-Bold.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Glacial-Indifference-130/WEB/GlacialIndifference-Bold.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Glacial-Indifference-130/WEB/GlacialIndifference-Regular.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Glacial-Indifference-130/WEB/GlacialIndifference-Regular.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Glacial-Indifference-130/WEB/GlacialIndifference-Regular.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Glacial-Indifference-130/WEB/glacialindifference-bold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Glacial-Indifference-130/WEB/glacialindifference-regular.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001-Updated/GrantipoBeta001-Bold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001-Updated/GrantipoBeta001-Book.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001-Updated/GrantipoBeta001-ExtraBold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001-Updated/GrantipoBeta001-Heavy.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001-Updated/GrantipoBeta001-Light.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001-Updated/GrantipoBeta001-Medium.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001-Updated/GrantipoBeta001-Regular.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001-Updated/GrantipoBeta001-SemiBold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001-Updated/Licence/Grantipo Beta 001 EULA.txt",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001-Updated/Licence/Grantipo Beta Specimen.pdf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001/GrantipoBeta001-Bold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001/GrantipoBeta001-Book.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001/GrantipoBeta001-ExtraBold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001/GrantipoBeta001-Heavy.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001/GrantipoBeta001-Light.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001/GrantipoBeta001-Medium.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001/GrantipoBeta001-Regular.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001/GrantipoBeta001-SemiBold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001/License/Grantipo Beta 001 EULA.txt",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Grantipo-Beta-001/License/Grantipo Beta Specimen.pdf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HK-Nova/HK-Nova-Medium-R.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HK-Super/HKSuper-Medium.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/Changelog/HK Grotesk Changelog.rtf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/HKGrotesk-OFL.txt",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/OTF/HKGrotesk-Black.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/OTF/HKGrotesk-Bold.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/OTF/HKGrotesk-BoldItalic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/OTF/HKGrotesk-ExtraBold.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/OTF/HKGrotesk-Italic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/OTF/HKGrotesk-Light.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/OTF/HKGrotesk-LightItalic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/OTF/HKGrotesk-Medium.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/OTF/HKGrotesk-MediumItalic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/OTF/HKGrotesk-Regular.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/OTF/HKGrotesk-SemiBold.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/OTF/HKGrotesk-SemiBoldItalic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/TTF/HKGrotesk-Black.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/TTF/HKGrotesk-Bold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/TTF/HKGrotesk-BoldItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/TTF/HKGrotesk-ExtraBold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/TTF/HKGrotesk-Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/TTF/HKGrotesk-Light.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/TTF/HKGrotesk-LightItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/TTF/HKGrotesk-Medium.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/TTF/HKGrotesk-MediumItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/TTF/HKGrotesk-Regular.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/TTF/HKGrotesk-SemiBold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/TTF/HKGrotesk-SemiBoldItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Black.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Black.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Black.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Bold.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Bold.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Bold.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-BoldItalic.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-BoldItalic.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-BoldItalic.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-ExtraBold.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-ExtraBold.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-ExtraBold.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Italic.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Italic.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Italic.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Light.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Light.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Light.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-LightItalic.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-LightItalic.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-LightItalic.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Medium.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Medium.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Medium.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-MediumItalic.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-MediumItalic.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-MediumItalic.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Regular.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Regular.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-Regular.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-SemiBold.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-SemiBold.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-SemiBold.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-SemiBoldItalic.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-SemiBoldItalic.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGrotesk-243/WEB/HKGrotesk-SemiBoldItalic.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGroteskWide/License/HDC-BasicLicense-20032019.rtf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGroteskWide/OTF/HKGroteskWide-Black.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGroteskWide/OTF/HKGroteskWide-Bold.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGroteskWide/OTF/HKGroteskWide-ExtraBold.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGroteskWide/OTF/HKGroteskWide-Light.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGroteskWide/OTF/HKGroteskWide-Medium.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGroteskWide/OTF/HKGroteskWide-Regular.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./HKGroteskWide/OTF/HKGroteskWide-SemiBold.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Now/License/OFL-FAQ.txt",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Now/Now-Black.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Now/Now-Bold.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Now/Now-Light.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Now/Now-Medium.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Now/Now-Regular.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Now/Now-Thin.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/OFL-FAQ.txt",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/eot/Orkney Bold Italic.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/eot/Orkney Bold.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/eot/Orkney Light Italic.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/eot/Orkney Light.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/eot/Orkney Medium Italic.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/eot/Orkney Medium.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/eot/Orkney Regular Italic.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/eot/Orkney Regular.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/otf/Orkney Bold Italic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/otf/Orkney Bold.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/otf/Orkney Light Italic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/otf/Orkney Light.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/otf/Orkney Medium Italic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/otf/Orkney Medium.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/otf/Orkney Regular Italic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/otf/Orkney Regular.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/ttf/Orkney Bold Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/ttf/Orkney Bold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/ttf/Orkney Light Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/ttf/Orkney Light.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/ttf/Orkney Medium Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/ttf/Orkney Medium.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/ttf/Orkney Regular Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/ttf/Orkney Regular.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff/Orkney Bold Italic.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff/Orkney Bold.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff/Orkney Light Italic.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff/Orkney Light.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff/Orkney Medium Italic.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff/Orkney Medium.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff/Orkney Regular Italic.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff/Orkney Regular.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff2/Orkney Bold Italic.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff2/Orkney Bold.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff2/Orkney Light Italic.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff2/Orkney Light.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff2/Orkney Medium Italic.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff2/Orkney Medium.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff2/Orkney Regular Italic.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Orkney/woff2/Orkney Regular.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/OTF/RadnikaNext-Black.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/OTF/RadnikaNext-BlackAlt.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/OTF/RadnikaNext-Bold.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/OTF/RadnikaNext-BoldAlt.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/OTF/RadnikaNext-ExtraBold.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/OTF/RadnikaNext-ExtraBoldAlt.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/OTF/RadnikaNext-Light.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/OTF/RadnikaNext-LightAlt.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/OTF/RadnikaNext-Medium.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/OTF/RadnikaNext-MediumAlt.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/OTF/RadnikaNext-Regular.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/OTF/RadnikaNext-RegularAlt.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/OTF/RadnikaNext-SemiBold.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/OTF/RadnikaNext-SemiBoldAlt.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/TTF/RadnikaNext-Black.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/TTF/RadnikaNext-BlackAlt.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/TTF/RadnikaNext-Bold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/TTF/RadnikaNext-BoldAlt.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/TTF/RadnikaNext-ExtraBold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/TTF/RadnikaNext-ExtraBoldAlt.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/TTF/RadnikaNext-Light.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/TTF/RadnikaNext-LightAlt.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/TTF/RadnikaNext-Medium.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/TTF/RadnikaNext-MediumAlt.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/TTF/RadnikaNext-Regular.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/TTF/RadnikaNext-RegularAlt.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/TTF/RadnikaNext-SemiBold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/TTF/RadnikaNext-SemiBoldAlt.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-Black.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-Black.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-Black.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-BlackAlt.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-BlackAlt.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-BlackAlt.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-Bold.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-Bold.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-Bold.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-BoldAlt.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-BoldAlt.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-BoldAlt.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-ExtraBold.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-ExtraBold.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-ExtraBold.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-ExtraBoldAlt.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-ExtraBoldAlt.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-ExtraBoldAlt.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-Light.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-Light.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-Light.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-LightAlt.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-LightAlt.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-LightAlt.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-Medium.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-Medium.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-Medium.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-MediumAlt.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-MediumAlt.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-MediumAlt.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-Regular.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-Regular.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-Regular.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-RegularAlt.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-RegularAlt.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-RegularAlt.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-SemiBold.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-SemiBold.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-SemiBold.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-SemiBoldAlt.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-SemiBoldAlt.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika-Next/WEB/RadnikaNext-SemiBoldAlt.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Radnika/Radnika.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Zwizz/License/EULA.txt",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Zwizz/OTF/Zwizz-Bold.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Zwizz/OTF/Zwizz-Regular.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Zwizz/TTF/Zwizz-Bold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Zwizz/TTF/Zwizz-Regular.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Zwizz/WEB/Zwizz-Bold.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Zwizz/WEB/Zwizz-Bold.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Zwizz/WEB/Zwizz-Bold.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Zwizz/WEB/Zwizz-Regular.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Zwizz/WEB/Zwizz-Regular.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hanken Design Co./Zwizz/WEB/Zwizz-Regular.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/EOT/GothamPro-Black.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/EOT/GothamPro-BlackItalic.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/EOT/GothamPro-Bold.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/EOT/GothamPro-BoldItalic.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/EOT/GothamPro-Italic.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/EOT/GothamPro-Light.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/EOT/GothamPro-LightItalic.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/EOT/GothamPro-Medium.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/EOT/GothamPro-MediumItalic.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/EOT/GothamPro.eot",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/SVG/GothamPro-Black.svg",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/SVG/GothamPro-BlackItalic.svg",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/SVG/GothamPro-Bold.svg",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/SVG/GothamPro-BoldItalic.svg",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/SVG/GothamPro-Italic.svg",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/SVG/GothamPro-Light.svg",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/SVG/GothamPro-LightItalic.svg",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/SVG/GothamPro-Medium.svg",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/SVG/GothamPro-MediumItalic.svg",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/SVG/GothamPro.svg",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/TTF/GothamPro-Black.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/TTF/GothamPro-BlackItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/TTF/GothamPro-Bold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/TTF/GothamPro-BoldItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/TTF/GothamPro-Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/TTF/GothamPro-Light.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/TTF/GothamPro-LightItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/TTF/GothamPro-Medium.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/TTF/GothamPro-MediumItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/TTF/GothamPro.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF/GothamPro-Black.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF/GothamPro-BlackItalic.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF/GothamPro-Bold.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF/GothamPro-BoldItalic.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF/GothamPro-Italic.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF/GothamPro-Light.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF/GothamPro-LightItalic.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF/GothamPro-Medium.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF/GothamPro-MediumItalic.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF/GothamPro.woff",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF2/GothamPro-Black.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF2/GothamPro-BlackItalic.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF2/GothamPro-Bold.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF2/GothamPro-BoldItalic.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF2/GothamPro-Italic.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF2/GothamPro-Light.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF2/GothamPro-LightItalic.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF2/GothamPro-Medium.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF2/GothamPro-MediumItalic.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham Pro/WOFF2/GothamPro.woff2",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Black/Gotham-Black.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Black/Gotham-BlackItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Bold/Gotham-Bold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Bold/Gotham-BoldItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Book/Gotham-Book.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Book/Gotham-BookItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/ExtraLight/Gotham-ExtraLight.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/ExtraLight/Gotham-ExtraLightItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Light/Gotham-Light.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Light/Gotham-LightItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Medium/Gotham-Medium.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Medium/Gotham-MediumItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Regular/Gotham-Italic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Regular/Gotham-Regular.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Thin/Gotham-Thin.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Thin/Gotham-ThinItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Ultra/Gotham-ExtraBlack.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham-x/Ultra/Gotham-ExtraBlackItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/Gotham-Black.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/Gotham-Bold.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/Gotham-BookItalic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/Gotham-Light.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/Gotham-Thin.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/Gotham-ThinItalic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/Gotham-UltraItalic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/Gotham-XLight.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/Gotham-XLightItalic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/GothamBold.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/GothamBoldItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/GothamBook.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/GothamBookItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/GothamLight.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/GothamLightItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/GothamMedium.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/GothamMediumItalic.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Gotham/GothamMedium_1.ttf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Operator-Mono/OperatorMono-Bold.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Operator-Mono/OperatorMono-BoldItalic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Operator-Mono/OperatorMono-Book.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Operator-Mono/OperatorMono-BookItalic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Operator-Mono/OperatorMono-Light.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Operator-Mono/OperatorMono-LightItalic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Operator-Mono/OperatorMono-Medium.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Operator-Mono/OperatorMono-MediumItalic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Operator-Mono/OperatorMono-XLight.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Hoefler & Co./Operator-Mono/OperatorMono-XLightItalic.otf",
+        "problems": [
+          "trailing-dot-or-space"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/1.1/Besley-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/1.1/Besley-BoldItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/1.1/Besley-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/1.1/Besley-BookItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/1.1/Besley-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/1.1/Besley-FatfaceItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/1.1/Besley-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/1.1/Besley-MediumItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/1.1/LICENSE.md",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/1.1/README.txt",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/2.0/LICENSE.md",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/2.0/README.txt",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/2.0/TrueType/Besley-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/2.0/TrueType/Besley-BoldItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/2.0/TrueType/Besley-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/2.0/TrueType/Besley-BookItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/2.0/TrueType/Besley-ExtraBold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/2.0/TrueType/Besley-ExtraBoldItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/2.0/TrueType/Besley-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/2.0/TrueType/Besley-FatfaceItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/2.0/TrueType/Besley-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/2.0/TrueType/Besley-MediumItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/2.0/TrueType/Besley-SemiBold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/2.0/TrueType/Besley-SemiBoldItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/LICENSE.md",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/README.txt",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/Besley-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/Besley-BoldItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/Besley-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/Besley-BookItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/Besley-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/Besley-FatfaceItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/Besley-Heavy.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/Besley-HeavyItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/Besley-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/Besley-MediumItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/Besley-Semi.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/Besley-SemiItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyCondensed-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyCondensed-BoldItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyCondensed-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyCondensed-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyCondensed-FatfaceItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyCondensed-Heavy.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyCondensed-HeavyItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyCondensed-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyCondensed-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyCondensed-MediumItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyCondensed-Semi.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyCondensed-SemiItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyNarrow-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyNarrow-BoldItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyNarrow-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyNarrow-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyNarrow-FatfaceItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyNarrow-Heavy.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyNarrow-HeavyItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyNarrow-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyNarrow-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyNarrow-MediumItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyNarrow-Semi.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Besley/3.0/TrueType/BesleyNarrow-SemiItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/LICENSE.md",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-06-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-06-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-06-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-06-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-06-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-06-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-06-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-06-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-11-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-11-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-11-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-11-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-11-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-11-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-11-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-11-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-16-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-16-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-16-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-16-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-16-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-16-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-16-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-16-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-24-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-24-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-24-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-24-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-24-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-24-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-24-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-24-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-36-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-36-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-36-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-36-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-36-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-36-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-36-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-36-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-48-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-48-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-48-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-48-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-48-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-48-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-48-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-48-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-72-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-72-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-72-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-72-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-72-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-72-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-72-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-72-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-96-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-96-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-96-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-96-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-96-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-96-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-96-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/OpenType/Bodoni-96-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/README.md",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-06-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-06-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-06-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-06-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-06-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-06-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-06-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-06-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-11-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-11-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-11-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-11-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-11-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-11-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-11-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-11-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-16-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-16-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-16-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-16-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-16-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-16-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-16-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-16-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-24-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-24-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-24-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-24-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-24-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-24-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-24-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-24-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-36-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-36-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-36-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-36-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-36-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-36-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-36-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-36-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-48-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-48-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-48-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-48-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-48-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-48-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-48-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-48-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-72-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-72-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-72-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-72-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-72-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-72-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-72-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-72-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-96-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-96-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-96-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-96-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-96-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-96-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-96-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.001/TrueType/Bodoni-96-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/LICENSE.md",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-06-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-06-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-06-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-06-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-06-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-06-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-06-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-06-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-11-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-11-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-11-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-11-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-11-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-11-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-11-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-11-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-16-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-16-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-16-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-16-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-16-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-16-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-16-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-16-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-24-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-24-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-24-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-24-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-24-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-24-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-24-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-24-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-36-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-36-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-36-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-36-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-36-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-36-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-36-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-36-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-48-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-48-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-48-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-48-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-48-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-48-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-48-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-48-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-72-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-72-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-72-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-72-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-72-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-72-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-72-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-72-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-96-Bold-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-96-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-96-Book-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-96-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-96-Fatface-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-96-Fatface.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-96-Medium-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/OpenType/Bodoni-96-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/README.md",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-06-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-06-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-06-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-06-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-06-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-06-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-06-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-06-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-11-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-11-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-11-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-11-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-11-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-11-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-11-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-11-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-16-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-16-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-16-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-16-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-16-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-16-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-16-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-16-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-24-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-24-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-24-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-24-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-24-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-24-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-24-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-24-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-36-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-36-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-36-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-36-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-36-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-36-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-36-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-36-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-48-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-48-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-48-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-48-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-48-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-48-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-48-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-48-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-72-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-72-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-72-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-72-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-72-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-72-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-72-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-72-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-96-Bold-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-96-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-96-Book-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-96-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-96-Fatface-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-96-Fatface.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-96-Medium-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Bodoni/2.3/TrueType/Bodoni-96-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/LICENSE.md",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/README.md",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/otf/DraftingMono-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/otf/DraftingMono-BoldItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/otf/DraftingMono-ExtraLight.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/otf/DraftingMono-ExtraLightItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/otf/DraftingMono-Italic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/otf/DraftingMono-Light.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/otf/DraftingMono-LightItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/otf/DraftingMono-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/otf/DraftingMono-MediumItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/otf/DraftingMono-Regular.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/otf/DraftingMono-SemiBold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/otf/DraftingMono-SemiBoldItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/otf/DraftingMono-Thin.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/otf/DraftingMono-ThinItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/ttf/DraftingMono-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/ttf/DraftingMono-BoldItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/ttf/DraftingMono-ExtraLight.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/ttf/DraftingMono-ExtraLightItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/ttf/DraftingMono-Italic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/ttf/DraftingMono-Light.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/ttf/DraftingMono-LightItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/ttf/DraftingMono-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/ttf/DraftingMono-MediumItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/ttf/DraftingMono-Regular.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/ttf/DraftingMono-SemiBold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/ttf/DraftingMono-SemiBoldItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/ttf/DraftingMono-Thin.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/ttf/DraftingMono-ThinItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/woff2/DraftingMono-Bold.woff2",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/woff2/DraftingMono-BoldItalic.woff2",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/woff2/DraftingMono-ExtraLight.woff2",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/woff2/DraftingMono-ExtraLightItalic.woff2",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/woff2/DraftingMono-Italic.woff2",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/woff2/DraftingMono-Light.woff2",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/woff2/DraftingMono-LightItalic.woff2",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/woff2/DraftingMono-Medium.woff2",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/woff2/DraftingMono-MediumItalic.woff2",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/woff2/DraftingMono-Regular.woff2",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/woff2/DraftingMono-SemiBold.woff2",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/woff2/DraftingMono-SemiBoldItalic.woff2",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/woff2/DraftingMono-Thin.woff2",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/DraftingMono/1.100/woff2/DraftingMono-ThinItalic.woff2",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Gnomon/rÆ/Gnomon-Foreground.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Gnomon/rÆ/Gnomon-Simple.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Gnomon/rÆ/LICENSE.md",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Gnomon/rÆ/README.md",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/LICENSE.md",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-100-Hairline.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-100-HairlineItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-200-Thin.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-200-ThinItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-300-Light.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-300-LightItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-400-Book.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-400-BookItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-500-Medium.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-500-MediumItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-600-Semi.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-600-SemiItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-700-Bold.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-700-BoldItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-800-Hevy.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-800-HevyItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-900-Black.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/OpenType/Jost-900-BlackItalic.otf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/README.md",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-100-Hairline.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-100-HairlineItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-200-Thin.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-200-ThinItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-300-Light.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-300-LightItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-400-Book.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-400-BookItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-500-Medium.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-500-MediumItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-600-Semi.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-600-SemiItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-700-Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-700-BoldItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-800-Heavy.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-800-HeavyItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-900-Black.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/Jost/3.7/TrueType/Jost-900-BlackItalic.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/notears/1.000/No Tears Bold.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      },
+      {
+        "path": "Foundries/Indestructible Type*/notears/1.000/No Tears.ttf",
+        "problems": [
+          "forbidden-character"
+        ]
+      }
+    ],
+    "relative_paths_over_240": [],
+    "max_relative_path_length": 136
+  },
+  {
+    "source": "extsalt-10000-font-collection",
+    "forbidden_paths": [],
+    "relative_paths_over_240": [],
+    "max_relative_path_length": 49
+  }
+]

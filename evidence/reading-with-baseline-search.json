@@ -1,0 +1,556 @@
+{
+  "schema_version": 1,
+  "status": "candidates",
+  "role": "body",
+  "candidates": [
+    {
+      "id": "3c490fbc8b3578f595c4cbd441e9beba59560cc4525531e47cbcea770009f1b3:0",
+      "family": "Noto Serif",
+      "style": "SemiCondensed",
+      "weight": 400,
+      "italic": false,
+      "category": "serif",
+      "score": 12,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "heuristic",
+          "points": 2,
+          "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+        },
+        {
+          "basis": "measured+heuristic",
+          "points": 1,
+          "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+        },
+        {
+          "basis": "metadata",
+          "points": 1,
+          "reason": "At least three distinct face styles are present for hierarchy."
+        },
+        {
+          "basis": "metadata",
+          "points": 5,
+          "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+        },
+        {
+          "basis": "metadata",
+          "points": 3,
+          "reason": "Transparent query preference matched: category:serif."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.536,
+        "cap_height_em": 0.714,
+        "average_advance_em": 0.5178,
+        "mono_measured": false,
+        "digit_tabular_default": true
+      },
+      "family_available_styles": {
+        "count": 18,
+        "styles": [
+          {
+            "style": "SemiCondensed Thin",
+            "weight": 100,
+            "italic": false
+          },
+          {
+            "style": "SemiCondensed Thin Italic",
+            "weight": 100,
+            "italic": true
+          },
+          {
+            "style": "SemiCondensed ExtraLight",
+            "weight": 200,
+            "italic": false
+          },
+          {
+            "style": "SemiCondensed ExtraLight Italic",
+            "weight": 200,
+            "italic": true
+          },
+          {
+            "style": "SemiCondensed Light",
+            "weight": 300,
+            "italic": false
+          },
+          {
+            "style": "SemiCondensed Light Italic",
+            "weight": 300,
+            "italic": true
+          },
+          {
+            "style": "SemiCondensed",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "SemiCondensed Italic",
+            "weight": 400,
+            "italic": true
+          },
+          {
+            "style": "SemiCondensed Medium",
+            "weight": 500,
+            "italic": false
+          },
+          {
+            "style": "SemiCondensed Medium Italic",
+            "weight": 500,
+            "italic": true
+          },
+          {
+            "style": "SemiCondensed SemiBold",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "SemiCondensed SemiBold Italic",
+            "weight": 600,
+            "italic": true
+          }
+        ],
+        "truncated": true,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "review_required": true
+      },
+      "warnings": [],
+      "existing_baseline": false,
+      "family_style_resolutions": [
+        {
+          "weight": 400,
+          "italic": false,
+          "id": "3c490fbc8b3578f595c4cbd441e9beba59560cc4525531e47cbcea770009f1b3:0",
+          "required_axes": {}
+        },
+        {
+          "weight": 400,
+          "italic": true,
+          "id": "8b87c18feb458297d541697b6d9c1dc835dc98eb21705627bf75ea01ce85cef9:0",
+          "required_axes": {}
+        }
+      ]
+    },
+    {
+      "id": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2:0",
+      "family": "Untitled Serif",
+      "style": "Regular",
+      "weight": 400,
+      "italic": false,
+      "category": "serif",
+      "score": 12,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "heuristic",
+          "points": 2,
+          "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+        },
+        {
+          "basis": "measured+heuristic",
+          "points": 1,
+          "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+        },
+        {
+          "basis": "metadata",
+          "points": 1,
+          "reason": "At least three distinct face styles are present for hierarchy."
+        },
+        {
+          "basis": "metadata",
+          "points": 5,
+          "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+        },
+        {
+          "basis": "metadata",
+          "points": 3,
+          "reason": "Transparent query preference matched: category:serif."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.459,
+        "cap_height_em": 0.6445,
+        "average_advance_em": 0.5112,
+        "mono_measured": false,
+        "digit_tabular_default": false
+      },
+      "family_available_styles": {
+        "count": 6,
+        "styles": [
+          {
+            "style": "Regular",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "Regular Italic",
+            "weight": 400,
+            "italic": true
+          },
+          {
+            "style": "Medium",
+            "weight": 500,
+            "italic": false
+          },
+          {
+            "style": "Medium Italic",
+            "weight": 500,
+            "italic": true
+          },
+          {
+            "style": "Bold",
+            "weight": 700,
+            "italic": false
+          },
+          {
+            "style": "Bold Italic",
+            "weight": 700,
+            "italic": true
+          }
+        ],
+        "truncated": false,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "unknown",
+        "review_required": true
+      },
+      "warnings": [],
+      "existing_baseline": false,
+      "family_style_resolutions": [
+        {
+          "weight": 400,
+          "italic": false,
+          "id": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2:0",
+          "required_axes": {}
+        },
+        {
+          "weight": 400,
+          "italic": true,
+          "id": "98d724b86280f991c869cdbb04652700c7820715de6823a34af43f9fb4d127f7:0",
+          "required_axes": {}
+        }
+      ]
+    },
+    {
+      "id": "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a:0",
+      "family": "Noto Serif Display",
+      "style": "Condensed",
+      "weight": 400,
+      "italic": false,
+      "category": "serif",
+      "score": 12,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "heuristic",
+          "points": 2,
+          "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+        },
+        {
+          "basis": "measured+heuristic",
+          "points": 1,
+          "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+        },
+        {
+          "basis": "metadata",
+          "points": 1,
+          "reason": "At least three distinct face styles are present for hierarchy."
+        },
+        {
+          "basis": "metadata",
+          "points": 5,
+          "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+        },
+        {
+          "basis": "metadata",
+          "points": 3,
+          "reason": "Transparent query preference matched: category:serif."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.536,
+        "cap_height_em": 0.714,
+        "average_advance_em": 0.4805,
+        "mono_measured": false,
+        "digit_tabular_default": true
+      },
+      "family_available_styles": {
+        "count": 18,
+        "styles": [
+          {
+            "style": "Condensed Thin",
+            "weight": 100,
+            "italic": false
+          },
+          {
+            "style": "Condensed Thin Italic",
+            "weight": 100,
+            "italic": true
+          },
+          {
+            "style": "Condensed ExtraLight",
+            "weight": 200,
+            "italic": false
+          },
+          {
+            "style": "Condensed ExtraLight Italic",
+            "weight": 200,
+            "italic": true
+          },
+          {
+            "style": "Condensed Light",
+            "weight": 300,
+            "italic": false
+          },
+          {
+            "style": "Condensed Light Italic",
+            "weight": 300,
+            "italic": true
+          },
+          {
+            "style": "Condensed",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "Condensed Italic",
+            "weight": 400,
+            "italic": true
+          },
+          {
+            "style": "Condensed Medium",
+            "weight": 500,
+            "italic": false
+          },
+          {
+            "style": "Condensed Medium Italic",
+            "weight": 500,
+            "italic": true
+          },
+          {
+            "style": "Condensed SemiBold",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "Condensed SemiBold Italic",
+            "weight": 600,
+            "italic": true
+          }
+        ],
+        "truncated": true,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "review_required": true
+      },
+      "warnings": [],
+      "existing_baseline": false,
+      "family_style_resolutions": [
+        {
+          "weight": 400,
+          "italic": false,
+          "id": "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a:0",
+          "required_axes": {}
+        },
+        {
+          "weight": 400,
+          "italic": true,
+          "id": "b5a8bfaa63155d2813fdd51b26c1f7787346409aca2125f55c2fd81723088833:0",
+          "required_axes": {}
+        }
+      ]
+    },
+    {
+      "id": "4d28ff3726c4be838fd9591440fa930bf236d6cd5cd09907f7cda79116d569de:0",
+      "family": "IBM Plex Serif",
+      "style": "Regular",
+      "weight": 400,
+      "italic": false,
+      "category": "serif",
+      "score": 12,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "heuristic",
+          "points": 2,
+          "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+        },
+        {
+          "basis": "measured+heuristic",
+          "points": 1,
+          "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+        },
+        {
+          "basis": "metadata",
+          "points": 1,
+          "reason": "At least three distinct face styles are present for hierarchy."
+        },
+        {
+          "basis": "metadata",
+          "points": 5,
+          "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+        },
+        {
+          "basis": "metadata",
+          "points": 3,
+          "reason": "Transparent query preference matched: category:serif."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.516,
+        "cap_height_em": 0.698,
+        "average_advance_em": 0.5704,
+        "mono_measured": false,
+        "digit_tabular_default": true
+      },
+      "family_available_styles": {
+        "count": 16,
+        "styles": [
+          {
+            "style": "Thin",
+            "weight": 100,
+            "italic": false
+          },
+          {
+            "style": "Thin Italic",
+            "weight": 100,
+            "italic": true
+          },
+          {
+            "style": "ExtraLight",
+            "weight": 200,
+            "italic": false
+          },
+          {
+            "style": "ExtraLight Italic",
+            "weight": 200,
+            "italic": true
+          },
+          {
+            "style": "Light",
+            "weight": 300,
+            "italic": false
+          },
+          {
+            "style": "Light Italic",
+            "weight": 300,
+            "italic": true
+          },
+          {
+            "style": "Regular",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "Italic",
+            "weight": 400,
+            "italic": true
+          },
+          {
+            "style": "Text",
+            "weight": 450,
+            "italic": false
+          },
+          {
+            "style": "Text Italic",
+            "weight": 450,
+            "italic": true
+          },
+          {
+            "style": "Medium",
+            "weight": 500,
+            "italic": false
+          },
+          {
+            "style": "Medium Italic",
+            "weight": 500,
+            "italic": true
+          }
+        ],
+        "truncated": true,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "review_required": true
+      },
+      "warnings": [],
+      "existing_baseline": false,
+      "family_style_resolutions": [
+        {
+          "weight": 400,
+          "italic": false,
+          "id": "4d28ff3726c4be838fd9591440fa930bf236d6cd5cd09907f7cda79116d569de:0",
+          "required_axes": {}
+        },
+        {
+          "weight": 400,
+          "italic": true,
+          "id": "32c1daf203aaeaa9144c54e03c93cc330c2f12cd89f36ebad1e7bedc24a406ef:0",
+          "required_axes": {}
+        }
+      ]
+    }
+  ],
+  "baseline": {
+    "requested_id": null,
+    "status": "not_supplied"
+  },
+  "counts": {
+    "catalog_faces": 27454,
+    "eligible_faces": 2339,
+    "returned_faces": 4
+  },
+  "constraint_rejections": {
+    "missing_family_identity": 253,
+    "missing_requested_characters": 3705,
+    "no_usable_unicode_cmap": 84,
+    "requested_italic_state_unavailable": 8744,
+    "requested_weight_unavailable": 14730,
+    "required_family_style_unavailable": 13066,
+    "style_metadata_conflict": 393
+  },
+  "query_interpretation": {
+    "exact_name_match_count": 0,
+    "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+    "aliases": {
+      "serif": "category:serif"
+    },
+    "unmodeled_terms": [],
+    "unrecognized_brief_fields": [],
+    "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed."
+  },
+  "constraints": {
+    "coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
+    "text_codepoint_count": 23,
+    "text_supplied": true,
+    "family_diversity": "At most one face per family; equivalent canonical content is also deduplicated. Equal-score ties favor differences in known category, width, monospace measurement, x-height, and advance-width bands; this is not proof of visual distinction.",
+    "open_evidence_requested": false
+  },
+  "alternatives": [
+    {
+      "option": "single_family",
+      "advice": "Compare a single family's observed styles before adding a second typeface; additional fonts are not inherently an improvement."
+    },
+    {
+      "option": "keep_existing",
+      "advice": "Keeping the current typography is a valid outcome. Supply existing_id to include an exact catalog face as the comparison baseline."
+    }
+  ],
+  "limitations": [
+    "Rankings are transparent starting preferences. No font was visually judged by this search.",
+    "Render the selected exact faces on project text at intended sizes. Coverage alone cannot establish legibility, shaping, personality, or good pairing.",
+    "Metadata categories and family groupings may be imperfect. Available styles describe this collection, not a complete upstream family.",
+    "Unknown rights remain unknown. Embedded open-license evidence is not legal clearance; review source and license evidence before distribution."
+  ]
+}

@@ -1,0 +1,4212 @@
+{
+  "schema_version": 1,
+  "kind": "exact-font-comparison",
+  "text": "The river remembers. Chapter 04 — Field notes.",
+  "text_sha256": "1ac58412c71d3d82d68059e69a342c9d67c136a58817bc5c3d2436732e93578d",
+  "original_text_sha256": "1ac58412c71d3d82d68059e69a342c9d67c136a58817bc5c3d2436732e93578d",
+  "text_transformations": [],
+  "settings": {
+    "sizes_px": [
+      16,
+      20,
+      32
+    ],
+    "requested_width_px": 1440,
+    "axes": {
+      "3c490fbc8b3578f595c4cbd441e9beba59560cc4525531e47cbcea770009f1b3:0": {},
+      "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2:0": {},
+      "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a:0": {}
+    },
+    "features": {},
+    "feature_defaults": "HarfBuzz/OpenType defaults remain enabled unless explicitly overridden",
+    "direction": "inferred per line; same-direction LTR scripts itemized",
+    "language": "und",
+    "input_runs": [
+      {
+        "scripts": [
+          "Latn"
+        ],
+        "direction": "ltr"
+      }
+    ],
+    "wrap": "whitespace boundaries only; text preserved"
+  },
+  "renderer": {
+    "backend": "HarfBuzz shaping + native FreeType grayscale outline rasterization",
+    "harfbuzz": "12.1.0",
+    "freetype": "2.13.2",
+    "freetype_py": "2.5.1",
+    "uharfbuzz": "0.52.0",
+    "fonttools": "4.60.2",
+    "pillow": "11.3.0",
+    "python": "3.12.13",
+    "supersampling": 4,
+    "downsampling": "Lanczos",
+    "hinting": "none",
+    "position_quantization_px": 0.25,
+    "labels": "Pillow bundled default font; labels are separate from candidate specimens"
+  },
+  "no_fallback": {
+    "verified": true,
+    "system_font_lookup": false,
+    "glyph_zero_count": 0,
+    "statement": "Every specimen glyph is shaped by HarfBuzz and drawn by FreeType from its exact verified source face. No system lookup, substitute font, or fallback font is used. Labels and page UI are separate."
+  },
+  "limitations": [
+    "Specimens use unhinted monochrome outlines; they do not predict browser, game engine, printer, or OS text rasterization.",
+    "LTR scripts are itemized in source order; Common/Inherited characters follow neighboring script runs. Bidirectional paragraphs, mixed-script RTL lines, vertical writing, Unicode variation selectors, and color/bitmap fonts are rejected.",
+    "Line wrapping preserves whitespace and does not implement language-specific hyphenation. All ink bounds receive padding; oversized output is rejected instead of clipped.",
+    "Nonvisual evidence describes measured geometry, coverage, shaping, and settings. It does not claim aesthetic quality, accessibility, or licensing clearance."
+  ],
+  "fonts": [
+    {
+      "id": "3c490fbc8b3578f595c4cbd441e9beba59560cc4525531e47cbcea770009f1b3:0",
+      "family": "Noto Serif",
+      "style": "SemiCondensed",
+      "sha256": "3c490fbc8b3578f595c4cbd441e9beba59560cc4525531e47cbcea770009f1b3",
+      "face_index": 0,
+      "source_bytes": 373264,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Foundries/Google/Noto/Serif-Unhinted/NotoSerif-SemiCondensed.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Foundries/Google/Noto/Serif-Unhinted/NotoSerif-SemiCondensed.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright 2015 Google Inc. All Rights Reserved."
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "Noto is a trademark of Google Inc."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Monotype Imaging Inc."
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Monotype Design Team"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "http://www.google.com/get/noto/"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "http://scripts.sil.org/OFL"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": [
+          {
+            "source_id": "bekah",
+            "path": "Foundries/Google/Noto/Serif-Unhinted/LICENSE_OFL.txt",
+            "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+            "scope": "nearby-file; applicability unverified"
+          }
+        ]
+      },
+      "axes": {},
+      "axis_value_sources": {},
+      "coverage": {
+        "required_codepoints": [
+          32,
+          46,
+          48,
+          52,
+          67,
+          70,
+          84,
+          97,
+          98,
+          100,
+          101,
+          104,
+          105,
+          108,
+          109,
+          110,
+          111,
+          112,
+          114,
+          115,
+          116,
+          118,
+          8212
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "decompressed_in_memory": false,
+      "outline_tables": [
+        "glyf"
+      ],
+      "measurements": [
+        {
+          "size_px": 16,
+          "line_count": 1,
+          "line_height_px": 21.76,
+          "ascender_px": 17.088,
+          "descender_px": 4.672,
+          "ink_bounds_px": [
+            0.25,
+            4.75,
+            339.25,
+            21.0
+          ],
+          "canvas_px": [
+            348,
+            30
+          ],
+          "ink_offset_px": [
+            4.0,
+            4.0
+          ],
+          "clipped": false,
+          "overflow_handling": "canvas expands to include all ink; whitespace wrapping; 4096px unbreakable-line limit",
+          "mask_sha256": "2a0e38bea5286c675fbb5130695eebee5230dc133099673a11ff989c3dc21328",
+          "lines": [
+            {
+              "text": "The river remembers. Chapter 04 — Field notes.",
+              "direction": "ltr",
+              "script": "Latn",
+              "language": "und",
+              "script_runs": [
+                {
+                  "start": 0,
+                  "end": 46,
+                  "script": "Latn",
+                  "direction": "ltr",
+                  "glyph_count": 46
+                }
+              ],
+              "glyphs": [
+                {
+                  "glyph_id": 55,
+                  "cluster": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "x_advance": 9.104000000000001,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 1,
+                  "x": 9.104000000000001,
+                  "y": 0.0,
+                  "x_advance": 9.424,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 2,
+                  "x": 18.528,
+                  "y": 0.0,
+                  "x_advance": 7.952,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 3,
+                  "x": 26.48,
+                  "y": 0.0,
+                  "x_advance": 3.84,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 4,
+                  "x": 30.32,
+                  "y": 0.0,
+                  "x_advance": 7.024,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 5,
+                  "x": 37.344,
+                  "y": 0.0,
+                  "x_advance": 4.768,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 89,
+                  "cluster": 6,
+                  "x": 42.112,
+                  "y": 0.0,
+                  "x_advance": 8.592,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 7,
+                  "x": 50.704,
+                  "y": 0.0,
+                  "x_advance": 7.952,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 8,
+                  "x": 58.656,
+                  "y": 0.0,
+                  "x_advance": 7.024,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 9,
+                  "x": 65.68,
+                  "y": 0.0,
+                  "x_advance": 3.84,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 10,
+                  "x": 69.52,
+                  "y": 0.0,
+                  "x_advance": 7.024,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 11,
+                  "x": 76.544,
+                  "y": 0.0,
+                  "x_advance": 7.952,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 12,
+                  "x": 84.496,
+                  "y": 0.0,
+                  "x_advance": 14.0,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 13,
+                  "x": 98.496,
+                  "y": 0.0,
+                  "x_advance": 7.952,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 14,
+                  "x": 106.44800000000001,
+                  "y": 0.0,
+                  "x_advance": 14.0,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 69,
+                  "cluster": 15,
+                  "x": 120.44800000000001,
+                  "y": 0.0,
+                  "x_advance": 9.120000000000001,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 16,
+                  "x": 129.568,
+                  "y": 0.0,
+                  "x_advance": 7.952,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 17,
+                  "x": 137.52,
+                  "y": 0.0,
+                  "x_advance": 7.024,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 18,
+                  "x": 144.544,
+                  "y": 0.0,
+                  "x_advance": 6.688,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 19,
+                  "x": 151.232,
+                  "y": 0.0,
+                  "x_advance": 3.744,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 20,
+                  "x": 154.976,
+                  "y": 0.0,
+                  "x_advance": 3.84,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 38,
+                  "cluster": 21,
+                  "x": 158.816,
+                  "y": 0.0,
+                  "x_advance": 9.136000000000001,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 22,
+                  "x": 167.952,
+                  "y": 0.0,
+                  "x_advance": 9.424,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 68,
+                  "cluster": 23,
+                  "x": 177.376,
+                  "y": 0.0,
+                  "x_advance": 8.368,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 83,
+                  "cluster": 24,
+                  "x": 185.744,
+                  "y": 0.0,
+                  "x_advance": 9.120000000000001,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 25,
+                  "x": 194.864,
+                  "y": 0.0,
+                  "x_advance": 5.28,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 26,
+                  "x": 200.144,
+                  "y": 0.0,
+                  "x_advance": 7.952,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 27,
+                  "x": 208.096,
+                  "y": 0.0,
+                  "x_advance": 7.024,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 28,
+                  "x": 215.12,
+                  "y": 0.0,
+                  "x_advance": 3.84,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 19,
+                  "cluster": 29,
+                  "x": 218.96,
+                  "y": 0.0,
+                  "x_advance": 8.256,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 23,
+                  "cluster": 30,
+                  "x": 227.216,
+                  "y": 0.0,
+                  "x_advance": 8.256,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 31,
+                  "x": 235.472,
+                  "y": 0.0,
+                  "x_advance": 3.84,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 514,
+                  "cluster": 32,
+                  "x": 239.312,
+                  "y": 0.0,
+                  "x_advance": 16.0,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 33,
+                  "x": 255.312,
+                  "y": 0.0,
+                  "x_advance": 3.84,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 41,
+                  "cluster": 34,
+                  "x": 259.152,
+                  "y": 0.0,
+                  "x_advance": 8.752,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 35,
+                  "x": 267.904,
+                  "y": 0.0,
+                  "x_advance": 4.768,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 36,
+                  "x": 272.672,
+                  "y": 0.0,
+                  "x_advance": 7.952,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 79,
+                  "cluster": 37,
+                  "x": 280.624,
+                  "y": 0.0,
+                  "x_advance": 4.624,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 71,
+                  "cluster": 38,
+                  "x": 285.248,
+                  "y": 0.0,
+                  "x_advance": 9.120000000000001,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 39,
+                  "x": 294.368,
+                  "y": 0.0,
+                  "x_advance": 3.84,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 81,
+                  "cluster": 40,
+                  "x": 298.208,
+                  "y": 0.0,
+                  "x_advance": 9.552,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 82,
+                  "cluster": 41,
+                  "x": 307.76,
+                  "y": 0.0,
+                  "x_advance": 8.576,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 42,
+                  "x": 316.336,
+                  "y": 0.0,
+                  "x_advance": 5.28,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 43,
+                  "x": 321.616,
+                  "y": 0.0,
+                  "x_advance": 7.952,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 44,
+                  "x": 329.568,
+                  "y": 0.0,
+                  "x_advance": 6.688,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 45,
+                  "x": 336.25600000000003,
+                  "y": 0.0,
+                  "x_advance": 3.744,
+                  "y_advance": 0.0
+                }
+              ],
+              "advance_px": [
+                340.0,
+                0.0
+              ],
+              "paragraph": 0,
+              "baseline_px": 17.088,
+              "ink_bounds_px": [
+                0.25,
+                4.75,
+                339.25,
+                21.0
+              ]
+            }
+          ]
+        },
+        {
+          "size_px": 20,
+          "line_count": 1,
+          "line_height_px": 27.2,
+          "ascender_px": 21.36,
+          "descender_px": 5.84,
+          "ink_bounds_px": [
+            0.25,
+            6.0,
+            424.0,
+            26.25
+          ],
+          "canvas_px": [
+            433,
+            36
+          ],
+          "ink_offset_px": [
+            4.0,
+            4.0
+          ],
+          "clipped": false,
+          "overflow_handling": "canvas expands to include all ink; whitespace wrapping; 4096px unbreakable-line limit",
+          "mask_sha256": "ccee6fc8f09da0050b8e15365703bc0147a405dd0785542fcbbbb58e79a8a07c",
+          "lines": [
+            {
+              "text": "The river remembers. Chapter 04 — Field notes.",
+              "direction": "ltr",
+              "script": "Latn",
+              "language": "und",
+              "script_runs": [
+                {
+                  "start": 0,
+                  "end": 46,
+                  "script": "Latn",
+                  "direction": "ltr",
+                  "glyph_count": 46
+                }
+              ],
+              "glyphs": [
+                {
+                  "glyph_id": 55,
+                  "cluster": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "x_advance": 11.38,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 1,
+                  "x": 11.38,
+                  "y": 0.0,
+                  "x_advance": 11.78,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 2,
+                  "x": 23.16,
+                  "y": 0.0,
+                  "x_advance": 9.94,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 3,
+                  "x": 33.1,
+                  "y": 0.0,
+                  "x_advance": 4.8,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 4,
+                  "x": 37.9,
+                  "y": 0.0,
+                  "x_advance": 8.78,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 5,
+                  "x": 46.68,
+                  "y": 0.0,
+                  "x_advance": 5.96,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 89,
+                  "cluster": 6,
+                  "x": 52.64,
+                  "y": 0.0,
+                  "x_advance": 10.74,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 7,
+                  "x": 63.38,
+                  "y": 0.0,
+                  "x_advance": 9.94,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 8,
+                  "x": 73.32000000000001,
+                  "y": 0.0,
+                  "x_advance": 8.78,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 9,
+                  "x": 82.10000000000001,
+                  "y": 0.0,
+                  "x_advance": 4.8,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 10,
+                  "x": 86.9,
+                  "y": 0.0,
+                  "x_advance": 8.78,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 11,
+                  "x": 95.68,
+                  "y": 0.0,
+                  "x_advance": 9.94,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 12,
+                  "x": 105.62,
+                  "y": 0.0,
+                  "x_advance": 17.5,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 13,
+                  "x": 123.12,
+                  "y": 0.0,
+                  "x_advance": 9.94,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 14,
+                  "x": 133.06,
+                  "y": 0.0,
+                  "x_advance": 17.5,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 69,
+                  "cluster": 15,
+                  "x": 150.56,
+                  "y": 0.0,
+                  "x_advance": 11.4,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 16,
+                  "x": 161.96,
+                  "y": 0.0,
+                  "x_advance": 9.94,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 17,
+                  "x": 171.9,
+                  "y": 0.0,
+                  "x_advance": 8.78,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 18,
+                  "x": 180.68,
+                  "y": 0.0,
+                  "x_advance": 8.36,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 19,
+                  "x": 189.04,
+                  "y": 0.0,
+                  "x_advance": 4.68,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 20,
+                  "x": 193.72,
+                  "y": 0.0,
+                  "x_advance": 4.8,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 38,
+                  "cluster": 21,
+                  "x": 198.52,
+                  "y": 0.0,
+                  "x_advance": 11.42,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 22,
+                  "x": 209.94,
+                  "y": 0.0,
+                  "x_advance": 11.78,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 68,
+                  "cluster": 23,
+                  "x": 221.72,
+                  "y": 0.0,
+                  "x_advance": 10.46,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 83,
+                  "cluster": 24,
+                  "x": 232.18,
+                  "y": 0.0,
+                  "x_advance": 11.4,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 25,
+                  "x": 243.58,
+                  "y": 0.0,
+                  "x_advance": 6.6000000000000005,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 26,
+                  "x": 250.18,
+                  "y": 0.0,
+                  "x_advance": 9.94,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 27,
+                  "x": 260.12,
+                  "y": 0.0,
+                  "x_advance": 8.78,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 28,
+                  "x": 268.9,
+                  "y": 0.0,
+                  "x_advance": 4.8,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 19,
+                  "cluster": 29,
+                  "x": 273.7,
+                  "y": 0.0,
+                  "x_advance": 10.32,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 23,
+                  "cluster": 30,
+                  "x": 284.02,
+                  "y": 0.0,
+                  "x_advance": 10.32,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 31,
+                  "x": 294.34000000000003,
+                  "y": 0.0,
+                  "x_advance": 4.8,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 514,
+                  "cluster": 32,
+                  "x": 299.14,
+                  "y": 0.0,
+                  "x_advance": 20.0,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 33,
+                  "x": 319.14,
+                  "y": 0.0,
+                  "x_advance": 4.8,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 41,
+                  "cluster": 34,
+                  "x": 323.94,
+                  "y": 0.0,
+                  "x_advance": 10.94,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 35,
+                  "x": 334.88,
+                  "y": 0.0,
+                  "x_advance": 5.96,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 36,
+                  "x": 340.84000000000003,
+                  "y": 0.0,
+                  "x_advance": 9.94,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 79,
+                  "cluster": 37,
+                  "x": 350.78000000000003,
+                  "y": 0.0,
+                  "x_advance": 5.78,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 71,
+                  "cluster": 38,
+                  "x": 356.56,
+                  "y": 0.0,
+                  "x_advance": 11.4,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 39,
+                  "x": 367.96,
+                  "y": 0.0,
+                  "x_advance": 4.8,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 81,
+                  "cluster": 40,
+                  "x": 372.76,
+                  "y": 0.0,
+                  "x_advance": 11.94,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 82,
+                  "cluster": 41,
+                  "x": 384.7,
+                  "y": 0.0,
+                  "x_advance": 10.72,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 42,
+                  "x": 395.42,
+                  "y": 0.0,
+                  "x_advance": 6.6000000000000005,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 43,
+                  "x": 402.02,
+                  "y": 0.0,
+                  "x_advance": 9.94,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 44,
+                  "x": 411.96000000000004,
+                  "y": 0.0,
+                  "x_advance": 8.36,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 45,
+                  "x": 420.32,
+                  "y": 0.0,
+                  "x_advance": 4.68,
+                  "y_advance": 0.0
+                }
+              ],
+              "advance_px": [
+                425.0,
+                0.0
+              ],
+              "paragraph": 0,
+              "baseline_px": 21.36,
+              "ink_bounds_px": [
+                0.25,
+                6.0,
+                424.0,
+                26.25
+              ]
+            }
+          ]
+        },
+        {
+          "size_px": 32,
+          "line_count": 1,
+          "line_height_px": 43.52,
+          "ascender_px": 34.176,
+          "descender_px": 9.344,
+          "ink_bounds_px": [
+            0.5,
+            9.75,
+            678.25,
+            42.0
+          ],
+          "canvas_px": [
+            688,
+            52
+          ],
+          "ink_offset_px": [
+            4.0,
+            4.0
+          ],
+          "clipped": false,
+          "overflow_handling": "canvas expands to include all ink; whitespace wrapping; 4096px unbreakable-line limit",
+          "mask_sha256": "31a453d6f785e49dd0e6aea259bb0d0c7e1ac905100ce3f84a310cd26891cdda",
+          "lines": [
+            {
+              "text": "The river remembers. Chapter 04 — Field notes.",
+              "direction": "ltr",
+              "script": "Latn",
+              "language": "und",
+              "script_runs": [
+                {
+                  "start": 0,
+                  "end": 46,
+                  "script": "Latn",
+                  "direction": "ltr",
+                  "glyph_count": 46
+                }
+              ],
+              "glyphs": [
+                {
+                  "glyph_id": 55,
+                  "cluster": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "x_advance": 18.208000000000002,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 1,
+                  "x": 18.208000000000002,
+                  "y": 0.0,
+                  "x_advance": 18.848,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 2,
+                  "x": 37.056,
+                  "y": 0.0,
+                  "x_advance": 15.904,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 3,
+                  "x": 52.96,
+                  "y": 0.0,
+                  "x_advance": 7.68,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 4,
+                  "x": 60.64,
+                  "y": 0.0,
+                  "x_advance": 14.048,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 5,
+                  "x": 74.688,
+                  "y": 0.0,
+                  "x_advance": 9.536,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 89,
+                  "cluster": 6,
+                  "x": 84.224,
+                  "y": 0.0,
+                  "x_advance": 17.184,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 7,
+                  "x": 101.408,
+                  "y": 0.0,
+                  "x_advance": 15.904,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 8,
+                  "x": 117.312,
+                  "y": 0.0,
+                  "x_advance": 14.048,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 9,
+                  "x": 131.36,
+                  "y": 0.0,
+                  "x_advance": 7.68,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 10,
+                  "x": 139.04,
+                  "y": 0.0,
+                  "x_advance": 14.048,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 11,
+                  "x": 153.088,
+                  "y": 0.0,
+                  "x_advance": 15.904,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 12,
+                  "x": 168.992,
+                  "y": 0.0,
+                  "x_advance": 28.0,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 13,
+                  "x": 196.992,
+                  "y": 0.0,
+                  "x_advance": 15.904,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 14,
+                  "x": 212.89600000000002,
+                  "y": 0.0,
+                  "x_advance": 28.0,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 69,
+                  "cluster": 15,
+                  "x": 240.89600000000002,
+                  "y": 0.0,
+                  "x_advance": 18.240000000000002,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 16,
+                  "x": 259.136,
+                  "y": 0.0,
+                  "x_advance": 15.904,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 17,
+                  "x": 275.04,
+                  "y": 0.0,
+                  "x_advance": 14.048,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 18,
+                  "x": 289.088,
+                  "y": 0.0,
+                  "x_advance": 13.376,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 19,
+                  "x": 302.464,
+                  "y": 0.0,
+                  "x_advance": 7.488,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 20,
+                  "x": 309.952,
+                  "y": 0.0,
+                  "x_advance": 7.68,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 38,
+                  "cluster": 21,
+                  "x": 317.632,
+                  "y": 0.0,
+                  "x_advance": 18.272000000000002,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 22,
+                  "x": 335.904,
+                  "y": 0.0,
+                  "x_advance": 18.848,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 68,
+                  "cluster": 23,
+                  "x": 354.752,
+                  "y": 0.0,
+                  "x_advance": 16.736,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 83,
+                  "cluster": 24,
+                  "x": 371.488,
+                  "y": 0.0,
+                  "x_advance": 18.240000000000002,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 25,
+                  "x": 389.728,
+                  "y": 0.0,
+                  "x_advance": 10.56,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 26,
+                  "x": 400.288,
+                  "y": 0.0,
+                  "x_advance": 15.904,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 27,
+                  "x": 416.192,
+                  "y": 0.0,
+                  "x_advance": 14.048,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 28,
+                  "x": 430.24,
+                  "y": 0.0,
+                  "x_advance": 7.68,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 19,
+                  "cluster": 29,
+                  "x": 437.92,
+                  "y": 0.0,
+                  "x_advance": 16.512,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 23,
+                  "cluster": 30,
+                  "x": 454.432,
+                  "y": 0.0,
+                  "x_advance": 16.512,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 31,
+                  "x": 470.944,
+                  "y": 0.0,
+                  "x_advance": 7.68,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 514,
+                  "cluster": 32,
+                  "x": 478.624,
+                  "y": 0.0,
+                  "x_advance": 32.0,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 33,
+                  "x": 510.624,
+                  "y": 0.0,
+                  "x_advance": 7.68,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 41,
+                  "cluster": 34,
+                  "x": 518.304,
+                  "y": 0.0,
+                  "x_advance": 17.504,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 35,
+                  "x": 535.808,
+                  "y": 0.0,
+                  "x_advance": 9.536,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 36,
+                  "x": 545.344,
+                  "y": 0.0,
+                  "x_advance": 15.904,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 79,
+                  "cluster": 37,
+                  "x": 561.248,
+                  "y": 0.0,
+                  "x_advance": 9.248,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 71,
+                  "cluster": 38,
+                  "x": 570.496,
+                  "y": 0.0,
+                  "x_advance": 18.240000000000002,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 39,
+                  "x": 588.736,
+                  "y": 0.0,
+                  "x_advance": 7.68,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 81,
+                  "cluster": 40,
+                  "x": 596.416,
+                  "y": 0.0,
+                  "x_advance": 19.104,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 82,
+                  "cluster": 41,
+                  "x": 615.52,
+                  "y": 0.0,
+                  "x_advance": 17.152,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 42,
+                  "x": 632.672,
+                  "y": 0.0,
+                  "x_advance": 10.56,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 43,
+                  "x": 643.232,
+                  "y": 0.0,
+                  "x_advance": 15.904,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 44,
+                  "x": 659.136,
+                  "y": 0.0,
+                  "x_advance": 13.376,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 45,
+                  "x": 672.5120000000001,
+                  "y": 0.0,
+                  "x_advance": 7.488,
+                  "y_advance": 0.0
+                }
+              ],
+              "advance_px": [
+                680.0,
+                0.0
+              ],
+              "paragraph": 0,
+              "baseline_px": 34.176,
+              "ink_bounds_px": [
+                0.5,
+                9.75,
+                678.25,
+                42.0
+              ]
+            }
+          ]
+        }
+      ],
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "image": {
+        "file": "specimen-01-3c490fbc8b35.png",
+        "sha256": "9a24676ed98e7f7fd0436ad35fd49ecef0a768d1fa6ed9daaab8462b46922c27",
+        "width": 1440,
+        "height": 573
+      }
+    },
+    {
+      "id": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2:0",
+      "family": "Untitled Serif",
+      "style": "Regular",
+      "sha256": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2",
+      "face_index": 0,
+      "source_bytes": 279048,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Foundries/Klim Type Foundry/UntitledSerif/ttf/UntitledSerif-Regular.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Foundries/Klim Type Foundry/UntitledSerif/ttf/UntitledSerif-Regular.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "unknown",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright © 2016 by Klim Type Foundry. All rights reserved-"
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "Untitled Serif is either a registered trademark or a trademark of 2011 Klim Type Foundry in New Zealand and/or other countries."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Klim Type Foundry"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Kris Sowersby"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "http://www.klim.co.nz"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "Klim Type Foundry End User Licence Agreement, v.8, November 2016\n\nDesktop Font Licence Agreement\n\nThe Terms of this End User Licence Agreement (Agreement) will apply between Klim Type Foundry (Klim) and You (You, Your, Yours) if You purchase a licence or licences to use Klim's Font Software (Fonts).\n\nWhen You purchase a Font, You are purchasing the right to use that Font under a particular set of conditions. These conditions range from, for example, how many computers the Font can be installed on, to whether it can be embedded in digital documents. It is important to read and understand this Agreement because it defines Your rights, the acceptable uses of the Fonts, and the rights Klim reserves. If You believe Your usage or need is not addressed, or if You are unsure of the meaning of any term or condition, please ask Klim before making a purchase.\n\nKlim agrees to grant You a licence or licences to use the Fonts on the terms of this Agreement and provided that You comply with these terms. This licence is not exclusive to You, may not be transferred by You, and can be revoked by Klim.\n\nIf You are a parent company purchasing the Fonts for a wholly or partly owned subsidiary, You must ensure Your subsidiary complies with the terms and conditions of this Agreement. Any breach of this Agreement by Your subsidiary will be deemed a breach by You.\n\nYou agree that Klim owns all rights, including (without limitation) intellectual property rights, and title in and to the Fonts and all trademarks, registered and unregistered which are used in or in relation to the Fonts.\n\n1. Definitions.\n\n1a. “Klim” is the Klim Type Foundry, the trading brand of The Letterheads Limited.\n\n1b. “You”, “Your” and the “End User” are defined as and refer to a customer who has purchased a licence to use the Font. An End User is not defined as a distributor, reseller, dealer, sub-licensee, original equipment manufacturer (“OEM”), wholesale buyer or any similar entity. Klim Fonts and products may not be distributed and/or sold to third parties without prior written consent from Klim.\n\n1c. “Font”, “Fonts” or “Font Software” have identical meanings in this agreement. They are defined as the designs of the Fonts and the Software identified on Your Sales Receipt that produces a typeface design(s) together with any other artworks that may be associated with the Font.\n\n1d. “Sales Receipt” means the electronic document You receive as confirmation of the Fonts purchased.\n\n2. Permitted Uses and Restrictions.\n\n2a. Installation\n\nThe Fonts may be installed and used on the number of computing devices identified on Your Sales Receipt. For example, the purchase of a 1-3 CPU Licence allows for the installation and use of the Font on up to three (3) computing devices. Fonts may not be stored or used in any manner that makes them accessible to the public or non-licensed third parties. For the purposes of clarity, this licence is for individual users or organisations purchasing for employees only. Under no circumstances may the licensed Fonts be shared with contractors, freelance employees, or affiliates. You may add more computing devices to Your licence by purchasing additional licences.\n\n2b. Servers\n\nYou may install the Fonts on a single file server for use on a local area network (“LAN”) within Your business or household. The number of computing devices that can access the Fonts on the server must not exceed the number of computing devices identified on Your Sales Receipt.\n\n2c. Font File Protection\n\nYou agree to use reasonable measures to protect the Fonts from access and use by unlicensed third-parties. If You discover or are made aware of any unauthorised access and/or use by an unlicensed third party, You agree to notify Klim as soon as is reasonable.\n\n2d. Authorised Use\n\nAuthorised uses of the Fonts include: the production of paper publications like newspapers, books and magazines; print advertising; vinyl or printed signage; logos and logotypes; newsletters and annual reports; images for print and web; embedding in ePub publications. You agree to indemnify Klim for any third party claim that arises as a result of any unauthorised use by You of the Fonts.\n\n2e. Service Bureau/Printers\n\nTo reproduce a particular document, You may provide a copy of the specified Fonts to a commercial printer or service bureau. Afterwards, the printer or service bureau must destroy the copies of the Fonts and You agree to take reasonable steps to ensure this happens.\n\n2f. Back-up Copies\n\nYou may make one (1) copy of the Fonts for back-up purposes only. Copies must contain the same documentation, copyright, trademark, and other proprietary notices that appear on, in or with the Fonts. You must keep this back-up copy secure and must not allow any third party to have access to it. You will indemnify Klim for all costs, damages or losses incurred as a result of Your failure to comply with this clause. If You discover or are made aware of any unauthorised access and/or use of the back-up copy by an unlicensed third party, You agree to notify Klim as soon as is reasonable.\n\n2g. Embedding of Fonts\n\nThe embedding of Fonts into digital documents, like PDFs, is permitted so long as i) the Font Software is subset, ii) the document text can be viewed and printed but not edited, and iii) reasonable measures are taken to ensure recipients of such documents cannot extract or use the embedded Fonts. Rasterized copies of images showing the Font are permitted provided the images do not result in all or substantially all of the characters comprising the Font. If the resulting images show most or all of the Font characters, a rasterized showing of the Font is not permitted.\n\n2h. Web Fonts, @font-face and Font Linking\n\nUsing Klim Fonts with the CSS rule @font-face, Cufón, or other forms of font linking, regardless of format, are strictly prohibited under this Agreement. A separate Web Font licence and accompanying software is available from Klim for this purpose.\n\n2i. Apps, Games, Hardware and Software\n\nThis licence expressly prohibits the embedding, inclusion, calling or linking of the Fonts within hardware and software in any form whatsoever. This includes, but is not limited to, video games, server-side applications, online document creation, mobile apps, kiosks, and OEM products or software. If You wish to use the Fonts for such purposes, contact Klim to discuss. Notwithstanding, rasterized images of limited text and/or logos created using the Font Software are permitted.\n\n2j. Modifications\n\nYou may create outline artworks based upon the Fonts for Your personal or business use. However, the use of any font creation or font manipulation program or any attempt to modify the Font for the purposes of creating a usable, derivative or substitute version of the Font is prohibited. Under no circumstances may You modify, adapt, translate, reverse engineer, decompile, disassemble, alter, or otherwise attempt to discover the source code of the Fonts or the designs embodied therein. You further agree not to commission or authorise any third party to undertake modifications to the Fonts without prior written consent from Klim. Consent may or may not be granted at Klim's sole discretion.\n\n2k. Restriction of Alphabet Products\n\nThis licence expressly prohibits the use of the Fonts in the creation of alphabet products such as, but not limited to: house numbers, stamp sets, rub-on letters, adhesive alphabet letters, alphabet punch and die sets or other methods for use in making such products. If You wish to use the Fonts for such purposes, contact Klim to discuss.\n\n3. Rights Reserved\n\n3a. You expressly acknowledge that the Font Software, the designs embodied therein, the trade names and/or trademarks and copyrights associated therewith are each the exclusive property of Klim. All rights not expressly granted under this licence are reserved to Klim.\n\n3b. You agree that the Fonts and the design of the Fonts embodied therein are owned by Klim and the Fonts' structure, organisation and code are the valuable trade secrets of Klim. You acknowledge that the Fonts are, among other means, protected under New Zealand trademark and/or copyright law, by the trademark and/or copyright and design laws of other nations, and by international treaties.\n\n3c. At Klim's request, You agree to provide an audit to confirm the Desktop Fonts You are consuming match Your Sales Receipt. Klim will give You at least 5 business days' notice to complete the audit.\n\n4. Warranties and Limitations\n\n4a. Klim represents and warrants that the Fonts will perform substantially in accordance with the representations made herein. To make a warranty claim, You must notify the source from which You obtained the Fonts together with a copy of Your Sales Receipt. If the Font does not perform substantially in accordance with the representations, the entire and exclusive liability and remedy shall be limited to the replacement of the Font Software or the refund of the licence fee You paid for the Fonts, as an authorised officer of Klim may elect. Klim and its suppliers do not and cannot warrant the performance or results You may obtain by using the Fonts. It is Your responsibility to ensure that the Fonts are fit for Your purpose.\n\n4b. Klim expressly disclaims all warranties, express and implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. Klim does not warrant that the operation of the Fonts will be unimpeded, uninterrupted or error-free, or that the Fonts are without defects. Without limiting the foregoing under no circumstances shall Klim be liable to You or any other party, whether in contract or tort (including negligence) or otherwise, for any indirect losses, special, consequential, or incidental damages, including lost profits, lost savings, loss of data, or business interruption as a result of the use of or the inability to use the Fonts even if notified in advance of such possibility.\n\n4c. If You are a business or in trade and the Fonts are acquired for use in business or in trade, You agree to contract out of the provisions of the Consumer Guarantees Act 1993 and sections 9, 12A and 13 of the Fair Trading Act 1986, to the effect that those provisions shall have no effect between Klim and You under this Agreement.\n\n5. Termination\n\nAny breach of the terms of this Agreement shall be cause for immediate termination without the obligation of notice or opportunity to cure. Klim shall be entitled to seek any and all remedies under law or equity, without limitation, including injunctive relief without the obligation of posting security or bond. You agree to immediately discontinue using and delete the Fonts and certify that no copy remains in Your possession or control.\n\n6. Dispute Resolution\n\nAny dispute or difference arising out of or in connection with this Agreement will be referred to and finally resolved by arbitration in New Zealand in accordance with New Zealand law and the current Arbitration Protocol of the Arbitrators' and Mediators' Institute of New Zealand Inc. The arbitration shall be by one arbitrator to be agreed upon by both You and Klim and if both parties cannot agree within twenty-one (21) days from the date upon which the dispute arises then an arbitrator will be appointed by the President of the Arbitrators' and Mediators' Institute of New Zealand Inc.\n\n7. Choice of Law and Agreements\n\n7a. You agree that this Agreement between Klim and You was formed in Wellington, New Zealand, and any cause of action arising from it, arises in Wellington, New Zealand and will be governed by and construed in accordance with the laws of New Zealand and within the exclusive jurisdiction of the New Zealand courts.\n\n7b. Klim may at any time amend the terms under which it licences the use of the Fonts to You. Klim will make such amended terms available at www.klim.co.nz. You agree that Your continued use of the Desktop Fonts means You accept the amended terms. Non-acceptance of the amended terms terminates this Agreement.\n\n7c. This Agreement embodies the entire understanding between Klim and You and supersedes all prior arrangements or understandings. If an applicable Court declares any part of it to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.\n\n8. Contact\n\nAll inquiries of Klim may be sent by email to quickbrownfox@klim.co.nz. The Klim Type Foundry website is located at www.klim.co.nz."
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "https://www.klim.co.nz/blog/licensing-information"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": []
+      },
+      "axes": {},
+      "axis_value_sources": {},
+      "coverage": {
+        "required_codepoints": [
+          32,
+          46,
+          48,
+          52,
+          67,
+          70,
+          84,
+          97,
+          98,
+          100,
+          101,
+          104,
+          105,
+          108,
+          109,
+          110,
+          111,
+          112,
+          114,
+          115,
+          116,
+          118,
+          8212
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "decompressed_in_memory": false,
+      "outline_tables": [
+        "glyf"
+      ],
+      "measurements": [
+        {
+          "size_px": 16,
+          "line_count": 1,
+          "line_height_px": 21.6,
+          "ascender_px": 15.6719,
+          "descender_px": 4.0156,
+          "ink_bounds_px": [
+            0.25,
+            4.0,
+            332.75,
+            19.25
+          ],
+          "canvas_px": [
+            343,
+            28
+          ],
+          "ink_offset_px": [
+            4.0,
+            4.0
+          ],
+          "clipped": false,
+          "overflow_handling": "canvas expands to include all ink; whitespace wrapping; 4096px unbreakable-line limit",
+          "mask_sha256": "13d8afafc5667e39f36895cb6788bb51eddd10651eb38febf83f0f02cdba729f",
+          "lines": [
+            {
+              "text": "The river remembers. Chapter 04 — Field notes.",
+              "direction": "ltr",
+              "script": "Latn",
+              "language": "und",
+              "script_runs": [
+                {
+                  "start": 0,
+                  "end": 46,
+                  "script": "Latn",
+                  "direction": "ltr",
+                  "glyph_count": 46
+                }
+              ],
+              "glyphs": [
+                {
+                  "glyph_id": 55,
+                  "cluster": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "x_advance": 10.46875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 1,
+                  "x": 10.46875,
+                  "y": 0.0,
+                  "x_advance": 8.90625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 2,
+                  "x": 19.375,
+                  "y": 0.0,
+                  "x_advance": 7.46875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 3,
+                  "x": 26.84375,
+                  "y": 0.0,
+                  "x_advance": 3.4375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 4,
+                  "x": 30.28125,
+                  "y": 0.0,
+                  "x_advance": 6.484375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 5,
+                  "x": 36.765625,
+                  "y": 0.0,
+                  "x_advance": 4.34375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 89,
+                  "cluster": 6,
+                  "x": 41.109375,
+                  "y": 0.0,
+                  "x_advance": 7.890625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 7,
+                  "x": 49.0,
+                  "y": 0.0,
+                  "x_advance": 7.46875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 8,
+                  "x": 56.46875,
+                  "y": 0.0,
+                  "x_advance": 6.484375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 9,
+                  "x": 62.953125,
+                  "y": 0.0,
+                  "x_advance": 3.4375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 10,
+                  "x": 66.390625,
+                  "y": 0.0,
+                  "x_advance": 6.484375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 11,
+                  "x": 72.875,
+                  "y": 0.0,
+                  "x_advance": 7.46875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 12,
+                  "x": 80.34375,
+                  "y": 0.0,
+                  "x_advance": 13.328125,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 13,
+                  "x": 93.671875,
+                  "y": 0.0,
+                  "x_advance": 7.46875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 14,
+                  "x": 101.140625,
+                  "y": 0.0,
+                  "x_advance": 13.328125,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 69,
+                  "cluster": 15,
+                  "x": 114.46875,
+                  "y": 0.0,
+                  "x_advance": 8.46875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 16,
+                  "x": 122.9375,
+                  "y": 0.0,
+                  "x_advance": 7.46875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 17,
+                  "x": 130.40625,
+                  "y": 0.0,
+                  "x_advance": 6.484375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 18,
+                  "x": 136.890625,
+                  "y": 0.0,
+                  "x_advance": 6.703125,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 19,
+                  "x": 143.59375,
+                  "y": 0.0,
+                  "x_advance": 5.09375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 20,
+                  "x": 148.6875,
+                  "y": 0.0,
+                  "x_advance": 3.4375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 38,
+                  "cluster": 21,
+                  "x": 152.125,
+                  "y": 0.0,
+                  "x_advance": 9.859375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 22,
+                  "x": 161.984375,
+                  "y": 0.0,
+                  "x_advance": 8.90625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 68,
+                  "cluster": 23,
+                  "x": 170.890625,
+                  "y": 0.0,
+                  "x_advance": 7.796875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 83,
+                  "cluster": 24,
+                  "x": 178.6875,
+                  "y": 0.0,
+                  "x_advance": 8.71875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 25,
+                  "x": 187.40625,
+                  "y": 0.0,
+                  "x_advance": 5.84375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 26,
+                  "x": 193.25,
+                  "y": 0.0,
+                  "x_advance": 7.46875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 27,
+                  "x": 200.71875,
+                  "y": 0.0,
+                  "x_advance": 6.484375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 28,
+                  "x": 207.203125,
+                  "y": 0.0,
+                  "x_advance": 3.4375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 19,
+                  "cluster": 29,
+                  "x": 210.640625,
+                  "y": 0.0,
+                  "x_advance": 9.21875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 23,
+                  "cluster": 30,
+                  "x": 219.859375,
+                  "y": 0.0,
+                  "x_advance": 9.703125,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 31,
+                  "x": 229.5625,
+                  "y": 0.0,
+                  "x_advance": 3.4375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 340,
+                  "cluster": 32,
+                  "x": 233.0,
+                  "y": 0.0,
+                  "x_advance": 17.828125,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 33,
+                  "x": 250.828125,
+                  "y": 0.0,
+                  "x_advance": 3.4375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 41,
+                  "cluster": 34,
+                  "x": 254.265625,
+                  "y": 0.0,
+                  "x_advance": 9.453125,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 35,
+                  "x": 263.71875,
+                  "y": 0.0,
+                  "x_advance": 4.34375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 36,
+                  "x": 268.0625,
+                  "y": 0.0,
+                  "x_advance": 7.46875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 79,
+                  "cluster": 37,
+                  "x": 275.53125,
+                  "y": 0.0,
+                  "x_advance": 4.34375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 71,
+                  "cluster": 38,
+                  "x": 279.875,
+                  "y": 0.0,
+                  "x_advance": 8.65625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 39,
+                  "x": 288.53125,
+                  "y": 0.0,
+                  "x_advance": 3.4375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 81,
+                  "cluster": 40,
+                  "x": 291.96875,
+                  "y": 0.0,
+                  "x_advance": 8.984375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 82,
+                  "cluster": 41,
+                  "x": 300.953125,
+                  "y": 0.0,
+                  "x_advance": 8.09375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 42,
+                  "x": 309.046875,
+                  "y": 0.0,
+                  "x_advance": 5.84375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 43,
+                  "x": 314.890625,
+                  "y": 0.0,
+                  "x_advance": 7.46875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 44,
+                  "x": 322.359375,
+                  "y": 0.0,
+                  "x_advance": 6.703125,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 45,
+                  "x": 329.0625,
+                  "y": 0.0,
+                  "x_advance": 5.09375,
+                  "y_advance": 0.0
+                }
+              ],
+              "advance_px": [
+                334.15625,
+                0.0
+              ],
+              "paragraph": 0,
+              "baseline_px": 15.671875,
+              "ink_bounds_px": [
+                0.25,
+                4.0,
+                332.75,
+                19.25
+              ]
+            }
+          ]
+        },
+        {
+          "size_px": 20,
+          "line_count": 1,
+          "line_height_px": 27.0,
+          "ascender_px": 19.5898,
+          "descender_px": 5.0195,
+          "ink_bounds_px": [
+            0.25,
+            4.75,
+            416.0,
+            23.75
+          ],
+          "canvas_px": [
+            426,
+            33
+          ],
+          "ink_offset_px": [
+            4.0,
+            4.0
+          ],
+          "clipped": false,
+          "overflow_handling": "canvas expands to include all ink; whitespace wrapping; 4096px unbreakable-line limit",
+          "mask_sha256": "df90ff405d881543c3dcd43b2d3a100dc677f05269c8c507766c41bcb4bbdf7a",
+          "lines": [
+            {
+              "text": "The river remembers. Chapter 04 — Field notes.",
+              "direction": "ltr",
+              "script": "Latn",
+              "language": "und",
+              "script_runs": [
+                {
+                  "start": 0,
+                  "end": 46,
+                  "script": "Latn",
+                  "direction": "ltr",
+                  "glyph_count": 46
+                }
+              ],
+              "glyphs": [
+                {
+                  "glyph_id": 55,
+                  "cluster": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "x_advance": 13.0859375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 1,
+                  "x": 13.0859375,
+                  "y": 0.0,
+                  "x_advance": 11.1328125,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 2,
+                  "x": 24.21875,
+                  "y": 0.0,
+                  "x_advance": 9.3359375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 3,
+                  "x": 33.5546875,
+                  "y": 0.0,
+                  "x_advance": 4.296875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 4,
+                  "x": 37.8515625,
+                  "y": 0.0,
+                  "x_advance": 8.10546875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 5,
+                  "x": 45.95703125,
+                  "y": 0.0,
+                  "x_advance": 5.4296875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 89,
+                  "cluster": 6,
+                  "x": 51.38671875,
+                  "y": 0.0,
+                  "x_advance": 9.86328125,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 7,
+                  "x": 61.25,
+                  "y": 0.0,
+                  "x_advance": 9.3359375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 8,
+                  "x": 70.5859375,
+                  "y": 0.0,
+                  "x_advance": 8.10546875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 9,
+                  "x": 78.69140625,
+                  "y": 0.0,
+                  "x_advance": 4.296875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 10,
+                  "x": 82.98828125,
+                  "y": 0.0,
+                  "x_advance": 8.10546875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 11,
+                  "x": 91.09375,
+                  "y": 0.0,
+                  "x_advance": 9.3359375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 12,
+                  "x": 100.4296875,
+                  "y": 0.0,
+                  "x_advance": 16.66015625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 13,
+                  "x": 117.08984375,
+                  "y": 0.0,
+                  "x_advance": 9.3359375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 14,
+                  "x": 126.42578125,
+                  "y": 0.0,
+                  "x_advance": 16.66015625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 69,
+                  "cluster": 15,
+                  "x": 143.0859375,
+                  "y": 0.0,
+                  "x_advance": 10.5859375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 16,
+                  "x": 153.671875,
+                  "y": 0.0,
+                  "x_advance": 9.3359375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 17,
+                  "x": 163.0078125,
+                  "y": 0.0,
+                  "x_advance": 8.10546875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 18,
+                  "x": 171.11328125,
+                  "y": 0.0,
+                  "x_advance": 8.37890625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 19,
+                  "x": 179.4921875,
+                  "y": 0.0,
+                  "x_advance": 6.3671875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 20,
+                  "x": 185.859375,
+                  "y": 0.0,
+                  "x_advance": 4.296875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 38,
+                  "cluster": 21,
+                  "x": 190.15625,
+                  "y": 0.0,
+                  "x_advance": 12.32421875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 22,
+                  "x": 202.48046875,
+                  "y": 0.0,
+                  "x_advance": 11.1328125,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 68,
+                  "cluster": 23,
+                  "x": 213.61328125,
+                  "y": 0.0,
+                  "x_advance": 9.74609375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 83,
+                  "cluster": 24,
+                  "x": 223.359375,
+                  "y": 0.0,
+                  "x_advance": 10.8984375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 25,
+                  "x": 234.2578125,
+                  "y": 0.0,
+                  "x_advance": 7.3046875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 26,
+                  "x": 241.5625,
+                  "y": 0.0,
+                  "x_advance": 9.3359375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 27,
+                  "x": 250.8984375,
+                  "y": 0.0,
+                  "x_advance": 8.10546875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 28,
+                  "x": 259.00390625,
+                  "y": 0.0,
+                  "x_advance": 4.296875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 19,
+                  "cluster": 29,
+                  "x": 263.30078125,
+                  "y": 0.0,
+                  "x_advance": 11.5234375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 23,
+                  "cluster": 30,
+                  "x": 274.82421875,
+                  "y": 0.0,
+                  "x_advance": 12.12890625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 31,
+                  "x": 286.953125,
+                  "y": 0.0,
+                  "x_advance": 4.296875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 340,
+                  "cluster": 32,
+                  "x": 291.25,
+                  "y": 0.0,
+                  "x_advance": 22.28515625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 33,
+                  "x": 313.53515625,
+                  "y": 0.0,
+                  "x_advance": 4.296875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 41,
+                  "cluster": 34,
+                  "x": 317.83203125,
+                  "y": 0.0,
+                  "x_advance": 11.81640625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 35,
+                  "x": 329.6484375,
+                  "y": 0.0,
+                  "x_advance": 5.4296875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 36,
+                  "x": 335.078125,
+                  "y": 0.0,
+                  "x_advance": 9.3359375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 79,
+                  "cluster": 37,
+                  "x": 344.4140625,
+                  "y": 0.0,
+                  "x_advance": 5.4296875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 71,
+                  "cluster": 38,
+                  "x": 349.84375,
+                  "y": 0.0,
+                  "x_advance": 10.8203125,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 39,
+                  "x": 360.6640625,
+                  "y": 0.0,
+                  "x_advance": 4.296875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 81,
+                  "cluster": 40,
+                  "x": 364.9609375,
+                  "y": 0.0,
+                  "x_advance": 11.23046875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 82,
+                  "cluster": 41,
+                  "x": 376.19140625,
+                  "y": 0.0,
+                  "x_advance": 10.1171875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 42,
+                  "x": 386.30859375,
+                  "y": 0.0,
+                  "x_advance": 7.3046875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 43,
+                  "x": 393.61328125,
+                  "y": 0.0,
+                  "x_advance": 9.3359375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 44,
+                  "x": 402.94921875,
+                  "y": 0.0,
+                  "x_advance": 8.37890625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 45,
+                  "x": 411.328125,
+                  "y": 0.0,
+                  "x_advance": 6.3671875,
+                  "y_advance": 0.0
+                }
+              ],
+              "advance_px": [
+                417.6953125,
+                0.0
+              ],
+              "paragraph": 0,
+              "baseline_px": 19.58984375,
+              "ink_bounds_px": [
+                0.25,
+                4.75,
+                416.0,
+                23.75
+              ]
+            }
+          ]
+        },
+        {
+          "size_px": 32,
+          "line_count": 1,
+          "line_height_px": 43.2,
+          "ascender_px": 31.3438,
+          "descender_px": 8.0312,
+          "ink_bounds_px": [
+            0.75,
+            7.75,
+            665.5,
+            38.0
+          ],
+          "canvas_px": [
+            677,
+            48
+          ],
+          "ink_offset_px": [
+            4.0,
+            4.0
+          ],
+          "clipped": false,
+          "overflow_handling": "canvas expands to include all ink; whitespace wrapping; 4096px unbreakable-line limit",
+          "mask_sha256": "6768d5a9c448a29c6be7df3189b2f47a896365375fdb83d80f2986101ec101cc",
+          "lines": [
+            {
+              "text": "The river remembers. Chapter 04 — Field notes.",
+              "direction": "ltr",
+              "script": "Latn",
+              "language": "und",
+              "script_runs": [
+                {
+                  "start": 0,
+                  "end": 46,
+                  "script": "Latn",
+                  "direction": "ltr",
+                  "glyph_count": 46
+                }
+              ],
+              "glyphs": [
+                {
+                  "glyph_id": 55,
+                  "cluster": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "x_advance": 20.9375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 1,
+                  "x": 20.9375,
+                  "y": 0.0,
+                  "x_advance": 17.8125,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 2,
+                  "x": 38.75,
+                  "y": 0.0,
+                  "x_advance": 14.9375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 3,
+                  "x": 53.6875,
+                  "y": 0.0,
+                  "x_advance": 6.875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 4,
+                  "x": 60.5625,
+                  "y": 0.0,
+                  "x_advance": 12.96875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 5,
+                  "x": 73.53125,
+                  "y": 0.0,
+                  "x_advance": 8.6875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 89,
+                  "cluster": 6,
+                  "x": 82.21875,
+                  "y": 0.0,
+                  "x_advance": 15.78125,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 7,
+                  "x": 98.0,
+                  "y": 0.0,
+                  "x_advance": 14.9375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 8,
+                  "x": 112.9375,
+                  "y": 0.0,
+                  "x_advance": 12.96875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 9,
+                  "x": 125.90625,
+                  "y": 0.0,
+                  "x_advance": 6.875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 10,
+                  "x": 132.78125,
+                  "y": 0.0,
+                  "x_advance": 12.96875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 11,
+                  "x": 145.75,
+                  "y": 0.0,
+                  "x_advance": 14.9375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 12,
+                  "x": 160.6875,
+                  "y": 0.0,
+                  "x_advance": 26.65625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 13,
+                  "x": 187.34375,
+                  "y": 0.0,
+                  "x_advance": 14.9375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 14,
+                  "x": 202.28125,
+                  "y": 0.0,
+                  "x_advance": 26.65625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 69,
+                  "cluster": 15,
+                  "x": 228.9375,
+                  "y": 0.0,
+                  "x_advance": 16.9375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 16,
+                  "x": 245.875,
+                  "y": 0.0,
+                  "x_advance": 14.9375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 17,
+                  "x": 260.8125,
+                  "y": 0.0,
+                  "x_advance": 12.96875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 18,
+                  "x": 273.78125,
+                  "y": 0.0,
+                  "x_advance": 13.40625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 19,
+                  "x": 287.1875,
+                  "y": 0.0,
+                  "x_advance": 10.1875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 20,
+                  "x": 297.375,
+                  "y": 0.0,
+                  "x_advance": 6.875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 38,
+                  "cluster": 21,
+                  "x": 304.25,
+                  "y": 0.0,
+                  "x_advance": 19.71875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 22,
+                  "x": 323.96875,
+                  "y": 0.0,
+                  "x_advance": 17.8125,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 68,
+                  "cluster": 23,
+                  "x": 341.78125,
+                  "y": 0.0,
+                  "x_advance": 15.59375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 83,
+                  "cluster": 24,
+                  "x": 357.375,
+                  "y": 0.0,
+                  "x_advance": 17.4375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 25,
+                  "x": 374.8125,
+                  "y": 0.0,
+                  "x_advance": 11.6875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 26,
+                  "x": 386.5,
+                  "y": 0.0,
+                  "x_advance": 14.9375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 27,
+                  "x": 401.4375,
+                  "y": 0.0,
+                  "x_advance": 12.96875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 28,
+                  "x": 414.40625,
+                  "y": 0.0,
+                  "x_advance": 6.875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 19,
+                  "cluster": 29,
+                  "x": 421.28125,
+                  "y": 0.0,
+                  "x_advance": 18.4375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 23,
+                  "cluster": 30,
+                  "x": 439.71875,
+                  "y": 0.0,
+                  "x_advance": 19.40625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 31,
+                  "x": 459.125,
+                  "y": 0.0,
+                  "x_advance": 6.875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 340,
+                  "cluster": 32,
+                  "x": 466.0,
+                  "y": 0.0,
+                  "x_advance": 35.65625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 33,
+                  "x": 501.65625,
+                  "y": 0.0,
+                  "x_advance": 6.875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 41,
+                  "cluster": 34,
+                  "x": 508.53125,
+                  "y": 0.0,
+                  "x_advance": 18.90625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 35,
+                  "x": 527.4375,
+                  "y": 0.0,
+                  "x_advance": 8.6875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 36,
+                  "x": 536.125,
+                  "y": 0.0,
+                  "x_advance": 14.9375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 79,
+                  "cluster": 37,
+                  "x": 551.0625,
+                  "y": 0.0,
+                  "x_advance": 8.6875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 71,
+                  "cluster": 38,
+                  "x": 559.75,
+                  "y": 0.0,
+                  "x_advance": 17.3125,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 39,
+                  "x": 577.0625,
+                  "y": 0.0,
+                  "x_advance": 6.875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 81,
+                  "cluster": 40,
+                  "x": 583.9375,
+                  "y": 0.0,
+                  "x_advance": 17.96875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 82,
+                  "cluster": 41,
+                  "x": 601.90625,
+                  "y": 0.0,
+                  "x_advance": 16.1875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 42,
+                  "x": 618.09375,
+                  "y": 0.0,
+                  "x_advance": 11.6875,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 43,
+                  "x": 629.78125,
+                  "y": 0.0,
+                  "x_advance": 14.9375,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 44,
+                  "x": 644.71875,
+                  "y": 0.0,
+                  "x_advance": 13.40625,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 45,
+                  "x": 658.125,
+                  "y": 0.0,
+                  "x_advance": 10.1875,
+                  "y_advance": 0.0
+                }
+              ],
+              "advance_px": [
+                668.3125,
+                0.0
+              ],
+              "paragraph": 0,
+              "baseline_px": 31.34375,
+              "ink_bounds_px": [
+                0.75,
+                7.75,
+                665.5,
+                38.0
+              ]
+            }
+          ]
+        }
+      ],
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "image": {
+        "file": "specimen-02-1ee27b599897.png",
+        "sha256": "173993b3ed6c641538728aa388ecd8db9f206aecb542f0f7d64eec152c5b9ca0",
+        "width": 1440,
+        "height": 564
+      }
+    },
+    {
+      "id": "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a:0",
+      "family": "Noto Serif Display",
+      "style": "Condensed",
+      "sha256": "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a",
+      "face_index": 0,
+      "source_bytes": 377360,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Foundries/Google/Noto/Serif-Display-Unhinted/NotoSerifDisplay-Condensed.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Foundries/Google/Noto/Serif-Display-Unhinted/NotoSerifDisplay-Condensed.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright 2016 Google Inc. All Rights Reserved."
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "Noto is a trademark of Google Inc."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Monotype Imaging Inc."
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Monotype Design Team"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "http://www.google.com/get/noto/"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "http://scripts.sil.org/OFL"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": [
+          {
+            "source_id": "bekah",
+            "path": "Foundries/Google/Noto/Serif-Display-Unhinted/LICENSE_OFL.txt",
+            "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+            "scope": "nearby-file; applicability unverified"
+          }
+        ]
+      },
+      "axes": {},
+      "axis_value_sources": {},
+      "coverage": {
+        "required_codepoints": [
+          32,
+          46,
+          48,
+          52,
+          67,
+          70,
+          84,
+          97,
+          98,
+          100,
+          101,
+          104,
+          105,
+          108,
+          109,
+          110,
+          111,
+          112,
+          114,
+          115,
+          116,
+          118,
+          8212
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "decompressed_in_memory": false,
+      "outline_tables": [
+        "glyf"
+      ],
+      "measurements": [
+        {
+          "size_px": 16,
+          "line_count": 1,
+          "line_height_px": 21.76,
+          "ascender_px": 17.088,
+          "descender_px": 4.672,
+          "ink_bounds_px": [
+            0.25,
+            4.75,
+            312.5,
+            21.0
+          ],
+          "canvas_px": [
+            322,
+            30
+          ],
+          "ink_offset_px": [
+            4.0,
+            4.0
+          ],
+          "clipped": false,
+          "overflow_handling": "canvas expands to include all ink; whitespace wrapping; 4096px unbreakable-line limit",
+          "mask_sha256": "9cf1d00ea76c4920c998ba95dfd25c41848bea4cab67264b2b0c25d91735bf14",
+          "lines": [
+            {
+              "text": "The river remembers. Chapter 04 — Field notes.",
+              "direction": "ltr",
+              "script": "Latn",
+              "language": "und",
+              "script_runs": [
+                {
+                  "start": 0,
+                  "end": 46,
+                  "script": "Latn",
+                  "direction": "ltr",
+                  "glyph_count": 46
+                }
+              ],
+              "glyphs": [
+                {
+                  "glyph_id": 55,
+                  "cluster": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "x_advance": 8.48,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 1,
+                  "x": 8.48,
+                  "y": 0.0,
+                  "x_advance": 8.752,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 2,
+                  "x": 17.232,
+                  "y": 0.0,
+                  "x_advance": 7.392,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 3,
+                  "x": 24.624,
+                  "y": 0.0,
+                  "x_advance": 3.04,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 4,
+                  "x": 27.664,
+                  "y": 0.0,
+                  "x_advance": 6.5440000000000005,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 5,
+                  "x": 34.208,
+                  "y": 0.0,
+                  "x_advance": 4.448,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 89,
+                  "cluster": 6,
+                  "x": 38.656,
+                  "y": 0.0,
+                  "x_advance": 7.968,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 7,
+                  "x": 46.624,
+                  "y": 0.0,
+                  "x_advance": 7.392,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 8,
+                  "x": 54.016,
+                  "y": 0.0,
+                  "x_advance": 6.5440000000000005,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 9,
+                  "x": 60.56,
+                  "y": 0.0,
+                  "x_advance": 3.04,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 10,
+                  "x": 63.6,
+                  "y": 0.0,
+                  "x_advance": 6.5440000000000005,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 11,
+                  "x": 70.144,
+                  "y": 0.0,
+                  "x_advance": 7.392,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 12,
+                  "x": 77.536,
+                  "y": 0.0,
+                  "x_advance": 12.992,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 13,
+                  "x": 90.528,
+                  "y": 0.0,
+                  "x_advance": 7.392,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 14,
+                  "x": 97.92,
+                  "y": 0.0,
+                  "x_advance": 12.992,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 69,
+                  "cluster": 15,
+                  "x": 110.912,
+                  "y": 0.0,
+                  "x_advance": 8.464,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 16,
+                  "x": 119.376,
+                  "y": 0.0,
+                  "x_advance": 7.392,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 17,
+                  "x": 126.768,
+                  "y": 0.0,
+                  "x_advance": 6.5440000000000005,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 18,
+                  "x": 133.312,
+                  "y": 0.0,
+                  "x_advance": 6.192,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 19,
+                  "x": 139.504,
+                  "y": 0.0,
+                  "x_advance": 3.52,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 20,
+                  "x": 143.024,
+                  "y": 0.0,
+                  "x_advance": 3.04,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 38,
+                  "cluster": 21,
+                  "x": 146.064,
+                  "y": 0.0,
+                  "x_advance": 8.528,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 22,
+                  "x": 154.592,
+                  "y": 0.0,
+                  "x_advance": 8.752,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 68,
+                  "cluster": 23,
+                  "x": 163.344,
+                  "y": 0.0,
+                  "x_advance": 7.776,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 83,
+                  "cluster": 24,
+                  "x": 171.12,
+                  "y": 0.0,
+                  "x_advance": 8.464,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 25,
+                  "x": 179.584,
+                  "y": 0.0,
+                  "x_advance": 4.944,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 26,
+                  "x": 184.528,
+                  "y": 0.0,
+                  "x_advance": 7.392,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 27,
+                  "x": 191.92000000000002,
+                  "y": 0.0,
+                  "x_advance": 6.5440000000000005,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 28,
+                  "x": 198.464,
+                  "y": 0.0,
+                  "x_advance": 3.04,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 19,
+                  "cluster": 29,
+                  "x": 201.504,
+                  "y": 0.0,
+                  "x_advance": 7.648000000000001,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 23,
+                  "cluster": 30,
+                  "x": 209.15200000000002,
+                  "y": 0.0,
+                  "x_advance": 7.648000000000001,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 31,
+                  "x": 216.8,
+                  "y": 0.0,
+                  "x_advance": 3.04,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 514,
+                  "cluster": 32,
+                  "x": 219.84,
+                  "y": 0.0,
+                  "x_advance": 16.0,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 33,
+                  "x": 235.84,
+                  "y": 0.0,
+                  "x_advance": 3.04,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 41,
+                  "cluster": 34,
+                  "x": 238.88,
+                  "y": 0.0,
+                  "x_advance": 8.128,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 35,
+                  "x": 247.008,
+                  "y": 0.0,
+                  "x_advance": 4.448,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 36,
+                  "x": 251.45600000000002,
+                  "y": 0.0,
+                  "x_advance": 7.392,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 79,
+                  "cluster": 37,
+                  "x": 258.848,
+                  "y": 0.0,
+                  "x_advance": 4.32,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 71,
+                  "cluster": 38,
+                  "x": 263.168,
+                  "y": 0.0,
+                  "x_advance": 8.464,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 39,
+                  "x": 271.632,
+                  "y": 0.0,
+                  "x_advance": 3.04,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 81,
+                  "cluster": 40,
+                  "x": 274.672,
+                  "y": 0.0,
+                  "x_advance": 8.864,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 82,
+                  "cluster": 41,
+                  "x": 283.536,
+                  "y": 0.0,
+                  "x_advance": 7.952,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 42,
+                  "x": 291.488,
+                  "y": 0.0,
+                  "x_advance": 4.944,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 43,
+                  "x": 296.432,
+                  "y": 0.0,
+                  "x_advance": 7.392,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 44,
+                  "x": 303.824,
+                  "y": 0.0,
+                  "x_advance": 6.192,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 45,
+                  "x": 310.016,
+                  "y": 0.0,
+                  "x_advance": 3.52,
+                  "y_advance": 0.0
+                }
+              ],
+              "advance_px": [
+                313.536,
+                0.0
+              ],
+              "paragraph": 0,
+              "baseline_px": 17.088,
+              "ink_bounds_px": [
+                0.25,
+                4.75,
+                312.5,
+                21.0
+              ]
+            }
+          ]
+        },
+        {
+          "size_px": 20,
+          "line_count": 1,
+          "line_height_px": 27.2,
+          "ascender_px": 21.36,
+          "descender_px": 5.84,
+          "ink_bounds_px": [
+            0.25,
+            6.0,
+            390.75,
+            26.0
+          ],
+          "canvas_px": [
+            400,
+            36
+          ],
+          "ink_offset_px": [
+            4.0,
+            4.0
+          ],
+          "clipped": false,
+          "overflow_handling": "canvas expands to include all ink; whitespace wrapping; 4096px unbreakable-line limit",
+          "mask_sha256": "e016845ce6a25ce2a49a36ce6e26624b40ad99f71d4419ee701c6e86eb899e80",
+          "lines": [
+            {
+              "text": "The river remembers. Chapter 04 — Field notes.",
+              "direction": "ltr",
+              "script": "Latn",
+              "language": "und",
+              "script_runs": [
+                {
+                  "start": 0,
+                  "end": 46,
+                  "script": "Latn",
+                  "direction": "ltr",
+                  "glyph_count": 46
+                }
+              ],
+              "glyphs": [
+                {
+                  "glyph_id": 55,
+                  "cluster": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "x_advance": 10.6,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 1,
+                  "x": 10.6,
+                  "y": 0.0,
+                  "x_advance": 10.94,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 2,
+                  "x": 21.54,
+                  "y": 0.0,
+                  "x_advance": 9.24,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 3,
+                  "x": 30.78,
+                  "y": 0.0,
+                  "x_advance": 3.8000000000000003,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 4,
+                  "x": 34.58,
+                  "y": 0.0,
+                  "x_advance": 8.18,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 5,
+                  "x": 42.76,
+                  "y": 0.0,
+                  "x_advance": 5.5600000000000005,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 89,
+                  "cluster": 6,
+                  "x": 48.32,
+                  "y": 0.0,
+                  "x_advance": 9.96,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 7,
+                  "x": 58.28,
+                  "y": 0.0,
+                  "x_advance": 9.24,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 8,
+                  "x": 67.52,
+                  "y": 0.0,
+                  "x_advance": 8.18,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 9,
+                  "x": 75.7,
+                  "y": 0.0,
+                  "x_advance": 3.8000000000000003,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 10,
+                  "x": 79.5,
+                  "y": 0.0,
+                  "x_advance": 8.18,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 11,
+                  "x": 87.68,
+                  "y": 0.0,
+                  "x_advance": 9.24,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 12,
+                  "x": 96.92,
+                  "y": 0.0,
+                  "x_advance": 16.240000000000002,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 13,
+                  "x": 113.16,
+                  "y": 0.0,
+                  "x_advance": 9.24,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 14,
+                  "x": 122.4,
+                  "y": 0.0,
+                  "x_advance": 16.240000000000002,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 69,
+                  "cluster": 15,
+                  "x": 138.64000000000001,
+                  "y": 0.0,
+                  "x_advance": 10.58,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 16,
+                  "x": 149.22,
+                  "y": 0.0,
+                  "x_advance": 9.24,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 17,
+                  "x": 158.46,
+                  "y": 0.0,
+                  "x_advance": 8.18,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 18,
+                  "x": 166.64000000000001,
+                  "y": 0.0,
+                  "x_advance": 7.74,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 19,
+                  "x": 174.38,
+                  "y": 0.0,
+                  "x_advance": 4.4,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 20,
+                  "x": 178.78,
+                  "y": 0.0,
+                  "x_advance": 3.8000000000000003,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 38,
+                  "cluster": 21,
+                  "x": 182.58,
+                  "y": 0.0,
+                  "x_advance": 10.66,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 22,
+                  "x": 193.24,
+                  "y": 0.0,
+                  "x_advance": 10.94,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 68,
+                  "cluster": 23,
+                  "x": 204.18,
+                  "y": 0.0,
+                  "x_advance": 9.72,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 83,
+                  "cluster": 24,
+                  "x": 213.9,
+                  "y": 0.0,
+                  "x_advance": 10.58,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 25,
+                  "x": 224.48000000000002,
+                  "y": 0.0,
+                  "x_advance": 6.18,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 26,
+                  "x": 230.66,
+                  "y": 0.0,
+                  "x_advance": 9.24,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 27,
+                  "x": 239.9,
+                  "y": 0.0,
+                  "x_advance": 8.18,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 28,
+                  "x": 248.08,
+                  "y": 0.0,
+                  "x_advance": 3.8000000000000003,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 19,
+                  "cluster": 29,
+                  "x": 251.88,
+                  "y": 0.0,
+                  "x_advance": 9.56,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 23,
+                  "cluster": 30,
+                  "x": 261.44,
+                  "y": 0.0,
+                  "x_advance": 9.56,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 31,
+                  "x": 271.0,
+                  "y": 0.0,
+                  "x_advance": 3.8000000000000003,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 514,
+                  "cluster": 32,
+                  "x": 274.8,
+                  "y": 0.0,
+                  "x_advance": 20.0,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 33,
+                  "x": 294.8,
+                  "y": 0.0,
+                  "x_advance": 3.8000000000000003,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 41,
+                  "cluster": 34,
+                  "x": 298.6,
+                  "y": 0.0,
+                  "x_advance": 10.16,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 35,
+                  "x": 308.76,
+                  "y": 0.0,
+                  "x_advance": 5.5600000000000005,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 36,
+                  "x": 314.32,
+                  "y": 0.0,
+                  "x_advance": 9.24,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 79,
+                  "cluster": 37,
+                  "x": 323.56,
+                  "y": 0.0,
+                  "x_advance": 5.4,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 71,
+                  "cluster": 38,
+                  "x": 328.96,
+                  "y": 0.0,
+                  "x_advance": 10.58,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 39,
+                  "x": 339.54,
+                  "y": 0.0,
+                  "x_advance": 3.8000000000000003,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 81,
+                  "cluster": 40,
+                  "x": 343.34000000000003,
+                  "y": 0.0,
+                  "x_advance": 11.08,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 82,
+                  "cluster": 41,
+                  "x": 354.42,
+                  "y": 0.0,
+                  "x_advance": 9.94,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 42,
+                  "x": 364.36,
+                  "y": 0.0,
+                  "x_advance": 6.18,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 43,
+                  "x": 370.54,
+                  "y": 0.0,
+                  "x_advance": 9.24,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 44,
+                  "x": 379.78000000000003,
+                  "y": 0.0,
+                  "x_advance": 7.74,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 45,
+                  "x": 387.52,
+                  "y": 0.0,
+                  "x_advance": 4.4,
+                  "y_advance": 0.0
+                }
+              ],
+              "advance_px": [
+                391.92,
+                0.0
+              ],
+              "paragraph": 0,
+              "baseline_px": 21.36,
+              "ink_bounds_px": [
+                0.25,
+                6.0,
+                390.75,
+                26.0
+              ]
+            }
+          ]
+        },
+        {
+          "size_px": 32,
+          "line_count": 1,
+          "line_height_px": 43.52,
+          "ascender_px": 34.176,
+          "descender_px": 9.344,
+          "ink_bounds_px": [
+            0.5,
+            9.75,
+            625.0,
+            42.0
+          ],
+          "canvas_px": [
+            636,
+            52
+          ],
+          "ink_offset_px": [
+            4.0,
+            4.0
+          ],
+          "clipped": false,
+          "overflow_handling": "canvas expands to include all ink; whitespace wrapping; 4096px unbreakable-line limit",
+          "mask_sha256": "9e98abea095535036b715ae53820db7af505cce6de9d179e491c5eb5426ef797",
+          "lines": [
+            {
+              "text": "The river remembers. Chapter 04 — Field notes.",
+              "direction": "ltr",
+              "script": "Latn",
+              "language": "und",
+              "script_runs": [
+                {
+                  "start": 0,
+                  "end": 46,
+                  "script": "Latn",
+                  "direction": "ltr",
+                  "glyph_count": 46
+                }
+              ],
+              "glyphs": [
+                {
+                  "glyph_id": 55,
+                  "cluster": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "x_advance": 16.96,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 1,
+                  "x": 16.96,
+                  "y": 0.0,
+                  "x_advance": 17.504,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 2,
+                  "x": 34.464,
+                  "y": 0.0,
+                  "x_advance": 14.784,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 3,
+                  "x": 49.248,
+                  "y": 0.0,
+                  "x_advance": 6.08,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 4,
+                  "x": 55.328,
+                  "y": 0.0,
+                  "x_advance": 13.088000000000001,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 5,
+                  "x": 68.416,
+                  "y": 0.0,
+                  "x_advance": 8.896,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 89,
+                  "cluster": 6,
+                  "x": 77.312,
+                  "y": 0.0,
+                  "x_advance": 15.936,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 7,
+                  "x": 93.248,
+                  "y": 0.0,
+                  "x_advance": 14.784,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 8,
+                  "x": 108.032,
+                  "y": 0.0,
+                  "x_advance": 13.088000000000001,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 9,
+                  "x": 121.12,
+                  "y": 0.0,
+                  "x_advance": 6.08,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 10,
+                  "x": 127.2,
+                  "y": 0.0,
+                  "x_advance": 13.088000000000001,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 11,
+                  "x": 140.288,
+                  "y": 0.0,
+                  "x_advance": 14.784,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 12,
+                  "x": 155.072,
+                  "y": 0.0,
+                  "x_advance": 25.984,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 13,
+                  "x": 181.056,
+                  "y": 0.0,
+                  "x_advance": 14.784,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 80,
+                  "cluster": 14,
+                  "x": 195.84,
+                  "y": 0.0,
+                  "x_advance": 25.984,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 69,
+                  "cluster": 15,
+                  "x": 221.824,
+                  "y": 0.0,
+                  "x_advance": 16.928,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 16,
+                  "x": 238.752,
+                  "y": 0.0,
+                  "x_advance": 14.784,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 17,
+                  "x": 253.536,
+                  "y": 0.0,
+                  "x_advance": 13.088000000000001,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 18,
+                  "x": 266.624,
+                  "y": 0.0,
+                  "x_advance": 12.384,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 19,
+                  "x": 279.008,
+                  "y": 0.0,
+                  "x_advance": 7.04,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 20,
+                  "x": 286.048,
+                  "y": 0.0,
+                  "x_advance": 6.08,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 38,
+                  "cluster": 21,
+                  "x": 292.128,
+                  "y": 0.0,
+                  "x_advance": 17.056,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 75,
+                  "cluster": 22,
+                  "x": 309.184,
+                  "y": 0.0,
+                  "x_advance": 17.504,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 68,
+                  "cluster": 23,
+                  "x": 326.688,
+                  "y": 0.0,
+                  "x_advance": 15.552,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 83,
+                  "cluster": 24,
+                  "x": 342.24,
+                  "y": 0.0,
+                  "x_advance": 16.928,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 25,
+                  "x": 359.168,
+                  "y": 0.0,
+                  "x_advance": 9.888,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 26,
+                  "x": 369.056,
+                  "y": 0.0,
+                  "x_advance": 14.784,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 85,
+                  "cluster": 27,
+                  "x": 383.84000000000003,
+                  "y": 0.0,
+                  "x_advance": 13.088000000000001,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 28,
+                  "x": 396.928,
+                  "y": 0.0,
+                  "x_advance": 6.08,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 19,
+                  "cluster": 29,
+                  "x": 403.008,
+                  "y": 0.0,
+                  "x_advance": 15.296000000000001,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 23,
+                  "cluster": 30,
+                  "x": 418.30400000000003,
+                  "y": 0.0,
+                  "x_advance": 15.296000000000001,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 31,
+                  "x": 433.6,
+                  "y": 0.0,
+                  "x_advance": 6.08,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 514,
+                  "cluster": 32,
+                  "x": 439.68,
+                  "y": 0.0,
+                  "x_advance": 32.0,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 33,
+                  "x": 471.68,
+                  "y": 0.0,
+                  "x_advance": 6.08,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 41,
+                  "cluster": 34,
+                  "x": 477.76,
+                  "y": 0.0,
+                  "x_advance": 16.256,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 76,
+                  "cluster": 35,
+                  "x": 494.016,
+                  "y": 0.0,
+                  "x_advance": 8.896,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 36,
+                  "x": 502.91200000000003,
+                  "y": 0.0,
+                  "x_advance": 14.784,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 79,
+                  "cluster": 37,
+                  "x": 517.696,
+                  "y": 0.0,
+                  "x_advance": 8.64,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 71,
+                  "cluster": 38,
+                  "x": 526.336,
+                  "y": 0.0,
+                  "x_advance": 16.928,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 3,
+                  "cluster": 39,
+                  "x": 543.264,
+                  "y": 0.0,
+                  "x_advance": 6.08,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 81,
+                  "cluster": 40,
+                  "x": 549.344,
+                  "y": 0.0,
+                  "x_advance": 17.728,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 82,
+                  "cluster": 41,
+                  "x": 567.072,
+                  "y": 0.0,
+                  "x_advance": 15.904,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 87,
+                  "cluster": 42,
+                  "x": 582.976,
+                  "y": 0.0,
+                  "x_advance": 9.888,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 72,
+                  "cluster": 43,
+                  "x": 592.864,
+                  "y": 0.0,
+                  "x_advance": 14.784,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 86,
+                  "cluster": 44,
+                  "x": 607.648,
+                  "y": 0.0,
+                  "x_advance": 12.384,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 17,
+                  "cluster": 45,
+                  "x": 620.032,
+                  "y": 0.0,
+                  "x_advance": 7.04,
+                  "y_advance": 0.0
+                }
+              ],
+              "advance_px": [
+                627.072,
+                0.0
+              ],
+              "paragraph": 0,
+              "baseline_px": 34.176,
+              "ink_bounds_px": [
+                0.5,
+                9.75,
+                625.0,
+                42.0
+              ]
+            }
+          ]
+        }
+      ],
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "image": {
+        "file": "specimen-03-7f85cacda390.png",
+        "sha256": "eb04cb4577e002c54a99e180a2bbf2a99cd4e37df11084ac532223cff93c3186",
+        "width": 1440,
+        "height": 573
+      }
+    }
+  ],
+  "images": [
+    {
+      "file": "comparison.png",
+      "sha256": "0a2bfb521db8c00346e274479ae55e223f6af3821a618f98212c54b169beaef2",
+      "width": 1440,
+      "height": 1352
+    },
+    {
+      "file": "specimen-01-3c490fbc8b35.png",
+      "sha256": "9a24676ed98e7f7fd0436ad35fd49ecef0a768d1fa6ed9daaab8462b46922c27",
+      "width": 1440,
+      "height": 573
+    },
+    {
+      "file": "specimen-02-1ee27b599897.png",
+      "sha256": "173993b3ed6c641538728aa388ecd8db9f206aecb542f0f7d64eec152c5b9ca0",
+      "width": 1440,
+      "height": 564
+    },
+    {
+      "file": "specimen-03-7f85cacda390.png",
+      "sha256": "eb04cb4577e002c54a99e180a2bbf2a99cd4e37df11084ac532223cff93c3186",
+      "width": 1440,
+      "height": 573
+    }
+  ],
+  "outputs": {
+    "html": "index.html",
+    "comparison": "comparison.png",
+    "manifest": "manifest.json",
+    "specimens": [
+      "specimen-01-3c490fbc8b35.png",
+      "specimen-02-1ee27b599897.png",
+      "specimen-03-7f85cacda390.png"
+    ]
+  },
+  "html_sha256": "2498faac73797a7d50dd9b09e72392dfad14d2089b3aae50957eac07f26078dc"
+}

@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "repository": "bekahmcdonald/fonts",
+      "url": "https://github.com/bekahmcdonald/fonts",
+      "default_branch": "main",
+      "size_kib_reported": 1601443,
+      "head_commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+      "commit_date": "2024-11-04T19:22:12Z",
+      "license": null,
+      "updated_at": "2026-09-08T12:53:03Z"
+    },
+    {
+      "repository": "extsalt/10000-font-collection",
+      "url": "https://github.com/extsalt/10000-font-collection",
+      "default_branch": "master",
+      "size_kib_reported": 378756,
+      "head_commit": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+      "commit_date": "2022-03-31T04:30:32Z",
+      "license": null,
+      "updated_at": "2026-05-07T06:04:59Z"
+    }
+  ],
+  "disk_free_bytes": 216430206976
+}

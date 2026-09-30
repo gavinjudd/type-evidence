@@ -1,0 +1,33 @@
+# Architecture and judgment boundaries
+
+Type Evidence is a Python package, an immutable-identity catalog, a JSON CLI and a small stdio MCP adapter. It requires no accounts, hosted service, embedding model, editor extension, font installation or graphics application.
+
+## From collection to usable evidence
+
+1. **Pinned acquisition.** `sources.lock.json` records full Git commits. Fetch verifies the pin and refuses changed or mismatched existing checkouts. On Windows it uses bare Git blobs and reversible safe path encoding because the first upstream contains 777 invalid Windows paths. Original Git paths survive in provenance.
+2. **Preparation.** Recognized Base64 font containers and bounded ZIP/7z font members become separate content-addressed derivatives. Originals remain intact. A provenance manifest records container/member hashes and the operation. No nested archives or upstream programs are executed. 7z uses available libarchive/7-Zip; absence is an explicit preparation issue.
+3. **Inspection.** Magic bytes choose the format. fontTools reads collection faces, Unicode cmap, names, variable axes, OpenType features, declared styles and legal notices. Outline bounds for `x` and `H` and advances for a documented sample are measured at default coordinates. FreeType must load the face and rasterize a sample. Failures remain in the issue ledger.
+4. **Identity.** `sha256:face_index` is the exact face ID. Byte-identical copies share records with all origins retained. A separate decoded-table hash identifies some container-equivalent variants while ignoring signatures, head checksums and timestamps. It does not prove all visually equivalent fonts are duplicates, and never deletes source files. Subsets, axes, styles, names and versions can remain distinct.
+5. **Family support.** Family, vendor, version and width class define a conservative group. This can split a legitimate family whose metadata is inconsistent; it prevents known incompatible width/version combinations from silently passing a style requirement. `required_styles` returns exact companion IDs and axes that cover the same real text. No family is declared complete.
+6. **Discovery.** Hard constraints precede ranking. Cmap coverage, requested weights/slants, exact family lookup and required companion styles are checked. Missing Unicode maps, unnamed families, failed probes and detected style conflicts are excluded where applicable. Search scores use explicit aliases and modest measurements/metadata preferences; equal-score ties diversify known attributes. Shortlists show at most one normalized family name, even across versions. Font fame and foundry are not rank features.
+7. **Rendering.** Source bytes are rehashed before loading. WOFF is decoded in memory. HarfBuzz shapes and native FreeType rasterizes the same face and variation coordinates. There is no font lookup or replacement face. Glyph zero and missing cmap characters fail closed. PNGs and escaped HTML accompany a manifest with glyph IDs, positions, applied features/axes, source hashes, image hashes and renderer versions.
+8. **Use.** Resolve rehashes the file and returns its path plus collection face index. Another verified duplicate may be used if the first origin is gone. The harness does not deploy or distribute fonts; the caller must validate rights and final application rendering.
+
+## Why this scope
+
+[fontTools](https://fonttools.readthedocs.io/en/latest/ttLib/ttFont.html), [HarfBuzz](https://uharfbuzz.readthedocs.io/) and [FreeType](https://freetype.org/freetype2/docs/) provide practical cross-platform font inspection/shaping/rasterization. Pillow composes specimens and labels. Metadata and font content stay separate from design judgments.
+
+The [sliday skill](https://github.com/sliday/google-fonts-skill) inspired compact agent workflows and the validity of using one family, but its taste labels are not imported as facts. [Fontmap](https://github.com/tfrere/fontmap) and [FontCLIP](https://github.com/yukistavailable/FontCLIP) are useful leads for later visual retrieval; reindexing this heterogeneous corpus, model downloads, embedding provenance and mixed licensing would add complexity before basic asset correctness was established. This release makes no claim of learned semantic or image search. See [research notes](../evidence/research-leads.md).
+
+## Limits that affect decisions
+
+- Name/weight/PANOSE/vendor metadata can be wrong. The conflict checks catch known contradictions, not all of them. Most indexed faces have unknown category metadata; they remain available for explicit name queries and text-compatible discovery.
+- Unicode presence is not a language-support guarantee. The renderer checks shaped glyph IDs for the actual text. It supports same-direction LTR script runs and simple RTL runs, but rejects mixed-direction paragraphs, variation-selector sequences, color/bitmap fonts and vertical layout. Test complete complex-script products in their production engine.
+- Specimens use unhinted outlines with 4× supersampling. Small-size screen hinting and browser, Word or game-engine behavior can differ. A 14px image is evidence for this rasterizer, not a universal legibility verdict.
+- Role scores are deliberately modest heuristics. “Warm,” “futuristic” and similar unmodeled descriptors do not magically become visual understanding. Inspect candidates, revise the brief and compare meaningful alternatives.
+- Measurements use a Latin sample at default variable coordinates. They are not measured across every glyph or axis value. Rendered manifests describe the requested text/settings instead.
+- Cached metadata reuses exact unchanged bytes with the same catalog schema. Dependency/parser changes that affect interpretation should trigger a clean new catalog. Source issue/provenance state is refreshed.
+- Original EOT, UFO/GLIF, TTX and other legacy/design assets are preserved, not converted into recommendations. Unsupported original archive/encoding entries still appear as original-source issues even when separate derived faces were recovered; read preparation and index reports together.
+- Font parsers run locally in worker processes, not in a security sandbox. Limits prevent common archive/path mistakes; this is not a hostile-font security audit.
+- Source handling and path mapping are tested on macOS, including all actual upstream paths. Windows commands and acquisition paths are implemented; an end-to-end Windows run is still unverified.
+- No controlled human design-preference study has been run. The fresh-agent evaluation supports usability and asset correctness claims, with explicitly subjective visual observations.

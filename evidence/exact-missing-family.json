@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "status": "no_matches",
+  "role": "ui",
+  "candidates": [],
+  "baseline": {
+    "requested_id": null,
+    "status": "not_supplied"
+  },
+  "counts": {
+    "catalog_faces": 27454,
+    "eligible_faces": 0,
+    "returned_faces": 0
+  },
+  "constraint_rejections": {
+    "exact_family_name_mismatch": 27454,
+    "missing_family_identity": 253,
+    "no_usable_unicode_cmap": 84
+  },
+  "query_interpretation": {
+    "exact_name_match_count": 0,
+    "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+    "aliases": {},
+    "unmodeled_terms": [],
+    "unrecognized_brief_fields": [],
+    "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed."
+  },
+  "constraints": {
+    "coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
+    "text_codepoint_count": 0,
+    "text_supplied": false,
+    "family_diversity": "At most one face per family; equivalent canonical content is also deduplicated. Equal-score ties favor differences in known category, width, monospace measurement, x-height, and advance-width bands; this is not proof of visual distinction.",
+    "open_evidence_requested": false
+  },
+  "alternatives": [
+    {
+      "option": "single_family",
+      "advice": "Compare a single family's observed styles before adding a second typeface; additional fonts are not inherently an improvement."
+    },
+    {
+      "option": "keep_existing",
+      "advice": "Keeping the current typography is a valid outcome. Supply existing_id to include an exact catalog face as the comparison baseline."
+    }
+  ],
+  "limitations": [
+    "Rankings are transparent starting preferences. No font was visually judged by this search.",
+    "Render the selected exact faces on project text at intended sizes. Coverage alone cannot establish legibility, shaping, personality, or good pairing.",
+    "Metadata categories and family groupings may be imperfect. Available styles describe this collection, not a complete upstream family.",
+    "Unknown rights remain unknown. Embedded open-license evidence is not legal clearance; review source and license evidence before distribution."
+  ]
+}

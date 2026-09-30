@@ -1,0 +1,1423 @@
+{
+  "schema_version": 1,
+  "evaluation_kind": "single-fresh-agent formative evaluation",
+  "controlled_study": false,
+  "method": [
+    "The same evaluator sealed an unaided baseline before reading docs, catalog, code, or web.",
+    "Then read AGENTS.md, README.md, example briefs, contract, and CLI help; did not fetch or rebuild sources.",
+    "Used the four supplied examples, preserving eligible existing baselines. Compared top three alternatives plus baseline where available.",
+    "Used inspect, family, and resolve for every final exact face, and opened the seven final comparison PNGs plus four supplemental comparison PNGs.",
+    "Implementation changed during formative feedback. Early observations and the final stable recapture are distinguished. The evaluator edited only evaluation scripts/artifacts, not implementation."
+  ],
+  "baseline": {
+    "file": "fresh-baseline.json",
+    "sha256": "0e5dae3a8967a48f709b16c87a99dde2b30de4a95ce23181a78ccb97288e8397",
+    "recommendations": [
+      {
+        "id": "dense_operations_dashboard",
+        "sample": "Queue 08 · Retry 1,024",
+        "requirements": [
+          "regular and bold",
+          "differentiate 0/O/1/l",
+          "compact controls"
+        ],
+        "suggestions": [
+          {
+            "family": "IBM Plex Sans",
+            "reason": "A restrained interface family with recognizable letterforms and a useful range of weights; a plausible fit for dense operational labels.",
+            "caveat": "Inspect the actual 0/O/1/l glyphs at control size. Do not assume a slashed zero, tabular numerals, or exact Regular/Bold files without checking the chosen build."
+          },
+          {
+            "family": "Atkinson Hyperlegible",
+            "reason": "Its emphasis on distinguishable letterforms makes it a strong candidate where identifiers and counts must be read reliably.",
+            "caveat": "Its proportions may consume more space than a dense UI allows. Verify the supplied Regular/Bold files and 0/O/1/l differentiation in the actual control layout."
+          }
+        ]
+      },
+      {
+        "id": "literary_reading_app",
+        "sample": "The river remembers. Chapter 04 — Field notes.",
+        "requirements": [
+          "normal and italic",
+          "warm but restrained serif body",
+          "long reading"
+        ],
+        "suggestions": [
+          {
+            "family": "Literata",
+            "reason": "A reading-oriented serif with a literary tone and an expressive but useful italic.",
+            "caveat": "Verify the actual upright and italic assets, then assess texture, size, and line spacing in a full paragraph; a title-sized sample cannot establish long-reading quality."
+          },
+          {
+            "family": "Source Serif 4",
+            "reason": "A balanced serif that can provide warmth without making sustained prose feel ornamental.",
+            "caveat": "Optical-size behavior and available styles depend on the files supplied. Confirm a real italic and compare body text at the intended reading size."
+          }
+        ]
+      },
+      {
+        "id": "science_fiction_game",
+        "sample": "ORBITAL / SECTOR 09",
+        "requirements": [
+          "expressive sci-fi title",
+          "small readable mission text",
+          "pairing optional"
+        ],
+        "suggestions": [
+          {
+            "family": "Orbitron",
+            "reason": "A direct geometric, technological voice for a prominent game title.",
+            "optional_pairing": "Inter for mission text",
+            "caveat": "Orbitron can become difficult to read in small or dense text. Verify title spacing, numerals, and the actual assets for both families; the proposed pairing is not file-verified."
+          },
+          {
+            "family": "Rajdhani",
+            "reason": "A narrow, squared display direction that can suggest a spacecraft interface while using less horizontal space.",
+            "optional_pairing": "Source Sans 3 for mission text",
+            "caveat": "Its narrow forms and lighter weights need inspection at the intended sizes. Confirm available files and use a separately tested text face if small mission copy feels fragile."
+          }
+        ]
+      },
+      {
+        "id": "english_greek_museum_document",
+        "sample": "Archive 2026 — Αθήνα",
+        "requirements": [
+          "English and Greek coverage",
+          "regular and bold",
+          "real character coverage"
+        ],
+        "suggestions": [
+          {
+            "family": "Noto Serif",
+            "reason": "A plausible editorial choice for an archive or museum document, with a family ecosystem known for broad script support.",
+            "caveat": "The family name alone does not prove that a particular subset includes Greek. Check the exact Regular/Bold files for every sample code point and render Greek with fallback disabled."
+          },
+          {
+            "family": "Noto Sans",
+            "reason": "A neutral document alternative that can support clear labels and bilingual information hierarchy.",
+            "caveat": "Confirm that the selected assets include Greek, including the accented ή in Αθήνα, in both required weights. No exact-file or glyph coverage verification has been performed."
+          }
+        ]
+      }
+    ],
+    "exact_family_presence": {
+      "IBM Plex Sans": 256,
+      "Atkinson Hyperlegible": 0,
+      "Literata": 0,
+      "Source Serif 4": 0,
+      "Source Serif Pro": 3,
+      "Orbitron": 0,
+      "Rajdhani": 0,
+      "Noto Serif": 72,
+      "Noto Sans": 14
+    },
+    "eligible_preserved_briefs": [
+      "dashboard",
+      "museum"
+    ],
+    "note": "Five of eight named baseline families are absent. Noto Sans is present by name but lacks indexed 400-upright. No unavailable baseline was rendered or silently replaced."
+  },
+  "environment": {
+    "version": "0.1.0",
+    "python": "3.12.13",
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "fonttools": "4.60.2",
+    "pillow": "11.3.0",
+    "harfbuzz": "12.1.0",
+    "pillow_raqm": false,
+    "catalog_exists": true,
+    "rights_policy": "Evidence is not permission. Unknown rights remain unknown."
+  },
+  "catalog": {
+    "schema": 1,
+    "files_seen": 39168,
+    "font_files": 30088,
+    "metadata_cache_hits": 27293,
+    "source_count": 3,
+    "unique_files": 27437,
+    "exact_duplicate_files": 2651,
+    "faces": 27454,
+    "family_groups": 8674,
+    "family_names": 8012,
+    "equivalent_table_groups": 1816,
+    "rights_counts": {
+      "unknown": 19732,
+      "embedded-open-license": 7356,
+      "restricted-notice": 366
+    },
+    "category_counts": {
+      "unknown": 20561,
+      "mono": 2257,
+      "sans": 3580,
+      "serif": 959,
+      "display": 63,
+      "script": 34
+    },
+    "variable_faces": 344,
+    "issue_counts": {
+      "unsupported-or-archive-not-indexed": 469,
+      "invalid-signature": 369,
+      "font-parse-or-render-failed": 144
+    },
+    "scope": "Unicode OpenType/TrueType faces with successful metadata, outline sample and FreeType load probes. No claim all glyphs are correct or families are complete.",
+    "sources": [
+      {
+        "id": "bekah",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "acquisition": "local-directory",
+        "derivative_files": 0,
+        "mapped_upstream_paths": 0
+      },
+      {
+        "id": "extsalt",
+        "url": "https://github.com/extsalt/10000-font-collection",
+        "commit": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+        "acquisition": "local-directory",
+        "derivative_files": 0,
+        "mapped_upstream_paths": 0
+      },
+      {
+        "id": "bekahmcdonald-fonts-derived",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "acquisition": "local-directory",
+        "derivative_files": 578,
+        "mapped_upstream_paths": 0
+      }
+    ]
+  },
+  "source_code_sha256": {
+    "type_evidence/__init__.py": "0572186a2026e199de2182ccf6a512944f9c121d2de3ea8a9cff8a61f59dc659",
+    "type_evidence/__main__.py": "bd045ddd5242d002f692dac452be9afba38deef5cde541a5fc074bfef5987b91",
+    "type_evidence/catalog.py": "b8ac317cb3678eec82b2907aeaed9d1330f5d56cf00bdee3bfa520fe7661d944",
+    "type_evidence/cli.py": "a174d4f90429daa907b211d2c687ae95928772e36ce8c68dbfe66a8ace63d1c5",
+    "type_evidence/discovery.py": "6210de2627ad7ab732d3fce0aca273784bf30534cfd23cd3a75cb5f01c4446d9",
+    "type_evidence/mcp.py": "5eb229ce59616ce8ccc551e65deb832eacfd1f6e0a656dd4377ba258f345f89c",
+    "type_evidence/render.py": "30f548b6e15b724c9307c492cb08787ca01d2448544b209d5a388a1acb9a8b71",
+    "type_evidence/sources.py": "5a8084a8d427f44cb9838c702283006c62a699cda97a353c113c42df1b1b19f2"
+  },
+  "completion": {
+    "brief_workflows_completed": 4,
+    "briefs_attempted": 4,
+    "final_comparisons_succeeded": 7,
+    "final_exact_unique_faces": 22,
+    "final_face_entries": 25,
+    "final_rendered_size_rows": 75,
+    "inspect_family_resolve_calls": 66,
+    "inspect_family_resolve_failures": 0,
+    "asset_verification_all_passed": true,
+    "glyph_zero_count_total": 0,
+    "all_final_pngs_opened": true,
+    "meaning": "Completion means local evidence workflows finished, not all four design briefs production-approved."
+  },
+  "timing": {
+    "basis": "Observed process wall time from time.monotonic; Python CLI startup included. Final searches were sequential; inspect/family/resolve batch used four workers. No repeated benchmark or baseline ideation timer.",
+    "final_four_search_seconds": [
+      1.777,
+      1.805,
+      1.541,
+      1.636
+    ],
+    "final_seven_compare_seconds": [
+      0.717,
+      0.745,
+      0.565,
+      0.591,
+      0.683,
+      0.76,
+      0.751
+    ],
+    "final_search_compare_process_seconds_sum": 11.571,
+    "inspect_family_resolve_process_seconds_sum": 34.556,
+    "full_run_log": [
+      {
+        "brief": "dashboard",
+        "phase": "search-with-baseline",
+        "seconds": 1.777,
+        "returncode": 0
+      },
+      {
+        "brief": "dashboard",
+        "phase": "compare-primary",
+        "ids": [
+          "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+          "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+          "ed0f479f7d729465faae2d32f5d70bc3a3693748c16cbf6da43493ff42d89623:0",
+          "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0"
+        ],
+        "seconds": 0.717,
+        "returncode": 0,
+        "stderr": ""
+      },
+      {
+        "brief": "dashboard",
+        "phase": "compare-companions",
+        "ids": [
+          "2063cee9aa495f29af09625d88dc18305e6e96d81c2684381d155ecd857de251:0",
+          "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+          "010fb98b45d9fd9d9937bf0384f2e2e64c9498372e0ae5fa288dcdbcefb99389:0",
+          "01f3e2bf144db0b5b68a64d1ffeb3c82ce67afd20e1dba73d4c0b6e933119b8f:0"
+        ],
+        "seconds": 0.745,
+        "returncode": 0,
+        "stderr": ""
+      },
+      {
+        "brief": "reading",
+        "phase": "search-with-baseline",
+        "seconds": 1.805,
+        "returncode": 0
+      },
+      {
+        "brief": "reading",
+        "phase": "compare-primary",
+        "ids": [
+          "3c490fbc8b3578f595c4cbd441e9beba59560cc4525531e47cbcea770009f1b3:0",
+          "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2:0",
+          "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a:0"
+        ],
+        "seconds": 0.565,
+        "returncode": 0,
+        "stderr": ""
+      },
+      {
+        "brief": "reading",
+        "phase": "compare-companions",
+        "ids": [
+          "8b87c18feb458297d541697b6d9c1dc835dc98eb21705627bf75ea01ce85cef9:0",
+          "98d724b86280f991c869cdbb04652700c7820715de6823a34af43f9fb4d127f7:0",
+          "b5a8bfaa63155d2813fdd51b26c1f7787346409aca2125f55c2fd81723088833:0"
+        ],
+        "seconds": 0.591,
+        "returncode": 0,
+        "stderr": ""
+      },
+      {
+        "brief": "game",
+        "phase": "search-with-baseline",
+        "seconds": 1.541,
+        "returncode": 0
+      },
+      {
+        "brief": "game",
+        "phase": "compare-primary",
+        "ids": [
+          "5d4ba5e8d894601672d04f1663c66c306e581b12eb60163314d764a2306d1110:0",
+          "910279e0dfa75a38e9847b830983e51251509613592766f2e6aacb24acb2048d:0",
+          "83384807d037617026e1f746d3f17474d7684b9cc9b515ad1f3a2fe7e30f7d42:0"
+        ],
+        "seconds": 0.683,
+        "returncode": 0,
+        "stderr": ""
+      },
+      {
+        "brief": "museum",
+        "phase": "search-with-baseline",
+        "seconds": 1.636,
+        "returncode": 0
+      },
+      {
+        "brief": "museum",
+        "phase": "compare-primary",
+        "ids": [
+          "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+          "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+          "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a:0",
+          "f4b48bda047d72465fbed8fe8243cc621ab159ef6f17f28dd255241ee160bcbf:0"
+        ],
+        "seconds": 0.76,
+        "returncode": 0,
+        "stderr": ""
+      },
+      {
+        "brief": "museum",
+        "phase": "compare-companions",
+        "ids": [
+          "2063cee9aa495f29af09625d88dc18305e6e96d81c2684381d155ecd857de251:0",
+          "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8:0",
+          "e66959edce75b8fde8e009c4c64b2d142d907cf4acbf3f7f8197602e507d8cb3:0",
+          "b58ae067c76631070aa1dd4482f6fdf7fcf9cd0fd571de3e1c91ade28fd5a5ec:0"
+        ],
+        "seconds": 0.751,
+        "returncode": 0,
+        "stderr": ""
+      }
+    ]
+  },
+  "briefs": [
+    {
+      "brief": "dashboard",
+      "input": {
+        "role": "ui",
+        "query": "compact tabular sans",
+        "text": "Queue 08 · Retry 1,024 | O0 I1l",
+        "weight": 400,
+        "italic": false,
+        "required_styles": [
+          {
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "weight": 700,
+            "italic": false
+          }
+        ],
+        "limit": 4,
+        "existing_id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0"
+      },
+      "baseline_status": {
+        "requested_id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+        "status": "retained"
+      },
+      "query_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {
+          "compact": "measured:compact",
+          "sans": "category:sans",
+          "tabular": "measured:tabular"
+        },
+        "unmodeled_terms": [],
+        "unrecognized_brief_fields": [],
+        "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed."
+      },
+      "candidate_order": [
+        {
+          "id": "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+          "family": "Noto Sans Display",
+          "style": "SemiCondensed",
+          "existing_baseline": false,
+          "heuristic_score": 13,
+          "required_axes": {},
+          "required_styles": [
+            {
+              "weight": 400,
+              "italic": false,
+              "id": "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+              "required_axes": {}
+            },
+            {
+              "weight": 700,
+              "italic": false,
+              "id": "2063cee9aa495f29af09625d88dc18305e6e96d81c2684381d155ecd857de251:0",
+              "required_axes": {}
+            }
+          ],
+          "file_sha256": "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240",
+          "face_index": 0,
+          "provenance": {
+            "source_id": "bekah",
+            "path": "Foundries/Google/Noto/Sans-Display-Unhinted/NotoSansDisplay-SemiCondensed.ttf",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Foundries/Google/Noto/Sans-Display-Unhinted/NotoSansDisplay-SemiCondensed.ttf",
+            "container": "ttf"
+          },
+          "rights_status": "embedded-open-license",
+          "asset_verified": true,
+          "glyph_zero_count": 0,
+          "missing_codepoints": [],
+          "specimen_image": {
+            "file": "specimen-01-3903a99f151a.png",
+            "sha256": "b1780f8842c63e93fb6e6e2284d1ae2fd8fcad9864fa032f6d013e1d24f5fbc3",
+            "width": 1440,
+            "height": 568
+          }
+        },
+        {
+          "id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+          "family": "Source Sans Pro",
+          "style": "Regular",
+          "existing_baseline": false,
+          "heuristic_score": 13,
+          "required_axes": {},
+          "required_styles": [
+            {
+              "weight": 400,
+              "italic": false,
+              "id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+              "required_axes": {}
+            },
+            {
+              "weight": 700,
+              "italic": false,
+              "id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+              "required_axes": {}
+            }
+          ],
+          "file_sha256": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3",
+          "face_index": 0,
+          "provenance": {
+            "source_id": "bekah",
+            "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+            "container": "ttf"
+          },
+          "rights_status": "embedded-open-license",
+          "asset_verified": true,
+          "glyph_zero_count": 0,
+          "missing_codepoints": [],
+          "specimen_image": {
+            "file": "specimen-02-c9868de61ff2.png",
+            "sha256": "9438ffa6a02f3432459b2997d2a31055902ec89d0bdb6e790f8e6f45548702df",
+            "width": 1440,
+            "height": 561
+          }
+        },
+        {
+          "id": "ed0f479f7d729465faae2d32f5d70bc3a3693748c16cbf6da43493ff42d89623:0",
+          "family": "IBM Plex Sans Condensed",
+          "style": "Regular",
+          "existing_baseline": false,
+          "heuristic_score": 13,
+          "required_axes": {},
+          "required_styles": [
+            {
+              "weight": 400,
+              "italic": false,
+              "id": "ed0f479f7d729465faae2d32f5d70bc3a3693748c16cbf6da43493ff42d89623:0",
+              "required_axes": {}
+            },
+            {
+              "weight": 700,
+              "italic": false,
+              "id": "010fb98b45d9fd9d9937bf0384f2e2e64c9498372e0ae5fa288dcdbcefb99389:0",
+              "required_axes": {}
+            }
+          ],
+          "file_sha256": "ed0f479f7d729465faae2d32f5d70bc3a3693748c16cbf6da43493ff42d89623",
+          "face_index": 0,
+          "provenance": {
+            "source_id": "bekah",
+            "path": "Foundries/Bold Monday/IBM-Plex/Web/IBM-Plex-Sans-Condensed/fonts/complete/woff/IBMPlexSansCondensed-Regular.woff",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Foundries/Bold Monday/IBM-Plex/Web/IBM-Plex-Sans-Condensed/fonts/complete/woff/IBMPlexSansCondensed-Regular.woff",
+            "container": "woff"
+          },
+          "rights_status": "embedded-open-license",
+          "asset_verified": true,
+          "glyph_zero_count": 0,
+          "missing_codepoints": [],
+          "specimen_image": {
+            "file": "specimen-03-ed0f479f7d72.png",
+            "sha256": "2e1dc3e8c8571bc85fa463cd2293161b86275a1554240c72ca3608fa86f738a6",
+            "width": 1440,
+            "height": 543
+          }
+        },
+        {
+          "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+          "family": "IBM Plex Sans",
+          "style": "Regular",
+          "existing_baseline": true,
+          "heuristic_score": 10,
+          "required_axes": {},
+          "required_styles": [
+            {
+              "weight": 400,
+              "italic": false,
+              "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+              "required_axes": {}
+            },
+            {
+              "weight": 700,
+              "italic": false,
+              "id": "01f3e2bf144db0b5b68a64d1ffeb3c82ce67afd20e1dba73d4c0b6e933119b8f:0",
+              "required_axes": {}
+            }
+          ],
+          "file_sha256": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a",
+          "face_index": 0,
+          "provenance": {
+            "source_id": "bekah",
+            "path": "Foundries/Bold Monday/IBM-Plex/Web/IBM-Plex-Sans/fonts/split/woff/IBMPlexSans-Regular-Latin1.woff",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Foundries/Bold Monday/IBM-Plex/Web/IBM-Plex-Sans/fonts/split/woff/IBMPlexSans-Regular-Latin1.woff",
+            "container": "woff"
+          },
+          "rights_status": "embedded-open-license",
+          "asset_verified": true,
+          "glyph_zero_count": 0,
+          "missing_codepoints": [],
+          "specimen_image": {
+            "file": "specimen-04-36f50919fa87.png",
+            "sha256": "c5e99836efcb227d679fc2df7ab00133ffa71f9820ab69d82914a2b85701a829",
+            "width": 1440,
+            "height": 543
+          }
+        }
+      ],
+      "artifacts": {
+        "comparison": "previews/dashboard-comparison/comparison.png",
+        "manifest": "previews/dashboard-comparison/manifest.json",
+        "companions": "previews/dashboard-companions/comparison.png"
+      },
+      "judgment_basis": "Subjective visual inspection by one agent; not a readability study.",
+      "decision": "Keep IBM Plex Sans as the provisional UI baseline; no reviewed finalist earns an unconditional pass for the strict 0/O requirement.",
+      "subjective_observations": [
+        "IBM Plex Sans has a roomier, calmer texture than the two condensed candidates; its I/1/l forms remain fairly recognizable at 18–32 px.",
+        "Noto Sans Display and IBM Plex Sans Condensed save horizontal space, but their O/0 distinction is subtle at 14 px. Source Sans Pro is compact without the same narrow texture.",
+        "No default specimen uses a slashed zero. The search rewards compact/tabular metadata but does not score confusion between O and 0. If that requirement is strict, continue with a measured identifier test or inspect a mono alternative rather than accepting the top rank."
+      ],
+      "change_from_baseline": "The original IBM Plex Sans suggestion becomes a specific verified Regular/Bold pair. Atkinson Hyperlegible cannot be compared because it is absent from this catalog. The harness supplies actual compact alternatives but does not prove superior legibility.",
+      "unfamiliar_option": "No clearly unfamiliar family emerged in this shortlist; narrower exact styles were useful.",
+      "remaining_validation": "Actual controls, contrast, platform text rasterization, and identifier recognition remain untested.",
+      "companions": [
+        {
+          "id": "2063cee9aa495f29af09625d88dc18305e6e96d81c2684381d155ecd857de251:0",
+          "family": "Noto Sans Display",
+          "style": "SemiCondensed Bold",
+          "file_sha256": "2063cee9aa495f29af09625d88dc18305e6e96d81c2684381d155ecd857de251",
+          "face_index": 0,
+          "glyph_zero_count": 0,
+          "asset_verified": true
+        },
+        {
+          "id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+          "family": "Source Sans Pro",
+          "style": "Bold",
+          "file_sha256": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb",
+          "face_index": 0,
+          "glyph_zero_count": 0,
+          "asset_verified": true
+        },
+        {
+          "id": "010fb98b45d9fd9d9937bf0384f2e2e64c9498372e0ae5fa288dcdbcefb99389:0",
+          "family": "IBM Plex Sans Condensed",
+          "style": "Bold",
+          "file_sha256": "010fb98b45d9fd9d9937bf0384f2e2e64c9498372e0ae5fa288dcdbcefb99389",
+          "face_index": 0,
+          "glyph_zero_count": 0,
+          "asset_verified": true
+        },
+        {
+          "id": "01f3e2bf144db0b5b68a64d1ffeb3c82ce67afd20e1dba73d4c0b6e933119b8f:0",
+          "family": "IBM Plex Sans",
+          "style": "Bold",
+          "file_sha256": "01f3e2bf144db0b5b68a64d1ffeb3c82ce67afd20e1dba73d4c0b6e933119b8f",
+          "face_index": 0,
+          "glyph_zero_count": 0,
+          "asset_verified": true
+        }
+      ]
+    },
+    {
+      "brief": "reading",
+      "input": {
+        "role": "body",
+        "query": "serif",
+        "text": "The river remembers. Chapter 04 — Field notes.",
+        "weight": 400,
+        "italic": false,
+        "required_styles": [
+          {
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "weight": 400,
+            "italic": true
+          }
+        ],
+        "limit": 4
+      },
+      "baseline_status": {
+        "requested_id": null,
+        "status": "not_supplied"
+      },
+      "query_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {
+          "serif": "category:serif"
+        },
+        "unmodeled_terms": [],
+        "unrecognized_brief_fields": [],
+        "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed."
+      },
+      "candidate_order": [
+        {
+          "id": "3c490fbc8b3578f595c4cbd441e9beba59560cc4525531e47cbcea770009f1b3:0",
+          "family": "Noto Serif",
+          "style": "SemiCondensed",
+          "existing_baseline": false,
+          "heuristic_score": 12,
+          "required_axes": {},
+          "required_styles": [
+            {
+              "weight": 400,
+              "italic": false,
+              "id": "3c490fbc8b3578f595c4cbd441e9beba59560cc4525531e47cbcea770009f1b3:0",
+              "required_axes": {}
+            },
+            {
+              "weight": 400,
+              "italic": true,
+              "id": "8b87c18feb458297d541697b6d9c1dc835dc98eb21705627bf75ea01ce85cef9:0",
+              "required_axes": {}
+            }
+          ],
+          "file_sha256": "3c490fbc8b3578f595c4cbd441e9beba59560cc4525531e47cbcea770009f1b3",
+          "face_index": 0,
+          "provenance": {
+            "source_id": "bekah",
+            "path": "Foundries/Google/Noto/Serif-Unhinted/NotoSerif-SemiCondensed.ttf",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Foundries/Google/Noto/Serif-Unhinted/NotoSerif-SemiCondensed.ttf",
+            "container": "ttf"
+          },
+          "rights_status": "embedded-open-license",
+          "asset_verified": true,
+          "glyph_zero_count": 0,
+          "missing_codepoints": [],
+          "specimen_image": {
+            "file": "specimen-01-3c490fbc8b35.png",
+            "sha256": "9a24676ed98e7f7fd0436ad35fd49ecef0a768d1fa6ed9daaab8462b46922c27",
+            "width": 1440,
+            "height": 573
+          }
+        },
+        {
+          "id": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2:0",
+          "family": "Untitled Serif",
+          "style": "Regular",
+          "existing_baseline": false,
+          "heuristic_score": 12,
+          "required_axes": {},
+          "required_styles": [
+            {
+              "weight": 400,
+              "italic": false,
+              "id": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2:0",
+              "required_axes": {}
+            },
+            {
+              "weight": 400,
+              "italic": true,
+              "id": "98d724b86280f991c869cdbb04652700c7820715de6823a34af43f9fb4d127f7:0",
+              "required_axes": {}
+            }
+          ],
+          "file_sha256": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2",
+          "face_index": 0,
+          "provenance": {
+            "source_id": "bekah",
+            "path": "Foundries/Klim Type Foundry/UntitledSerif/ttf/UntitledSerif-Regular.ttf",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Foundries/Klim Type Foundry/UntitledSerif/ttf/UntitledSerif-Regular.ttf",
+            "container": "ttf"
+          },
+          "rights_status": "unknown",
+          "asset_verified": true,
+          "glyph_zero_count": 0,
+          "missing_codepoints": [],
+          "specimen_image": {
+            "file": "specimen-02-1ee27b599897.png",
+            "sha256": "173993b3ed6c641538728aa388ecd8db9f206aecb542f0f7d64eec152c5b9ca0",
+            "width": 1440,
+            "height": 564
+          }
+        },
+        {
+          "id": "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a:0",
+          "family": "Noto Serif Display",
+          "style": "Condensed",
+          "existing_baseline": false,
+          "heuristic_score": 12,
+          "required_axes": {},
+          "required_styles": [
+            {
+              "weight": 400,
+              "italic": false,
+              "id": "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a:0",
+              "required_axes": {}
+            },
+            {
+              "weight": 400,
+              "italic": true,
+              "id": "b5a8bfaa63155d2813fdd51b26c1f7787346409aca2125f55c2fd81723088833:0",
+              "required_axes": {}
+            }
+          ],
+          "file_sha256": "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a",
+          "face_index": 0,
+          "provenance": {
+            "source_id": "bekah",
+            "path": "Foundries/Google/Noto/Serif-Display-Unhinted/NotoSerifDisplay-Condensed.ttf",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Foundries/Google/Noto/Serif-Display-Unhinted/NotoSerifDisplay-Condensed.ttf",
+            "container": "ttf"
+          },
+          "rights_status": "embedded-open-license",
+          "asset_verified": true,
+          "glyph_zero_count": 0,
+          "missing_codepoints": [],
+          "specimen_image": {
+            "file": "specimen-03-7f85cacda390.png",
+            "sha256": "eb04cb4577e002c54a99e180a2bbf2a99cd4e37df11084ac532223cff93c3186",
+            "width": 1440,
+            "height": 573
+          }
+        }
+      ],
+      "artifacts": {
+        "comparison": "previews/reading-comparison/comparison.png",
+        "manifest": "previews/reading-comparison/manifest.json",
+        "companions": "previews/reading-companions/comparison.png"
+      },
+      "judgment_basis": "Subjective visual inspection by one agent; not a readability study.",
+      "decision": "Use one family for the next reading-layout prototype: Noto Serif SemiCondensed with its matching italic; keep Untitled Serif as an aesthetic alternative requiring rights review.",
+      "subjective_observations": [
+        "At 16–20 px, Noto Serif SemiCondensed gives a sturdy, even paragraph texture and a restrained italic.",
+        "Untitled Serif looks rounder and more relaxed, with a less compressed rhythm. Its italic adds warmth without looking like a separate display family.",
+        "Noto Serif Display Condensed has much finer strokes and a taller, tighter texture. I would reject it for this long-reading body role at 16 px despite its equal heuristic score."
+      ],
+      "change_from_baseline": "Literata and Source Serif 4 are absent. Source Serif Pro is present as an older adjacent family but fails the required italic test; it was not silently substituted.",
+      "unfamiliar_option": "Untitled Serif was a useful option absent from the unaided baseline, subject to unresolved usage rights.",
+      "remaining_validation": "The supplemental paragraph is evaluator-authored fixture text. Reading endurance, the real document, actual line spacing, and application rendering remain untested.",
+      "companions": [
+        {
+          "id": "8b87c18feb458297d541697b6d9c1dc835dc98eb21705627bf75ea01ce85cef9:0",
+          "family": "Noto Serif",
+          "style": "SemiCondensed Italic",
+          "file_sha256": "8b87c18feb458297d541697b6d9c1dc835dc98eb21705627bf75ea01ce85cef9",
+          "face_index": 0,
+          "glyph_zero_count": 0,
+          "asset_verified": true
+        },
+        {
+          "id": "98d724b86280f991c869cdbb04652700c7820715de6823a34af43f9fb4d127f7:0",
+          "family": "Untitled Serif",
+          "style": "Regular Italic",
+          "file_sha256": "98d724b86280f991c869cdbb04652700c7820715de6823a34af43f9fb4d127f7",
+          "face_index": 0,
+          "glyph_zero_count": 0,
+          "asset_verified": true
+        },
+        {
+          "id": "b5a8bfaa63155d2813fdd51b26c1f7787346409aca2125f55c2fd81723088833:0",
+          "family": "Noto Serif Display",
+          "style": "Condensed Italic",
+          "file_sha256": "b5a8bfaa63155d2813fdd51b26c1f7787346409aca2125f55c2fd81723088833",
+          "face_index": 0,
+          "glyph_zero_count": 0,
+          "asset_verified": true
+        }
+      ]
+    },
+    {
+      "brief": "game",
+      "input": {
+        "role": "game",
+        "query": "wide display",
+        "text": "ORBITAL / SECTOR 09",
+        "weight": 400,
+        "italic": false,
+        "limit": 4
+      },
+      "baseline_status": {
+        "requested_id": null,
+        "status": "not_supplied"
+      },
+      "query_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {
+          "display": "category:display",
+          "wide": "metadata:wide"
+        },
+        "unmodeled_terms": [],
+        "unrecognized_brief_fields": [],
+        "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed."
+      },
+      "candidate_order": [
+        {
+          "id": "5d4ba5e8d894601672d04f1663c66c306e581b12eb60163314d764a2306d1110:0",
+          "family": "Election Day Expanded",
+          "style": "Expanded",
+          "existing_baseline": false,
+          "heuristic_score": 3,
+          "required_axes": {},
+          "required_styles": [],
+          "file_sha256": "5d4ba5e8d894601672d04f1663c66c306e581b12eb60163314d764a2306d1110",
+          "face_index": 0,
+          "provenance": {
+            "source_id": "extsalt",
+            "path": "ElectionDayExpanded.ttf",
+            "url": "https://github.com/extsalt/10000-font-collection",
+            "commit": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+            "upstream_path": "ElectionDayExpanded.ttf",
+            "container": "ttf"
+          },
+          "rights_status": "unknown",
+          "asset_verified": true,
+          "glyph_zero_count": 0,
+          "missing_codepoints": [],
+          "specimen_image": {
+            "file": "specimen-01-5d4ba5e8d894.png",
+            "sha256": "86c4fba7350d345adc4149889ffafda807f5911c09c99b76ebca41b5d046a7e2",
+            "width": 1440,
+            "height": 618
+          }
+        },
+        {
+          "id": "910279e0dfa75a38e9847b830983e51251509613592766f2e6aacb24acb2048d:0",
+          "family": "Martian Mono",
+          "style": "sWd Rg",
+          "existing_baseline": false,
+          "heuristic_score": 3,
+          "required_axes": {},
+          "required_styles": [],
+          "file_sha256": "910279e0dfa75a38e9847b830983e51251509613592766f2e6aacb24acb2048d",
+          "face_index": 0,
+          "provenance": {
+            "source_id": "bekah",
+            "path": "Foundries/Evil Martians/Martian Mono/OTF/MartianMono-sWdRg.otf",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Foundries/Evil Martians/Martian Mono/OTF/MartianMono-sWdRg.otf",
+            "container": "otf"
+          },
+          "rights_status": "embedded-open-license",
+          "asset_verified": true,
+          "glyph_zero_count": 0,
+          "missing_codepoints": [],
+          "specimen_image": {
+            "file": "specimen-02-910279e0dfa7.png",
+            "sha256": "7aa03608735ec0aeecfb825a9da716bdee7ead2a439ad84f8ec4ff6bd8bd1132",
+            "width": 1440,
+            "height": 615
+          }
+        },
+        {
+          "id": "83384807d037617026e1f746d3f17474d7684b9cc9b515ad1f3a2fe7e30f7d42:0",
+          "family": "ETC Trispace",
+          "style": "Regular Extended",
+          "existing_baseline": false,
+          "heuristic_score": 3,
+          "required_axes": {},
+          "required_styles": [],
+          "file_sha256": "83384807d037617026e1f746d3f17474d7684b9cc9b515ad1f3a2fe7e30f7d42",
+          "face_index": 0,
+          "provenance": {
+            "source_id": "bekah",
+            "path": "Foundries/Etcetera Type Company/ETC-Trispace/WOFF2 (individual webfonts)/ETCTrispace-RegularExtended.woff2",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Foundries/Etcetera Type Company/ETC-Trispace/WOFF2 (individual webfonts)/ETCTrispace-RegularExtended.woff2",
+            "container": "woff2"
+          },
+          "rights_status": "unknown",
+          "asset_verified": true,
+          "glyph_zero_count": 0,
+          "missing_codepoints": [],
+          "specimen_image": {
+            "file": "specimen-03-83384807d037.png",
+            "sha256": "8fe2569a7debc57f8554b105be50d66bfb716faf29b67264eca4d93cd524d8f1",
+            "width": 1440,
+            "height": 615
+          }
+        }
+      ],
+      "artifacts": {
+        "comparison": "previews/game-comparison/comparison.png",
+        "manifest": "previews/game-comparison/manifest.json"
+      },
+      "judgment_basis": "Subjective visual inspection by one agent; not a readability study.",
+      "decision": "Explore Election Day Expanded for the large title with Inter UI for small mission copy; Martian Mono is the stronger single-family alternative. This is a pairing hypothesis, not a completed product choice.",
+      "subjective_observations": [
+        "Election Day Expanded makes a clear visual departure from the baseline: double-line, squared letterforms create an arcade/sci-fi voice at 32–64 px. At 14 px its outlined mission text looks busy and fragile.",
+        "Martian Mono is less theatrical but stays readable in the 14 px mission fixture, and its slashed zero is clearly visible.",
+        "ETC Trispace Regular Extended creates a spacious, thin, cinematic title. The same width makes mission copy long and less economical.",
+        "Inter UI is much more compact in the mission-text specimen than the three title candidates. Their combination still needs inspection together in a real game layout."
+      ],
+      "change_from_baseline": "Orbitron and Rajdhani are absent. The harness exposed Election Day Expanded, Martian Mono, and ETC Trispace with exact source files and visibly different behavior.",
+      "unfamiliar_option": "Election Day Expanded and ETC Trispace were useful discoveries absent from the unaided baseline.",
+      "remaining_validation": "Election Day Expanded and ETC Trispace have unknown rights status. No game engine, title/mission composition, or production license has been validated."
+    },
+    {
+      "brief": "museum",
+      "input": {
+        "role": "document",
+        "text": "Archive 2026 — Αθήνα",
+        "weight": 400,
+        "italic": false,
+        "required_styles": [
+          {
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "weight": 700,
+            "italic": false
+          }
+        ],
+        "limit": 4,
+        "existing_id": "f4b48bda047d72465fbed8fe8243cc621ab159ef6f17f28dd255241ee160bcbf:0"
+      },
+      "baseline_status": {
+        "requested_id": "f4b48bda047d72465fbed8fe8243cc621ab159ef6f17f28dd255241ee160bcbf:0",
+        "status": "retained"
+      },
+      "query_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {},
+        "unmodeled_terms": [],
+        "unrecognized_brief_fields": [],
+        "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed."
+      },
+      "candidate_order": [
+        {
+          "id": "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+          "family": "Noto Sans Display",
+          "style": "SemiCondensed",
+          "existing_baseline": false,
+          "heuristic_score": 4,
+          "required_axes": {},
+          "required_styles": [
+            {
+              "weight": 400,
+              "italic": false,
+              "id": "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+              "required_axes": {}
+            },
+            {
+              "weight": 700,
+              "italic": false,
+              "id": "2063cee9aa495f29af09625d88dc18305e6e96d81c2684381d155ecd857de251:0",
+              "required_axes": {}
+            }
+          ],
+          "file_sha256": "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240",
+          "face_index": 0,
+          "provenance": {
+            "source_id": "bekah",
+            "path": "Foundries/Google/Noto/Sans-Display-Unhinted/NotoSansDisplay-SemiCondensed.ttf",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Foundries/Google/Noto/Sans-Display-Unhinted/NotoSansDisplay-SemiCondensed.ttf",
+            "container": "ttf"
+          },
+          "rights_status": "embedded-open-license",
+          "asset_verified": true,
+          "glyph_zero_count": 0,
+          "missing_codepoints": [],
+          "specimen_image": {
+            "file": "specimen-01-3903a99f151a.png",
+            "sha256": "0f90620e67a9abd1cd3f7c88b828735c58fb74ab5590bac6ae3f0c23ab24ea7f",
+            "width": 1440,
+            "height": 583
+          }
+        },
+        {
+          "id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+          "family": "Finder",
+          "style": "Regular",
+          "existing_baseline": false,
+          "heuristic_score": 4,
+          "required_axes": {},
+          "required_styles": [
+            {
+              "weight": 400,
+              "italic": false,
+              "id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+              "required_axes": {}
+            },
+            {
+              "weight": 700,
+              "italic": false,
+              "id": "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8:0",
+              "required_axes": {}
+            }
+          ],
+          "file_sha256": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425",
+          "face_index": 0,
+          "provenance": {
+            "source_id": "bekah",
+            "path": "Foundries/Black [Foundry]/Finder/Finder-Regular.ttf",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Foundries/Black [Foundry]/Finder/Finder-Regular.ttf",
+            "container": "ttf"
+          },
+          "rights_status": "unknown",
+          "asset_verified": true,
+          "glyph_zero_count": 0,
+          "missing_codepoints": [],
+          "specimen_image": {
+            "file": "specimen-02-6ed23dfdede6.png",
+            "sha256": "0343d65bb7f2fb2dbba6c9b74cf8241e116ff88b87131448598ad1e08bd71cc4",
+            "width": 1440,
+            "height": 555
+          }
+        },
+        {
+          "id": "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a:0",
+          "family": "Noto Serif Display",
+          "style": "Condensed",
+          "existing_baseline": false,
+          "heuristic_score": 4,
+          "required_axes": {},
+          "required_styles": [
+            {
+              "weight": 400,
+              "italic": false,
+              "id": "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a:0",
+              "required_axes": {}
+            },
+            {
+              "weight": 700,
+              "italic": false,
+              "id": "e66959edce75b8fde8e009c4c64b2d142d907cf4acbf3f7f8197602e507d8cb3:0",
+              "required_axes": {}
+            }
+          ],
+          "file_sha256": "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a",
+          "face_index": 0,
+          "provenance": {
+            "source_id": "bekah",
+            "path": "Foundries/Google/Noto/Serif-Display-Unhinted/NotoSerifDisplay-Condensed.ttf",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Foundries/Google/Noto/Serif-Display-Unhinted/NotoSerifDisplay-Condensed.ttf",
+            "container": "ttf"
+          },
+          "rights_status": "embedded-open-license",
+          "asset_verified": true,
+          "glyph_zero_count": 0,
+          "missing_codepoints": [],
+          "specimen_image": {
+            "file": "specimen-03-7f85cacda390.png",
+            "sha256": "f59b1e1950fd7758b700105a06b8ae2776925c5108f3c9c1c27fe6d04d12d267",
+            "width": 1440,
+            "height": 583
+          }
+        },
+        {
+          "id": "f4b48bda047d72465fbed8fe8243cc621ab159ef6f17f28dd255241ee160bcbf:0",
+          "family": "Noto Serif",
+          "style": "Regular",
+          "existing_baseline": true,
+          "heuristic_score": 4,
+          "required_axes": {},
+          "required_styles": [
+            {
+              "weight": 400,
+              "italic": false,
+              "id": "f4b48bda047d72465fbed8fe8243cc621ab159ef6f17f28dd255241ee160bcbf:0",
+              "required_axes": {}
+            },
+            {
+              "weight": 700,
+              "italic": false,
+              "id": "b58ae067c76631070aa1dd4482f6fdf7fcf9cd0fd571de3e1c91ade28fd5a5ec:0",
+              "required_axes": {}
+            }
+          ],
+          "file_sha256": "f4b48bda047d72465fbed8fe8243cc621ab159ef6f17f28dd255241ee160bcbf",
+          "face_index": 0,
+          "provenance": {
+            "source_id": "bekah",
+            "path": "Foundries/Google/Noto/Serif-Unhinted/NotoSerif-Regular.ttf",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Foundries/Google/Noto/Serif-Unhinted/NotoSerif-Regular.ttf",
+            "container": "ttf"
+          },
+          "rights_status": "embedded-open-license",
+          "asset_verified": true,
+          "glyph_zero_count": 0,
+          "missing_codepoints": [],
+          "specimen_image": {
+            "file": "specimen-04-f4b48bda047d.png",
+            "sha256": "5f4e23fe616dea597c757810cdf45062234bf05aadf46d419a1e936cec461616",
+            "width": 1440,
+            "height": 583
+          }
+        }
+      ],
+      "artifacts": {
+        "comparison": "previews/museum-comparison/comparison.png",
+        "manifest": "previews/museum-comparison/manifest.json",
+        "companions": "previews/museum-companions/comparison.png"
+      },
+      "judgment_basis": "Subjective visual inspection by one agent; not a readability study.",
+      "decision": "Keep the original Noto Serif direction as a single verified Regular/Bold family for the next bilingual document prototype.",
+      "subjective_observations": [
+        "Noto Serif makes the Latin and Greek words feel like one editorial document, with a sturdy regular and clear bold at 16–36 px.",
+        "Finder is a plausible neutral institutional alternative, but this specimen gives no compelling reason to replace the existing serif direction.",
+        "Noto Serif Display Condensed looks elegant at larger sizes but its finer strokes are less comfortable at 16 px."
+      ],
+      "change_from_baseline": "The original family suggestion becomes an exact verified Regular/Bold pair. Noto Sans exists by name but has no indexed 400-upright face; it is not an eligible regular baseline.",
+      "unfamiliar_option": "Finder is a new neutral alternative, with unknown rights status.",
+      "remaining_validation": "Only the provided sample plus a precomposed/decomposed accent fixture was checked; this is not full Greek, polytonic Greek, or entire-document coverage certification.",
+      "companions": [
+        {
+          "id": "2063cee9aa495f29af09625d88dc18305e6e96d81c2684381d155ecd857de251:0",
+          "family": "Noto Sans Display",
+          "style": "SemiCondensed Bold",
+          "file_sha256": "2063cee9aa495f29af09625d88dc18305e6e96d81c2684381d155ecd857de251",
+          "face_index": 0,
+          "glyph_zero_count": 0,
+          "asset_verified": true
+        },
+        {
+          "id": "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8:0",
+          "family": "Finder",
+          "style": "Bold",
+          "file_sha256": "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8",
+          "face_index": 0,
+          "glyph_zero_count": 0,
+          "asset_verified": true
+        },
+        {
+          "id": "e66959edce75b8fde8e009c4c64b2d142d907cf4acbf3f7f8197602e507d8cb3:0",
+          "family": "Noto Serif Display",
+          "style": "Condensed Bold",
+          "file_sha256": "e66959edce75b8fde8e009c4c64b2d142d907cf4acbf3f7f8197602e507d8cb3",
+          "face_index": 0,
+          "glyph_zero_count": 0,
+          "asset_verified": true
+        },
+        {
+          "id": "b58ae067c76631070aa1dd4482f6fdf7fcf9cd0fd571de3e1c91ade28fd5a5ec:0",
+          "family": "Noto Serif",
+          "style": "Bold",
+          "file_sha256": "b58ae067c76631070aa1dd4482f6fdf7fcf9cd0fd571de3e1c91ade28fd5a5ec",
+          "face_index": 0,
+          "glyph_zero_count": 0,
+          "asset_verified": true
+        }
+      ]
+    }
+  ],
+  "supplementary_checks": [
+    {
+      "key": "mission-small",
+      "seconds": 0.881,
+      "returncode": 0,
+      "stderr": "",
+      "status": null,
+      "baseline": null,
+      "query_interpretation": null,
+      "candidates": []
+    },
+    {
+      "key": "reject-missing-greek",
+      "seconds": 0.094,
+      "returncode": 2,
+      "stderr": "{\"error\": \"Font 5d4ba5e8d894601672d04f1663c66c306e581b12eb60163314d764a2306d1110:0 lacks required characters: U+0391, U+03AE, U+03B1, U+03B8, U+03BD. No fallback was used.\", \"type\": \"RenderError\"}\n",
+      "status": null,
+      "baseline": null,
+      "query_interpretation": null,
+      "candidates": []
+    },
+    {
+      "key": "exact-missing-literata",
+      "seconds": 1.601,
+      "returncode": 0,
+      "stderr": "",
+      "status": "no_matches",
+      "baseline": {
+        "requested_id": null,
+        "status": "not_supplied"
+      },
+      "query_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {},
+        "unmodeled_terms": [],
+        "unrecognized_brief_fields": [],
+        "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed."
+      },
+      "candidates": []
+    },
+    {
+      "key": "exact-ibm",
+      "seconds": 2.201,
+      "returncode": 0,
+      "stderr": "",
+      "status": "candidates",
+      "baseline": {
+        "requested_id": null,
+        "status": "not_supplied"
+      },
+      "query_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {
+          "compact": "measured:compact",
+          "sans": "category:sans",
+          "tabular": "measured:tabular"
+        },
+        "unmodeled_terms": [],
+        "unrecognized_brief_fields": [],
+        "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed."
+      },
+      "candidates": [
+        {
+          "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+          "family": "IBM Plex Sans",
+          "style": "Regular"
+        }
+      ]
+    },
+    {
+      "key": "missing-italic-baseline",
+      "seconds": 2.2,
+      "returncode": 0,
+      "stderr": "",
+      "status": "candidates",
+      "baseline": {
+        "requested_id": "fe3ba6a02cd23f368db927bdf16ee839ed32908d2c623604364d0e21e434c92e:0",
+        "status": "rejected",
+        "reasons": [
+          "required_family_style_unavailable"
+        ]
+      },
+      "query_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {
+          "serif": "category:serif"
+        },
+        "unmodeled_terms": [],
+        "unrecognized_brief_fields": [],
+        "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed."
+      },
+      "candidates": [
+        {
+          "id": "3c490fbc8b3578f595c4cbd441e9beba59560cc4525531e47cbcea770009f1b3:0",
+          "family": "Noto Serif",
+          "style": "SemiCondensed"
+        },
+        {
+          "id": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2:0",
+          "family": "Untitled Serif",
+          "style": "Regular"
+        },
+        {
+          "id": "7f85cacda3906cc1ca32438aed80a4c4d8255303eb456ab4b7a1419e3390779a:0",
+          "family": "Noto Serif Display",
+          "style": "Condensed"
+        },
+        {
+          "id": "4d28ff3726c4be838fd9591440fa930bf236d6cd5cd09907f7cda79116d569de:0",
+          "family": "IBM Plex Serif",
+          "style": "Regular"
+        }
+      ]
+    },
+    {
+      "key": "unmodeled-query",
+      "seconds": 1.772,
+      "returncode": 0,
+      "stderr": "",
+      "status": "candidates",
+      "baseline": {
+        "requested_id": null,
+        "status": "not_supplied"
+      },
+      "query_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {
+          "display": "category:display",
+          "wide": "metadata:wide"
+        },
+        "unmodeled_terms": [
+          "literary",
+          "restrained",
+          "warm"
+        ],
+        "unrecognized_brief_fields": [],
+        "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed."
+      },
+      "candidates": [
+        {
+          "id": "5d4ba5e8d894601672d04f1663c66c306e581b12eb60163314d764a2306d1110:0",
+          "family": "Election Day Expanded",
+          "style": "Expanded"
+        },
+        {
+          "id": "910279e0dfa75a38e9847b830983e51251509613592766f2e6aacb24acb2048d:0",
+          "family": "Martian Mono",
+          "style": "sWd Rg"
+        },
+        {
+          "id": "83384807d037617026e1f746d3f17474d7684b9cc9b515ad1f3a2fe7e30f7d42:0",
+          "family": "ETC Trispace",
+          "style": "Regular Extended"
+        },
+        {
+          "id": "9cf5b802dbb47ec1bd511c5870a5e70f1a4ff62ceec55fb420a1ea9c2c4555bd:0",
+          "family": "Iosevka",
+          "style": "Extended"
+        }
+      ]
+    },
+    {
+      "key": "greek-decomposed",
+      "seconds": 0.242,
+      "returncode": 0,
+      "stderr": "",
+      "status": null,
+      "baseline": null,
+      "query_interpretation": null,
+      "candidates": []
+    },
+    {
+      "key": "ambiguous-metadata-italic",
+      "seconds": 0.216,
+      "returncode": 0,
+      "stderr": "",
+      "status": null,
+      "baseline": null,
+      "query_interpretation": null,
+      "candidates": []
+    }
+  ],
+  "iteration_findings": [
+    {
+      "finding": "Companion matching initially changed Noto Serif Regular to ExtraCondensed Bold and condensed reading faces to normal-width italics.",
+      "status": "Fixed and rerendered. Final Noto Serif regular/bold and condensed/upright/italic widths are coherent.",
+      "evidence_before": "The first museum-companions PNG labels ExtraCondensed Bold; final version labels Bold."
+    },
+    {
+      "finding": "IBM Plex Sans Condensed selected a WOFF but initially resolved its 400 companion to a different WOFF2 ID. Same version/width/metrics; different canonical hash.",
+      "status": "Fixed: selected face resolves to itself for its own requested style."
+    },
+    {
+      "finding": "PP Agrandir Grand Italic declared italic=false, passed the initial upright constraint, and renders visibly slanted.",
+      "status": "Fixed in constrained search through conflicting-style metadata rejection; direct-ID render remains possible and honestly shows the source face."
+    },
+    {
+      "finding": "Absent family queries initially returned generic alternatives without an explicit exact-family miss.",
+      "status": "Improved: final strict --family Literata returns no_matches; query output explains literal-name matches and preference semantics."
+    },
+    {
+      "finding": "An unnamed font appeared in the early dashboard shortlist.",
+      "status": "Excluded from final discovery results."
+    }
+  ],
+  "remaining_limits": [
+    "Subjective visual judgments by one agent, with no blinded comparison, randomization, human subjects, or statistical inference.",
+    "The baseline was named recommendations, not a rendered control condition. Only two briefs had eligible baseline files in this catalog.",
+    "The index was already built; setup, fetch, rebuild, Windows/Linux, MCP transport, and end application deployment were not tested by this evaluator.",
+    "The search does not interpret warmth, restraint, literary tone, or sci-fi semantics beyond documented aliases and literal name matches. Adding warm restrained literary left the game shortlist unchanged and disclosed all three terms as unmodeled.",
+    "Equal heuristic scores are not equal design suitability. Noto Serif Display Condensed ranked alongside body-friendly options but was visually rejected for small reading text.",
+    "Specimens use HarfBuzz/FreeType unhinted outlines. Their successful coverage is not proof of browser/game/Word parity.",
+    "Unknown rights remain unknown. No font licensing clearance, installation, redistribution, or deployment was performed."
+  ],
+  "conclusion": "The harness materially improves evidence and exposes useful alternative files. It does not establish a universal improvement in taste or readability. Keeping the baseline remained the preferred direction for the museum and provisional dashboard."
+}

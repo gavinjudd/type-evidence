@@ -1,0 +1,14 @@
+# Exact dependency versions used in the macOS validation environment.
+# Direct runtime dependencies also pinned in pyproject.toml.
+brotli==1.2.0
+fonttools==4.60.2
+freetype-py==2.5.1
+iniconfig==2.3.0
+packaging==26.3
+pillow==11.3.0
+pluggy==1.6.0
+pygments==2.21.0
+pytest==8.4.2
+-e .
+uharfbuzz==0.52.0
+zopfli==0.4.3

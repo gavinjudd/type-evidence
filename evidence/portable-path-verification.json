@@ -1,0 +1,18 @@
+[
+  {
+    "source": "bekahmcdonald-fonts",
+    "files_tested": 28098,
+    "changed_paths": 777,
+    "invalid_mapped_paths": 0,
+    "casefold_collisions": 0,
+    "max_mapped_relative_length": 136
+  },
+  {
+    "source": "extsalt-10000-font-collection",
+    "files_tested": 10492,
+    "changed_paths": 0,
+    "invalid_mapped_paths": 0,
+    "casefold_collisions": 0,
+    "max_mapped_relative_length": 49
+  }
+]

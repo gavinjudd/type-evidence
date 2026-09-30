@@ -1,0 +1,9 @@
+{
+  "role": "body",
+  "query": "serif",
+  "text": "The river remembers. Chapter 04 — Field notes.",
+  "weight": 400,
+  "italic": false,
+  "required_styles": [{"weight": 400, "italic": false}, {"weight": 400, "italic": true}],
+  "limit": 4
+}

@@ -1,0 +1,9 @@
+{
+  "role": "ui",
+  "query": "compact tabular sans",
+  "text": "Queue 08 · Retry 1,024 | O0 I1l",
+  "weight": 400,
+  "italic": false,
+  "required_styles": [{"weight": 400, "italic": false}, {"weight": 700, "italic": false}],
+  "limit": 4
+}

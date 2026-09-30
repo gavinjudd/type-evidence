@@ -1,0 +1,123 @@
+{
+  "method": "Literal indicator search of text sidecars, not license classification or permission grant. PDF/RTF/DOCX/ODT excluded. Family association requires exact provenance review. Generic permission wording overlaps OFL and must not be treated as MIT.",
+  "counts": {
+    "OFL_indicator": 233,
+    "personal_use_indicator": 10,
+    "commercial_restriction_indicator": 9,
+    "Apache_indicator": 11,
+    "generic_permission_phrase": 199
+  },
+  "examples": {
+    "OFL_indicator": [
+      {
+        "path": "Designers/ANTI/Optician-Sans/LICENSE.md",
+        "matched_text": "SIL Open Font License"
+      },
+      {
+        "path": "Designers/ANTI/Optician-Sans/README.md",
+        "matched_text": "SIL Open Font License"
+      },
+      {
+        "path": "Designers/Alex Slobzheninov/FivoSansModern/License/OFL.txt",
+        "matched_text": "SIL Open Font License"
+      },
+      {
+        "path": "Designers/Dave Crossland/Cantarell/OFL.txt",
+        "matched_text": "SIL Open Font License"
+      },
+      {
+        "path": "Designers/Ertekinno/Libre Caslon Condensed/OFL.txt",
+        "matched_text": "SIL Open Font License"
+      }
+    ],
+    "personal_use_indicator": [
+      {
+        "path": "Designers/Atelier Olschinsky/AO Mono/License.txt",
+        "matched_text": "PERSONAL USE ONLY"
+      },
+      {
+        "path": "Designers/Atelier Olschinsky/Minimal-Mono/License/License.txt",
+        "matched_text": "PERSONAL USE ONLY"
+      },
+      {
+        "path": "Foundries/Harvatt House/Coves/License/License.txt",
+        "matched_text": "Personal Use ONLY"
+      },
+      {
+        "path": "Foundries/Harvatt House/Kayak-Sans/License/Kayak Sans  License.txt",
+        "matched_text": "Personal Use ONLY"
+      },
+      {
+        "path": "Foundries/Harvatt House/Moon/1.0/License/License.txt",
+        "matched_text": "PERSONAL USE ONLY"
+      }
+    ],
+    "commercial_restriction_indicator": [
+      {
+        "path": "Designers/Atelier Olschinsky/AO Mono/License.txt",
+        "matched_text": "COMMERCIAL LICENSE"
+      },
+      {
+        "path": "Designers/Atelier Olschinsky/Minimal-Mono/License/License.txt",
+        "matched_text": "COMMERCIAL LICENSE"
+      },
+      {
+        "path": "Foundries/Harvatt House/Moon/1.0/License/License.txt",
+        "matched_text": "COMMERCIAL LICENSE"
+      },
+      {
+        "path": "Unsorted/2/FONT/readme.txt",
+        "matched_text": "COMMERCIAL LICENSE"
+      },
+      {
+        "path": "Unsorted/2/Rounded/Champagne & Limousines/readme.txt",
+        "matched_text": "commercial license"
+      }
+    ],
+    "Apache_indicator": [
+      {
+        "path": "Designers/Christian Robertson/Roboto/Condensed/LICENSE.txt",
+        "matched_text": "Apache License"
+      },
+      {
+        "path": "Designers/Christian Robertson/Roboto/Mono/LICENSE.txt",
+        "matched_text": "Apache License"
+      },
+      {
+        "path": "Designers/Christian Robertson/Roboto/Slab/LICENSE.txt",
+        "matched_text": "Apache License"
+      },
+      {
+        "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+        "matched_text": "Apache License"
+      },
+      {
+        "path": "Designers/JetBrains/JetBrains Mono/1.0.3/LICENSE",
+        "matched_text": "Apache License"
+      }
+    ],
+    "generic_permission_phrase": [
+      {
+        "path": "Designers/ANTI/Optician-Sans/LICENSE.md",
+        "matched_text": "Permission is hereby granted, free of charge"
+      },
+      {
+        "path": "Designers/Alex Slobzheninov/FivoSansModern/License/OFL.txt",
+        "matched_text": "Permission is hereby granted, free of charge"
+      },
+      {
+        "path": "Designers/Dave Crossland/Cantarell/OFL.txt",
+        "matched_text": "Permission is hereby granted, free of charge"
+      },
+      {
+        "path": "Designers/Ertekinno/Libre Caslon Condensed/OFL.txt",
+        "matched_text": "Permission is hereby granted, free of charge"
+      },
+      {
+        "path": "Designers/Florian Karsten/SpaceGrotesk-1.1.6/OFL.txt",
+        "matched_text": "Permission is hereby granted, free of charge"
+      }
+    ]
+  },
+  "no_repository_license_in_github_metadata": true
+}

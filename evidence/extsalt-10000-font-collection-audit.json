@@ -1,0 +1,27 @@
+{
+  "source": "extsalt-10000-font-collection",
+  "root": "<workspace>/work/sources/extsalt-10000-font-collection",
+  "head_commit": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+  "working_tree_status": [],
+  "tracked_file_count": 10492,
+  "checked_out_bytes": 805838996,
+  "extension_counts": {
+    ".ttf": 10492
+  },
+  "signature_counts": {
+    "sfnt_truetype": 10492
+  },
+  "top_directory_counts": {
+    "<root files>": 10492
+  },
+  "font_extension_count": 10492,
+  "recognized_font_signature_count": 10492,
+  "exact_duplicate_group_count": 5,
+  "exact_duplicate_redundant_files": 6,
+  "case_unicode_collisions": [],
+  "submodules": [],
+  "archives": [],
+  "license_or_readme_sidecars": [],
+  "issues": [],
+  "issue_counts": {}
+}

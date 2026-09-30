@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "id": "bekah",
+      "url": "https://github.com/bekahmcdonald/fonts",
+      "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3"
+    },
+    {
+      "id": "extsalt",
+      "url": "https://github.com/extsalt/10000-font-collection",
+      "commit": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c"
+    }
+  ]
+}

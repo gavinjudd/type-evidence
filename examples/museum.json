@@ -1,0 +1,8 @@
+{
+  "role": "document",
+  "text": "Archive 2026 — Αθήνα",
+  "weight": 400,
+  "italic": false,
+  "required_styles": [{"weight": 400, "italic": false}, {"weight": 700, "italic": false}],
+  "limit": 4
+}

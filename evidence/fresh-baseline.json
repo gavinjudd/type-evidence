@@ -1,0 +1,78 @@
+{
+  "phase": "without_harness_baseline",
+  "sealed": true,
+  "method": "Ordinary typography knowledge only. No repository catalog, harness, web search, font metadata, or specimen access was used.",
+  "verification_status": "All recommendations are provisional. Exact font files, available styles, glyph coverage, and rendered differentiation have not been checked.",
+  "briefs": [
+    {
+      "id": "dense_operations_dashboard",
+      "sample": "Queue 08 · Retry 1,024",
+      "requirements": ["regular and bold", "differentiate 0/O/1/l", "compact controls"],
+      "suggestions": [
+        {
+          "family": "IBM Plex Sans",
+          "reason": "A restrained interface family with recognizable letterforms and a useful range of weights; a plausible fit for dense operational labels.",
+          "caveat": "Inspect the actual 0/O/1/l glyphs at control size. Do not assume a slashed zero, tabular numerals, or exact Regular/Bold files without checking the chosen build."
+        },
+        {
+          "family": "Atkinson Hyperlegible",
+          "reason": "Its emphasis on distinguishable letterforms makes it a strong candidate where identifiers and counts must be read reliably.",
+          "caveat": "Its proportions may consume more space than a dense UI allows. Verify the supplied Regular/Bold files and 0/O/1/l differentiation in the actual control layout."
+        }
+      ]
+    },
+    {
+      "id": "literary_reading_app",
+      "sample": "The river remembers. Chapter 04 — Field notes.",
+      "requirements": ["normal and italic", "warm but restrained serif body", "long reading"],
+      "suggestions": [
+        {
+          "family": "Literata",
+          "reason": "A reading-oriented serif with a literary tone and an expressive but useful italic.",
+          "caveat": "Verify the actual upright and italic assets, then assess texture, size, and line spacing in a full paragraph; a title-sized sample cannot establish long-reading quality."
+        },
+        {
+          "family": "Source Serif 4",
+          "reason": "A balanced serif that can provide warmth without making sustained prose feel ornamental.",
+          "caveat": "Optical-size behavior and available styles depend on the files supplied. Confirm a real italic and compare body text at the intended reading size."
+        }
+      ]
+    },
+    {
+      "id": "science_fiction_game",
+      "sample": "ORBITAL / SECTOR 09",
+      "requirements": ["expressive sci-fi title", "small readable mission text", "pairing optional"],
+      "suggestions": [
+        {
+          "family": "Orbitron",
+          "reason": "A direct geometric, technological voice for a prominent game title.",
+          "optional_pairing": "Inter for mission text",
+          "caveat": "Orbitron can become difficult to read in small or dense text. Verify title spacing, numerals, and the actual assets for both families; the proposed pairing is not file-verified."
+        },
+        {
+          "family": "Rajdhani",
+          "reason": "A narrow, squared display direction that can suggest a spacecraft interface while using less horizontal space.",
+          "optional_pairing": "Source Sans 3 for mission text",
+          "caveat": "Its narrow forms and lighter weights need inspection at the intended sizes. Confirm available files and use a separately tested text face if small mission copy feels fragile."
+        }
+      ]
+    },
+    {
+      "id": "english_greek_museum_document",
+      "sample": "Archive 2026 — Αθήνα",
+      "requirements": ["English and Greek coverage", "regular and bold", "real character coverage"],
+      "suggestions": [
+        {
+          "family": "Noto Serif",
+          "reason": "A plausible editorial choice for an archive or museum document, with a family ecosystem known for broad script support.",
+          "caveat": "The family name alone does not prove that a particular subset includes Greek. Check the exact Regular/Bold files for every sample code point and render Greek with fallback disabled."
+        },
+        {
+          "family": "Noto Sans",
+          "reason": "A neutral document alternative that can support clear labels and bilingual information hierarchy.",
+          "caveat": "Confirm that the selected assets include Greek, including the accented ή in Αθήνα, in both required weights. No exact-file or glyph coverage verification has been performed."
+        }
+      ]
+    }
+  ]
+}

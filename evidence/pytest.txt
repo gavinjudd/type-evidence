@@ -1,0 +1,4 @@
+........................................................................ [ 62%]
+............................................                             [100%]
+- generated xml file: <workspace>/outputs/type-evidence/evidence/pytest.xml -
+116 passed in 1.56s

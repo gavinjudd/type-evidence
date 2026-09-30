@@ -1,0 +1,57 @@
+{
+  "protocol": "2025-06-18",
+  "advertised_tools": [
+    "font_search",
+    "font_inspect",
+    "font_resolve",
+    "font_compare",
+    "font_stats"
+  ],
+  "calls": [
+    {
+      "id": 1,
+      "method": "initialize",
+      "tool": null,
+      "seconds": 0.057,
+      "isError": false
+    },
+    {
+      "id": 2,
+      "method": "tools/list",
+      "tool": null,
+      "seconds": 0.0,
+      "isError": false
+    },
+    {
+      "id": 3,
+      "method": "tools/call",
+      "tool": "font_search",
+      "seconds": 1.264,
+      "isError": false
+    },
+    {
+      "id": 4,
+      "method": "tools/call",
+      "tool": "font_resolve",
+      "seconds": 0.001,
+      "isError": false
+    },
+    {
+      "id": 5,
+      "method": "tools/call",
+      "tool": "font_compare",
+      "seconds": 0.169,
+      "isError": false
+    }
+  ],
+  "resolved_sha256": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a",
+  "asset_hash_independently_verified": true,
+  "render_no_fallback": {
+    "verified": true,
+    "system_font_lookup": false,
+    "glyph_zero_count": 0,
+    "statement": "Every specimen glyph is shaped by HarfBuzz and drawn by FreeType from its exact verified source face. No system lookup, substitute font, or fallback font is used. Labels and page UI are separate."
+  },
+  "client": "Local subprocess JSON-RPC probe; no editor connection claimed",
+  "server_exit": 0
+}

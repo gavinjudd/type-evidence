@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "files_seen": 39168,
+  "font_files": 30088,
+  "metadata_cache_hits": 27293,
+  "source_count": 4,
+  "unique_files": 27437,
+  "exact_duplicate_files": 2651,
+  "faces": 27454,
+  "family_groups": 8674,
+  "family_names": 8012,
+  "equivalent_table_groups": 1816,
+  "rights_counts": {
+    "unknown": 19732,
+    "embedded-open-license": 7356,
+    "restricted-notice": 366
+  },
+  "category_counts": {
+    "unknown": 20561,
+    "mono": 2257,
+    "sans": 3580,
+    "serif": 959,
+    "display": 63,
+    "script": 34
+  },
+  "variable_faces": 344,
+  "issue_counts": {
+    "unsupported-or-archive-not-indexed": 469,
+    "invalid-signature": 369,
+    "font-parse-or-render-failed": 144
+  },
+  "scope": "Unicode OpenType/TrueType faces with successful metadata, outline sample and FreeType load probes. No claim all glyphs are correct or families are complete.",
+  "sources": [
+    {
+      "id": "bekah",
+      "url": "https://github.com/bekahmcdonald/fonts",
+      "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+      "acquisition": "local-directory",
+      "derivative_files": 0,
+      "mapped_upstream_paths": 0
+    },
+    {
+      "id": "extsalt",
+      "url": "https://github.com/extsalt/10000-font-collection",
+      "commit": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+      "acquisition": "local-directory",
+      "derivative_files": 0,
+      "mapped_upstream_paths": 0
+    },
+    {
+      "id": "bekah-derived",
+      "url": "https://github.com/bekahmcdonald/fonts",
+      "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+      "acquisition": "local-directory",
+      "derivative_files": 578,
+      "mapped_upstream_paths": 0
+    },
+    {
+      "id": "extsalt-derived",
+      "url": "https://github.com/extsalt/10000-font-collection",
+      "commit": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+      "acquisition": "local-directory",
+      "derivative_files": 0,
+      "mapped_upstream_paths": 0
+    }
+  ]
+}

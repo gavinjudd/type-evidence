@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+library/
+*.sqlite*
+*.ttf
+*.otf
+*.woff
+*.woff2
+*.ttc
+*.otc
+*.zip
+*.DS_Store

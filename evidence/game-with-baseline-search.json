@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "status": "candidates",
+  "role": "game",
+  "candidates": [
+    {
+      "id": "5d4ba5e8d894601672d04f1663c66c306e581b12eb60163314d764a2306d1110:0",
+      "family": "Election Day Expanded",
+      "style": "Expanded",
+      "weight": 400,
+      "italic": false,
+      "category": "unknown",
+      "score": 3,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "metadata",
+          "points": 3,
+          "reason": "Transparent query preference matched: metadata:wide."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.732,
+        "cap_height_em": 0.732,
+        "average_advance_em": 0.8658,
+        "mono_measured": false,
+        "digit_tabular_default": false
+      },
+      "family_available_styles": {
+        "count": 1,
+        "styles": [
+          {
+            "style": "Expanded",
+            "weight": 400,
+            "italic": false
+          }
+        ],
+        "truncated": false,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "unknown",
+        "review_required": true
+      },
+      "warnings": [],
+      "existing_baseline": false,
+      "family_style_resolutions": []
+    },
+    {
+      "id": "910279e0dfa75a38e9847b830983e51251509613592766f2e6aacb24acb2048d:0",
+      "family": "Martian Mono",
+      "style": "sWd Rg",
+      "weight": 400,
+      "italic": false,
+      "category": "mono",
+      "score": 3,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "metadata",
+          "points": 3,
+          "reason": "Transparent query preference matched: metadata:wide."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.6,
+        "cap_height_em": 0.8,
+        "average_advance_em": 0.75,
+        "mono_measured": true,
+        "digit_tabular_default": true
+      },
+      "family_available_styles": {
+        "count": 7,
+        "styles": [
+          {
+            "style": "sWd Th",
+            "weight": 100,
+            "italic": false
+          },
+          {
+            "style": "sWd xLt",
+            "weight": 200,
+            "italic": false
+          },
+          {
+            "style": "sWd Lt",
+            "weight": 300,
+            "italic": false
+          },
+          {
+            "style": "sWd Rg",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "sWd Md",
+            "weight": 500,
+            "italic": false
+          },
+          {
+            "style": "sWd Bd",
+            "weight": 700,
+            "italic": false
+          },
+          {
+            "style": "sWd xBd",
+            "weight": 800,
+            "italic": false
+          }
+        ],
+        "truncated": false,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "review_required": true
+      },
+      "warnings": [],
+      "existing_baseline": false,
+      "family_style_resolutions": []
+    },
+    {
+      "id": "83384807d037617026e1f746d3f17474d7684b9cc9b515ad1f3a2fe7e30f7d42:0",
+      "family": "ETC Trispace",
+      "style": "Regular Extended",
+      "weight": 400,
+      "italic": false,
+      "category": "unknown",
+      "score": 3,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "metadata",
+          "points": 3,
+          "reason": "Transparent query preference matched: metadata:wide."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.5,
+        "cap_height_em": 0.7,
+        "average_advance_em": 1.0956,
+        "mono_measured": false,
+        "digit_tabular_default": true
+      },
+      "family_available_styles": {
+        "count": 9,
+        "styles": [
+          {
+            "style": "Thin Extended",
+            "weight": 100,
+            "italic": false
+          },
+          {
+            "style": "UltraLight Extended",
+            "weight": 200,
+            "italic": false
+          },
+          {
+            "style": "Light Extended",
+            "weight": 300,
+            "italic": false
+          },
+          {
+            "style": "Regular Extended",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "Medium Extended",
+            "weight": 500,
+            "italic": false
+          },
+          {
+            "style": "SemiBold Extended",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "Bold Extended",
+            "weight": 700,
+            "italic": false
+          },
+          {
+            "style": "ExtraBold Extended",
+            "weight": 800,
+            "italic": false
+          },
+          {
+            "style": "Black Extended",
+            "weight": 900,
+            "italic": false
+          }
+        ],
+        "truncated": false,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "unknown",
+        "review_required": true
+      },
+      "warnings": [
+        "OS/2 embedding flags set: 8; technical flags are not a license"
+      ],
+      "existing_baseline": false,
+      "family_style_resolutions": []
+    },
+    {
+      "id": "9cf5b802dbb47ec1bd511c5870a5e70f1a4ff62ceec55fb420a1ea9c2c4555bd:0",
+      "family": "Iosevka",
+      "style": "Extended",
+      "weight": 400,
+      "italic": false,
+      "category": "mono",
+      "score": 3,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "metadata",
+          "points": 3,
+          "reason": "Transparent query preference matched: metadata:wide."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.53,
+        "cap_height_em": 0.735,
+        "average_advance_em": 0.576,
+        "mono_measured": true,
+        "digit_tabular_default": true
+      },
+      "family_available_styles": {
+        "count": 27,
+        "styles": [
+          {
+            "style": "Thin Extended",
+            "weight": 100,
+            "italic": false
+          },
+          {
+            "style": "Thin Extended Italic",
+            "weight": 100,
+            "italic": true
+          },
+          {
+            "style": "Thin Extended Oblique",
+            "weight": 100,
+            "italic": true
+          },
+          {
+            "style": "Extralight Extended",
+            "weight": 200,
+            "italic": false
+          },
+          {
+            "style": "Extralight Extended Italic",
+            "weight": 200,
+            "italic": true
+          },
+          {
+            "style": "Extralight Extended Oblique",
+            "weight": 200,
+            "italic": true
+          },
+          {
+            "style": "Light Extended",
+            "weight": 300,
+            "italic": false
+          },
+          {
+            "style": "Light Extended Italic",
+            "weight": 300,
+            "italic": true
+          },
+          {
+            "style": "Light Extended Oblique",
+            "weight": 300,
+            "italic": true
+          },
+          {
+            "style": "Extended",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "Extended Italic",
+            "weight": 400,
+            "italic": true
+          },
+          {
+            "style": "Extended Oblique",
+            "weight": 400,
+            "italic": true
+          }
+        ],
+        "truncated": true,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "review_required": true
+      },
+      "warnings": [],
+      "existing_baseline": false,
+      "family_style_resolutions": []
+    }
+  ],
+  "baseline": {
+    "requested_id": null,
+    "status": "not_supplied"
+  },
+  "counts": {
+    "catalog_faces": 27454,
+    "eligible_faces": 8529,
+    "returned_faces": 4
+  },
+  "constraint_rejections": {
+    "missing_family_identity": 253,
+    "missing_requested_characters": 1636,
+    "no_usable_unicode_cmap": 84,
+    "requested_italic_state_unavailable": 8744,
+    "requested_weight_unavailable": 14730,
+    "style_metadata_conflict": 393
+  },
+  "query_interpretation": {
+    "exact_name_match_count": 0,
+    "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+    "aliases": {
+      "display": "category:display",
+      "wide": "metadata:wide"
+    },
+    "unmodeled_terms": [],
+    "unrecognized_brief_fields": [],
+    "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed."
+  },
+  "constraints": {
+    "coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
+    "text_codepoint_count": 14,
+    "text_supplied": true,
+    "family_diversity": "At most one face per family; equivalent canonical content is also deduplicated. Equal-score ties favor differences in known category, width, monospace measurement, x-height, and advance-width bands; this is not proof of visual distinction.",
+    "open_evidence_requested": false
+  },
+  "alternatives": [
+    {
+      "option": "single_family",
+      "advice": "Compare a single family's observed styles before adding a second typeface; additional fonts are not inherently an improvement."
+    },
+    {
+      "option": "keep_existing",
+      "advice": "Keeping the current typography is a valid outcome. Supply existing_id to include an exact catalog face as the comparison baseline."
+    }
+  ],
+  "limitations": [
+    "Rankings are transparent starting preferences. No font was visually judged by this search.",
+    "Render the selected exact faces on project text at intended sizes. Coverage alone cannot establish legibility, shaping, personality, or good pairing.",
+    "Metadata categories and family groupings may be imperfect. Available styles describe this collection, not a complete upstream family.",
+    "Unknown rights remain unknown. Embedded open-license evidence is not legal clearance; review source and license evidence before distribution."
+  ]
+}
