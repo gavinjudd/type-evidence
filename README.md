@@ -2,11 +2,20 @@
 
 A local font library that lets an agent discover, inspect, compare and resolve actual typefaces. It combines the two pinned collections without installing fonts system-wide or sending project text to a service.
 
+This repository contains the harness, documentation, tests and rendered review evidence. Font binaries stay in your local library and are not published here. Upstream font rights remain separate from the harness.
+
 **Start with the project, finish with the files.** Search produces a small, diverse shortlist with reasons. A comparison renders the real text from exact verified font bytes. Resolution gives a file path, collection face index and SHA-256. Neither a ranking nor a license notice is approval to ship a font.
 
 ## Setup
 
 Python 3.10+ and Git are required. Tested platform/version details and limitations are in [evidence](evidence/). Source downloads need roughly 6 GB plus space for the index and derivatives. No font binaries are included in the review ZIP.
+
+Clone the harness, then follow the commands for your platform:
+
+```sh
+git clone https://github.com/gavinjudd/type-evidence.git
+cd type-evidence
+```
 
 macOS / Linux:
 
