@@ -1,6 +1,6 @@
 {
   "files": 7,
-  "local_or_same_repo_links_checked": 131,
+  "local_or_same_repo_links_checked": 132,
   "unique_external_urls": 21,
   "errors": [],
   "scope": "File targets and explicit/generated heading anchors in current visitor, setup, agent, contribution, license and static-page entrypoints. External HTTP checks are separate."

@@ -91,7 +91,7 @@ In the [three-case held-out evaluation](evidence/v0.2/heldout/README.md), the ha
 
 Contributions can improve retrieval, source metadata, platform behavior or design evaluation. [CONTRIBUTING.md](CONTRIBUTING.md) maps the extension points, gives starter tasks and explains how to test without the large downloads. Use the [issue forms](https://github.com/gavinjudd/type-evidence/issues/new/choose) for reproducible bugs, poor recommendations or proposals.
 
-The recorded v0.2 suite passed **277 tests** with optional visual dependencies; the clean core suite passed **267 with 10 optional skips** on native Linux, macOS and Windows. Full collection, optional visual-model and browser workflows remain unverified on Windows; CUDA is unverified. [Test and platform scope](evidence/v0.2/portability.json).
+The current core suite passed **268 tests with 10 optional skips** on native Linux, macOS and Windows, including the review-package regression added in this documentation update. Full collection, optional visual-model and browser workflows remain unverified on Windows; CUDA is unverified. [Current CI scope](evidence/public-identity-v1/ci.json) · [Earlier v0.2 test evidence](evidence/v0.2/tests-scope.json).
 
 ## License
 

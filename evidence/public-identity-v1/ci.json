@@ -1,0 +1,39 @@
+{
+  "source_commit": "01b96565c18b5af52bbcd20b671d0f73b829debb",
+  "run_url": "https://github.com/gavinjudd/type-evidence/actions/runs/36755792503",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "name": "core (windows-2022)",
+      "conclusion": "success",
+      "url": "https://github.com/gavinjudd/type-evidence/actions/runs/36755792503/job/110025571067",
+      "passed": 268,
+      "skipped": 10,
+      "elapsed_seconds": 14.58
+    },
+    {
+      "name": "core (ubuntu-24.04)",
+      "conclusion": "success",
+      "url": "https://github.com/gavinjudd/type-evidence/actions/runs/36755792503/job/110025571128",
+      "passed": 268,
+      "skipped": 10,
+      "elapsed_seconds": 4.16
+    },
+    {
+      "name": "core (macos-14)",
+      "conclusion": "success",
+      "url": "https://github.com/gavinjudd/type-evidence/actions/runs/36755792503/job/110025571254",
+      "passed": 268,
+      "skipped": 10,
+      "elapsed_seconds": 5.27
+    }
+  ],
+  "scope": "Fresh native core/test installation and full synthetic core suite. Ten optional visual tests skip without torch; no collection/model downloaded. One added regression checks license, contribution guide and static-site inclusion in the review ZIP.",
+  "first_run": {
+    "url": "https://github.com/gavinjudd/type-evidence/actions/runs/36755556642",
+    "windows_result": "1 failed, 267 passed, 10 skipped",
+    "cause": "The new test fixture used text-mode writes that translate LF to CRLF on Windows, but compared the archive against untranslated LF bytes. The bundle correctly preserved the on-disk bytes.",
+    "correction": "Write explicit UTF-8 fixture bytes; include a CRLF license sample and a non-ASCII contribution sample. Assertions remain exact-byte comparisons."
+  },
+  "runtime_compatibility": "Distribution type-evidence, import type_evidence, CLI type-evidence, MCP names and runtime version 0.2.0 preserved. Runtime Python source is unchanged from f2c26cb."
+}

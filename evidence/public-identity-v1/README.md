@@ -55,4 +55,20 @@ Open Graph metadata serves link-preview consumers. Python package metadata serve
 
 Local browser checks cover 1280 × 720 and an emulated 390 × 844 viewport, loaded images, page overflow, navigation and keyboard access. Screenshots are in this directory. The fresh-agent exercise uses synthetic fonts in a separate temporary catalog, not the user's corpus. Package validation builds locally and inspects metadata/license contents without publishing a package.
 
-Live publication receipts, link checks, persona smoke results and CI status are recorded alongside this report after verification. Earlier evaluation artifacts under `evidence/v0.2` remain historical and unchanged. Search indexing, rankings, AI citations, organic adoption and real contributor outcomes remain unmeasured.
+Live publication receipts, link checks, persona smoke results and CI status are recorded alongside this report. Earlier evaluation artifacts under `evidence/v0.2` remain historical and unchanged. Search indexing, rankings, AI citations, organic adoption and real contributor outcomes remain unmeasured.
+
+## Verified result
+
+| Requirement | Current evidence |
+| --- | --- |
+| Naming decision and compatibility | Research above; repository, package, CLI, import, MCP and runtime version preserved. |
+| Live About, topics, homepage and MIT recognition | [GitHub metadata after](github-after.json); 12 relevant topics. |
+| Public documentation | [Live verification](live-verification.json): HTTPS enabled, HTML/CSS/three PNGs byte-equal to source; [published screenshot](published-page.jpg). |
+| Visitor and agent setup | [Fresh review](fresh-review/README.md): 13 actual CLI/MCP calls on two synthetic own-font faces, no model dependencies; one catalog-path clarification fixed. |
+| Contributor workflow | [Issue-form structure checks](issue-forms.json), live contributing/PR-template detection, 41 focused contributor tests passed. |
+| Package metadata and approved license | [Local wheel inspection](package-metadata.json): MIT expression, full license text, README and project URLs; no registry publication. |
+| Links and responsive layout | [132 link/anchor checks](link-check.json), [browser receipt](browser-local.json), [desktop](desktop.jpg) and [mobile](mobile.jpg) screenshots. |
+| Working behavior and packaging | [CI](ci.json): 268 passed and 10 optional skips on each native platform; runtime source unchanged. First Windows fixture failure and correction retained. |
+| Provenance and historical evidence | [Prepublication scan](prepublication-check.json); three byte-identical example images and unchanged historical v0.2 evidence. Fonts/weights remain excluded. |
+
+The anonymous issue entrypoint requires GitHub sign-in, so signed-in rendering of the four YAML forms was not observed. Files are committed and their structure is checked; no issue was submitted and no credentials were entered. No requested change was permission-blocked. Search visibility and community adoption remain unmeasured; deployment and metadata verification are not evidence of ranking or AI citations.

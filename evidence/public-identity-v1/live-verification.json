@@ -1,0 +1,113 @@
+{
+  "checked_at_utc": "2026-09-30T18:06:40.472587+00:00",
+  "site_resources": [
+    {
+      "url": "https://gavinjudd.github.io/type-evidence/",
+      "http": "success",
+      "matches_local_bytes": true,
+      "bytes": 11896,
+      "sha256": "858deaddd65b27f7767b0f0e09f31cea072ea3303c9a4060f358d1810e9cec48"
+    },
+    {
+      "url": "https://gavinjudd.github.io/type-evidence/site.css",
+      "http": "success",
+      "matches_local_bytes": true,
+      "bytes": 3929,
+      "sha256": "32a581b7ad405f0b1f46091471254b9692a3b766544cbd11d7a376bf3533ae68"
+    },
+    {
+      "url": "https://gavinjudd.github.io/type-evidence/assets/editorial.png",
+      "http": "success",
+      "matches_local_bytes": true,
+      "bytes": 212783,
+      "sha256": "c00409c22195d04cfb1cfa0fc18bb05147413d5310f1a64a0b747a3d1ca47b7b"
+    },
+    {
+      "url": "https://gavinjudd.github.io/type-evidence/assets/interface.png",
+      "http": "success",
+      "matches_local_bytes": true,
+      "bytes": 119838,
+      "sha256": "5f78fba8a4605eb8b05b68eafec18408555cd1771af63db93912404a5b022972"
+    },
+    {
+      "url": "https://gavinjudd.github.io/type-evidence/assets/poster.png",
+      "http": "success",
+      "matches_local_bytes": true,
+      "bytes": 84376,
+      "sha256": "db61e44d051e46ef9fe1f0e00cf178b4a4b1c59c6c446041f91d5a7acf6a7a63"
+    }
+  ],
+  "github": {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "description": "Font discovery and typography tools for AI agents. Explore local open and proprietary collections, refine by visual similarity, compare real text in context, and resolve exact assets through a JSON CLI and MCP. Fonts and model inference stay local; usage rights vary by source.",
+    "homepageUrl": "https://gavinjudd.github.io/type-evidence/",
+    "licenseInfo": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "nameWithOwner": "gavinjudd/type-evidence",
+    "repositoryTopics": [
+      {
+        "name": "ai-agents"
+      },
+      {
+        "name": "cli"
+      },
+      {
+        "name": "font-discovery"
+      },
+      {
+        "name": "font-tools"
+      },
+      {
+        "name": "fonts"
+      },
+      {
+        "name": "local-first"
+      },
+      {
+        "name": "mcp-server"
+      },
+      {
+        "name": "model-context-protocol"
+      },
+      {
+        "name": "python"
+      },
+      {
+        "name": "typography"
+      },
+      {
+        "name": "visual-search"
+      },
+      {
+        "name": "fontclip"
+      }
+    ],
+    "url": "https://github.com/gavinjudd/type-evidence",
+    "visibility": "PUBLIC"
+  },
+  "pages": {
+    "url": "https://gavinjudd.github.io/type-evidence/",
+    "source": {
+      "branch": "main",
+      "path": "/docs"
+    },
+    "https_enforced": true
+  },
+  "contribution_files": {
+    "guide_detected": true,
+    "pr_template_detected": true,
+    "issue_forms_committed": 4,
+    "yaml_validation": "issue-forms.json",
+    "signed_in_issue_form_rendering": "Not observed: anonymous browser reaches GitHub sign-in; no credentials entered and no issue submitted. GitHub legacy issueTemplates/community fields do not report these YAML forms."
+  },
+  "permission_blocked_changes": [],
+  "limits": [
+    "No search indexing, ranking, AI citation, traffic or adoption outcome measured.",
+    "No package registry publication or MCP registry submission."
+  ]
+}

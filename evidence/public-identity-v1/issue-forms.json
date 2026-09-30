@@ -1,0 +1,28 @@
+{
+  "issue_forms": [
+    {
+      "file": ".github/ISSUE_TEMPLATE/bug-platform.yml",
+      "name": "Bug or platform report",
+      "fields": 5
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/design-evaluation.yml",
+      "name": "Contextual design evaluation",
+      "fields": 5
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/recommendation.yml",
+      "name": "Poor recommendation or typography fit",
+      "fields": 5
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/source-metadata.yml",
+      "name": "Source metadata or coverage proposal",
+      "fields": 5
+    }
+  ],
+  "yaml_parse": "passed",
+  "unique_field_ids": "passed",
+  "required_reproduction_or_proposal_fields": "passed",
+  "blank_issues_enabled": true
+}
