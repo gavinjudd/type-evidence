@@ -1,0 +1,31 @@
+name: Source metadata or coverage proposal
+description: Propose a bounded upstream selection or correct source, style, script, or provenance metadata.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Propose metadata, not a font upload. Do not attach fonts, archives, model weights, or indexes. Public availability and an embedded license notice do not establish permission to redistribute font bytes.
+  - type: textarea
+    id: need
+    attributes:
+      label: Gap or correction
+      description: Describe one useful family/style or script gap, or one incorrect record. Include a small actual-text sample if coverage is relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: upstream
+    attributes:
+      label: Authoritative upstream and selection
+      description: Public repository or foundry URL, full commit if available, and selected font plus license/notice paths. For an existing record, include its exact ID and source pin. Do not invent missing values.
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: Rights and provenance evidence
+      description: Link the applicable notice or terms, distinguish known facts from unknowns, and describe the scope of any metadata correction. Do not paste proprietary assets or legal documents.
+  - type: textarea
+    id: checks
+    attributes:
+      label: Checks already performed
+      description: Optional. Share compact pin/hash metadata, actual style coverage, or sample shaping results. A successful sample does not establish complete language support or design suitability.

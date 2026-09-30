@@ -1,0 +1,34 @@
+name: Poor recommendation or typography fit
+description: Show where a bounded shortlist misses the actual text, style, or design brief.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share one reproducible case. Do not attach font binaries, model weights, catalogs, private copy, or secrets. The harness's MIT license does not cover third-party font or model assets; see the repository's CONTRIBUTING.md.
+  - type: textarea
+    id: brief
+    attributes:
+      label: Brief, actual text, and language
+      description: Include the query or small JSON brief, actual text, language tag, role, intended sizes, and required weight/italic state. Use public or invented copy if needed.
+      placeholder: "Query: warm humanist\nText: Review 24 requests\nLanguage: en; role: ui; size: 15; weight: 400; upright"
+    validations:
+      required: true
+  - type: textarea
+    id: expected_actual
+    attributes:
+      label: Expected direction and actual result
+      description: Explain what missed the brief. Identify a retained baseline or chosen reference, and whether it was supplied before or after seeing the failed result.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Version and request
+      description: Project commit/version, OS, Python version, and exact CLI command or MCP request. Include visual mode and relevant source/index configuration if known; redact machine paths.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Small response or visual evidence
+      description: Optional. At most six candidate records with exact IDs, visual_retrieval, query_interpretation, and one or two authorized PNG screenshots at the intended size. Do not paste an entire catalog or log.

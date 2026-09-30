@@ -1,0 +1,200 @@
+{
+  "status": "PASS",
+  "scope": "Synthetic own-font CLI and local stdio MCP, existing clean core environment",
+  "base_commit": "f2c26cb4cd1da63498e29559dc1b60ff86dc10e5",
+  "working_tree_docs": "Uncommitted public-identity revision under review; no source/doc writes by this probe.",
+  "python": "3.12.13",
+  "optional_dependencies_present": {
+    "torch": false,
+    "open_clip": false,
+    "numpy": false
+  },
+  "fixtures": {
+    "source": "tests/test_catalog.py:make_font",
+    "faces": 2,
+    "description": "Synthetic box outlines with printable ASCII cmap; modified advances create separate measurable fixtures.",
+    "private_font_data": false
+  },
+  "results": {
+    "faces": 2,
+    "candidate_ids": [
+      "2b04b7bc3e63d32c6568116ca2d27c196810fa61f9ae0091e04c0ff8d3be617e:0",
+      "7580c7a38a5835900d9e8905752393b3f78922ecf53659b3646e8f4dbcdc0519:0"
+    ],
+    "comparison_no_fallback": {
+      "verified": true,
+      "system_font_lookup": false,
+      "glyph_zero_count": 0,
+      "statement": "Every specimen glyph is shaped by HarfBuzz and drawn by FreeType from its exact verified source face. No system lookup, substitute font, or fallback font is used. Labels and page UI are separate."
+    },
+    "resolved_sha256_verified": true,
+    "auto_visual_status": {
+      "status": "not_configured",
+      "next": "Optional: install visual extra, run visual-setup then visual-index. Search works without it."
+    },
+    "visual_status": {
+      "status": "not_configured",
+      "next": "type-evidence visual-setup; type-evidence visual-index"
+    },
+    "mcp_protocol": "2025-06-18",
+    "mcp_tool_names": [
+      "font_search",
+      "font_inspect",
+      "font_resolve",
+      "font_family",
+      "font_compare",
+      "font_compose",
+      "font_project",
+      "font_image",
+      "font_issues",
+      "font_stats",
+      "font_visual_status"
+    ],
+    "cli_mcp_search_equal": true,
+    "downloaded_collection_or_model": false,
+    "missing_model_and_missing_glyph_fail_explicitly": true,
+    "comparison_png_visually_inspected": true,
+    "visual_inspection_note": "Both synthetic face rows appear at 15, 24 and 48 px with expected boxed glyphs and distinct advances; this is layout/asset verification, not a judgment of font quality.",
+    "report_paths_normalized": true
+  },
+  "limits": [
+    "Used existing clean core dependencies instead of reinstalling or cloning.",
+    "No real agent/editor application was configured; exercised the real stdio process directly.",
+    "Synthetic rectangles prove transport/coverage/assets, not typography quality.",
+    "No full corpus, model download, optional visual execution, Windows execution, or browser production rendering was tested."
+  ],
+  "commands": [
+    {
+      "label": "doctor",
+      "command": "$REPO/work/clean-v02/bin/type-evidence --catalog $REPO/work/public-identity/fresh-review/catalog.sqlite doctor",
+      "exit_code": 0,
+      "stdout_path": "outputs/doctor.stdout.txt",
+      "stderr_path": "outputs/doctor.stderr.txt",
+      "stderr_excerpt": ""
+    },
+    {
+      "label": "index",
+      "command": "$REPO/work/clean-v02/bin/type-evidence --catalog $REPO/work/public-identity/fresh-review/catalog.sqlite index --sources $REPO/work/public-identity/fresh-review/local-sources.json",
+      "exit_code": 0,
+      "stdout_path": "outputs/index.stdout.txt",
+      "stderr_path": "outputs/index.stderr.txt",
+      "stderr_excerpt": ""
+    },
+    {
+      "label": "stats",
+      "command": "$REPO/work/clean-v02/bin/type-evidence --catalog $REPO/work/public-identity/fresh-review/catalog.sqlite stats",
+      "exit_code": 0,
+      "stdout_path": "outputs/stats.stdout.txt",
+      "stderr_path": "outputs/stats.stderr.txt",
+      "stderr_excerpt": ""
+    },
+    {
+      "label": "search-off",
+      "command": "$REPO/work/clean-v02/bin/type-evidence --catalog $REPO/work/public-identity/fresh-review/catalog.sqlite search --role ui --text 'Review 24 requests' --weight 400 --upright --visual off --limit 4",
+      "exit_code": 0,
+      "stdout_path": "outputs/search-off.stdout.txt",
+      "stderr_path": "outputs/search-off.stderr.txt",
+      "stderr_excerpt": ""
+    },
+    {
+      "label": "inspect",
+      "command": "$REPO/work/clean-v02/bin/type-evidence --catalog $REPO/work/public-identity/fresh-review/catalog.sqlite inspect 2b04b7bc3e63d32c6568116ca2d27c196810fa61f9ae0091e04c0ff8d3be617e:0",
+      "exit_code": 0,
+      "stdout_path": "outputs/inspect.stdout.txt",
+      "stderr_path": "outputs/inspect.stderr.txt",
+      "stderr_excerpt": ""
+    },
+    {
+      "label": "family",
+      "command": "$REPO/work/clean-v02/bin/type-evidence --catalog $REPO/work/public-identity/fresh-review/catalog.sqlite family 2b04b7bc3e63d32c6568116ca2d27c196810fa61f9ae0091e04c0ff8d3be617e:0",
+      "exit_code": 0,
+      "stdout_path": "outputs/family.stdout.txt",
+      "stderr_path": "outputs/family.stderr.txt",
+      "stderr_excerpt": ""
+    },
+    {
+      "label": "compare",
+      "command": "$REPO/work/clean-v02/bin/type-evidence --catalog $REPO/work/public-identity/fresh-review/catalog.sqlite compare 2b04b7bc3e63d32c6568116ca2d27c196810fa61f9ae0091e04c0ff8d3be617e:0 7580c7a38a5835900d9e8905752393b3f78922ecf53659b3646e8f4dbcdc0519:0 --text 'Review 24 requests' --sizes 15 24 48 --out $REPO/work/public-identity/fresh-review/comparison",
+      "exit_code": 0,
+      "stdout_path": "outputs/compare.stdout.txt",
+      "stderr_path": "outputs/compare.stderr.txt",
+      "stderr_excerpt": ""
+    },
+    {
+      "label": "resolve",
+      "command": "$REPO/work/clean-v02/bin/type-evidence --catalog $REPO/work/public-identity/fresh-review/catalog.sqlite resolve 2b04b7bc3e63d32c6568116ca2d27c196810fa61f9ae0091e04c0ff8d3be617e:0",
+      "exit_code": 0,
+      "stdout_path": "outputs/resolve.stdout.txt",
+      "stderr_path": "outputs/resolve.stderr.txt",
+      "stderr_excerpt": ""
+    },
+    {
+      "label": "visual-status",
+      "command": "$REPO/work/clean-v02/bin/type-evidence --catalog $REPO/work/public-identity/fresh-review/catalog.sqlite visual-status",
+      "exit_code": 0,
+      "stdout_path": "outputs/visual-status.stdout.txt",
+      "stderr_path": "outputs/visual-status.stderr.txt",
+      "stderr_excerpt": ""
+    },
+    {
+      "label": "search-auto",
+      "command": "$REPO/work/clean-v02/bin/type-evidence --catalog $REPO/work/public-identity/fresh-review/catalog.sqlite search --query 'warm humanist' --text 'Review 24 requests' --weight 400 --upright --limit 4",
+      "exit_code": 0,
+      "stdout_path": "outputs/search-auto.stdout.txt",
+      "stderr_path": "outputs/search-auto.stderr.txt",
+      "stderr_excerpt": ""
+    },
+    {
+      "label": "search-required-model",
+      "command": "$REPO/work/clean-v02/bin/type-evidence --catalog $REPO/work/public-identity/fresh-review/catalog.sqlite search --query 'warm humanist' --text 'Review 24 requests' --visual on --limit 4",
+      "exit_code": 2,
+      "stdout_path": "outputs/search-required-model.stdout.txt",
+      "stderr_path": "outputs/search-required-model.stderr.txt",
+      "stderr_excerpt": "{\"error\": \"Visual retrieval needs the optional visual dependencies: pip install -e '.[visual]'\", \"type\": \"ValueError\"}\n"
+    },
+    {
+      "label": "compare-missing-glyph",
+      "command": "$REPO/work/clean-v02/bin/type-evidence --catalog $REPO/work/public-identity/fresh-review/catalog.sqlite compare 2b04b7bc3e63d32c6568116ca2d27c196810fa61f9ae0091e04c0ff8d3be617e:0 --text '\u6f22' --sizes 15 --out $REPO/work/public-identity/fresh-review/missing-glyph",
+      "exit_code": 2,
+      "stdout_path": "outputs/compare-missing-glyph.stdout.txt",
+      "stderr_path": "outputs/compare-missing-glyph.stderr.txt",
+      "stderr_excerpt": "{\"error\": \"Font 2b04b7bc3e63d32c6568116ca2d27c196810fa61f9ae0091e04c0ff8d3be617e:0 lacks required characters: U+6F22. No fallback was used.\", \"type\": \"RenderError\"}\n"
+    },
+    {
+      "label": "mcp",
+      "command": "$REPO/work/clean-v02/bin/type-evidence --catalog $REPO/work/public-identity/fresh-review/catalog.sqlite mcp --out $REPO/work/public-identity/fresh-review/mcp-output",
+      "exit_code": 0,
+      "stdout_path": "outputs/mcp.stdout.txt",
+      "stderr_path": "outputs/mcp.stderr.txt",
+      "stderr_excerpt": ""
+    }
+  ],
+  "contributor_check": {
+    "command": "work/clean-v02/bin/python -m pytest -q tests/test_discovery_v2.py tests/test_mcp_v2.py",
+    "exit_code": 0,
+    "result": "41 passed in 0.27s",
+    "note": "Exact focused test selection documented in CONTRIBUTING.md; existing clean core dependency environment."
+  },
+  "documentation_review": {
+    "blocking_findings": [],
+    "minor_findings": [
+      {
+        "file": "docs/getting-started.md",
+        "lines": "54-59 and 104-115",
+        "severity": "low",
+        "finding": "After choosing the documented alternate catalog, later inspect/compare/resolve examples omit --catalog and therefore return to library/catalog.sqlite by default. Readers must carry the global flag forward. README and troubleshooting state flag placement, but the alternate-catalog step could state this continuation rule directly.",
+        "suggested_text": "If you choose a custom catalog, include --catalog with that same path before every later subcommand, and use that path in the MCP configuration."
+      }
+    ],
+    "personas": {
+      "new_user": "Core install, own-font source JSON, search and exact asset workflow are directly linked from README; full collection/model unnecessary.",
+      "local_agent": "AGENTS.md links bounded workflow and docs/agents.md gives absolute stdio configuration, protocol versions, tools and explicit visual modes.",
+      "contributor": "CONTRIBUTING.md provides core/test-only installation, focused test commands, extension points and synthetic fixtures; tested focused selection passes."
+    },
+    "rights": "Harness MIT, third-party fonts, dependencies and unresolved checkpoint terms are clearly separated. Source review is required; unknown font metadata stays unknown in own-font smoke check."
+  },
+  "post_review_correction": {
+    "file": "docs/getting-started.md",
+    "change": "Added an explicit instruction to carry the custom --catalog path into every later subcommand and MCP configuration."
+  }
+}

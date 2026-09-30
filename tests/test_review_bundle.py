@@ -30,3 +30,17 @@ def test_disguised_font_and_symlink_refused(tmp_path):
     (tmp_path/'evidence').mkdir(); (tmp_path/'evidence/link.md').symlink_to(tmp_path/'missing')
     with pytest.raises(ValueError,match='Symlink'):
         bundle.build(tmp_path,tmp_path/'out.zip')
+
+
+def test_review_keeps_license_contribution_guide_and_static_site(tmp_path):
+    root = tmp_path / 'repo'
+    (root / 'docs').mkdir(parents=True)
+    payloads = {'LICENSE': 'MIT License\n', 'CONTRIBUTING.md': '# Contribute\n',
+                'docs/.nojekyll': '', 'docs/index.html': '<h1>Type Evidence</h1>'}
+    for name, body in payloads.items():
+        (root / name).write_text(body, encoding='utf-8')
+    result = bundle.build(root, tmp_path / 'review.zip')
+    assert result['manifest_files_verified'] == len(payloads)
+    with zipfile.ZipFile(tmp_path / 'review.zip') as archive:
+        for name, body in payloads.items():
+            assert archive.read('type-evidence/' + name) == body.encode('utf-8')

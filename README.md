@@ -1,118 +1,98 @@
-# Type Evidence
+# Type Evidence — Font Discovery & Typography for AI Agents
 
-Discover fonts by their actual letterforms, explore alternatives, and try them together in the work. Type Evidence gives AI agents a broad local font catalog, optional FontCLIP visual retrieval, exact-font specimens, and contextual compositions with implementation recipes.
+Help AI agents find and use real fonts that fit the work—from quiet reading faces to expressive display type. **Type Evidence** searches local font collections, explores visual alternatives, compares typography in context, and resolves the exact styles and files to implement a choice.
 
-The collection preserves the original mixed open/proprietary sources and adds pinned selections from Google Fonts and Arrow Type. Fonts, model weights and large indexes stay local. Project text and reference images are not sent to a service.
+Use it for interfaces, games, branding, editorial layouts and documents through a **JSON CLI or local MCP server**. Bring fonts you already have, or build the pinned mixed open/proprietary collection. Optional FontCLIP retrieval searches rendered letterforms, including fonts with incomplete category metadata. Fonts, model weights, indexes and project text stay local.
+
+[Get started](docs/getting-started.md) · [MCP / agent integration](docs/agents.md) · [Visual examples](https://gavinjudd.github.io/type-evidence/#examples) · [Contribute](CONTRIBUTING.md) · [License and font rights](docs/licensing.md)
+
+## See typography in context
+
+These are actual harness outputs using exact local faces, with fictional sample content. They illustrate different applications, not automatic design recommendations or a grant to redistribute the pictured fonts.
+
+| Reading and editorial | Interfaces and data | Expressive display |
+| --- | --- | --- |
+| [![Editorial composition with a serif reading face, sans-serif labels and a sidebar](evidence/v0.2/composition-examples/editorial/composition.png)](evidence/v0.2/composition-examples/editorial/manifest.json) | [![Operations interface with dense route data, labels and tabular figures](evidence/v0.2/composition-examples/interface/composition.png)](evidence/v0.2/composition-examples/interface/manifest.json) | [![Night Shift observatory poster with distinctive outlined display lettering](evidence/v0.2/composition-examples/poster/composition.png)](evidence/v0.2/composition-examples/poster/manifest.json) |
+
+Each image links to its exact-face manifest. [Composition specs](examples/) and the [recorded browser checks](evidence/v0.2/composition-browser/README.md) show how previews become implementation recipes.
+
+## What you can do
+
+- **Discover beyond familiar names.** Search a brief, page through alternatives, or explore neighbors of an inspected font or typography crop. Visual retrieval is optional and reports its actual coverage.
+- **Choose for the project.** Supply real text, language, audience, medium, size, density and required styles. Compare finalists in a specimen or a composition with roles, columns, panels and tables.
+- **Revise and apply.** Inspect images, change the choice or layout, and resolve exact files, weights, variation axes and features. Keep the existing font or a single family when it works best.
+- **Use the same operations from different agents.** CLI and MCP share discovery and rendering. MCP supplies bounded results and inline PNG previews; a nonvisual agent receives measurements without pretending to judge the image.
+
+The harness provides candidates and evidence. You or your agent still make the design decision. It does not generate font files or install fonts into the operating system.
 
 ## Get started
 
-Python 3.10+ and Git are required. Allow roughly 6 GB for the source collections, plus space for indexes and optional visual dependencies. The synthetic core suite passes on native Linux, macOS and Windows runners ([CI run](https://github.com/gavinjudd/type-evidence/actions/runs/36749819569), [portability scope](evidence/v0.2/portability.json)). Full collection, visual-model and browser validation ran on macOS; those Windows workflows and CUDA remain unverified.
+**Python 3.10+** is required; use Git to clone the repository. Install from source—no package-registry install is assumed:
 
 ```sh
 git clone https://github.com/gavinjudd/type-evidence.git
 cd type-evidence
-```
-
-macOS / Linux:
-
-```sh
 python3 -m venv .venv
-.venv/bin/python -m pip install -e '.[test]'
-.venv/bin/type-evidence fetch
-.venv/bin/type-evidence index
+.venv/bin/python -m pip install -e .
+.venv/bin/type-evidence doctor
 ```
 
-Windows PowerShell:
+On Windows, use `py -3 -m venv .venv`, then `.\.venv\Scripts\python.exe -m pip install -e .` and `.\.venv\Scripts\type-evidence.exe doctor`.
 
-```powershell
-py -3 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -e '.[test]'
-.\.venv\Scripts\type-evidence.exe fetch
-.\.venv\Scripts\type-evidence.exe index
-```
+Choose the setup that matches your task:
 
-Activate the venv or use its executable path for the commands below. Fetch uses the full commits and selected-file hashes in [sources.lock.json](sources.lock.json); it preserves existing modified checkouts. Windows acquisition maps incompatible upstream filenames to safe local paths while retaining their original names in provenance.
+| Start with | What it needs | Next step |
+| --- | --- | --- |
+| Fonts you already have | An authorized local font directory; no collection or model download | [Index your fonts](docs/getting-started.md#use-fonts-you-already-have) |
+| The pinned broad collection | Roughly 6 GB for the source collections, plus catalogs and caches; review source/font rights | [Fetch and index](docs/getting-started.md#use-the-pinned-collection) |
+| A code contribution | Core and test dependencies only; synthetic test fonts are generated locally | [Develop without the corpus](CONTRIBUTING.md#develop-without-downloading-fonts-or-a-model) |
 
 ### Enable visual discovery
 
-Visual retrieval searches rendered font content, including faces with unknown category metadata. Install it once, explicitly download the approximately 653 MB pinned checkpoint, then build the local index:
-
-```sh
-python -m pip install -e '.[visual]'
-type-evidence visual-setup
-type-evidence visual-index
-type-evidence visual-status
-```
-
-`visual-index` starts with family representatives, commits progress incrementally, and resumes when rerun. CPU is the default; `--device mps` or `--device cuda` can use an available accelerator. `--limit 500` is a bounded first pass. The status report separates stored vectors, current catalog coverage and failures; a partial index is usable, and unindexed fonts remain eligible for ordinary discovery.
-
-Search never downloads a model. `--visual auto` uses the local index for aesthetic queries, tone or references when available and reports its actual retrieval mode. `--visual on` requires working visual retrieval; `--visual off` gives a reproducible metadata/measurement baseline. A supplied reference image requires visual retrieval.
-
-For another writing system, build its sample index, for example `type-evidence visual-index --script Arabic`. Search chooses from the actual project text, with the language tag resolving Han-script locales. A missing script index produces an explicit setup suggestion or metadata fallback; Latin letterforms are not used as a substitute. See the [Arabic example and script options](docs/agents.md#search-the-writing-system-you-will-use).
+After creating a catalog, optional `.[visual]` dependencies, the approximately **653 MB pinned checkpoint**, and a local rendered-font index enable FontCLIP text/image retrieval. Search itself never downloads weights. Start with a bounded index, then resume; see [visual setup, storage and script coverage](docs/getting-started.md#add-optional-visual-discovery). Ordinary metadata/measurement discovery works without the model.
 
 ## Find, inspect, revise, apply
 
+After activating your virtual environment and creating a catalog:
+
 ```sh
-type-evidence project /path/to/project
-type-evidence search --query 'warm humanist, not playful or handwritten' --role ui --text 'Review 24 requests' --weight 400 --upright --size 15 --density dense --limit 6
-type-evidence search --query 'warm humanist, not playful or handwritten' --role ui --text 'Review 24 requests' --weight 400 --upright --size 15 --density dense --limit 6 --offset 6
-type-evidence search --similar-to EXACT_ID --avoid-like OTHER_ID --text 'Review 24 requests' --limit 6
+type-evidence search --query 'warm humanist, not playful or handwritten' --role ui --text 'Review 24 requests' --weight 400 --upright --size 15 --limit 6
+type-evidence search --query 'warm humanist, not playful or handwritten' --role ui --text 'Review 24 requests' --weight 400 --upright --size 15 --limit 6 --offset 6
+```
+
+Take an exact `id` from a result, inspect its family and render the actual text. `EXACT_ID`, `BASELINE_ID` and `CANDIDATE_ID` below are placeholders to replace:
+
+```sh
 type-evidence family EXACT_ID
-type-evidence compare ID1 ID2 --text-file project-copy.txt --sizes 15 24 48 --out library/first-comparison
-```
-
-Use the returned `pagination.next_offset` to explore further with the same brief. Use `--exclude-families 'Family A' 'Family B'` to leave a direction behind. `--reference-image /path/type-crop.png` explores visual resemblance to a typography crop. `--family 'Exact Family Name'` is a hard lookup; `--query` may return alternatives when a name is missing. Auto mode keeps an exact embedded-name query on the name-lookup path. JSON briefs also capture audience, medium, tone, language, hierarchy and surroundings. [Agent integration](docs/agents.md) explains which fields affect ranking and which guide the final composition.
-
-Inspect the actual images. Search returns a starting set with labeled reasons, interpreted negation, required variation axes and evidence gaps. A familiar baseline can be retained with `existing_id`; using one family is a valid result.
-
-### Try the typography in context
-
-```sh
-type-evidence compose --spec examples/composition-editorial.json --out library/editorial-study
+type-evidence compare BASELINE_ID CANDIDATE_ID --text 'Review 24 requests' --sizes 15 24 48 --out library/first-comparison
 type-evidence compose --spec examples/composition-interface.json --out library/interface-study
-type-evidence compose --spec examples/composition-poster.json --out library/poster-study
-```
-
-Open each output's `index.html` or `composition.png`. These examples are editable starting layouts, not recommended fonts for every brief. Replace exact IDs and role settings in `spec.json`, revise the copy or layout, and compose into a new directory. Columns, tables, panels and explicit hierarchy let pairs be judged together at intended sizes.
-
-Each composition also produces `application.css`, `application.html` and `application.js`. The recipe names exact assets and applies their real styles, axes, features and line heights. Its documented mobile rules stack columns, resize large headings and make dense tables scrollable; the PNG keeps the requested canvas. Fonts are not copied. Stage authorized files at the listed asset URLs, serve the folder over localhost HTTP, and inspect it in the target browser. The page stays hidden until every asset passes SHA-256 verification and font loading; missing files cannot silently become a fallback preview. Collection faces require an explicit standalone derivative before browser use.
-
-Immediately before integrating a selection:
-
-```sh
 type-evidence resolve EXACT_ID
 ```
 
-Resolution returns a verified file path, face index, SHA-256 and provenance. Both specimens and compositions reject missing glyphs rather than substitute another face. Their PNGs are unhinted rendering evidence; the final application still needs its own visual check.
+The supplied composition examples use exact IDs from the pinned collection. For your own fonts, replace their role IDs and settings first. See the [composition schema](docs/contract.md), [reference-led recovery loop](docs/agents.md#recover-from-a-weak-first-result), and [source maintenance guide](docs/maintenance.md).
+
+Compositions produce an immediate PNG preview and an HTML/CSS/JS implementation recipe. Stage authorized exact font assets to use the live recipe; its loading gate checks hashes and font loading before displaying it. A screenshot is not proof of browser, printer or game-engine equivalence.
 
 ## Use from an agent
 
-Read [AGENTS.md](AGENTS.md) for the bounded decision loop. The JSON CLI and stdio MCP share discovery, family inspection, project context, exact rendering and composition. MCP returns an inline preview image by default, a compact summary, and a path to the full manifest. It also supports paging, refinement and reopening generated images. [Configure an MCP client](docs/agents.md).
+Read [AGENTS.md](AGENTS.md) for the bounded decision loop, or configure the [stdio MCP server](docs/agents.md#local-setup-and-mcp). MCP supports search, paging, family inspection, exact assets, comparisons, contextual compositions and reopening preview images. No particular agent model or editor is required.
 
-All successful CLI output is JSON; errors use stderr and a nonzero exit status. Place `--catalog /absolute/path/catalog.sqlite` **before** the subcommand. `doctor`, `stats`, `issues` and `visual-status` describe the local environment and scope.
+All successful CLI output is JSON. Put `--catalog /absolute/path/catalog.sqlite` **before** the subcommand. `doctor`, `stats`, `issues` and `visual-status` describe the current local setup. Agent setup instructions help after an agent reaches this repository; they do not guarantee discovery in search results.
 
-## Read the evidence correctly
+## Collection and evidence
 
-| Evidence | What it supports |
-| --- | --- |
-| Measured | Exact bytes, cmap coverage, sampled proportions, glyph positions, line breaks and rendered output. |
-| Declared | Family/style names, weight, axes, feature tags, version and embedded notices; metadata can be wrong. |
-| Learned | FontCLIP resemblance between rendered samples, text descriptions or a reference crop; not a quality or readability score. |
-| Heuristic | Explicit preferences for role, size, density, hierarchy and known attributes. |
-| Judgment | The decision after inspecting the real content and surrounding design. |
+The recorded v0.2 catalog contains **27,520 faces, 8,041 distinct family names and 8,710 family groups**, including 378 variable faces. Family groups preserve vendor/version/width differences; faces are not unique families. The collection retains both original mixed sources and adds selected Google Fonts and Arrow Type sources. [Collection scope and pins](docs/collection-v2.md).
 
-Font rights remain separate from aesthetic fit. Unknown rights stay unknown; an embedded open-license notice is evidence to review, not distribution permission. No font binaries or model weights are published in this repository or its review ZIP.
+The default visual index covers **26,313 faces (95.61%)** in the recorded catalog, using configured sample text at default axes. Unsupported render formats, incomplete samples and explicit rendering failures remain visible. Language support and final styles need their own checks. [Visual coverage](evidence/v0.2/visual-coverage.json).
 
-See [architecture](docs/architecture.md), [collection additions](docs/collection-v2.md), [maintenance](docs/maintenance.md) and the [visual review](evidence/v0.2/index.html). The FontCLIP adapter has CPU float32 parity evidence against the pinned upstream implementation. This checks the model adapter, not whether its recommendations improve design outcomes.
-
-In the [three-case held-out comparison](evidence/v0.2/heldout/README.md), the harness did not improve the final compositions over basic access to the same fonts. All nine finals passed exact-asset and measured layout checks. Semantic retrieval sometimes missed the intended tone; supplied visual references recovered more useful directions in a separate development study. The evidence retains these failures, the unchanged first-pass results, and separately labeled fixes. The earlier [v0.1 evaluation](evidence/evaluation.md) is historical.
+In the [three-case held-out evaluation](evidence/v0.2/heldout/README.md), the harness did **not** improve final compositions over basic access to the same fonts. Semantic retrieval sometimes missed the intended tone; supplied references recovered more useful directions in a separate development study. Tests establish behavior, not better taste. [Full evidence index](evidence/v0.2/README.md).
 
 ## Development
 
-```sh
-python -m pytest -q
-```
+Contributions can improve retrieval, source metadata, platform behavior or design evaluation. [CONTRIBUTING.md](CONTRIBUTING.md) maps the extension points, gives starter tasks and explains how to test without the large downloads. Use the [issue forms](https://github.com/gavinjudd/type-evidence/issues/new/choose) for reproducible bugs, poor recommendations or proposals.
 
-Regression tests use small synthetic fonts; most need neither the large collections nor the optional model. Corpus experiments and design evaluations are separate from the test suite.
+The recorded v0.2 suite passed **277 tests** with optional visual dependencies; the clean core suite passed **267 with 10 optional skips** on native Linux, macOS and Windows. Full collection, optional visual-model and browser workflows remain unverified on Windows; CUDA is unverified. [Test and platform scope](evidence/v0.2/portability.json).
 
-Recorded local results: **277 passed** with optional visual dependencies; **267 passed, 10 skipped** in a clean core-only environment. See the [test scope](evidence/v0.2/tests-scope.json) and [native core CI receipt](evidence/v0.2/portability.json).
+## License
+
+The original harness code and documentation are available under the [MIT License](LICENSE). **This does not license the fonts or model weights.** Dependencies and third-party assets retain their own terms; mixed-source availability is not permission to use or redistribute every face. No font binaries or model weights are included here. Read the [licensing and attribution guide](docs/licensing.md) before distributing assets.

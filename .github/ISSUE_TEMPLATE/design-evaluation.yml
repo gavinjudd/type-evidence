@@ -1,0 +1,33 @@
+name: Contextual design evaluation
+description: Share a bounded comparison, including failures, ties, or a justified baseline choice.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A good evaluation can find no improvement. Use public or invented content, retain the original result, and keep post-feedback revisions separate. Do not upload fonts, model weights, catalogs, or private project material.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and brief
+      description: Actual text/languages, audience, medium, intended sizes, hierarchy, density, baseline, and the decision being evaluated.
+    validations:
+      required: true
+  - type: textarea
+    id: conditions
+    attributes:
+      label: Comparison conditions
+      description: Describe the alternatives, source/model/index pins, renderer, and effort caps. Note any differences and whether a preferred visual reference was supplied after an initial miss.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Judgment and limitations
+      description: Who judged, whether condition labels were blinded, what improved or tied, and remaining problems. Separate self-assessment, independent review, measured geometry, and actual reading/user testing.
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Bounded artifacts
+      description: Optional. Two to four authorized PNGs plus a small spec/manifest excerpt with exact IDs, axes, features, and sizes. Link to a larger public report if needed; preserve the original baseline and record.

@@ -1,0 +1,16 @@
+{
+  "wheel": "type_evidence-0.2.0-py3-none-any.whl",
+  "package_name": "type-evidence",
+  "version": "0.2.0",
+  "license_expression": "MIT",
+  "license_file_present": true,
+  "summary": "Font discovery and typography for AI agents: explore real local fonts, compare in context, and use exact styles through CLI or MCP",
+  "project_urls": [
+    "Homepage, https://gavinjudd.github.io/type-evidence/",
+    "Documentation, https://github.com/gavinjudd/type-evidence/blob/main/docs/getting-started.md",
+    "Repository, https://github.com/gavinjudd/type-evidence",
+    "Issues, https://github.com/gavinjudd/type-evidence/issues",
+    "Contributing, https://github.com/gavinjudd/type-evidence/blob/main/CONTRIBUTING.md"
+  ],
+  "scope": "Local build only; no package publication."
+}

@@ -1,0 +1,1 @@
+{"error": "Visual retrieval needs the optional visual dependencies: pip install -e '.[visual]'", "type": "ValueError"}

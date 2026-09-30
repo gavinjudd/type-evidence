@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "files_seen": 2,
+  "font_files": 2,
+  "metadata_cache_hits": 0,
+  "source_count": 1,
+  "unique_files": 2,
+  "exact_duplicate_files": 0,
+  "faces": 2,
+  "family_groups": 2,
+  "family_names": 2,
+  "equivalent_table_groups": 0,
+  "rights_counts": {
+    "unknown": 2
+  },
+  "category_counts": {
+    "mono": 2
+  },
+  "variable_faces": 0,
+  "issue_counts": {},
+  "scope": "Unicode OpenType/TrueType faces with successful metadata, outline sample and FreeType load probes. No claim all glyphs are correct or families are complete.",
+  "sources": [
+    {
+      "id": "fresh-review-synthetic",
+      "url": "",
+      "commit": "",
+      "acquisition": "local-directory",
+      "derivative_files": 0,
+      "mapped_upstream_paths": 0
+    }
+  ]
+}

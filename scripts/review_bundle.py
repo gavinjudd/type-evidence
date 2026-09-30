@@ -9,9 +9,9 @@ import re
 import stat
 import zipfile
 
-ROOT_FILES = {'README.md','AGENTS.md','pyproject.toml','sources.lock.json','.gitignore','requirements-lock.txt','requirements-visual-lock.txt'}
+ROOT_FILES = {'README.md','AGENTS.md','CONTRIBUTING.md','LICENSE','NOTICE','pyproject.toml','sources.lock.json','.gitignore','requirements-lock.txt','requirements-visual-lock.txt'}
 ROOT_DIRS = {'type_evidence','tests','docs','examples','evidence','scripts','.github'}
-SUFFIXES = {'.py','.md','.json','.toml','.txt','.xml','.png','.html','.css','.js','.yml'}
+SUFFIXES = {'.py','.md','.json','.toml','.txt','.xml','.png','.jpg','.html','.css','.js','.yml'}
 FONT_MAGIC = {b'\0\1\0\0',b'OTTO',b'ttcf',b'wOFF',b'wOF2',b'true',b'typ1'}
 SECRET = re.compile(rb'(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}|sk-[A-Za-z0-9_-]{35,}|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)')
 
@@ -60,7 +60,7 @@ def build(root, destination):
             continue
         if path.is_symlink():
             raise ValueError('Symlink refused: '+str(rel))
-        if not path.is_file() or (path.name not in ROOT_FILES and path.suffix not in SUFFIXES):
+        if not path.is_file() or (path.name not in ROOT_FILES | {'.nojekyll'} and path.suffix not in SUFFIXES):
             continue
         data=path.read_bytes()
         if data[:4] in FONT_MAGIC or SECRET.search(data):

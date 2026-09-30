@@ -1,0 +1,10 @@
+{
+  "public_files_scanned": 751,
+  "font_magic_and_forbidden_extension_scan": "passed",
+  "known_secret_signature_scan": "passed",
+  "personal_path_scan": "passed",
+  "runtime_source_unchanged": true,
+  "historical_v02_evidence_unchanged": true,
+  "site_examples_byte_identical": 3,
+  "scope": "Source/evidence payload only; signature scans do not prove absence of every possible secret."
+}

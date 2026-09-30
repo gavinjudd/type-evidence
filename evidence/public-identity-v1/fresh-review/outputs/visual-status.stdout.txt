@@ -1,0 +1,4 @@
+{
+  "status": "not_configured",
+  "next": "type-evidence visual-setup; type-evidence visual-index"
+}

@@ -1,0 +1,23 @@
+{
+  "family": "Fresh Review Wide",
+  "chosen_group": "bca23777bfc7abcb123ff616",
+  "grouping": "Exact family + vendor + version + width class. Different groups are not silently merged.",
+  "faces": [
+    {
+      "id": "2b04b7bc3e63d32c6568116ca2d27c196810fa61f9ae0091e04c0ff8d3be617e:0",
+      "style": "Regular",
+      "weight": 400,
+      "italic": false,
+      "axes": [],
+      "family_key": "bca23777bfc7abcb123ff616",
+      "version": "Version 1.0",
+      "vendor": "????",
+      "family_limits": [
+        "No declared italic in this metadata/version group",
+        "Only one indexed face in this metadata/version group"
+      ]
+    }
+  ],
+  "total_faces": 1,
+  "truncated": false
+}

@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "status": "candidates",
+  "role": "ui",
+  "candidates": [
+    {
+      "id": "2b04b7bc3e63d32c6568116ca2d27c196810fa61f9ae0091e04c0ff8d3be617e:0",
+      "family": "Fresh Review Wide",
+      "style": "Regular",
+      "weight": 400,
+      "italic": false,
+      "category": "mono",
+      "score": 1,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "measured+heuristic",
+          "points": 1,
+          "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.5,
+        "cap_height_em": 0.7,
+        "average_advance_em": 0.68,
+        "mono_measured": true,
+        "digit_tabular_default": true
+      },
+      "family_available_styles": {
+        "count": 1,
+        "styles": [
+          {
+            "style": "Regular",
+            "weight": 400,
+            "italic": false
+          }
+        ],
+        "truncated": false,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "unknown",
+        "review_required": true
+      },
+      "warnings": [
+        "OS/2 embedding flags set: 4; technical flags are not a license"
+      ],
+      "existing_baseline": false,
+      "family_style_resolutions": [],
+      "evidence_gaps": [
+        "no_visual_index_evidence"
+      ]
+    },
+    {
+      "id": "7580c7a38a5835900d9e8905752393b3f78922ecf53659b3646e8f4dbcdc0519:0",
+      "family": "Fresh Review Compact",
+      "style": "Regular",
+      "weight": 400,
+      "italic": false,
+      "category": "mono",
+      "score": 1,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "measured+heuristic",
+          "points": 1,
+          "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.5,
+        "cap_height_em": 0.7,
+        "average_advance_em": 0.52,
+        "mono_measured": true,
+        "digit_tabular_default": true
+      },
+      "family_available_styles": {
+        "count": 1,
+        "styles": [
+          {
+            "style": "Regular",
+            "weight": 400,
+            "italic": false
+          }
+        ],
+        "truncated": false,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "unknown",
+        "review_required": true
+      },
+      "warnings": [
+        "OS/2 embedding flags set: 4; technical flags are not a license"
+      ],
+      "existing_baseline": false,
+      "family_style_resolutions": [],
+      "evidence_gaps": [
+        "no_visual_index_evidence"
+      ]
+    }
+  ],
+  "baseline": {
+    "requested_id": null,
+    "status": "not_supplied"
+  },
+  "counts": {
+    "catalog_faces": 2,
+    "eligible_faces": 2,
+    "returned_faces": 2,
+    "eligible_distinct_alternatives": 2,
+    "visual_scored_faces": 0
+  },
+  "pagination": {
+    "offset": 0,
+    "limit": 4,
+    "next_offset": null,
+    "has_more": false,
+    "meaning": "Offset counts distinct alternatives, excluding the reserved baseline. Keep the brief and catalog fixed between pages; changing either starts a new exploration."
+  },
+  "constraint_rejections": {},
+  "query_interpretation": {
+    "exact_name_match_count": 0,
+    "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+    "aliases": {},
+    "negated_aliases": {},
+    "unmodeled_terms": [
+      "humanist",
+      "warm"
+    ],
+    "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases; only literal name matching can use them without a visual adapter.",
+    "negation_scope": "Query and tone are interpreted independently. Negation extends across comma-coordinated terms until a sentence/semicolon/colon boundary, an explicit contrast such as but, or a comma-led positive clause such as prefer or use. Check the reported polarity for ambiguous prose.",
+    "unmodeled_positive": [
+      "warm",
+      "humanist"
+    ],
+    "unmodeled_negative": [],
+    "visual_scoring_active": false,
+    "unrecognized_brief_fields": [],
+    "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect."
+  },
+  "refinement": {
+    "similar_to": null,
+    "avoid_like": null,
+    "method": "Content-based visual evidence when supplied for a face; otherwise proximity in at least two measured proportions. Reference IDs remain eligible unless excluded."
+  },
+  "context_interpretation": {
+    "supplied_fields": [],
+    "measurement_rules": [
+      "small-size lowercase proportions",
+      "audience lowercase proportions",
+      "density sampled advances",
+      "numeric alignment",
+      "observed hierarchy styles"
+    ],
+    "handoff_fields": [],
+    "advice": "Use the actual language, size, text, hierarchy and surrounding design in a contextual composition. Context fields guide preferences; none proves aesthetic fit."
+  },
+  "constraints": {
+    "coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
+    "text_codepoint_count": 13,
+    "text_supplied": true,
+    "family_diversity": "At most one face per family; equivalent canonical content is also deduplicated. Equal-score ties favor differences in known category, width, monospace measurement, x-height, and advance-width bands; this is not proof of visual distinction.",
+    "open_evidence_requested": false
+  },
+  "alternatives": [
+    {
+      "option": "single_family",
+      "advice": "Compare a single family's observed styles before adding a second typeface; additional fonts are not inherently an improvement."
+    },
+    {
+      "option": "keep_existing",
+      "advice": "Keeping the current typography is a valid outcome. Supply existing_id to include an exact catalog face as the comparison baseline."
+    }
+  ],
+  "limitations": [
+    "Rankings combine explicitly labeled evidence. Visual adapter scores are interpretations, not quality or readability measurements; missing visual evidence remains eligible.",
+    "Render the selected exact faces on project text at intended sizes. Coverage alone cannot establish legibility, shaping, personality, or good pairing.",
+    "Metadata categories and family groupings may be imperfect. Available styles describe this collection, not a complete upstream family.",
+    "Unknown rights remain unknown. Embedded open-license evidence is not legal clearance; review source and license evidence before distribution."
+  ],
+  "visual_retrieval": {
+    "status": "not_configured",
+    "next": "Optional: install visual extra, run visual-setup then visual-index. Search works without it."
+  }
+}

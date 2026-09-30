@@ -4,7 +4,7 @@ Start with [AGENTS.md](../AGENTS.md). Keep the catalog outside the agent's conte
 
 ## Local setup and MCP
 
-[README setup](../README.md#get-started) creates the catalog. For rendered-content discovery, install `.[visual]`, run `visual-setup`, then `visual-index`. These are explicit local setup operations. The MCP server does not download sources or model weights.
+[Getting started](getting-started.md) creates a catalog from your own fonts or the pinned collection. For rendered-content discovery, install `.[visual]`, run `visual-setup`, then `visual-index`. These are explicit local setup operations. The MCP server does not download sources or model weights.
 
 Use absolute paths because clients may start processes in a different directory:
 

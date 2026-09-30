@@ -1,0 +1,43 @@
+{
+  "browser": "Codex in-app browser on macOS",
+  "desktop": {
+    "width": 1280,
+    "height": 720,
+    "pageWidth": 1280,
+    "imagesLoaded": 3
+  },
+  "mobile": {
+    "horizontalOverflow": false,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "pageWidth": 390,
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  "keyboard": {
+    "skipFocus": "#main",
+    "skipResult": {
+      "focus": "main",
+      "hash": "#main"
+    }
+  },
+  "navigation": {
+    "hash": "#examples",
+    "pageWidth": 390,
+    "top": 23.765625,
+    "viewportWidth": 390
+  },
+  "scope": "Local static documentation page, desktop and emulated mobile viewport; no physical-device claim.",
+  "correction": "Made main focusable by anchor navigation; keyboard skip now moves focus to main. Removed smooth scrolling for immediate section navigation."
+}

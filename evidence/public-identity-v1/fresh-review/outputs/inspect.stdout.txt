@@ -1,0 +1,71 @@
+{
+  "id": "2b04b7bc3e63d32c6568116ca2d27c196810fa61f9ae0091e04c0ff8d3be617e:0",
+  "sha256": "2b04b7bc3e63d32c6568116ca2d27c196810fa61f9ae0091e04c0ff8d3be617e",
+  "face_index": 0,
+  "family": "Fresh Review Wide",
+  "style": "Regular",
+  "full_name": "Fresh Review Wide Regular",
+  "postscript_name": "FreshReviewWide-Regular",
+  "vendor": "????",
+  "version": "Version 1.0",
+  "weight": 400,
+  "width_class": 5,
+  "italic": false,
+  "units_per_em": 1000,
+  "axes": [],
+  "features": [],
+  "coverage": [
+    [
+      32,
+      126
+    ]
+  ],
+  "glyph_count": 21,
+  "unicode_count": 95,
+  "metrics": {
+    "x_height_em": 0.5,
+    "cap_height_em": 0.7,
+    "average_advance_em": 0.68,
+    "mono_measured": true,
+    "digit_tabular_default": true,
+    "measurement_sample": "Hamburgefontsiv0123456789; default unshaped hmtx advances"
+  },
+  "category": "mono",
+  "category_basis": "measured sample widths then declared PANOSE",
+  "family_key": "bca23777bfc7abcb123ff616",
+  "canonical_hash": "1310f109bb3876fef244668033350e92d2ffd24e3f0d5bee27a01e07c6bcb245",
+  "rights": {
+    "status": "unknown",
+    "evidence": [],
+    "review_required": true,
+    "nearby_files": []
+  },
+  "warnings": [
+    "OS/2 embedding flags set: 4; technical flags are not a license"
+  ],
+  "render_probe": true,
+  "origins": [
+    {
+      "source_id": "fresh-review-synthetic",
+      "path": "wide.ttf",
+      "url": "",
+      "commit": "",
+      "upstream_path": "wide.ttf",
+      "container": "ttf"
+    }
+  ],
+  "equivalent_table_variants": [
+    "2b04b7bc3e63d32c6568116ca2d27c196810fa61f9ae0091e04c0ff8d3be617e:0"
+  ],
+  "family_available_styles": [
+    [
+      400,
+      false,
+      "Regular"
+    ]
+  ],
+  "family_limits": [
+    "No declared italic in this metadata/version group",
+    "Only one indexed face in this metadata/version group"
+  ]
+}

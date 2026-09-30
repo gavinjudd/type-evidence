@@ -1,0 +1,11 @@
+{
+  "observed": "2026-09-30",
+  "source_commit": "f2c26cb4cd1da63498e29559dc1b60ff86dc10e5",
+  "repository": "gavinjudd/type-evidence",
+  "visibility": "PUBLIC",
+  "description": "Local font discovery and evidence for AI agents: exact asset resolution, rendered comparisons, JSON CLI and MCP. Font binaries stay local.",
+  "homepage": "",
+  "topics": [],
+  "license_detected": null,
+  "pages_api_status": 404
+}

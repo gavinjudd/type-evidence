@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Type Evidence — Font Discovery &amp; Typography for AI Agents</title>
+  <meta name="description" content="Explore real local fonts with AI agents. Type Evidence offers visual font discovery, contextual comparisons and exact styles through a JSON CLI and local MCP server.">
+  <link rel="canonical" href="https://gavinjudd.github.io/type-evidence/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Type Evidence — Font Discovery &amp; Typography for AI Agents">
+  <meta property="og:description" content="Discover real local fonts, compare them in context, and apply exact styles through CLI or MCP. Conventional to distinctive; open and proprietary sources.">
+  <meta property="og:url" content="https://gavinjudd.github.io/type-evidence/">
+  <meta property="og:image" content="https://gavinjudd.github.io/type-evidence/assets/interface.png">
+  <meta property="og:image:alt" content="An actual Type Evidence composition of a dense operations interface using exact local font faces.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar wrap">
+    <a class="brand" href="./" aria-label="Type Evidence home">Type Evidence<span> / </span></a>
+    <nav aria-label="Main navigation">
+      <a href="#start">Get started</a><a href="#examples">Examples</a><a href="#agents">MCP</a><a href="#contribute">Contribute</a><a href="https://github.com/gavinjudd/type-evidence">GitHub ↗</a>
+    </nav>
+  </header>
+  <main id="main" class="wrap" tabindex="-1">
+    <section class="intro" aria-labelledby="title">
+      <p class="eyebrow">Local toolkit · JSON CLI · MCP</p>
+      <h1 id="title">Font discovery &amp; typography<br class="wide"> for AI agents.</h1>
+      <p class="lede">Find real fonts that fit the work—from quiet reading faces to expressive display type. Explore local collections, compare choices in context, and apply exact styles.</p>
+      <p>Bring fonts you already have, or build the pinned mixed open/proprietary collection. Optional visual retrieval searches rendered letterforms. You or your agent make the final design decision.</p>
+      <div class="actions"><a class="button" href="#start">Start with your fonts <span aria-hidden="true">↓</span></a><a href="https://github.com/gavinjudd/type-evidence/blob/main/docs/agents.md#local-setup-and-mcp">Connect an agent →</a></div>
+    </section>
+    <section id="examples" aria-labelledby="examples-title">
+      <div class="section-heading"><h2 id="examples-title">See the choice in the work</h2><p>Actual harness outputs. Fictional sample content.</p></div>
+      <div class="examples">
+        <figure><a href="assets/editorial.png"><img src="assets/editorial.png" width="1080" height="866" alt="Editorial page with a serif headline and body, sans-serif labels and a sidebar" loading="lazy"></a><figcaption><strong>Reading &amp; editorial</strong><br>Judge rhythm, hierarchy and paired roles.<br><a href="https://github.com/gavinjudd/type-evidence/blob/main/evidence/v0.2/composition-examples/editorial/manifest.json">Exact-face manifest →</a></figcaption></figure>
+        <figure><a href="assets/interface.png"><img src="assets/interface.png" width="1200" height="715" alt="Operations interface showing dense route data, tabular figures, headings and labels" loading="lazy"></a><figcaption><strong>Interfaces &amp; data</strong><br>Inspect real text at the intended density.<br><a href="https://github.com/gavinjudd/type-evidence/blob/main/evidence/v0.2/composition-examples/interface/manifest.json">Exact-face manifest →</a></figcaption></figure>
+        <figure><a href="assets/poster.png"><img src="assets/poster.png" width="1000" height="1100" alt="Night Shift observatory poster using distinctive outlined display lettering" loading="lazy"></a><figcaption><strong>Expressive display</strong><br>Explore a different direction for a title or identity.<br><a href="https://github.com/gavinjudd/type-evidence/blob/main/evidence/v0.2/composition-examples/poster/manifest.json">Exact-face manifest →</a></figcaption></figure>
+      </div>
+      <p class="note">These examples show composition capabilities; they are not automatic recommendations or font licenses. <a href="https://github.com/gavinjudd/type-evidence/tree/main/examples">Editable composition specs</a> · <a href="https://github.com/gavinjudd/type-evidence/blob/main/evidence/v0.2/composition-browser/README.md">Recorded browser checks</a></p>
+    </section>
+    <section id="start" class="split" aria-labelledby="start-title">
+      <div><p class="eyebrow">01 / Start small</p><h2 id="start-title">Use fonts you already have</h2><p>Install the core toolkit, point it at an authorized local font directory, and search. No full collection or model download is required for metadata and measurement discovery.</p><p>Python 3.10+ is required. The guide includes Windows commands, local-source configuration and troubleshooting.</p><a href="https://github.com/gavinjudd/type-evidence/blob/main/docs/getting-started.md">Complete setup guide →</a></div>
+      <div><pre aria-label="Core installation commands"><code>git clone https://github.com/gavinjudd/type-evidence.git
+cd type-evidence
+python3 -m venv .venv
+.venv/bin/python -m pip install -e .
+.venv/bin/type-evidence doctor</code></pre><p class="note">Install from this GitHub source; no package-registry install is assumed. <a href="https://github.com/gavinjudd/type-evidence/blob/main/docs/getting-started.md#use-fonts-you-already-have">Next: create your local source configuration.</a></p></div>
+    </section>
+    <section id="visual" class="split" aria-labelledby="visual-title">
+      <div><p class="eyebrow">02 / Explore a direction</p><h2 id="visual-title">Discover by letterform, then refine</h2><p>Optional FontCLIP retrieval connects text descriptions or a typography crop to rendered local fonts, including faces with unknown category metadata. Inspect candidates, page through alternatives, or follow an inspected reference.</p><p>Compare your actual copy and required styles. Retain the baseline or use one family when it serves the project.</p><a href="https://github.com/gavinjudd/type-evidence/blob/main/docs/agents.md#recover-from-a-weak-first-result">The discovery and recovery loop →</a></div>
+      <div><h3>Choose your setup</h3><dl class="requirements"><div><dt>Core discovery</dt><dd>Your fonts + Python dependencies. No learned model.</dd></div><div><dt>Visual retrieval</dt><dd>Optional PyTorch/OpenCLIP dependencies, an approximately 653 MB pinned checkpoint and a local rendered-font index. Indexing can be bounded and resumed.</dd></div><div><dt>Pinned broad collection</dt><dd>Roughly 6 GB of sources, plus catalogs and caches. Review each font's rights before use or distribution.</dd></div></dl><p class="note">Search never downloads weights. Model terms are separate from the harness license. <a href="https://github.com/gavinjudd/type-evidence/blob/main/docs/getting-started.md#add-optional-visual-discovery">Visual setup and language coverage →</a></p></div>
+    </section>
+    <section id="agents" class="split" aria-labelledby="agents-title">
+      <div><p class="eyebrow">03 / Compare and apply</p><h2 id="agents-title">One workflow, different agents</h2><p>The JSON CLI and local stdio MCP server share search, family inspection, exact asset resolution, specimens and contextual compositions. MCP returns bounded results and inline PNG previews.</p><p>Use a local client that supports stdio and filesystem access, with absolute paths to the executable, catalog and output directory. A remote-only client cannot directly read your local library.</p><div class="text-links"><a href="https://github.com/gavinjudd/type-evidence/blob/main/docs/agents.md#local-setup-and-mcp">MCP configuration →</a><a href="https://github.com/gavinjudd/type-evidence/blob/main/AGENTS.md">Agent decision loop →</a></div></div>
+      <div><h3>From candidate to implementation</h3><ol class="steps"><li>Form a brief from audience, medium, language, hierarchy and real text.</li><li>Inspect a few distinct finalists in a shared specimen or composition.</li><li>Revise the font choice or layout, then resolve exact assets and settings.</li></ol><p>Compositions export a preview and HTML/CSS/JS recipes. The live recipe checks the exact font bytes and loading before displaying the result.</p><p class="note">A nonvisual agent should use measured evidence without claiming to have judged the image. Final applications still need target-environment review.</p></div>
+    </section>
+    <section id="scope" class="split" aria-labelledby="scope-title">
+      <div><h2 id="scope-title">Broad access, honest evidence</h2><p>The recorded v0.2 catalog contains <strong>27,520 faces</strong>, <strong>8,041 distinct family names</strong> and <strong>8,710 family groups</strong>. Faces are not families; groups preserve vendor/version/width differences.</p><p>The default visual index covers 26,313 faces (95.61%) at recorded sample text and default axes. Missing coverage and render failures are reported. Fonts, indexes, weights and project text stay local.</p><a href="https://github.com/gavinjudd/type-evidence/blob/main/docs/collection-v2.md">Collection sources and scope →</a></div>
+      <div><h3>What the evaluation found</h3><p>In three held-out cases, the harness did not improve final compositions over basic access to the same fonts. Semantic retrieval can miss the intended tone; visual references helped in a separate development study.</p><p>Native core tests pass on Linux, macOS and Windows. Full collection, model and browser workflows remain unverified on Windows; CUDA is unverified.</p><a href="https://github.com/gavinjudd/type-evidence/blob/main/evidence/v0.2/README.md">Read the evidence and limitations →</a></div>
+    </section>
+    <section id="contribute" class="split" aria-labelledby="contribute-title">
+      <div><p class="eyebrow">Build with us</p><h2 id="contribute-title">Improve the next typography choice</h2><p>Develop and run the core tests with small synthetic fonts—no collection or model download. Help with retrieval failures, source metadata, platform behavior or fair design evaluations.</p><p>The contributor guide maps extension points and offers bounded, unassigned starter tasks. Bring reproducible examples; do not upload font files, weights, catalogs or private project data.</p><div class="text-links"><a href="https://github.com/gavinjudd/type-evidence/blob/main/CONTRIBUTING.md">Contributor guide →</a><a href="https://github.com/gavinjudd/type-evidence/issues/new/choose">Report a problem or propose work →</a></div></div>
+      <div><h3>License boundaries</h3><p>Original Type Evidence code and documentation are <a href="https://github.com/gavinjudd/type-evidence/blob/main/LICENSE">MIT licensed</a>. Fonts, dependencies and model weights retain separate terms. Mixed-source access is not a universal font license.</p><p>No font binaries or model weights are published in the repository. A source pin, hash or preview does not grant asset distribution rights.</p><a href="https://github.com/gavinjudd/type-evidence/blob/main/docs/licensing.md">Licensing and upstream attribution →</a></div>
+    </section>
+  </main>
+  <footer class="wrap"><p>Type Evidence · Font discovery &amp; typography for AI agents</p><p><a href="https://github.com/gavinjudd/type-evidence">Source</a> · <a href="https://github.com/gavinjudd/type-evidence/blob/main/CONTRIBUTING.md">Contribute</a> · <a href="https://github.com/gavinjudd/type-evidence/blob/main/docs/licensing.md">Licensing</a></p></footer>
+</body>
+</html>

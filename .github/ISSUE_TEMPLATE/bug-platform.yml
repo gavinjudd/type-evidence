@@ -1,0 +1,40 @@
+name: Bug or platform report
+description: Reproduce a CLI, MCP, acquisition, rendering, model, or platform problem.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep the reproduction small and omit font/model binaries, catalogs, secrets, and private paths. Core tests require no collection or checkpoint download. Passing core tests and a successful full workflow have different scope.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Core setup or tests
+        - CLI or MCP
+        - Source acquisition or catalog
+        - Exact rendering or composition
+        - Optional visual model or index
+        - Browser implementation recipe
+        - Other
+  - type: textarea
+    id: runtime
+    attributes:
+      label: Runtime
+      description: Project commit/version, OS, architecture, Python version, and relevant doctor output. For optional model or browser failures, include device/backend or browser version.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Smallest reproduction
+      description: Exact command or MCP request, necessary inputs, and steps. Use synthetic fixtures or exact IDs/source pins rather than uploading fonts.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+      description: Include the relevant error excerpt or a small authorized screenshot. State which checks passed and which did not run; do not paste a full environment dump.
+    validations:
+      required: true
