@@ -769,7 +769,7 @@
   "remaining_limitations": [
     "Tamil configured sample has zero eligible faces in this corpus; metadata lookup and exact rendering of covered text remain possible.",
     "Color/bitmap rendering remains unsupported.",
-    "Native Windows and CUDA are not verified. CPU full build and bounded MPS probe were exercised on macOS.",
+    "Full-corpus visual indexing on Windows and CUDA execution are not verified. CPU full build and bounded MPS probe were exercised on macOS; native core regression results are recorded separately in portability.json.",
     "Default-axis associations are learned interpretations; verify project text, exact sizes and final composition."
   ]
 }

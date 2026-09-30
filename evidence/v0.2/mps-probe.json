@@ -1,0 +1,15 @@
+{
+  "model": "FontCLIP ViT-B/32",
+  "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+  "render_version": 1,
+  "catalog_faces": 27520,
+  "indexed_current_faces": 64,
+  "remaining_faces": 27456,
+  "new_rendered": 64,
+  "reused_equivalent": 0,
+  "new_failures": 1,
+  "failures_recorded": 1,
+  "seconds": 5.77,
+  "device": "mps",
+  "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+}

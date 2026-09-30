@@ -6,7 +6,7 @@ The collection preserves the original mixed open/proprietary sources and adds pi
 
 ## Get started
 
-Python 3.10+ and Git are required. Allow roughly 6 GB for the source collections, plus space for indexes and optional visual dependencies. The core workflow has been exercised on macOS; native Windows verification remains outstanding.
+Python 3.10+ and Git are required. Allow roughly 6 GB for the source collections, plus space for indexes and optional visual dependencies. The synthetic core suite passes on native Linux, macOS and Windows runners ([CI run](https://github.com/gavinjudd/type-evidence/actions/runs/36749819569), [portability scope](evidence/v0.2/portability.json)). Full collection, visual-model and browser validation ran on macOS; those Windows workflows and CUDA remain unverified.
 
 ```sh
 git clone https://github.com/gavinjudd/type-evidence.git
@@ -114,3 +114,5 @@ python -m pytest -q
 ```
 
 Regression tests use small synthetic fonts; most need neither the large collections nor the optional model. Corpus experiments and design evaluations are separate from the test suite.
+
+Recorded local results: **277 passed** with optional visual dependencies; **267 passed, 10 skipped** in a clean core-only environment. See the [test scope](evidence/v0.2/tests-scope.json) and [native core CI receipt](evidence/v0.2/portability.json).

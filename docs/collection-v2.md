@@ -96,6 +96,9 @@ scripts or installs fonts into the operating system.
 
 Tests exercise successful acquisition/reuse, mutated bytes, changed manifests,
 untracked files, symlinks, unsafe paths, cross-platform collisions, wrong hashes,
-truncated listings and size limits. All 50 acquisition/preparation tests pass
-on macOS. Windows path handling is tested by deterministic fixtures; native
-Windows execution remains unverified.
+truncated listings and size limits. The 52 acquisition/preparation tests are
+part of the passing synthetic core suite on native Linux, macOS and Windows
+([CI run](https://github.com/gavinjudd/type-evidence/actions/runs/36749819569),
+[portability receipt](../evidence/v0.2/portability.json)). Full collection
+acquisition and visual-model/browser workflows remain unverified on Windows;
+CUDA is also unverified.

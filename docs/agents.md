@@ -19,7 +19,7 @@ Use absolute paths because clients may start processes in a different directory:
 }
 ```
 
-On Windows, use `C:\\path\\type-evidence\\.venv\\Scripts\\type-evidence.exe` as `command`. Native Windows end-to-end verification remains outstanding; path materialization and protocol behavior have tests, and macOS runtime evidence is recorded separately.
+On Windows, use `C:\\path\\type-evidence\\.venv\\Scripts\\type-evidence.exe` as `command`. The synthetic core suite passes on native Linux, macOS and Windows ([CI run](https://github.com/gavinjudd/type-evidence/actions/runs/36749819569), [scope](../evidence/v0.2/portability.json)). Full collection, optional visual-model and browser workflows remain unverified on Windows; CUDA is also unverified.
 
 | Task | CLI | MCP |
 | --- | --- | --- |

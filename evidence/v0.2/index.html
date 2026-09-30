@@ -143,7 +143,7 @@
             <li>The mobile interface table scrolls inside its own focusable region. A keyboard Right input moved it from 0px to 40px.</li>
             <li>Exact identities, axes, and features stay fixed; responsive size rules are recorded in each implementation recipe.</li>
           </ul>
-          <p class="muted">Observed in Chrome on macOS at 1280 × 900 and an emulated 390 × 844 viewport. These are actual browser captures; they do not establish raster equivalence with the PNG renderer, physical-device behavior, or native Windows support.</p>
+          <p class="muted">Observed in Chrome on macOS at 1280 × 900 and an emulated 390 × 844 viewport. These are actual browser captures; they do not establish raster equivalence with the PNG renderer, physical-device behavior, or Windows browser behavior.</p>
           <p class="links"><a href="composition-browser/browser-verification.json">Machine-readable browser evidence</a><a href="composition-examples/editorial/application.css">Generated CSS</a><a href="composition-examples/editorial/application.js">Exact-asset loading gate</a></p>
         </div>
         <div class="before-after">
@@ -207,7 +207,8 @@
     <section id="verification">
       <h2>What the checks establish</h2>
       <dl class="evidence-list">
-        <div><dt><a href="tests-scope.json">Regression suite</a></dt><dd>270 passed with optional visual dependencies; 260 passed and 10 optional tests skipped in the separate core-only environment. Synthetic fixtures on macOS, not an aesthetic evaluation. <a href="tests-output.txt">Full output</a> · <a href="core-only-tests.txt">Core-only output</a></dd></div>
+        <div><dt><a href="tests-scope.json">Regression suite</a></dt><dd>277 passed with optional visual dependencies; 267 passed and 10 optional tests skipped in the separate clean core-only environment. Local synthetic fixtures on macOS, not an aesthetic evaluation. <a href="tests-output.txt">Full output</a> · <a href="core-only-tests.txt">Core-only output</a></dd></div>
+        <div><dt><a href="portability.json">Native core portability</a></dt><dd>The synthetic core suite passed on native Linux, macOS and Windows at source <code>3702842</code>. Full collection, optional visual-model and browser workflows remain unverified on Windows; CUDA is also unverified. <a href="https://github.com/gavinjudd/type-evidence/actions/runs/36749819569">Passing CI run</a></dd></div>
         <div><dt><a href="fontclip-parity.json">Model adapter parity</a></dt><dd>CPU float32 text, image, and projection parity against the pinned official FontCLIP implementation passed. Twelve sampled canonical-equivalent pairs also produced equal render masks. This checks the adapter and sampled reuse, not recommendation quality.</dd></div>
         <div><dt><a href="library-validation.json">Exact source resolution</a></dt><dd>27,520 faces resolved to one hash-verified source copy each; zero failures. This checks identity and available bytes, not every glyph.</dd></div>
         <div><dt><a href="discovery-regressions.json">Discovery comparisons</a></dt><dd>Four before/after deterministic queries with 48 candidate records, interpretations, reasons, and pagination. Catalog changes and comparison limits remain attached to the evidence.</dd></div>

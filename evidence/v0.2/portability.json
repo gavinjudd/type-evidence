@@ -1,0 +1,87 @@
+{
+  "version": "0.2.0",
+  "source_commit": "3702842657c73a35c94f83edaf1b92f1822925de",
+  "run_url": "https://github.com/gavinjudd/type-evidence/actions/runs/36749819569",
+  "conclusion": "success",
+  "completed_at": "2026-09-30T17:14:02Z",
+  "scope": "Native GitHub-hosted Linux, macOS and Windows core synthetic regression suite. Core/test dependencies only; ten optional visual tests skip without torch. No font-corpus or model downloads.",
+  "jobs": [
+    {
+      "name": "core (ubuntu-24.04)",
+      "conclusion": "success",
+      "url": "https://github.com/gavinjudd/type-evidence/actions/runs/36749819569/job/110005257381",
+      "runtime": {
+        "python": "3.12.14",
+        "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+        "fonttools": "4.60.2",
+        "pillow": "11.3.0",
+        "harfbuzz": "12.1.0"
+      },
+      "tests": {
+        "passed": 267,
+        "skipped": 10,
+        "elapsed_seconds": 5.89
+      }
+    },
+    {
+      "name": "core (macos-14)",
+      "conclusion": "success",
+      "url": "https://github.com/gavinjudd/type-evidence/actions/runs/36749819569/job/110005257848",
+      "runtime": {
+        "python": "3.12.10",
+        "platform": "macOS-14.8.9-arm64-arm-64bit",
+        "fonttools": "4.60.2",
+        "pillow": "11.3.0",
+        "harfbuzz": "12.1.0"
+      },
+      "tests": {
+        "passed": 267,
+        "skipped": 10,
+        "elapsed_seconds": 5.17
+      }
+    },
+    {
+      "name": "core (windows-2022)",
+      "conclusion": "success",
+      "url": "https://github.com/gavinjudd/type-evidence/actions/runs/36749819569/job/110005257958",
+      "runtime": {
+        "python": "3.12.10",
+        "platform": "Windows-2022Server-10.0.20348-SP0",
+        "fonttools": "4.60.2",
+        "pillow": "11.3.0",
+        "harfbuzz": "12.1.0"
+      },
+      "tests": {
+        "passed": 267,
+        "skipped": 10,
+        "elapsed_seconds": 13.21
+      }
+    }
+  ],
+  "first_run": {
+    "source_commit": "12456ba561f97a1c20aa14a37cae1edc6805979c",
+    "url": "https://github.com/gavinjudd/type-evidence/actions/runs/36749150790",
+    "windows_result": "8 failed, 252 passed, 10 skipped",
+    "macos_and_linux_result": "260 passed, 10 skipped each",
+    "observed_causes": [
+      "Four tests used locale-dependent reads of UTF-8 product output.",
+      "A test-owned SQLite connection was not closed before replacing its database.",
+      "Two tests assumed the Git acquisition backend rather than selecting it explicitly.",
+      "ZIP filename normalization differed on Windows, bypassing the intended raw-name rejection assertion."
+    ]
+  },
+  "corrections": [
+    "Made test fixture text boundaries explicitly UTF-8; product output was already UTF-8.",
+    "Closed the test-owned SQLite handle and hardened all Catalog constructor schema-failure paths to close their connection.",
+    "Selected the Git backend explicitly in checkout tests.",
+    "Validate ZipInfo.orig_filename before path normalization; preserve raw ZIP names in rejection fixtures. Content-addressed extraction already prevented demonstrated filesystem escape.",
+    "Made Git command output decoding and existing source-lock reads explicitly UTF-8; added multilingual and legacy-locale regressions."
+  ],
+  "not_established": [
+    "Full collection acquisition and corpus indexing on Windows or Linux.",
+    "Optional FontCLIP model execution on Windows or CUDA.",
+    "Browser composition validation on Windows or a physical mobile device.",
+    "Aesthetic improvement over baseline access."
+  ],
+  "later_documentation_commits": "This receipt names the tested source commit. Later documentation/evidence-only commits may not trigger the workflow."
+}

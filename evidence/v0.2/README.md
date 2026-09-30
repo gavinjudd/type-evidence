@@ -13,7 +13,8 @@ This version adds rendered-content retrieval, visual/reference refinement, expli
 | FontCLIP adapter | 12 text and 3 image probes match the pinned official implementation to float32 tolerance; 12 canonical cross-container pairs render identically | [Parity record](fontclip-parity.json), [reproduction script](../../scripts/verify_fontclip_parity.py) |
 | Discovery regressions | Four saved deterministic before/after queries document corrected negation and exposed exploration | [Before/after responses](discovery-regressions.json) |
 | Exact implementation | Three recipes, six Chrome desktop/mobile views, 34 role-font checks; mobile overflow corrected and keyboard table scroll exercised | [Browser evidence](composition-browser/README.md) |
-| Regression suite | 270 passed with visual dependencies; 260 passed and 10 optional tests skipped in a separate core-only environment | [Scope](tests-scope.json), [test output](tests-output.txt), [JUnit](tests-junit.xml), [core-only output](core-only-tests.txt) |
+| Regression suite | 277 passed with visual dependencies; 267 passed and 10 optional tests skipped in a separate clean core-only environment | [Scope](tests-scope.json), [test output](tests-output.txt), [JUnit](tests-junit.xml), [core-only output](core-only-tests.txt) |
+| Native core portability | Synthetic core suite passed on Linux, macOS and Windows at source `3702842657c73a35c94f83edaf1b92f1822925de` | [Portability receipt](portability.json), [CI run](https://github.com/gavinjudd/type-evidence/actions/runs/36749819569) |
 
 The [three query specimens and reference self-match](query-smoke.json) demonstrate behavior on the frozen complete build. They are development examples, separate from the held-out comparison. Query scores and model associations are interpretations rather than suitability measurements.
 
@@ -37,7 +38,7 @@ The blind critique also produced a [bilingual assistance correction and Turkish 
 
 - Visual coverage is for recorded sample text at default variation axes. Final choices still require the actual content and settings. 1,207 faces have no stored embedding: 1,121 lack a complete configured sample, 76 use unsupported color/bitmap rendering, and 10 hit explicit renderer limits or face inconsistencies.
 - Script indexes include Arabic, Bengali, Chinese (simplified/traditional), Cyrillic, Devanagari, Ethiopic, Greek, Hebrew, Japanese, Korean and Thai. The configured Tamil sample has no eligible face in this corpus. A sample passing does not establish complete language coverage.
-- Acquisition and portable-path tests support Windows workflows, but native Windows, CUDA and a physical mobile device were not verified. Full CPU indexing and browser work ran on macOS; MPS received a bounded 64-face probe.
+- The synthetic core suite is verified on native Linux, macOS and Windows. Full collection, optional visual-model and browser workflows remain unverified on Windows, as do CUDA and physical mobile-device behavior. Full CPU indexing and browser work ran on macOS; MPS received a bounded 64-face probe. See the [portability scope](portability.json).
 - The source additions are selective repairs, not an exhaustive current-font collection. Noto Serif upright and italic currently have different upstream versions and remain separate groups.
 - Font rights remain a separate use/distribution decision. Font binaries, model weights, source caches and SQLite indexes stay local.
 
