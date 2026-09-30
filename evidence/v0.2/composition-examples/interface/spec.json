@@ -1,0 +1,276 @@
+{
+  "width": 1200,
+  "padding": 40,
+  "gap": 18,
+  "background": "#f5f7f8",
+  "template": "interface",
+  "title": "Dispatch — dense operations view",
+  "medium": "screen",
+  "min_height": 0,
+  "roles": {
+    "eyebrow": {
+      "font_id": "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8:0",
+      "size": 12,
+      "line_height": 1.4,
+      "color": "#5c6c7b",
+      "features": {},
+      "axes": {},
+      "language": "und",
+      "direction": null,
+      "align": "start"
+    },
+    "title": {
+      "font_id": "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8:0",
+      "size": 34,
+      "line_height": 1.15,
+      "color": "#17293c",
+      "features": {},
+      "axes": {},
+      "language": "und",
+      "direction": null,
+      "align": "start"
+    },
+    "body": {
+      "font_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+      "size": 16,
+      "line_height": 1.4,
+      "color": "#243649",
+      "features": {},
+      "axes": {},
+      "language": "und",
+      "direction": null,
+      "align": "start"
+    },
+    "caption": {
+      "font_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+      "size": 13,
+      "line_height": 1.4,
+      "color": "#5b6d7c",
+      "features": {},
+      "axes": {},
+      "language": "und",
+      "direction": null,
+      "align": "start"
+    },
+    "metric": {
+      "font_id": "8ff67fc82f0e3d02d2c89de7b4376628000127e31392cbee3430de1ec6e0cbc7:0",
+      "size": 38,
+      "line_height": 1.1,
+      "color": "#173e50",
+      "features": {},
+      "axes": {},
+      "language": "und",
+      "direction": null,
+      "align": "start"
+    },
+    "heading": {
+      "font_id": "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8:0",
+      "size": 16,
+      "line_height": 1.3,
+      "color": "#243649",
+      "features": {},
+      "axes": {},
+      "language": "und",
+      "direction": null,
+      "align": "start"
+    }
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "gap": 18,
+      "role": "eyebrow",
+      "text": "DISPATCH   /   NORTH REGION"
+    },
+    {
+      "type": "text",
+      "gap": 12,
+      "role": "title",
+      "text": "Keep today moving."
+    },
+    {
+      "type": "text",
+      "gap": 12,
+      "role": "caption",
+      "text": "Wednesday, 30 September   ·   Updated 09:42   ·   Sample operations data"
+    },
+    {
+      "type": "rule",
+      "gap": 22,
+      "color": "#c6d0d7",
+      "thickness": 1
+    },
+    {
+      "type": "columns",
+      "gap": 24,
+      "columns": [
+        {
+          "width": 1,
+          "blocks": [
+            {
+              "type": "text",
+              "gap": 18,
+              "role": "caption",
+              "text": "DELIVERIES TODAY"
+            },
+            {
+              "type": "text",
+              "gap": 8,
+              "role": "metric",
+              "text": "1,284"
+            },
+            {
+              "type": "text",
+              "gap": 8,
+              "role": "caption",
+              "text": "96.2% on schedule"
+            }
+          ]
+        },
+        {
+          "width": 1,
+          "blocks": [
+            {
+              "type": "text",
+              "gap": 18,
+              "role": "caption",
+              "text": "NEEDS ATTENTION"
+            },
+            {
+              "type": "text",
+              "gap": 8,
+              "role": "metric",
+              "text": "08"
+            },
+            {
+              "type": "text",
+              "gap": 8,
+              "role": "caption",
+              "text": "3 require a decision"
+            }
+          ]
+        },
+        {
+          "width": 1,
+          "blocks": [
+            {
+              "type": "text",
+              "gap": 18,
+              "role": "caption",
+              "text": "AVERAGE TURNAROUND"
+            },
+            {
+              "type": "text",
+              "gap": 8,
+              "role": "metric",
+              "text": "24.6 min"
+            },
+            {
+              "type": "text",
+              "gap": 8,
+              "role": "caption",
+              "text": "4.2 min faster than yesterday"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "gap": 28,
+      "blocks": [
+        {
+          "type": "text",
+          "gap": 18,
+          "role": "heading",
+          "text": "Weather advisory · Coastal route"
+        },
+        {
+          "type": "text",
+          "gap": 8,
+          "role": "body",
+          "text": "Heavy rain may delay arrivals after 14:00. Review the three affected stops before approving the afternoon schedule."
+        }
+      ],
+      "background": "#e7edf1",
+      "padding": 20
+    },
+    {
+      "type": "text",
+      "gap": 28,
+      "role": "heading",
+      "text": "Active routes"
+    },
+    {
+      "type": "table",
+      "gap": 12,
+      "role": "body",
+      "header_role": "caption",
+      "columns": [
+        {
+          "text": "ROUTE",
+          "width": 1.5,
+          "align": "start"
+        },
+        {
+          "text": "DRIVER",
+          "width": 1.5,
+          "align": "start"
+        },
+        {
+          "text": "PROGRESS",
+          "width": 1.3,
+          "align": "start"
+        },
+        {
+          "text": "ETA",
+          "width": 1,
+          "align": "right"
+        },
+        {
+          "text": "STATUS",
+          "width": 1.2,
+          "align": "start"
+        }
+      ],
+      "rows": [
+        [
+          "NR-104 · Riverside",
+          "Jordan Lee",
+          "18 / 24 stops",
+          "10:45",
+          "On schedule"
+        ],
+        [
+          "NR-118 · Central",
+          "Alex Morgan",
+          "12 / 20 stops",
+          "11:10",
+          "On schedule"
+        ],
+        [
+          "NR-126 · Coastal",
+          "Sam Rivera",
+          "09 / 22 stops",
+          "11:35",
+          "Review delay"
+        ],
+        [
+          "NR-132 · Old Town",
+          "Casey Chen",
+          "16 / 18 stops",
+          "10:20",
+          "On schedule"
+        ]
+      ],
+      "row_padding": 14,
+      "rule_color": "#d3d9dd"
+    },
+    {
+      "type": "text",
+      "gap": 18,
+      "role": "caption",
+      "text": "Showing 4 of 18 routes   ·   All times local"
+    }
+  ]
+}

@@ -75,7 +75,7 @@ type-evidence compose --spec examples/composition-poster.json --out library/post
 
 Open each output's `index.html` or `composition.png`. These examples are editable starting layouts, not recommended fonts for every brief. Replace exact IDs and role settings in `spec.json`, revise the copy or layout, and compose into a new directory. Columns, tables, panels and explicit hierarchy let pairs be judged together at intended sizes.
 
-Each composition also produces `application.css`, `application.html` and `application.js`. The recipe names exact assets and applies their real styles, axes, features and line heights. Fonts are not copied. Stage authorized files at the listed asset URLs, serve the folder over localhost HTTP, and inspect it in the target browser. The page stays hidden until every asset passes SHA-256 verification and font loading; missing files cannot silently become a fallback preview. Collection faces require an explicit standalone derivative before browser use.
+Each composition also produces `application.css`, `application.html` and `application.js`. The recipe names exact assets and applies their real styles, axes, features and line heights. Its documented mobile rules stack columns, resize large headings and make dense tables scrollable; the PNG keeps the requested canvas. Fonts are not copied. Stage authorized files at the listed asset URLs, serve the folder over localhost HTTP, and inspect it in the target browser. The page stays hidden until every asset passes SHA-256 verification and font loading; missing files cannot silently become a fallback preview. Collection faces require an explicit standalone derivative before browser use.
 
 Immediately before integrating a selection:
 

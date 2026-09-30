@@ -32,6 +32,28 @@ from type_evidence.sources import prepare
 derived = prepare("/source", "/library/derived/new", "new", "", "")
 ```
 
+For selected directories from a public GitHub repository, copy the lock file and add a pinned selection:
+
+```sh
+type-evidence pin-source --repository OWNER/REPOSITORY --commit FULL_COMMIT_SHA --paths path/to/family path/to/license --id source-next --lock sources-next.lock.json
+type-evidence fetch --lock sources-next.lock.json --library library-next
+type-evidence --catalog library-next/catalog.sqlite index --sources library-next/sources.local.json
+```
+
+`pin-source` records each selected file's SHA-256, Git blob hash and size. It preserves existing entries and refuses a duplicate source ID. Include the applicable upstream license files alongside the fonts. Review the selection before fetching; this route avoids cloning an entire repository just to add a few families.
+
+## Refresh visual retrieval
+
+Visual indexes are derived local data. After catalog changes, rerun `visual-index` and any script-specific builds you use. Current faces are matched by exact ID, so search excludes stale vectors; `visual-status` reports current default-index coverage separately from stored rows. Interrupted builds resume, and failed faces are retried on the next build.
+
+```sh
+type-evidence --catalog library-next/catalog.sqlite visual-setup
+type-evidence --catalog library-next/catalog.sqlite visual-index
+type-evidence --catalog library-next/catalog.sqlite visual-index --script Arabic
+```
+
+Keep each script build's JSON report with the maintenance record. `visual-status` summarizes the default index only. A model/render configuration mismatch is refused; build a new index at a new output path rather than mixing embeddings. The checkpoint, all SQLite indexes and visual caches stay out of Git and review archives.
+
 ## Inspect gaps
 
 `stats` is compact. `issues --limit 100` returns bounded details; complete issue rows remain in SQLite. Unknown rights are deliberately common. `inspect ID` exposes embedded notices and nearby-file hashes, which can then be verified against an authoritative license source. Embedded-open-license is a signal, never an automatic distribution permission.

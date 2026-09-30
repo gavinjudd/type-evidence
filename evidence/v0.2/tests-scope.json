@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "full_suite": {
+    "result": "242 passed",
+    "elapsed_seconds": 4.95,
+    "environment": "macOS, Python 3.12.13, optional visual dependencies installed; synthetic unit/regression fonts"
+  },
+  "core_only": {
+    "result": "232 passed, 10 skipped",
+    "elapsed_seconds": 2.95,
+    "scope": "Final suite in a separate clean environment installed offline from local package cache with core/test dependencies only. Ten optional visual-model tests skip because torch is absent."
+  },
+  "normalization": "Machine hostname removed from JUnit; local repository paths replaced with REPOSITORY. Original records retained locally.",
+  "native_windows": "Not run",
+  "design_quality": "Passing tests do not establish aesthetic improvement."
+}

@@ -109,6 +109,8 @@ Outputs:
 
 The application loader verifies SHA-256 and successfully loads all requested browser faces before showing the composition. Missing/mismatched assets leave it hidden with an explanation. Serve over localhost HTTP after staging authorized exact files. Collection faces are renderable but need explicit extraction, indexing and regeneration before a standalone webfont recipe is supplied. The browser still recomputes its own layout/rasterization and must be inspected.
 
+The browser recipe adapts its container to the viewport. At 640 px and below it stacks columns, reduces padding to at most 24 px and applies reported fluid sizes to roles larger than 48 px. Dense tables keep readable columns inside a focusable horizontal scroll region, with a hint when more columns are offscreen. `implementation.responsive_layout` records these rules; exact IDs, axes and features stay unchanged. Status/scroll helper labels use a separate system UI face. The PNG always retains the requested fixed canvas and role sizes.
+
 ## MCP transport bounds
 
 MCP validates input types and advertised bounds. `font_compare` accepts at most 8 IDs and 4 sizes; `font_compose` accepts one spec. Both return a compact summary and one image by default (`include_image:false` disables it). Full manifests remain on disk. Preview transport fits the original within 1440 × 1800; generated PNG reads are capped at 20 MB and 28 million pixels. `font_image` accepts a contained relative `.png` path, never an arbitrary absolute image path.

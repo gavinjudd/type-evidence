@@ -1,0 +1,1930 @@
+{
+  "schema": 1,
+  "version": "0.2.0",
+  "baseline": {
+    "faces": 27454,
+    "family_groups": 8674,
+    "family_names": 8012,
+    "variable_faces": 344,
+    "rights_counts": {
+      "unknown": 19732,
+      "embedded-open-license": 7356,
+      "restricted-notice": 366
+    }
+  },
+  "expanded": {
+    "faces": 27520,
+    "family_groups": 8710,
+    "family_names": 8041,
+    "variable_faces": 378,
+    "rights_counts": {
+      "unknown": 19732,
+      "embedded-open-license": 7422,
+      "restricted-notice": 366
+    }
+  },
+  "sources": [
+    {
+      "id": "google-curated-2026",
+      "url": "https://github.com/google/fonts",
+      "commit": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+      "files": 138,
+      "bytes": 62953874
+    },
+    {
+      "id": "arrowtype-recursive-1.085",
+      "url": "https://github.com/arrowtype/recursive",
+      "commit": "6d491202cea5cf6a493ef710cbef2527b9b08939",
+      "files": 18,
+      "bytes": 10160061
+    }
+  ],
+  "preserved_original_faces": 27454,
+  "new_distinct_faces": 66,
+  "selected_face_occurrences": 66,
+  "family_details": [
+    {
+      "family": "Alegreya",
+      "faces": 2,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.009"
+      ],
+      "styles": [
+        {
+          "id": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 400.0,
+              "default": 400.0,
+              "max": 900.0
+            }
+          ],
+          "version": "Version 2.009"
+        },
+        {
+          "id": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391:0",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 400.0,
+              "default": 400.0,
+              "max": 900.0
+            }
+          ],
+          "version": "Version 2.009"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "greek",
+        "cyrillic"
+      ]
+    },
+    {
+      "family": "Atkinson Hyperlegible",
+      "faces": 4,
+      "family_groups": 1,
+      "versions": [
+        "Version 1.006; ttfautohint (v1.8.3)"
+      ],
+      "styles": [
+        {
+          "id": "021beda4d3c6edfc78872e436d74009f9a1bcb294331908fe5747c61d3dcc514:0",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "axes": [],
+          "version": "Version 1.006; ttfautohint (v1.8.3)"
+        },
+        {
+          "id": "5a3b0c8cc8ca545155150b4512a1fa248298df121c50d6557e651e61fbdab92f:0",
+          "style": "Bold",
+          "weight": 700,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.006; ttfautohint (v1.8.3)"
+        },
+        {
+          "id": "7a46f1b0ef2f64b61065c1a6b5a11fcb9b019b44062d88ba121a083cc39e86bf:0",
+          "style": "Bold Italic",
+          "weight": 700,
+          "italic": true,
+          "axes": [],
+          "version": "Version 1.006; ttfautohint (v1.8.3)"
+        },
+        {
+          "id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.006; ttfautohint (v1.8.3)"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended"
+      ]
+    },
+    {
+      "family": "Atkinson Hyperlegible Next",
+      "faces": 2,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.001"
+      ],
+      "styles": [
+        {
+          "id": "5a455d1cfa099b601ab70751bb9673e8fe1854dc4500c80e1a220d0d75e31745:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200.0,
+              "default": 400.0,
+              "max": 800.0
+            }
+          ],
+          "version": "Version 2.001"
+        },
+        {
+          "id": "ce9cffed32742ad2d9238c561a93220385e5934cdc02b8eb4097a50efa957dc6:0",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200.0,
+              "default": 400.0,
+              "max": 800.0
+            }
+          ],
+          "version": "Version 2.001"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended"
+      ]
+    },
+    {
+      "family": "Bricolage Grotesque",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 1.001;gftools[0.9.33.dev8+g029e19f]"
+      ],
+      "styles": [
+        {
+          "id": "413e7357809ddd12fd80a96a8a396de0e401638d4acd3cb3e37532f0472ac682:0",
+          "style": "96pt ExtraBold",
+          "weight": 800,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "opsz",
+              "min": 12.0,
+              "default": 96.0,
+              "max": 96.0
+            },
+            {
+              "tag": "wght",
+              "min": 200.0,
+              "default": 800.0,
+              "max": 800.0
+            },
+            {
+              "tag": "wdth",
+              "min": 75.0,
+              "default": 100.0,
+              "max": 100.0
+            }
+          ],
+          "version": "Version 1.001;gftools[0.9.33.dev8+g029e19f]"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended"
+      ]
+    },
+    {
+      "family": "DM Serif Display",
+      "faces": 2,
+      "family_groups": 1,
+      "versions": [
+        "Version 5.200; ttfautohint (v1.8.3)"
+      ],
+      "styles": [
+        {
+          "id": "8cc3643535edf039aa5d95440a8542735e9197e4f4b8d9303e980fefbf5ab616:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [],
+          "version": "Version 5.200; ttfautohint (v1.8.3)"
+        },
+        {
+          "id": "df74c0ac387baeaeb0fe4f2324e1668e6a3ed8c09cd9796fe162c71753e19e45:0",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "axes": [],
+          "version": "Version 5.200; ttfautohint (v1.8.3)"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended"
+      ]
+    },
+    {
+      "family": "Fraunces",
+      "faces": 2,
+      "family_groups": 1,
+      "versions": [
+        "Version 1.000;[b76b70a41]"
+      ],
+      "styles": [
+        {
+          "id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+          "style": "Black",
+          "weight": 900,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "opsz",
+              "min": 9.0,
+              "default": 9.0,
+              "max": 144.0
+            },
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 900.0,
+              "max": 900.0
+            },
+            {
+              "tag": "SOFT",
+              "min": 0.0,
+              "default": 0.0,
+              "max": 100.0
+            },
+            {
+              "tag": "WONK",
+              "min": 0.0,
+              "default": 1.0,
+              "max": 1.0
+            }
+          ],
+          "version": "Version 1.000;[b76b70a41]"
+        },
+        {
+          "id": "b24448c43702fac4ee856781d461a0dfba8d8e594b6e8e190234b75fed2c0e01:0",
+          "style": "Black Italic",
+          "weight": 900,
+          "italic": true,
+          "axes": [
+            {
+              "tag": "opsz",
+              "min": 9.0,
+              "default": 9.0,
+              "max": 144.0
+            },
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 900.0,
+              "max": 900.0
+            },
+            {
+              "tag": "SOFT",
+              "min": 0.0,
+              "default": 0.0,
+              "max": 100.0
+            },
+            {
+              "tag": "WONK",
+              "min": 0.0,
+              "default": 1.0,
+              "max": 1.0
+            }
+          ],
+          "version": "Version 1.000;[b76b70a41]"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended"
+      ]
+    },
+    {
+      "family": "Gabarito",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 1.000"
+      ],
+      "styles": [
+        {
+          "id": "8650e2bd7747f7d74619fd7aecbcb0309e6f37b7964024f3fb15ae4833b67ca5:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 400.0,
+              "default": 400.0,
+              "max": 900.0
+            }
+          ],
+          "version": "Version 1.000"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended"
+      ]
+    },
+    {
+      "family": "Instrument Serif",
+      "faces": 2,
+      "family_groups": 1,
+      "versions": [
+        "Version 1.000; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.27]"
+      ],
+      "styles": [
+        {
+          "id": "08939b8bdf534afec24ae0ef5e03f948940cd9a8fe08e7fecbad040e62327385:0",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "axes": [],
+          "version": "Version 1.000; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.27]"
+        },
+        {
+          "id": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.000; ttfautohint (v1.8.4.7-5d5b);gftools[0.9.27]"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended"
+      ]
+    },
+    {
+      "family": "Kalam",
+      "faces": 3,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.001;PS 1.0;hotconv 1.0.79;makeotf.lib2.5.61930; ttfautohint (v1.3)"
+      ],
+      "styles": [
+        {
+          "id": "2b8f2c0208d397a1823688783da3317d6af18ea007a9a1b56ddb17e27820507e:0",
+          "style": "Light",
+          "weight": 300,
+          "italic": false,
+          "axes": [],
+          "version": "Version 2.001;PS 1.0;hotconv 1.0.79;makeotf.lib2.5.61930; ttfautohint (v1.3)"
+        },
+        {
+          "id": "2f6576601db015d4f6c08678120277fc8510b98c06e932ce7a6a9cbff4cbdded:0",
+          "style": "Bold",
+          "weight": 700,
+          "italic": false,
+          "axes": [],
+          "version": "Version 2.001;PS 1.0;hotconv 1.0.79;makeotf.lib2.5.61930; ttfautohint (v1.3)"
+        },
+        {
+          "id": "57cecb63d4608019371954274ae1d8c397764debd5b19d4a33c1efa4dc923c0b:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [],
+          "version": "Version 2.001;PS 1.0;hotconv 1.0.79;makeotf.lib2.5.61930; ttfautohint (v1.3)"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "devanagari"
+      ]
+    },
+    {
+      "family": "Literata",
+      "faces": 2,
+      "family_groups": 1,
+      "versions": [
+        "Version 3.103;gftools[0.9.29]"
+      ],
+      "styles": [
+        {
+          "id": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "opsz",
+              "min": 7.0,
+              "default": 12.0,
+              "max": 72.0
+            },
+            {
+              "tag": "wght",
+              "min": 200.0,
+              "default": 400.0,
+              "max": 900.0
+            }
+          ],
+          "version": "Version 3.103;gftools[0.9.29]"
+        },
+        {
+          "id": "d483dfaeba9cbf4ce71d32a52ee65df82f7e35b15fff8d1011cdb242d1fcd465:0",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "axes": [
+            {
+              "tag": "opsz",
+              "min": 7.0,
+              "default": 12.0,
+              "max": 72.0
+            },
+            {
+              "tag": "wght",
+              "min": 200.0,
+              "default": 400.0,
+              "max": 900.0
+            }
+          ],
+          "version": "Version 3.103;gftools[0.9.29]"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "greek",
+        "cyrillic"
+      ]
+    },
+    {
+      "family": "Newsreader",
+      "faces": 2,
+      "family_groups": 1,
+      "versions": [
+        "Version 1.003"
+      ],
+      "styles": [
+        {
+          "id": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792:0",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200.0,
+              "default": 400.0,
+              "max": 800.0
+            },
+            {
+              "tag": "opsz",
+              "min": 6.0,
+              "default": 18.0,
+              "max": 72.0
+            }
+          ],
+          "version": "Version 1.003"
+        },
+        {
+          "id": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200.0,
+              "default": 400.0,
+              "max": 800.0
+            },
+            {
+              "tag": "opsz",
+              "min": 6.0,
+              "default": 18.0,
+              "max": 72.0
+            }
+          ],
+          "version": "Version 1.003"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended"
+      ]
+    },
+    {
+      "family": "Noto Naskh Arabic",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.021"
+      ],
+      "styles": [
+        {
+          "id": "67b5a525a661b607971fbd3f96a81b89d3a768e74534fca84f18ac97e6fab72f:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 400.0,
+              "default": 400.0,
+              "max": 700.0
+            }
+          ],
+          "version": "Version 2.021"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "arabic"
+      ]
+    },
+    {
+      "family": "Noto Sans",
+      "faces": 2,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.015"
+      ],
+      "styles": [
+        {
+          "id": "58e6e0ebd1931b29a365aa2d3e2ee9a9e831a3af7cf3ad1462d4e72154f0b291:0",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            {
+              "tag": "wdth",
+              "min": 62.5,
+              "default": 100.0,
+              "max": 100.0
+            }
+          ],
+          "version": "Version 2.015"
+        },
+        {
+          "id": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            {
+              "tag": "wdth",
+              "min": 62.5,
+              "default": 100.0,
+              "max": 100.0
+            }
+          ],
+          "version": "Version 2.015"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "greek",
+        "cyrillic",
+        "devanagari"
+      ]
+    },
+    {
+      "family": "Noto Sans Arabic",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.012"
+      ],
+      "styles": [
+        {
+          "id": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            {
+              "tag": "wdth",
+              "min": 62.5,
+              "default": 100.0,
+              "max": 100.0
+            }
+          ],
+          "version": "Version 2.012"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "arabic"
+      ]
+    },
+    {
+      "family": "Noto Sans Armenian",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.008"
+      ],
+      "styles": [
+        {
+          "id": "0870908d8318435a5daf1cd280ae15063f990cd9ad60f3e94c734ce9e1ffef71:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            {
+              "tag": "wdth",
+              "min": 62.5,
+              "default": 100.0,
+              "max": 100.0
+            }
+          ],
+          "version": "Version 2.008"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "armenian"
+      ]
+    },
+    {
+      "family": "Noto Sans Bengali",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 3.011"
+      ],
+      "styles": [
+        {
+          "id": "dcd42978094e584a849c84a51450eeac40c8826057d566ea6d4b9627a403a05a:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            {
+              "tag": "wdth",
+              "min": 62.5,
+              "default": 100.0,
+              "max": 100.0
+            }
+          ],
+          "version": "Version 3.011"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "bengali"
+      ]
+    },
+    {
+      "family": "Noto Sans Devanagari",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.007"
+      ],
+      "styles": [
+        {
+          "id": "14ec4af41f27482216d1c2229f417ff9b1425e1babb014e57d1d40d03229853e:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            {
+              "tag": "wdth",
+              "min": 62.5,
+              "default": 100.0,
+              "max": 100.0
+            }
+          ],
+          "version": "Version 2.007"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "devanagari"
+      ]
+    },
+    {
+      "family": "Noto Sans Ethiopic",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.102"
+      ],
+      "styles": [
+        {
+          "id": "0dbccc00b22d180ebd6a4bd8a733918a29e709fa6798023adc3e6cd40da65077:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            {
+              "tag": "wdth",
+              "min": 62.5,
+              "default": 100.0,
+              "max": 100.0
+            }
+          ],
+          "version": "Version 2.102"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "ethiopic"
+      ]
+    },
+    {
+      "family": "Noto Sans Georgian",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.005"
+      ],
+      "styles": [
+        {
+          "id": "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            {
+              "tag": "wdth",
+              "min": 62.5,
+              "default": 100.0,
+              "max": 100.0
+            }
+          ],
+          "version": "Version 2.005"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "georgian"
+      ]
+    },
+    {
+      "family": "Noto Sans Hebrew",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 3.001"
+      ],
+      "styles": [
+        {
+          "id": "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88:0",
+          "style": "Thin",
+          "weight": 100,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 100.0,
+              "max": 900.0
+            },
+            {
+              "tag": "wdth",
+              "min": 62.5,
+              "default": 100.0,
+              "max": 100.0
+            }
+          ],
+          "version": "Version 3.001"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "hebrew"
+      ]
+    },
+    {
+      "family": "Noto Sans JP",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+      ],
+      "styles": [
+        {
+          "id": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f:0",
+          "style": "Thin",
+          "weight": 100,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 100.0,
+              "max": 900.0
+            }
+          ],
+          "version": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+        }
+      ],
+      "sample_languages": [
+        "cyrillic",
+        "japanese"
+      ]
+    },
+    {
+      "family": "Noto Sans KR",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+      ],
+      "styles": [
+        {
+          "id": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252:0",
+          "style": "Thin",
+          "weight": 100,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 100.0,
+              "max": 900.0
+            }
+          ],
+          "version": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+        }
+      ],
+      "sample_languages": [
+        "cyrillic",
+        "japanese",
+        "korean"
+      ]
+    },
+    {
+      "family": "Noto Sans SC",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+      ],
+      "styles": [
+        {
+          "id": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da:0",
+          "style": "Thin",
+          "weight": 100,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 100.0,
+              "max": 900.0
+            }
+          ],
+          "version": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603"
+        }
+      ],
+      "sample_languages": [
+        "cyrillic",
+        "japanese",
+        "simplified_chinese"
+      ]
+    },
+    {
+      "family": "Noto Sans Thai",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.002"
+      ],
+      "styles": [
+        {
+          "id": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            {
+              "tag": "wdth",
+              "min": 62.5,
+              "default": 100.0,
+              "max": 100.0
+            }
+          ],
+          "version": "Version 2.002"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "thai"
+      ]
+    },
+    {
+      "family": "Noto Serif",
+      "faces": 2,
+      "family_groups": 2,
+      "versions": [
+        "Version 2.013",
+        "Version 2.015"
+      ],
+      "styles": [
+        {
+          "id": "4d8e6761424656867019081a1a01336f3cb086982682698714054fc33f782713:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            {
+              "tag": "wdth",
+              "min": 62.5,
+              "default": 100.0,
+              "max": 100.0
+            }
+          ],
+          "version": "Version 2.015"
+        },
+        {
+          "id": "e87acbc6c0efd0d9a20d6a8cbbda2b266c14be3a3a6f5af8ec9d7b2460570ad1:0",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            {
+              "tag": "wdth",
+              "min": 62.5,
+              "default": 100.0,
+              "max": 100.0
+            }
+          ],
+          "version": "Version 2.013"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "greek",
+        "cyrillic"
+      ]
+    },
+    {
+      "family": "Noto Serif Devanagari",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.006"
+      ],
+      "styles": [
+        {
+          "id": "1191e07bfeb062d80e252eb85b0eafdfbda1e350707a2a60628668e8f677dbbb:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            {
+              "tag": "wdth",
+              "min": 62.5,
+              "default": 100.0,
+              "max": 100.0
+            }
+          ],
+          "version": "Version 2.006"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "devanagari"
+      ]
+    },
+    {
+      "family": "Orbitron",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 2.001"
+      ],
+      "styles": [
+        {
+          "id": "f42db2dd16e642258e35782916eceb1dcdbea06fb958d77ad71dc5963587e8fd:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 400.0,
+              "default": 400.0,
+              "max": 900.0
+            }
+          ],
+          "version": "Version 2.001"
+        }
+      ],
+      "sample_languages": []
+    },
+    {
+      "family": "Rajdhani",
+      "faces": 5,
+      "family_groups": 1,
+      "versions": [
+        "Version 1.201;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1) -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G"
+      ],
+      "styles": [
+        {
+          "id": "12ff7dcfe4c206e3875ac53b1762eab57de6a2fa7f5a86c26b97b88d6591eac2:0",
+          "style": "Medium",
+          "weight": 500,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.201;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1) -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G"
+        },
+        {
+          "id": "140e9f13af69538161c5780fcf7f81594c069aea887e7bffd417ae1c641213c3:0",
+          "style": "Light",
+          "weight": 300,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.201;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1) -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G"
+        },
+        {
+          "id": "691470dd3286a14e9677940d0bf75796179841ba5215cbda1a2c8910a3226afd:0",
+          "style": "Bold",
+          "weight": 700,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.201;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1) -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G"
+        },
+        {
+          "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.201;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1) -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G"
+        },
+        {
+          "id": "94bbd25a18ca665999feb05a537de9fd2b860dcfb78bbe9ca00270825bf235da:0",
+          "style": "SemiBold",
+          "weight": 600,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.201;PS 1.0;hotconv 1.0.78;makeotf.lib2.5.61930; ttfautohint (v1.1) -l 7 -r 28 -G 50 -x 13 -D latn -f deva -w G"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "devanagari"
+      ]
+    },
+    {
+      "family": "Rec Mono Casual",
+      "faces": 4,
+      "family_groups": 1,
+      "versions": [
+        "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+      ],
+      "styles": [
+        {
+          "id": "0f534445f3b591608b69d68de74e9cc81e5030f6a3c855db461d8a1f481cc233:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        },
+        {
+          "id": "4afcdb84e4ef44af2c4640f5b8f04f70c097eaaf7cc22766a8dc46ed6ee0c957:0",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        },
+        {
+          "id": "539892e40f53251caf14db86e44a9d2458b6b773adc4421b8d2892341898ba4b:0",
+          "style": "Bold",
+          "weight": 700,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        },
+        {
+          "id": "93ffeb304f3d431e5182fd9a5eaab7e4991efd090d2938e7a6b74bd6335db1b2:0",
+          "style": "Bold Italic",
+          "weight": 700,
+          "italic": true,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended"
+      ]
+    },
+    {
+      "family": "Rec Mono Duotone",
+      "faces": 4,
+      "family_groups": 1,
+      "versions": [
+        "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+      ],
+      "styles": [
+        {
+          "id": "25fd3352f579d630bac6239295eaf6a51185fb066e4392e33e3eda25f0ab11ad:0",
+          "style": "Bold",
+          "weight": 750,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        },
+        {
+          "id": "40a356f18a9fe14b835c3c4b5b0cee45c19c0e410e614fa2a4d5856d610d4049:0",
+          "style": "Bold Italic",
+          "weight": 750,
+          "italic": true,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        },
+        {
+          "id": "83db5b59ee5188fef25f7c6d3cbd67803a879ac229baef3e47b4b609cbd78760:0",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        },
+        {
+          "id": "c8e882d1de2e029447978778f6153497ae16ed3a907201124cb58351fd586a9b:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended"
+      ]
+    },
+    {
+      "family": "Rec Mono Linear",
+      "faces": 4,
+      "family_groups": 1,
+      "versions": [
+        "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+      ],
+      "styles": [
+        {
+          "id": "02529f67cb9939962585ee9f5f46e847ac029335edd55a22ac31bcd1a0dd785e:0",
+          "style": "Bold Italic",
+          "weight": 700,
+          "italic": true,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        },
+        {
+          "id": "1c8334043bd94276e3523bc2778615bf1b82a0bf10cea7b72b23b94016bcb49e:0",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        },
+        {
+          "id": "3f2948e76bbc6665af00dd3b358cfe617d673689a5491082d08cf70b868d3713:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        },
+        {
+          "id": "b52f2fa50af7e8f27e2fd655628c2a515dfe4da967312befd3a5e78b935ea7ee:0",
+          "style": "Bold",
+          "weight": 700,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended"
+      ]
+    },
+    {
+      "family": "Rec Mono Semicasual",
+      "faces": 4,
+      "family_groups": 1,
+      "versions": [
+        "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+      ],
+      "styles": [
+        {
+          "id": "6283c7851d85790ea586aa40a6028503615083bb782d51c918228dbe60315eb2:0",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        },
+        {
+          "id": "7bb3b11966c1ad5e100d9728271d94139c8454d6225f75a5d6d0d5c932fc8a2e:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        },
+        {
+          "id": "afd47881ec42dfab0ff7bb7378041e0159bcdee87a9e46c7ab901690b9e66589:0",
+          "style": "Bold Italic",
+          "weight": 700,
+          "italic": true,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        },
+        {
+          "id": "ba673819e4b5e8a460b8a4ef586b5ee6d801e97356799c61be0a1b41eedf5f84:0",
+          "style": "Bold",
+          "weight": 700,
+          "italic": false,
+          "axes": [],
+          "version": "Version 1.085; ttfautohint (v1.8.4.7-5d5b)"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended"
+      ]
+    },
+    {
+      "family": "Recursive",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 1.085"
+      ],
+      "styles": [
+        {
+          "id": "653221ca467f4732fe6856ac493f6c409e9f56a7674abe36b2364acc89796f7c:0",
+          "style": "Sans Linear Light",
+          "weight": 300,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "MONO",
+              "min": 0.0,
+              "default": 0.0,
+              "max": 1.0
+            },
+            {
+              "tag": "CASL",
+              "min": 0.0,
+              "default": 0.0,
+              "max": 1.0
+            },
+            {
+              "tag": "wght",
+              "min": 300.0,
+              "default": 300.0,
+              "max": 1000.0
+            },
+            {
+              "tag": "slnt",
+              "min": -15.0,
+              "default": 0.0,
+              "max": 0.0
+            },
+            {
+              "tag": "CRSV",
+              "min": 0.0,
+              "default": 0.5,
+              "max": 1.0
+            }
+          ],
+          "version": "Version 1.085"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended"
+      ]
+    },
+    {
+      "family": "Source Serif 4",
+      "faces": 2,
+      "family_groups": 1,
+      "versions": [
+        "Version 4.004;hotconv 1.0.116;makeotfexe 2.5.65601"
+      ],
+      "styles": [
+        {
+          "id": "15fbc7e4679489a501998c3669272637a6646388ef7e4bd77eebb5bf967a1f42:0",
+          "style": "Italic",
+          "weight": 400,
+          "italic": true,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            {
+              "tag": "opsz",
+              "min": 8.0,
+              "default": 20.0,
+              "max": 60.0
+            }
+          ],
+          "version": "Version 4.004;hotconv 1.0.116;makeotfexe 2.5.65601"
+        },
+        {
+          "id": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            {
+              "tag": "opsz",
+              "min": 8.0,
+              "default": 20.0,
+              "max": 60.0
+            }
+          ],
+          "version": "Version 4.004;hotconv 1.0.116;makeotfexe 2.5.65601"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended",
+        "greek",
+        "cyrillic"
+      ]
+    },
+    {
+      "family": "Spline Sans",
+      "faces": 1,
+      "family_groups": 1,
+      "versions": [
+        "Version 1.001"
+      ],
+      "styles": [
+        {
+          "id": "65250939de0ab412d2b2349c9cb85304a5919fc3c5d4e74713a2d8a1f45f2947:0",
+          "style": "Regular",
+          "weight": 400,
+          "italic": false,
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 300.0,
+              "default": 400.0,
+              "max": 700.0
+            }
+          ],
+          "version": "Version 1.001"
+        }
+      ],
+      "sample_languages": [
+        "latin_extended"
+      ]
+    }
+  ],
+  "sample_coverage": [
+    {
+      "language": "latin_extended",
+      "text": "Příliš žluťoučký kůň — À bientôt",
+      "before": {
+        "text": "Příliš žluťoučký kůň — À bientôt",
+        "faces": 15271,
+        "family_groups": 1604
+      },
+      "after": {
+        "text": "Příliš žluťoučký kůň — À bientôt",
+        "faces": 15333,
+        "family_groups": 1636
+      }
+    },
+    {
+      "language": "greek",
+      "text": "Καλώς ήρθατε",
+      "before": {
+        "text": "Καλώς ήρθατε",
+        "faces": 5428,
+        "family_groups": 393
+      },
+      "after": {
+        "text": "Καλώς ήρθατε",
+        "faces": 5438,
+        "family_groups": 399
+      }
+    },
+    {
+      "language": "cyrillic",
+      "text": "Добро пожаловать",
+      "before": {
+        "text": "Добро пожаловать",
+        "faces": 8311,
+        "family_groups": 604
+      },
+      "after": {
+        "text": "Добро пожаловать",
+        "faces": 8324,
+        "family_groups": 613
+      }
+    },
+    {
+      "language": "arabic",
+      "text": "مرحبا بالعالم",
+      "before": {
+        "text": "مرحبا بالعالم",
+        "faces": 38,
+        "family_groups": 16
+      },
+      "after": {
+        "text": "مرحبا بالعالم",
+        "faces": 40,
+        "family_groups": 18
+      }
+    },
+    {
+      "language": "devanagari",
+      "text": "नमस्ते दुनिया",
+      "before": {
+        "text": "नमस्ते दुनिया",
+        "faces": 50,
+        "family_groups": 2
+      },
+      "after": {
+        "text": "नमस्ते दुनिया",
+        "faces": 62,
+        "family_groups": 7
+      }
+    },
+    {
+      "language": "japanese",
+      "text": "ようこそ東京",
+      "before": {
+        "text": "ようこそ東京",
+        "faces": 46,
+        "family_groups": 8
+      },
+      "after": {
+        "text": "ようこそ東京",
+        "faces": 49,
+        "family_groups": 11
+      }
+    },
+    {
+      "language": "simplified_chinese",
+      "text": "欢迎来到上海",
+      "before": {
+        "text": "欢迎来到上海",
+        "faces": 3,
+        "family_groups": 1
+      },
+      "after": {
+        "text": "欢迎来到上海",
+        "faces": 4,
+        "family_groups": 2
+      }
+    },
+    {
+      "language": "korean",
+      "text": "서울에 오신 것을 환영합니다",
+      "before": {
+        "text": "서울에 오신 것을 환영합니다",
+        "faces": 3,
+        "family_groups": 1
+      },
+      "after": {
+        "text": "서울에 오신 것을 환영합니다",
+        "faces": 4,
+        "family_groups": 2
+      }
+    },
+    {
+      "language": "thai",
+      "text": "ยินดีต้อนรับ",
+      "before": {
+        "text": "ยินดีต้อนรับ",
+        "faces": 35,
+        "family_groups": 2
+      },
+      "after": {
+        "text": "ยินดีต้อนรับ",
+        "faces": 36,
+        "family_groups": 3
+      }
+    },
+    {
+      "language": "bengali",
+      "text": "স্বাগতম",
+      "before": {
+        "text": "স্বাগতম",
+        "faces": 5,
+        "family_groups": 1
+      },
+      "after": {
+        "text": "স্বাগতম",
+        "faces": 6,
+        "family_groups": 2
+      }
+    },
+    {
+      "language": "hebrew",
+      "text": "ברוכים הבאים",
+      "before": {
+        "text": "ברוכים הבאים",
+        "faces": 84,
+        "family_groups": 17
+      },
+      "after": {
+        "text": "ברוכים הבאים",
+        "faces": 85,
+        "family_groups": 18
+      }
+    },
+    {
+      "language": "armenian",
+      "text": "Բարի գալուստ",
+      "before": {
+        "text": "Բարի գալուստ",
+        "faces": 30,
+        "family_groups": 12
+      },
+      "after": {
+        "text": "Բարի գալուստ",
+        "faces": 31,
+        "family_groups": 13
+      }
+    },
+    {
+      "language": "georgian",
+      "text": "მოგესალმებით",
+      "before": {
+        "text": "მოგესალმებით",
+        "faces": 98,
+        "family_groups": 29
+      },
+      "after": {
+        "text": "მოგესალმებით",
+        "faces": 99,
+        "family_groups": 30
+      }
+    },
+    {
+      "language": "ethiopic",
+      "text": "እንኳን ደህና መጡ",
+      "before": {
+        "text": "እንኳን ደህና መጡ",
+        "faces": 0,
+        "family_groups": 0
+      },
+      "after": {
+        "text": "እንኳን ደህና መጡ",
+        "faces": 1,
+        "family_groups": 1
+      }
+    }
+  ],
+  "shaping_probes": [
+    {
+      "language": "latin_extended",
+      "text": "Příliš žluťoučký kůň — À bientôt",
+      "font_id": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d:0",
+      "family": "Noto Sans",
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+      "axes": {
+        "wght": 400
+      },
+      "direction": "ltr",
+      "script": "Latn",
+      "glyphs": 32,
+      "missing_glyphs": 0,
+      "total_x_advance": 14816,
+      "harfbuzz": "12.1.0"
+    },
+    {
+      "language": "greek",
+      "text": "Καλώς ήρθατε",
+      "font_id": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d:0",
+      "family": "Noto Sans",
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+      "axes": {
+        "wght": 400
+      },
+      "direction": "ltr",
+      "script": "Grek",
+      "glyphs": 12,
+      "missing_glyphs": 0,
+      "total_x_advance": 6652,
+      "harfbuzz": "12.1.0"
+    },
+    {
+      "language": "cyrillic",
+      "text": "Добро пожаловать",
+      "font_id": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d:0",
+      "family": "Noto Sans",
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+      "axes": {
+        "wght": 400
+      },
+      "direction": "ltr",
+      "script": "Cyrl",
+      "glyphs": 16,
+      "missing_glyphs": 0,
+      "total_x_advance": 9158,
+      "harfbuzz": "12.1.0"
+    },
+    {
+      "language": "arabic",
+      "text": "مرحبا بالعالم",
+      "font_id": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e:0",
+      "family": "Noto Sans Arabic",
+      "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+      "axes": {
+        "wght": 400
+      },
+      "direction": "rtl",
+      "script": "Arab",
+      "glyphs": 15,
+      "missing_glyphs": 0,
+      "total_x_advance": 4818,
+      "harfbuzz": "12.1.0"
+    },
+    {
+      "language": "devanagari",
+      "text": "नमस्ते दुनिया",
+      "font_id": "14ec4af41f27482216d1c2229f417ff9b1425e1babb014e57d1d40d03229853e:0",
+      "family": "Noto Sans Devanagari",
+      "sha256": "14ec4af41f27482216d1c2229f417ff9b1425e1babb014e57d1d40d03229853e",
+      "axes": {
+        "wght": 400
+      },
+      "direction": "ltr",
+      "script": "Deva",
+      "glyphs": 11,
+      "missing_glyphs": 0,
+      "total_x_advance": 4556,
+      "harfbuzz": "12.1.0"
+    },
+    {
+      "language": "japanese",
+      "text": "ようこそ東京",
+      "font_id": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f:0",
+      "family": "Noto Sans JP",
+      "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+      "axes": {
+        "wght": 400
+      },
+      "direction": "ltr",
+      "script": "Hira",
+      "glyphs": 6,
+      "missing_glyphs": 0,
+      "total_x_advance": 6000,
+      "harfbuzz": "12.1.0"
+    },
+    {
+      "language": "simplified_chinese",
+      "text": "欢迎来到上海",
+      "font_id": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da:0",
+      "family": "Noto Sans SC",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "axes": {
+        "wght": 400
+      },
+      "direction": "ltr",
+      "script": "Hani",
+      "glyphs": 6,
+      "missing_glyphs": 0,
+      "total_x_advance": 6000,
+      "harfbuzz": "12.1.0"
+    },
+    {
+      "language": "korean",
+      "text": "서울에 오신 것을 환영합니다",
+      "font_id": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252:0",
+      "family": "Noto Sans KR",
+      "sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+      "axes": {
+        "wght": 400
+      },
+      "direction": "ltr",
+      "script": "Hang",
+      "glyphs": 15,
+      "missing_glyphs": 0,
+      "total_x_advance": 11712,
+      "harfbuzz": "12.1.0"
+    },
+    {
+      "language": "thai",
+      "text": "ยินดีต้อนรับ",
+      "font_id": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8:0",
+      "family": "Noto Sans Thai",
+      "sha256": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8",
+      "axes": {
+        "wght": 400
+      },
+      "direction": "ltr",
+      "script": "Thai",
+      "glyphs": 12,
+      "missing_glyphs": 0,
+      "total_x_advance": 4738,
+      "harfbuzz": "12.1.0"
+    },
+    {
+      "language": "bengali",
+      "text": "স্বাগতম",
+      "font_id": "dcd42978094e584a849c84a51450eeac40c8826057d566ea6d4b9627a403a05a:0",
+      "family": "Noto Sans Bengali",
+      "sha256": "dcd42978094e584a849c84a51450eeac40c8826057d566ea6d4b9627a403a05a",
+      "axes": {
+        "wght": 400
+      },
+      "direction": "ltr",
+      "script": "Beng",
+      "glyphs": 7,
+      "missing_glyphs": 0,
+      "total_x_advance": 2876,
+      "harfbuzz": "12.1.0"
+    },
+    {
+      "language": "hebrew",
+      "text": "ברוכים הבאים",
+      "font_id": "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88:0",
+      "family": "Noto Sans Hebrew",
+      "sha256": "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88",
+      "axes": {
+        "wght": 400
+      },
+      "direction": "rtl",
+      "script": "Hebr",
+      "glyphs": 12,
+      "missing_glyphs": 0,
+      "total_x_advance": 5865,
+      "harfbuzz": "12.1.0"
+    },
+    {
+      "language": "armenian",
+      "text": "Բարի գալուստ",
+      "font_id": "0870908d8318435a5daf1cd280ae15063f990cd9ad60f3e94c734ce9e1ffef71:0",
+      "family": "Noto Sans Armenian",
+      "sha256": "0870908d8318435a5daf1cd280ae15063f990cd9ad60f3e94c734ce9e1ffef71",
+      "axes": {
+        "wght": 400
+      },
+      "direction": "ltr",
+      "script": "Armn",
+      "glyphs": 11,
+      "missing_glyphs": 0,
+      "total_x_advance": 7302,
+      "harfbuzz": "12.1.0"
+    },
+    {
+      "language": "georgian",
+      "text": "მოგესალმებით",
+      "font_id": "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9:0",
+      "family": "Noto Sans Georgian",
+      "sha256": "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9",
+      "axes": {
+        "wght": 400
+      },
+      "direction": "ltr",
+      "script": "Geor",
+      "glyphs": 12,
+      "missing_glyphs": 0,
+      "total_x_advance": 8060,
+      "harfbuzz": "12.1.0"
+    },
+    {
+      "language": "ethiopic",
+      "text": "እንኳን ደህና መጡ",
+      "font_id": "0dbccc00b22d180ebd6a4bd8a733918a29e709fa6798023adc3e6cd40da65077:0",
+      "family": "Noto Sans Ethiopic",
+      "sha256": "0dbccc00b22d180ebd6a4bd8a733918a29e709fa6798023adc3e6cd40da65077",
+      "axes": {
+        "wght": 400
+      },
+      "direction": "ltr",
+      "script": "Ethi",
+      "glyphs": 11,
+      "missing_glyphs": 0,
+      "total_x_advance": 6496,
+      "harfbuzz": "12.1.0"
+    }
+  ],
+  "tests": {
+    "command": ".venv/bin/python -m pytest -q tests/test_sources.py tests/test_source_expansion.py",
+    "passed": 50,
+    "platform": "macOS",
+    "native_windows": false
+  },
+  "limitations": [
+    "Sample text coverage and shaping probes do not establish complete language orthography or typographic quality.",
+    "Current Google Noto Serif upright2.015 and italic2.013 remain distinct version groups.",
+    "Some upstream variable defaults are light or black; request weight explicitly.",
+    "All upstream binaries remain local and are excluded from the public repository and review ZIP.",
+    "Source selection repairs several practical gaps; it is not an exhaustive current-font collection."
+  ],
+  "offline_reuse_verified": [
+    {
+      "id": "google-curated-2026",
+      "files": 138,
+      "bytes": 62953874
+    },
+    {
+      "id": "arrowtype-recursive-1.085",
+      "files": 18,
+      "bytes": 10160061
+    }
+  ]
+}

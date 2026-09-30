@@ -129,6 +129,9 @@ def test_application_recipe_adapts_layout_without_substituting_faces(context, tm
     assert '.te-columns { grid-template-columns: 1fr; }' in css
     assert 'class="te-columns"' in html and '--te-column-tracks:' in html
     assert 'class="te-table-scroll" tabindex="0" role="region"' in html
+    assert '<th scope="col" class="te-text' in html
+    assert 'Scroll horizontally to see every column.' in html
+    assert '.te-table-group[data-overflow] > .te-scroll-hint' in css
     assert rules["mobile_role_font_sizes"] == {"title": "clamp(32px, 12vw, 64px)"}
     assert rules["font_ids_axes_features"] == "unchanged"
     assert result["canvas_px"][0] == 700  # The evidence PNG keeps its requested layout.

@@ -1,0 +1,651 @@
+{
+  "schema": 1,
+  "environment": "Chrome on macOS, controlled through CUA; IAB unavailable for this run",
+  "viewport_scope": "Desktop 1280x900 and emulated CSS viewport 390x844; not a physical mobile device",
+  "before_fix": {
+    "example": "editorial",
+    "viewport": [
+      390,
+      844
+    ],
+    "page_width": 1088,
+    "screenshot": "editorial-mobile-before.png"
+  },
+  "observations": [
+    {
+      "columns": [
+        "631.383px 280.617px"
+      ],
+      "compositionHidden": false,
+      "pageWidth": 1280,
+      "roles": [
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-eyebrow",
+          "lineHeight": "18.2px",
+          "role": "te-text te-role-eyebrow",
+          "size": "13px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-1ee27b599897b0e4-0-title",
+          "lineHeight": "67.84px",
+          "role": "te-text te-role-title",
+          "size": "64px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-1ee27b599897b0e4-0-dek",
+          "lineHeight": "33.75px",
+          "role": "te-text te-role-dek",
+          "size": "25px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-caption",
+          "lineHeight": "21px",
+          "role": "te-text te-role-caption",
+          "size": "14px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-1ee27b599897b0e4-0-body",
+          "lineHeight": "32.55px",
+          "role": "te-text te-role-body",
+          "size": "21px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-ea62b713fa71b1c8-0-heading",
+          "lineHeight": "23.4px",
+          "role": "te-text te-role-heading",
+          "size": "18px",
+          "weight": "700"
+        }
+      ],
+      "status": "Exact font assets verified and loaded. Inspect this browser's actual layout and rasterization before release.",
+      "tables": [],
+      "viewport": [
+        1280,
+        900
+      ],
+      "example": "editorial",
+      "mode": "desktop",
+      "screenshot": "editorial-desktop.png"
+    },
+    {
+      "columns": [
+        "357.328px 357.336px 357.336px"
+      ],
+      "compositionHidden": false,
+      "pageWidth": 1280,
+      "roles": [
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-ea62b713fa71b1c8-0-eyebrow",
+          "lineHeight": "16.8px",
+          "role": "te-text te-role-eyebrow",
+          "size": "12px",
+          "weight": "700"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-ea62b713fa71b1c8-0-title",
+          "lineHeight": "39.1px",
+          "role": "te-text te-role-title",
+          "size": "34px",
+          "weight": "700"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-caption",
+          "lineHeight": "18.2px",
+          "role": "te-text te-role-caption",
+          "size": "13px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-8ff67fc82f0e3d02-0-metric",
+          "lineHeight": "41.8px",
+          "role": "te-text te-role-metric",
+          "size": "38px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-ea62b713fa71b1c8-0-heading",
+          "lineHeight": "20.8px",
+          "role": "te-text te-role-heading",
+          "size": "16px",
+          "weight": "700"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-body",
+          "lineHeight": "22.4px",
+          "role": "te-text te-role-body",
+          "size": "16px",
+          "weight": "400"
+        }
+      ],
+      "status": "Exact font assets verified and loaded. Inspect this browser's actual layout and rasterization before release.",
+      "tables": [
+        {
+          "contentWidth": 1120,
+          "focusable": true,
+          "headerCells": 5,
+          "hintVisible": false,
+          "visibleWidth": 1120
+        }
+      ],
+      "viewport": [
+        1280,
+        900
+      ],
+      "example": "interface",
+      "mode": "desktop",
+      "screenshot": "interface-desktop.png"
+    },
+    {
+      "columns": [
+        "416px 416px"
+      ],
+      "compositionHidden": false,
+      "pageWidth": 1280,
+      "roles": [
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-eyebrow",
+          "lineHeight": "23.8px",
+          "role": "te-text te-role-eyebrow",
+          "size": "17px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-5d4ba5e8d8946016-0-title",
+          "lineHeight": "116.64px",
+          "role": "te-text te-role-title",
+          "size": "108px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-dek",
+          "lineHeight": "40.3px",
+          "role": "te-text te-role-dek",
+          "size": "31px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-body",
+          "lineHeight": "30.8px",
+          "role": "te-text te-role-body",
+          "size": "22px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-caption",
+          "lineHeight": "21.75px",
+          "role": "te-text te-role-caption",
+          "size": "15px",
+          "weight": "400"
+        }
+      ],
+      "status": "Exact font assets verified and loaded. Inspect this browser's actual layout and rasterization before release.",
+      "tables": [],
+      "viewport": [
+        1280,
+        900
+      ],
+      "example": "poster",
+      "mode": "desktop",
+      "screenshot": "poster-desktop.png"
+    },
+    {
+      "columns": [
+        "342px"
+      ],
+      "compositionHidden": false,
+      "pageWidth": 390,
+      "roles": [
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-eyebrow",
+          "lineHeight": "18.2px",
+          "role": "te-text te-role-eyebrow",
+          "size": "13px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-1ee27b599897b0e4-0-title",
+          "lineHeight": "49.608px",
+          "role": "te-text te-role-title",
+          "size": "46.8px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-1ee27b599897b0e4-0-dek",
+          "lineHeight": "33.75px",
+          "role": "te-text te-role-dek",
+          "size": "25px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-caption",
+          "lineHeight": "21px",
+          "role": "te-text te-role-caption",
+          "size": "14px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-1ee27b599897b0e4-0-body",
+          "lineHeight": "32.55px",
+          "role": "te-text te-role-body",
+          "size": "21px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-ea62b713fa71b1c8-0-heading",
+          "lineHeight": "23.4px",
+          "role": "te-text te-role-heading",
+          "size": "18px",
+          "weight": "700"
+        }
+      ],
+      "status": "Exact font assets verified and loaded. Inspect this browser's actual layout and rasterization before release.",
+      "tables": [],
+      "viewport": [
+        390,
+        844
+      ],
+      "example": "editorial",
+      "mode": "mobile",
+      "screenshot": "editorial-mobile.png"
+    },
+    {
+      "columns": [
+        "342px"
+      ],
+      "compositionHidden": false,
+      "pageWidth": 390,
+      "roles": [
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-ea62b713fa71b1c8-0-eyebrow",
+          "lineHeight": "16.8px",
+          "role": "te-text te-role-eyebrow",
+          "size": "12px",
+          "weight": "700"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-ea62b713fa71b1c8-0-title",
+          "lineHeight": "39.1px",
+          "role": "te-text te-role-title",
+          "size": "34px",
+          "weight": "700"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-caption",
+          "lineHeight": "18.2px",
+          "role": "te-text te-role-caption",
+          "size": "13px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-8ff67fc82f0e3d02-0-metric",
+          "lineHeight": "41.8px",
+          "role": "te-text te-role-metric",
+          "size": "38px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-ea62b713fa71b1c8-0-heading",
+          "lineHeight": "20.8px",
+          "role": "te-text te-role-heading",
+          "size": "16px",
+          "weight": "700"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-body",
+          "lineHeight": "22.4px",
+          "role": "te-text te-role-body",
+          "size": "16px",
+          "weight": "400"
+        }
+      ],
+      "status": "Exact font assets verified and loaded. Inspect this browser's actual layout and rasterization before release.",
+      "tables": [
+        {
+          "contentWidth": 700,
+          "focusable": true,
+          "headerCells": 5,
+          "hintVisible": true,
+          "visibleWidth": 342
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ],
+      "example": "interface",
+      "mode": "mobile",
+      "screenshot": "interface-mobile.png"
+    },
+    {
+      "columns": [
+        "342px"
+      ],
+      "compositionHidden": false,
+      "pageWidth": 390,
+      "roles": [
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-eyebrow",
+          "lineHeight": "23.8px",
+          "role": "te-text te-role-eyebrow",
+          "size": "17px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-5d4ba5e8d8946016-0-title",
+          "lineHeight": "50.544px",
+          "role": "te-text te-role-title",
+          "size": "46.8px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-dek",
+          "lineHeight": "40.3px",
+          "role": "te-text te-role-dek",
+          "size": "31px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-body",
+          "lineHeight": "30.8px",
+          "role": "te-text te-role-body",
+          "size": "22px",
+          "weight": "400"
+        },
+        {
+          "axes": "normal",
+          "features": "normal",
+          "fontFamily": "te-6ed23dfdede6b4a9-0-caption",
+          "lineHeight": "21.75px",
+          "role": "te-text te-role-caption",
+          "size": "15px",
+          "weight": "400"
+        }
+      ],
+      "status": "Exact font assets verified and loaded. Inspect this browser's actual layout and rasterization before release.",
+      "tables": [],
+      "viewport": [
+        390,
+        844
+      ],
+      "example": "poster",
+      "mode": "mobile",
+      "screenshot": "poster-mobile.png"
+    }
+  ],
+  "keyboard_scroll": {
+    "example": "interface",
+    "viewport": [
+      390,
+      844
+    ],
+    "key": "Right",
+    "before_px": 0,
+    "after_px": 40,
+    "passed": true
+  },
+  "limitations": [
+    "Browser screenshots differ from the separately supplied unhinted PNGs.",
+    "This checks supplied example compositions, not held-out design quality.",
+    "No native Windows or physical mobile-device verification."
+  ],
+  "staged_exact_assets": {
+    "editorial": {
+      "canvas_px": [
+        1080,
+        866
+      ],
+      "roles": [
+        {
+          "role": "eyebrow",
+          "exact_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+          "sha256": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425",
+          "face_index": 0,
+          "asset_url": "assets/6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425.ttf"
+        },
+        {
+          "role": "title",
+          "exact_id": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2:0",
+          "sha256": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2",
+          "face_index": 0,
+          "asset_url": "assets/1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2.ttf"
+        },
+        {
+          "role": "dek",
+          "exact_id": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2:0",
+          "sha256": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2",
+          "face_index": 0,
+          "asset_url": "assets/1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2.ttf"
+        },
+        {
+          "role": "body",
+          "exact_id": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2:0",
+          "sha256": "1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2",
+          "face_index": 0,
+          "asset_url": "assets/1ee27b599897b0e4ef38ea8d5cc2c25f180a25ad50f11519a0d54d3a932785f2.ttf"
+        },
+        {
+          "role": "caption",
+          "exact_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+          "sha256": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425",
+          "face_index": 0,
+          "asset_url": "assets/6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425.ttf"
+        },
+        {
+          "role": "heading",
+          "exact_id": "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8:0",
+          "sha256": "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8",
+          "face_index": 0,
+          "asset_url": "assets/ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8.ttf"
+        }
+      ]
+    },
+    "interface": {
+      "canvas_px": [
+        1200,
+        715
+      ],
+      "roles": [
+        {
+          "role": "eyebrow",
+          "exact_id": "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8:0",
+          "sha256": "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8",
+          "face_index": 0,
+          "asset_url": "assets/ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8.ttf"
+        },
+        {
+          "role": "title",
+          "exact_id": "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8:0",
+          "sha256": "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8",
+          "face_index": 0,
+          "asset_url": "assets/ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8.ttf"
+        },
+        {
+          "role": "body",
+          "exact_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+          "sha256": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425",
+          "face_index": 0,
+          "asset_url": "assets/6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425.ttf"
+        },
+        {
+          "role": "caption",
+          "exact_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+          "sha256": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425",
+          "face_index": 0,
+          "asset_url": "assets/6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425.ttf"
+        },
+        {
+          "role": "metric",
+          "exact_id": "8ff67fc82f0e3d02d2c89de7b4376628000127e31392cbee3430de1ec6e0cbc7:0",
+          "sha256": "8ff67fc82f0e3d02d2c89de7b4376628000127e31392cbee3430de1ec6e0cbc7",
+          "face_index": 0,
+          "asset_url": "assets/8ff67fc82f0e3d02d2c89de7b4376628000127e31392cbee3430de1ec6e0cbc7.woff2"
+        },
+        {
+          "role": "heading",
+          "exact_id": "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8:0",
+          "sha256": "ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8",
+          "face_index": 0,
+          "asset_url": "assets/ea62b713fa71b1c8da0fde75f92c65a18209d0f2a09c05146eab7d7c631ff3c8.ttf"
+        }
+      ]
+    },
+    "poster": {
+      "canvas_px": [
+        1000,
+        1100
+      ],
+      "roles": [
+        {
+          "role": "eyebrow",
+          "exact_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+          "sha256": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425",
+          "face_index": 0,
+          "asset_url": "assets/6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425.ttf"
+        },
+        {
+          "role": "title",
+          "exact_id": "5d4ba5e8d894601672d04f1663c66c306e581b12eb60163314d764a2306d1110:0",
+          "sha256": "5d4ba5e8d894601672d04f1663c66c306e581b12eb60163314d764a2306d1110",
+          "face_index": 0,
+          "asset_url": "assets/5d4ba5e8d894601672d04f1663c66c306e581b12eb60163314d764a2306d1110.ttf"
+        },
+        {
+          "role": "dek",
+          "exact_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+          "sha256": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425",
+          "face_index": 0,
+          "asset_url": "assets/6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425.ttf"
+        },
+        {
+          "role": "body",
+          "exact_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+          "sha256": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425",
+          "face_index": 0,
+          "asset_url": "assets/6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425.ttf"
+        },
+        {
+          "role": "caption",
+          "exact_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+          "sha256": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425",
+          "face_index": 0,
+          "asset_url": "assets/6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425.ttf"
+        }
+      ]
+    }
+  },
+  "verified_summary": {
+    "examples": 3,
+    "browser_views": 6,
+    "exact_role_font_checks": 34,
+    "all_views_no_page_horizontal_overflow": true,
+    "all_font_gates_passed": true,
+    "keyboard_scroll_passed": true,
+    "png_role_sizes_preserved": true,
+    "public_font_binaries": 0
+  },
+  "screenshots": {
+    "editorial-desktop.png": {
+      "sha256": "ce1cf4e3b1e8ac551c4acfa02da106930babdf911f69b1b0e9b494d5f5000d16",
+      "bytes": 106641
+    },
+    "editorial-mobile-before.png": {
+      "sha256": "41b7adc4a822db4167e4040d4bf80f660890d4ea8352cf10c9598afd794260dc",
+      "bytes": 47402
+    },
+    "editorial-mobile.png": {
+      "sha256": "3d4807ba136b30e1d5cb1247ed67ade1c77b83f71ff6ae88992afabea692d5d9",
+      "bytes": 93748
+    },
+    "interface-desktop.png": {
+      "sha256": "5ec64e55c910113c19bba13f5c146f1a184c714a76942984581c803cec577468",
+      "bytes": 71626
+    },
+    "interface-mobile.png": {
+      "sha256": "12ea62ddda56731850dabd7c26e429c81523a4ec5a22ae270dff502e3f1be117",
+      "bytes": 53189
+    },
+    "poster-desktop.png": {
+      "sha256": "3b476d8a64750686941b1466c8ab444552a915f13f9a7080dd0d935c1a17229f",
+      "bytes": 70849
+    },
+    "poster-mobile.png": {
+      "sha256": "a6ec3cbb1225342e81bdbe0779600fa4b90d9d6b4c2ce3c00a335f5e40251d9b",
+      "bytes": 44973
+    }
+  },
+  "source_files": {
+    "type_evidence/composition.py": "443f7a2ccd6869f52c2aed4dcb278f0b86608b1d74e6ca424e3cf0b0ccb69e2a",
+    "tests/test_composition.py": "8caa0cace5d8082d2102b870c6d8f6e1b3ec47156ccb2e3eca56a27486b45ae3"
+  }
+}

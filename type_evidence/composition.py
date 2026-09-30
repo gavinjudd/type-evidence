@@ -386,7 +386,9 @@ def _implementation(spec, assets):
            f".te-composition {{ margin: 0 auto; width: {spec['width']}px; max-width: 100%; padding: {spec['padding']}px; background: {spec['background']}; min-height: {spec['min_height']}px; }}",
            ".te-text { margin: 0; white-space: pre-wrap; overflow-wrap: normal; font-synthesis: none; }",
            ".te-columns { display: grid; grid-template-columns: var(--te-column-tracks); }",
-           ".te-table-scroll { max-width: 100%; overflow-x: auto; }"]
+           ".te-table-scroll { max-width: 100%; overflow-x: auto; }",
+           ".te-scroll-hint { display: none; margin: 0 0 8px; font: 12px/1.4 system-ui,sans-serif; color: inherit; }",
+           ".te-table-group[data-overflow] > .te-scroll-hint { display: block; }"]
     recipes, unsupported = {}, []
     for name, role in spec["roles"].items():
         asset = assets[name]
@@ -468,10 +470,11 @@ def _implementation(spec, assets):
                     role = block["header_role"] if row_index == 0 else block["role"]
                     language = escape(spec["roles"][role]["language"])
                     direction = spec["roles"][role]["direction"] or "auto"
-                    cells = "".join(f'<td class="te-text te-role-{role}" lang="{language}" dir="{direction}" style="padding:{block["row_padding"]}px;text-align:{column["align"]};vertical-align:top;border-bottom:1px solid {block["rule_color"]}">{escape(value)}</td>' for value, column in zip(row, block["columns"]))
+                    tag, scope = ("th", ' scope="col"') if row_index == 0 else ("td", "")
+                    cells = "".join(f'<{tag}{scope} class="te-text te-role-{role}" lang="{language}" dir="{direction}" style="padding:{block["row_padding"]}px;text-align:{column["align"]};vertical-align:top;border-bottom:1px solid {block["rule_color"]}">{escape(value)}</{tag}>' for value, column in zip(row, block["columns"]))
                     rows.append(f"<tr>{cells}</tr>")
                 minimum = max(480, len(block["columns"])*140)
-                output.append(f'<div class="te-table-scroll" tabindex="0" role="region" aria-label="Scrollable data table" style="{style}"><table style="width:100%;min-width:{minimum}px;table-layout:fixed;border-collapse:collapse"><colgroup>{cols}</colgroup>{"".join(rows)}</table></div>')
+                output.append(f'<div class="te-table-group" style="{style};color:{spec["roles"][block["role"]]["color"]}"><p class="te-scroll-hint">Scroll horizontally to see every column.</p><div class="te-table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table style="width:100%;min-width:{minimum}px;table-layout:fixed;border-collapse:collapse"><colgroup>{cols}</colgroup>{"".join(rows)}</table></div></div>')
         return "\n".join(output)
 
     warning = "Stage the exact authorized assets at the CSS URLs and serve this directory over localhost HTTP. The composition stays hidden until every font has been hash-verified and loaded."
@@ -502,6 +505,11 @@ def _implementation(spec, assets):
     }
     await document.fonts.ready;
     document.querySelector(".te-composition").hidden = false;
+    const updateOverflowHints = () => document.querySelectorAll(".te-table-scroll").forEach(region => {
+      region.parentElement.toggleAttribute("data-overflow", region.scrollWidth > region.clientWidth + 1);
+    });
+    updateOverflowHints();
+    window.addEventListener("resize", updateOverflowHints);
     status.textContent = "Exact font assets verified and loaded. Inspect this browser's actual layout and rasterization before release.";
   } catch (error) {
     status.textContent = "Composition hidden to prevent font substitution. " + error.message + " Stage the authorized exact files and serve this folder over localhost HTTP. The verified PNG preview remains available in index.html.";
@@ -513,7 +521,8 @@ def _implementation(spec, assets):
             "browser_asset_gate": "Composition hidden until SHA-256 verification and FontFace loading succeed for every role; no fallback preview on failure.",
             "responsive_layout": {"canvas": "PNG uses the exact requested width; the browser recipe adapts to its viewport.",
                                   "breakpoint_px": 640, "mobile_padding_px": mobile_padding,
-                                  "columns": "stack into one column at or below the breakpoint", "tables": "keyboard-focusable horizontal scroll region",
+                                  "columns": "stack into one column at or below the breakpoint", "tables": "keyboard-focusable horizontal scroll region with a visible hint only when overflowing",
+                                  "interface_labels": "Status and scroll hints use a separate system UI font; project content uses verified role faces.",
                                   "mobile_role_font_sizes": mobile_sizes, "font_ids_axes_features": "unchanged"},
             "instructions": ["Resolve each exact_id immediately before staging authorized font assets at its asset_url. Check the expected SHA-256. Fonts are not copied by compose.",
                              "Use the scoped CSS family aliases, explicit axes/features and font-synthesis:none; do not substitute a similarly named family.",

@@ -1,0 +1,700 @@
+{
+  "schema": 1,
+  "device": "cpu",
+  "dtype": "float32",
+  "checkpoint_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+  "official_repository": "https://github.com/yukistavailable/FontCLIP",
+  "official_commit": "3d4c6af01f668800d8e4f9f4f753d29c74dad252",
+  "torch_version": "2.8.0",
+  "official_state_strict_load": "<All keys matched successfully>",
+  "network_disabled": true,
+  "official_init_model_imported": false,
+  "architecture": "ExCLIP(512,224,12,768,32,77,49408,512,8,12), text LoRA r256 alpha1024 q/k/v/out",
+  "text": [
+    {
+      "prompt": "serif font",
+      "max_absolute_error": 5.125999450683594e-06,
+      "mean_absolute_error": 6.998778872002731e-07,
+      "cosine_similarity": 1.0
+    },
+    {
+      "prompt": "sans serif font",
+      "max_absolute_error": 3.606081008911133e-06,
+      "mean_absolute_error": 9.491606647316075e-07,
+      "cosine_similarity": 1.0
+    },
+    {
+      "prompt": "warm humanist font",
+      "max_absolute_error": 3.337860107421875e-06,
+      "mean_absolute_error": 7.167730018409202e-07,
+      "cosine_similarity": 1.0
+    },
+    {
+      "prompt": "restrained editorial serif font",
+      "max_absolute_error": 5.900859832763672e-06,
+      "mean_absolute_error": 1.336258719675243e-06,
+      "cosine_similarity": 1.0000001192092896
+    },
+    {
+      "prompt": "geometric futuristic font",
+      "max_absolute_error": 8.58306884765625e-06,
+      "mean_absolute_error": 8.333529422088759e-07,
+      "cosine_similarity": 1.0
+    },
+    {
+      "prompt": "playful rounded font",
+      "max_absolute_error": 3.264285624027252e-06,
+      "mean_absolute_error": 6.98981921232189e-07,
+      "cosine_similarity": 1.0000001192092896
+    },
+    {
+      "prompt": "high contrast elegant font",
+      "max_absolute_error": 5.245208740234375e-06,
+      "mean_absolute_error": 1.030975226967712e-06,
+      "cosine_similarity": 0.9999998807907104
+    },
+    {
+      "prompt": "monospaced technical font",
+      "max_absolute_error": 4.589557647705078e-06,
+      "mean_absolute_error": 1.043328325067705e-06,
+      "cosine_similarity": 1.0000001192092896
+    },
+    {
+      "prompt": "rough handwritten font",
+      "max_absolute_error": 2.7418136596679688e-06,
+      "mean_absolute_error": 5.993433660478331e-07,
+      "cosine_similarity": 0.9999999403953552
+    },
+    {
+      "prompt": "not playful font",
+      "max_absolute_error": 4.291534423828125e-06,
+      "mean_absolute_error": 8.751142104301834e-07,
+      "cosine_similarity": 1.0000001192092896
+    },
+    {
+      "prompt": "Γραμματοσειρά font",
+      "max_absolute_error": 3.516674041748047e-06,
+      "mean_absolute_error": 6.467976163548883e-07,
+      "cosine_similarity": 1.0
+    },
+    {
+      "prompt": "東京 font",
+      "max_absolute_error": 7.68899917602539e-06,
+      "mean_absolute_error": 9.78829348241561e-07,
+      "cosine_similarity": 0.9999998807907104
+    }
+  ],
+  "images": [
+    {
+      "font_id": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d:0",
+      "family": "Noto Sans",
+      "render_evidence": {
+        "script": "Latin",
+        "text": "The quick\nbrown fox\njumps over\nthe lazy dog",
+        "axes": {
+          "wght": 400.0,
+          "wdth": 100.0
+        },
+        "mask_sha256": "cd7a5744ef74f7b2722bfd918c9744d63707a343a69006029fa86546041dc0b2",
+        "font_sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d"
+      },
+      "preprocess_max_error": 0.0,
+      "max_absolute_error": 1.0728836059570312e-06,
+      "mean_absolute_error": 9.555236601954675e-08,
+      "cosine_similarity": 1.000000238418579
+    },
+    {
+      "font_id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+      "family": "Fraunces",
+      "render_evidence": {
+        "script": "Latin",
+        "text": "The quick\nbrown fox\njumps over\nthe lazy dog",
+        "axes": {
+          "opsz": 9.0,
+          "wght": 900.0,
+          "SOFT": 0.0,
+          "WONK": 1.0
+        },
+        "mask_sha256": "001463de087e4c348cf26f91e15d1f8d2eeaf1b03072b299f2370408ed9b84ed",
+        "font_sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+      },
+      "preprocess_max_error": 0.0,
+      "max_absolute_error": 1.5497207641601562e-06,
+      "mean_absolute_error": 1.464388788008364e-07,
+      "cosine_similarity": 1.0
+    },
+    {
+      "font_id": "653221ca467f4732fe6856ac493f6c409e9f56a7674abe36b2364acc89796f7c:0",
+      "family": "Recursive",
+      "render_evidence": {
+        "script": "Latin",
+        "text": "The quick\nbrown fox\njumps over\nthe lazy dog",
+        "axes": {
+          "MONO": 0.0,
+          "CASL": 0.0,
+          "wght": 300.0,
+          "slnt": 0.0,
+          "CRSV": 0.5
+        },
+        "mask_sha256": "840c0497cf99a8a457be38a789e1152fe8b1c74b50e31f69cfcf7c61dec7d286",
+        "font_sha256": "653221ca467f4732fe6856ac493f6c409e9f56a7674abe36b2364acc89796f7c"
+      },
+      "preprocess_max_error": 0.0,
+      "max_absolute_error": 1.9073486328125e-06,
+      "mean_absolute_error": 1.5489922589040361e-07,
+      "cosine_similarity": 1.0
+    }
+  ],
+  "per_layer_algebra": [
+    {
+      "layer": 0,
+      "q": {
+        "max_absolute_error": 5.245208740234375e-06,
+        "mean_absolute_error": 2.763366353519814e-07,
+        "cosine_similarity": 0.9999998807907104
+      },
+      "k": {
+        "max_absolute_error": 1.9073486328125e-06,
+        "mean_absolute_error": 2.0207846773701021e-07,
+        "cosine_similarity": 1.000000238418579
+      },
+      "v": {
+        "max_absolute_error": 1.430511474609375e-06,
+        "mean_absolute_error": 1.1350221740258348e-07,
+        "cosine_similarity": 0.9999997019767761
+      },
+      "out": {
+        "max_absolute_error": 1.5497207641601562e-06,
+        "mean_absolute_error": 1.362601977916711e-07,
+        "cosine_similarity": 1.0000001192092896
+      }
+    },
+    {
+      "layer": 1,
+      "q": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 1.000000238418579
+      },
+      "k": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 1.000000238418579
+      },
+      "v": {
+        "max_absolute_error": 1.1920928955078125e-06,
+        "mean_absolute_error": 1.0844446762803273e-07,
+        "cosine_similarity": 0.9999996423721313
+      },
+      "out": {
+        "max_absolute_error": 1.2218952178955078e-06,
+        "mean_absolute_error": 1.3190751246838772e-07,
+        "cosine_similarity": 1.0000003576278687
+      }
+    },
+    {
+      "layer": 2,
+      "q": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 1.0000001192092896
+      },
+      "k": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 1.0
+      },
+      "v": {
+        "max_absolute_error": 1.3709068298339844e-06,
+        "mean_absolute_error": 1.1122438081656583e-07,
+        "cosine_similarity": 0.9999999403953552
+      },
+      "out": {
+        "max_absolute_error": 1.2516975402832031e-06,
+        "mean_absolute_error": 1.4087301281051623e-07,
+        "cosine_similarity": 0.9999998807907104
+      }
+    },
+    {
+      "layer": 3,
+      "q": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 0.9999997019767761
+      },
+      "k": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 0.9999995231628418
+      },
+      "v": {
+        "max_absolute_error": 1.1324882507324219e-06,
+        "mean_absolute_error": 1.1798938004403681e-07,
+        "cosine_similarity": 0.9999998211860657
+      },
+      "out": {
+        "max_absolute_error": 1.3113021850585938e-06,
+        "mean_absolute_error": 1.4695716288315452e-07,
+        "cosine_similarity": 0.9999998807907104
+      }
+    },
+    {
+      "layer": 4,
+      "q": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 0.9999998807907104
+      },
+      "k": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 1.0000005960464478
+      },
+      "v": {
+        "max_absolute_error": 1.0728836059570312e-06,
+        "mean_absolute_error": 1.1634831054152528e-07,
+        "cosine_similarity": 1.0
+      },
+      "out": {
+        "max_absolute_error": 1.430511474609375e-06,
+        "mean_absolute_error": 1.38306219810147e-07,
+        "cosine_similarity": 0.9999997019767761
+      }
+    },
+    {
+      "layer": 5,
+      "q": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 1.0000001192092896
+      },
+      "k": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 0.9999998807907104
+      },
+      "v": {
+        "max_absolute_error": 1.3113021850585938e-06,
+        "mean_absolute_error": 1.2256110437647294e-07,
+        "cosine_similarity": 0.9999998211860657
+      },
+      "out": {
+        "max_absolute_error": 1.2814998626708984e-06,
+        "mean_absolute_error": 1.5462384794773243e-07,
+        "cosine_similarity": 1.0000005960464478
+      }
+    },
+    {
+      "layer": 6,
+      "q": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 0.9999996423721313
+      },
+      "k": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 1.0
+      },
+      "v": {
+        "max_absolute_error": 1.0132789611816406e-06,
+        "mean_absolute_error": 1.1777054709227741e-07,
+        "cosine_similarity": 1.0
+      },
+      "out": {
+        "max_absolute_error": 1.0728836059570312e-06,
+        "mean_absolute_error": 1.457789124970077e-07,
+        "cosine_similarity": 1.000000238418579
+      }
+    },
+    {
+      "layer": 7,
+      "q": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 1.0000001192092896
+      },
+      "k": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 0.9999996423721313
+      },
+      "v": {
+        "max_absolute_error": 1.5497207641601562e-06,
+        "mean_absolute_error": 1.223062326971558e-07,
+        "cosine_similarity": 0.9999998807907104
+      },
+      "out": {
+        "max_absolute_error": 1.1622905731201172e-06,
+        "mean_absolute_error": 1.5525579044606275e-07,
+        "cosine_similarity": 1.0000003576278687
+      }
+    },
+    {
+      "layer": 8,
+      "q": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 1.000000238418579
+      },
+      "k": {
+        "max_absolute_error": 5.960464477539062e-07,
+        "mean_absolute_error": 6.509684169486718e-08,
+        "cosine_similarity": 0.9999998807907104
+      },
+      "v": {
+        "max_absolute_error": 2.0265579223632812e-06,
+        "mean_absolute_error": 1.268260092501805e-07,
+        "cosine_similarity": 0.9999996423721313
+      },
+      "out": {
+        "max_absolute_error": 1.5497207641601562e-06,
+        "mean_absolute_error": 1.6765876864610618e-07,
+        "cosine_similarity": 1.000000238418579
+      }
+    },
+    {
+      "layer": 9,
+      "q": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 1.0000001192092896
+      },
+      "k": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 1.0
+      },
+      "v": {
+        "max_absolute_error": 1.6689300537109375e-06,
+        "mean_absolute_error": 1.366665571822523e-07,
+        "cosine_similarity": 1.0000001192092896
+      },
+      "out": {
+        "max_absolute_error": 2.1457672119140625e-06,
+        "mean_absolute_error": 1.753454625941231e-07,
+        "cosine_similarity": 0.9999998807907104
+      }
+    },
+    {
+      "layer": 10,
+      "q": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 1.000000238418579
+      },
+      "k": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 0.9999998807907104
+      },
+      "v": {
+        "max_absolute_error": 1.3709068298339844e-06,
+        "mean_absolute_error": 1.552151758232867e-07,
+        "cosine_similarity": 0.9999997615814209
+      },
+      "out": {
+        "max_absolute_error": 1.7881393432617188e-06,
+        "mean_absolute_error": 1.984688964284942e-07,
+        "cosine_similarity": 1.0
+      }
+    },
+    {
+      "layer": 11,
+      "q": {
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "cosine_similarity": 1.0
+      },
+      "k": {
+        "max_absolute_error": 6.556510925292969e-07,
+        "mean_absolute_error": 5.906880673478554e-08,
+        "cosine_similarity": 0.9999998211860657
+      },
+      "v": {
+        "max_absolute_error": 2.6226043701171875e-06,
+        "mean_absolute_error": 1.9183671895461885e-07,
+        "cosine_similarity": 0.9999998807907104
+      },
+      "out": {
+        "max_absolute_error": 2.205371856689453e-06,
+        "mean_absolute_error": 2.432622636661108e-07,
+        "cosine_similarity": 1.000000238418579
+      }
+    }
+  ],
+  "scope": "CPU float32 embedding and projection parity against official ExCLIP; prompts share the same tokenizer tensors. This does not validate learned design judgments or other hardware.",
+  "passed": true,
+  "canonical_render_reuse": {
+    "groups_checked": 12,
+    "cross_container_checks": 12,
+    "all_masks_equal": true,
+    "groups": [
+      {
+        "canonical": "2c365357db3facc51534d410c1af34d2d80da083c4102ce841fd67f091f89566",
+        "faces": [
+          {
+            "id": "00032e7635f913ee9931fd174b4f87452ddcc3c311ddb252edf9f3f6a6cc9e29:0",
+            "format": "woff2",
+            "font_sha256": "00032e7635f913ee9931fd174b4f87452ddcc3c311ddb252edf9f3f6a6cc9e29",
+            "mask_sha256": "aacf16f9e3bae690aa417bf779149fa88e93d9bbb15d699e1938891370bbc7a9",
+            "sample_script": "Latin",
+            "axes": {}
+          },
+          {
+            "id": "0139bf33368aadb3c13f5b3299f65062d5ad3df877fd0dddf0ec9921859ef656:0",
+            "format": "otf",
+            "font_sha256": "0139bf33368aadb3c13f5b3299f65062d5ad3df877fd0dddf0ec9921859ef656",
+            "mask_sha256": "aacf16f9e3bae690aa417bf779149fa88e93d9bbb15d699e1938891370bbc7a9",
+            "sample_script": "Latin",
+            "axes": {}
+          }
+        ],
+        "equal_mask": true
+      },
+      {
+        "canonical": "5ee3601ae92a533e9e0ff2837b7bfe2030b157e90c077428a3b141a6f3b03cf6",
+        "faces": [
+          {
+            "id": "091c8328e1d8aeed95c780ba8867ca210e7a9cc71eae96e649c28242d543c252:0",
+            "format": "woff",
+            "font_sha256": "091c8328e1d8aeed95c780ba8867ca210e7a9cc71eae96e649c28242d543c252",
+            "mask_sha256": "c273095728083c6ac5cae093bc078f0d4be5e8fd63e3724d72d10daf2ea55d39",
+            "sample_script": "Latin",
+            "axes": {}
+          },
+          {
+            "id": "1b6a37983efe29c888077b55e11d7209b5b665e72ec014cfb1a0d3bb8207c497:0",
+            "format": "otf",
+            "font_sha256": "1b6a37983efe29c888077b55e11d7209b5b665e72ec014cfb1a0d3bb8207c497",
+            "mask_sha256": "c273095728083c6ac5cae093bc078f0d4be5e8fd63e3724d72d10daf2ea55d39",
+            "sample_script": "Latin",
+            "axes": {}
+          }
+        ],
+        "equal_mask": true
+      },
+      {
+        "canonical": "6d8e45d21a45e63017e4e16e48d8e13be9b2a21b7f4987126d4e8765d5f737ef",
+        "faces": [
+          {
+            "id": "916812858650d2b844683c4fa6e73f6dc4471989f400e6a958e99a9be42ad44d:0",
+            "format": "otf",
+            "font_sha256": "916812858650d2b844683c4fa6e73f6dc4471989f400e6a958e99a9be42ad44d",
+            "mask_sha256": "de8626c48e2b0bd099e6477a64275fd24d77527c872b93b7b30706a19a35279b",
+            "sample_script": "Latin",
+            "axes": {}
+          },
+          {
+            "id": "b45b2d1516dfbe4ddc2b2caf8ed5aa46a2257d7f3e9b52777cb8cf04b11a3051:0",
+            "format": "woff",
+            "font_sha256": "b45b2d1516dfbe4ddc2b2caf8ed5aa46a2257d7f3e9b52777cb8cf04b11a3051",
+            "mask_sha256": "de8626c48e2b0bd099e6477a64275fd24d77527c872b93b7b30706a19a35279b",
+            "sample_script": "Latin",
+            "axes": {}
+          }
+        ],
+        "equal_mask": true
+      },
+      {
+        "canonical": "f1da2eb07648d231176c941f6894c67001736620c30a11158828a5800f962691",
+        "faces": [
+          {
+            "id": "68d54b36ad4d7e8c8640c7ba43be00645161dd945f8b9df4a92780a7bc3267d0:0",
+            "format": "otf",
+            "font_sha256": "68d54b36ad4d7e8c8640c7ba43be00645161dd945f8b9df4a92780a7bc3267d0",
+            "mask_sha256": "62065d3460c1585e6909547130fe3256a023d5ca94417d158df48dc37c7ba14f",
+            "sample_script": "Latin",
+            "axes": {}
+          },
+          {
+            "id": "955390dbfcf2c776e53ddd978a7e57c5997b70df5de46aa123a2aa69ec2c4463:0",
+            "format": "woff",
+            "font_sha256": "955390dbfcf2c776e53ddd978a7e57c5997b70df5de46aa123a2aa69ec2c4463",
+            "mask_sha256": "62065d3460c1585e6909547130fe3256a023d5ca94417d158df48dc37c7ba14f",
+            "sample_script": "Latin",
+            "axes": {}
+          }
+        ],
+        "equal_mask": true
+      },
+      {
+        "canonical": "00dd23e3989e5005668344b863ff88d04348e026a82b7506e389ab192f1d2bf7",
+        "faces": [
+          {
+            "id": "9cc63948ef2be0a9575add0ea036eb2cc6c6185344786be8881d7ceae5be4b1f:0",
+            "format": "ttf",
+            "font_sha256": "9cc63948ef2be0a9575add0ea036eb2cc6c6185344786be8881d7ceae5be4b1f",
+            "mask_sha256": "a2e3e0ad3328fe309218545c6deb3df5f1dd7fd6e069f44a4ac10afe07df4b7f",
+            "sample_script": "Latin",
+            "axes": {}
+          },
+          {
+            "id": "daaf5604eeb314fb51644bc54119a5dbbbc171aab61b4c09fb6ef445e87ecdc4:0",
+            "format": "woff",
+            "font_sha256": "daaf5604eeb314fb51644bc54119a5dbbbc171aab61b4c09fb6ef445e87ecdc4",
+            "mask_sha256": "a2e3e0ad3328fe309218545c6deb3df5f1dd7fd6e069f44a4ac10afe07df4b7f",
+            "sample_script": "Latin",
+            "axes": {}
+          }
+        ],
+        "equal_mask": true
+      },
+      {
+        "canonical": "00e88ef2ca66c06152a266686e6503e30b7796c9e9b6a3c23fd8aac5db6d76ea",
+        "faces": [
+          {
+            "id": "74b6cf4735fdac811ad104c2b38fef9b2474506a12f2ad54a37b7e396f515ffc:0",
+            "format": "ttf",
+            "font_sha256": "74b6cf4735fdac811ad104c2b38fef9b2474506a12f2ad54a37b7e396f515ffc",
+            "mask_sha256": "ad5a49ffee699f61c0f09deac88b1ef2a86b15f846341dcb836de81396b3a4f4",
+            "sample_script": "Latin",
+            "axes": {}
+          },
+          {
+            "id": "dd9a21d9fdbde747d2603fb2cad24b5d10cd2c2e88897befbf371c247b10e5f0:0",
+            "format": "woff",
+            "font_sha256": "dd9a21d9fdbde747d2603fb2cad24b5d10cd2c2e88897befbf371c247b10e5f0",
+            "mask_sha256": "ad5a49ffee699f61c0f09deac88b1ef2a86b15f846341dcb836de81396b3a4f4",
+            "sample_script": "Latin",
+            "axes": {}
+          }
+        ],
+        "equal_mask": true
+      },
+      {
+        "canonical": "00ea2645333f856787cc916dd1f5a5d0a32d1c295254f0fe2e4337234df1905d",
+        "faces": [
+          {
+            "id": "1a61e0261788b9d77d8d5820585d62ed0bea9b86b352a6ce7bc311bd3d8dc365:0",
+            "format": "ttf",
+            "font_sha256": "1a61e0261788b9d77d8d5820585d62ed0bea9b86b352a6ce7bc311bd3d8dc365",
+            "mask_sha256": "4428daeaee8d1c3a268cf60690f5c390d90bd61d451b011ec92fdff007dc7af9",
+            "sample_script": "Latin",
+            "axes": {}
+          },
+          {
+            "id": "f37cd6c60b8a1545de2c008dde0bf1174793019f5e716faf186b219b4c973552:0",
+            "format": "woff",
+            "font_sha256": "f37cd6c60b8a1545de2c008dde0bf1174793019f5e716faf186b219b4c973552",
+            "mask_sha256": "4428daeaee8d1c3a268cf60690f5c390d90bd61d451b011ec92fdff007dc7af9",
+            "sample_script": "Latin",
+            "axes": {}
+          }
+        ],
+        "equal_mask": true
+      },
+      {
+        "canonical": "010ca6930237e1e1309795d7cfcdf9a04ee63c0429347a307c2ce49ad14b98d2",
+        "faces": [
+          {
+            "id": "7648aaa4d0f651b6908b7c01f617cf099b3f8f9fdfd0030927314e19e778f7af:0",
+            "format": "woff",
+            "font_sha256": "7648aaa4d0f651b6908b7c01f617cf099b3f8f9fdfd0030927314e19e778f7af",
+            "mask_sha256": "9a6bc692f157c3e8d0696bcace24b44953e2cfba7f36c22b5e53eafa6f6af585",
+            "sample_script": "Latin",
+            "axes": {}
+          },
+          {
+            "id": "8580fee3eb5fb509be1792500104da0f23dc4713b60f2b4567fa59ae02a2fece:0",
+            "format": "ttf",
+            "font_sha256": "8580fee3eb5fb509be1792500104da0f23dc4713b60f2b4567fa59ae02a2fece",
+            "mask_sha256": "9a6bc692f157c3e8d0696bcace24b44953e2cfba7f36c22b5e53eafa6f6af585",
+            "sample_script": "Latin",
+            "axes": {}
+          }
+        ],
+        "equal_mask": true
+      },
+      {
+        "canonical": "01605993dd448f5f516240e424a6f38f04e1c37f02d48947a78c9f86a92bb2a3",
+        "faces": [
+          {
+            "id": "3d1020e46313bfa38e80891b861d55d738d9f06158b209266a6e61cec3284ffe:0",
+            "format": "woff",
+            "font_sha256": "3d1020e46313bfa38e80891b861d55d738d9f06158b209266a6e61cec3284ffe",
+            "mask_sha256": "e4ff6d2fdc3b89d3e02a639548b0fa7a1723f5041a864bc4ed55128064431f6e",
+            "sample_script": "Latin",
+            "axes": {}
+          },
+          {
+            "id": "f031c036a21d6b2c0ea119913ce3c7a0e2063aed7e01a36ec3b14a9050c633c2:0",
+            "format": "ttf",
+            "font_sha256": "f031c036a21d6b2c0ea119913ce3c7a0e2063aed7e01a36ec3b14a9050c633c2",
+            "mask_sha256": "e4ff6d2fdc3b89d3e02a639548b0fa7a1723f5041a864bc4ed55128064431f6e",
+            "sample_script": "Latin",
+            "axes": {}
+          }
+        ],
+        "equal_mask": true
+      },
+      {
+        "canonical": "016a793aa455b9733f21f3869be8854a462804a7920e9af65e75deb98859bdf9",
+        "faces": [
+          {
+            "id": "89a5afcc874280b3a944796c148c0fccf6e90cb65a15be40cd7a58e876a3e03f:0",
+            "format": "woff2",
+            "font_sha256": "89a5afcc874280b3a944796c148c0fccf6e90cb65a15be40cd7a58e876a3e03f",
+            "mask_sha256": "525d1b75fb8aba7289c352682facb2f84cae82168395713851cfebb67acffffd",
+            "sample_script": "Latin",
+            "axes": {}
+          },
+          {
+            "id": "a85663bdbc50562a8358b8155543e6469cecf08fd27025cb46c3353c01785200:0",
+            "format": "woff",
+            "font_sha256": "a85663bdbc50562a8358b8155543e6469cecf08fd27025cb46c3353c01785200",
+            "mask_sha256": "525d1b75fb8aba7289c352682facb2f84cae82168395713851cfebb67acffffd",
+            "sample_script": "Latin",
+            "axes": {}
+          }
+        ],
+        "equal_mask": true
+      },
+      {
+        "canonical": "01932dbbfc6e6c8f5ecac0580b7a2a8fa5d5da5524442a72c6affee97adbfaf3",
+        "faces": [
+          {
+            "id": "167256ff996071fb1e90744c10ef223a7ae868d3de53436f0c5e6b36154292e0:0",
+            "format": "woff",
+            "font_sha256": "167256ff996071fb1e90744c10ef223a7ae868d3de53436f0c5e6b36154292e0",
+            "mask_sha256": "b3654760ddf9c06175c1d1d10372f1ef6d22749a31855f33720a564d010e42ad",
+            "sample_script": "Latin",
+            "axes": {}
+          },
+          {
+            "id": "f0c98b1b938a0baa7dbe0280664afc0080390c45bee16dc8f9da12edf685462c:0",
+            "format": "ttf",
+            "font_sha256": "f0c98b1b938a0baa7dbe0280664afc0080390c45bee16dc8f9da12edf685462c",
+            "mask_sha256": "b3654760ddf9c06175c1d1d10372f1ef6d22749a31855f33720a564d010e42ad",
+            "sample_script": "Latin",
+            "axes": {}
+          }
+        ],
+        "equal_mask": true
+      },
+      {
+        "canonical": "01af46dd72a4251e1cdc8a1bc4155d2dadb26db95752a3abb77d71280e82574d",
+        "faces": [
+          {
+            "id": "097f25836de311101ea28136c1a3600f9828adf2b6235bc8c6eef0d5f9d25282:0",
+            "format": "ttf",
+            "font_sha256": "097f25836de311101ea28136c1a3600f9828adf2b6235bc8c6eef0d5f9d25282",
+            "mask_sha256": "1834c8d124fe5cc746193b2d2aef5f23dfc5fae67f1ef60b5cd6cfe0deef34ea",
+            "sample_script": "Latin",
+            "axes": {}
+          },
+          {
+            "id": "b80addde2945d16841c8c65ba02168e37a76985af12040ad3d0f90b38a45a5fd:0",
+            "format": "woff",
+            "font_sha256": "b80addde2945d16841c8c65ba02168e37a76985af12040ad3d0f90b38a45a5fd",
+            "mask_sha256": "1834c8d124fe5cc746193b2d2aef5f23dfc5fae67f1ef60b5cd6cfe0deef34ea",
+            "sample_script": "Latin",
+            "axes": {}
+          }
+        ],
+        "equal_mask": true
+      }
+    ],
+    "scope": "Independent exact-byte re-rendering of 12 canonical-equivalent pairs; sampled validation rather than exhaustive equivalence proof."
+  }
+}

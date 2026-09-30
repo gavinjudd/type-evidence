@@ -1,0 +1,8 @@
+{
+  "indexed_faces": 27520,
+  "verified_faces": 27520,
+  "unique_resolved_file_hashes": 27359,
+  "failures": [],
+  "elapsed_seconds": 10.897,
+  "scope": "One exact hash-verified source copy per indexed face, including collection face indices. Not a full-glyph rendering test."
+}

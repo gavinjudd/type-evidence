@@ -1,0 +1,155 @@
+{
+  "width": 1000,
+  "padding": 64,
+  "gap": 28,
+  "background": "#122d37",
+  "template": "poster",
+  "title": "Night Shift — an observatory evening",
+  "medium": "screen",
+  "min_height": 1100,
+  "roles": {
+    "eyebrow": {
+      "font_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+      "size": 17,
+      "line_height": 1.4,
+      "color": "#d8e4d1",
+      "features": {},
+      "axes": {},
+      "language": "und",
+      "direction": null,
+      "align": "start"
+    },
+    "title": {
+      "font_id": "5d4ba5e8d894601672d04f1663c66c306e581b12eb60163314d764a2306d1110:0",
+      "size": 108,
+      "line_height": 1.08,
+      "color": "#e8ef7b",
+      "features": {},
+      "axes": {},
+      "language": "und",
+      "direction": null,
+      "align": "start"
+    },
+    "dek": {
+      "font_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+      "size": 31,
+      "line_height": 1.3,
+      "color": "#f2f3de",
+      "features": {},
+      "axes": {},
+      "language": "und",
+      "direction": null,
+      "align": "start"
+    },
+    "body": {
+      "font_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+      "size": 22,
+      "line_height": 1.4,
+      "color": "#f2f3de",
+      "features": {},
+      "axes": {},
+      "language": "und",
+      "direction": null,
+      "align": "start"
+    },
+    "caption": {
+      "font_id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+      "size": 15,
+      "line_height": 1.45,
+      "color": "#c4d1d0",
+      "features": {},
+      "axes": {},
+      "language": "und",
+      "direction": null,
+      "align": "start"
+    }
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "gap": 28,
+      "role": "eyebrow",
+      "text": "THE CITY OBSERVATORY   /   OPEN LATE"
+    },
+    {
+      "type": "rule",
+      "gap": 24,
+      "color": "#738f91",
+      "thickness": 1
+    },
+    {
+      "type": "spacer",
+      "gap": 0,
+      "height": 42
+    },
+    {
+      "type": "text",
+      "gap": 0,
+      "role": "title",
+      "text": "NIGHT\nSHIFT"
+    },
+    {
+      "type": "text",
+      "gap": 28,
+      "role": "dek",
+      "text": "The sky is still open."
+    },
+    {
+      "type": "text",
+      "gap": 22,
+      "role": "body",
+      "text": "Leave the bright streets behind.\nAn evening of telescopes, quiet music\nand a different view of the city."
+    },
+    {
+      "type": "spacer",
+      "gap": 0,
+      "height": 48
+    },
+    {
+      "type": "rule",
+      "gap": 0,
+      "color": "#738f91",
+      "thickness": 1
+    },
+    {
+      "type": "columns",
+      "gap": 40,
+      "columns": [
+        {
+          "width": 1,
+          "blocks": [
+            {
+              "type": "text",
+              "gap": 28,
+              "role": "body",
+              "text": "Friday 16 October\n19:00–23:00"
+            },
+            {
+              "type": "text",
+              "gap": 12,
+              "role": "caption",
+              "text": "North terrace & dome\n12 Observatory Hill"
+            }
+          ]
+        },
+        {
+          "width": 1,
+          "blocks": [
+            {
+              "type": "text",
+              "gap": 28,
+              "role": "body",
+              "text": "Come curious.\nStay for the stars."
+            },
+            {
+              "type": "text",
+              "gap": 12,
+              "role": "caption",
+              "text": "All ages welcome\nFictional event sample"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
