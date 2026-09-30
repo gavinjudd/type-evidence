@@ -1,0 +1,18 @@
+/* Bind exact assets with the evaluated implementation recipe before screenshotting. */
+* { box-sizing: border-box; }
+body { margin: 0; background: #f5f3eb; }
+main { width: min(100%, 740px); padding: 42px; margin: auto; }
+p { margin: 0 0 16px; }
+hr { border: 0; border-top: 2px solid currentColor; }
+table { width:100%; border-collapse: collapse; margin-bottom: 16px; }
+th, td { text-align:left; border-bottom:1px solid #a9b7b2; padding:9px 4px; }
+.panel { padding:14px; margin-bottom:16px; }
+.panel p:last-child { margin-bottom:0; }
+.spacer { height:42px; }
+.font-role-eyebrow { font-family: "Current Project Sans", sans-serif; font-size:16px; font-weight:700; line-height:1.4; color:#202b30; }
+.font-role-title { font-family: "Current Project Sans", sans-serif; font-size:34px; font-weight:700; line-height:1.1; color:#202b30; }
+.font-role-body { font-family: "Current Project Sans", sans-serif; font-size:20px; font-weight:400; line-height:1.4; color:#202b30; }
+.font-role-body_fr { font-family: "Current Project Sans", sans-serif; font-size:20px; font-weight:400; line-height:1.4; color:#202b30; }
+.font-role-heading { font-family: "Current Project Sans", sans-serif; font-size:21px; font-weight:700; line-height:1.4; color:#202b30; }
+.font-role-time { font-family: "Current Project Sans", sans-serif; font-size:24px; font-weight:700; line-height:1.4; color:#202b30; }
+.font-role-caption { font-family: "Current Project Sans", sans-serif; font-size:16px; font-weight:400; line-height:1.4; color:#202b30; }

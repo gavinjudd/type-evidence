@@ -1,0 +1,29 @@
+{
+  "baseline_decision": "Keep Roboto supporting information initially; title needs stronger independent-studio character.",
+  "options": [
+    {
+      "family": "Cooper Black",
+      "styles": [
+        "Regular 400"
+      ],
+      "roles": "title only paired with supplied Roboto",
+      "settings": "title 138 px then adjust 100-170; support baseline",
+      "expected_fit": "Soft heavy swelling letterforms suggest print and give OFFCUT memorable texture without simulated distress.",
+      "uncertainty": "Exact name could be absent; warmth might verge nostalgic or childish."
+    },
+    {
+      "family": "Archivo Black",
+      "styles": [
+        "Regular 400"
+      ],
+      "roles": "title only paired with supplied Roboto",
+      "settings": "title 138 px; support baseline",
+      "expected_fit": "Heavy broad compact graphic title; strong small-scale silhouette.",
+      "uncertainty": "May read as generic event branding."
+    }
+  ],
+  "origin": "Prior general font knowledge + supplied baseline only; no catalog browsing or semantic outputs read",
+  "max_families_per_option": 2,
+  "baseline_inspected_at_project_size": true,
+  "sealed_at_utc": "2026-09-30T16:16:44.490327+00:00"
+}

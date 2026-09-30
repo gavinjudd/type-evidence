@@ -1,0 +1,49 @@
+{
+  "review_type": "Supplemental post-feedback visual check",
+  "held_out_result": false,
+  "original_judgment_status": "Frozen unchanged; this check does not revise the original rankings or count as another independent blinded outcome.",
+  "reviewer": "One AI judge; subjective formative visual review, not human user testing",
+  "scope": {
+    "read": [
+      "design-followup.json",
+      "equal-bilingual-assistance/composition.png",
+      "turkish-body-audit/comparison.png",
+      "original blind-review-v2/case-a/J.png"
+    ],
+    "inspection": "Opened the original notice and both supplemental PNGs with view_image using original detail. No source font files, catalogs, candidate mappings, implementation, or manifests were inspected.",
+    "claims_boundary": "Metadata and labels in the supplied JSON/specimen are reported context, not independently verified source or runtime facts."
+  },
+  "case_a": {
+    "response_to": "Unequal English/French assistance emphasis in the original case-a/J.png",
+    "visual_verdict": "Addressed in the supplied revised image",
+    "observations": [
+      "The two assistance lines now appear to use the same visual size and weight. The larger French line in the original has been reduced to match the English line.",
+      "Both languages remain readable and individually separated beneath the timetable. The French line remains longer because it contains more text, without appearing typographically more important.",
+      "No new clipped ink, overlap, or excessive crowding is visible in the revised assistance area."
+    ],
+    "unresolved_visual_issues": [],
+    "confidence": "High for the visible equalization of assistance emphasis; not a measured reading-performance result.",
+    "not_verified": "The claimed exact face, 18px setting, weight, 1.4 leading, language tag and implementation size bounds were not checked against source. Visual matching alone does not establish those values."
+  },
+  "case_c": {
+    "response_to": "The original review lacked a rendered adjacent-glyph audit string",
+    "visual_verdict": "The missing visual audit is supplied; the narrow l/I pair remains the weakest distinction at this small body size.",
+    "specimen_context": "The supplied specimen is labeled 18px and shows the requested adjacent string: 1 l I İ ı i — İplik, iğne, ölçü, güç, şaşırma.",
+    "observations": [
+      "The numeral 1 has a recognizable flag and is distinguishable from the plain upright letters in this rendered row.",
+      "The dots over capital İ and lowercase i are visible. Dotless ı is visibly undotted and shorter than the capital forms.",
+      "Lowercase l and uppercase I are both narrow upright forms. Their distinction is subtler than the dotted/undotted and numeral/letter distinctions; I would not claim robust disambiguation for distracted readers from this static specimen alone.",
+      "The accents and marks in İplik, iğne, ölçü, güç and şaşırma are visible, with no missing-glyph boxes, obvious collisions or clipping in the row."
+    ],
+    "unresolved_visual_issues": [
+      {
+        "severity": "minor residual readability concern",
+        "issue": "The l/I distinction remains subtle at the depicted body size.",
+        "next_check": "Check this exact row and the actual lesson on a representative small phone at normal display size. If readers confuse the pair, compare a slightly larger permitted body size or a face with a stronger l/I distinction. This specimen alone does not justify a font replacement."
+      }
+    ],
+    "confidence": "Moderate for visible marks and relative heights; lower for practical l/I discrimination without physical-device viewing or reader observation.",
+    "not_verified": "No independent verification of the labeled exact face, 18px CSS deployment, language=tr, shaping engine, font fallback, weights, asset provenance or mobile runtime was performed."
+  },
+  "overall": "The assistance correction visibly resolves the original unequal-emphasis issue. The Turkish specimen closes the missing-rendered-audit gap and makes the requested characters inspectable, while leaving a minor l/I readability concern for device validation. This is supplemental feedback after critique and supplies no additional held-out selection evidence."
+}

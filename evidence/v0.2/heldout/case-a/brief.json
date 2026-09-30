@@ -1,0 +1,27 @@
+{
+  "name": "Harbour link: a two-language service notice",
+  "project": "A fictional small ferry operator posts a printed notice at both ends of a pedestrian crossing. This is an authored project fixture, not an actual service announcement.",
+  "audience": "Residents, visiting passengers and older regular users who may be standing in a queue. English and French have equal information priority.",
+  "medium": "A5 portrait notice, evaluated here as a 740 px print-preview. Pixel output is not evidence of actual print quality or viewing-distance performance.",
+  "tone": "Calm, trustworthy, practical and welcoming. The interruption must be understood quickly without making the notice look like an emergency.",
+  "density": "balanced",
+  "main_task": "Recognize the temporary timetable, understand that the next boat uses the east landing, and distinguish outbound and return departure times.",
+  "language": "Separate English and French blocks, with accents preserved. Do not shorten, translate or remove the supplied copy.",
+  "hierarchy": "Service label, change headline, date range, bilingual explanation, departure rows, then assistance contact. Times should be easy to compare.",
+  "surroundings": "Dark ink on warm white paper; one teal rule and pale grey timetable rows. No photography. Keep the supplied colors and overall block order.",
+  "existing_baseline": "The exact current regular/bold family is supplied in context/baseline.json. It is coherent and already functional. Retaining that family, adjusting its sizes, or using one family throughout is a fully valid outcome.",
+  "design_freedom": "Choose typography and, if necessary, revise the provided role sizes by at most 15% and line height from 1.2 to 1.6. Keep width 740, padding 42, text, colors and block order. Prefer no more than two families; justify any third.",
+  "acceptance": [
+    "All supplied English/French copy and punctuation is covered and correctly shaped without fallback.",
+    "The exact final regular and emphasis styles are reproducible; synthetic bold/italic is disallowed.",
+    "No ink is clipped, no blocks overlap, and content fits within 1200 px height at width 740.",
+    "Outbound and return labels are distinguishable and the digits 1, 7 and 0 are visually checked in the actual timetable.",
+    "Record whether a replacement materially improved anything over the supplied baseline; novelty alone is insufficient."
+  ],
+  "primary_sizes": {
+    "title": 34,
+    "body": 20,
+    "caption": 16,
+    "time": 24
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "seed": 2026093013,
+  "method": "Per-case shuffle of A, B, C and original baseline using Python random.Random; mapping withheld from judge until judgment files saved.",
+  "mapping": {
+    "case-a": {
+      "J": {
+        "condition": "A-unaided",
+        "source": "results/A-unaided/case-a/final/composition.png",
+        "sha256": "4bda7a2a47c029e83ba47febdc0612c37b539a1917ada1f257a6493e2aeb0965"
+      },
+      "K": {
+        "condition": "C-harness",
+        "source": "results/C-harness/case-a/source-sans/composition.png",
+        "sha256": "4bda7a2a47c029e83ba47febdc0612c37b539a1917ada1f257a6493e2aeb0965"
+      },
+      "L": {
+        "condition": "B-basic",
+        "source": "results/B-basic/case-a/source-sans/composition.png",
+        "sha256": "4bda7a2a47c029e83ba47febdc0612c37b539a1917ada1f257a6493e2aeb0965"
+      },
+      "M": {
+        "condition": "original-baseline",
+        "source": "baseline-renders/case-a/composition.png",
+        "sha256": "89d10ae847a83213e4e990744eec049ee4262d2aacaa83c6be9a49072f4a0115"
+      }
+    },
+    "case-b": {
+      "J": {
+        "condition": "B-basic",
+        "source": "results/B-basic/case-b/final/composition.png",
+        "sha256": "14d73b088df1c33200882e07dd9fe8c78a2f22706ff9075110e5126af81bbb53"
+      },
+      "K": {
+        "condition": "C-harness",
+        "source": "results/C-harness/case-b/cooper-stencil/composition.png",
+        "sha256": "14d73b088df1c33200882e07dd9fe8c78a2f22706ff9075110e5126af81bbb53"
+      },
+      "L": {
+        "condition": "original-baseline",
+        "source": "baseline-renders/case-b/composition.png",
+        "sha256": "28907c5d00f2b9beec9f39d475d6d6533802e7b30674497b0870d9cff69348ee"
+      },
+      "M": {
+        "condition": "A-unaided",
+        "source": "results/A-unaided/case-b/baseline-large/composition.png",
+        "sha256": "cc19e87959b9ffdd9f6249d2f03991e34ebdfa59e8fd6331615e1c4b3db68661"
+      }
+    },
+    "case-c": {
+      "J": {
+        "condition": "B-basic",
+        "source": "results/B-basic/case-c/final/composition.png",
+        "sha256": "e923e484f5e23d0cb7825e3c0088bccda836bd1254cc0193c2d3d11bc4b3fe62"
+      },
+      "K": {
+        "condition": "A-unaided",
+        "source": "results/A-unaided/case-c/final/composition.png",
+        "sha256": "e923e484f5e23d0cb7825e3c0088bccda836bd1254cc0193c2d3d11bc4b3fe62"
+      },
+      "L": {
+        "condition": "C-harness",
+        "source": "results/C-harness/case-c/final/composition.png",
+        "sha256": "e923e484f5e23d0cb7825e3c0088bccda836bd1254cc0193c2d3d11bc4b3fe62"
+      },
+      "M": {
+        "condition": "original-baseline",
+        "source": "baseline-renders/case-c/composition.png",
+        "sha256": "f9cd0040218d12cb2a354e1d843715410f8088869fcbc1d1ada4e5e22e43a932"
+      }
+    }
+  },
+  "judge_sha256": "c28e5f50d2a04fe8e1a9b9cdb943fc18df84fb9689668f3aea821b4e783ef7d5"
+}

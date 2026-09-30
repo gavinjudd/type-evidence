@@ -1,0 +1,25 @@
+{
+  "role": "display",
+  "query": "heavy rounded soft slab serif. Not pixelated; not luxury; not wedding; not corporate; not distressed.",
+  "text": "OFFCUT",
+  "italic": false,
+  "size": 150,
+  "density": "comfortable",
+  "audience": "local adults, art students, curious community printmakers",
+  "medium": "1000 px portrait poster and quarter-size social view",
+  "tone": "playful confident tactile welcoming",
+  "hierarchy": "one memorable dominant title; supporting information remains clear",
+  "language": "en",
+  "surroundings": "warm orange paper and near-black ink, thin divider, no pictures",
+  "existing_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+  "limit": 6,
+  "similar_to": "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3:0",
+  "avoid_like": "8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff:0",
+  "exclude_families": [
+    "SF Pixelate",
+    "SF Pixelate Shaded",
+    "SF Intermosaic",
+    "Silkscreen",
+    "P22 Gauguin"
+  ]
+}

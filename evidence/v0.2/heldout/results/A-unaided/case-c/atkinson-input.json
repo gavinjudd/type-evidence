@@ -1,0 +1,136 @@
+{
+  "template": "interface",
+  "title": "Dikiş Kulübü mobile instruction",
+  "medium": "screen",
+  "width": 390,
+  "padding": 22,
+  "gap": 16,
+  "background": "#f2f4f3",
+  "roles": {
+    "eyebrow": {
+      "font_id": "5a3b0c8cc8ca545155150b4512a1fa248298df121c50d6557e651e61fbdab92f:0",
+      "size": 14,
+      "weight": 700,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#244542",
+      "language": "tr"
+    },
+    "title": {
+      "font_id": "5a3b0c8cc8ca545155150b4512a1fa248298df121c50d6557e651e61fbdab92f:0",
+      "size": 28,
+      "weight": 700,
+      "italic": false,
+      "line_height": 1.15,
+      "color": "#244542",
+      "language": "tr"
+    },
+    "body": {
+      "font_id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+      "size": 18,
+      "weight": 400,
+      "italic": false,
+      "line_height": 1.5,
+      "color": "#244542",
+      "language": "tr"
+    },
+    "heading": {
+      "font_id": "5a3b0c8cc8ca545155150b4512a1fa248298df121c50d6557e651e61fbdab92f:0",
+      "size": 18,
+      "weight": 700,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#244542",
+      "language": "tr"
+    },
+    "caption": {
+      "font_id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+      "size": 14,
+      "weight": 400,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#244542",
+      "language": "tr"
+    },
+    "button": {
+      "font_id": "5a3b0c8cc8ca545155150b4512a1fa248298df121c50d6557e651e61fbdab92f:0",
+      "size": 18,
+      "weight": 700,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#ffffff",
+      "language": "tr"
+    }
+  },
+  "blocks": [
+    {
+      "role": "eyebrow",
+      "text": "DİKİŞ KULÜBÜ / ADIM 2 / 5"
+    },
+    {
+      "role": "title",
+      "text": "İpliği iğneden geçirin"
+    },
+    {
+      "role": "body",
+      "text": "İpliğin ucunu düz kesin. İğneyi ışığa doğru tutun ve ipliği delikten yavaşça geçirin."
+    },
+    {
+      "role": "heading",
+      "text": "Yanınızda olsun"
+    },
+    {
+      "role": "body",
+      "text": "İğne · Pamuklu iplik · Küçük makas"
+    },
+    {
+      "type": "rule",
+      "color": "#a9b7b2",
+      "thickness": 1
+    },
+    {
+      "role": "body",
+      "text": "1. İpliği yaklaşık 40 cm uzunluğunda kesin."
+    },
+    {
+      "role": "body",
+      "text": "2. Ucu parmaklarınızın arasında sıkıştırın."
+    },
+    {
+      "role": "body",
+      "text": "3. İpliği geçirin; iki ucu eşitlemeyin."
+    },
+    {
+      "type": "panel",
+      "background": "#f6e7ad",
+      "padding": 14,
+      "blocks": [
+        {
+          "role": "caption",
+          "text": "Küçük ipucu: Uzun iplik daha çok dolaşır. Kısa bir parça ile başlayın.",
+          "gap": 0
+        }
+      ]
+    },
+    {
+      "type": "panel",
+      "background": "#244542",
+      "padding": 14,
+      "blocks": [
+        {
+          "role": "button",
+          "text": "Hazırım, devam edelim",
+          "gap": 0
+        }
+      ]
+    },
+    {
+      "role": "caption",
+      "text": "İlerlemeniz bu telefonda saklanır."
+    },
+    {
+      "role": "body",
+      "text": "1 l I İ ı i — İplik, iğne, ölçü, güç, şaşırma."
+    }
+  ]
+}

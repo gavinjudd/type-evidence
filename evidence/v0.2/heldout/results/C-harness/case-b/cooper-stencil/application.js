@@ -1,0 +1,37 @@
+const typeEvidenceRoles = {"eyebrow": {"exact_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0", "sha256": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a", "face_index": 0, "asset_url": "assets/c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a.ttf", "css_family_alias": "te-c9cc991deb5d27f2-0-eyebrow", "settings": {"font-family": "\"te-c9cc991deb5d27f2-0-eyebrow\"", "font-size": "22px", "line-height": "1.4", "font-weight": "700", "font-style": "normal", "font-synthesis": "none", "font-feature-settings": "normal", "font-variation-settings": "normal", "font-optical-sizing": "none", "color": "#262521", "text-align": "start", "unicode-bidi": "plaintext"}, "language": "en", "direct_webfont_recipe_supported": true, "source_asset_not_copied": true}, "title": {"exact_id": "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3:0", "sha256": "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3", "face_index": 0, "asset_url": "assets/3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3.ttf", "css_family_alias": "te-3da401e8a0822a47-0-title", "settings": {"font-family": "\"te-3da401e8a0822a47-0-title\"", "font-size": "160px", "line-height": "1.0", "font-weight": "400", "font-style": "normal", "font-synthesis": "none", "font-feature-settings": "normal", "font-variation-settings": "normal", "font-optical-sizing": "none", "color": "#262521", "text-align": "start", "unicode-bidi": "plaintext"}, "language": "en", "direct_webfont_recipe_supported": true, "source_asset_not_copied": true}, "dek": {"exact_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0", "sha256": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed", "face_index": 0, "asset_url": "assets/017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed.ttf", "css_family_alias": "te-017c0be9aaa6d035-0-dek", "settings": {"font-family": "\"te-017c0be9aaa6d035-0-dek\"", "font-size": "37px", "line-height": "1.4", "font-weight": "400", "font-style": "normal", "font-synthesis": "none", "font-feature-settings": "normal", "font-variation-settings": "normal", "font-optical-sizing": "none", "color": "#262521", "text-align": "start", "unicode-bidi": "plaintext"}, "language": "en", "direct_webfont_recipe_supported": true, "source_asset_not_copied": true}, "body": {"exact_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0", "sha256": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed", "face_index": 0, "asset_url": "assets/017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed.ttf", "css_family_alias": "te-017c0be9aaa6d035-0-body", "settings": {"font-family": "\"te-017c0be9aaa6d035-0-body\"", "font-size": "31px", "line-height": "1.4", "font-weight": "400", "font-style": "normal", "font-synthesis": "none", "font-feature-settings": "normal", "font-variation-settings": "normal", "font-optical-sizing": "none", "color": "#262521", "text-align": "start", "unicode-bidi": "plaintext"}, "language": "pl", "direct_webfont_recipe_supported": true, "source_asset_not_copied": true}, "heading": {"exact_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0", "sha256": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a", "face_index": 0, "asset_url": "assets/c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a.ttf", "css_family_alias": "te-c9cc991deb5d27f2-0-heading", "settings": {"font-family": "\"te-c9cc991deb5d27f2-0-heading\"", "font-size": "32px", "line-height": "1.4", "font-weight": "700", "font-style": "normal", "font-synthesis": "none", "font-feature-settings": "normal", "font-variation-settings": "normal", "font-optical-sizing": "none", "color": "#262521", "text-align": "start", "unicode-bidi": "plaintext"}, "language": "pl", "direct_webfont_recipe_supported": true, "source_asset_not_copied": true}, "caption": {"exact_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0", "sha256": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed", "face_index": 0, "asset_url": "assets/017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed.ttf", "css_family_alias": "te-017c0be9aaa6d035-0-caption", "settings": {"font-family": "\"te-017c0be9aaa6d035-0-caption\"", "font-size": "24px", "line-height": "1.4", "font-weight": "400", "font-style": "normal", "font-synthesis": "none", "font-feature-settings": "normal", "font-variation-settings": "normal", "font-optical-sizing": "none", "color": "#262521", "text-align": "start", "unicode-bidi": "plaintext"}, "language": "pl", "direct_webfont_recipe_supported": true, "source_asset_not_copied": true}};
+
+(async () => {
+  const status = document.getElementById("te-asset-status");
+  try {
+    if (!window.crypto?.subtle) throw new Error("SHA-256 verification requires a secure context such as localhost HTTP.");
+    const assets = new Map();
+    for (const role of Object.values(typeEvidenceRoles)) {
+      if (!role.direct_webfont_recipe_supported) throw new Error("A collection face needs explicit extraction and re-verification before browser use.");
+      if (!assets.has(role.asset_url)) assets.set(role.asset_url, (async () => {
+        const response = await fetch(role.asset_url, {credentials: "omit"});
+        if (!response.ok) throw new Error("Exact font asset is missing: " + role.asset_url);
+        const bytes = await response.arrayBuffer();
+        const hash = Array.from(new Uint8Array(await crypto.subtle.digest("SHA-256", bytes)), b => b.toString(16).padStart(2, "0")).join("");
+        if (hash !== role.sha256) throw new Error("Font hash mismatch: " + role.asset_url);
+        return bytes;
+      })());
+      const face = new FontFace(role.css_family_alias, await assets.get(role.asset_url), {
+        weight: role.settings["font-weight"], style: role.settings["font-style"],
+        variationSettings: role.settings["font-variation-settings"],
+        featureSettings: role.settings["font-feature-settings"]
+      });
+      await face.load();
+      document.fonts.add(face);
+    }
+    await document.fonts.ready;
+    document.querySelector(".te-composition").hidden = false;
+    const updateOverflowHints = () => document.querySelectorAll(".te-table-scroll").forEach(region => {
+      region.parentElement.toggleAttribute("data-overflow", region.scrollWidth > region.clientWidth + 1);
+    });
+    updateOverflowHints();
+    window.addEventListener("resize", updateOverflowHints);
+    status.textContent = "Exact font assets verified and loaded. Inspect this browser's actual layout and rasterization before release.";
+  } catch (error) {
+    status.textContent = "Composition hidden to prevent font substitution. " + error.message + " Stage the authorized exact files and serve this folder over localhost HTTP. The verified PNG preview remains available in index.html.";
+  }
+})();

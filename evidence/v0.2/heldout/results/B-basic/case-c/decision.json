@@ -1,0 +1,25 @@
+{
+  "final": "final",
+  "baseline_retained": false,
+  "decision": "Retain the Source Sans Pro composition selected in A. Basic browsing produced two feasible unfamiliar families, but neither improved the audit-character distinction or instructional tone. B is a tie with A for this case.",
+  "revision_reason": "Remove appended diagnostic audit from the final; retain A body18/caption15 settings without further styling.",
+  "counterargument": "Clother feels warmer and ABC Social has a larger apparent body; preference may reflect prior exposure to Source Sans rather than superior task performance.",
+  "scores": [
+    5,
+    4,
+    5,
+    5
+  ],
+  "score_observations": [
+    "Distinct audit characters and compact instructions remain suited to the phone task.",
+    "Open Source forms remain patient and capable.",
+    "Task, materials, numbered steps and continuation remain distinct.",
+    "Single-family system is coherent."
+  ],
+  "carryover_candidates": [
+    "Source Sans Pro first proposed in A and selected with exact IDs there."
+  ],
+  "carryover_layout": [
+    "Retained A body18/caption15 adjustments and audit conclusions."
+  ]
+}

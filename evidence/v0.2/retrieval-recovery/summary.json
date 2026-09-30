@@ -1,0 +1,52 @@
+{
+  "scope": "Historical exploratory non-held-out recovery study against the v0.2 index and then-current discovery implementation. Initial semantic failure is preserved. Reference cases use an explicitly selected direction anchor, not zero-shot semantic recovery.",
+  "upstream_commit": "3d4c6af01f668800d8e4f9f4f753d29c74dad252",
+  "convention_findings": [
+    {
+      "source": "dataset/dataset.py:150-202",
+      "finding": "Official multiple-attribute training prompts join attributes with comma-space and append font. Current adapter appends font but joins positive terms with spaces."
+    },
+    {
+      "source": "font_retrieval.py:28-116; utils/transform_image.py:77-190,201-225,295-340",
+      "finding": "Official retrieval defaults to eight random views using rotation up to 180 degrees and square random resized crops with area scale 0.3 to 1.0. Raw image features are averaged before cosine similarity. Current adapter embeds one fully visible fitted-square specimen."
+    },
+    {
+      "finding": "Current model and index are internally consistent on three smoke-result faces: identical render masks and fresh-vs-stored cosine approximately 1.0."
+    }
+  ],
+  "probe_counts": {
+    "prompt_queries": 3,
+    "prompt_variants_per_query": 4,
+    "image_faces": 18,
+    "image_variants": 4,
+    "existing_api_recoveries": 6
+  },
+  "observations": [
+    "Comma prompts, per-attribute ensembles and photo-sentence wording did not materially recover the elegant or angular smoke queries.",
+    "Eight-view augmentation on 18 hand-selected faces retained Extra virgin, Offshore Banking Business and Fatty Snax as the top three for elegant. It moved BlockedTop from first to fourth for angular but promoted shadow/outline faces. This does not justify a full eightfold reindex.",
+    "Explicit negative appearance and avoid_like probes can drift further from intended typography. Famous Faces was visually confirmed to render pictograms despite cmap coverage.",
+    "A manually selected Rajdhani reference recovered narrow technical readable letterforms; a manually selected Bodoni reference recovered three readable serif forms plus one questionable outline result. References supplied an explicit design preference, so these are supervised recoveries, not evidence that semantic interpretation was fixed."
+  ],
+  "limits": [
+    "This exploratory subset is not a full-corpus image-augmentation rerank or a blind outcome evaluation.",
+    "Image experiment uses raw cosine with no metadata ranking. Prompt and API experiments use the frozen full index and existing discovery ranking.",
+    "The predefined contrast-family list had only six exact-name eligible representatives, so the image experiment contains 18 total faces, not 21.",
+    "No general semantic retrieval quality claim follows from the successful official-model parity test.",
+    "Results precede later conservative style-name conflict guards. Replays on newer source or a different catalog can return different candidates; these original observations are not overwritten."
+  ],
+  "artifacts": [
+    "initial-smoke.json",
+    "prompt-probes.json",
+    "image-probes.json",
+    "api-recovery.json",
+    "angular-reference.png",
+    "elegant-reference.png",
+    "reproduce.py"
+  ],
+  "visual_review": {
+    "initial_elegant": "Extra virgin is distressed, Offshore Banking Business is a stencil/distressed face, Fatty Snax is a chunky novelty face; these fail the intended elegant high-contrast direction.",
+    "negative_elegant": "Famous Faces renders pictograms despite Unicode cmap coverage. Negation did not safely recover this case.",
+    "reference_angular": "Rajdhani, Labtop Superwide, Order Light and PasadenaSerial Light show readable narrow technical letterforms.",
+    "reference_elegant": "Chanticleer Roman, ITC Garamond Standard and Spectral show readable serif forms. ImperatorBronze is outlined and remains a questionable match. Inspect the actual appearance: embedded style declarations can be wrong."
+  }
+}

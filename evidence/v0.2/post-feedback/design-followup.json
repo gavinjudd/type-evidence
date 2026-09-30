@@ -1,0 +1,16 @@
+{
+  "scope": "Post-first-pass response to independent blinded critique. Not new held-out evidence or a discovery improvement claim. Original A/B/C outputs unchanged.",
+  "case_a": {
+    "change": "French assistance line now uses same exact face, weight, 18px size and 1.4 line-height as English, retaining fr language. All other content, colors, block order and typography unchanged.",
+    "size_bounds": "18px is +12.5% over original caption16 and -10% under original French body20; within authored +/-15% freedom.",
+    "preview": "equal-bilingual-assistance/composition.png",
+    "manifest": "equal-bilingual-assistance/manifest.json"
+  },
+  "case_c": {
+    "change": "Supplemental exact final body-face specimen at actual18px of the full required Turkish disambiguation string. No composition or selection changed.",
+    "text": "1 l I İ ı i — İplik, iğne, ölçü, güç, şaşırma.",
+    "preview": "turkish-body-audit/comparison.png"
+  },
+  "case_b": "Quarter-size poster was inspected. An actual social derivative and physical print remain separate future adaptations.",
+  "browser": "These supplemental PNGs were not browser or physical-device tests."
+}

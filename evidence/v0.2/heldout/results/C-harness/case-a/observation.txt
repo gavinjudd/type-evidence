@@ -1,0 +1,2 @@
+Retain A/B Source Sans Pro. First-pass C adds no improvement: Noto Sans SC has distracting full-width-like curly apostrophe spacing in French despite passing exact coverage; Wyvern appears too condensed for the requested open treatment.
+Counterargument: Noto Sans SC has robust clear digits and could potentially be fixed with other OpenType width features; that was not investigated within this comparison. Source benefits from prior size tuning.

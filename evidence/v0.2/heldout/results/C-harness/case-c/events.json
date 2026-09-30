@@ -1,0 +1,3497 @@
+[
+  {
+    "timestamp": "2026-09-30T16:44:55.924982+00:00",
+    "operation": "start",
+    "information_limit": 6,
+    "record_limit_per_operation": 12,
+    "render_limit_including_baseline": 4,
+    "final_revision_limit": 1
+  },
+  {
+    "timestamp": "2026-09-30T16:44:55.925034+00:00",
+    "operation": "baseline-reuse",
+    "source": "HELDOUT_PACK/baseline-renders/case-c",
+    "option_slot": 1
+  },
+  {
+    "timestamp": "2026-09-30T16:45:01.034456+00:00",
+    "operation": "information",
+    "mode": "cli-semantic-search",
+    "query": {
+      "role": "ui",
+      "query": "humanist open clear legible, not childish or decorative",
+      "text": "1 l I İ ı i — İplik, iğne, ölçü, güç, şaşırma. İpliği iğneden geçirin. Hazırım, devam edelim",
+      "weight": 400,
+      "italic": false,
+      "required_styles": [
+        {
+          "weight": 400,
+          "italic": false
+        },
+        {
+          "weight": 700,
+          "italic": false
+        }
+      ],
+      "size": 18,
+      "density": "balanced",
+      "audience": "adult beginners reading hands-busy sewing instructions on small older phones",
+      "medium": "390 px mobile instruction screen",
+      "tone": "patient clear capable and human",
+      "hierarchy": "quiet club label, clear task heading, body steps, visible continuation button",
+      "language": "tr",
+      "surroundings": "dark blue-green type, white and pale grey page, pale yellow tip",
+      "existing_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "limit": 4
+    },
+    "command": [
+      "REPOSITORY/.venv/bin/type-evidence",
+      "--catalog",
+      "REPOSITORY/library/catalog.sqlite",
+      "search",
+      "--brief",
+      "HELDOUT_PACK/results/C-harness/case-c/initial-query.json",
+      "--visual",
+      "on"
+    ],
+    "count": 4,
+    "records": [
+      {
+        "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "family": "Roboto",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "unknown",
+        "score": 6.9718,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 2.9718,
+            "reason": "Content-based visual retrieval: Model-associated attributes: soft, friendly, sharp, casual. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.5283,
+          "cap_height_em": 0.7109,
+          "average_advance_em": 0.5331,
+          "mono_measured": false,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 12,
+          "styles": [
+            {
+              "style": "Thin",
+              "weight": 250,
+              "italic": false
+            },
+            {
+              "style": "Thin Italic",
+              "weight": 250,
+              "italic": true
+            },
+            {
+              "style": "Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Medium Italic",
+              "weight": 500,
+              "italic": true
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 700,
+              "italic": true
+            },
+            {
+              "style": "Black",
+              "weight": 900,
+              "italic": false
+            },
+            {
+              "style": "Black Italic",
+              "weight": 900,
+              "italic": true
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": true,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+            "required_axes": {}
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+            "required_axes": {}
+          }
+        ],
+        "visual_evidence": {
+          "score": 2.9718,
+          "description": "Model-associated attributes: soft, friendly, sharp, casual. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "humanist open clear legible patient capable human",
+            "avoid childish",
+            "avoid decorative"
+          ],
+          "raw_similarity": 0.00082,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+        "family": "Lander Tall",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "unknown",
+        "score": 21.7715,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 17.7715,
+            "reason": "Content-based visual retrieval: Model-associated attributes: friendly, sharp, casual, humanist. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.586,
+          "cap_height_em": 0.75,
+          "average_advance_em": 0.6046,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 12,
+          "styles": [
+            {
+              "style": "Light",
+              "weight": 100,
+              "italic": false
+            },
+            {
+              "style": "Light Italic",
+              "weight": 100,
+              "italic": false
+            },
+            {
+              "style": "Book",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Book Italic",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "SemiBold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Semibold Italic",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Black",
+              "weight": 900,
+              "italic": false
+            },
+            {
+              "style": "Black Italic",
+              "weight": 900,
+              "italic": false
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [
+          "OS/2 embedding flags set: 8; technical flags are not a license"
+        ],
+        "existing_baseline": false,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+            "required_axes": {}
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "287ce04f595cf0d64201986970341b95f5a9c14fd6deb9621c20856eb1bfd3de:0",
+            "required_axes": {}
+          }
+        ],
+        "visual_evidence": {
+          "score": 17.7715,
+          "description": "Model-associated attributes: friendly, sharp, casual, humanist. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "humanist open clear legible patient capable human",
+            "avoid childish",
+            "avoid decorative"
+          ],
+          "raw_similarity": 0.032612,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+        "family": "Lander Grande",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "unknown",
+        "score": 20.6471,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 16.6471,
+            "reason": "Content-based visual retrieval: Model-associated attributes: friendly, sharp, humanist, casual. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.574,
+          "cap_height_em": 0.75,
+          "average_advance_em": 0.5742,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 12,
+          "styles": [
+            {
+              "style": "Light",
+              "weight": 100,
+              "italic": false
+            },
+            {
+              "style": "Light Italic",
+              "weight": 100,
+              "italic": false
+            },
+            {
+              "style": "Book",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Book Italic",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "SemiBold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "SemiBold Italic",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Black",
+              "weight": 900,
+              "italic": false
+            },
+            {
+              "style": "Black Italic",
+              "weight": 900,
+              "italic": false
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [
+          "OS/2 embedding flags set: 8; technical flags are not a license"
+        ],
+        "existing_baseline": false,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+            "required_axes": {}
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "6b87d0f2f37fa32213bbc8dc2c0450d3662235d807661f00fa408b86184335b8:0",
+            "required_axes": {}
+          }
+        ],
+        "visual_evidence": {
+          "score": 16.6471,
+          "description": "Model-associated attributes: friendly, sharp, humanist, casual. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "humanist open clear legible patient capable human",
+            "avoid childish",
+            "avoid decorative"
+          ],
+          "raw_similarity": 0.030197,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "4f73159be231ba781423243aa95edf4dc38115921d572e5386cae5c823447798:0",
+        "family": "Noto Serif",
+        "style": "Condensed",
+        "weight": 400,
+        "italic": false,
+        "category": "serif",
+        "score": 17.2509,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 11.2509,
+            "reason": "Content-based visual retrieval: Model-associated attributes: friendly, sharp, humanist, casual. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "heuristic",
+            "points": 2,
+            "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.536,
+          "cap_height_em": 0.714,
+          "average_advance_em": 0.4802,
+          "mono_measured": false,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 18,
+          "styles": [
+            {
+              "style": "Condensed Thin",
+              "weight": 100,
+              "italic": false
+            },
+            {
+              "style": "Condensed Thin Italic",
+              "weight": 100,
+              "italic": true
+            },
+            {
+              "style": "Condensed ExtraLight",
+              "weight": 200,
+              "italic": false
+            },
+            {
+              "style": "Condensed ExtraLight Italic",
+              "weight": 200,
+              "italic": true
+            },
+            {
+              "style": "Condensed Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Condensed Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Condensed",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Condensed Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "Condensed Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Condensed Medium Italic",
+              "weight": 500,
+              "italic": true
+            },
+            {
+              "style": "Condensed SemiBold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Condensed SemiBold Italic",
+              "weight": 600,
+              "italic": true
+            }
+          ],
+          "truncated": true,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "4f73159be231ba781423243aa95edf4dc38115921d572e5386cae5c823447798:0",
+            "required_axes": {}
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "657e29ac1b7538933dcf6af1421d48185ce00e2b3c1f163bd80841829ce2d8cc:0",
+            "required_axes": {}
+          }
+        ],
+        "visual_evidence": {
+          "score": 11.2509,
+          "description": "Model-associated attributes: friendly, sharp, humanist, casual. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "humanist open clear legible patient capable human",
+            "avoid childish",
+            "avoid decorative"
+          ],
+          "raw_similarity": 0.018605,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      }
+    ],
+    "response_path": "initial-stdout.json",
+    "seconds": 5.109169250001287
+  },
+  {
+    "timestamp": "2026-09-30T16:45:20.908465+00:00",
+    "operation": "information",
+    "mode": "cli-semantic-search",
+    "query": {
+      "role": "ui",
+      "query": "humanist open clear legible, not childish or decorative",
+      "text": "1 l I İ ı i — İplik, iğne, ölçü, güç, şaşırma. İpliği iğneden geçirin. Hazırım, devam edelim",
+      "weight": 400,
+      "italic": false,
+      "required_styles": [
+        {
+          "weight": 400,
+          "italic": false
+        },
+        {
+          "weight": 700,
+          "italic": false
+        }
+      ],
+      "size": 18,
+      "density": "balanced",
+      "audience": "adult beginners reading hands-busy sewing instructions on small older phones",
+      "medium": "390 px mobile instruction screen",
+      "tone": "patient clear capable and human",
+      "hierarchy": "quiet club label, clear task heading, body steps, visible continuation button",
+      "language": "tr",
+      "surroundings": "dark blue-green type, white and pale grey page, pale yellow tip",
+      "existing_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "limit": 4,
+      "offset": 3
+    },
+    "command": [
+      "REPOSITORY/.venv/bin/type-evidence",
+      "--catalog",
+      "REPOSITORY/library/catalog.sqlite",
+      "search",
+      "--brief",
+      "HELDOUT_PACK/results/C-harness/case-c/page2-query.json",
+      "--visual",
+      "on"
+    ],
+    "count": 4,
+    "records": [
+      {
+        "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "family": "Roboto",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "unknown",
+        "score": 6.9718,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 2.9718,
+            "reason": "Content-based visual retrieval: Model-associated attributes: soft, friendly, sharp, casual. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.5283,
+          "cap_height_em": 0.7109,
+          "average_advance_em": 0.5331,
+          "mono_measured": false,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 12,
+          "styles": [
+            {
+              "style": "Thin",
+              "weight": 250,
+              "italic": false
+            },
+            {
+              "style": "Thin Italic",
+              "weight": 250,
+              "italic": true
+            },
+            {
+              "style": "Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Medium Italic",
+              "weight": 500,
+              "italic": true
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 700,
+              "italic": true
+            },
+            {
+              "style": "Black",
+              "weight": 900,
+              "italic": false
+            },
+            {
+              "style": "Black Italic",
+              "weight": 900,
+              "italic": true
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": true,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+            "required_axes": {}
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+            "required_axes": {}
+          }
+        ],
+        "visual_evidence": {
+          "score": 2.9718,
+          "description": "Model-associated attributes: soft, friendly, sharp, casual. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "humanist open clear legible patient capable human",
+            "avoid childish",
+            "avoid decorative"
+          ],
+          "raw_similarity": 0.00082,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "7adfc0e20e6d7514d108901387f79913cb8966df7dfbe4ab1ad2b97b8e4cc820:0",
+        "family": "PP Migra",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "unknown",
+        "score": 15.6587,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 11.6587,
+            "reason": "Content-based visual retrieval: Model-associated attributes: sharp, thin, humanist, soft. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {
+          "wght": 400
+        },
+        "metrics": {
+          "x_height_em": 0.522,
+          "cap_height_em": 0.675,
+          "average_advance_em": 0.4459,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 8,
+          "styles": [
+            {
+              "style": "Extralight",
+              "weight": 200,
+              "italic": false
+            },
+            {
+              "style": "Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Semibold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Extrabold",
+              "weight": 800,
+              "italic": false
+            },
+            {
+              "style": "Black",
+              "weight": 900,
+              "italic": false
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [
+          "OS/2 embedding flags set: 4; technical flags are not a license"
+        ],
+        "existing_baseline": false,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "7adfc0e20e6d7514d108901387f79913cb8966df7dfbe4ab1ad2b97b8e4cc820:0",
+            "required_axes": {
+              "wght": 400
+            }
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "7adfc0e20e6d7514d108901387f79913cb8966df7dfbe4ab1ad2b97b8e4cc820:0",
+            "required_axes": {
+              "wght": 700
+            }
+          }
+        ],
+        "visual_evidence": {
+          "score": 11.6587,
+          "description": "Model-associated attributes: sharp, thin, humanist, soft. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "humanist open clear legible patient capable human",
+            "avoid childish",
+            "avoid decorative"
+          ],
+          "raw_similarity": 0.019481,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {
+            "wght": 100.0
+          }
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "4b6c3fc80713d8b1d765a2bdde905d465a5eb1e66d56a36d123b136ec3537ccd:0",
+        "family": "Libre Caslon Condensed",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "serif",
+        "score": 15.5928,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 9.5928,
+            "reason": "Content-based visual retrieval: Model-associated attributes: sharp, friendly, humanist, casual. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "heuristic",
+            "points": 2,
+            "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {
+          "wght": 400
+        },
+        "metrics": {
+          "x_height_em": 0.5245,
+          "cap_height_em": 0.7615,
+          "average_advance_em": 0.4427,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 8,
+          "styles": [
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Medium Italic",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "SemiBold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "SemiBold Italic",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 700,
+              "italic": true
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "4b6c3fc80713d8b1d765a2bdde905d465a5eb1e66d56a36d123b136ec3537ccd:0",
+            "required_axes": {
+              "wght": 400
+            }
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "4b6c3fc80713d8b1d765a2bdde905d465a5eb1e66d56a36d123b136ec3537ccd:0",
+            "required_axes": {
+              "wght": 700
+            }
+          }
+        ],
+        "visual_evidence": {
+          "score": 9.5928,
+          "description": "Model-associated attributes: sharp, friendly, humanist, casual. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "humanist open clear legible patient capable human",
+            "avoid childish",
+            "avoid decorative"
+          ],
+          "raw_similarity": 0.015043,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {
+            "wght": 400.0,
+            "wdth": 100.0
+          }
+        },
+        "evidence_gaps": []
+      },
+      {
+        "id": "1d2a262568eb9fcb25779407fb2f60f5ebd62fdb32ae5f90c301c28e83b489b8:0",
+        "family": "Orbikular",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "serif",
+        "score": 15.4777,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 10.4777,
+            "reason": "Content-based visual retrieval: Model-associated attributes: friendly, sharp, casual, humanist. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "heuristic",
+            "points": 2,
+            "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.47,
+          "cap_height_em": 0.656,
+          "average_advance_em": 0.5214,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 14,
+          "styles": [
+            {
+              "style": "ExtraLight",
+              "weight": 200,
+              "italic": false
+            },
+            {
+              "style": "ExtraLight Italic",
+              "weight": 200,
+              "italic": true
+            },
+            {
+              "style": "ExtraLight",
+              "weight": 265,
+              "italic": false
+            },
+            {
+              "style": "ExtraLight Italic",
+              "weight": 265,
+              "italic": true
+            },
+            {
+              "style": "Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "SemiBold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "SemiBold Italic",
+              "weight": 600,
+              "italic": true
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 700,
+              "italic": true
+            }
+          ],
+          "truncated": true,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [
+          "OS/2 embedding flags set: 4; technical flags are not a license"
+        ],
+        "existing_baseline": false,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "1d2a262568eb9fcb25779407fb2f60f5ebd62fdb32ae5f90c301c28e83b489b8:0",
+            "required_axes": {}
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "2615a9da0bc36c342903a0022498eea84dc3dd8be2cdf183dfca56312bd9f350:0",
+            "required_axes": {}
+          }
+        ],
+        "visual_evidence": {
+          "score": 10.4777,
+          "description": "Model-associated attributes: friendly, sharp, casual, humanist. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "humanist open clear legible patient capable human",
+            "avoid childish",
+            "avoid decorative"
+          ],
+          "raw_similarity": 0.016944,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      }
+    ],
+    "response_path": "page2-stdout.json",
+    "seconds": 4.914419625001756
+  },
+  {
+    "timestamp": "2026-09-30T16:45:40.722921+00:00",
+    "operation": "information",
+    "mode": "cli-semantic-search",
+    "query": {
+      "role": "ui",
+      "query": "open humanist sans. Not childish, ornate or delicate.",
+      "text": "1 l I İ ı i — İplik, iğne, ölçü, güç, şaşırma. İpliği iğneden geçirin. Hazırım, devam edelim",
+      "weight": 400,
+      "italic": false,
+      "required_styles": [
+        {
+          "weight": 400,
+          "italic": false
+        },
+        {
+          "weight": 700,
+          "italic": false
+        }
+      ],
+      "size": 18,
+      "density": "balanced",
+      "audience": "adult beginners reading hands-busy sewing instructions on small older phones",
+      "medium": "390 px mobile instruction screen",
+      "tone": "patient clear capable and human",
+      "hierarchy": "quiet club label, clear task heading, body steps, visible continuation button",
+      "language": "tr",
+      "surroundings": "dark blue-green type, white and pale grey page, pale yellow tip",
+      "existing_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "limit": 4,
+      "similar_to": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "exclude_families": [
+        "Lander Grande",
+        "Noto Serif",
+        "PP Migra",
+        "Libre Caslon Condensed",
+        "Orbikular"
+      ]
+    },
+    "command": [
+      "REPOSITORY/.venv/bin/type-evidence",
+      "--catalog",
+      "REPOSITORY/library/catalog.sqlite",
+      "search",
+      "--brief",
+      "HELDOUT_PACK/results/C-harness/case-c/refined-query.json",
+      "--visual",
+      "on"
+    ],
+    "count": 4,
+    "records": [
+      {
+        "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "family": "Roboto",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "unknown",
+        "score": 11.8306,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 7.8306,
+            "reason": "Content-based visual retrieval: Model-associated attributes: soft, friendly, sharp, casual. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.5283,
+          "cap_height_em": 0.7109,
+          "average_advance_em": 0.5331,
+          "mono_measured": false,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 12,
+          "styles": [
+            {
+              "style": "Thin",
+              "weight": 250,
+              "italic": false
+            },
+            {
+              "style": "Thin Italic",
+              "weight": 250,
+              "italic": true
+            },
+            {
+              "style": "Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Medium Italic",
+              "weight": 500,
+              "italic": true
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 700,
+              "italic": true
+            },
+            {
+              "style": "Black",
+              "weight": 900,
+              "italic": false
+            },
+            {
+              "style": "Black Italic",
+              "weight": 900,
+              "italic": true
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": true,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+            "required_axes": {}
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+            "required_axes": {}
+          }
+        ],
+        "visual_evidence": {
+          "score": 7.8306,
+          "description": "Model-associated attributes: soft, friendly, sharp, casual. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "sans open humanist ornate delicate patient clear capable human",
+            "avoid childish"
+          ],
+          "raw_similarity": 0.312525,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "ddd4ef7f97f4361b60841d59753218a57134b0f99f5b46a9612234f1c2733ab0:0",
+        "family": "LatoLatin",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "sans",
+        "score": 17.3559,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 8.3559,
+            "reason": "Content-based visual retrieval: Model-associated attributes: friendly, soft, sharp, casual. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: category:sans."
+          },
+          {
+            "basis": "heuristic",
+            "points": 2,
+            "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.5065,
+          "cap_height_em": 0.7165,
+          "average_advance_em": 0.5374,
+          "mono_measured": false,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 18,
+          "styles": [
+            {
+              "style": "Hairline",
+              "weight": 200,
+              "italic": false
+            },
+            {
+              "style": "Hairline Italic",
+              "weight": 200,
+              "italic": true
+            },
+            {
+              "style": "Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Thin",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Thin Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Medium Italic",
+              "weight": 500,
+              "italic": true
+            },
+            {
+              "style": "Semibold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Semibold Italic",
+              "weight": 600,
+              "italic": true
+            }
+          ],
+          "truncated": true,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "ddd4ef7f97f4361b60841d59753218a57134b0f99f5b46a9612234f1c2733ab0:0",
+            "required_axes": {}
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "276401632a998400be8a5895038f4f72d3760d3c3d6aaf3cf445d109cb9d1540:0",
+            "required_axes": {}
+          }
+        ],
+        "visual_evidence": {
+          "score": 8.3559,
+          "description": "Model-associated attributes: friendly, soft, sharp, casual. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "sans open humanist ornate delicate patient clear capable human",
+            "avoid childish"
+          ],
+          "raw_similarity": 0.31417,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      },
+      {
+        "id": "983b0caf336e8542214fc17019a4fc5e0360864b92806ca14d55c1fc1c2c5a0f:0",
+        "family": "Lato",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "sans",
+        "score": 17.3559,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 8.3559,
+            "reason": "Content-based visual retrieval: Model-associated attributes: friendly, soft, sharp, casual. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: category:sans."
+          },
+          {
+            "basis": "heuristic",
+            "points": 2,
+            "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.5065,
+          "cap_height_em": 0.7165,
+          "average_advance_em": 0.5374,
+          "mono_measured": false,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 22,
+          "styles": [
+            {
+              "style": "Hairline",
+              "weight": 200,
+              "italic": false
+            },
+            {
+              "style": "Hairline Italic",
+              "weight": 200,
+              "italic": true
+            },
+            {
+              "style": "Hairline",
+              "weight": 250,
+              "italic": false
+            },
+            {
+              "style": "Hairline Italic",
+              "weight": 250,
+              "italic": true
+            },
+            {
+              "style": "Thin",
+              "weight": 275,
+              "italic": false
+            },
+            {
+              "style": "Thin Italic",
+              "weight": 275,
+              "italic": true
+            },
+            {
+              "style": "Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Thin",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Thin Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": true
+            }
+          ],
+          "truncated": true,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "983b0caf336e8542214fc17019a4fc5e0360864b92806ca14d55c1fc1c2c5a0f:0",
+            "required_axes": {}
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "0e56b17d142eb366c8007031d14e34da48c70b4a9d9a0ca492e696a7bae45e1e:0",
+            "required_axes": {}
+          }
+        ],
+        "visual_evidence": {
+          "score": 8.3559,
+          "description": "Model-associated attributes: friendly, soft, sharp, casual. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "sans open humanist ornate delicate patient clear capable human",
+            "avoid childish"
+          ],
+          "raw_similarity": 0.31417,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      },
+      {
+        "id": "8d001762907d743767f1af5c3398fd97d1be7aed3cb7c819a500156c49524484:0",
+        "family": "Amazon Ember",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "sans",
+        "score": 17.2149,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 8.2149,
+            "reason": "Content-based visual retrieval: Model-associated attributes: friendly, soft, sharp, casual. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: category:sans."
+          },
+          {
+            "basis": "heuristic",
+            "points": 2,
+            "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.507,
+          "cap_height_em": 0.693,
+          "average_advance_em": 0.5507,
+          "mono_measured": false,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 4,
+          "styles": [
+            {
+              "style": "Thin",
+              "weight": 250,
+              "italic": false
+            },
+            {
+              "style": "Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "8d001762907d743767f1af5c3398fd97d1be7aed3cb7c819a500156c49524484:0",
+            "required_axes": {}
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "53221bb15cc0dab8786c0f19f4ef1cf64b8847a06e0e37ca93f11f3eb95dcd99:0",
+            "required_axes": {}
+          }
+        ],
+        "visual_evidence": {
+          "score": 8.2149,
+          "description": "Model-associated attributes: friendly, soft, sharp, casual. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "sans open humanist ornate delicate patient clear capable human",
+            "avoid childish"
+          ],
+          "raw_similarity": 0.313729,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      }
+    ],
+    "response_path": "refined-stdout.json",
+    "seconds": 4.92924779200257
+  },
+  {
+    "timestamp": "2026-09-30T16:46:04.304730+00:00",
+    "operation": "information",
+    "mode": "cli-semantic-search",
+    "query": {
+      "role": "ui",
+      "query": "open humanist sans. Not childish; not ornate; not delicate.",
+      "text": "1 l I İ ı i — İplik, iğne, ölçü, güç, şaşırma. İpliği iğneden geçirin. Hazırım, devam edelim",
+      "weight": 400,
+      "italic": false,
+      "required_styles": [
+        {
+          "weight": 400,
+          "italic": false
+        },
+        {
+          "weight": 700,
+          "italic": false
+        }
+      ],
+      "size": 18,
+      "density": "balanced",
+      "audience": "adult beginners reading hands-busy sewing instructions on small older phones",
+      "medium": "390 px mobile instruction screen",
+      "tone": "patient clear capable and human",
+      "hierarchy": "quiet club label, clear task heading, body steps, visible continuation button",
+      "language": "tr",
+      "surroundings": "dark blue-green type, white and pale grey page, pale yellow tip",
+      "existing_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "limit": 4,
+      "similar_to": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "exclude_families": [
+        "Lander Grande",
+        "Noto Serif",
+        "PP Migra",
+        "Libre Caslon Condensed",
+        "Orbikular"
+      ]
+    },
+    "command": [
+      "REPOSITORY/.venv/bin/type-evidence",
+      "--catalog",
+      "REPOSITORY/library/catalog.sqlite",
+      "search",
+      "--brief",
+      "HELDOUT_PACK/results/C-harness/case-c/negation-recovery-query.json",
+      "--visual",
+      "on"
+    ],
+    "count": 4,
+    "records": [
+      {
+        "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "family": "Roboto",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "unknown",
+        "score": 13.1778,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 9.1778,
+            "reason": "Content-based visual retrieval: Model-associated attributes: soft, friendly, sharp, casual. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.5283,
+          "cap_height_em": 0.7109,
+          "average_advance_em": 0.5331,
+          "mono_measured": false,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 12,
+          "styles": [
+            {
+              "style": "Thin",
+              "weight": 250,
+              "italic": false
+            },
+            {
+              "style": "Thin Italic",
+              "weight": 250,
+              "italic": true
+            },
+            {
+              "style": "Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Medium Italic",
+              "weight": 500,
+              "italic": true
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 700,
+              "italic": true
+            },
+            {
+              "style": "Black",
+              "weight": 900,
+              "italic": false
+            },
+            {
+              "style": "Black Italic",
+              "weight": 900,
+              "italic": true
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": true,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+            "required_axes": {}
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+            "required_axes": {}
+          }
+        ],
+        "visual_evidence": {
+          "score": 9.1778,
+          "description": "Model-associated attributes: soft, friendly, sharp, casual. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "sans open humanist patient clear capable human",
+            "avoid childish",
+            "avoid ornate",
+            "avoid delicate"
+          ],
+          "raw_similarity": 0.206957,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "bac6461feb3488e5d330e7e9434fc8e0c513aa3c1e7b57598eab1654e1055a14:0",
+        "family": "Ubuntu",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "sans",
+        "score": 19.972,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 10.972,
+            "reason": "Content-based visual retrieval: Model-associated attributes: friendly, soft, sharp, humanist. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: category:sans."
+          },
+          {
+            "basis": "heuristic",
+            "points": 2,
+            "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.52,
+          "cap_height_em": 0.693,
+          "average_advance_em": 0.5427,
+          "mono_measured": false,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 8,
+          "styles": [
+            {
+              "style": "Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Medium Italic",
+              "weight": 500,
+              "italic": true
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 700,
+              "italic": true
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "bac6461feb3488e5d330e7e9434fc8e0c513aa3c1e7b57598eab1654e1055a14:0",
+            "required_axes": {}
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "f83793a3c75680a14fc163f7d8c466f5e8693de92b187c07c9ee6307ad9d382b:0",
+            "required_axes": {}
+          }
+        ],
+        "visual_evidence": {
+          "score": 10.972,
+          "description": "Model-associated attributes: friendly, soft, sharp, humanist. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "sans open humanist patient clear capable human",
+            "avoid childish",
+            "avoid ornate",
+            "avoid delicate"
+          ],
+          "raw_similarity": 0.212777,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      },
+      {
+        "id": "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+        "family": "Noto Sans Display",
+        "style": "SemiCondensed",
+        "weight": 400,
+        "italic": false,
+        "category": "sans",
+        "score": 19.9223,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 10.9223,
+            "reason": "Content-based visual retrieval: Model-associated attributes: friendly, soft, sharp, humanist. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: category:sans."
+          },
+          {
+            "basis": "heuristic",
+            "points": 2,
+            "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.536,
+          "cap_height_em": 0.714,
+          "average_advance_em": 0.4818,
+          "mono_measured": false,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 18,
+          "styles": [
+            {
+              "style": "SemiCondensed Thin",
+              "weight": 100,
+              "italic": false
+            },
+            {
+              "style": "SemiCondensed Thin Italic",
+              "weight": 100,
+              "italic": true
+            },
+            {
+              "style": "SemiCondensed ExtraLight",
+              "weight": 200,
+              "italic": false
+            },
+            {
+              "style": "SemiCondensed ExtraLight Italic",
+              "weight": 200,
+              "italic": true
+            },
+            {
+              "style": "SemiCondensed Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "SemiCondensed Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "SemiCondensed",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "SemiCondensed Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "SemiCondensed Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "SemiCondensed Medium Italic",
+              "weight": 500,
+              "italic": true
+            },
+            {
+              "style": "SemiCondensed SemiBold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "SemiCondensed SemiBold Italic",
+              "weight": 600,
+              "italic": true
+            }
+          ],
+          "truncated": true,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+            "required_axes": {}
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "2063cee9aa495f29af09625d88dc18305e6e96d81c2684381d155ecd857de251:0",
+            "required_axes": {}
+          }
+        ],
+        "visual_evidence": {
+          "score": 10.9223,
+          "description": "Model-associated attributes: friendly, soft, sharp, humanist. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "sans open humanist patient clear capable human",
+            "avoid childish",
+            "avoid ornate",
+            "avoid delicate"
+          ],
+          "raw_similarity": 0.212616,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      },
+      {
+        "id": "61cbf6bc6ef91586f651f120df7e7ca1d55d02b58c1b89f84b069928689fa0f4:0",
+        "family": "IBM Plex Sans Condensed",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "sans",
+        "score": 19.4296,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 10.4296,
+            "reason": "Content-based visual retrieval: Model-associated attributes: soft, sharp, friendly, heavy. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: category:sans."
+          },
+          {
+            "basis": "heuristic",
+            "points": 2,
+            "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+          },
+          {
+            "basis": "measured+heuristic",
+            "points": 1,
+            "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+          },
+          {
+            "basis": "metadata",
+            "points": 1,
+            "reason": "At least three distinct face styles are present for hierarchy."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Larger lowercase proportions are a starting preference for this audience; they do not establish accessibility."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.516,
+          "cap_height_em": 0.698,
+          "average_advance_em": 0.4956,
+          "mono_measured": false,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 16,
+          "styles": [
+            {
+              "style": "Thin",
+              "weight": 100,
+              "italic": false
+            },
+            {
+              "style": "Thin Italic",
+              "weight": 100,
+              "italic": true
+            },
+            {
+              "style": "ExtraLight",
+              "weight": 200,
+              "italic": false
+            },
+            {
+              "style": "ExtraLight Italic",
+              "weight": 200,
+              "italic": true
+            },
+            {
+              "style": "Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "Text",
+              "weight": 450,
+              "italic": false
+            },
+            {
+              "style": "Text Italic",
+              "weight": 450,
+              "italic": true
+            },
+            {
+              "style": "Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Medium Italic",
+              "weight": 500,
+              "italic": true
+            }
+          ],
+          "truncated": true,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [
+          {
+            "weight": 400,
+            "italic": false,
+            "id": "61cbf6bc6ef91586f651f120df7e7ca1d55d02b58c1b89f84b069928689fa0f4:0",
+            "required_axes": {}
+          },
+          {
+            "weight": 700,
+            "italic": false,
+            "id": "010fb98b45d9fd9d9937bf0384f2e2e64c9498372e0ae5fa288dcdbcefb99389:0",
+            "required_axes": {}
+          }
+        ],
+        "visual_evidence": {
+          "score": 10.4296,
+          "description": "Model-associated attributes: soft, sharp, friendly, heavy. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "sans open humanist patient clear capable human",
+            "avoid childish",
+            "avoid ornate",
+            "avoid delicate"
+          ],
+          "raw_similarity": 0.211017,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      }
+    ],
+    "response_path": "negation-recovery-stdout.json",
+    "seconds": 5.383688957997947
+  },
+  {
+    "timestamp": "2026-09-30T16:46:47.058953+00:00",
+    "operation": "information",
+    "mode": "cli-inspect",
+    "query": "287ce04f595cf0d64201986970341b95f5a9c14fd6deb9621c20856eb1bfd3de:0",
+    "count": 1,
+    "records": [
+      {
+        "id": "287ce04f595cf0d64201986970341b95f5a9c14fd6deb9621c20856eb1bfd3de:0",
+        "sha256": "287ce04f595cf0d64201986970341b95f5a9c14fd6deb9621c20856eb1bfd3de",
+        "face_index": 0,
+        "family": "Lander Tall",
+        "style": "Bold",
+        "full_name": "Lander Tall Bold",
+        "postscript_name": "LanderTall-Bold",
+        "vendor": "UKWN",
+        "version": "1.000;Lander",
+        "weight": 700,
+        "width_class": 5,
+        "italic": false,
+        "units_per_em": 1000,
+        "axes": [],
+        "features": [
+          "aalt",
+          "calt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "liga",
+          "lnum",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "onum",
+          "ordn",
+          "pnum",
+          "tnum"
+        ],
+        "coverage": [
+          [
+            32,
+            93
+          ],
+          [
+            95,
+            125
+          ],
+          [
+            161,
+            165
+          ],
+          [
+            167,
+            169
+          ],
+          [
+            171,
+            171
+          ],
+          [
+            174,
+            175
+          ],
+          [
+            177,
+            177
+          ],
+          [
+            180,
+            180
+          ],
+          [
+            182,
+            184
+          ],
+          [
+            187,
+            328
+          ],
+          [
+            330,
+            382
+          ],
+          [
+            508,
+            511
+          ],
+          [
+            536,
+            539
+          ],
+          [
+            567,
+            567
+          ],
+          [
+            710,
+            711
+          ],
+          [
+            728,
+            733
+          ],
+          [
+            768,
+            772
+          ],
+          [
+            774,
+            776
+          ],
+          [
+            778,
+            780
+          ],
+          [
+            786,
+            786
+          ],
+          [
+            806,
+            808
+          ],
+          [
+            7808,
+            7813
+          ],
+          [
+            7838,
+            7838
+          ],
+          [
+            7922,
+            7923
+          ],
+          [
+            8201,
+            8201
+          ],
+          [
+            8211,
+            8212
+          ],
+          [
+            8216,
+            8218
+          ],
+          [
+            8220,
+            8222
+          ],
+          [
+            8224,
+            8226
+          ],
+          [
+            8230,
+            8230
+          ],
+          [
+            8249,
+            8250
+          ],
+          [
+            8260,
+            8260
+          ],
+          [
+            8353,
+            8353
+          ],
+          [
+            8364,
+            8364
+          ],
+          [
+            8470,
+            8470
+          ],
+          [
+            8531,
+            8532
+          ],
+          [
+            8539,
+            8542
+          ],
+          [
+            8722,
+            8722
+          ],
+          [
+            64257,
+            64258
+          ],
+          [
+            127338,
+            127338
+          ]
+        ],
+        "glyph_count": 439,
+        "unicode_count": 374,
+        "metrics": {
+          "x_height_em": 0.59,
+          "cap_height_em": 0.75,
+          "average_advance_em": 0.6405,
+          "mono_measured": false,
+          "digit_tabular_default": false,
+          "measurement_sample": "Hamburgefontsiv0123456789; default unshaped hmtx advances"
+        },
+        "category": "unknown",
+        "category_basis": "measured sample widths then declared PANOSE",
+        "family_key": "50478928d9891b49859e5e3c",
+        "canonical_hash": "282a27d07ff723f5be21a47c48f86b7a661aa04e685fbac305ba7bad3dafa3cb",
+        "rights": {
+          "status": "unknown",
+          "evidence": [
+            {
+              "kind": "embedded-name-9",
+              "text": "Riley Cran"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": []
+        },
+        "warnings": [
+          "OS/2 embedding flags set: 8; technical flags are not a license"
+        ],
+        "render_probe": true,
+        "origins": [
+          {
+            "source_id": "bekah",
+            "path": "Designers/Starbucks/Lander Tall/otf/LanderTall-Bold.otf",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Designers/Starbucks/Lander Tall/otf/LanderTall-Bold.otf",
+            "container": "ttf"
+          }
+        ],
+        "equivalent_table_variants": [
+          "287ce04f595cf0d64201986970341b95f5a9c14fd6deb9621c20856eb1bfd3de:0",
+          "811b47500db6d8dd20c5fcf41abc8cee34c3daf39ac7b1c858125a0d1989e65a:0"
+        ],
+        "family_available_styles": [
+          [
+            100,
+            false,
+            "Light"
+          ],
+          [
+            100,
+            false,
+            "Light Italic"
+          ],
+          [
+            300,
+            false,
+            "Book"
+          ],
+          [
+            300,
+            false,
+            "Book Italic"
+          ],
+          [
+            400,
+            false,
+            "Italic"
+          ],
+          [
+            400,
+            false,
+            "Regular"
+          ],
+          [
+            600,
+            false,
+            "SemiBold"
+          ],
+          [
+            600,
+            false,
+            "Semibold Italic"
+          ],
+          [
+            700,
+            false,
+            "Bold"
+          ],
+          [
+            700,
+            false,
+            "Bold Italic"
+          ],
+          [
+            900,
+            false,
+            "Black"
+          ],
+          [
+            900,
+            false,
+            "Black Italic"
+          ]
+        ],
+        "family_limits": [
+          "No declared italic in this metadata/version group"
+        ]
+      }
+    ],
+    "response_path": "lander-bold-inspect.json",
+    "command": [
+      "REPOSITORY/.venv/bin/type-evidence",
+      "--catalog",
+      "REPOSITORY/library/catalog.sqlite",
+      "inspect",
+      "287ce04f595cf0d64201986970341b95f5a9c14fd6deb9621c20856eb1bfd3de:0"
+    ]
+  },
+  {
+    "timestamp": "2026-09-30T16:46:47.114985+00:00",
+    "operation": "information",
+    "mode": "cli-inspect",
+    "query": "f83793a3c75680a14fc163f7d8c466f5e8693de92b187c07c9ee6307ad9d382b:0",
+    "count": 1,
+    "records": [
+      {
+        "id": "f83793a3c75680a14fc163f7d8c466f5e8693de92b187c07c9ee6307ad9d382b:0",
+        "sha256": "f83793a3c75680a14fc163f7d8c466f5e8693de92b187c07c9ee6307ad9d382b",
+        "face_index": 0,
+        "family": "Ubuntu",
+        "style": "Bold",
+        "full_name": "Ubuntu Bold",
+        "postscript_name": "Ubuntu-Bold",
+        "vendor": "DAMA",
+        "version": "0.83",
+        "weight": 700,
+        "width_class": 5,
+        "italic": false,
+        "units_per_em": 1000,
+        "axes": [],
+        "features": [
+          "case",
+          "dnom",
+          "frac",
+          "kern",
+          "liga",
+          "locl",
+          "numr",
+          "ordn",
+          "pnum",
+          "salt",
+          "sinf",
+          "ss01",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "coverage": [
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            13,
+            13
+          ],
+          [
+            29,
+            29
+          ],
+          [
+            32,
+            126
+          ],
+          [
+            160,
+            591
+          ],
+          [
+            658,
+            658
+          ],
+          [
+            700,
+            700
+          ],
+          [
+            710,
+            711
+          ],
+          [
+            713,
+            713
+          ],
+          [
+            728,
+            733
+          ],
+          [
+            785,
+            785
+          ],
+          [
+            900,
+            902
+          ],
+          [
+            904,
+            906
+          ],
+          [
+            908,
+            908
+          ],
+          [
+            910,
+            929
+          ],
+          [
+            931,
+            974
+          ],
+          [
+            1024,
+            1119
+          ],
+          [
+            1122,
+            1123
+          ],
+          [
+            1138,
+            1141
+          ],
+          [
+            1162,
+            1273
+          ],
+          [
+            7808,
+            7813
+          ],
+          [
+            7922,
+            7923
+          ],
+          [
+            7936,
+            7957
+          ],
+          [
+            7960,
+            7965
+          ],
+          [
+            7968,
+            8005
+          ],
+          [
+            8008,
+            8013
+          ],
+          [
+            8016,
+            8023
+          ],
+          [
+            8025,
+            8025
+          ],
+          [
+            8027,
+            8027
+          ],
+          [
+            8029,
+            8029
+          ],
+          [
+            8031,
+            8061
+          ],
+          [
+            8064,
+            8116
+          ],
+          [
+            8118,
+            8132
+          ],
+          [
+            8134,
+            8147
+          ],
+          [
+            8150,
+            8155
+          ],
+          [
+            8157,
+            8175
+          ],
+          [
+            8178,
+            8180
+          ],
+          [
+            8182,
+            8190
+          ],
+          [
+            8211,
+            8213
+          ],
+          [
+            8216,
+            8218
+          ],
+          [
+            8220,
+            8222
+          ],
+          [
+            8224,
+            8226
+          ],
+          [
+            8230,
+            8230
+          ],
+          [
+            8240,
+            8240
+          ],
+          [
+            8249,
+            8250
+          ],
+          [
+            8260,
+            8260
+          ],
+          [
+            8304,
+            8304
+          ],
+          [
+            8308,
+            8313
+          ],
+          [
+            8320,
+            8329
+          ],
+          [
+            8364,
+            8364
+          ],
+          [
+            8366,
+            8366
+          ],
+          [
+            8372,
+            8372
+          ],
+          [
+            8377,
+            8377
+          ],
+          [
+            8467,
+            8467
+          ],
+          [
+            8470,
+            8470
+          ],
+          [
+            8482,
+            8482
+          ],
+          [
+            8486,
+            8486
+          ],
+          [
+            8494,
+            8494
+          ],
+          [
+            8531,
+            8542
+          ],
+          [
+            8706,
+            8706
+          ],
+          [
+            8710,
+            8710
+          ],
+          [
+            8719,
+            8719
+          ],
+          [
+            8721,
+            8722
+          ],
+          [
+            8725,
+            8725
+          ],
+          [
+            8729,
+            8730
+          ],
+          [
+            8734,
+            8734
+          ],
+          [
+            8747,
+            8747
+          ],
+          [
+            8776,
+            8776
+          ],
+          [
+            8800,
+            8800
+          ],
+          [
+            8804,
+            8805
+          ],
+          [
+            9674,
+            9674
+          ],
+          [
+            57599,
+            57599
+          ],
+          [
+            61437,
+            61437
+          ],
+          [
+            61440,
+            61442
+          ],
+          [
+            61695,
+            61695
+          ],
+          [
+            61952,
+            61952
+          ],
+          [
+            62726,
+            62737
+          ],
+          [
+            63488,
+            63517
+          ],
+          [
+            64256,
+            64260
+          ]
+        ],
+        "glyph_count": 1262,
+        "unicode_count": 1194,
+        "metrics": {
+          "x_height_em": 0.526,
+          "cap_height_em": 0.693,
+          "average_advance_em": 0.5603,
+          "mono_measured": false,
+          "digit_tabular_default": true,
+          "measurement_sample": "Hamburgefontsiv0123456789; default unshaped hmtx advances"
+        },
+        "category": "sans",
+        "category_basis": "measured sample widths then declared PANOSE",
+        "family_key": "4f8fff977a1b25eb3826bee6",
+        "canonical_hash": "f43e546e9684541c2dae5dd799ead3b7c943cd98e048843bcbe9c66e3a9b3b0f",
+        "rights": {
+          "status": "unknown",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Canonical Ltd.  Licensed under the Ubuntu Font Licence 1.0"
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Ubuntu and Canonical are registered trademarks of Canonical Ltd."
+            },
+            {
+              "kind": "embedded-name-8",
+              "text": "Dalton Maag Ltd"
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Dalton Maag Ltd"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "http://www.daltonmaag.com/"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": []
+        },
+        "warnings": [],
+        "render_probe": true,
+        "origins": [
+          {
+            "source_id": "bekah",
+            "path": "Foundries/Dalton Maag/Ubuntu/Ubuntu-Bold.ttf",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Foundries/Dalton Maag/Ubuntu/Ubuntu-Bold.ttf",
+            "container": "ttf"
+          }
+        ],
+        "equivalent_table_variants": [
+          "f83793a3c75680a14fc163f7d8c466f5e8693de92b187c07c9ee6307ad9d382b:0"
+        ],
+        "family_available_styles": [
+          [
+            300,
+            false,
+            "Light"
+          ],
+          [
+            300,
+            true,
+            "Light Italic"
+          ],
+          [
+            400,
+            false,
+            "Regular"
+          ],
+          [
+            400,
+            true,
+            "Italic"
+          ],
+          [
+            500,
+            false,
+            "Medium"
+          ],
+          [
+            500,
+            true,
+            "Medium Italic"
+          ],
+          [
+            700,
+            false,
+            "Bold"
+          ],
+          [
+            700,
+            true,
+            "Bold Italic"
+          ]
+        ],
+        "family_limits": []
+      }
+    ],
+    "response_path": "ubuntu-bold-inspect.json",
+    "command": [
+      "REPOSITORY/.venv/bin/type-evidence",
+      "--catalog",
+      "REPOSITORY/library/catalog.sqlite",
+      "inspect",
+      "f83793a3c75680a14fc163f7d8c466f5e8693de92b187c07c9ee6307ad9d382b:0"
+    ]
+  },
+  {
+    "timestamp": "2026-09-30T16:46:47.115303+00:00",
+    "operation": "seal",
+    "sha256": "dd6616b02dc9ec85f1954aec828ddc8b39db295ae6fc3a5db98b0729aa74f968"
+  },
+  {
+    "timestamp": "2026-09-30T16:46:47.176663+00:00",
+    "operation": "render",
+    "option": "lander",
+    "ids": {
+      "eyebrow": "287ce04f595cf0d64201986970341b95f5a9c14fd6deb9621c20856eb1bfd3de:0",
+      "title": "287ce04f595cf0d64201986970341b95f5a9c14fd6deb9621c20856eb1bfd3de:0",
+      "body": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+      "heading": "287ce04f595cf0d64201986970341b95f5a9c14fd6deb9621c20856eb1bfd3de:0",
+      "caption": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+      "button": "287ce04f595cf0d64201986970341b95f5a9c14fd6deb9621c20856eb1bfd3de:0"
+    },
+    "seconds": 0.058424291000847006,
+    "canvas": [
+      390,
+      707
+    ],
+    "warnings": []
+  },
+  {
+    "timestamp": "2026-09-30T16:46:47.215090+00:00",
+    "operation": "render",
+    "option": "ubuntu",
+    "ids": {
+      "eyebrow": "f83793a3c75680a14fc163f7d8c466f5e8693de92b187c07c9ee6307ad9d382b:0",
+      "title": "f83793a3c75680a14fc163f7d8c466f5e8693de92b187c07c9ee6307ad9d382b:0",
+      "body": "bac6461feb3488e5d330e7e9434fc8e0c513aa3c1e7b57598eab1654e1055a14:0",
+      "heading": "f83793a3c75680a14fc163f7d8c466f5e8693de92b187c07c9ee6307ad9d382b:0",
+      "caption": "bac6461feb3488e5d330e7e9434fc8e0c513aa3c1e7b57598eab1654e1055a14:0",
+      "button": "f83793a3c75680a14fc163f7d8c466f5e8693de92b187c07c9ee6307ad9d382b:0"
+    },
+    "seconds": 0.037766500001453096,
+    "canvas": [
+      390,
+      647
+    ],
+    "warnings": []
+  },
+  {
+    "timestamp": "2026-09-30T16:46:47.253902+00:00",
+    "operation": "render",
+    "option": "source-sans",
+    "ids": {
+      "eyebrow": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "title": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "body": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "heading": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "caption": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "button": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0"
+    },
+    "seconds": 0.0383060829990427,
+    "canvas": [
+      390,
+      617
+    ],
+    "warnings": []
+  },
+  {
+    "timestamp": "2026-09-30T16:47:10.261587+00:00",
+    "operation": "image-inspection",
+    "options": [
+      "lander",
+      "ubuntu",
+      "source-sans"
+    ],
+    "full_size": true,
+    "observations": {
+      "lander": "Clear serif audit differentiation but body looks almost as emphatic as headings, wraps more, and makes the phone task feel like a printed essay. Technically correct but weaker task hierarchy.",
+      "ubuntu": "Friendly and fully legible; l foot aids distinction, but body occupies more lines and the rounded technical flavor is stronger than needed.",
+      "source-sans": "Earlier choice remains compact and patient, with clear differentiated audit shapes; best balance for this instruction screen."
+    }
+  },
+  {
+    "timestamp": "2026-09-30T16:47:10.261740+00:00",
+    "operation": "operational-failure",
+    "error": "Query interpretation disagreement: initial query without terminal punctuation marks positive tone words as unmodeled_negative, while visual adapter correctly reports them positive. Refined comma list Not childish, ornate or delicate makes ornate/delicate positive in both reports. Explicit repeated negation recovers intended meaning; no source edits during first pass.",
+    "evidence": [
+      "initial-stdout.json",
+      "refined-stdout.json",
+      "negation-recovery-stdout.json"
+    ]
+  },
+  {
+    "timestamp": "2026-09-30T16:47:10.304051+00:00",
+    "operation": "render",
+    "option": "final",
+    "ids": {
+      "eyebrow": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "title": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "body": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "heading": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "caption": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "button": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0"
+    },
+    "seconds": 0.04161124999882304,
+    "canvas": [
+      390,
+      578
+    ],
+    "warnings": []
+  },
+  {
+    "timestamp": "2026-09-30T16:47:41.025246+00:00",
+    "operation": "final-inspection",
+    "full_size": true,
+    "observations": "578 px final keeps one-line heading and button, intact Turkish accents, no clipping/overlap. Production image matches A/B selection."
+  },
+  {
+    "timestamp": "2026-09-30T16:47:41.025640+00:00",
+    "operation": "stop",
+    "reason": "Six information operations completed; decision and final within shared render budget"
+  },
+  {
+    "timestamp": "2026-09-30T16:52:47.867538+00:00",
+    "operation": "record-audit",
+    "description": "Post-decision administration only: index identity, exact companion-record counts, measured clipping, carryover/familiarity and interpretation limitations; no design decision changed."
+  }
+]

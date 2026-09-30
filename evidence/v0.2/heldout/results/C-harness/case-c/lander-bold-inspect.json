@@ -1,0 +1,305 @@
+{
+  "id": "287ce04f595cf0d64201986970341b95f5a9c14fd6deb9621c20856eb1bfd3de:0",
+  "sha256": "287ce04f595cf0d64201986970341b95f5a9c14fd6deb9621c20856eb1bfd3de",
+  "face_index": 0,
+  "family": "Lander Tall",
+  "style": "Bold",
+  "full_name": "Lander Tall Bold",
+  "postscript_name": "LanderTall-Bold",
+  "vendor": "UKWN",
+  "version": "1.000;Lander",
+  "weight": 700,
+  "width_class": 5,
+  "italic": false,
+  "units_per_em": 1000,
+  "axes": [],
+  "features": [
+    "aalt",
+    "calt",
+    "case",
+    "ccmp",
+    "dnom",
+    "frac",
+    "kern",
+    "liga",
+    "lnum",
+    "locl",
+    "mark",
+    "mkmk",
+    "numr",
+    "onum",
+    "ordn",
+    "pnum",
+    "tnum"
+  ],
+  "coverage": [
+    [
+      32,
+      93
+    ],
+    [
+      95,
+      125
+    ],
+    [
+      161,
+      165
+    ],
+    [
+      167,
+      169
+    ],
+    [
+      171,
+      171
+    ],
+    [
+      174,
+      175
+    ],
+    [
+      177,
+      177
+    ],
+    [
+      180,
+      180
+    ],
+    [
+      182,
+      184
+    ],
+    [
+      187,
+      328
+    ],
+    [
+      330,
+      382
+    ],
+    [
+      508,
+      511
+    ],
+    [
+      536,
+      539
+    ],
+    [
+      567,
+      567
+    ],
+    [
+      710,
+      711
+    ],
+    [
+      728,
+      733
+    ],
+    [
+      768,
+      772
+    ],
+    [
+      774,
+      776
+    ],
+    [
+      778,
+      780
+    ],
+    [
+      786,
+      786
+    ],
+    [
+      806,
+      808
+    ],
+    [
+      7808,
+      7813
+    ],
+    [
+      7838,
+      7838
+    ],
+    [
+      7922,
+      7923
+    ],
+    [
+      8201,
+      8201
+    ],
+    [
+      8211,
+      8212
+    ],
+    [
+      8216,
+      8218
+    ],
+    [
+      8220,
+      8222
+    ],
+    [
+      8224,
+      8226
+    ],
+    [
+      8230,
+      8230
+    ],
+    [
+      8249,
+      8250
+    ],
+    [
+      8260,
+      8260
+    ],
+    [
+      8353,
+      8353
+    ],
+    [
+      8364,
+      8364
+    ],
+    [
+      8470,
+      8470
+    ],
+    [
+      8531,
+      8532
+    ],
+    [
+      8539,
+      8542
+    ],
+    [
+      8722,
+      8722
+    ],
+    [
+      64257,
+      64258
+    ],
+    [
+      127338,
+      127338
+    ]
+  ],
+  "glyph_count": 439,
+  "unicode_count": 374,
+  "metrics": {
+    "x_height_em": 0.59,
+    "cap_height_em": 0.75,
+    "average_advance_em": 0.6405,
+    "mono_measured": false,
+    "digit_tabular_default": false,
+    "measurement_sample": "Hamburgefontsiv0123456789; default unshaped hmtx advances"
+  },
+  "category": "unknown",
+  "category_basis": "measured sample widths then declared PANOSE",
+  "family_key": "50478928d9891b49859e5e3c",
+  "canonical_hash": "282a27d07ff723f5be21a47c48f86b7a661aa04e685fbac305ba7bad3dafa3cb",
+  "rights": {
+    "status": "unknown",
+    "evidence": [
+      {
+        "kind": "embedded-name-9",
+        "text": "Riley Cran"
+      }
+    ],
+    "review_required": true,
+    "nearby_files": []
+  },
+  "warnings": [
+    "OS/2 embedding flags set: 8; technical flags are not a license"
+  ],
+  "render_probe": true,
+  "origins": [
+    {
+      "source_id": "bekah",
+      "path": "Designers/Starbucks/Lander Tall/otf/LanderTall-Bold.otf",
+      "url": "https://github.com/bekahmcdonald/fonts",
+      "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+      "upstream_path": "Designers/Starbucks/Lander Tall/otf/LanderTall-Bold.otf",
+      "container": "ttf"
+    }
+  ],
+  "equivalent_table_variants": [
+    "287ce04f595cf0d64201986970341b95f5a9c14fd6deb9621c20856eb1bfd3de:0",
+    "811b47500db6d8dd20c5fcf41abc8cee34c3daf39ac7b1c858125a0d1989e65a:0"
+  ],
+  "family_available_styles": [
+    [
+      100,
+      false,
+      "Light"
+    ],
+    [
+      100,
+      false,
+      "Light Italic"
+    ],
+    [
+      300,
+      false,
+      "Book"
+    ],
+    [
+      300,
+      false,
+      "Book Italic"
+    ],
+    [
+      400,
+      false,
+      "Italic"
+    ],
+    [
+      400,
+      false,
+      "Regular"
+    ],
+    [
+      600,
+      false,
+      "SemiBold"
+    ],
+    [
+      600,
+      false,
+      "Semibold Italic"
+    ],
+    [
+      700,
+      false,
+      "Bold"
+    ],
+    [
+      700,
+      false,
+      "Bold Italic"
+    ],
+    [
+      900,
+      false,
+      "Black"
+    ],
+    [
+      900,
+      false,
+      "Black Italic"
+    ]
+  ],
+  "family_limits": [
+    "No declared italic in this metadata/version group"
+  ]
+}

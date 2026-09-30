@@ -1,0 +1,19 @@
+{
+  "final": "baseline-large",
+  "baseline_retained": true,
+  "decision": "Retain Roboto with a 170 px one-line title. Both sealed replacement names were unavailable; the larger baseline title gives stronger presence but remains less tactile/playful than desired.",
+  "revision_reason": "Increase existing title 138 to 170 after exact family lookup failures; reject stacked direction because it fragments the name and delays event information.",
+  "counterargument": "This is a functional fallback with limited studio personality; original 138 px control is more restrained and already legible.",
+  "scores": [
+    3,
+    3,
+    5,
+    5
+  ],
+  "score_observations": [
+    "Date, location and participation rule remain easy to locate.",
+    "Confident larger title remains fairly neutral rather than tactile.",
+    "One-line name is dominant while practical information stays below the divider.",
+    "Consistent family keeps supporting copy coherent."
+  ]
+}

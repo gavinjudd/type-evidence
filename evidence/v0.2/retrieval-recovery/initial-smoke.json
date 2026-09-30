@@ -1,0 +1,484 @@
+{
+  "scope": "Non-held-out behavior demonstration on the frozen visual index, not a judgment that top ranks are the best design choice. Images show exact shortlisted faces at 24 and 48px.",
+  "queries": [
+    {
+      "brief": {
+        "query": "warm humanist, not playful or handwritten",
+        "role": "ui",
+        "text": "City lights 2048",
+        "weight": 400,
+        "italic": false,
+        "limit": 4
+      },
+      "elapsed_seconds": 4.802,
+      "query_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {},
+        "negated_aliases": {},
+        "unmodeled_terms": [
+          "handwritten",
+          "humanist",
+          "playful",
+          "warm"
+        ],
+        "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases. The active visual adapter may interpret their appearance; inspect its evidence and render finalists.",
+        "negation_scope": "Negation extends across coordinated terms until punctuation or an explicit contrast such as but. Ambiguous prose should be rewritten or checked against these reported terms.",
+        "unmodeled_positive": [
+          "warm",
+          "humanist"
+        ],
+        "unmodeled_negative": [
+          "playful",
+          "handwritten"
+        ],
+        "visual_scoring_active": true,
+        "unrecognized_brief_fields": [],
+        "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect."
+      },
+      "visual_retrieval": {
+        "status": "used",
+        "model": "FontCLIP ViT-B/32",
+        "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+        "indexed_faces": 26313,
+        "catalog_faces": 27520,
+        "eligible_sample_faces": 27520,
+        "unindexed_faces": 1207,
+        "requested_sample_script": null,
+        "positive_prompt": "warm humanist",
+        "negative_prompts": [
+          "playful",
+          "handwritten"
+        ],
+        "reference_image_used": false,
+        "similar_to": null,
+        "avoid_like": null,
+        "limitations": [
+          "Learned visual resemblance is not a quality, legibility, or audience-fit measurement.",
+          "Only the recorded sample script and default variation axes were embedded.",
+          "Unindexed faces remain eligible without a visual score."
+        ]
+      },
+      "candidates": [
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "category": "unknown",
+          "required_axes": {},
+          "reasons": [
+            {
+              "basis": "learned-visual",
+              "points": 13.9153,
+              "reason": "Content-based visual retrieval: Model-associated attributes: friendly, sharp, casual, humanist. Exact Latin sample; default axes."
+            },
+            {
+              "basis": "measured+heuristic",
+              "points": 1,
+              "reason": "Measured x-height is 0.45\u20130.65 em; this modest preference needs a size-specific preview."
+            },
+            {
+              "basis": "metadata",
+              "points": 1,
+              "reason": "At least three distinct face styles are present for hierarchy."
+            }
+          ],
+          "visual": null
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "category": "unknown",
+          "required_axes": {},
+          "reasons": [
+            {
+              "basis": "learned-visual",
+              "points": 13.5231,
+              "reason": "Content-based visual retrieval: Model-associated attributes: friendly, sharp, humanist, casual. Exact Latin sample; default axes."
+            },
+            {
+              "basis": "measured+heuristic",
+              "points": 1,
+              "reason": "Measured x-height is 0.45\u20130.65 em; this modest preference needs a size-specific preview."
+            },
+            {
+              "basis": "metadata",
+              "points": 1,
+              "reason": "At least three distinct face styles are present for hierarchy."
+            }
+          ],
+          "visual": null
+        },
+        {
+          "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+          "family": "PP Pangram Sans",
+          "style": "Compact Extrabold",
+          "category": "unknown",
+          "required_axes": {},
+          "reasons": [
+            {
+              "basis": "learned-visual",
+              "points": 10.9539,
+              "reason": "Content-based visual retrieval: Model-associated attributes: warm, casual, humanist, heavy. Exact Latin sample; default axes."
+            },
+            {
+              "basis": "measured+heuristic",
+              "points": 1,
+              "reason": "Measured x-height is 0.45\u20130.65 em; this modest preference needs a size-specific preview."
+            },
+            {
+              "basis": "metadata",
+              "points": 1,
+              "reason": "At least three distinct face styles are present for hierarchy."
+            }
+          ],
+          "visual": null
+        },
+        {
+          "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+          "family": "Wyvern Hvy",
+          "style": "Regular",
+          "category": "sans",
+          "required_axes": {},
+          "reasons": [
+            {
+              "basis": "learned-visual",
+              "points": 9.8453,
+              "reason": "Content-based visual retrieval: Model-associated attributes: warm, humanist, heavy, friendly. Exact Latin sample; default axes."
+            },
+            {
+              "basis": "heuristic",
+              "points": 2,
+              "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+            },
+            {
+              "basis": "measured+heuristic",
+              "points": 1,
+              "reason": "Measured x-height is 0.45\u20130.65 em; this modest preference needs a size-specific preview."
+            }
+          ],
+          "visual": null
+        }
+      ],
+      "preview": "query-smoke/humanist.png"
+    },
+    {
+      "brief": {
+        "query": "angular futuristic technical",
+        "role": "game",
+        "text": "City lights 2048",
+        "weight": 400,
+        "italic": false,
+        "limit": 4
+      },
+      "elapsed_seconds": 2.103,
+      "query_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {},
+        "negated_aliases": {},
+        "unmodeled_terms": [
+          "angular",
+          "futuristic",
+          "technical"
+        ],
+        "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases. The active visual adapter may interpret their appearance; inspect its evidence and render finalists.",
+        "negation_scope": "Negation extends across coordinated terms until punctuation or an explicit contrast such as but. Ambiguous prose should be rewritten or checked against these reported terms.",
+        "unmodeled_positive": [
+          "angular",
+          "futuristic",
+          "technical"
+        ],
+        "unmodeled_negative": [],
+        "visual_scoring_active": true,
+        "unrecognized_brief_fields": [],
+        "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect."
+      },
+      "visual_retrieval": {
+        "status": "used",
+        "model": "FontCLIP ViT-B/32",
+        "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+        "indexed_faces": 26313,
+        "catalog_faces": 27520,
+        "eligible_sample_faces": 27520,
+        "unindexed_faces": 1207,
+        "requested_sample_script": null,
+        "positive_prompt": "angular futuristic technical",
+        "negative_prompts": [],
+        "reference_image_used": false,
+        "similar_to": null,
+        "avoid_like": null,
+        "limitations": [
+          "Learned visual resemblance is not a quality, legibility, or audience-fit measurement.",
+          "Only the recorded sample script and default variation axes were embedded.",
+          "Unindexed faces remain eligible without a visual score."
+        ]
+      },
+      "candidates": [
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "category": "unknown",
+          "required_axes": {},
+          "reasons": [
+            {
+              "basis": "learned-visual",
+              "points": 15.823,
+              "reason": "Content-based visual retrieval: Model-associated attributes: playful, decorative, slab serif, geometric. Exact Latin sample; default axes."
+            }
+          ],
+          "visual": null
+        },
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "category": "unknown",
+          "required_axes": {},
+          "reasons": [
+            {
+              "basis": "learned-visual",
+              "points": 15.6232,
+              "reason": "Content-based visual retrieval: Model-associated attributes: decorative, playful, geometric, angular. Exact Latin sample; default axes."
+            }
+          ],
+          "visual": null
+        },
+        {
+          "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+          "family": "Taskforce Outline CondItalic",
+          "style": "Outline CondItalic",
+          "category": "unknown",
+          "required_axes": {},
+          "reasons": [
+            {
+              "basis": "learned-visual",
+              "points": 15.499,
+              "reason": "Content-based visual retrieval: Model-associated attributes: decorative, playful, geometric, angular. Exact Latin sample; default axes."
+            }
+          ],
+          "visual": null
+        },
+        {
+          "id": "9286f109c46ced8a32f82d04550bfb6f4a5f968ba02e974f3b9ce0d6541d8806:0",
+          "family": "Taskforce Outline",
+          "style": "Outline",
+          "category": "unknown",
+          "required_axes": {},
+          "reasons": [
+            {
+              "basis": "learned-visual",
+              "points": 14.9063,
+              "reason": "Content-based visual retrieval: Model-associated attributes: playful, decorative, geometric, slab serif. Exact Latin sample; default axes."
+            }
+          ],
+          "visual": null
+        }
+      ],
+      "preview": "query-smoke/angular.png"
+    },
+    {
+      "brief": {
+        "query": "elegant high contrast serif",
+        "role": "display",
+        "text": "City lights 2048",
+        "weight": 400,
+        "italic": false,
+        "limit": 4
+      },
+      "elapsed_seconds": 2.321,
+      "query_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {
+          "serif": "category:serif"
+        },
+        "negated_aliases": {},
+        "unmodeled_terms": [
+          "elegant",
+          "high contrast"
+        ],
+        "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases. The active visual adapter may interpret their appearance; inspect its evidence and render finalists.",
+        "negation_scope": "Negation extends across coordinated terms until punctuation or an explicit contrast such as but. Ambiguous prose should be rewritten or checked against these reported terms.",
+        "unmodeled_positive": [
+          "elegant",
+          "high contrast"
+        ],
+        "unmodeled_negative": [],
+        "visual_scoring_active": true,
+        "unrecognized_brief_fields": [],
+        "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect."
+      },
+      "visual_retrieval": {
+        "status": "used",
+        "model": "FontCLIP ViT-B/32",
+        "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+        "indexed_faces": 26313,
+        "catalog_faces": 27520,
+        "eligible_sample_faces": 27520,
+        "unindexed_faces": 1207,
+        "requested_sample_script": null,
+        "positive_prompt": "serif elegant high contrast",
+        "negative_prompts": [],
+        "reference_image_used": false,
+        "similar_to": null,
+        "avoid_like": null,
+        "limitations": [
+          "Learned visual resemblance is not a quality, legibility, or audience-fit measurement.",
+          "Only the recorded sample script and default variation axes were embedded.",
+          "Unindexed faces remain eligible without a visual score."
+        ]
+      },
+      "candidates": [
+        {
+          "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+          "family": "Fatty Snax NF",
+          "style": "Regular",
+          "category": "serif",
+          "required_axes": {},
+          "reasons": [
+            {
+              "basis": "learned-visual",
+              "points": 12.4956,
+              "reason": "Content-based visual retrieval: Model-associated attributes: elegant, retro, playful, mechanical. Exact Latin sample; default axes."
+            },
+            {
+              "basis": "metadata",
+              "points": 3,
+              "reason": "Transparent query preference matched: category:serif."
+            },
+            {
+              "basis": "heuristic",
+              "points": 1,
+              "reason": "This role permits multiple categories; compare its actual letterforms."
+            }
+          ],
+          "visual": null
+        },
+        {
+          "id": "0b57f06624ebb46aafd9185990b195574fc5c285d6d249e768f24b58d8bd1419:0",
+          "family": "Extra virgin",
+          "style": "Regular",
+          "category": "unknown",
+          "required_axes": {},
+          "reasons": [
+            {
+              "basis": "learned-visual",
+              "points": 15.2776,
+              "reason": "Content-based visual retrieval: Model-associated attributes: playful, elegant, retro, slab serif. Exact Latin sample; default axes."
+            }
+          ],
+          "visual": null
+        },
+        {
+          "id": "dd4109b1c77dd10c6dbc45b3da9ba922b67a6eff86d63d94d5f0fd150a1c0a4f:0",
+          "family": "Mondo Redondo NF",
+          "style": "Regular",
+          "category": "serif",
+          "required_axes": {},
+          "reasons": [
+            {
+              "basis": "learned-visual",
+              "points": 10.7656,
+              "reason": "Content-based visual retrieval: Model-associated attributes: decorative, playful, retro, elegant. Exact Latin sample; default axes."
+            },
+            {
+              "basis": "metadata",
+              "points": 3,
+              "reason": "Transparent query preference matched: category:serif."
+            },
+            {
+              "basis": "heuristic",
+              "points": 1,
+              "reason": "This role permits multiple categories; compare its actual letterforms."
+            }
+          ],
+          "visual": null
+        },
+        {
+          "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+          "family": "Offshore Banking Business",
+          "style": "Regular",
+          "category": "unknown",
+          "required_axes": {},
+          "reasons": [
+            {
+              "basis": "learned-visual",
+              "points": 14.3788,
+              "reason": "Content-based visual retrieval: Model-associated attributes: serif, elegant, warm, playful. Exact Latin sample; default axes."
+            }
+          ],
+          "visual": null
+        }
+      ],
+      "preview": "query-smoke/elegant.png"
+    }
+  ],
+  "reference_self_match": {
+    "reference_font": "Lander Tall",
+    "reference_id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+    "reference_render": {
+      "script": "Latin",
+      "text": "The quick\nbrown fox\njumps over\nthe lazy dog",
+      "language": "und",
+      "axes": {},
+      "mask_sha256": "35a52cdbbdf1c6d8ff85ac432a6659ad09e82dc620fa98621cd68abd3378bbf5",
+      "font_sha256": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025"
+    },
+    "visual_retrieval": {
+      "status": "used",
+      "model": "FontCLIP ViT-B/32",
+      "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+      "indexed_faces": 26313,
+      "catalog_faces": 27520,
+      "eligible_sample_faces": 27520,
+      "unindexed_faces": 1207,
+      "requested_sample_script": null,
+      "positive_prompt": "",
+      "negative_prompts": [],
+      "reference_image_used": true,
+      "similar_to": null,
+      "avoid_like": null,
+      "limitations": [
+        "Learned visual resemblance is not a quality, legibility, or audience-fit measurement.",
+        "Only the recorded sample script and default variation axes were embedded.",
+        "Unindexed faces remain eligible without a visual score."
+      ]
+    },
+    "candidates": [
+      {
+        "id": "93db4dd819dda8cf44e6eca8428d708f81cddd0162e95353f8acf3b4bd612e6d:0",
+        "family": "Noto Serif",
+        "style": "Condensed Medium",
+        "visual": null
+      },
+      {
+        "id": "1d2a262568eb9fcb25779407fb2f60f5ebd62fdb32ae5f90c301c28e83b489b8:0",
+        "family": "Orbikular",
+        "style": "Regular",
+        "visual": null
+      },
+      {
+        "id": "67f87292a6389371963e3d238745cc84f4eefcfceeb666d726128214047eb49e:0",
+        "family": "IBM Plex Serif",
+        "style": "Text",
+        "visual": null
+      },
+      {
+        "id": "ff899acd8c17de958e8d868fcddcfdca9b24c93ed81b10c51d13b00961e50020:0",
+        "family": "Family",
+        "style": "Regular",
+        "visual": null
+      }
+    ]
+  },
+  "visual_review": {
+    "reviewer": "Primary implementation agent; not blinded",
+    "angular": "Finds angular display shapes, but first option is fragmented and one result says CondItalic despite the requested upright flag. This is a retrieval/style-constraint failure, not a recommended final selection.",
+    "elegant": "Top results are chunky, decorative or distressed and do not meet the requested elegant high-contrast serif direction. Preserved as a failure for investigation.",
+    "humanist": "The first two serif options are visually calm and related, but the shortlist has limited shape diversity. PP Pangram Sans Compact Extrabold passes a weight-400 request despite explicit Extrabold style text; Wyvern Hvy is visibly heavy. A usable pair of initial directions does not erase the style conflict.",
+    "next": "Investigate prompt/render convention and explicit style-name conflicts. Keep held-out first-pass configuration frozen; label later changes as post-first-pass iteration."
+  }
+}

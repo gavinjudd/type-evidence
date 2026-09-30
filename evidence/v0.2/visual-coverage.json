@@ -1,0 +1,775 @@
+{
+  "scope": "Frozen current corpus; actual default-axis sample embeddings, not every glyph/axis and not design quality. Script sample eligibility counts differ from general cmap/language coverage.",
+  "catalog_faces": 27520,
+  "indexed_faces": 26313,
+  "coverage_percent": 95.61,
+  "category_counts": {
+    "catalog": {
+      "unknown": 20598,
+      "mono": 2273,
+      "sans": 3589,
+      "serif": 963,
+      "display": 63,
+      "script": 34
+    },
+    "indexed": {
+      "unknown": 19989,
+      "mono": 2251,
+      "sans": 3176,
+      "serif": 819,
+      "display": 45,
+      "script": 33
+    }
+  },
+  "sample_scripts": {
+    "Latin": 26281,
+    "Cyrillic": 32
+  },
+  "failure_counts": {
+    "No complete supported visual sample; exact text search remains available": 1121,
+    "Color/bitmap font rendering is unsupported: EXACT_ID.": 76,
+    "HarfBuzz and FreeType disagree about the exact face glyph count.": 5,
+    "FreeType could not rasterize glyph 78: FT_Exception:  (raster overflow)": 1,
+    "Glyph bounds exceed the safe raster limit.": 1,
+    "Supersampled specimen exceeds the raster budget; shorten the text or reduce sizes.": 1,
+    "FreeType could not rasterize glyph 75: FT_Exception:  (raster overflow)": 1,
+    "FreeType could not rasterize glyph 80: FT_Exception:  (raster overflow)": 1
+  },
+  "default_initial_build": {
+    "model": "FontCLIP ViT-B/32",
+    "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+    "render_version": 1,
+    "catalog_faces": 27520,
+    "indexed_current_faces": 26313,
+    "remaining_faces": 1207,
+    "new_rendered": 24550,
+    "reused_equivalent": 1731,
+    "new_failures": 1207,
+    "failures_recorded": 1207,
+    "seconds": 2233.34,
+    "device": "cpu",
+    "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+  },
+  "default_final_resume": {
+    "model": "FontCLIP ViT-B/32",
+    "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+    "render_version": 1,
+    "catalog_faces": 27520,
+    "eligible_sample_faces": 27520,
+    "sample_script": "first complete supported sample",
+    "indexed_current_faces": 26313,
+    "remaining_faces": 1207,
+    "new_rendered": 0,
+    "reused_equivalent": 0,
+    "new_failures": 1207,
+    "failures_recorded": 1207,
+    "seconds": 3.14,
+    "device": "cpu",
+    "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+  },
+  "script_builds": [
+    {
+      "model": "FontCLIP ViT-B/32",
+      "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+      "render_version": 1,
+      "catalog_faces": 27520,
+      "eligible_sample_faces": 40,
+      "sample_script": "Arabic",
+      "indexed_current_faces": 40,
+      "remaining_faces": 0,
+      "new_rendered": 40,
+      "reused_equivalent": 0,
+      "new_failures": 0,
+      "failures_recorded": 0,
+      "seconds": 2.5,
+      "device": "cpu",
+      "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+    },
+    {
+      "model": "FontCLIP ViT-B/32",
+      "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+      "render_version": 1,
+      "catalog_faces": 27520,
+      "eligible_sample_faces": 6,
+      "sample_script": "Bengali",
+      "indexed_current_faces": 6,
+      "remaining_faces": 0,
+      "new_rendered": 6,
+      "reused_equivalent": 0,
+      "new_failures": 0,
+      "failures_recorded": 0,
+      "seconds": 0.5,
+      "device": "cpu",
+      "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+    },
+    {
+      "model": "FontCLIP ViT-B/32",
+      "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+      "render_version": 1,
+      "catalog_faces": 27520,
+      "eligible_sample_faces": 4,
+      "sample_script": "Chinese",
+      "indexed_current_faces": 4,
+      "remaining_faces": 0,
+      "new_rendered": 4,
+      "reused_equivalent": 0,
+      "new_failures": 0,
+      "failures_recorded": 0,
+      "seconds": 0.49,
+      "device": "cpu",
+      "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+    },
+    {
+      "model": "FontCLIP ViT-B/32",
+      "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+      "render_version": 1,
+      "catalog_faces": 27520,
+      "eligible_sample_faces": 49,
+      "sample_script": "ChineseTraditional",
+      "indexed_current_faces": 49,
+      "remaining_faces": 0,
+      "new_rendered": 49,
+      "reused_equivalent": 0,
+      "new_failures": 0,
+      "failures_recorded": 0,
+      "seconds": 6.25,
+      "device": "cpu",
+      "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+    },
+    {
+      "model": "FontCLIP ViT-B/32",
+      "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+      "render_version": 1,
+      "catalog_faces": 27520,
+      "eligible_sample_faces": 8317,
+      "sample_script": "Cyrillic",
+      "indexed_current_faces": 8305,
+      "remaining_faces": 12,
+      "new_rendered": 7635,
+      "reused_equivalent": 670,
+      "new_failures": 12,
+      "failures_recorded": 12,
+      "seconds": 755.16,
+      "device": "cpu",
+      "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+    },
+    {
+      "model": "FontCLIP ViT-B/32",
+      "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+      "render_version": 1,
+      "catalog_faces": 27520,
+      "eligible_sample_faces": 62,
+      "sample_script": "Devanagari",
+      "indexed_current_faces": 62,
+      "remaining_faces": 0,
+      "new_rendered": 62,
+      "reused_equivalent": 0,
+      "new_failures": 0,
+      "failures_recorded": 0,
+      "seconds": 6.11,
+      "device": "cpu",
+      "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+    },
+    {
+      "model": "FontCLIP ViT-B/32",
+      "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+      "render_version": 1,
+      "catalog_faces": 27520,
+      "eligible_sample_faces": 1,
+      "sample_script": "Ethiopic",
+      "indexed_current_faces": 1,
+      "remaining_faces": 0,
+      "new_rendered": 1,
+      "reused_equivalent": 0,
+      "new_failures": 0,
+      "failures_recorded": 0,
+      "seconds": 0.07,
+      "device": "cpu",
+      "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+    },
+    {
+      "model": "FontCLIP ViT-B/32",
+      "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+      "render_version": 1,
+      "catalog_faces": 27520,
+      "eligible_sample_faces": 5438,
+      "sample_script": "Greek",
+      "indexed_current_faces": 5427,
+      "remaining_faces": 11,
+      "new_rendered": 4952,
+      "reused_equivalent": 475,
+      "new_failures": 11,
+      "failures_recorded": 11,
+      "seconds": 463.73,
+      "device": "cpu",
+      "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+    },
+    {
+      "model": "FontCLIP ViT-B/32",
+      "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+      "render_version": 1,
+      "catalog_faces": 27520,
+      "eligible_sample_faces": 85,
+      "sample_script": "Hebrew",
+      "indexed_current_faces": 85,
+      "remaining_faces": 0,
+      "new_rendered": 84,
+      "reused_equivalent": 1,
+      "new_failures": 0,
+      "failures_recorded": 0,
+      "seconds": 4.03,
+      "device": "cpu",
+      "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+    },
+    {
+      "model": "FontCLIP ViT-B/32",
+      "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+      "render_version": 1,
+      "catalog_faces": 27520,
+      "eligible_sample_faces": 49,
+      "sample_script": "Japanese",
+      "indexed_current_faces": 49,
+      "remaining_faces": 0,
+      "new_rendered": 49,
+      "reused_equivalent": 0,
+      "new_failures": 0,
+      "failures_recorded": 0,
+      "seconds": 4.69,
+      "device": "cpu",
+      "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+    },
+    {
+      "model": "FontCLIP ViT-B/32",
+      "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+      "render_version": 1,
+      "catalog_faces": 27520,
+      "eligible_sample_faces": 4,
+      "sample_script": "Korean",
+      "indexed_current_faces": 4,
+      "remaining_faces": 0,
+      "new_rendered": 4,
+      "reused_equivalent": 0,
+      "new_failures": 0,
+      "failures_recorded": 0,
+      "seconds": 0.5,
+      "device": "cpu",
+      "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+    },
+    {
+      "model": "FontCLIP ViT-B/32",
+      "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+      "render_version": 1,
+      "catalog_faces": 27520,
+      "eligible_sample_faces": 0,
+      "sample_script": "Tamil",
+      "indexed_current_faces": 0,
+      "remaining_faces": 0,
+      "new_rendered": 0,
+      "reused_equivalent": 0,
+      "new_failures": 0,
+      "failures_recorded": 0,
+      "seconds": 0.0,
+      "device": "cpu",
+      "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+    },
+    {
+      "model": "FontCLIP ViT-B/32",
+      "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+      "render_version": 1,
+      "catalog_faces": 27520,
+      "eligible_sample_faces": 36,
+      "sample_script": "Thai",
+      "indexed_current_faces": 36,
+      "remaining_faces": 0,
+      "new_rendered": 36,
+      "reused_equivalent": 0,
+      "new_failures": 0,
+      "failures_recorded": 0,
+      "seconds": 2.05,
+      "device": "cpu",
+      "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+    }
+  ],
+  "frozen_indices": [
+    {
+      "file": "visual-Arabic.sqlite",
+      "sha256": "3ac41a601fc3d397e3e13b08427095100bb2aaabe5eadde780074ad84be05088",
+      "bytes": 192512,
+      "meta": {
+        "config": {
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "dimension": 512,
+          "sample_script": "Arabic",
+          "sample_text_sha256": "e3d122fab908a678e53aab04d83c92e1faae923f8a0d0132a1aca6f672f3752f",
+          "sample_language": "ar"
+        },
+        "report": {
+          "model": "FontCLIP ViT-B/32",
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "catalog_faces": 27520,
+          "eligible_sample_faces": 40,
+          "sample_script": "Arabic",
+          "indexed_current_faces": 40,
+          "remaining_faces": 0,
+          "new_rendered": 40,
+          "reused_equivalent": 0,
+          "new_failures": 0,
+          "failures_recorded": 0,
+          "seconds": 2.5,
+          "device": "cpu",
+          "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+        }
+      },
+      "vectors": 40,
+      "failures": 0
+    },
+    {
+      "file": "visual-Bengali.sqlite",
+      "sha256": "feb719f7e9add24dcb32397ee1ee9749c16c526cbe51b2e607420524ec3f62f9",
+      "bytes": 53248,
+      "meta": {
+        "config": {
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "dimension": 512,
+          "sample_script": "Bengali",
+          "sample_text_sha256": "66a0c0562e763678dcb7d21c5bfa8ca3402c8f57e7e7a502858aae713020b69a",
+          "sample_language": "bn"
+        },
+        "report": {
+          "model": "FontCLIP ViT-B/32",
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "catalog_faces": 27520,
+          "eligible_sample_faces": 6,
+          "sample_script": "Bengali",
+          "indexed_current_faces": 6,
+          "remaining_faces": 0,
+          "new_rendered": 6,
+          "reused_equivalent": 0,
+          "new_failures": 0,
+          "failures_recorded": 0,
+          "seconds": 0.5,
+          "device": "cpu",
+          "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+        }
+      },
+      "vectors": 6,
+      "failures": 0
+    },
+    {
+      "file": "visual-Chinese.sqlite",
+      "sha256": "c06a0e090ecbc6a5ed1d93bd8467715146ab93c80362502feada09cf0598eb9e",
+      "bytes": 45056,
+      "meta": {
+        "config": {
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "dimension": 512,
+          "sample_script": "Chinese",
+          "sample_text_sha256": "8aa04c10ffcd67822db28f08cc84d10bad789eac65ac54cc3006809d5cbc49e0",
+          "sample_language": "zh-Hans"
+        },
+        "report": {
+          "model": "FontCLIP ViT-B/32",
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "catalog_faces": 27520,
+          "eligible_sample_faces": 4,
+          "sample_script": "Chinese",
+          "indexed_current_faces": 4,
+          "remaining_faces": 0,
+          "new_rendered": 4,
+          "reused_equivalent": 0,
+          "new_failures": 0,
+          "failures_recorded": 0,
+          "seconds": 0.49,
+          "device": "cpu",
+          "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+        }
+      },
+      "vectors": 4,
+      "failures": 0
+    },
+    {
+      "file": "visual-ChineseTraditional.sqlite",
+      "sha256": "c2aabe21b67bb79681c9b5d21d95729649af24672a18fe0af244f08638f364c8",
+      "bytes": 229376,
+      "meta": {
+        "config": {
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "dimension": 512,
+          "sample_script": "ChineseTraditional",
+          "sample_text_sha256": "d915a1482da890d719eabc4d024e05de72aa6bd5518ae4b26cdd92c72af67f15",
+          "sample_language": "zh-Hant"
+        },
+        "report": {
+          "model": "FontCLIP ViT-B/32",
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "catalog_faces": 27520,
+          "eligible_sample_faces": 49,
+          "sample_script": "ChineseTraditional",
+          "indexed_current_faces": 49,
+          "remaining_faces": 0,
+          "new_rendered": 49,
+          "reused_equivalent": 0,
+          "new_failures": 0,
+          "failures_recorded": 0,
+          "seconds": 6.25,
+          "device": "cpu",
+          "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+        }
+      },
+      "vectors": 49,
+      "failures": 0
+    },
+    {
+      "file": "visual-Cyrillic.sqlite",
+      "sha256": "0c4a88ecceda190366cf5ef0eb58c3ed38d0946b6bf05be66769b0e027c4e5cf",
+      "bytes": 34816000,
+      "meta": {
+        "config": {
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "dimension": 512,
+          "sample_script": "Cyrillic",
+          "sample_text_sha256": "61e063429e615400c6169f4ae15648c3fba869822c4251b828b399e2ffc0ea55",
+          "sample_language": "ru"
+        },
+        "report": {
+          "model": "FontCLIP ViT-B/32",
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "catalog_faces": 27520,
+          "eligible_sample_faces": 8317,
+          "sample_script": "Cyrillic",
+          "indexed_current_faces": 8305,
+          "remaining_faces": 12,
+          "new_rendered": 7635,
+          "reused_equivalent": 670,
+          "new_failures": 12,
+          "failures_recorded": 12,
+          "seconds": 755.16,
+          "device": "cpu",
+          "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+        }
+      },
+      "vectors": 8305,
+      "failures": 12
+    },
+    {
+      "file": "visual-Devanagari.sqlite",
+      "sha256": "044397bc249a61b6073036727986d6e9fa1003f63616424c0a2c14bd90ff8d99",
+      "bytes": 290816,
+      "meta": {
+        "config": {
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "dimension": 512,
+          "sample_script": "Devanagari",
+          "sample_text_sha256": "a8ed80c1aec8a88f8adb352626e6654ff994a305132e1e5fece91aa6aa56e95e",
+          "sample_language": "hi"
+        },
+        "report": {
+          "model": "FontCLIP ViT-B/32",
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "catalog_faces": 27520,
+          "eligible_sample_faces": 62,
+          "sample_script": "Devanagari",
+          "indexed_current_faces": 62,
+          "remaining_faces": 0,
+          "new_rendered": 62,
+          "reused_equivalent": 0,
+          "new_failures": 0,
+          "failures_recorded": 0,
+          "seconds": 6.11,
+          "device": "cpu",
+          "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+        }
+      },
+      "vectors": 62,
+      "failures": 0
+    },
+    {
+      "file": "visual-Ethiopic.sqlite",
+      "sha256": "d3f0327fef984e1f3a6d4577a9910b5cffa14461af39d2ea1e23582e8108e70b",
+      "bytes": 28672,
+      "meta": {
+        "config": {
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "dimension": 512,
+          "sample_script": "Ethiopic",
+          "sample_text_sha256": "fb9720063b9a7768c6f27ad5cb7ccf8971afdcdc0a34a84c0979757eff141c63",
+          "sample_language": "am"
+        },
+        "report": {
+          "model": "FontCLIP ViT-B/32",
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "catalog_faces": 27520,
+          "eligible_sample_faces": 1,
+          "sample_script": "Ethiopic",
+          "indexed_current_faces": 1,
+          "remaining_faces": 0,
+          "new_rendered": 1,
+          "reused_equivalent": 0,
+          "new_failures": 0,
+          "failures_recorded": 0,
+          "seconds": 0.07,
+          "device": "cpu",
+          "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+        }
+      },
+      "vectors": 1,
+      "failures": 0
+    },
+    {
+      "file": "visual-Greek.sqlite",
+      "sha256": "3d7ce3269ef67c29f1f4bfaf8a23f60d41f511d8faceb5a93f809467f2b3d81f",
+      "bytes": 22761472,
+      "meta": {
+        "config": {
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "dimension": 512,
+          "sample_script": "Greek",
+          "sample_text_sha256": "8c8a012c3df2af6191765e80b1a2733c151878a93ccb1215eeb4612c0932d1e8",
+          "sample_language": "el"
+        },
+        "report": {
+          "model": "FontCLIP ViT-B/32",
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "catalog_faces": 27520,
+          "eligible_sample_faces": 5438,
+          "sample_script": "Greek",
+          "indexed_current_faces": 5427,
+          "remaining_faces": 11,
+          "new_rendered": 4952,
+          "reused_equivalent": 475,
+          "new_failures": 11,
+          "failures_recorded": 11,
+          "seconds": 463.73,
+          "device": "cpu",
+          "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+        }
+      },
+      "vectors": 5427,
+      "failures": 11
+    },
+    {
+      "file": "visual-Hebrew.sqlite",
+      "sha256": "007003755062c9cc214924330b8e1c1f03b0c2633c9f267dc283ee0aa22d98d6",
+      "bytes": 385024,
+      "meta": {
+        "config": {
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "dimension": 512,
+          "sample_script": "Hebrew",
+          "sample_text_sha256": "0a0ae8bd9f2c03860510fbdf46e91d996b4529e7996bd46c141e33c5179a9607",
+          "sample_language": "he"
+        },
+        "report": {
+          "model": "FontCLIP ViT-B/32",
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "catalog_faces": 27520,
+          "eligible_sample_faces": 85,
+          "sample_script": "Hebrew",
+          "indexed_current_faces": 85,
+          "remaining_faces": 0,
+          "new_rendered": 84,
+          "reused_equivalent": 1,
+          "new_failures": 0,
+          "failures_recorded": 0,
+          "seconds": 4.03,
+          "device": "cpu",
+          "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+        }
+      },
+      "vectors": 85,
+      "failures": 0
+    },
+    {
+      "file": "visual-Japanese.sqlite",
+      "sha256": "11835c5a5525455e9a844aa602a38096f9eb40b67898199bd7916720bb8d6faf",
+      "bytes": 229376,
+      "meta": {
+        "config": {
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "dimension": 512,
+          "sample_script": "Japanese",
+          "sample_text_sha256": "9230614b9f5407141051e69382f59c095aeaecf39ab843e3e5dbac9f857e9f22",
+          "sample_language": "ja"
+        },
+        "report": {
+          "model": "FontCLIP ViT-B/32",
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "catalog_faces": 27520,
+          "eligible_sample_faces": 49,
+          "sample_script": "Japanese",
+          "indexed_current_faces": 49,
+          "remaining_faces": 0,
+          "new_rendered": 49,
+          "reused_equivalent": 0,
+          "new_failures": 0,
+          "failures_recorded": 0,
+          "seconds": 4.69,
+          "device": "cpu",
+          "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+        }
+      },
+      "vectors": 49,
+      "failures": 0
+    },
+    {
+      "file": "visual-Korean.sqlite",
+      "sha256": "a87943c24f28c14f2e9e853841b639ae4586894a91abc3ff706dd20fef760c14",
+      "bytes": 45056,
+      "meta": {
+        "config": {
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "dimension": 512,
+          "sample_script": "Korean",
+          "sample_text_sha256": "1491df9a6754421926b52be2832b3ecd999b97d592944d99232fa4740155a579",
+          "sample_language": "ko"
+        },
+        "report": {
+          "model": "FontCLIP ViT-B/32",
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "catalog_faces": 27520,
+          "eligible_sample_faces": 4,
+          "sample_script": "Korean",
+          "indexed_current_faces": 4,
+          "remaining_faces": 0,
+          "new_rendered": 4,
+          "reused_equivalent": 0,
+          "new_failures": 0,
+          "failures_recorded": 0,
+          "seconds": 0.5,
+          "device": "cpu",
+          "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+        }
+      },
+      "vectors": 4,
+      "failures": 0
+    },
+    {
+      "file": "visual-Tamil.sqlite",
+      "sha256": "9d6eda27bc74ebae546bc94ae4f90bf075c149d27f36724ffa3598d947986be8",
+      "bytes": 28672,
+      "meta": {
+        "config": {
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "dimension": 512,
+          "sample_script": "Tamil",
+          "sample_text_sha256": "1108047ad5145290826d656238d5ae9039be327bf7d9fc2d5b87ed1f6676821d",
+          "sample_language": "ta"
+        },
+        "report": {
+          "model": "FontCLIP ViT-B/32",
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "catalog_faces": 27520,
+          "eligible_sample_faces": 0,
+          "sample_script": "Tamil",
+          "indexed_current_faces": 0,
+          "remaining_faces": 0,
+          "new_rendered": 0,
+          "reused_equivalent": 0,
+          "new_failures": 0,
+          "failures_recorded": 0,
+          "seconds": 0.0,
+          "device": "cpu",
+          "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+        }
+      },
+      "vectors": 0,
+      "failures": 0
+    },
+    {
+      "file": "visual-Thai.sqlite",
+      "sha256": "dc159d50b727e9773ddf38cf527e4d0f240d1f0589209545bc0b4c8192c30785",
+      "bytes": 176128,
+      "meta": {
+        "config": {
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "dimension": 512,
+          "sample_script": "Thai",
+          "sample_text_sha256": "5384cf0050be8515a738a7ab2a8eb5136a4b0516770ac26ad25c6585f91122b0",
+          "sample_language": "th"
+        },
+        "report": {
+          "model": "FontCLIP ViT-B/32",
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "catalog_faces": 27520,
+          "eligible_sample_faces": 36,
+          "sample_script": "Thai",
+          "indexed_current_faces": 36,
+          "remaining_faces": 0,
+          "new_rendered": 36,
+          "reused_equivalent": 0,
+          "new_failures": 0,
+          "failures_recorded": 0,
+          "seconds": 2.05,
+          "device": "cpu",
+          "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+        }
+      },
+      "vectors": 36,
+      "failures": 0
+    },
+    {
+      "file": "visual.sqlite",
+      "sha256": "181d5153fceb393ebcec4092d80aa33a1d79172d3385161b8bd290079fa79e4a",
+      "bytes": 110505984,
+      "meta": {
+        "config": {
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "dimension": 512
+        },
+        "report": {
+          "model": "FontCLIP ViT-B/32",
+          "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+          "render_version": 1,
+          "catalog_faces": 27520,
+          "eligible_sample_faces": 27520,
+          "sample_script": "first complete supported sample",
+          "indexed_current_faces": 26313,
+          "remaining_faces": 1207,
+          "new_rendered": 0,
+          "reused_equivalent": 0,
+          "new_failures": 1207,
+          "failures_recorded": 1207,
+          "seconds": 3.14,
+          "device": "cpu",
+          "scope": "Actual default-axis rendered shapes. Similarity is learned interpretation, not readability or suitability proof."
+        }
+      },
+      "vectors": 26313,
+      "failures": 1207
+    }
+  ],
+  "checkpoint_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+  "remaining_limitations": [
+    "Tamil configured sample has zero eligible faces in this corpus; metadata lookup and exact rendering of covered text remain possible.",
+    "Color/bitmap rendering remains unsupported.",
+    "Native Windows and CUDA are not verified. CPU full build and bounded MPS probe were exercised on macOS.",
+    "Default-axis associations are learned interpretations; verify project text, exact sizes and final composition."
+  ]
+}

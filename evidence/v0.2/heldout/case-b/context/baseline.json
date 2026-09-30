@@ -1,0 +1,105 @@
+{
+  "template": "poster",
+  "title": "OFFCUT print exchange",
+  "medium": "print-preview",
+  "width": 1000,
+  "padding": 64,
+  "gap": 28,
+  "min_height": 1260,
+  "background": "#ef9d59",
+  "roles": {
+    "eyebrow": {
+      "font_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "size": 22,
+      "weight": 700,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#262521",
+      "language": "en"
+    },
+    "title": {
+      "font_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "size": 138,
+      "weight": 700,
+      "italic": false,
+      "line_height": 1.0,
+      "color": "#262521",
+      "language": "en"
+    },
+    "dek": {
+      "font_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "size": 37,
+      "weight": 400,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#262521",
+      "language": "en"
+    },
+    "body": {
+      "font_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "size": 31,
+      "weight": 400,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#262521",
+      "language": "pl"
+    },
+    "heading": {
+      "font_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "size": 32,
+      "weight": 700,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#262521",
+      "language": "pl"
+    },
+    "caption": {
+      "font_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "size": 24,
+      "weight": 400,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#262521",
+      "language": "pl"
+    }
+  },
+  "blocks": [
+    {
+      "role": "eyebrow",
+      "text": "COMMON PRESS / OTWARTA PRACOWNIA"
+    },
+    {
+      "role": "title",
+      "text": "OFFCUT"
+    },
+    {
+      "role": "dek",
+      "text": "A print in.\nA print out."
+    },
+    {
+      "type": "spacer",
+      "height": 42
+    },
+    {
+      "type": "rule",
+      "color": "#262521",
+      "thickness": 2
+    },
+    {
+      "role": "heading",
+      "text": "Sobota, 17 października / 18:00–22:00"
+    },
+    {
+      "role": "body",
+      "text": "Druk, papier i ludzie.\nPrzynieś jeden wydruk, wybierz następny."
+    },
+    {
+      "role": "body",
+      "text": "Pracownia przy Rynku 8\nŁódź"
+    },
+    {
+      "role": "caption",
+      "text": "Każdy poziom doświadczenia jest mile widziany.\nWstęp wolny. Papier i tusz na miejscu."
+    }
+  ]
+}

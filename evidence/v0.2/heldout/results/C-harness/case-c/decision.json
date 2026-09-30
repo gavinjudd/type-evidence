@@ -1,0 +1,27 @@
+{
+  "final": "final",
+  "baseline_retained": false,
+  "decision": "Retain A/B Source Sans Pro. Semantic retrieval found feasible serif and sans alternatives, but initial high-ranked Lander Tall weakened task hierarchy and refined Ubuntu added wrapping without enough benefit. C ties A and B for this case.",
+  "revision_reason": "Remove appended audit; retain established body18/caption15 and one-family implementation.",
+  "counterargument": "Ubuntu has friendly differentiated shapes and could win with a different size/leading balance; budgeted comparison is not an exhaustive optimization. Prior Source exposure favors retention.",
+  "scores": [
+    5,
+    4,
+    5,
+    5
+  ],
+  "score_observations": [
+    "Compact phone instruction with visibly differentiated Turkish/audit forms.",
+    "Open humanist forms feel patient.",
+    "Task, material label, steps and continuation are distinct.",
+    "One coherent family serves the entire screen."
+  ],
+  "carryover_candidates": [
+    "Source Sans Pro first proposed and selected in A; B retained it.",
+    "Amazon Ember was seen in B browsing and returned by a C refinement but not rendered."
+  ],
+  "carryover_layout": [
+    "A body18/caption15 settings reused.",
+    "A/B audit-character observations informed comparison."
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "width": 740,
+  "padding": 42,
+  "gap": 16,
+  "background": "#f5f3eb",
+  "template": "interface",
+  "title": "Harbour link notice",
+  "medium": "print-preview",
+  "min_height": 0,
+  "roles": {
+    "eyebrow": {
+      "font_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "size": 16,
+      "line_height": 1.4,
+      "color": "#202b30",
+      "features": {},
+      "axes": {},
+      "language": "en",
+      "direction": null,
+      "align": "start",
+      "weight": 700,
+      "italic": false
+    },
+    "title": {
+      "font_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "size": 34,
+      "line_height": 1.1,
+      "color": "#202b30",
+      "features": {},
+      "axes": {},
+      "language": "en",
+      "direction": null,
+      "align": "start",
+      "weight": 700,
+      "italic": false
+    },
+    "body": {
+      "font_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "size": 20,
+      "line_height": 1.4,
+      "color": "#202b30",
+      "features": {},
+      "axes": {},
+      "language": "en",
+      "direction": null,
+      "align": "start",
+      "weight": 400,
+      "italic": false
+    },
+    "body_fr": {
+      "font_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "size": 20,
+      "line_height": 1.4,
+      "color": "#202b30",
+      "features": {},
+      "axes": {},
+      "language": "fr",
+      "direction": null,
+      "align": "start",
+      "weight": 400,
+      "italic": false
+    },
+    "heading": {
+      "font_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "size": 21,
+      "line_height": 1.4,
+      "color": "#202b30",
+      "features": {},
+      "axes": {},
+      "language": "en",
+      "direction": null,
+      "align": "start",
+      "weight": 700,
+      "italic": false
+    },
+    "time": {
+      "font_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "size": 24,
+      "line_height": 1.4,
+      "color": "#202b30",
+      "features": {},
+      "axes": {},
+      "language": "en",
+      "direction": null,
+      "align": "start",
+      "weight": 700,
+      "italic": false
+    },
+    "caption": {
+      "font_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "size": 16,
+      "line_height": 1.4,
+      "color": "#202b30",
+      "features": {},
+      "axes": {},
+      "language": "en",
+      "direction": null,
+      "align": "start",
+      "weight": 400,
+      "italic": false
+    }
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "eyebrow",
+      "text": "HARBOUR LINK / LIAISON DU PORT"
+    },
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "title",
+      "text": "A different landing,\nthe same crossing."
+    },
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "heading",
+      "text": "12–16 October / 12–16 octobre"
+    },
+    {
+      "type": "rule",
+      "gap": 16,
+      "color": "#24746c",
+      "thickness": 4
+    },
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "body",
+      "text": "Use the east landing while we repair the west ramp. The crossing still takes 8 minutes."
+    },
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "body_fr",
+      "text": "Pendant les travaux, utilisez le quai est. La traversée dure toujours 8 minutes."
+    },
+    {
+      "type": "table",
+      "gap": 16,
+      "role": "time",
+      "header_role": "caption",
+      "columns": [
+        {
+          "text": "From town / De la ville",
+          "width": 1,
+          "align": "start"
+        },
+        {
+          "text": "From island / De l’île",
+          "width": 1,
+          "align": "start"
+        }
+      ],
+      "rows": [
+        [
+          "07:10",
+          "07:25"
+        ],
+        [
+          "08:10",
+          "08:25"
+        ],
+        [
+          "09:10",
+          "09:25"
+        ]
+      ],
+      "row_padding": 9,
+      "rule_color": "#d3d9dd"
+    },
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "caption",
+      "text": "Need a hand? Ask the crew at the east landing."
+    },
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "body_fr",
+      "text": "Besoin d’aide ? Adressez-vous à l’équipe du quai est."
+    }
+  ]
+}

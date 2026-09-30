@@ -1,0 +1,40 @@
+{
+  "baseline_decision": "Compare two C discoveries and A/B-selected Source Sans against supplied Roboto.",
+  "options": [
+    {
+      "family": "Lander Tall",
+      "styles": [
+        "Regular400",
+        "Bold700"
+      ],
+      "settings": "body18 caption15 baseline other sizes, audit appended",
+      "expected_fit": "Initial visual retrieval emphasizes friendly humanist shapes and larger lowercase; test whether these suit instruction instead of assuming higher score means better.",
+      "uncertainty": "Unfamiliar family; may feel literary or too large; italic metadata elsewhere in family is inconsistent.",
+      "previously_familiar": false
+    },
+    {
+      "family": "Ubuntu",
+      "styles": [
+        "Regular400",
+        "Bold700"
+      ],
+      "settings": "body18 caption15 baseline other sizes, audit appended",
+      "expected_fit": "Refined semantically constrained result may offer open sans forms and distinctive audit characters.",
+      "uncertainty": "Familiar technology association might feel too branded.",
+      "previously_familiar": true
+    },
+    {
+      "family": "Source Sans Pro",
+      "styles": [
+        "Regular400",
+        "Bold700"
+      ],
+      "settings": "Retain A/B body18 caption15; audit appended",
+      "expected_fit": "Earlier actual I/l advantage remains comparison.",
+      "uncertainty": "Carryover favors an already familiar successful setting.",
+      "previously_familiar": true
+    }
+  ],
+  "query_refinement": "Initial/page2 broad humanist results; refine toward sans with Source similarity; repeat explicit negation after comma coordination incorrectly made ornate/delicate positive. Last recovery query reports intended negatives.",
+  "sealed_at_utc": "2026-09-30T16:46:47.115102+00:00"
+}

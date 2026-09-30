@@ -1,0 +1,254 @@
+{
+  "evaluation": "Blind formative typography review v2",
+  "reviewer": "One AI judge",
+  "method": {
+    "scope": "Only the three brief.json files and the supplied anonymous PNGs in this directory were read. No font catalog, candidate mappings, implementation, baseline mapping, or source font assets were accessed.",
+    "inspection": "All 12 full-size PNGs and all four poster quarter-size PNGs were opened with view_image. PNG dimensions and SHA-256 equality were checked locally to distinguish exact duplicates from subjective ties.",
+    "interpretation": "This is a bounded formative visual evaluation, not human user testing, an accessibility validation, a print proof, or proof of font coverage or asset provenance.",
+    "ranking_convention": "rank_groups are ordered best first; options within a group are tied. A visual tie can include distinct compositions whose practical advantage is not established."
+  },
+  "cases": {
+    "case-a": {
+      "name": "Harbour link: a two-language service notice",
+      "rank_groups": [
+        [
+          "J",
+          "K",
+          "L",
+          "M"
+        ]
+      ],
+      "ranking": "J = K = L = M for practical brief fit",
+      "exact_duplicate_groups": [
+        [
+          "J",
+          "K",
+          "L"
+        ]
+      ],
+      "judgment": "All versions present a calm, usable notice. J/K/L have a slightly more open vertical rhythm; M is more compact. I do not see a material task-performance advantage sufficient to prefer a replacement on these images alone.",
+      "criteria": {
+        "brief_fit": "The two-line change heading, date, teal divider, separate language blocks and orderly timetable establish the required calm service-notice tone.",
+        "hierarchy_readability": "Date and bold times are easy to locate at the depicted size. The two columns and origin labels make journeys distinguishable. The 1, 7 and 0 in the actual times are visually distinct in both rendered variants.",
+        "supporting_text_pairing": "Body and timetable feel coherent with the headings in both variants. English and French explanations have comparable visible emphasis. The smaller English assistance line versus the larger French assistance line is a shared inconsistency with equal language priority.",
+        "visible_failures": "No visible clipped ink, overlapping blocks, missing-glyph boxes or ambiguous time digits. Equal priority of the two assistance lines could be improved."
+      },
+      "corrections": [
+        {
+          "priority": "recommended",
+          "options": [
+            "J",
+            "K",
+            "L",
+            "M"
+          ],
+          "change": "Give the English and French assistance lines the same role size and weight within the allowed size adjustments.",
+          "reason": "Equal language priority should extend to assistance, not only the explanation blocks."
+        },
+        {
+          "priority": "optional",
+          "options": [
+            "J",
+            "K",
+            "L",
+            "M"
+          ],
+          "change": "Consider a modest matching emphasis on east landing and quai est, using verified real emphasis styles.",
+          "reason": "The destination change is the immediate operational action, but currently requires reading the paragraph."
+        }
+      ],
+      "confidence": "Moderate for functional equivalence; high that J/K/L are exact rendered duplicates. No human reading-speed or queue-distance evidence.",
+      "limits": "The baseline identity is hidden, so no baseline-specific improvement claim can be made. Accents appear plausible, but PNGs cannot prove exact-face coverage, fallback absence or nonsynthetic weight use."
+    },
+    "case-b": {
+      "name": "OFFCUT: a community print exchange",
+      "rank_groups": [
+        [
+          "J",
+          "K"
+        ],
+        [
+          "M"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "ranking": "J = K > M > L",
+      "exact_duplicate_groups": [
+        [
+          "J",
+          "K"
+        ]
+      ],
+      "judgment": "J/K give OFFCUT a memorable cut-out, ink-like character that fits the independent print-studio brief while preserving the information hierarchy. M gives a stronger neutral title than L through its larger scale. The preference for M over L is small; the stronger preference is J/K over the neutral treatments.",
+      "criteria": {
+        "brief_fit": "The rounded, interrupted title forms in J/K feel playful and tactile without wedding or luxury cues. L/M are confident and functional but less specific to the requested studio character.",
+        "hierarchy_readability": "Every title is fully visible and recognizable at full and quarter size. J/K require slightly more shape interpretation than L/M, but OFFCUT remains readily recoverable. M has more title presence than L. The date is strongly emphasized beneath the divider in every version.",
+        "supporting_text_pairing": "In J/K, the steady supporting letterforms and orderly information block provide a useful contrast to the irregular title. The relationship works in this actual composition: the title supplies character, while date, location and participation copy retain consistent, uncomplicated shapes. L/M have an even but more neutral overall voice.",
+        "visible_failures": "No clipped title ink or unresolved overlaps are visible. The Polish support is legible at full size and its visible diacritics appear present. At quarter size, the title survives well; the small instructions become fine print, which should be reconsidered for a real social adaptation."
+      },
+      "corrections": [
+        {
+          "priority": "retain",
+          "options": [
+            "J",
+            "K"
+          ],
+          "change": "Keep the expressive treatment confined to the title and retain the clear supporting-text treatment.",
+          "reason": "The current composition gains character without sacrificing the full-size event information."
+        },
+        {
+          "priority": "conditional",
+          "options": [
+            "L"
+          ],
+          "change": "If retaining this neutral direction, increase title presence toward M while keeping the information block clear.",
+          "reason": "The smaller neutral title contributes less memorability and visual dominance."
+        },
+        {
+          "priority": "future adaptation",
+          "options": [
+            "J",
+            "K",
+            "L",
+            "M"
+          ],
+          "change": "For the actual social derivative, allocate more size to date, place and participation copy instead of simply shrinking this entire poster.",
+          "reason": "Quarter-size viewing preserves the title much better than the small supporting copy; the poster alone does not establish a successful social layout."
+        }
+      ],
+      "confidence": "Moderately high for J/K best fitting the authored tone, moderate-to-low for M over L. This is a subjective composition judgment, not measured memorability.",
+      "limits": "Visible Polish letters do not prove source-face coverage, absence of fallback, licensing, or font-pair provenance. The title uses only OFFCUT; no penalty is applied for hypothetical missing Polish glyphs in an unused title role. Print quality and real social performance remain untested."
+    },
+    "case-c": {
+      "name": "Dikiş Kulübü: a hands-busy mobile lesson",
+      "rank_groups": [
+        [
+          "J",
+          "K",
+          "L",
+          "M"
+        ]
+      ],
+      "ranking": "J = K = L = M for practical brief fit",
+      "exact_duplicate_groups": [
+        [
+          "J",
+          "K",
+          "L"
+        ]
+      ],
+      "judgment": "All versions are compact, patient instruction screens with an obvious next control. J/K/L use a little more vertical space and air; M is slightly denser. Neither version presents a clear task-level advantage at the depicted 390 px width.",
+      "criteria": {
+        "brief_fit": "The quiet club/progress label, strong action heading, material label, numbered steps, note and continuation button suit a practical lesson without decorative craft cues.",
+        "hierarchy_readability": "The initial action heading and continuation label each occupy one line in all images. The material line is separated from the steps by a rule, and step numbering remains easy to follow. The button is clear and the body has adequate visible separation at 100% size.",
+        "supporting_text_pairing": "Both variants are visually coherent from body to note to button. The note remains subordinate and readable. There is no visible need to add another family.",
+        "visible_failures": "No horizontal clipping, overlapping blocks or missing-glyph boxes are visible. Dotted capitals and the Turkish diacritics in the composition appear plausible. The separate audit string from the brief is not supplied as a rendered image, so its full side-by-side distinction test cannot be completed."
+      },
+      "corrections": [
+        {
+          "priority": "verification required",
+          "options": [
+            "J",
+            "K",
+            "L",
+            "M"
+          ],
+          "change": "Render the exact supplied audit string in the actual final body face at the deployed size, then inspect 1, l, I, İ, ı and i together.",
+          "reason": "The composition permits spot checks but is not a substitute for the requested adjacent glyph audit."
+        },
+        {
+          "priority": "verification required",
+          "options": [
+            "J",
+            "K",
+            "L",
+            "M"
+          ],
+          "change": "Confirm the selected implementation on a real 390 px viewport and a representative small phone before claiming mobile readability.",
+          "reason": "A static native-size PNG cannot establish physical display size, font loading or hands-busy usability."
+        }
+      ],
+      "confidence": "Moderate for functional equivalence; high that J/K/L are exact rendered duplicates. No observed user task completion or small-device study.",
+      "limits": "Images cannot establish language=tr, exact weights/axes, line-height values, synthetic-style absence or font fallback. The audit string is present only as text in brief.json. The baseline identity is hidden, so no source-aware replacement decision is possible."
+    }
+  },
+  "observed_render_facts": {
+    "dimensions": {
+      "case-a": {
+        "J": [
+          740,
+          709
+        ],
+        "K": [
+          740,
+          709
+        ],
+        "L": [
+          740,
+          709
+        ],
+        "M": [
+          740,
+          667
+        ]
+      },
+      "case-b": {
+        "J": [
+          1000,
+          1260
+        ],
+        "K": [
+          1000,
+          1260
+        ],
+        "L": [
+          1000,
+          1260
+        ],
+        "M": [
+          1000,
+          1260
+        ],
+        "J-quarter": [
+          250,
+          315
+        ],
+        "K-quarter": [
+          250,
+          315
+        ],
+        "L-quarter": [
+          250,
+          315
+        ],
+        "M-quarter": [
+          250,
+          315
+        ]
+      },
+      "case-c": {
+        "J": [
+          390,
+          578
+        ],
+        "K": [
+          390,
+          578
+        ],
+        "L": [
+          390,
+          578
+        ],
+        "M": [
+          390,
+          551
+        ]
+      }
+    },
+    "height_limits": "Every supplied full-size PNG is within its brief maximum height. This proves image dimensions, not implementation overflow behavior.",
+    "duplicates": "case-a J/K/L, case-b J/K, case-c J/K/L have identical SHA-256 hashes within each group. The case-b J/K quarter views are also byte-identical."
+  },
+  "overall": "Only the poster supports a clear stylistic preference in this review. The notice and mobile lesson do not establish a material visual benefit for choosing one distinct variant over the other. Exact duplicates are not counted as independent evidence of a better design."
+}

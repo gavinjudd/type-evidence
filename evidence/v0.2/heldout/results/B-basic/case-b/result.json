@@ -1,0 +1,795 @@
+{
+  "schema_version": 1,
+  "case_id": "case-b",
+  "condition": "B-basic",
+  "evaluator": {
+    "model": "inherited GPT-6 agent; exact picker identity unavailable",
+    "effort": "inherited",
+    "environment": "same local project .venv, same agent across conditions"
+  },
+  "inputs": {
+    "brief_sha256": "6a8bec9df832b13fa0e6ddafa19a3d983c203f63c5161595471a0b7857cdf00f",
+    "catalog_sha256": "5fe03fd4779bc83016766254cfbaa9743cbc5df0d20f275aea5f4c7f53245740",
+    "source_commits": {
+      "bekah": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+      "extsalt": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+      "google-curated-2026": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+      "arrowtype-recursive-1.085": "6d491202cea5cf6a493ef710cbef2527b9b08939"
+    },
+    "visual_index_identity": null
+  },
+  "budget": {
+    "active_minutes_limit": 8,
+    "information_operations_limit": 6,
+    "records_per_operation_limit": 12,
+    "option_render_limit_including_baseline": 4,
+    "final_revision_limit": 1,
+    "start_utc": "2026-09-30T16:21:13.976740+00:00",
+    "end_utc": "2026-09-30T16:22:33.060472+00:00",
+    "active_seconds": 79.084,
+    "actual_information_operations": 2,
+    "actual_records_seen": 24,
+    "actual_option_renders": 4,
+    "actual_final_revisions": 1,
+    "exceptions": [],
+    "paused_seconds": 0,
+    "timing_scope": "Shared brief/baseline familiarization and helper setup outside timed stages; all case-specific lookup, inspection, reasoning and refinement between logged active start/resume and stop."
+  },
+  "sealed_plan": {
+    "path": "sealed-plan.json",
+    "sha256": "46bf94a11affbaf881d7e865fe8a721ccf0b011aae7be6c005415fe7e56a0dd8",
+    "sealed_at_utc": "2026-09-30T16:21:42.491129+00:00",
+    "before_candidate_image_inspection": true
+  },
+  "families_seen": [
+    "Betsy Flanagan 2",
+    "BoltonShadowed",
+    "BoltonTitlingShadowed",
+    "Bridgnorth",
+    "Bridgnorth Blocked",
+    "Bridgnorth-Shadow",
+    "Burnaby",
+    "Ceroxa",
+    "Charbroiled",
+    "Cooper-Black",
+    "Cooper-Black-Stencil",
+    "Copasetic NF",
+    "Copper Canyon Inline WBW",
+    "Copper Canyon WBW",
+    "Copperplate-Cd",
+    "Copperplate-Gothic",
+    "Copula",
+    "Copyright (C) H&Co | typography.com",
+    "Copyright Klim Type Foundry",
+    "Copyright Violations",
+    "Copyright Violations Nudged",
+    "Deco Borders NF",
+    "Deco Dingbats NF",
+    "Dirtstorm",
+    "Roboto"
+  ],
+  "candidates_explored": [
+    {
+      "family": [
+        "Cooper-Black",
+        "Roboto"
+      ],
+      "exact_ids": [
+        "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "6ebaedd7267cdd290a40fa3632041243595e4c8f0dca733e5c90cfa9c1162f71:0",
+        "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0"
+      ],
+      "first_seen_in_condition": "B-basic",
+      "previously_familiar_self_report": true,
+      "rendered_composition": "cooper/composition.png",
+      "inspected_at_project_size": true,
+      "observations": [
+        {
+          "cooper": "Soft swelling black letterforms are welcoming and more memorable than Roboto, but retro familiarity is strong.",
+          "cooper-stencil": "Clear rounded stencil bridges give a physical-cut association while retaining friendly heavy silhouette. Word remains legible at quarter scale.",
+          "burnaby": "Condensed distressed stencil feels military/industrial and too narrow compared with calm supporting copy; rejected."
+        }
+      ],
+      "rejection_reason": null,
+      "familiarity_by_family": {
+        "Cooper-Black": "known concept, exact punctuation discovered in B",
+        "Roboto": true
+      }
+    },
+    {
+      "family": [
+        "Cooper-Black-Stencil",
+        "Roboto"
+      ],
+      "exact_ids": [
+        "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3:0",
+        "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0"
+      ],
+      "first_seen_in_condition": "B-basic",
+      "previously_familiar_self_report": false,
+      "rendered_composition": "cooper-stencil/composition.png",
+      "inspected_at_project_size": true,
+      "observations": [
+        {
+          "cooper": "Soft swelling black letterforms are welcoming and more memorable than Roboto, but retro familiarity is strong.",
+          "cooper-stencil": "Clear rounded stencil bridges give a physical-cut association while retaining friendly heavy silhouette. Word remains legible at quarter scale.",
+          "burnaby": "Condensed distressed stencil feels military/industrial and too narrow compared with calm supporting copy; rejected."
+        }
+      ],
+      "rejection_reason": null,
+      "familiarity_by_family": {
+        "Cooper-Black-Stencil": false,
+        "Roboto": true
+      }
+    },
+    {
+      "family": [
+        "Burnaby",
+        "Roboto"
+      ],
+      "exact_ids": [
+        "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "8240d3f1ed86e22bb7762af6d82600695e9fe0638e8722ccbe95b84f7ffe87f6:0",
+        "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0"
+      ],
+      "first_seen_in_condition": "B-basic",
+      "previously_familiar_self_report": false,
+      "rendered_composition": "burnaby/composition.png",
+      "inspected_at_project_size": true,
+      "observations": [
+        {
+          "cooper": "Soft swelling black letterforms are welcoming and more memorable than Roboto, but retro familiarity is strong.",
+          "cooper-stencil": "Clear rounded stencil bridges give a physical-cut association while retaining friendly heavy silhouette. Word remains legible at quarter scale.",
+          "burnaby": "Condensed distressed stencil feels military/industrial and too narrow compared with calm supporting copy; rejected."
+        }
+      ],
+      "rejection_reason": null,
+      "familiarity_by_family": {
+        "Burnaby": false,
+        "Roboto": true
+      }
+    },
+    {
+      "family": [
+        "Cooper-Black-Stencil",
+        "Roboto"
+      ],
+      "exact_ids": [
+        "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3:0",
+        "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0"
+      ],
+      "first_seen_in_condition": "B-basic",
+      "previously_familiar_self_report": false,
+      "rendered_composition": "final/composition.png",
+      "inspected_at_project_size": true,
+      "observations": [
+        "160 px rounded stencil OFFCUT stays intact and prominent; cuts remain visible at quarter scale. Supporting date, address and participation copy are unchanged and clear; no clipping or overlap."
+      ],
+      "rejection_reason": null,
+      "familiarity_by_family": {
+        "Cooper-Black-Stencil": false,
+        "Roboto": true
+      }
+    }
+  ],
+  "discovery_failures": [],
+  "asset_failures": [],
+  "operational_failures": [],
+  "final": {
+    "baseline_retained": false,
+    "chosen_roles": {
+      "eyebrow": {
+        "id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+        "family": "Roboto",
+        "style": "Bold",
+        "sha256": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a",
+        "face_index": 0,
+        "size_px": 22,
+        "line_height_px": 30.799999999999997,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "en",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            47,
+            65,
+            67,
+            69,
+            73,
+            77,
+            78,
+            79,
+            80,
+            82,
+            83,
+            84,
+            87
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Bold.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Bold.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 700,
+        "actual_italic": false,
+        "line_height": 1.4
+      },
+      "title": {
+        "id": "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3:0",
+        "family": "Cooper-Black-Stencil",
+        "style": "Regular",
+        "sha256": "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3",
+        "face_index": 0,
+        "size_px": 160,
+        "line_height_px": 160.0,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "en",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            67,
+            70,
+            79,
+            84,
+            85
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "extsalt",
+          "path": "Cooper-Black-Stencil.ttf",
+          "url": "https://github.com/extsalt/10000-font-collection",
+          "commit": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+          "upstream_path": "Cooper-Black-Stencil.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "unknown",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "© Copyright SoftMaker Software GmbH and its licensors"
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "The typeface name is a trademark owned by SoftMaker Software GmbH and/or its licensors and may be registered in certain jurisdictions."
+            },
+            {
+              "kind": "embedded-name-8",
+              "text": "SoftMaker Software GmbH"
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "SoftMaker Software GmbH"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "http://www.softmaker.de"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.softmaker.de"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": []
+        },
+        "actual_weight": 400,
+        "actual_italic": false,
+        "line_height": 1.0
+      },
+      "dek": {
+        "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "family": "Roboto",
+        "style": "Regular",
+        "sha256": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed",
+        "face_index": 0,
+        "size_px": 37,
+        "line_height_px": 51.8,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "en",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            46,
+            65,
+            105,
+            110,
+            111,
+            112,
+            114,
+            116,
+            117
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 400,
+        "actual_italic": false,
+        "line_height": 1.4
+      },
+      "body": {
+        "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "family": "Roboto",
+        "style": "Regular",
+        "sha256": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed",
+        "face_index": 0,
+        "size_px": 31,
+        "line_height_px": 43.4,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "pl",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            44,
+            46,
+            56,
+            68,
+            80,
+            82,
+            97,
+            98,
+            99,
+            100,
+            101,
+            105,
+            106,
+            107,
+            108,
+            110,
+            111,
+            112,
+            114,
+            115,
+            116,
+            117,
+            119,
+            121,
+            122,
+            243,
+            281,
+            321,
+            347,
+            378
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 400,
+        "actual_italic": false,
+        "line_height": 1.4
+      },
+      "heading": {
+        "id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+        "family": "Roboto",
+        "style": "Bold",
+        "sha256": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a",
+        "face_index": 0,
+        "size_px": 32,
+        "line_height_px": 44.8,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "pl",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            44,
+            47,
+            48,
+            49,
+            50,
+            55,
+            56,
+            58,
+            83,
+            97,
+            98,
+            100,
+            101,
+            105,
+            107,
+            110,
+            111,
+            112,
+            114,
+            116,
+            122,
+            378,
+            8211
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Bold.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Bold.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 700,
+        "actual_italic": false,
+        "line_height": 1.4
+      },
+      "caption": {
+        "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "family": "Roboto",
+        "style": "Regular",
+        "sha256": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed",
+        "face_index": 0,
+        "size_px": 24,
+        "line_height_px": 33.599999999999994,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "pl",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            46,
+            75,
+            80,
+            87,
+            97,
+            99,
+            100,
+            101,
+            105,
+            106,
+            108,
+            109,
+            110,
+            111,
+            112,
+            114,
+            115,
+            116,
+            117,
+            119,
+            121,
+            122,
+            281,
+            347,
+            380
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 400,
+        "actual_italic": false,
+        "line_height": 1.4
+      }
+    },
+    "composition_spec": "final/spec.json",
+    "manifest": "final/manifest.json",
+    "image": "final/composition.png",
+    "implementation_recipe": "final/application.css",
+    "revision_reason": "Increase title 138 to 160 to give the cut silhouette more presence without changing the information layout.",
+    "decision": "Choose Cooper-Black-Stencil title at 160 px with exact Roboto support. Warm rounded mass and cut bridges make the word feel materially related to a print exchange, while plain supporting information stays easily recoverable.",
+    "counterargument": "The stencil cue is literal and retro; uncut Cooper-Black is cleaner at small sizes and could suit the community equally well."
+  },
+  "objective_checks": [
+    {
+      "requirement": "Exact asset bytes and role text coverage; no synthetic style or fallback",
+      "result": "pass",
+      "evidence": "final/manifest.json roles and no_fallback; each exact face resolved and hashed immediately before compose."
+    },
+    {
+      "requirement": "Width, maximum height, no clipping or overlap",
+      "result": "pass",
+      "evidence": "Canvas [1000, 1260]; no renderer warnings; full composition visually inspected. Measured clipped blocks: 0; measured overlapping-line blocks: 0."
+    },
+    {
+      "requirement": "Native browser and physical print equivalence",
+      "result": "unverified",
+      "evidence": "Only exact compositor PNG inspected; CSS/HTML recipes not staged with font assets or browser-tested."
+    },
+    {
+      "requirement": "Title full/quarter visibility and Polish supporting accents",
+      "result": "pass",
+      "evidence": "Full-size and quarter PNGs opened; all Polish text validated by renderer."
+    }
+  ],
+  "subjective_assessment": {
+    "judge": "self",
+    "audience_context_fit": {
+      "score_1_to_5": 5,
+      "observation": "Memorable tactile-looking title fits a welcoming community studio."
+    },
+    "tone": {
+      "score_1_to_5": 5,
+      "observation": "Rounded cut shapes feel playful and confident without distressed military cues."
+    },
+    "hierarchy": {
+      "score_1_to_5": 5,
+      "observation": "Title dominates; date and place remain quickly locatable."
+    },
+    "role_pairing_coherence": {
+      "score_1_to_5": 4,
+      "observation": "Plain Roboto support balances the complex title; relationship is practical rather than stylistically identical."
+    },
+    "overall_preference": "Choose Cooper-Black-Stencil title at 160 px with exact Roboto support. Warm rounded mass and cut bridges make the word feel materially related to a print exchange, while plain supporting information stays easily recoverable.",
+    "confidence": "moderate; single selecting-agent visual judgment",
+    "counterargument": "The stencil cue is literal and retro; uncut Cooper-Black is cleaner at small sizes and could suit the community equally well."
+  },
+  "carryover": {
+    "reused_earlier_candidates": [
+      "Cooper Black concept proposed in A; punctuated Cooper-Black and Cooper-Black-Stencil exact identities first discovered in B.",
+      "Roboto existing baseline"
+    ],
+    "reused_earlier_layout_learnings": [
+      "A established a larger single-line title works better than splitting OFF/CUT."
+    ],
+    "other": "Same evaluator; all unaided plans sealed before first exact lookup. Shared baseline familiarization occurred during setup."
+  },
+  "limitations": [
+    "Internal formative self-assessment; no causal or statistical proof of improved typography.",
+    "Same evaluator sees sequential conditions; later stages can benefit from familiarity.",
+    "Physical print and browser implementation unverified; font binaries intentionally not distributed.",
+    "Shared baseline and brief familiarization excluded from active timer as setup.",
+    "Failed render attempts consume an option slot conservatively."
+  ],
+  "protocol_violations": []
+}

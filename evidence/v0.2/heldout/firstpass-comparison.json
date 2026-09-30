@@ -1,0 +1,288 @@
+{
+  "scope": "Internal formative same-agent self-assessment; no independent blinded judgment yet. Equal caps, not equal time consumed.",
+  "rows": [
+    {
+      "condition": "A-unaided",
+      "case": "case-a",
+      "families": [
+        "Source Sans Pro"
+      ],
+      "active_seconds": 84.902,
+      "information_operations": 3,
+      "records_seen": 13,
+      "options_including_baseline": 3,
+      "final_revision_renders": 1,
+      "image_sha256": "4bda7a2a47c029e83ba47febdc0612c37b539a1917ada1f257a6493e2aeb0965",
+      "image": "results/A-unaided/case-a/final/composition.png",
+      "canvas": [
+        740,
+        709
+      ],
+      "baseline_retained": false,
+      "subjective_scores": [
+        4,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "condition": "A-unaided",
+      "case": "case-b",
+      "families": [
+        "Roboto"
+      ],
+      "active_seconds": 43.38,
+      "information_operations": 2,
+      "records_seen": 0,
+      "options_including_baseline": 3,
+      "final_revision_renders": 0,
+      "image_sha256": "cc19e87959b9ffdd9f6249d2f03991e34ebdfa59e8fd6331615e1c4b3db68661",
+      "image": "results/A-unaided/case-b/baseline-large/composition.png",
+      "canvas": [
+        1000,
+        1260
+      ],
+      "baseline_retained": true,
+      "subjective_scores": [
+        3,
+        3,
+        5,
+        5
+      ]
+    },
+    {
+      "condition": "A-unaided",
+      "case": "case-c",
+      "families": [
+        "Source Sans Pro"
+      ],
+      "active_seconds": 121.458,
+      "information_operations": 2,
+      "records_seen": 4,
+      "options_including_baseline": 4,
+      "final_revision_renders": 1,
+      "image_sha256": "e923e484f5e23d0cb7825e3c0088bccda836bd1254cc0193c2d3d11bc4b3fe62",
+      "image": "results/A-unaided/case-c/final/composition.png",
+      "canvas": [
+        390,
+        578
+      ],
+      "baseline_retained": false,
+      "subjective_scores": [
+        5,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "condition": "B-basic",
+      "case": "case-a",
+      "families": [
+        "Source Sans Pro"
+      ],
+      "active_seconds": 76.703,
+      "information_operations": 5,
+      "records_seen": 30,
+      "options_including_baseline": 4,
+      "final_revision_renders": 0,
+      "image_sha256": "4bda7a2a47c029e83ba47febdc0612c37b539a1917ada1f257a6493e2aeb0965",
+      "image": "results/B-basic/case-a/source-sans/composition.png",
+      "canvas": [
+        740,
+        709
+      ],
+      "baseline_retained": false,
+      "subjective_scores": [
+        4,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "condition": "B-basic",
+      "case": "case-b",
+      "families": [
+        "Cooper-Black-Stencil",
+        "Roboto"
+      ],
+      "active_seconds": 79.084,
+      "information_operations": 2,
+      "records_seen": 24,
+      "options_including_baseline": 4,
+      "final_revision_renders": 1,
+      "image_sha256": "14d73b088df1c33200882e07dd9fe8c78a2f22706ff9075110e5126af81bbb53",
+      "image": "results/B-basic/case-b/final/composition.png",
+      "canvas": [
+        1000,
+        1260
+      ],
+      "baseline_retained": false,
+      "subjective_scores": [
+        5,
+        5,
+        5,
+        4
+      ]
+    },
+    {
+      "condition": "B-basic",
+      "case": "case-c",
+      "families": [
+        "Source Sans Pro"
+      ],
+      "active_seconds": 85.306,
+      "information_operations": 4,
+      "records_seen": 28,
+      "options_including_baseline": 4,
+      "final_revision_renders": 1,
+      "image_sha256": "e923e484f5e23d0cb7825e3c0088bccda836bd1254cc0193c2d3d11bc4b3fe62",
+      "image": "results/B-basic/case-c/final/composition.png",
+      "canvas": [
+        390,
+        578
+      ],
+      "baseline_retained": false,
+      "subjective_scores": [
+        5,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "condition": "C-harness",
+      "case": "case-a",
+      "families": [
+        "Source Sans Pro"
+      ],
+      "active_seconds": 99.284,
+      "information_operations": 4,
+      "records_seen": 10,
+      "options_including_baseline": 4,
+      "final_revision_renders": 0,
+      "image_sha256": "4bda7a2a47c029e83ba47febdc0612c37b539a1917ada1f257a6493e2aeb0965",
+      "image": "results/C-harness/case-a/source-sans/composition.png",
+      "canvas": [
+        740,
+        709
+      ],
+      "baseline_retained": false,
+      "subjective_scores": [
+        4,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "condition": "C-harness",
+      "case": "case-b",
+      "families": [
+        "Cooper-Black-Stencil",
+        "Roboto"
+      ],
+      "active_seconds": 121.411,
+      "information_operations": 5,
+      "records_seen": 20,
+      "options_including_baseline": 4,
+      "final_revision_renders": 0,
+      "image_sha256": "14d73b088df1c33200882e07dd9fe8c78a2f22706ff9075110e5126af81bbb53",
+      "image": "results/C-harness/case-b/cooper-stencil/composition.png",
+      "canvas": [
+        1000,
+        1260
+      ],
+      "baseline_retained": false,
+      "subjective_scores": [
+        5,
+        5,
+        5,
+        4
+      ]
+    },
+    {
+      "condition": "C-harness",
+      "case": "case-c",
+      "families": [
+        "Source Sans Pro"
+      ],
+      "active_seconds": 165.101,
+      "information_operations": 6,
+      "records_seen": 18,
+      "options_including_baseline": 4,
+      "final_revision_renders": 1,
+      "image_sha256": "e923e484f5e23d0cb7825e3c0088bccda836bd1254cc0193c2d3d11bc4b3fe62",
+      "image": "results/C-harness/case-c/final/composition.png",
+      "canvas": [
+        390,
+        578
+      ],
+      "baseline_retained": false,
+      "subjective_scores": [
+        5,
+        4,
+        5,
+        5
+      ]
+    }
+  ],
+  "outcome": {
+    "case-a": "A=B=C; Source Sans Pro retained exactly",
+    "case-b": "B=C preferred to A by selecting agent; title direction discovered through basic browsing; C adds no improvement",
+    "case-c": "A=B=C; Source Sans Pro retained exactly"
+  },
+  "asset_facts": {
+    "final_compositions": 9,
+    "final_no_fallback_passes": 9,
+    "final_no_clipping_or_line_overlap_passes": 9,
+    "unaided_exact_name_misses": [
+      "Cooper Black",
+      "Archivo Black"
+    ],
+    "unaided_candidate_coverage_failures": [
+      "Atkinson Hyperlegible bold missing U+0130 in Turkish role"
+    ],
+    "browser_verification": false,
+    "physical_print_verification": false
+  },
+  "harness_findings": [
+    {
+      "kind": "interpretation defect",
+      "case": "case-c",
+      "evidence": [
+        "results/C-harness/case-c/initial-stdout.json",
+        "results/C-harness/case-c/refined-stdout.json",
+        "results/C-harness/case-c/negation-recovery-stdout.json"
+      ],
+      "finding": "Initial query/tone negation reports disagree; coordinated comma negation treated ornate/delicate as positive. Explicit repeated negation recovers."
+    },
+    {
+      "kind": "discovery diversity limitation",
+      "case": "case-a",
+      "evidence": [
+        "results/C-harness/case-a/initial-stdout.json"
+      ],
+      "finding": "Three regional Noto Sans variants occupy first page with identical Latin metrics and scores; different family names do not establish diverse shapes."
+    },
+    {
+      "kind": "visual validation value",
+      "case": "case-a",
+      "evidence": [
+        "results/C-harness/case-a/noto-sc/composition.png"
+      ],
+      "finding": "Cmap/style/byte correctness can pass while language-specific typography remains weak; French curly apostrophe spacing is visibly poor in Noto Sans SC."
+    },
+    {
+      "kind": "aesthetic ranking limitation",
+      "case": "case-b",
+      "evidence": [
+        "results/C-harness/case-b/initial-stdout.json",
+        "results/C-harness/case-b/pixelate/composition.png"
+      ],
+      "finding": "Playful/tactile studio request retrieves pixel-game directions; refined heavy-serif results still do not beat B composition."
+    }
+  ]
+}

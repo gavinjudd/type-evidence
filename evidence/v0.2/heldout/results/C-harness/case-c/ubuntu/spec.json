@@ -1,0 +1,186 @@
+{
+  "width": 390,
+  "padding": 22,
+  "gap": 16,
+  "background": "#f2f4f3",
+  "template": "interface",
+  "title": "Dikiş Kulübü mobile instruction",
+  "medium": "screen",
+  "min_height": 0,
+  "roles": {
+    "eyebrow": {
+      "font_id": "f83793a3c75680a14fc163f7d8c466f5e8693de92b187c07c9ee6307ad9d382b:0",
+      "size": 14,
+      "line_height": 1.4,
+      "color": "#244542",
+      "features": {},
+      "axes": {},
+      "language": "tr",
+      "direction": null,
+      "align": "start",
+      "weight": 700,
+      "italic": false
+    },
+    "title": {
+      "font_id": "f83793a3c75680a14fc163f7d8c466f5e8693de92b187c07c9ee6307ad9d382b:0",
+      "size": 28,
+      "line_height": 1.15,
+      "color": "#244542",
+      "features": {},
+      "axes": {},
+      "language": "tr",
+      "direction": null,
+      "align": "start",
+      "weight": 700,
+      "italic": false
+    },
+    "body": {
+      "font_id": "bac6461feb3488e5d330e7e9434fc8e0c513aa3c1e7b57598eab1654e1055a14:0",
+      "size": 18,
+      "line_height": 1.5,
+      "color": "#244542",
+      "features": {},
+      "axes": {},
+      "language": "tr",
+      "direction": null,
+      "align": "start",
+      "weight": 400,
+      "italic": false
+    },
+    "heading": {
+      "font_id": "f83793a3c75680a14fc163f7d8c466f5e8693de92b187c07c9ee6307ad9d382b:0",
+      "size": 18,
+      "line_height": 1.4,
+      "color": "#244542",
+      "features": {},
+      "axes": {},
+      "language": "tr",
+      "direction": null,
+      "align": "start",
+      "weight": 700,
+      "italic": false
+    },
+    "caption": {
+      "font_id": "bac6461feb3488e5d330e7e9434fc8e0c513aa3c1e7b57598eab1654e1055a14:0",
+      "size": 15,
+      "line_height": 1.4,
+      "color": "#244542",
+      "features": {},
+      "axes": {},
+      "language": "tr",
+      "direction": null,
+      "align": "start",
+      "weight": 400,
+      "italic": false
+    },
+    "button": {
+      "font_id": "f83793a3c75680a14fc163f7d8c466f5e8693de92b187c07c9ee6307ad9d382b:0",
+      "size": 18,
+      "line_height": 1.4,
+      "color": "#ffffff",
+      "features": {},
+      "axes": {},
+      "language": "tr",
+      "direction": null,
+      "align": "start",
+      "weight": 700,
+      "italic": false
+    }
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "eyebrow",
+      "text": "DİKİŞ KULÜBÜ / ADIM 2 / 5"
+    },
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "title",
+      "text": "İpliği iğneden geçirin"
+    },
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "body",
+      "text": "İpliğin ucunu düz kesin. İğneyi ışığa doğru tutun ve ipliği delikten yavaşça geçirin."
+    },
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "heading",
+      "text": "Yanınızda olsun"
+    },
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "body",
+      "text": "İğne · Pamuklu iplik · Küçük makas"
+    },
+    {
+      "type": "rule",
+      "gap": 16,
+      "color": "#a9b7b2",
+      "thickness": 1
+    },
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "body",
+      "text": "1. İpliği yaklaşık 40 cm uzunluğunda kesin."
+    },
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "body",
+      "text": "2. Ucu parmaklarınızın arasında sıkıştırın."
+    },
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "body",
+      "text": "3. İpliği geçirin; iki ucu eşitlemeyin."
+    },
+    {
+      "type": "panel",
+      "gap": 16,
+      "blocks": [
+        {
+          "type": "text",
+          "gap": 0,
+          "role": "caption",
+          "text": "Küçük ipucu: Uzun iplik daha çok dolaşır. Kısa bir parça ile başlayın."
+        }
+      ],
+      "background": "#f6e7ad",
+      "padding": 14
+    },
+    {
+      "type": "panel",
+      "gap": 16,
+      "blocks": [
+        {
+          "type": "text",
+          "gap": 0,
+          "role": "button",
+          "text": "Hazırım, devam edelim"
+        }
+      ],
+      "background": "#244542",
+      "padding": 14
+    },
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "caption",
+      "text": "İlerlemeniz bu telefonda saklanır."
+    },
+    {
+      "type": "text",
+      "gap": 16,
+      "role": "body",
+      "text": "1 l I İ ı i — İplik, iğne, ölçü, güç, şaşırma."
+    }
+  ]
+}

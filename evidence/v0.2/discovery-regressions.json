@@ -1,0 +1,1747 @@
+{
+  "schema_version": "1.0",
+  "evidence_kind": "deterministic-baseline-comparison",
+  "scope": "Four saved deterministic discovery responses before and after v0.2 changes. Each side retains query interpretation, constraints, counts, pagination when reported, and the first six exact font IDs with family, style, heuristic score and reasons. No font binaries or full family-style inventories are included.",
+  "limitations": [
+    "This is a deterministic baseline comparison, not a learned visual-model outcome or a held-out evaluation.",
+    "The after responses explicitly report visual_scoring_active=false; the before implementation disclaims embedding or image similarity.",
+    "Catalog size changes from 27,454 to 27,520 faces. Implementation, collection and context-preference differences mean rank changes do not isolate one change or prove improved design quality.",
+    "The before response did not expose pagination; null means unreported, not no further candidates.",
+    "Original saved responses are preserved outside the public source/evidence bundle. Input briefs are not reconstructed from the response objects."
+  ],
+  "provenance": {
+    "before": {
+      "source_name": "discovery-v2-before.json",
+      "sha256": "0c597020084ab4eebab5434686986ef2755a9cdcbc8471aaed2e54a864935f24",
+      "bytes": 81496
+    },
+    "after": {
+      "source_name": "discovery-v2-after.json",
+      "sha256": "1e25d2e39f0bdcd646e549a5b3e4aa0248637cde41832593e5af08cf831a342b",
+      "bytes": 92581
+    }
+  },
+  "cases": [
+    {
+      "query": "not condensed",
+      "before": {
+        "schema_version": 1,
+        "status": "candidates",
+        "role": "ui",
+        "counts": {
+          "catalog_faces": 27454,
+          "eligible_faces": 8805,
+          "returned_faces": 6
+        },
+        "query_interpretation": {
+          "exact_name_match_count": 0,
+          "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+          "aliases": {
+            "condensed": "metadata:condensed"
+          },
+          "unmodeled_terms": [
+            "not"
+          ],
+          "unrecognized_brief_fields": [],
+          "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed."
+        },
+        "constraints": {
+          "coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
+          "text_codepoint_count": 21,
+          "text_supplied": true,
+          "family_diversity": "At most one face per family; equivalent canonical content is also deduplicated. Equal-score ties favor differences in known category, width, monospace measurement, x-height, and advance-width bands; this is not proof of visual distinction.",
+          "open_evidence_requested": false
+        },
+        "pagination": null,
+        "pagination_reported": false,
+        "top6": [
+          {
+            "id": "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+            "family": "Noto Sans Display",
+            "style": "SemiCondensed",
+            "score": 7,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              }
+            ]
+          },
+          {
+            "id": "6b98548bda804620ec8c5abb1ed553fc0fac908120f9c2da12e891972bf3dc54:0",
+            "family": "ITC Garamond Standard",
+            "style": "Black Condensed",
+            "score": 7,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              }
+            ]
+          },
+          {
+            "id": "3c490fbc8b3578f595c4cbd441e9beba59560cc4525531e47cbcea770009f1b3:0",
+            "family": "Noto Serif",
+            "style": "SemiCondensed",
+            "score": 7,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              }
+            ]
+          },
+          {
+            "id": "fbbe7038848942df8a1a638bd1ba4225d70b80a7f098d12ff098dc5d816a3393:0",
+            "family": "Spotify Mix Narrow",
+            "style": "Regular",
+            "score": 7,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              }
+            ]
+          },
+          {
+            "id": "ba46eb364bb0c1df2d6631f010057f6c42816fcf17ee3e09bb99e462c103903a:0",
+            "family": "Noto Serif Display",
+            "style": "ExtraCondensed",
+            "score": 7,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              }
+            ]
+          },
+          {
+            "id": "be7eac1e77fd36cc64c1078f0f3f8c1f6f1fa0ad7f456fae56a36ef49cd5c0f1:0",
+            "family": "Univers UltraCondensed",
+            "style": "UltraCondensed",
+            "score": 7,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "schema_version": 1,
+        "status": "candidates",
+        "role": "ui",
+        "counts": {
+          "catalog_faces": 27520,
+          "eligible_faces": 8755,
+          "returned_faces": 6,
+          "eligible_distinct_alternatives": 6311,
+          "visual_scored_faces": 0
+        },
+        "query_interpretation": {
+          "exact_name_match_count": 0,
+          "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+          "aliases": {},
+          "negated_aliases": {
+            "condensed": "metadata:condensed"
+          },
+          "unmodeled_terms": [],
+          "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases; only literal name matching can use them without a visual adapter.",
+          "negation_scope": "Negation extends across coordinated terms until punctuation or an explicit contrast such as but. Ambiguous prose should be rewritten or checked against these reported terms.",
+          "unmodeled_positive": [],
+          "unmodeled_negative": [],
+          "visual_scoring_active": false,
+          "unrecognized_brief_fields": [],
+          "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect."
+        },
+        "constraints": {
+          "coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
+          "text_codepoint_count": 21,
+          "text_supplied": true,
+          "family_diversity": "At most one face per family; equivalent canonical content is also deduplicated. Equal-score ties favor differences in known category, width, monospace measurement, x-height, and advance-width bands; this is not proof of visual distinction.",
+          "open_evidence_requested": false
+        },
+        "pagination": {
+          "offset": 0,
+          "limit": 6,
+          "next_offset": 6,
+          "has_more": true,
+          "meaning": "Offset counts distinct alternatives, excluding the reserved baseline. Keep the brief and catalog fixed between pages; changing either starts a new exploration."
+        },
+        "pagination_reported": true,
+        "top6": [
+          {
+            "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+            "family": "IBM Plex Sans",
+            "style": "Regular",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "fb147ad6ef88dfa39d06e368f08ac84a86274bb0590466af146fe06cd4a287a2:0",
+            "family": "Spectral",
+            "style": "Regular",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "e8b5c51fc1fd7f980ac221aa5d3d142c9410f6cc2ba764a7b8102d978ef4ea32:0",
+            "family": "Univers Expanded",
+            "style": "Expanded",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+            "family": "Source Sans Pro",
+            "style": "Regular",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "6ed23dfdede6b4a9e7e62dcc03ffb3348681b04428ed474f3d68ddf5b46ee425:0",
+            "family": "Finder",
+            "style": "Regular",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "4d28ff3726c4be838fd9591440fa930bf236d6cd5cd09907f7cda79116d569de:0",
+            "family": "IBM Plex Serif",
+            "style": "Regular",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "condensed",
+      "before": {
+        "schema_version": 1,
+        "status": "candidates",
+        "role": "ui",
+        "counts": {
+          "catalog_faces": 27454,
+          "eligible_faces": 8805,
+          "returned_faces": 6
+        },
+        "query_interpretation": {
+          "exact_name_match_count": 0,
+          "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+          "aliases": {
+            "condensed": "metadata:condensed"
+          },
+          "unmodeled_terms": [],
+          "unrecognized_brief_fields": [],
+          "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed."
+        },
+        "constraints": {
+          "coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
+          "text_codepoint_count": 21,
+          "text_supplied": true,
+          "family_diversity": "At most one face per family; equivalent canonical content is also deduplicated. Equal-score ties favor differences in known category, width, monospace measurement, x-height, and advance-width bands; this is not proof of visual distinction.",
+          "open_evidence_requested": false
+        },
+        "pagination": null,
+        "pagination_reported": false,
+        "top6": [
+          {
+            "id": "ed0f479f7d729465faae2d32f5d70bc3a3693748c16cbf6da43493ff42d89623:0",
+            "family": "IBM Plex Sans Condensed",
+            "style": "Regular",
+            "score": 12,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "metadata",
+                "points": 5,
+                "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              }
+            ]
+          },
+          {
+            "id": "be7eac1e77fd36cc64c1078f0f3f8c1f6f1fa0ad7f456fae56a36ef49cd5c0f1:0",
+            "family": "Univers UltraCondensed",
+            "style": "UltraCondensed",
+            "score": 12,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "metadata",
+                "points": 5,
+                "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              }
+            ]
+          },
+          {
+            "id": "17584570749cad0530b654a0b73d4f75f07e8ee6471867bc11034d1531ed3644:0",
+            "family": "Instagram Sans Condensed",
+            "style": "Regular",
+            "score": 12,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "metadata",
+                "points": 5,
+                "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              }
+            ]
+          },
+          {
+            "id": "c9b3e2a188c31d62b2b6af84838fc5b7cecf97fb61fe8915acf01908294956f0:0",
+            "family": "Univers Condensed",
+            "style": "Condensed",
+            "score": 12,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "metadata",
+                "points": 5,
+                "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              }
+            ]
+          },
+          {
+            "id": "075e55c0547913ecb46fc1be69829b7e9bb6ddb1c04fcff8ad9b17f12e41ff97:0",
+            "family": "Apercu Condensed Pro",
+            "style": "Regular",
+            "score": 12,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "metadata",
+                "points": 5,
+                "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              }
+            ]
+          },
+          {
+            "id": "7f07bcb7a9e7578ba782c165d8bbba2bdeb192b7b96911a772bfd5b063b26479:0",
+            "family": "Cyberia Condensed",
+            "style": "Condensed",
+            "score": 11,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 5,
+                "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "schema_version": 1,
+        "status": "candidates",
+        "role": "ui",
+        "counts": {
+          "catalog_faces": 27520,
+          "eligible_faces": 8755,
+          "returned_faces": 6,
+          "eligible_distinct_alternatives": 6311,
+          "visual_scored_faces": 0
+        },
+        "query_interpretation": {
+          "exact_name_match_count": 0,
+          "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+          "aliases": {
+            "condensed": "metadata:condensed"
+          },
+          "negated_aliases": {},
+          "unmodeled_terms": [],
+          "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases; only literal name matching can use them without a visual adapter.",
+          "negation_scope": "Negation extends across coordinated terms until punctuation or an explicit contrast such as but. Ambiguous prose should be rewritten or checked against these reported terms.",
+          "unmodeled_positive": [],
+          "unmodeled_negative": [],
+          "visual_scoring_active": false,
+          "unrecognized_brief_fields": [],
+          "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect."
+        },
+        "constraints": {
+          "coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
+          "text_codepoint_count": 21,
+          "text_supplied": true,
+          "family_diversity": "At most one face per family; equivalent canonical content is also deduplicated. Equal-score ties favor differences in known category, width, monospace measurement, x-height, and advance-width bands; this is not proof of visual distinction.",
+          "open_evidence_requested": false
+        },
+        "pagination": {
+          "offset": 0,
+          "limit": 6,
+          "next_offset": 6,
+          "has_more": true,
+          "meaning": "Offset counts distinct alternatives, excluding the reserved baseline. Keep the brief and catalog fixed between pages; changing either starts a new exploration."
+        },
+        "pagination_reported": true,
+        "top6": [
+          {
+            "id": "ed0f479f7d729465faae2d32f5d70bc3a3693748c16cbf6da43493ff42d89623:0",
+            "family": "IBM Plex Sans Condensed",
+            "style": "Regular",
+            "score": 13,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "metadata",
+                "points": 5,
+                "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              },
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "be7eac1e77fd36cc64c1078f0f3f8c1f6f1fa0ad7f456fae56a36ef49cd5c0f1:0",
+            "family": "Univers UltraCondensed",
+            "style": "UltraCondensed",
+            "score": 13,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "metadata",
+                "points": 5,
+                "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              },
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "c9b3e2a188c31d62b2b6af84838fc5b7cecf97fb61fe8915acf01908294956f0:0",
+            "family": "Univers Condensed",
+            "style": "Condensed",
+            "score": 13,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "metadata",
+                "points": 5,
+                "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              },
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "17584570749cad0530b654a0b73d4f75f07e8ee6471867bc11034d1531ed3644:0",
+            "family": "Instagram Sans Condensed",
+            "style": "Regular",
+            "score": 12,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "metadata",
+                "points": 5,
+                "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              },
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              }
+            ]
+          },
+          {
+            "id": "075e55c0547913ecb46fc1be69829b7e9bb6ddb1c04fcff8ad9b17f12e41ff97:0",
+            "family": "Apercu Condensed Pro",
+            "style": "Regular",
+            "score": 12,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "metadata",
+                "points": 5,
+                "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              },
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              }
+            ]
+          },
+          {
+            "id": "5f7201ca0067236df3c88a8a46e7ef05be6c5595b9073ebe30df8298f2eba36a:0",
+            "family": "Input Mono Condensed",
+            "style": "Regular",
+            "score": 11,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "metadata",
+                "points": 5,
+                "reason": "The query occurs in the family name; this is a text match, not visual evidence."
+              },
+              {
+                "basis": "metadata",
+                "points": 3,
+                "reason": "Transparent query preference matched: metadata:condensed."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "friendly humanist",
+      "before": {
+        "schema_version": 1,
+        "status": "candidates",
+        "role": "ui",
+        "counts": {
+          "catalog_faces": 27454,
+          "eligible_faces": 8805,
+          "returned_faces": 6
+        },
+        "query_interpretation": {
+          "exact_name_match_count": 0,
+          "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+          "aliases": {},
+          "unmodeled_terms": [
+            "friendly",
+            "humanist"
+          ],
+          "unrecognized_brief_fields": [],
+          "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed."
+        },
+        "constraints": {
+          "coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
+          "text_codepoint_count": 21,
+          "text_supplied": true,
+          "family_diversity": "At most one face per family; equivalent canonical content is also deduplicated. Equal-score ties favor differences in known category, width, monospace measurement, x-height, and advance-width bands; this is not proof of visual distinction.",
+          "open_evidence_requested": false
+        },
+        "pagination": null,
+        "pagination_reported": false,
+        "top6": [
+          {
+            "id": "984d24d2adcddd25dc17a09de7426f55cbc55241c9527d387dad306a2a1e371d:0",
+            "family": "Inter UI",
+            "style": "Regular",
+            "score": 4,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              }
+            ]
+          },
+          {
+            "id": "a8a8f1a2bedd3972debcf19d290cb449df6d210a4610d41be889a2dcc8cfcdc4:0",
+            "family": "ITC Garamond Standard",
+            "style": "Black Narrow",
+            "score": 4,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              }
+            ]
+          },
+          {
+            "id": "e07b54ee8f74432a3acad9c940ce5c690858ebb815e5e5dee5c3cde07da0bdb6:0",
+            "family": "Copyright (C) H&Co | typography.com",
+            "style": "Copyright (C) H&Co | typography.com",
+            "score": 4,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              }
+            ]
+          },
+          {
+            "id": "fbbe7038848942df8a1a638bd1ba4225d70b80a7f098d12ff098dc5d816a3393:0",
+            "family": "Spotify Mix Narrow",
+            "style": "Regular",
+            "score": 4,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              }
+            ]
+          },
+          {
+            "id": "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+            "family": "Noto Sans Display",
+            "style": "SemiCondensed",
+            "score": 4,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              }
+            ]
+          },
+          {
+            "id": "e8b5c51fc1fd7f980ac221aa5d3d142c9410f6cc2ba764a7b8102d978ef4ea32:0",
+            "family": "Univers Expanded",
+            "style": "Expanded",
+            "score": 4,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "schema_version": 1,
+        "status": "candidates",
+        "role": "ui",
+        "counts": {
+          "catalog_faces": 27520,
+          "eligible_faces": 8755,
+          "returned_faces": 6,
+          "eligible_distinct_alternatives": 6311,
+          "visual_scored_faces": 0
+        },
+        "query_interpretation": {
+          "exact_name_match_count": 0,
+          "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+          "aliases": {},
+          "negated_aliases": {},
+          "unmodeled_terms": [
+            "friendly",
+            "humanist"
+          ],
+          "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases; only literal name matching can use them without a visual adapter.",
+          "negation_scope": "Negation extends across coordinated terms until punctuation or an explicit contrast such as but. Ambiguous prose should be rewritten or checked against these reported terms.",
+          "unmodeled_positive": [
+            "friendly",
+            "humanist"
+          ],
+          "unmodeled_negative": [],
+          "visual_scoring_active": false,
+          "unrecognized_brief_fields": [],
+          "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect."
+        },
+        "constraints": {
+          "coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
+          "text_codepoint_count": 21,
+          "text_supplied": true,
+          "family_diversity": "At most one face per family; equivalent canonical content is also deduplicated. Equal-score ties favor differences in known category, width, monospace measurement, x-height, and advance-width bands; this is not proof of visual distinction.",
+          "open_evidence_requested": false
+        },
+        "pagination": {
+          "offset": 0,
+          "limit": 6,
+          "next_offset": 6,
+          "has_more": true,
+          "meaning": "Offset counts distinct alternatives, excluding the reserved baseline. Keep the brief and catalog fixed between pages; changing either starts a new exploration."
+        },
+        "pagination_reported": true,
+        "top6": [
+          {
+            "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+            "family": "IBM Plex Sans",
+            "style": "Regular",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "a8a8f1a2bedd3972debcf19d290cb449df6d210a4610d41be889a2dcc8cfcdc4:0",
+            "family": "ITC Garamond Standard",
+            "style": "Black Narrow",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "4d28ff3726c4be838fd9591440fa930bf236d6cd5cd09907f7cda79116d569de:0",
+            "family": "IBM Plex Serif",
+            "style": "Regular",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+            "family": "Noto Sans Display",
+            "style": "SemiCondensed",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "e8b5c51fc1fd7f980ac221aa5d3d142c9410f6cc2ba764a7b8102d978ef4ea32:0",
+            "family": "Univers Expanded",
+            "style": "Expanded",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "be7eac1e77fd36cc64c1078f0f3f8c1f6f1fa0ad7f456fae56a36ef49cd5c0f1:0",
+            "family": "Univers UltraCondensed",
+            "style": "UltraCondensed",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "",
+      "before": {
+        "schema_version": 1,
+        "status": "candidates",
+        "role": "ui",
+        "counts": {
+          "catalog_faces": 27454,
+          "eligible_faces": 8805,
+          "returned_faces": 6
+        },
+        "query_interpretation": {
+          "exact_name_match_count": 0,
+          "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+          "aliases": {},
+          "unmodeled_terms": [],
+          "unrecognized_brief_fields": [],
+          "method": "Small explicit aliases, metadata name matches, measured properties. Unmodeled terms affect only literal name matches; unrecognized brief fields have no effect. No embedding or image-based similarity is claimed."
+        },
+        "constraints": {
+          "coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
+          "text_codepoint_count": 21,
+          "text_supplied": true,
+          "family_diversity": "At most one face per family; equivalent canonical content is also deduplicated. Equal-score ties favor differences in known category, width, monospace measurement, x-height, and advance-width bands; this is not proof of visual distinction.",
+          "open_evidence_requested": false
+        },
+        "pagination": null,
+        "pagination_reported": false,
+        "top6": [
+          {
+            "id": "984d24d2adcddd25dc17a09de7426f55cbc55241c9527d387dad306a2a1e371d:0",
+            "family": "Inter UI",
+            "style": "Regular",
+            "score": 4,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              }
+            ]
+          },
+          {
+            "id": "a8a8f1a2bedd3972debcf19d290cb449df6d210a4610d41be889a2dcc8cfcdc4:0",
+            "family": "ITC Garamond Standard",
+            "style": "Black Narrow",
+            "score": 4,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              }
+            ]
+          },
+          {
+            "id": "e07b54ee8f74432a3acad9c940ce5c690858ebb815e5e5dee5c3cde07da0bdb6:0",
+            "family": "Copyright (C) H&Co | typography.com",
+            "style": "Copyright (C) H&Co | typography.com",
+            "score": 4,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              }
+            ]
+          },
+          {
+            "id": "fbbe7038848942df8a1a638bd1ba4225d70b80a7f098d12ff098dc5d816a3393:0",
+            "family": "Spotify Mix Narrow",
+            "style": "Regular",
+            "score": 4,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              }
+            ]
+          },
+          {
+            "id": "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+            "family": "Noto Sans Display",
+            "style": "SemiCondensed",
+            "score": 4,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              }
+            ]
+          },
+          {
+            "id": "e8b5c51fc1fd7f980ac221aa5d3d142c9410f6cc2ba764a7b8102d978ef4ea32:0",
+            "family": "Univers Expanded",
+            "style": "Expanded",
+            "score": 4,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "schema_version": 1,
+        "status": "candidates",
+        "role": "ui",
+        "counts": {
+          "catalog_faces": 27520,
+          "eligible_faces": 8755,
+          "returned_faces": 6,
+          "eligible_distinct_alternatives": 6311,
+          "visual_scored_faces": 0
+        },
+        "query_interpretation": {
+          "exact_name_match_count": 0,
+          "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+          "aliases": {},
+          "negated_aliases": {},
+          "unmodeled_terms": [],
+          "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases; only literal name matching can use them without a visual adapter.",
+          "negation_scope": "Negation extends across coordinated terms until punctuation or an explicit contrast such as but. Ambiguous prose should be rewritten or checked against these reported terms.",
+          "unmodeled_positive": [],
+          "unmodeled_negative": [],
+          "visual_scoring_active": false,
+          "unrecognized_brief_fields": [],
+          "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect."
+        },
+        "constraints": {
+          "coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
+          "text_codepoint_count": 21,
+          "text_supplied": true,
+          "family_diversity": "At most one face per family; equivalent canonical content is also deduplicated. Equal-score ties favor differences in known category, width, monospace measurement, x-height, and advance-width bands; this is not proof of visual distinction.",
+          "open_evidence_requested": false
+        },
+        "pagination": {
+          "offset": 0,
+          "limit": 6,
+          "next_offset": 6,
+          "has_more": true,
+          "meaning": "Offset counts distinct alternatives, excluding the reserved baseline. Keep the brief and catalog fixed between pages; changing either starts a new exploration."
+        },
+        "pagination_reported": true,
+        "top6": [
+          {
+            "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+            "family": "IBM Plex Sans",
+            "style": "Regular",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "a8a8f1a2bedd3972debcf19d290cb449df6d210a4610d41be889a2dcc8cfcdc4:0",
+            "family": "ITC Garamond Standard",
+            "style": "Black Narrow",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "4d28ff3726c4be838fd9591440fa930bf236d6cd5cd09907f7cda79116d569de:0",
+            "family": "IBM Plex Serif",
+            "style": "Regular",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Serif metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+            "family": "Noto Sans Display",
+            "style": "SemiCondensed",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "e8b5c51fc1fd7f980ac221aa5d3d142c9410f6cc2ba764a7b8102d978ef4ea32:0",
+            "family": "Univers Expanded",
+            "style": "Expanded",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          },
+          {
+            "id": "be7eac1e77fd36cc64c1078f0f3f8c1f6f1fa0ad7f456fae56a36ef49cd5c0f1:0",
+            "family": "Univers UltraCondensed",
+            "style": "UltraCondensed",
+            "score": 5,
+            "score_meaning": "Heuristic preference points; not a quality or readability score.",
+            "reasons": [
+              {
+                "basis": "heuristic",
+                "points": 2,
+                "reason": "Sans metadata is a starting point for this text role, not a readability verdict."
+              },
+              {
+                "basis": "measured+heuristic",
+                "points": 1,
+                "reason": "Measured x-height is 0.45–0.65 em; this modest preference needs a size-specific preview."
+              },
+              {
+                "basis": "metadata",
+                "points": 1,
+                "reason": "At least three distinct face styles are present for hierarchy."
+              },
+              {
+                "basis": "measured+context",
+                "points": 1,
+                "reason": "Equal default digit advances support the numeric content or medium supplied."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

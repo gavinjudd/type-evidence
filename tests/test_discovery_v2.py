@@ -4,7 +4,7 @@ import json
 
 import pytest
 
-from type_evidence.discovery import interpret_query, search
+from type_evidence.discovery import interpret_brief, interpret_query, search
 
 
 def face(identifier, family=None, **overrides):
@@ -45,6 +45,38 @@ def test_sans_serif_is_one_preference_and_can_be_negated():
     terms = interpret_query('sans serif, not high x-height')
     assert terms['positive'] == {'sans-serif': 'category:sans'}
     assert terms['negative'] == {'high x-height': 'measured:high-x-height'}
+
+
+@pytest.mark.parametrize('query,positive,negative', [
+    ('not playful, ornate or delicate', [], ['playful', 'ornate', 'delicate']),
+    ('avoid playful, ornate, and delicate', [], ['playful', 'ornate', 'delicate']),
+    ('not playful, but humanist and open', ['humanist', 'open'], ['playful']),
+    ('avoid ornate, prefer humanist', ['humanist'], ['ornate']),
+    ('not delicate, use sturdy', ['sturdy'], ['delicate']),
+    ('not playful; humanist', ['humanist'], ['playful']),
+    ('humanist, open and clear', ['humanist', 'open', 'clear'], []),
+    ('not use ornate', [], ['ornate']),
+])
+def test_comma_lists_and_explicit_positive_clauses(query, positive, negative):
+    terms = interpret_query(query)
+    assert terms['unmodeled_positive'] == positive
+    assert terms['unmodeled_negative'] == negative
+
+
+def test_tone_is_independent_of_terminal_query_negation_in_every_ranker():
+    from type_evidence.visual import _prompts
+    brief = {'query': 'open humanist sans. Not childish, ornate or delicate',
+             'tone': 'patient clear capable and human'}
+    terms = interpret_brief(brief)
+    assert terms['unmodeled_negative'] == ['childish', 'ornate', 'delicate']
+    assert terms['unmodeled_positive'] == ['open', 'humanist', 'patient', 'clear', 'capable', 'human']
+    positive, negative = _prompts(brief)
+    assert positive.split() == list(terms['positive']) + terms['unmodeled_positive']
+    assert negative == list(terms['negative']) + terms['unmodeled_negative']
+    result = search([face('a')], brief)['query_interpretation']
+    assert result['aliases'] == terms['positive']
+    assert result['unmodeled_positive'] == terms['unmodeled_positive']
+    assert result['unmodeled_negative'] == terms['unmodeled_negative']
 
 
 def test_small_size_and_density_change_measured_preferences_without_category_exclusion():

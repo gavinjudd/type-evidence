@@ -1,0 +1,145 @@
+{
+  "width": 1000,
+  "padding": 64,
+  "gap": 28,
+  "background": "#ef9d59",
+  "template": "poster",
+  "title": "OFFCUT print exchange",
+  "medium": "print-preview",
+  "min_height": 1260,
+  "roles": {
+    "eyebrow": {
+      "font_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "size": 22,
+      "line_height": 1.4,
+      "color": "#262521",
+      "features": {},
+      "axes": {},
+      "language": "en",
+      "direction": null,
+      "align": "start",
+      "weight": 700,
+      "italic": false
+    },
+    "title": {
+      "font_id": "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3:0",
+      "size": 138,
+      "line_height": 1.0,
+      "color": "#262521",
+      "features": {},
+      "axes": {},
+      "language": "en",
+      "direction": null,
+      "align": "start",
+      "weight": 400,
+      "italic": false
+    },
+    "dek": {
+      "font_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "size": 37,
+      "line_height": 1.4,
+      "color": "#262521",
+      "features": {},
+      "axes": {},
+      "language": "en",
+      "direction": null,
+      "align": "start",
+      "weight": 400,
+      "italic": false
+    },
+    "body": {
+      "font_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "size": 31,
+      "line_height": 1.4,
+      "color": "#262521",
+      "features": {},
+      "axes": {},
+      "language": "pl",
+      "direction": null,
+      "align": "start",
+      "weight": 400,
+      "italic": false
+    },
+    "heading": {
+      "font_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "size": 32,
+      "line_height": 1.4,
+      "color": "#262521",
+      "features": {},
+      "axes": {},
+      "language": "pl",
+      "direction": null,
+      "align": "start",
+      "weight": 700,
+      "italic": false
+    },
+    "caption": {
+      "font_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "size": 24,
+      "line_height": 1.4,
+      "color": "#262521",
+      "features": {},
+      "axes": {},
+      "language": "pl",
+      "direction": null,
+      "align": "start",
+      "weight": 400,
+      "italic": false
+    }
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "gap": 28,
+      "role": "eyebrow",
+      "text": "COMMON PRESS / OTWARTA PRACOWNIA"
+    },
+    {
+      "type": "text",
+      "gap": 28,
+      "role": "title",
+      "text": "OFFCUT"
+    },
+    {
+      "type": "text",
+      "gap": 28,
+      "role": "dek",
+      "text": "A print in.\nA print out."
+    },
+    {
+      "type": "spacer",
+      "gap": 28,
+      "height": 42
+    },
+    {
+      "type": "rule",
+      "gap": 28,
+      "color": "#262521",
+      "thickness": 2
+    },
+    {
+      "type": "text",
+      "gap": 28,
+      "role": "heading",
+      "text": "Sobota, 17 października / 18:00–22:00"
+    },
+    {
+      "type": "text",
+      "gap": 28,
+      "role": "body",
+      "text": "Druk, papier i ludzie.\nPrzynieś jeden wydruk, wybierz następny."
+    },
+    {
+      "type": "text",
+      "gap": 28,
+      "role": "body",
+      "text": "Pracownia przy Rynku 8\nŁódź"
+    },
+    {
+      "type": "text",
+      "gap": 28,
+      "role": "caption",
+      "text": "Każdy poziom doświadczenia jest mile widziany.\nWstęp wolny. Papier i tusz na miejscu."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "final": "final",
+  "baseline_retained": false,
+  "decision": "Choose Cooper-Black-Stencil title at 160 px with exact Roboto support. Warm rounded mass and cut bridges make the word feel materially related to a print exchange, while plain supporting information stays easily recoverable.",
+  "revision_reason": "Increase title 138 to 160 to give the cut silhouette more presence without changing the information layout.",
+  "counterargument": "The stencil cue is literal and retro; uncut Cooper-Black is cleaner at small sizes and could suit the community equally well.",
+  "scores": [
+    5,
+    5,
+    5,
+    4
+  ],
+  "score_observations": [
+    "Memorable tactile-looking title fits a welcoming community studio.",
+    "Rounded cut shapes feel playful and confident without distressed military cues.",
+    "Title dominates; date and place remain quickly locatable.",
+    "Plain Roboto support balances the complex title; relationship is practical rather than stylistically identical."
+  ],
+  "carryover_candidates": [
+    "Cooper Black concept proposed in A; punctuated Cooper-Black and Cooper-Black-Stencil exact identities first discovered in B.",
+    "Roboto existing baseline"
+  ],
+  "carryover_layout": [
+    "A established a larger single-line title works better than splitting OFF/CUT."
+  ]
+}

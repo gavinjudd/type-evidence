@@ -1,0 +1,50 @@
+{
+  "observed": [
+    {
+      "id": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da:0",
+      "family": "Noto Sans SC",
+      "sample": {
+        "script": "Latin",
+        "text": "The quick\nbrown fox\njumps over\nthe lazy dog",
+        "language": null,
+        "axes": {
+          "wght": 100.0
+        },
+        "mask_sha256": "af48ed7663817f0b8b921bcc6e633d43a0f9c0ef6568b7d5d614a3ad90fd81e5"
+      }
+    },
+    {
+      "id": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f:0",
+      "family": "Noto Sans JP",
+      "sample": {
+        "script": "Latin",
+        "text": "The quick\nbrown fox\njumps over\nthe lazy dog",
+        "language": null,
+        "axes": {
+          "wght": 100.0
+        },
+        "mask_sha256": "af48ed7663817f0b8b921bcc6e633d43a0f9c0ef6568b7d5d614a3ad90fd81e5"
+      }
+    },
+    {
+      "id": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252:0",
+      "family": "Noto Sans KR",
+      "sample": {
+        "script": "Latin",
+        "text": "The quick\nbrown fox\njumps over\nthe lazy dog",
+        "language": null,
+        "axes": {
+          "wght": 100.0
+        },
+        "mask_sha256": "af48ed7663817f0b8b921bcc6e633d43a0f9c0ef6568b7d5d614a3ad90fd81e5"
+      }
+    }
+  ],
+  "identical_default_mask": true,
+  "requested_weights": [
+    400,
+    700
+  ],
+  "indexed_weight": 100,
+  "decision": "No ranking/deduplication change. Identical indexed Latin samples at weight 100 do not establish equal shapes at requested 400/700, French text, or non-Latin scripts. A safe requested-instance comparison exceeds this focused no-reindex patch."
+}

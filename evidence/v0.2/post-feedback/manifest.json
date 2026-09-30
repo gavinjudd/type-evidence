@@ -1,0 +1,273 @@
+{
+  "label": "Non-heldout post-feedback iteration; excluded from the frozen first-pass comparison",
+  "started_at": "2026-09-30T17:02:47.183644+00:00",
+  "original_source_commit": "13a915c2e8a9903b8927f525a4ba5e8a040b4344",
+  "current_head": "13a915c2e8a9903b8927f525a4ba5e8a040b4344",
+  "current_source_files": {
+    "type_evidence/discovery.py": "cce976d8f9cc4b5ac01702a464295528d00a3ed8f59c5ea396d3a7f11577105a",
+    "type_evidence/visual.py": "ba887f416cef3d7009994aad5e74ead1039537df3fa98e55c6343ca89b2d6428"
+  },
+  "catalog_sha256": "5fe03fd4779bc83016766254cfbaa9743cbc5df0d20f275aea5f4c7f53245740",
+  "default_visual_index_sha256": "181d5153fceb393ebcec4092d80aa33a1d79172d3385161b8bd290079fa79e4a",
+  "firstpass_full_freeze_sha256": "c69e459c0f0438b1257d5dccbcc3cad5ac641f016436def25a647b69f58d5cde",
+  "scope": "Only the two observed case-c C searches with polarity defects rerun, with their original briefs unchanged. No new renders, selections, aesthetic scores, corpus changes, or model/index changes.",
+  "runs": [
+    {
+      "case": "case-c",
+      "query": "initial",
+      "command": [
+        "<PROJECT>/.venv/bin/type-evidence",
+        "--catalog",
+        "<PROJECT>/library/catalog.sqlite",
+        "search",
+        "--brief",
+        "<WORKSPACE>/work/heldout-v2/results/C-harness/case-c/initial-query.json",
+        "--visual",
+        "on"
+      ],
+      "seconds": 5.833,
+      "exit_code": 0,
+      "original_query_sha256": "1f22891ca8b5bb653789fadf3e86249adabfe26ecdd5de94406343ba82dbe8f8",
+      "original_response_sha256": "b0552dd781680573b930f900053449d054bcd677d9a8b6cb3b93aeec6341e403",
+      "before_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {},
+        "negated_aliases": {},
+        "unmodeled_terms": [
+          "capable",
+          "childish",
+          "clear",
+          "decorative",
+          "human",
+          "humanist",
+          "legible",
+          "open",
+          "patient"
+        ],
+        "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases. The active visual adapter may interpret their appearance; inspect its evidence and render finalists.",
+        "negation_scope": "Negation extends across coordinated terms until punctuation or an explicit contrast such as but. Ambiguous prose should be rewritten or checked against these reported terms.",
+        "unmodeled_positive": [
+          "humanist",
+          "open",
+          "clear",
+          "legible"
+        ],
+        "unmodeled_negative": [
+          "childish",
+          "decorative",
+          "patient",
+          "clear",
+          "capable",
+          "human"
+        ],
+        "visual_scoring_active": true,
+        "unrecognized_brief_fields": [],
+        "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect."
+      },
+      "after_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {},
+        "negated_aliases": {},
+        "unmodeled_terms": [
+          "capable",
+          "childish",
+          "clear",
+          "decorative",
+          "human",
+          "humanist",
+          "legible",
+          "open",
+          "patient"
+        ],
+        "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases. The active visual adapter may interpret their appearance; inspect its evidence and render finalists.",
+        "negation_scope": "Query and tone are interpreted independently. Negation extends across comma-coordinated terms until a sentence/semicolon/colon boundary, an explicit contrast such as but, or a comma-led positive clause such as prefer or use. Check the reported polarity for ambiguous prose.",
+        "unmodeled_positive": [
+          "humanist",
+          "open",
+          "clear",
+          "legible",
+          "patient",
+          "capable",
+          "human"
+        ],
+        "unmodeled_negative": [
+          "childish",
+          "decorative"
+        ],
+        "visual_scoring_active": true,
+        "unrecognized_brief_fields": [],
+        "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect."
+      },
+      "before_visual_prompts": {
+        "positive_prompt": "humanist open clear legible patient capable human",
+        "negative_prompts": [
+          "childish",
+          "decorative"
+        ]
+      },
+      "after_visual_prompts": {
+        "positive_prompt": "humanist open clear legible patient capable human",
+        "negative_prompts": [
+          "childish",
+          "decorative"
+        ]
+      },
+      "before_ids": [
+        "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+        "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+        "4f73159be231ba781423243aa95edf4dc38115921d572e5386cae5c823447798:0"
+      ],
+      "after_ids": [
+        "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+        "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+        "4f73159be231ba781423243aa95edf4dc38115921d572e5386cae5c823447798:0"
+      ],
+      "interpretation_matches_visual_prompt": true
+    },
+    {
+      "case": "case-c",
+      "query": "refined",
+      "command": [
+        "<PROJECT>/.venv/bin/type-evidence",
+        "--catalog",
+        "<PROJECT>/library/catalog.sqlite",
+        "search",
+        "--brief",
+        "<WORKSPACE>/work/heldout-v2/results/C-harness/case-c/refined-query.json",
+        "--visual",
+        "on"
+      ],
+      "seconds": 5.285,
+      "exit_code": 0,
+      "original_query_sha256": "3c994876c116dbedb2558d557da40778f5f8d97415f45e4f2c3a8017395338c6",
+      "original_response_sha256": "0575d3dde07b0fb0e3f21adb3dacf66d79d060723391ed35f1aaa003267e0054",
+      "before_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {
+          "sans": "category:sans"
+        },
+        "negated_aliases": {},
+        "unmodeled_terms": [
+          "capable",
+          "childish",
+          "clear",
+          "delicate",
+          "human",
+          "humanist",
+          "open",
+          "ornate",
+          "patient"
+        ],
+        "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases. The active visual adapter may interpret their appearance; inspect its evidence and render finalists.",
+        "negation_scope": "Negation extends across coordinated terms until punctuation or an explicit contrast such as but. Ambiguous prose should be rewritten or checked against these reported terms.",
+        "unmodeled_positive": [
+          "open",
+          "humanist",
+          "ornate",
+          "delicate",
+          "patient",
+          "clear",
+          "capable",
+          "human"
+        ],
+        "unmodeled_negative": [
+          "childish"
+        ],
+        "visual_scoring_active": true,
+        "unrecognized_brief_fields": [],
+        "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect."
+      },
+      "after_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {
+          "sans": "category:sans"
+        },
+        "negated_aliases": {},
+        "unmodeled_terms": [
+          "capable",
+          "childish",
+          "clear",
+          "delicate",
+          "human",
+          "humanist",
+          "open",
+          "ornate",
+          "patient"
+        ],
+        "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases. The active visual adapter may interpret their appearance; inspect its evidence and render finalists.",
+        "negation_scope": "Query and tone are interpreted independently. Negation extends across comma-coordinated terms until a sentence/semicolon/colon boundary, an explicit contrast such as but, or a comma-led positive clause such as prefer or use. Check the reported polarity for ambiguous prose.",
+        "unmodeled_positive": [
+          "open",
+          "humanist",
+          "patient",
+          "clear",
+          "capable",
+          "human"
+        ],
+        "unmodeled_negative": [
+          "childish",
+          "ornate",
+          "delicate"
+        ],
+        "visual_scoring_active": true,
+        "unrecognized_brief_fields": [],
+        "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect."
+      },
+      "before_visual_prompts": {
+        "positive_prompt": "sans open humanist ornate delicate patient clear capable human",
+        "negative_prompts": [
+          "childish"
+        ]
+      },
+      "after_visual_prompts": {
+        "positive_prompt": "sans open humanist patient clear capable human",
+        "negative_prompts": [
+          "childish",
+          "ornate",
+          "delicate"
+        ]
+      },
+      "before_ids": [
+        "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "ddd4ef7f97f4361b60841d59753218a57134b0f99f5b46a9612234f1c2733ab0:0",
+        "983b0caf336e8542214fc17019a4fc5e0360864b92806ca14d55c1fc1c2c5a0f:0",
+        "8d001762907d743767f1af5c3398fd97d1be7aed3cb7c819a500156c49524484:0"
+      ],
+      "after_ids": [
+        "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "bac6461feb3488e5d330e7e9434fc8e0c513aa3c1e7b57598eab1654e1055a14:0",
+        "3903a99f151a8d1f872e7887f77d23323a1b0a04cc9b3b6424ed1bb0938dc240:0",
+        "61cbf6bc6ef91586f651f120df7e7ca1d55d02b58c1b89f84b069928689fa0f4:0"
+      ],
+      "interpretation_matches_visual_prompt": true
+    }
+  ],
+  "frozen_files_verified_unchanged": 413,
+  "finished_at": "2026-09-30T17:02:59.499919+00:00",
+  "files": {
+    "discovery-corrections.md": "072c2ac1bf49cacb07f66b7e413fc9b86cb10148bdfca89b251ee79bd254ffd4",
+    "observed-style-conflicts.json": "b7dab8439cb915ffe2bbedb8e640b7af743921b5cb60b175f2c3303bd192bd03",
+    "diversity-investigation.json": "e92e1408eef6cbe9cf9909069f6a9e0d53a4a7bcd5d732a7dfe879a1d207b319",
+    "case-c-initial/after.json": "a4d484cca7ef680b4ec38de6f5d5d03a456e35cb50888e4374864cfdf3b2133e",
+    "case-c-initial/before.json": "b0552dd781680573b930f900053449d054bcd677d9a8b6cb3b93aeec6341e403",
+    "case-c-initial/query.json": "1f22891ca8b5bb653789fadf3e86249adabfe26ecdd5de94406343ba82dbe8f8",
+    "case-c-initial/stderr.txt": "818a1aa2b34bab1caaa59e15e2e17324cef4d3d0dbd533aec3985ae68782aef7",
+    "case-c-refined/after.json": "c6565d519257669d4ce855a2add5075d045fb192df078eae14a880340ff3996a",
+    "case-c-refined/before.json": "0575d3dde07b0fb0e3f21adb3dacf66d79d060723391ed35f1aaa003267e0054",
+    "case-c-refined/query.json": "3c994876c116dbedb2558d557da40778f5f8d97415f45e4f2c3a8017395338c6",
+    "case-c-refined/stderr.txt": "818a1aa2b34bab1caaa59e15e2e17324cef4d3d0dbd533aec3985ae68782aef7",
+    "README.md": "6657b5fb41383dcd9979b6a95e81db3cbfa2de968315d404cf6dd9c84390ecd6"
+  },
+  "validation": {
+    "targeted_command": ".venv/bin/python -m pytest -q tests/test_discovery.py tests/test_discovery_v2.py tests/test_observed_corpus_regressions.py tests/test_visual.py",
+    "result": "107 passed in 0.58s",
+    "git_diff_check": "clean for modified discovery/visual source and tests",
+    "scope": "Root-owned post-feedback design artifacts are separate from these discovery corrections."
+  }
+}

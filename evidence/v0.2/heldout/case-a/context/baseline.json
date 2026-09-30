@@ -1,0 +1,139 @@
+{
+  "template": "interface",
+  "title": "Harbour link notice",
+  "medium": "print-preview",
+  "width": 740,
+  "padding": 42,
+  "gap": 16,
+  "background": "#f5f3eb",
+  "roles": {
+    "eyebrow": {
+      "font_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "size": 16,
+      "weight": 700,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#202b30",
+      "language": "en"
+    },
+    "title": {
+      "font_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "size": 34,
+      "weight": 700,
+      "italic": false,
+      "line_height": 1.1,
+      "color": "#202b30",
+      "language": "en"
+    },
+    "body": {
+      "font_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "size": 20,
+      "weight": 400,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#202b30",
+      "language": "en"
+    },
+    "body_fr": {
+      "font_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "size": 20,
+      "weight": 400,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#202b30",
+      "language": "fr"
+    },
+    "heading": {
+      "font_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "size": 21,
+      "weight": 700,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#202b30",
+      "language": "en"
+    },
+    "time": {
+      "font_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "size": 24,
+      "weight": 700,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#202b30",
+      "language": "en"
+    },
+    "caption": {
+      "font_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "size": 16,
+      "weight": 400,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#202b30",
+      "language": "en"
+    }
+  },
+  "blocks": [
+    {
+      "role": "eyebrow",
+      "text": "HARBOUR LINK / LIAISON DU PORT"
+    },
+    {
+      "role": "title",
+      "text": "A different landing,\nthe same crossing."
+    },
+    {
+      "role": "heading",
+      "text": "12–16 October / 12–16 octobre"
+    },
+    {
+      "type": "rule",
+      "color": "#24746c",
+      "thickness": 4
+    },
+    {
+      "role": "body",
+      "text": "Use the east landing while we repair the west ramp. The crossing still takes 8 minutes."
+    },
+    {
+      "role": "body_fr",
+      "text": "Pendant les travaux, utilisez le quai est. La traversée dure toujours 8 minutes."
+    },
+    {
+      "type": "table",
+      "role": "time",
+      "header_role": "caption",
+      "columns": [
+        {
+          "text": "From town / De la ville",
+          "width": 1
+        },
+        {
+          "text": "From island / De l’île",
+          "width": 1
+        }
+      ],
+      "rows": [
+        [
+          "07:10",
+          "07:25"
+        ],
+        [
+          "08:10",
+          "08:25"
+        ],
+        [
+          "09:10",
+          "09:25"
+        ]
+      ],
+      "row_padding": 9
+    },
+    {
+      "role": "caption",
+      "text": "Need a hand? Ask the crew at the east landing."
+    },
+    {
+      "role": "body_fr",
+      "text": "Besoin d’aide ? Adressez-vous à l’équipe du quai est."
+    }
+  ]
+}

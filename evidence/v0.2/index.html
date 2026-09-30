@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <title>Type Evidence 0.2 — review evidence</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { background: #f7f7f3; color: #202622; font: 15px/1.55 system-ui, sans-serif; }
+    body { margin: 0; }
+    a { color: #175745; text-underline-offset: .2em; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible, summary:focus-visible { outline: 3px solid #175745; outline-offset: 4px; }
+    .skip { position: absolute; top: -100px; left: 16px; padding: 8px; background: white; }
+    .skip:focus { top: 12px; }
+    .wrap { max-width: 1220px; margin: auto; padding: 0 36px; }
+    header { padding: 24px 0 22px; border-bottom: 1px solid #bec6bf; }
+    .topline { display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+    .label { font-size: 12px; font-weight: 650; letter-spacing: .09em; text-transform: uppercase; }
+    nav { display: flex; gap: 20px; flex-wrap: wrap; font-size: 13px; }
+    h1 { margin: 26px 0 8px; font-size: clamp(30px, 4vw, 48px); letter-spacing: -.04em; line-height: 1.12; font-weight: 630; }
+    h2 { margin: 0; font-size: 24px; letter-spacing: -.025em; line-height: 1.25; }
+    h3 { margin: 12px 0 3px; font-size: 16px; line-height: 1.4; }
+    p { margin: 9px 0; max-width: 78ch; }
+    .intro { font-size: 17px; max-width: 80ch; }
+    .muted, small, figcaption { color: #526057; }
+    .metrics { display: grid; grid-template-columns: repeat(4, 1fr); margin: 0; border-bottom: 1px solid #bec6bf; }
+    .metrics div { padding: 20px 16px 20px 0; display: flex; flex-direction: column; }
+    .metrics dt { color: #526057; font-size: 12px; order: 1; }
+    .metrics dd { margin: 0 0 1px; font-size: 28px; font-weight: 620; letter-spacing: -.04em; line-height: 1.25; }
+    section { padding: 30px 0; border-bottom: 1px solid #bec6bf; scroll-margin-top: 18px; }
+    .section-head { display: flex; gap: 24px; align-items: baseline; justify-content: space-between; margin-bottom: 8px; }
+    .section-head > a { font-size: 13px; white-space: nowrap; }
+    .examples { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin-top: 22px; }
+    figure { margin: 0; min-width: 0; }
+    .example-image { display: block; background: #e9ece7; }
+    .example-image img { display: block; width: 100%; height: 300px; object-fit: contain; }
+    .example p { font-size: 13px; margin: 4px 0 8px; }
+    .links { display: flex; gap: 5px 14px; flex-wrap: wrap; font-size: 12px; }
+    .browser-grid { display: grid; grid-template-columns: minmax(0, 1fr) 410px; gap: 40px; margin-top: 20px; }
+    .before-after { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .before-after img { width: 100%; height: auto; display: block; border: 1px solid #d6dcd6; }
+    figcaption { font-size: 12px; margin-top: 7px; }
+    .facts { padding-left: 19px; margin: 14px 0; }
+    .facts li { margin: 7px 0; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 14px 0; }
+    th, td { padding: 8px 0; border-bottom: 1px solid #dce1db; text-align: left; vertical-align: top; }
+    th { font-size: 12px; font-weight: 650; }
+    tr > :not(:first-child) { text-align: right; padding-left: 12px; font-variant-numeric: tabular-nums; }
+    details { margin-top: 16px; }
+    summary { cursor: pointer; font-size: 14px; font-weight: 600; padding: 8px 0; }
+    .evidence-list { margin: 16px 0 0; }
+    .evidence-list div { display: grid; grid-template-columns: 180px 1fr; gap: 18px; padding: 11px 0; border-top: 1px solid #dce1db; }
+    .evidence-list dt { font-weight: 600; }
+    .evidence-list dd { margin: 0; font-size: 14px; }
+    .outcome { border-left: 3px solid #8b743c; padding-left: 18px; }
+    .comparison tr > :not(:first-child) { text-align: left; }
+    footer { padding: 22px 0 32px; font-size: 12px; }
+    @media (max-width: 850px) {
+      .wrap { padding: 0 24px; }
+      .browser-grid { grid-template-columns: 1fr 350px; gap: 24px; }
+      .example-image img { height: 230px; }
+      .two-col { gap: 24px; }
+    }
+    @media (max-width: 640px) {
+      .wrap { padding: 0 20px; }
+      header { padding-top: 20px; }
+      nav { gap: 8px 16px; }
+      h1 { margin-top: 22px; }
+      .intro { font-size: 16px; }
+      .metrics { grid-template-columns: 1fr 1fr; }
+      .metrics div { padding: 16px 12px 16px 0; }
+      .metrics dd { font-size: 26px; }
+      .section-head { display: block; }
+      .section-head > a { display: inline-block; margin-top: 7px; }
+      .examples, .browser-grid, .two-col { grid-template-columns: 1fr; gap: 26px; }
+      .example-image img { height: auto; max-height: 390px; }
+      .browser-grid { gap: 20px; }
+      .before-after { max-width: 410px; gap: 12px; }
+      .evidence-list div { grid-template-columns: 1fr; gap: 4px; }
+      .links { font-size: 13px; }
+    }
+    @media print { .wrap { max-width: none; } details { display: block; } a { color: inherit; } }
+  </style>
+</head>
+<body>
+<a class="skip" href="#examples">Skip to examples</a>
+<div class="wrap">
+  <header>
+    <div class="topline">
+      <span class="label">Type Evidence / 0.2.0</span>
+      <nav aria-label="Review navigation">
+        <a href="#examples">Examples</a><a href="#browser">Browser checks</a><a href="#coverage">Coverage</a><a href="#evaluation">Evaluation</a>
+      </nav>
+    </div>
+    <h1>Inspect the typography. Trace the evidence.</h1>
+    <p class="intro">A local font discovery and composition workflow for agents: explore actual letterforms, compare exact faces, and apply their real settings in context.</p>
+    <p class="links"><a href="../../README.md#get-started">Install and get started</a><a href="../../docs/agents.md">CLI &amp; MCP guide</a><a href="../../docs/contract.md">Composition schema</a><a href="../../docs/architecture.md">Architecture</a></p>
+  </header>
+
+  <dl class="metrics" aria-label="Measured evidence snapshot">
+    <div><dt><a href="library-validation.json">Hash-verified catalog faces</a></dt><dd>27,520</dd></div>
+    <div><dt><a href="visual-coverage.json">Faces in the default visual index</a></dt><dd>26,313 <small style="font-size:14px;letter-spacing:0">/ 95.61%</small></dd></div>
+    <div><dt><a href="collection.json">Distinct faces added; originals preserved</a></dt><dd>66</dd></div>
+    <div><dt><a href="composition-browser/browser-verification.json">Exact role checks across six browser views</a></dt><dd>34</dd></div>
+  </dl>
+
+  <main>
+    <section id="examples">
+      <div class="section-head"><h2>Three contexts, inspectable settings</h2><a href="../../examples/">Editable source specifications</a></div>
+      <p>These fixed examples exercise reading hierarchy, a dense interface, and expressive display type. They are starting layouts, not universal font recommendations or held-out evaluation results.</p>
+      <p class="muted">The images below are deterministic, unhinted HarfBuzz/FreeType renders. The browser links show separately captured application recipes with exact assets verified and loaded.</p>
+      <div class="examples">
+        <figure class="example">
+          <a class="example-image" href="composition-examples/editorial/composition.png"><img src="composition-examples/editorial/composition.png" width="1080" height="866" alt="Field Notes editorial reading layout with a large serif title, article body, and sidebar"></a>
+          <figcaption><h3>01 / Editorial reading</h3><p>Field Notes — the river returns. Six roles, headline and body hierarchy, supporting sidebar.</p></figcaption>
+          <div class="links"><a href="composition-examples/editorial/index.html">Full preview</a><a href="composition-examples/editorial/spec.json">Spec</a><a href="composition-examples/editorial/manifest.json">Manifest &amp; recipe</a><a href="composition-browser/editorial-desktop.png">Desktop</a><a href="composition-browser/editorial-mobile.png">Mobile</a></div>
+        </figure>
+        <figure class="example">
+          <a class="example-image" href="composition-examples/interface/composition.png"><img src="composition-examples/interface/composition.png" width="1200" height="715" alt="Dispatch operations interface with metrics, queue labels, and a dense five-column request table"></a>
+          <figcaption><h3>02 / Dense interface</h3><p>Dispatch — operations at a glance. Six roles, numeric metrics, small labels, and a real data table.</p></figcaption>
+          <div class="links"><a href="composition-examples/interface/index.html">Full preview</a><a href="composition-examples/interface/spec.json">Spec</a><a href="composition-examples/interface/manifest.json">Manifest &amp; recipe</a><a href="composition-browser/interface-desktop.png">Desktop</a><a href="composition-browser/interface-mobile.png">Mobile</a></div>
+        </figure>
+        <figure class="example">
+          <a class="example-image" href="composition-examples/poster/composition.png"><img src="composition-examples/poster/composition.png" width="1000" height="1100" alt="Night Shift observatory event poster with a large outlined heading and supporting event details"></a>
+          <figcaption><h3>03 / Poster and brand</h3><p>Night Shift — an observatory evening. Five roles, expressive title, quieter details, and strong scale contrast.</p></figcaption>
+          <div class="links"><a href="composition-examples/poster/index.html">Full preview</a><a href="composition-examples/poster/spec.json">Spec</a><a href="composition-examples/poster/manifest.json">Manifest &amp; recipe</a><a href="composition-browser/poster-desktop.png">Desktop</a><a href="composition-browser/poster-mobile.png">Mobile</a></div>
+        </figure>
+      </div>
+    </section>
+
+    <section id="browser">
+      <div class="section-head"><h2>Browser verification found a real defect</h2><a href="composition-browser/README.md">Verification notes &amp; receipt</a></div>
+      <div class="browser-grid">
+        <div>
+          <p>The first editorial recipe kept its fixed canvas on a 390px viewport, creating a 1088px page. The final recipe fits the viewport, stacks columns below 640px, reduces outer padding, and scales large headings.</p>
+          <ul class="facts">
+            <li>All six final views have document width equal to viewport width.</li>
+            <li>Each role passed the asset SHA-256 gate and loaded its expected scoped face alias.</li>
+            <li>The mobile interface table scrolls inside its own focusable region. A keyboard Right input moved it from 0px to 40px.</li>
+            <li>Exact identities, axes, and features stay fixed; responsive size rules are recorded in each implementation recipe.</li>
+          </ul>
+          <p class="muted">Observed in Chrome on macOS at 1280 × 900 and an emulated 390 × 844 viewport. These are actual browser captures; they do not establish raster equivalence with the PNG renderer, physical-device behavior, or native Windows support.</p>
+          <p class="links"><a href="composition-browser/browser-verification.json">Machine-readable browser evidence</a><a href="composition-examples/editorial/application.css">Generated CSS</a><a href="composition-examples/editorial/application.js">Exact-asset loading gate</a></p>
+        </div>
+        <div class="before-after">
+          <figure><a href="composition-browser/editorial-mobile-before.png"><img src="composition-browser/editorial-mobile-before.png" width="390" height="844" loading="lazy" alt="Before the responsive fix: the editorial page is clipped on a 390px viewport"></a><figcaption>Before / 1088px page on a 390px viewport.</figcaption></figure>
+          <figure><a href="composition-browser/editorial-mobile.png"><img src="composition-browser/editorial-mobile.png" width="390" height="844" loading="lazy" alt="After the responsive fix: the editorial heading and text fit the 390px viewport"></a><figcaption>After / 390px page, stacked content, exact fonts loaded.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="coverage">
+      <div class="section-head"><h2>Broader collection, measured retrieval coverage</h2><a href="visual-coverage.json">Frozen coverage snapshot</a></div>
+      <div class="two-col">
+        <div>
+          <h3>Collection expansion</h3>
+          <p>All 27,454 original mixed-source faces remain available. Pinned Google Fonts selections and Arrow Type add 66 distinct faces, including coherent style sets and less-served scripts.</p>
+          <table><caption class="muted">Exact catalog counts from <a href="collection.json">collection.json</a></caption><thead><tr><th scope="col">Measure</th><th scope="col">Before</th><th scope="col">After</th></tr></thead><tbody>
+            <tr><th scope="row">Faces</th><td>27,454</td><td>27,520</td></tr>
+            <tr><th scope="row">Family/version/width groups</th><td>8,674</td><td>8,710</td></tr>
+            <tr><th scope="row">Embedded family names</th><td>8,012</td><td>8,041</td></tr>
+            <tr><th scope="row">Variable faces</th><td>344</td><td>378</td></tr>
+          </tbody></table>
+          <p class="muted">Fourteen short text probes shaped in exact new faces with zero missing glyphs. Sample coverage is not complete language support. Rights remain separately labeled: 19,732 unknown, 7,422 embedded-open-license notices, and 366 restricted notices.</p>
+          <p><a href="../../docs/collection-v2.md">Read the additions, gaps, and source provenance</a></p>
+        </div>
+        <div>
+          <h3>Actual rendered-content indexing</h3>
+          <p>The default FontCLIP index covers 26,313 of 27,520 faces (95.61%), including 19,989 with unknown category metadata. The remaining 1,207 have recorded sample or rendering failures; exact-text metadata discovery remains available.</p>
+          <p class="muted">Embeddings describe recorded text samples at default axes. Separate script indexes use their own text and language. Counts below measure configured-sample eligibility and successful indexing, not language completeness, readability, or design quality.</p>
+          <details><summary>Inspect all 13 script-index counts</summary>
+            <table><thead><tr><th scope="col">Sample</th><th scope="col">Eligible</th><th scope="col">Indexed</th></tr></thead><tbody>
+              <tr><th scope="row">Arabic</th><td>40</td><td>40</td></tr>
+              <tr><th scope="row">Bengali</th><td>6</td><td>6</td></tr>
+              <tr><th scope="row">Chinese</th><td>4</td><td>4</td></tr>
+              <tr><th scope="row">Chinese Traditional</th><td>49</td><td>49</td></tr>
+              <tr><th scope="row">Cyrillic</th><td>8,317</td><td>8,305</td></tr>
+              <tr><th scope="row">Devanagari</th><td>62</td><td>62</td></tr>
+              <tr><th scope="row">Ethiopic</th><td>1</td><td>1</td></tr>
+              <tr><th scope="row">Greek</th><td>5,438</td><td>5,427</td></tr>
+              <tr><th scope="row">Hebrew</th><td>85</td><td>85</td></tr>
+              <tr><th scope="row">Japanese</th><td>49</td><td>49</td></tr>
+              <tr><th scope="row">Korean</th><td>4</td><td>4</td></tr>
+              <tr><th scope="row">Tamil</th><td>0</td><td>0</td></tr>
+              <tr><th scope="row">Thai</th><td>36</td><td>36</td></tr>
+            </tbody></table>
+          </details>
+          <p class="muted">Tamil has no eligible face for the configured sample. Color/bitmap rendering remains unsupported. Search does not substitute Latin letterforms when a required script index is missing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="retrieval-failures">
+      <div class="section-head"><h2>Observed retrieval failures and targeted fixes</h2><a href="query-smoke.json">Query smoke observations</a></div>
+      <p>The non-blinded smoke review found that the elegant high-contrast serif query returned chunky, decorative or distressed faces. The angular query found some angular shapes, but included a fragmented first result and a face named CondItalic despite the requested upright flag.</p>
+      <p>The humanist query's first two serif options are visually calm and related, but the shortlist has limited shape diversity. It also admitted an explicitly named Extrabold face for a weight-400 request. These preserved shortlists expose retrieval and style-constraint failures; usable initial directions do not make every result a recommended selection.</p>
+      <p class="links"><a href="query-smoke/elegant.png">Elegant query: observed failure</a><a href="query-smoke/angular.png">Angular query: observed failure</a><a href="query-smoke/humanist.png">Humanist query: limited diversity and style conflict</a></p>
+      <h3>Supervised reference recovery</h3>
+      <p>Explicitly selected Rajdhani and Bodoni image references recovered useful alternatives after the semantic misses. This supplies a preferred visual direction; it is not zero-shot success. Prompt rewrites, extra negatives, and eight-view augmentation did not establish a reliable semantic fix in the exploratory study.</p>
+      <p class="links"><a href="retrieval-recovery/README.md">Recovery method and limitations</a><a href="retrieval-recovery/angular-reference.png">Selected Rajdhani reference: comparison</a><a href="retrieval-recovery/elegant-reference.png">Selected Bodoni reference: comparison</a></p>
+    </section>
+
+    <section id="verification">
+      <h2>What the checks establish</h2>
+      <dl class="evidence-list">
+        <div><dt><a href="tests-scope.json">Regression suite</a></dt><dd>270 passed with optional visual dependencies; 260 passed and 10 optional tests skipped in the separate core-only environment. Synthetic fixtures on macOS, not an aesthetic evaluation. <a href="tests-output.txt">Full output</a> · <a href="core-only-tests.txt">Core-only output</a></dd></div>
+        <div><dt><a href="fontclip-parity.json">Model adapter parity</a></dt><dd>CPU float32 text, image, and projection parity against the pinned official FontCLIP implementation passed. Twelve sampled canonical-equivalent pairs also produced equal render masks. This checks the adapter and sampled reuse, not recommendation quality.</dd></div>
+        <div><dt><a href="library-validation.json">Exact source resolution</a></dt><dd>27,520 faces resolved to one hash-verified source copy each; zero failures. This checks identity and available bytes, not every glyph.</dd></div>
+        <div><dt><a href="discovery-regressions.json">Discovery comparisons</a></dt><dd>Four before/after deterministic queries with 48 candidate records, interpretations, reasons, and pagination. Catalog changes and comparison limits remain attached to the evidence.</dd></div>
+      </dl>
+    </section>
+
+    <section id="evaluation">
+      <div class="outcome" id="heldout-evaluation">
+        <h2>Held-out first pass: no improvement over basic collection access</h2>
+        <p>The harness produced final images byte-identical to basic collection access in all three cases. The selecting agent preferred the basic/harness poster to the unaided version; the other two contexts tied across all conditions.</p>
+      </div>
+      <p>A = unaided selection; B = basic access to the same collection; C = the harness. One fresh agent completed all A stages, then B, then C, under equal caps with the same exact renderer. These are authored fixtures and same-agent self-assessments, with carryover between conditions.</p>
+      <table class="comparison"><thead><tr><th scope="col">Context and brief</th><th scope="col">Final typography</th><th scope="col">First-pass result and images</th></tr></thead><tbody>
+        <tr><th scope="row"><a href="heldout/case-a/brief.json">English/French ferry notice</a></th><td>Source Sans Pro</td><td>A = B = C. <a href="heldout/results/C-harness/case-a/source-sans/composition.png">Identical final image</a></td></tr>
+        <tr><th scope="row"><a href="heldout/case-b/brief.json">Polish community print poster</a></th><td>Cooper-Black-Stencil title + Roboto support</td><td>B = C; preferred to A by the selecting agent. <a href="heldout/results/A-unaided/case-b/baseline-large/composition.png">A final</a> · <a href="heldout/results/C-harness/case-b/cooper-stencil/composition.png">B/C final</a></td></tr>
+        <tr><th scope="row"><a href="heldout/case-c/brief.json">Turkish mobile sewing lesson</a></th><td>Source Sans Pro</td><td>A = B = C. <a href="heldout/results/C-harness/case-c/final/composition.png">Identical final image</a></td></tr>
+      </tbody></table>
+      <p>All nine final compositions passed exact-byte/no-fallback and measured no-clipping/no-line-overlap checks. These finals were not verified in a production browser or physical print test. A <a href="heldout/blinded-review/judge.md">fresh blinded AI judge</a> confirmed B=C &gt; A for the poster and tied all notice/mobile variants, including their original baselines. This was formative review, not human user testing.</p>
+      <p class="links"><a href="heldout/README.md">Full held-out report</a><a href="heldout/firstpass-comparison.json">Results, timings, counts, and image hashes</a><a href="heldout/PROTOCOL.md">Protocol and limits</a></p>
+    </section>
+  <section><h2>Post-feedback design refinement</h2><p>The <a href="post-feedback/equal-bilingual-assistance/composition.png">revised notice</a> gives English and French assistance equal emphasis. A <a href="post-feedback/turkish-body-audit/comparison.png">Turkish specimen</a> now exposes the required adjacent-glyph distinctions at 18px. The <a href="post-feedback/design-visual-review.json">supplemental judge</a> accepted the notice correction and retained a minor l/I readability concern. These are labeled iterations, not fresh held-out outcomes.</p></section></main>
+  <footer>
+    <p>This page works locally with its accompanying evidence files. It has no remote assets, scripts, bundled fonts, or model weights. Live application recipes require authorized exact font assets staged separately; the PNGs and browser screenshots are immediately viewable.</p>
+    <p><a href="README.md">Evidence index and scope</a> · <a href="../../README.md">Project README</a> · <a href="../../AGENTS.md">Agent working loop</a> · <a href="../../docs/maintenance.md">Rebuild and maintenance</a></p>
+  </footer>
+</div>
+</body>
+</html>

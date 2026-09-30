@@ -1,0 +1,401 @@
+{
+  "scope": "Non-held-out existing API recovery probes. Reference preference is explicitly hand-selected; these results are not learned outcome or held-out evidence. Original smoke results preserved.",
+  "cases": [
+    {
+      "case": "angular",
+      "variant": "negative",
+      "brief": {
+        "query": "angular futuristic technical, not playful or distressed or decorative",
+        "role": "game",
+        "text": "City lights 2048",
+        "weight": 400,
+        "italic": false,
+        "limit": 4
+      },
+      "reference_font": null,
+      "top4": [
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "category": "unknown",
+          "score": 11.5193
+        },
+        {
+          "id": "3455e580a1d2b255a265194f88b95d80f8938c3b592f346b0eb48b28aa850203:0",
+          "family": "PP Formula",
+          "style": "PP Formula Variable",
+          "category": "unknown",
+          "score": 10.7815
+        },
+        {
+          "id": "cdb20af7362f0b47c22459c448ffc88f5664e43460ec22859daf7c874ef378bc:0",
+          "family": "Newake",
+          "style": "Demo",
+          "category": "unknown",
+          "score": 10.7085
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "category": "unknown",
+          "score": 10.6524
+        }
+      ],
+      "visual_retrieval": {
+        "status": "used",
+        "model": "FontCLIP ViT-B/32",
+        "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+        "indexed_faces": 26313,
+        "catalog_faces": 27520,
+        "eligible_sample_faces": 27520,
+        "unindexed_faces": 1207,
+        "requested_sample_script": null,
+        "positive_prompt": "angular futuristic technical",
+        "negative_prompts": [
+          "playful",
+          "distressed",
+          "decorative"
+        ],
+        "reference_image_used": false,
+        "similar_to": null,
+        "avoid_like": null,
+        "limitations": [
+          "Learned visual resemblance is not a quality, legibility, or audience-fit measurement.",
+          "Only the recorded sample script and default variation axes were embedded.",
+          "Unindexed faces remain eligible without a visual score."
+        ]
+      }
+    },
+    {
+      "case": "angular",
+      "variant": "avoid_bad_top",
+      "brief": {
+        "query": "angular futuristic technical",
+        "role": "game",
+        "text": "City lights 2048",
+        "weight": 400,
+        "italic": false,
+        "limit": 4,
+        "avoid_like": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0"
+      },
+      "reference_font": null,
+      "top4": [
+        {
+          "id": "025e1b8aef83739daf18d3553756d96e416c09e1ba010709486c2b6080a92033:0",
+          "family": "Samsung Sharp Sans",
+          "style": "Regular",
+          "category": "unknown",
+          "score": 14.6677
+        },
+        {
+          "id": "d109fc6fd414817c7034b2531e1537079807ac50db38b00a403e72b3f7b7f694:0",
+          "family": "Public Sans",
+          "style": "Regular",
+          "category": "unknown",
+          "score": 14.6403
+        },
+        {
+          "id": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da:0",
+          "family": "Noto Sans SC",
+          "style": "Thin",
+          "category": "sans",
+          "score": 14.3686
+        },
+        {
+          "id": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f:0",
+          "family": "Noto Sans JP",
+          "style": "Thin",
+          "category": "sans",
+          "score": 14.3686
+        }
+      ],
+      "visual_retrieval": {
+        "status": "used",
+        "model": "FontCLIP ViT-B/32",
+        "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+        "indexed_faces": 26313,
+        "catalog_faces": 27520,
+        "eligible_sample_faces": 27520,
+        "unindexed_faces": 1207,
+        "requested_sample_script": null,
+        "positive_prompt": "angular futuristic technical",
+        "negative_prompts": [],
+        "reference_image_used": false,
+        "similar_to": null,
+        "avoid_like": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+        "limitations": [
+          "Learned visual resemblance is not a quality, legibility, or audience-fit measurement.",
+          "Only the recorded sample script and default variation axes were embedded.",
+          "Unindexed faces remain eligible without a visual score."
+        ]
+      }
+    },
+    {
+      "case": "angular",
+      "variant": "reference",
+      "brief": {
+        "query": "",
+        "role": "game",
+        "text": "City lights 2048",
+        "weight": 400,
+        "italic": false,
+        "limit": 4
+      },
+      "reference_font": {
+        "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+        "family": "Rajdhani",
+        "style": "Regular"
+      },
+      "top4": [
+        {
+          "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+          "family": "Rajdhani",
+          "style": "Regular",
+          "category": "unknown",
+          "score": 10.3128
+        },
+        {
+          "id": "3e4120529fbea2fe64135ba579637031d9ebe22130e629325dee4b800b47060d:0",
+          "family": "Labtop Superwide",
+          "style": "Regular",
+          "category": "sans",
+          "score": 9.8434
+        },
+        {
+          "id": "790e529d2759d69ef954bca1e80db894f0d612d948408f8120c253fc4467cbe8:0",
+          "family": "Order",
+          "style": "Light",
+          "category": "unknown",
+          "score": 9.8351
+        },
+        {
+          "id": "1845966508bfc9c657dbc63c43da1edb60105341ec9e2c9323e8223beedbd16b:0",
+          "family": "PasadenaSerial",
+          "style": "Light",
+          "category": "unknown",
+          "score": 9.7704
+        }
+      ],
+      "visual_retrieval": {
+        "status": "used",
+        "model": "FontCLIP ViT-B/32",
+        "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+        "indexed_faces": 26313,
+        "catalog_faces": 27520,
+        "eligible_sample_faces": 27520,
+        "unindexed_faces": 1207,
+        "requested_sample_script": null,
+        "positive_prompt": "",
+        "negative_prompts": [],
+        "reference_image_used": true,
+        "similar_to": null,
+        "avoid_like": null,
+        "limitations": [
+          "Learned visual resemblance is not a quality, legibility, or audience-fit measurement.",
+          "Only the recorded sample script and default variation axes were embedded.",
+          "Unindexed faces remain eligible without a visual score."
+        ]
+      }
+    },
+    {
+      "case": "elegant",
+      "variant": "negative",
+      "brief": {
+        "query": "elegant high contrast serif, not playful or distressed or decorative",
+        "role": "display",
+        "text": "City lights 2048",
+        "weight": 400,
+        "italic": false,
+        "limit": 4
+      },
+      "reference_font": null,
+      "top4": [
+        {
+          "id": "56f0077aef4615d3d3f0a577ea0508c5585820dd78c98b8e7728b05d28ad45d5:0",
+          "family": "Famous Faces",
+          "style": "Regular",
+          "category": "unknown",
+          "score": 16.697
+        },
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "category": "unknown",
+          "score": 14.605
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "category": "unknown",
+          "score": 14.0898
+        },
+        {
+          "id": "cdb20af7362f0b47c22459c448ffc88f5664e43460ec22859daf7c874ef378bc:0",
+          "family": "Newake",
+          "style": "Demo",
+          "category": "unknown",
+          "score": 12.6321
+        }
+      ],
+      "visual_retrieval": {
+        "status": "used",
+        "model": "FontCLIP ViT-B/32",
+        "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+        "indexed_faces": 26313,
+        "catalog_faces": 27520,
+        "eligible_sample_faces": 27520,
+        "unindexed_faces": 1207,
+        "requested_sample_script": null,
+        "positive_prompt": "serif elegant high contrast",
+        "negative_prompts": [
+          "playful",
+          "distressed",
+          "decorative"
+        ],
+        "reference_image_used": false,
+        "similar_to": null,
+        "avoid_like": null,
+        "limitations": [
+          "Learned visual resemblance is not a quality, legibility, or audience-fit measurement.",
+          "Only the recorded sample script and default variation axes were embedded.",
+          "Unindexed faces remain eligible without a visual score."
+        ]
+      }
+    },
+    {
+      "case": "elegant",
+      "variant": "avoid_bad_top",
+      "brief": {
+        "query": "elegant high contrast serif",
+        "role": "display",
+        "text": "City lights 2048",
+        "weight": 400,
+        "italic": false,
+        "limit": 4,
+        "avoid_like": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0"
+      },
+      "reference_font": null,
+      "top4": [
+        {
+          "id": "56f0077aef4615d3d3f0a577ea0508c5585820dd78c98b8e7728b05d28ad45d5:0",
+          "family": "Famous Faces",
+          "style": "Regular",
+          "category": "unknown",
+          "score": 18.6162
+        },
+        {
+          "id": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da:0",
+          "family": "Noto Sans SC",
+          "style": "Thin",
+          "category": "sans",
+          "score": 14.8829
+        },
+        {
+          "id": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f:0",
+          "family": "Noto Sans JP",
+          "style": "Thin",
+          "category": "sans",
+          "score": 14.8829
+        },
+        {
+          "id": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252:0",
+          "family": "Noto Sans KR",
+          "style": "Thin",
+          "category": "sans",
+          "score": 14.8829
+        }
+      ],
+      "visual_retrieval": {
+        "status": "used",
+        "model": "FontCLIP ViT-B/32",
+        "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+        "indexed_faces": 26313,
+        "catalog_faces": 27520,
+        "eligible_sample_faces": 27520,
+        "unindexed_faces": 1207,
+        "requested_sample_script": null,
+        "positive_prompt": "serif elegant high contrast",
+        "negative_prompts": [],
+        "reference_image_used": false,
+        "similar_to": null,
+        "avoid_like": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+        "limitations": [
+          "Learned visual resemblance is not a quality, legibility, or audience-fit measurement.",
+          "Only the recorded sample script and default variation axes were embedded.",
+          "Unindexed faces remain eligible without a visual score."
+        ]
+      }
+    },
+    {
+      "case": "elegant",
+      "variant": "reference",
+      "brief": {
+        "query": "",
+        "role": "display",
+        "text": "City lights 2048",
+        "weight": 400,
+        "italic": false,
+        "limit": 4
+      },
+      "reference_font": {
+        "id": "18e1f0fcf78a4c2cb76ab231db056719b1773a140e0d6c1c20ba535102e737aa:0",
+        "family": "Bodoni",
+        "style": "Regular"
+      },
+      "top4": [
+        {
+          "id": "d0e96d40cf7670a59ecceb8700e7adbdf87d9b5ce110574cd6d6fae8e460fb5e:0",
+          "family": "Chanticleer Roman NF",
+          "style": "Regular",
+          "category": "serif",
+          "score": 11.0759
+        },
+        {
+          "id": "d76c296e1df485aadade2938075ab5e05a998f4b6b090061626d08ce4679ab21:0",
+          "family": "ITC Garamond Standard",
+          "style": "Black",
+          "category": "serif",
+          "score": 11.0327
+        },
+        {
+          "id": "fb147ad6ef88dfa39d06e368f08ac84a86274bb0590466af146fe06cd4a287a2:0",
+          "family": "Spectral",
+          "style": "Regular",
+          "category": "serif",
+          "score": 10.8838
+        },
+        {
+          "id": "922e1c93945a4f5d1ad4c07875767b609318ee118c63d36eab8159993416be68:0",
+          "family": "ImperatorBronze",
+          "style": "Regular",
+          "category": "serif",
+          "score": 10.7021
+        }
+      ],
+      "visual_retrieval": {
+        "status": "used",
+        "model": "FontCLIP ViT-B/32",
+        "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+        "indexed_faces": 26313,
+        "catalog_faces": 27520,
+        "eligible_sample_faces": 27520,
+        "unindexed_faces": 1207,
+        "requested_sample_script": null,
+        "positive_prompt": "",
+        "negative_prompts": [],
+        "reference_image_used": true,
+        "similar_to": null,
+        "avoid_like": null,
+        "limitations": [
+          "Learned visual resemblance is not a quality, legibility, or audience-fit measurement.",
+          "Only the recorded sample script and default variation axes were embedded.",
+          "Unindexed faces remain eligible without a visual score."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "baseline_decision": "Retain Roboto support; compare expressive title options found through ordinary browse.",
+  "query_method": "Stable alphabetical catalog pages; first page starting Cooper; second page starting B filtered declared display; no ranking.",
+  "options": [
+    {
+      "family": "Cooper-Black",
+      "id": "6ebaedd7267cdd290a40fa3632041243595e4c8f0dca733e5c90cfa9c1162f71:0",
+      "styles": [
+        "Regular 400"
+      ],
+      "settings": "title 138 px, support baseline",
+      "expected_fit": "Swelling heavy forms could give warmer print character.",
+      "uncertainty": "Name punctuation resolved A absence; could look nostalgic.",
+      "previously_familiar": true
+    },
+    {
+      "family": "Cooper-Black-Stencil",
+      "id": "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3:0",
+      "styles": [
+        "Regular 400"
+      ],
+      "settings": "title 138 px, support baseline",
+      "expected_fit": "Cut bridges may connect the print exchange to physical making.",
+      "uncertainty": "Stencil cuts might weaken quarter-size word recognition.",
+      "previously_familiar": false
+    },
+    {
+      "family": "Burnaby",
+      "id": "8240d3f1ed86e22bb7762af6d82600695e9fe0638e8722ccbe95b84f7ffe87f6:0",
+      "styles": [
+        "Stencil 400"
+      ],
+      "settings": "title 138 px, support baseline",
+      "expected_fit": "Unfamiliar declared stencil face tests another materially related title.",
+      "uncertainty": "No visual knowledge; may be too industrial.",
+      "previously_familiar": false
+    }
+  ],
+  "sealed_at_utc": "2026-09-30T16:21:42.491129+00:00"
+}

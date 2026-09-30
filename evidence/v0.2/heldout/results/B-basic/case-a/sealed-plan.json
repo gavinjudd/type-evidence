@@ -1,0 +1,40 @@
+{
+  "baseline_decision": "Existing Roboto remains valid; compare A Source composition against unfamiliar metadata-feasible coherent families.",
+  "query_method": "Alphabetical pages from F and L, declared sans, upright regular/bold, French/time text cmap coverage; selected exact name style lookups.",
+  "options": [
+    {
+      "family": "Finder",
+      "styles": [
+        "Regular400",
+        "Bold700"
+      ],
+      "settings": "baseline sizes, title leading1.2",
+      "expected_fit": "Coherent regular/bold with supplied French/time text covered; unfamiliar visual direction merits contextual test.",
+      "uncertainty": "No visual descriptors available; name does not imply suitability.",
+      "previously_familiar": false
+    },
+    {
+      "family": "Galiver Sans",
+      "styles": [
+        "Regular400",
+        "Bold700"
+      ],
+      "settings": "baseline sizes, title leading1.2",
+      "expected_fit": "Ordinary sans metadata and coherent family may offer practical bilingual hierarchy.",
+      "uncertainty": "Actual counters and time digits untested.",
+      "previously_familiar": false
+    },
+    {
+      "family": "Source Sans Pro",
+      "styles": [
+        "Regular400",
+        "Bold700"
+      ],
+      "settings": "A selected body22/caption18 and title leading1.2",
+      "expected_fit": "Prior humane compact treatment remains control for discovery benefit.",
+      "uncertainty": "Familiarity carryover may favor the earlier decision.",
+      "previously_familiar": true
+    }
+  ],
+  "sealed_at_utc": "2026-09-30T16:24:42.571380+00:00"
+}

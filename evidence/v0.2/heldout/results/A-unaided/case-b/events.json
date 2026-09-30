@@ -1,0 +1,128 @@
+[
+  {
+    "timestamp": "2026-09-30T16:16:44.490273+00:00",
+    "operation": "start",
+    "information_limit": 6,
+    "record_limit_per_operation": 12,
+    "render_limit_including_baseline": 4,
+    "final_revision_limit": 1
+  },
+  {
+    "timestamp": "2026-09-30T16:16:44.490311+00:00",
+    "operation": "baseline-reuse",
+    "source": "HELDOUT_PACK/baseline-renders/case-b",
+    "option_slot": 1
+  },
+  {
+    "timestamp": "2026-09-30T16:16:44.490441+00:00",
+    "operation": "seal",
+    "sha256": "9b107feca996dd87a3745f2f485ff5c9ff0a6379f13550eaf3dcb4aba3ad24e4"
+  },
+  {
+    "timestamp": "2026-09-30T16:16:44.490474+00:00",
+    "operation": "pause",
+    "reason": "Declared sequential case order; sealed before any lookup"
+  },
+  {
+    "timestamp": "2026-09-30T16:16:44.490501+00:00",
+    "operation": "baseline-inspection",
+    "full_size": true,
+    "quarter_size": true,
+    "observations": "All supplied baseline compositions opened using view_image before unaided lookup; visually functional controls."
+  },
+  {
+    "timestamp": "2026-09-30T16:18:09.392244+00:00",
+    "operation": "resume"
+  },
+  {
+    "timestamp": "2026-09-30T16:18:10.529220+00:00",
+    "operation": "information",
+    "mode": "exact",
+    "query": "Cooper Black",
+    "offset": 0,
+    "category": null,
+    "order": "family.casefold then exact content hash id; browse one face per family",
+    "records": [],
+    "count": 0,
+    "total_matches": 0
+  },
+  {
+    "timestamp": "2026-09-30T16:18:11.712970+00:00",
+    "operation": "information",
+    "mode": "exact",
+    "query": "Archivo Black",
+    "offset": 0,
+    "category": null,
+    "order": "family.casefold then exact content hash id; browse one face per family",
+    "records": [],
+    "count": 0,
+    "total_matches": 0
+  },
+  {
+    "timestamp": "2026-09-30T16:18:30.694421+00:00",
+    "operation": "discovery-failure",
+    "families": [
+      "Cooper Black",
+      "Archivo Black"
+    ],
+    "reason": "Exact names absent; no near-name alternatives permitted in A. Retain sealed baseline family."
+  },
+  {
+    "timestamp": "2026-09-30T16:18:30.824812+00:00",
+    "operation": "render",
+    "option": "baseline-large",
+    "ids": {
+      "eyebrow": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "title": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "dek": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "body": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "heading": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "caption": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0"
+    },
+    "seconds": 0.1296118749996822,
+    "canvas": [
+      1000,
+      1260
+    ],
+    "warnings": []
+  },
+  {
+    "timestamp": "2026-09-30T16:18:30.952942+00:00",
+    "operation": "render",
+    "option": "baseline-stacked",
+    "canvas": [
+      1000,
+      1260
+    ],
+    "warnings": [],
+    "ids": {
+      "eyebrow": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "title": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "dek": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "body": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "heading": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "caption": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0"
+    }
+  },
+  {
+    "timestamp": "2026-09-30T16:18:52.772170+00:00",
+    "operation": "image-inspection",
+    "options": [
+      "baseline-large",
+      "baseline-stacked"
+    ],
+    "full_size": true,
+    "quarter_size": true,
+    "observations": "Both titles are fully visible at full and quarter scale. Stacked version makes OFF and CUT look separate and pushes practical information down; one-line 170 px remains a single memorable word. Polish support retains clear accents and unobstructed dates and address."
+  },
+  {
+    "timestamp": "2026-09-30T16:18:52.772470+00:00",
+    "operation": "stop",
+    "reason": "Decision made; absent names remain honest discovery failures"
+  },
+  {
+    "timestamp": "2026-09-30T16:26:23.303695+00:00",
+    "operation": "record-audit",
+    "description": "Post-decision administrative metadata audit: exact clipping counts, familiarity/carryover and failed lookup accounting; no candidate or decision change."
+  }
+]

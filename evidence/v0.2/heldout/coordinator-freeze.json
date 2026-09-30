@@ -1,0 +1,13 @@
+{
+  "frozen_at": "2026-09-30T16:14:07.309072+00:00",
+  "catalog_sha256": "5fe03fd4779bc83016766254cfbaa9743cbc5df0d20f275aea5f4c7f53245740",
+  "faces": 27520,
+  "sources": {
+    "bekah": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+    "extsalt": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+    "google-curated-2026": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+    "arrowtype-recursive-1.085": "6d491202cea5cf6a493ef710cbef2527b9b08939"
+  },
+  "predeclared_amendment": "The catalog is frozen before A. Visual indexing continues over this same fixed font collection during A and B, which have no access to visual data. Freeze and record the finished visual index before C; do not begin C until coordinator confirms. Model weights and renderer configuration are already fixed. This staging avoids counting setup latency as design time and cannot affect A/B recommendations because their permitted inputs exclude visual data.",
+  "budgets": "Unchanged: per case/condition 8 active minutes, 6 information operations, 12 records/operation, 4 options including baseline and 1 final revision."
+}

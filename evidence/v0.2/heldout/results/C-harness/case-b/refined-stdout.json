@@ -1,0 +1,972 @@
+{
+  "schema_version": 1,
+  "status": "candidates",
+  "role": "display",
+  "candidates": [
+    {
+      "id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "family": "Roboto",
+      "style": "Bold",
+      "weight": 700,
+      "italic": false,
+      "category": "unknown",
+      "score": 8.0497,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "learned-visual",
+          "points": 6.0497,
+          "reason": "Content-based visual retrieval: Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes."
+        },
+        {
+          "basis": "measured+context",
+          "points": 1,
+          "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+        },
+        {
+          "basis": "metadata+context",
+          "points": 1,
+          "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.5283,
+        "cap_height_em": 0.7109,
+        "average_advance_em": 0.542,
+        "mono_measured": false,
+        "digit_tabular_default": true
+      },
+      "family_available_styles": {
+        "count": 12,
+        "styles": [
+          {
+            "style": "Thin",
+            "weight": 250,
+            "italic": false
+          },
+          {
+            "style": "Thin Italic",
+            "weight": 250,
+            "italic": true
+          },
+          {
+            "style": "Light",
+            "weight": 300,
+            "italic": false
+          },
+          {
+            "style": "Light Italic",
+            "weight": 300,
+            "italic": true
+          },
+          {
+            "style": "Regular",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "Italic",
+            "weight": 400,
+            "italic": true
+          },
+          {
+            "style": "Medium",
+            "weight": 500,
+            "italic": false
+          },
+          {
+            "style": "Medium Italic",
+            "weight": 500,
+            "italic": true
+          },
+          {
+            "style": "Bold",
+            "weight": 700,
+            "italic": false
+          },
+          {
+            "style": "Bold Italic",
+            "weight": 700,
+            "italic": true
+          },
+          {
+            "style": "Black",
+            "weight": 900,
+            "italic": false
+          },
+          {
+            "style": "Black Italic",
+            "weight": 900,
+            "italic": true
+          }
+        ],
+        "truncated": false,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "review_required": true
+      },
+      "warnings": [],
+      "existing_baseline": true,
+      "family_style_resolutions": [],
+      "visual_evidence": {
+        "score": 6.0497,
+        "description": "Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes.",
+        "basis": "learned-visual",
+        "matches": [
+          "serif heavy rounded soft slab playful confident tactile welcoming",
+          "avoid pixelated",
+          "avoid luxury",
+          "avoid wedding",
+          "avoid corporate",
+          "avoid distressed"
+        ],
+        "raw_similarity": 0.001816,
+        "sample_script": "Latin",
+        "sample_language": "und",
+        "sample_axes": {}
+      },
+      "evidence_gaps": [
+        "visual_category_unknown"
+      ]
+    },
+    {
+      "id": "701913bcaa6ec4c7d612862fc8fcdacedefbce88833216b70ca7aecb52050da0:0",
+      "family": "New York Medium",
+      "style": "Heavy",
+      "weight": 800,
+      "italic": false,
+      "category": "serif",
+      "score": 17.8788,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "learned-visual",
+          "points": 11.8788,
+          "reason": "Content-based visual retrieval: Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes."
+        },
+        {
+          "basis": "metadata",
+          "points": 3,
+          "reason": "Transparent query preference matched: category:serif."
+        },
+        {
+          "basis": "heuristic",
+          "points": 1,
+          "reason": "This role permits multiple categories; compare its actual letterforms."
+        },
+        {
+          "basis": "measured+context",
+          "points": 1,
+          "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+        },
+        {
+          "basis": "metadata+context",
+          "points": 1,
+          "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.5015,
+        "cap_height_em": 0.7051,
+        "average_advance_em": 0.6134,
+        "mono_measured": false,
+        "digit_tabular_default": false
+      },
+      "family_available_styles": {
+        "count": 12,
+        "styles": [
+          {
+            "style": "Regular",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "Regular Italic",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "Medium",
+            "weight": 500,
+            "italic": false
+          },
+          {
+            "style": "Medium Italic",
+            "weight": 500,
+            "italic": false
+          },
+          {
+            "style": "Bold",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "Bold Italic",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "Semibold",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "Semibold Italic",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "Black",
+            "weight": 800,
+            "italic": false
+          },
+          {
+            "style": "Black Italic",
+            "weight": 800,
+            "italic": false
+          },
+          {
+            "style": "Heavy",
+            "weight": 800,
+            "italic": false
+          },
+          {
+            "style": "Heavy Italic",
+            "weight": 800,
+            "italic": false
+          }
+        ],
+        "truncated": false,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "unknown",
+        "review_required": true
+      },
+      "warnings": [],
+      "existing_baseline": false,
+      "family_style_resolutions": [],
+      "visual_evidence": {
+        "score": 11.8788,
+        "description": "Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes.",
+        "basis": "learned-visual",
+        "matches": [
+          "serif heavy rounded soft slab playful confident tactile welcoming",
+          "avoid pixelated",
+          "avoid luxury",
+          "avoid wedding",
+          "avoid corporate",
+          "avoid distressed"
+        ],
+        "raw_similarity": 0.012994,
+        "sample_script": "Latin",
+        "sample_language": "und",
+        "sample_axes": {}
+      },
+      "evidence_gaps": []
+    },
+    {
+      "id": "1defc7cca892139f563edaec7ac1ea464a75f14882eeedabaee8057ed7f7f7d1:0",
+      "family": "Noto Serif",
+      "style": "SemiCondensed Black",
+      "weight": 900,
+      "italic": false,
+      "category": "serif",
+      "score": 17.7608,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "learned-visual",
+          "points": 11.7608,
+          "reason": "Content-based visual retrieval: Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes."
+        },
+        {
+          "basis": "metadata",
+          "points": 3,
+          "reason": "Transparent query preference matched: category:serif."
+        },
+        {
+          "basis": "heuristic",
+          "points": 1,
+          "reason": "This role permits multiple categories; compare its actual letterforms."
+        },
+        {
+          "basis": "measured+context",
+          "points": 1,
+          "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+        },
+        {
+          "basis": "metadata+context",
+          "points": 1,
+          "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.536,
+        "cap_height_em": 0.714,
+        "average_advance_em": 0.5614,
+        "mono_measured": false,
+        "digit_tabular_default": true
+      },
+      "family_available_styles": {
+        "count": 18,
+        "styles": [
+          {
+            "style": "SemiCondensed Thin",
+            "weight": 100,
+            "italic": false
+          },
+          {
+            "style": "SemiCondensed Thin Italic",
+            "weight": 100,
+            "italic": true
+          },
+          {
+            "style": "SemiCondensed ExtraLight",
+            "weight": 200,
+            "italic": false
+          },
+          {
+            "style": "SemiCondensed ExtraLight Italic",
+            "weight": 200,
+            "italic": true
+          },
+          {
+            "style": "SemiCondensed Light",
+            "weight": 300,
+            "italic": false
+          },
+          {
+            "style": "SemiCondensed Light Italic",
+            "weight": 300,
+            "italic": true
+          },
+          {
+            "style": "SemiCondensed",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "SemiCondensed Italic",
+            "weight": 400,
+            "italic": true
+          },
+          {
+            "style": "SemiCondensed Medium",
+            "weight": 500,
+            "italic": false
+          },
+          {
+            "style": "SemiCondensed Medium Italic",
+            "weight": 500,
+            "italic": true
+          },
+          {
+            "style": "SemiCondensed SemiBold",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "SemiCondensed SemiBold Italic",
+            "weight": 600,
+            "italic": true
+          }
+        ],
+        "truncated": true,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "review_required": true
+      },
+      "warnings": [],
+      "existing_baseline": false,
+      "family_style_resolutions": [],
+      "visual_evidence": {
+        "score": 11.7608,
+        "description": "Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes.",
+        "basis": "learned-visual",
+        "matches": [
+          "serif heavy rounded soft slab playful confident tactile welcoming",
+          "avoid pixelated",
+          "avoid luxury",
+          "avoid wedding",
+          "avoid corporate",
+          "avoid distressed"
+        ],
+        "raw_similarity": 0.012768,
+        "sample_script": "Latin",
+        "sample_language": "und",
+        "sample_axes": {}
+      },
+      "evidence_gaps": []
+    },
+    {
+      "id": "dffa8810be6ef1458abb5b351427d533a7bf685a574cbedfd0689ef3d77d8f84:0",
+      "family": "New York Large",
+      "style": "Black",
+      "weight": 800,
+      "italic": false,
+      "category": "serif",
+      "score": 17.4375,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "learned-visual",
+          "points": 11.4375,
+          "reason": "Content-based visual retrieval: Model-associated attributes: warm, friendly, humanist, elegant. Exact Latin sample; default axes."
+        },
+        {
+          "basis": "metadata",
+          "points": 3,
+          "reason": "Transparent query preference matched: category:serif."
+        },
+        {
+          "basis": "heuristic",
+          "points": 1,
+          "reason": "This role permits multiple categories; compare its actual letterforms."
+        },
+        {
+          "basis": "measured+context",
+          "points": 1,
+          "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+        },
+        {
+          "basis": "metadata+context",
+          "points": 1,
+          "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.5024,
+        "cap_height_em": 0.7051,
+        "average_advance_em": 0.6288,
+        "mono_measured": false,
+        "digit_tabular_default": false
+      },
+      "family_available_styles": {
+        "count": 12,
+        "styles": [
+          {
+            "style": "Regular",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "Regular Italic",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "Medium",
+            "weight": 500,
+            "italic": false
+          },
+          {
+            "style": "Medium Italic",
+            "weight": 500,
+            "italic": false
+          },
+          {
+            "style": "Bold",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "Bold Italic",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "Semibold",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "Semibold Italic",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "Black",
+            "weight": 800,
+            "italic": false
+          },
+          {
+            "style": "Black Italic",
+            "weight": 800,
+            "italic": false
+          },
+          {
+            "style": "Heavy",
+            "weight": 800,
+            "italic": false
+          },
+          {
+            "style": "Heavy Italic",
+            "weight": 800,
+            "italic": false
+          }
+        ],
+        "truncated": false,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "unknown",
+        "review_required": true
+      },
+      "warnings": [],
+      "existing_baseline": false,
+      "family_style_resolutions": [],
+      "visual_evidence": {
+        "score": 11.4375,
+        "description": "Model-associated attributes: warm, friendly, humanist, elegant. Exact Latin sample; default axes.",
+        "basis": "learned-visual",
+        "matches": [
+          "serif heavy rounded soft slab playful confident tactile welcoming",
+          "avoid pixelated",
+          "avoid luxury",
+          "avoid wedding",
+          "avoid corporate",
+          "avoid distressed"
+        ],
+        "raw_similarity": 0.012148,
+        "sample_script": "Latin",
+        "sample_language": "und",
+        "sample_axes": {}
+      },
+      "evidence_gaps": []
+    },
+    {
+      "id": "45db865540cda82b5f9fc17cb3c2de5e9cfdbb293b6c250cd4fa1d5e8449e1ab:0",
+      "family": "New York Small",
+      "style": "Heavy",
+      "weight": 800,
+      "italic": false,
+      "category": "serif",
+      "score": 17.3949,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "learned-visual",
+          "points": 11.3949,
+          "reason": "Content-based visual retrieval: Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes."
+        },
+        {
+          "basis": "metadata",
+          "points": 3,
+          "reason": "Transparent query preference matched: category:serif."
+        },
+        {
+          "basis": "heuristic",
+          "points": 1,
+          "reason": "This role permits multiple categories; compare its actual letterforms."
+        },
+        {
+          "basis": "measured+context",
+          "points": 1,
+          "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+        },
+        {
+          "basis": "metadata+context",
+          "points": 1,
+          "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.5078,
+        "cap_height_em": 0.7051,
+        "average_advance_em": 0.6264,
+        "mono_measured": false,
+        "digit_tabular_default": false
+      },
+      "family_available_styles": {
+        "count": 12,
+        "styles": [
+          {
+            "style": "Regular",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "Regular Italic",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "Medium",
+            "weight": 500,
+            "italic": false
+          },
+          {
+            "style": "Medium Italic",
+            "weight": 500,
+            "italic": false
+          },
+          {
+            "style": "Bold",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "Bold Italic",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "Semibold",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "Semibold Italic",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "Black",
+            "weight": 800,
+            "italic": false
+          },
+          {
+            "style": "Black Italic",
+            "weight": 800,
+            "italic": false
+          },
+          {
+            "style": "Heavy",
+            "weight": 800,
+            "italic": false
+          },
+          {
+            "style": "Heavy Italic",
+            "weight": 800,
+            "italic": false
+          }
+        ],
+        "truncated": false,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "unknown",
+        "review_required": true
+      },
+      "warnings": [],
+      "existing_baseline": false,
+      "family_style_resolutions": [],
+      "visual_evidence": {
+        "score": 11.3949,
+        "description": "Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes.",
+        "basis": "learned-visual",
+        "matches": [
+          "serif heavy rounded soft slab playful confident tactile welcoming",
+          "avoid pixelated",
+          "avoid luxury",
+          "avoid wedding",
+          "avoid corporate",
+          "avoid distressed"
+        ],
+        "raw_similarity": 0.012066,
+        "sample_script": "Latin",
+        "sample_language": "und",
+        "sample_axes": {}
+      },
+      "evidence_gaps": []
+    },
+    {
+      "id": "2f06e22cdc2c678a356e14ffd3626c2d777f61a9b2afaa49a8290a99d8173bd3:0",
+      "family": "Orbikular",
+      "style": "ExtraBold",
+      "weight": 800,
+      "italic": false,
+      "category": "serif",
+      "score": 17.3711,
+      "score_meaning": "Heuristic preference points; not a quality or readability score.",
+      "reasons": [
+        {
+          "basis": "learned-visual",
+          "points": 11.3711,
+          "reason": "Content-based visual retrieval: Model-associated attributes: warm, friendly, elegant, mechanical. Exact Latin sample; default axes."
+        },
+        {
+          "basis": "metadata",
+          "points": 3,
+          "reason": "Transparent query preference matched: category:serif."
+        },
+        {
+          "basis": "heuristic",
+          "points": 1,
+          "reason": "This role permits multiple categories; compare its actual letterforms."
+        },
+        {
+          "basis": "measured+context",
+          "points": 1,
+          "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+        },
+        {
+          "basis": "metadata+context",
+          "points": 1,
+          "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+        }
+      ],
+      "required_axes": {},
+      "metrics": {
+        "x_height_em": 0.493,
+        "cap_height_em": 0.656,
+        "average_advance_em": 0.6063,
+        "mono_measured": false,
+        "digit_tabular_default": false
+      },
+      "family_available_styles": {
+        "count": 14,
+        "styles": [
+          {
+            "style": "ExtraLight",
+            "weight": 200,
+            "italic": false
+          },
+          {
+            "style": "ExtraLight Italic",
+            "weight": 200,
+            "italic": true
+          },
+          {
+            "style": "ExtraLight",
+            "weight": 265,
+            "italic": false
+          },
+          {
+            "style": "ExtraLight Italic",
+            "weight": 265,
+            "italic": true
+          },
+          {
+            "style": "Light",
+            "weight": 300,
+            "italic": false
+          },
+          {
+            "style": "Light Italic",
+            "weight": 300,
+            "italic": true
+          },
+          {
+            "style": "Regular",
+            "weight": 400,
+            "italic": false
+          },
+          {
+            "style": "Italic",
+            "weight": 400,
+            "italic": true
+          },
+          {
+            "style": "SemiBold",
+            "weight": 600,
+            "italic": false
+          },
+          {
+            "style": "SemiBold Italic",
+            "weight": 600,
+            "italic": true
+          },
+          {
+            "style": "Bold",
+            "weight": 700,
+            "italic": false
+          },
+          {
+            "style": "Bold Italic",
+            "weight": 700,
+            "italic": true
+          }
+        ],
+        "truncated": true,
+        "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+      },
+      "rights": {
+        "status": "unknown",
+        "review_required": true
+      },
+      "warnings": [
+        "OS/2 embedding flags set: 4; technical flags are not a license"
+      ],
+      "existing_baseline": false,
+      "family_style_resolutions": [],
+      "visual_evidence": {
+        "score": 11.3711,
+        "description": "Model-associated attributes: warm, friendly, elegant, mechanical. Exact Latin sample; default axes.",
+        "basis": "learned-visual",
+        "matches": [
+          "serif heavy rounded soft slab playful confident tactile welcoming",
+          "avoid pixelated",
+          "avoid luxury",
+          "avoid wedding",
+          "avoid corporate",
+          "avoid distressed"
+        ],
+        "raw_similarity": 0.012021,
+        "sample_script": "Latin",
+        "sample_language": "und",
+        "sample_axes": {}
+      },
+      "evidence_gaps": []
+    }
+  ],
+  "baseline": {
+    "requested_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+    "status": "retained"
+  },
+  "counts": {
+    "catalog_faces": 27520,
+    "eligible_faces": 17177,
+    "returned_faces": 6,
+    "eligible_distinct_alternatives": 6911,
+    "visual_scored_faces": 17080
+  },
+  "pagination": {
+    "offset": 0,
+    "limit": 6,
+    "next_offset": 5,
+    "has_more": true,
+    "meaning": "Offset counts distinct alternatives, excluding the reserved baseline. Keep the brief and catalog fixed between pages; changing either starts a new exploration."
+  },
+  "constraint_rejections": {
+    "explicitly_excluded_family": 16,
+    "missing_family_identity": 253,
+    "missing_requested_characters": 1102,
+    "no_usable_unicode_cmap": 84,
+    "requested_italic_state_unavailable": 8764,
+    "style_metadata_conflict": 516
+  },
+  "query_interpretation": {
+    "exact_name_match_count": 0,
+    "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+    "aliases": {
+      "serif": "category:serif"
+    },
+    "negated_aliases": {},
+    "unmodeled_terms": [
+      "confident",
+      "corporate",
+      "distressed",
+      "heavy",
+      "luxury",
+      "pixelated",
+      "playful",
+      "rounded",
+      "slab",
+      "soft",
+      "tactile",
+      "wedding",
+      "welcoming"
+    ],
+    "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases. The active visual adapter may interpret their appearance; inspect its evidence and render finalists.",
+    "negation_scope": "Negation extends across coordinated terms until punctuation or an explicit contrast such as but. Ambiguous prose should be rewritten or checked against these reported terms.",
+    "unmodeled_positive": [
+      "heavy",
+      "rounded",
+      "soft",
+      "slab",
+      "playful",
+      "confident",
+      "tactile",
+      "welcoming"
+    ],
+    "unmodeled_negative": [
+      "pixelated",
+      "luxury",
+      "wedding",
+      "corporate",
+      "distressed"
+    ],
+    "visual_scoring_active": true,
+    "unrecognized_brief_fields": [],
+    "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect."
+  },
+  "refinement": {
+    "similar_to": "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3:0",
+    "avoid_like": "8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff:0",
+    "method": "Content-based visual evidence when supplied for a face; otherwise proximity in at least two measured proportions. Reference IDs remain eligible unless excluded."
+  },
+  "context_interpretation": {
+    "supplied_fields": [
+      "audience",
+      "medium",
+      "tone",
+      "language",
+      "hierarchy",
+      "surroundings",
+      "density",
+      "size"
+    ],
+    "measurement_rules": [
+      "small-size lowercase proportions",
+      "audience lowercase proportions",
+      "density sampled advances",
+      "numeric alignment",
+      "observed hierarchy styles"
+    ],
+    "handoff_fields": [
+      "language",
+      "surroundings"
+    ],
+    "advice": "Use the actual language, size, text, hierarchy and surrounding design in a contextual composition. Context fields guide preferences; none proves aesthetic fit."
+  },
+  "constraints": {
+    "coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
+    "text_codepoint_count": 5,
+    "text_supplied": true,
+    "family_diversity": "At most one face per family; equivalent canonical content is also deduplicated. Equal-score ties favor differences in known category, width, monospace measurement, x-height, and advance-width bands; this is not proof of visual distinction.",
+    "open_evidence_requested": false
+  },
+  "alternatives": [
+    {
+      "option": "single_family",
+      "advice": "Compare a single family's observed styles before adding a second typeface; additional fonts are not inherently an improvement."
+    },
+    {
+      "option": "keep_existing",
+      "advice": "Keeping the current typography is a valid outcome. Supply existing_id to include an exact catalog face as the comparison baseline."
+    }
+  ],
+  "limitations": [
+    "Rankings combine explicitly labeled evidence. Visual adapter scores are interpretations, not quality or readability measurements; missing visual evidence remains eligible.",
+    "Render the selected exact faces on project text at intended sizes. Coverage alone cannot establish legibility, shaping, personality, or good pairing.",
+    "Metadata categories and family groupings may be imperfect. Available styles describe this collection, not a complete upstream family.",
+    "Unknown rights remain unknown. Embedded open-license evidence is not legal clearance; review source and license evidence before distribution."
+  ],
+  "visual_retrieval": {
+    "status": "used",
+    "model": "FontCLIP ViT-B/32",
+    "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+    "indexed_faces": 26313,
+    "catalog_faces": 27520,
+    "eligible_sample_faces": 27520,
+    "unindexed_faces": 1207,
+    "requested_sample_script": null,
+    "positive_prompt": "serif heavy rounded soft slab playful confident tactile welcoming",
+    "negative_prompts": [
+      "pixelated",
+      "luxury",
+      "wedding",
+      "corporate",
+      "distressed"
+    ],
+    "reference_image_used": false,
+    "similar_to": "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3:0",
+    "avoid_like": "8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff:0",
+    "limitations": [
+      "Learned visual resemblance is not a quality, legibility, or audience-fit measurement.",
+      "Only the recorded sample script and default variation axes were embedded.",
+      "Unindexed faces remain eligible without a visual score."
+    ]
+  }
+}

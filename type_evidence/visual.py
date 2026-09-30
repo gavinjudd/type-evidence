@@ -294,9 +294,8 @@ def build_index(catalog, output=None, checkpoint=None, limit=None, device='cpu',
 
 
 def _prompts(brief):
-    from .discovery import interpret_query
-    text = ', '.join(str(brief.get(k,'')) for k in ('query','tone')).strip(' ,')
-    interpretation = interpret_query(text)
+    from .discovery import interpret_brief
+    interpretation = interpret_brief(brief)
     positive = list(interpretation['positive']) + interpretation['unmodeled_positive']
     negative = list(interpretation['negative']) + interpretation['unmodeled_negative']
     return ' '.join(positive), negative

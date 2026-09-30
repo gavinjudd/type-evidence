@@ -1,0 +1,218 @@
+{
+  "id": "6ead6597f45956561c9f9ad24860f113066801033326aea57073c4b7d3b266de:0",
+  "sha256": "6ead6597f45956561c9f9ad24860f113066801033326aea57073c4b7d3b266de",
+  "face_index": 0,
+  "family": "Wyvern",
+  "style": "Bold",
+  "full_name": "Wyvern Bold",
+  "postscript_name": "Wyvern-Bold",
+  "vendor": "TYPO",
+  "version": "Version 1.02 2001",
+  "weight": 700,
+  "width_class": 5,
+  "italic": false,
+  "units_per_em": 1000,
+  "axes": [],
+  "features": [],
+  "coverage": [
+    [
+      32,
+      126
+    ],
+    [
+      160,
+      171
+    ],
+    [
+      173,
+      176
+    ],
+    [
+      178,
+      214
+    ],
+    [
+      216,
+      246
+    ],
+    [
+      248,
+      255
+    ],
+    [
+      305,
+      305
+    ],
+    [
+      321,
+      322
+    ],
+    [
+      338,
+      339
+    ],
+    [
+      352,
+      353
+    ],
+    [
+      376,
+      376
+    ],
+    [
+      381,
+      382
+    ],
+    [
+      402,
+      402
+    ],
+    [
+      710,
+      711
+    ],
+    [
+      713,
+      713
+    ],
+    [
+      728,
+      733
+    ],
+    [
+      894,
+      894
+    ],
+    [
+      956,
+      956
+    ],
+    [
+      8211,
+      8212
+    ],
+    [
+      8216,
+      8218
+    ],
+    [
+      8220,
+      8222
+    ],
+    [
+      8224,
+      8226
+    ],
+    [
+      8230,
+      8230
+    ],
+    [
+      8240,
+      8240
+    ],
+    [
+      8249,
+      8250
+    ],
+    [
+      8352,
+      8352
+    ],
+    [
+      8482,
+      8482
+    ],
+    [
+      8725,
+      8725
+    ],
+    [
+      8901,
+      8901
+    ],
+    [
+      64257,
+      64258
+    ]
+  ],
+  "glyph_count": 227,
+  "unicode_count": 230,
+  "metrics": {
+    "x_height_em": 0.606,
+    "cap_height_em": 0.801,
+    "average_advance_em": 0.5294,
+    "mono_measured": false,
+    "digit_tabular_default": false,
+    "measurement_sample": "Hamburgefontsiv0123456789; default unshaped hmtx advances"
+  },
+  "category": "sans",
+  "category_basis": "measured sample widths then declared PANOSE",
+  "family_key": "29c38364ece2b4235e1421be",
+  "canonical_hash": "68772763ad0cad33aa74caa2e9a5eef7ec75ffc59795279a0d3f220e97b55956",
+  "rights": {
+    "status": "unknown",
+    "evidence": [
+      {
+        "kind": "embedded-name-0",
+        "text": "Copyright (c) Typodermic, 2001. All rights reserved. Do not distribute. Report to piracy@typodermic.com"
+      },
+      {
+        "kind": "embedded-name-7",
+        "text": "Wyvern is a trademark of Typodermic."
+      },
+      {
+        "kind": "embedded-name-8",
+        "text": "Typodermic"
+      },
+      {
+        "kind": "embedded-name-9",
+        "text": "Ray Larabie"
+      },
+      {
+        "kind": "embedded-name-11",
+        "text": "http://www.typodermic.com"
+      }
+    ],
+    "review_required": true,
+    "nearby_files": []
+  },
+  "warnings": [],
+  "render_probe": true,
+  "origins": [
+    {
+      "source_id": "extsalt",
+      "path": "Wyvern Bold.ttf",
+      "url": "https://github.com/extsalt/10000-font-collection",
+      "commit": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+      "upstream_path": "Wyvern Bold.ttf",
+      "container": "ttf"
+    }
+  ],
+  "equivalent_table_variants": [
+    "6ead6597f45956561c9f9ad24860f113066801033326aea57073c4b7d3b266de:0"
+  ],
+  "family_available_styles": [
+    [
+      400,
+      false,
+      "Regular"
+    ],
+    [
+      400,
+      true,
+      "Italic"
+    ],
+    [
+      700,
+      false,
+      "Bold"
+    ],
+    [
+      700,
+      true,
+      "Bold Italic"
+    ]
+  ],
+  "family_limits": []
+}

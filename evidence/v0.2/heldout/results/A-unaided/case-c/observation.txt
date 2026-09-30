@@ -1,0 +1,2 @@
+Choose Source Sans Pro at body 18 px and captions 15 px. Actual audit shows more distinct I/l forms than Roboto, and the open lowercase feels patient; this remains a self-assessed visual improvement, not a user comprehension study.
+Counterargument: Roboto is already compact and functional; increased body/caption size contributes to the improvement independently of family choice.

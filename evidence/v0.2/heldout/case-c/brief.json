@@ -1,0 +1,28 @@
+{
+  "name": "Dikiş Kulübü: a hands-busy mobile lesson",
+  "project": "A fictional community sewing club offers short Turkish-language lessons in an offline-capable phone page. The fixed fixture is one instruction screen, with no navigation or interaction implementation requested.",
+  "audience": "New adult sewers using their own phones while handling fabric and thread. Some users have small, older screens and may not be fluent technical readers.",
+  "medium": "390 px wide mobile screen, checked at 100% size. It is a task instruction, not a news article or marketing page.",
+  "tone": "Patient, clear, capable and human. It should feel like a skilled person explaining one practical step. Avoid a childish craft aesthetic or a severe technical manual.",
+  "density": "balanced",
+  "main_task": "Read the current action, distinguish the short material list from the three numbered steps, and find the continuation control.",
+  "language": "Turkish. Preserve dotted capital İ, dotless ı, ş, ğ, ö, ç and ü. Inspect their actual appearance and case distinctions; cmap presence alone is not the complete check.",
+  "hierarchy": "Club name and progress are quiet; task heading and the continuation control are easy to find; the body should carry the explanation. Distinguish numbered steps without decorative bullets or icons.",
+  "surroundings": "White content on a soft grey page, dark blue-green text, one pale yellow note, and a dark continuation button. Keep colors, width and block order.",
+  "existing_baseline": "A neutral regular/bold baseline is provided. It can be retained. No second family is required and a single-family implementation may be simpler and more coherent.",
+  "design_freedom": "Choose typography and role sizes within title 25–31 px, body 16–19 px, caption 13–15 px, button 17–20 px. Width 390 and padding 22 stay fixed; body leading 1.35–1.6. Do not compress text by using excessive negative tracking or remove supplied copy. Up to two families.",
+  "acceptance": [
+    "All Turkish copy renders from exact chosen faces without fallback or missing glyphs.",
+    "The initial task heading is at most three lines, and the continuation label remains at most two lines.",
+    "At 390 px there is no horizontal clipping or overlap; the whole screen fits within 1280 px height.",
+    "The digit 1, lowercase l, uppercase I, dotted İ and dotless ı are inspected using the supplied short audit string in addition to the composition.",
+    "The implementation recipe specifies language tr, exact weights/axes and line heights; retaining the current family is allowed."
+  ],
+  "audit_text": "1 l I İ ı i — İplik, iğne, ölçü, güç, şaşırma.",
+  "primary_sizes": {
+    "title": 28,
+    "body": 17,
+    "caption": 14,
+    "button": 18
+  }
+}

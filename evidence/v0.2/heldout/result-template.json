@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "case_id": "case-a|case-b|case-c",
+  "condition": "A-unaided|B-basic|C-harness",
+  "evaluator": {"model": "", "effort": "", "environment": ""},
+  "inputs": {"brief_sha256": "", "catalog_sha256": "", "source_commits": {}, "visual_index_identity": null},
+  "budget": {"active_minutes_limit": 8, "information_operations_limit": 6, "records_per_operation_limit": 12, "option_render_limit_including_baseline": 4, "final_revision_limit": 1, "start_utc": "", "end_utc": "", "active_seconds": null, "actual_information_operations": 0, "actual_records_seen": 0, "actual_option_renders": 0, "actual_final_revisions": 0, "exceptions": []},
+  "sealed_plan": {"path": "sealed-plan.json", "sha256": "", "sealed_at_utc": "", "before_candidate_image_inspection": true},
+  "families_seen": [],
+  "candidates_explored": [{"family": "", "exact_ids": [], "first_seen_in_condition": "", "previously_familiar_self_report": null, "rendered_composition": null, "inspected_at_project_size": false, "observations": [], "rejection_reason": null}],
+  "discovery_failures": [],
+  "asset_failures": [],
+  "operational_failures": [],
+  "final": {"baseline_retained": null, "chosen_roles": {}, "composition_spec": "", "manifest": "", "image": "", "implementation_recipe": "", "revision_reason": null, "decision": "", "counterargument": ""},
+  "objective_checks": [{"requirement": "", "result": "pass|fail|unverified", "evidence": ""}],
+  "subjective_assessment": {"judge": "self|independent-blinded", "audience_context_fit": {"score_1_to_5": null, "observation": ""}, "tone": {"score_1_to_5": null, "observation": ""}, "hierarchy": {"score_1_to_5": null, "observation": ""}, "role_pairing_coherence": {"score_1_to_5": null, "observation": ""}, "overall_preference": "", "confidence": "", "counterargument": ""},
+  "carryover": {"reused_earlier_candidates": [], "reused_earlier_layout_learnings": [], "other": ""},
+  "limitations": [],
+  "protocol_violations": []
+}

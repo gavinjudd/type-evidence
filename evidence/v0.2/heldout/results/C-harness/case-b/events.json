@@ -1,0 +1,2881 @@
+[
+  {
+    "timestamp": "2026-09-30T16:49:20.310373+00:00",
+    "operation": "start",
+    "information_limit": 6,
+    "record_limit_per_operation": 12,
+    "render_limit_including_baseline": 4,
+    "final_revision_limit": 1
+  },
+  {
+    "timestamp": "2026-09-30T16:49:20.310415+00:00",
+    "operation": "baseline-reuse",
+    "source": "HELDOUT_PACK/baseline-renders/case-b",
+    "option_slot": 1
+  },
+  {
+    "timestamp": "2026-09-30T16:49:25.542759+00:00",
+    "operation": "information",
+    "mode": "cli-semantic-search",
+    "query": {
+      "role": "display",
+      "query": "playful bold tactile rounded independent print studio. Not luxury; not wedding; not corporate; not distressed.",
+      "text": "OFFCUT",
+      "italic": false,
+      "size": 150,
+      "density": "comfortable",
+      "audience": "local adults, art students, curious community printmakers",
+      "medium": "1000 px portrait poster and quarter-size social view",
+      "tone": "playful confident tactile welcoming",
+      "hierarchy": "one memorable dominant title; supporting information remains clear",
+      "language": "en",
+      "surroundings": "warm orange paper and near-black ink, thin divider, no pictures",
+      "existing_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "limit": 6
+    },
+    "command": [
+      "REPOSITORY/.venv/bin/type-evidence",
+      "--catalog",
+      "REPOSITORY/library/catalog.sqlite",
+      "search",
+      "--brief",
+      "HELDOUT_PACK/results/C-harness/case-b/initial-query.json",
+      "--visual",
+      "on"
+    ],
+    "count": 6,
+    "records": [
+      {
+        "id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+        "family": "Roboto",
+        "style": "Bold",
+        "weight": 700,
+        "italic": false,
+        "category": "unknown",
+        "score": 6.7621,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: metadata:bold."
+          },
+          {
+            "basis": "learned-visual",
+            "points": 1.7621,
+            "reason": "Content-based visual retrieval: Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.5283,
+          "cap_height_em": 0.7109,
+          "average_advance_em": 0.542,
+          "mono_measured": false,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 12,
+          "styles": [
+            {
+              "style": "Thin",
+              "weight": 250,
+              "italic": false
+            },
+            {
+              "style": "Thin Italic",
+              "weight": 250,
+              "italic": true
+            },
+            {
+              "style": "Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Medium Italic",
+              "weight": 500,
+              "italic": true
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 700,
+              "italic": true
+            },
+            {
+              "style": "Black",
+              "weight": 900,
+              "italic": false
+            },
+            {
+              "style": "Black Italic",
+              "weight": 900,
+              "italic": true
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": true,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 1.7621,
+          "description": "Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "bold playful tactile rounded independent print studio confident welcoming",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.005651,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff:0",
+        "family": "SF Pixelate",
+        "style": "Bold",
+        "weight": 700,
+        "italic": false,
+        "category": "unknown",
+        "score": 25,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 20,
+            "reason": "Content-based visual retrieval: Model-associated attributes: friendly, playful, decorative, geometric. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: metadata:bold."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.5151,
+          "cap_height_em": 0.7148,
+          "average_advance_em": 0.6601,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 4,
+          "styles": [
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Oblique",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Bold Oblique",
+              "weight": 700,
+              "italic": true
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 20,
+          "description": "Model-associated attributes: friendly, playful, decorative, geometric. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "bold playful tactile rounded independent print studio confident welcoming",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.021262,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "e952972c371ba753555b2e9beb2e835fbbdbb670a4bec886d2715d63bae62449:0",
+        "family": "SF Pixelate Shaded",
+        "style": "Bold",
+        "weight": 700,
+        "italic": false,
+        "category": "unknown",
+        "score": 24.6609,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 19.6609,
+            "reason": "Content-based visual retrieval: Model-associated attributes: playful, thin, geometric, decorative. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: metadata:bold."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.54,
+          "cap_height_em": 0.7402,
+          "average_advance_em": 0.6601,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 4,
+          "styles": [
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Oblique",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Bold Oblique",
+              "weight": 700,
+              "italic": true
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 19.6609,
+          "description": "Model-associated attributes: playful, thin, geometric, decorative. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "bold playful tactile rounded independent print studio confident welcoming",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.020859,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "4dd391874587e969f6634472887e4c5e3725aa0d55312c6e21cb4e82430f8af6:0",
+        "family": "SF Intermosaic",
+        "style": "Bold",
+        "weight": 700,
+        "italic": false,
+        "category": "unknown",
+        "score": 22.8305,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 19.8305,
+            "reason": "Content-based visual retrieval: Model-associated attributes: playful, geometric, friendly, futuristic. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: metadata:bold."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.625,
+          "cap_height_em": 0.625,
+          "average_advance_em": 0.855,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 2,
+          "styles": [
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 19.8305,
+          "description": "Model-associated attributes: playful, geometric, friendly, futuristic. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "bold playful tactile rounded independent print studio confident welcoming",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.021003,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "d9002034b9f9a82ea1e6d8f037520b32eece1c3bdd47800af00193e55e77422e:0",
+        "family": "Silkscreen",
+        "style": "Bold",
+        "weight": 700,
+        "italic": false,
+        "category": "unknown",
+        "score": 22.5382,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 19.5382,
+            "reason": "Content-based visual retrieval: Model-associated attributes: playful, geometric, futuristic, decorative. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: metadata:bold."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.625,
+          "cap_height_em": 0.625,
+          "average_advance_em": 0.855,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 2,
+          "styles": [
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 19.5382,
+          "description": "Model-associated attributes: playful, geometric, futuristic, decorative. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "bold playful tactile rounded independent print studio confident welcoming",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.020755,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "4d240f90eb326fb93fd8238f0d2e25cd57cd21eee2f0e327cc2cb9726f3fdba5:0",
+        "family": "P22 Gauguin",
+        "style": "Extras",
+        "weight": 950,
+        "italic": false,
+        "category": "unknown",
+        "score": 22.5112,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 18.5112,
+            "reason": "Content-based visual retrieval: Model-associated attributes: decorative, slab serif, playful, thin. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: metadata:bold."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.727,
+          "cap_height_em": 0.724,
+          "average_advance_em": 1.0173,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 4,
+          "styles": [
+            {
+              "style": "Alternate",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Brush",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Extras",
+              "weight": 950,
+              "italic": false
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 18.5112,
+          "description": "Model-associated attributes: decorative, slab serif, playful, thin. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "bold playful tactile rounded independent print studio confident welcoming",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.019882,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      }
+    ],
+    "response_path": "initial-stdout.json",
+    "seconds": 5.232183500000247
+  },
+  {
+    "timestamp": "2026-09-30T16:49:49.003428+00:00",
+    "operation": "information",
+    "mode": "cli-semantic-search",
+    "query": {
+      "role": "display",
+      "query": "playful bold tactile rounded independent print studio. Not luxury; not wedding; not corporate; not distressed.",
+      "text": "OFFCUT",
+      "italic": false,
+      "size": 150,
+      "density": "comfortable",
+      "audience": "local adults, art students, curious community printmakers",
+      "medium": "1000 px portrait poster and quarter-size social view",
+      "tone": "playful confident tactile welcoming",
+      "hierarchy": "one memorable dominant title; supporting information remains clear",
+      "language": "en",
+      "surroundings": "warm orange paper and near-black ink, thin divider, no pictures",
+      "existing_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "limit": 6,
+      "offset": 5
+    },
+    "command": [
+      "REPOSITORY/.venv/bin/type-evidence",
+      "--catalog",
+      "REPOSITORY/library/catalog.sqlite",
+      "search",
+      "--brief",
+      "HELDOUT_PACK/results/C-harness/case-b/page2-query.json",
+      "--visual",
+      "on"
+    ],
+    "count": 6,
+    "records": [
+      {
+        "id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+        "family": "Roboto",
+        "style": "Bold",
+        "weight": 700,
+        "italic": false,
+        "category": "unknown",
+        "score": 6.7621,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: metadata:bold."
+          },
+          {
+            "basis": "learned-visual",
+            "points": 1.7621,
+            "reason": "Content-based visual retrieval: Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.5283,
+          "cap_height_em": 0.7109,
+          "average_advance_em": 0.542,
+          "mono_measured": false,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 12,
+          "styles": [
+            {
+              "style": "Thin",
+              "weight": 250,
+              "italic": false
+            },
+            {
+              "style": "Thin Italic",
+              "weight": 250,
+              "italic": true
+            },
+            {
+              "style": "Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Medium Italic",
+              "weight": 500,
+              "italic": true
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 700,
+              "italic": true
+            },
+            {
+              "style": "Black",
+              "weight": 900,
+              "italic": false
+            },
+            {
+              "style": "Black Italic",
+              "weight": 900,
+              "italic": true
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": true,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 1.7621,
+          "description": "Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "bold playful tactile rounded independent print studio confident welcoming",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.005651,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "c4c217e1634f3982c95abfa6b7684981462865d11382512a86a149dbdbefd172:0",
+        "family": "Keystone",
+        "style": "Normal",
+        "weight": 700,
+        "italic": false,
+        "category": "unknown",
+        "score": 22.5086,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 18.5086,
+            "reason": "Content-based visual retrieval: Model-associated attributes: playful, decorative, geometric, retro. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: metadata:bold."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.583,
+          "cap_height_em": 0.583,
+          "average_advance_em": 0.6333,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 1,
+          "styles": [
+            {
+              "style": "Normal",
+              "weight": 700,
+              "italic": false
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 18.5086,
+          "description": "Model-associated attributes: playful, decorative, geometric, retro. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "bold playful tactile rounded independent print studio confident welcoming",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.01988,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "d20e4986706def41272230497bdd1d1cec536050c73e49610600dcaeb759a2a8:0",
+        "family": "Beam Rider Bold Laser",
+        "style": "Bold Laser",
+        "weight": 700,
+        "italic": false,
+        "category": "sans",
+        "score": 22.3826,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 17.3826,
+            "reason": "Content-based visual retrieval: Model-associated attributes: playful, decorative, geometric, retro. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: metadata:bold."
+          },
+          {
+            "basis": "heuristic",
+            "points": 1,
+            "reason": "This role permits multiple categories; compare its actual letterforms."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.716,
+          "cap_height_em": 0.716,
+          "average_advance_em": 0.6172,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 1,
+          "styles": [
+            {
+              "style": "Bold Laser",
+              "weight": 700,
+              "italic": false
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 17.3826,
+          "description": "Model-associated attributes: playful, decorative, geometric, retro. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "bold playful tactile rounded independent print studio confident welcoming",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.018923,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      },
+      {
+        "id": "73055acc79db1225855d577863a4c5156979d51ef76181959b57748266d862f6:0",
+        "family": "FK Raster Grotesk",
+        "style": "Sharp",
+        "weight": 400,
+        "italic": false,
+        "category": "unknown",
+        "score": 22.2322,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 19.2322,
+            "reason": "Content-based visual retrieval: Model-associated attributes: friendly, playful, thin, decorative. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "heuristic",
+            "points": 1,
+            "reason": "A regular-weight starting point keeps the first comparison useful."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.5833,
+          "cap_height_em": 0.8333,
+          "average_advance_em": 0.59,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 4,
+          "styles": [
+            {
+              "style": "Blended",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Rounded",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Sharp",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Smooth",
+              "weight": 400,
+              "italic": false
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [
+          "OS/2 embedding flags set: 8; technical flags are not a license"
+        ],
+        "existing_baseline": false,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 19.2322,
+          "description": "Model-associated attributes: friendly, playful, thin, decorative. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "bold playful tactile rounded independent print studio confident welcoming",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.020495,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "c8a78d4523bf37fd77990c145c86f5c926519e8c96266b75d346886762f2bc8a:0",
+        "family": "Joystix Gaunt",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "sans",
+        "score": 22.1389,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 19.1389,
+            "reason": "Content-based visual retrieval: Model-associated attributes: playful, decorative, geometric, friendly. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "heuristic",
+            "points": 1,
+            "reason": "This role permits multiple categories; compare its actual letterforms."
+          },
+          {
+            "basis": "heuristic",
+            "points": 1,
+            "reason": "A regular-weight starting point keeps the first comparison useful."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.627,
+          "cap_height_em": 0.634,
+          "average_advance_em": 0.6747,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 1,
+          "styles": [
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 19.1389,
+          "description": "Model-associated attributes: playful, decorative, geometric, friendly. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "bold playful tactile rounded independent print studio confident welcoming",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.020416,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      },
+      {
+        "id": "121f24df45b1e7d11f403bf65f274b38a13e943ddeb604c7e49d0fd7a758a615:0",
+        "family": "November",
+        "style": "Regular",
+        "weight": 400,
+        "italic": false,
+        "category": "mono",
+        "score": 22,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 20,
+            "reason": "Content-based visual retrieval: Model-associated attributes: friendly, playful, decorative, retro. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "heuristic",
+            "points": 1,
+            "reason": "A regular-weight starting point keeps the first comparison useful."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.625,
+          "cap_height_em": 0.875,
+          "average_advance_em": 0.5,
+          "mono_measured": true,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 1,
+          "styles": [
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 20,
+          "description": "Model-associated attributes: friendly, playful, decorative, retro. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "bold playful tactile rounded independent print studio confident welcoming",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.021916,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      }
+    ],
+    "response_path": "page2-stdout.json",
+    "seconds": 5.1043217920014285
+  },
+  {
+    "timestamp": "2026-09-30T16:50:10.120772+00:00",
+    "operation": "information",
+    "mode": "cli-semantic-search",
+    "query": {
+      "role": "display",
+      "query": "heavy rounded soft slab serif. Not pixelated; not luxury; not wedding; not corporate; not distressed.",
+      "text": "OFFCUT",
+      "italic": false,
+      "size": 150,
+      "density": "comfortable",
+      "audience": "local adults, art students, curious community printmakers",
+      "medium": "1000 px portrait poster and quarter-size social view",
+      "tone": "playful confident tactile welcoming",
+      "hierarchy": "one memorable dominant title; supporting information remains clear",
+      "language": "en",
+      "surroundings": "warm orange paper and near-black ink, thin divider, no pictures",
+      "existing_id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "limit": 6,
+      "similar_to": "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3:0",
+      "avoid_like": "8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff:0",
+      "exclude_families": [
+        "SF Pixelate",
+        "SF Pixelate Shaded",
+        "SF Intermosaic",
+        "Silkscreen",
+        "P22 Gauguin"
+      ]
+    },
+    "command": [
+      "REPOSITORY/.venv/bin/type-evidence",
+      "--catalog",
+      "REPOSITORY/library/catalog.sqlite",
+      "search",
+      "--brief",
+      "HELDOUT_PACK/results/C-harness/case-b/refined-query.json",
+      "--visual",
+      "on"
+    ],
+    "count": 6,
+    "records": [
+      {
+        "id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+        "family": "Roboto",
+        "style": "Bold",
+        "weight": 700,
+        "italic": false,
+        "category": "unknown",
+        "score": 8.0497,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 6.0497,
+            "reason": "Content-based visual retrieval: Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.5283,
+          "cap_height_em": 0.7109,
+          "average_advance_em": 0.542,
+          "mono_measured": false,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 12,
+          "styles": [
+            {
+              "style": "Thin",
+              "weight": 250,
+              "italic": false
+            },
+            {
+              "style": "Thin Italic",
+              "weight": 250,
+              "italic": true
+            },
+            {
+              "style": "Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Medium Italic",
+              "weight": 500,
+              "italic": true
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 700,
+              "italic": true
+            },
+            {
+              "style": "Black",
+              "weight": 900,
+              "italic": false
+            },
+            {
+              "style": "Black Italic",
+              "weight": 900,
+              "italic": true
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": true,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 6.0497,
+          "description": "Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "serif heavy rounded soft slab playful confident tactile welcoming",
+            "avoid pixelated",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.001816,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": [
+          "visual_category_unknown"
+        ]
+      },
+      {
+        "id": "701913bcaa6ec4c7d612862fc8fcdacedefbce88833216b70ca7aecb52050da0:0",
+        "family": "New York Medium",
+        "style": "Heavy",
+        "weight": 800,
+        "italic": false,
+        "category": "serif",
+        "score": 17.8788,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 11.8788,
+            "reason": "Content-based visual retrieval: Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: category:serif."
+          },
+          {
+            "basis": "heuristic",
+            "points": 1,
+            "reason": "This role permits multiple categories; compare its actual letterforms."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.5015,
+          "cap_height_em": 0.7051,
+          "average_advance_em": 0.6134,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 12,
+          "styles": [
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Regular Italic",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Medium Italic",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Bold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Semibold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Semibold Italic",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Black",
+              "weight": 800,
+              "italic": false
+            },
+            {
+              "style": "Black Italic",
+              "weight": 800,
+              "italic": false
+            },
+            {
+              "style": "Heavy",
+              "weight": 800,
+              "italic": false
+            },
+            {
+              "style": "Heavy Italic",
+              "weight": 800,
+              "italic": false
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 11.8788,
+          "description": "Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "serif heavy rounded soft slab playful confident tactile welcoming",
+            "avoid pixelated",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.012994,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      },
+      {
+        "id": "1defc7cca892139f563edaec7ac1ea464a75f14882eeedabaee8057ed7f7f7d1:0",
+        "family": "Noto Serif",
+        "style": "SemiCondensed Black",
+        "weight": 900,
+        "italic": false,
+        "category": "serif",
+        "score": 17.7608,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 11.7608,
+            "reason": "Content-based visual retrieval: Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: category:serif."
+          },
+          {
+            "basis": "heuristic",
+            "points": 1,
+            "reason": "This role permits multiple categories; compare its actual letterforms."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.536,
+          "cap_height_em": 0.714,
+          "average_advance_em": 0.5614,
+          "mono_measured": false,
+          "digit_tabular_default": true
+        },
+        "family_available_styles": {
+          "count": 18,
+          "styles": [
+            {
+              "style": "SemiCondensed Thin",
+              "weight": 100,
+              "italic": false
+            },
+            {
+              "style": "SemiCondensed Thin Italic",
+              "weight": 100,
+              "italic": true
+            },
+            {
+              "style": "SemiCondensed ExtraLight",
+              "weight": 200,
+              "italic": false
+            },
+            {
+              "style": "SemiCondensed ExtraLight Italic",
+              "weight": 200,
+              "italic": true
+            },
+            {
+              "style": "SemiCondensed Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "SemiCondensed Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "SemiCondensed",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "SemiCondensed Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "SemiCondensed Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "SemiCondensed Medium Italic",
+              "weight": 500,
+              "italic": true
+            },
+            {
+              "style": "SemiCondensed SemiBold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "SemiCondensed SemiBold Italic",
+              "weight": 600,
+              "italic": true
+            }
+          ],
+          "truncated": true,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 11.7608,
+          "description": "Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "serif heavy rounded soft slab playful confident tactile welcoming",
+            "avoid pixelated",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.012768,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      },
+      {
+        "id": "dffa8810be6ef1458abb5b351427d533a7bf685a574cbedfd0689ef3d77d8f84:0",
+        "family": "New York Large",
+        "style": "Black",
+        "weight": 800,
+        "italic": false,
+        "category": "serif",
+        "score": 17.4375,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 11.4375,
+            "reason": "Content-based visual retrieval: Model-associated attributes: warm, friendly, humanist, elegant. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: category:serif."
+          },
+          {
+            "basis": "heuristic",
+            "points": 1,
+            "reason": "This role permits multiple categories; compare its actual letterforms."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.5024,
+          "cap_height_em": 0.7051,
+          "average_advance_em": 0.6288,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 12,
+          "styles": [
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Regular Italic",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Medium Italic",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Bold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Semibold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Semibold Italic",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Black",
+              "weight": 800,
+              "italic": false
+            },
+            {
+              "style": "Black Italic",
+              "weight": 800,
+              "italic": false
+            },
+            {
+              "style": "Heavy",
+              "weight": 800,
+              "italic": false
+            },
+            {
+              "style": "Heavy Italic",
+              "weight": 800,
+              "italic": false
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 11.4375,
+          "description": "Model-associated attributes: warm, friendly, humanist, elegant. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "serif heavy rounded soft slab playful confident tactile welcoming",
+            "avoid pixelated",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.012148,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      },
+      {
+        "id": "45db865540cda82b5f9fc17cb3c2de5e9cfdbb293b6c250cd4fa1d5e8449e1ab:0",
+        "family": "New York Small",
+        "style": "Heavy",
+        "weight": 800,
+        "italic": false,
+        "category": "serif",
+        "score": 17.3949,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 11.3949,
+            "reason": "Content-based visual retrieval: Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: category:serif."
+          },
+          {
+            "basis": "heuristic",
+            "points": 1,
+            "reason": "This role permits multiple categories; compare its actual letterforms."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.5078,
+          "cap_height_em": 0.7051,
+          "average_advance_em": 0.6264,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 12,
+          "styles": [
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Regular Italic",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Medium",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Medium Italic",
+              "weight": 500,
+              "italic": false
+            },
+            {
+              "style": "Bold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Semibold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Semibold Italic",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "Black",
+              "weight": 800,
+              "italic": false
+            },
+            {
+              "style": "Black Italic",
+              "weight": 800,
+              "italic": false
+            },
+            {
+              "style": "Heavy",
+              "weight": 800,
+              "italic": false
+            },
+            {
+              "style": "Heavy Italic",
+              "weight": 800,
+              "italic": false
+            }
+          ],
+          "truncated": false,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [],
+        "existing_baseline": false,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 11.3949,
+          "description": "Model-associated attributes: warm, friendly, casual, humanist. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "serif heavy rounded soft slab playful confident tactile welcoming",
+            "avoid pixelated",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.012066,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      },
+      {
+        "id": "2f06e22cdc2c678a356e14ffd3626c2d777f61a9b2afaa49a8290a99d8173bd3:0",
+        "family": "Orbikular",
+        "style": "ExtraBold",
+        "weight": 800,
+        "italic": false,
+        "category": "serif",
+        "score": 17.3711,
+        "score_meaning": "Heuristic preference points; not a quality or readability score.",
+        "reasons": [
+          {
+            "basis": "learned-visual",
+            "points": 11.3711,
+            "reason": "Content-based visual retrieval: Model-associated attributes: warm, friendly, elegant, mechanical. Exact Latin sample; default axes."
+          },
+          {
+            "basis": "metadata",
+            "points": 3,
+            "reason": "Transparent query preference matched: category:serif."
+          },
+          {
+            "basis": "heuristic",
+            "points": 1,
+            "reason": "This role permits multiple categories; compare its actual letterforms."
+          },
+          {
+            "basis": "measured+context",
+            "points": 1,
+            "reason": "Moderate sampled advances are a starting point for the requested comfortable density."
+          },
+          {
+            "basis": "metadata+context",
+            "points": 1,
+            "reason": "Several observed styles are available for the requested hierarchy; use required_styles to guarantee exact companions."
+          }
+        ],
+        "required_axes": {},
+        "metrics": {
+          "x_height_em": 0.493,
+          "cap_height_em": 0.656,
+          "average_advance_em": 0.6063,
+          "mono_measured": false,
+          "digit_tabular_default": false
+        },
+        "family_available_styles": {
+          "count": 14,
+          "styles": [
+            {
+              "style": "ExtraLight",
+              "weight": 200,
+              "italic": false
+            },
+            {
+              "style": "ExtraLight Italic",
+              "weight": 200,
+              "italic": true
+            },
+            {
+              "style": "ExtraLight",
+              "weight": 265,
+              "italic": false
+            },
+            {
+              "style": "ExtraLight Italic",
+              "weight": 265,
+              "italic": true
+            },
+            {
+              "style": "Light",
+              "weight": 300,
+              "italic": false
+            },
+            {
+              "style": "Light Italic",
+              "weight": 300,
+              "italic": true
+            },
+            {
+              "style": "Regular",
+              "weight": 400,
+              "italic": false
+            },
+            {
+              "style": "Italic",
+              "weight": 400,
+              "italic": true
+            },
+            {
+              "style": "SemiBold",
+              "weight": 600,
+              "italic": false
+            },
+            {
+              "style": "SemiBold Italic",
+              "weight": 600,
+              "italic": true
+            },
+            {
+              "style": "Bold",
+              "weight": 700,
+              "italic": false
+            },
+            {
+              "style": "Bold Italic",
+              "weight": 700,
+              "italic": true
+            }
+          ],
+          "truncated": true,
+          "meaning": "Observed distinct face styles in this catalog; not proof of a complete family. Variable instances are not counted as additional faces."
+        },
+        "rights": {
+          "status": "unknown",
+          "review_required": true
+        },
+        "warnings": [
+          "OS/2 embedding flags set: 4; technical flags are not a license"
+        ],
+        "existing_baseline": false,
+        "family_style_resolutions": [],
+        "visual_evidence": {
+          "score": 11.3711,
+          "description": "Model-associated attributes: warm, friendly, elegant, mechanical. Exact Latin sample; default axes.",
+          "basis": "learned-visual",
+          "matches": [
+            "serif heavy rounded soft slab playful confident tactile welcoming",
+            "avoid pixelated",
+            "avoid luxury",
+            "avoid wedding",
+            "avoid corporate",
+            "avoid distressed"
+          ],
+          "raw_similarity": 0.012021,
+          "sample_script": "Latin",
+          "sample_language": "und",
+          "sample_axes": {}
+        },
+        "evidence_gaps": []
+      }
+    ],
+    "response_path": "refined-stdout.json",
+    "seconds": 4.875393667000026
+  },
+  {
+    "timestamp": "2026-09-30T16:50:44.584446+00:00",
+    "operation": "information",
+    "mode": "cli-inspect",
+    "query": "8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff:0",
+    "count": 1,
+    "records": [
+      {
+        "id": "8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff:0",
+        "sha256": "8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff",
+        "face_index": 0,
+        "family": "SF Pixelate",
+        "style": "Bold",
+        "full_name": "SF Pixelate Bold",
+        "postscript_name": "SFPixelate-Bold",
+        "vendor": "MACR",
+        "version": "v1.0 - Freeware",
+        "weight": 700,
+        "width_class": 5,
+        "italic": false,
+        "units_per_em": 2048,
+        "axes": [],
+        "features": [],
+        "coverage": [
+          [
+            32,
+            126
+          ],
+          [
+            160,
+            162
+          ],
+          [
+            165,
+            165
+          ],
+          [
+            168,
+            168
+          ],
+          [
+            171,
+            171
+          ],
+          [
+            173,
+            173
+          ],
+          [
+            175,
+            177
+          ],
+          [
+            180,
+            180
+          ],
+          [
+            187,
+            187
+          ],
+          [
+            191,
+            198
+          ],
+          [
+            200,
+            207
+          ],
+          [
+            209,
+            221
+          ],
+          [
+            224,
+            230
+          ],
+          [
+            232,
+            239
+          ],
+          [
+            241,
+            253
+          ],
+          [
+            255,
+            255
+          ],
+          [
+            305,
+            305
+          ],
+          [
+            338,
+            339
+          ],
+          [
+            352,
+            353
+          ],
+          [
+            376,
+            376
+          ],
+          [
+            710,
+            711
+          ],
+          [
+            730,
+            730
+          ],
+          [
+            732,
+            732
+          ],
+          [
+            8211,
+            8212
+          ],
+          [
+            8216,
+            8218
+          ],
+          [
+            8220,
+            8222
+          ],
+          [
+            8226,
+            8226
+          ],
+          [
+            8230,
+            8230
+          ],
+          [
+            8240,
+            8240
+          ],
+          [
+            8249,
+            8250
+          ],
+          [
+            57345,
+            57346
+          ]
+        ],
+        "glyph_count": 191,
+        "unicode_count": 190,
+        "metrics": {
+          "x_height_em": 0.5151,
+          "cap_height_em": 0.7148,
+          "average_advance_em": 0.6601,
+          "mono_measured": false,
+          "digit_tabular_default": false,
+          "measurement_sample": "Hamburgefontsiv0123456789; default unshaped hmtx advances"
+        },
+        "category": "unknown",
+        "category_basis": "measured sample widths then declared PANOSE",
+        "family_key": "4f9a5eb64d54fe732125448f",
+        "canonical_hash": "62d6161755e07e0575515a86714690b939d26a554f239ac42242c0bffa6d3a35",
+        "rights": {
+          "status": "unknown",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "©2000 ShyFonts Type Foundry"
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "©2000 ShyFonts Type Foundry"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": []
+        },
+        "warnings": [],
+        "render_probe": true,
+        "origins": [
+          {
+            "source_id": "extsalt",
+            "path": "SF Pixelate Bold.ttf",
+            "url": "https://github.com/extsalt/10000-font-collection",
+            "commit": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+            "upstream_path": "SF Pixelate Bold.ttf",
+            "container": "ttf"
+          }
+        ],
+        "equivalent_table_variants": [
+          "8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff:0"
+        ],
+        "family_available_styles": [
+          [
+            400,
+            false,
+            "Regular"
+          ],
+          [
+            400,
+            true,
+            "Oblique"
+          ],
+          [
+            700,
+            false,
+            "Bold"
+          ],
+          [
+            700,
+            true,
+            "Bold Oblique"
+          ]
+        ],
+        "family_limits": []
+      }
+    ],
+    "response_path": "pixelate-inspect.json",
+    "command": [
+      "REPOSITORY/.venv/bin/type-evidence",
+      "--catalog",
+      "REPOSITORY/library/catalog.sqlite",
+      "inspect",
+      "8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff:0"
+    ]
+  },
+  {
+    "timestamp": "2026-09-30T16:50:44.653639+00:00",
+    "operation": "information",
+    "mode": "cli-inspect",
+    "query": "701913bcaa6ec4c7d612862fc8fcdacedefbce88833216b70ca7aecb52050da0:0",
+    "count": 1,
+    "records": [
+      {
+        "id": "701913bcaa6ec4c7d612862fc8fcdacedefbce88833216b70ca7aecb52050da0:0",
+        "sha256": "701913bcaa6ec4c7d612862fc8fcdacedefbce88833216b70ca7aecb52050da0",
+        "face_index": 0,
+        "family": "New York Medium",
+        "style": "Heavy",
+        "full_name": "New York Medium Heavy",
+        "postscript_name": "NewYorkMedium-Heavy",
+        "vendor": "APPL",
+        "version": "Version 16.0d2e2",
+        "weight": 800,
+        "width_class": 5,
+        "italic": false,
+        "units_per_em": 2048,
+        "axes": [],
+        "features": [
+          "c2sc",
+          "calt",
+          "ccmp",
+          "kern",
+          "locl",
+          "onum",
+          "smcp",
+          "ss01",
+          "tnum"
+        ],
+        "coverage": [
+          [
+            32,
+            126
+          ],
+          [
+            161,
+            172
+          ],
+          [
+            174,
+            311
+          ],
+          [
+            313,
+            328
+          ],
+          [
+            332,
+            382
+          ],
+          [
+            399,
+            399
+          ],
+          [
+            402,
+            402
+          ],
+          [
+            416,
+            417
+          ],
+          [
+            431,
+            432
+          ],
+          [
+            452,
+            476
+          ],
+          [
+            478,
+            483
+          ],
+          [
+            486,
+            493
+          ],
+          [
+            497,
+            501
+          ],
+          [
+            504,
+            539
+          ],
+          [
+            542,
+            543
+          ],
+          [
+            550,
+            563
+          ],
+          [
+            567,
+            567
+          ],
+          [
+            601,
+            601
+          ],
+          [
+            609,
+            609
+          ],
+          [
+            700,
+            700
+          ],
+          [
+            710,
+            711
+          ],
+          [
+            728,
+            733
+          ],
+          [
+            768,
+            772
+          ],
+          [
+            774,
+            780
+          ],
+          [
+            783,
+            783
+          ],
+          [
+            785,
+            785
+          ],
+          [
+            795,
+            795
+          ],
+          [
+            803,
+            808
+          ],
+          [
+            813,
+            814
+          ],
+          [
+            816,
+            818
+          ],
+          [
+            884,
+            885
+          ],
+          [
+            900,
+            906
+          ],
+          [
+            908,
+            908
+          ],
+          [
+            910,
+            929
+          ],
+          [
+            931,
+            974
+          ],
+          [
+            1025,
+            1036
+          ],
+          [
+            1038,
+            1103
+          ],
+          [
+            1105,
+            1116
+          ],
+          [
+            1118,
+            1119
+          ],
+          [
+            1140,
+            1141
+          ],
+          [
+            1168,
+            1169
+          ],
+          [
+            1187,
+            1187
+          ],
+          [
+            1212,
+            1212
+          ],
+          [
+            1216,
+            1216
+          ],
+          [
+            1219,
+            1219
+          ],
+          [
+            1226,
+            1226
+          ],
+          [
+            1231,
+            1233
+          ],
+          [
+            3647,
+            3647
+          ],
+          [
+            7680,
+            7833
+          ],
+          [
+            7838,
+            7838
+          ],
+          [
+            7840,
+            7929
+          ],
+          [
+            8208,
+            8212
+          ],
+          [
+            8216,
+            8218
+          ],
+          [
+            8220,
+            8222
+          ],
+          [
+            8224,
+            8226
+          ],
+          [
+            8230,
+            8231
+          ],
+          [
+            8240,
+            8241
+          ],
+          [
+            8248,
+            8250
+          ],
+          [
+            8259,
+            8260
+          ],
+          [
+            8353,
+            8366
+          ],
+          [
+            8369,
+            8373
+          ],
+          [
+            8376,
+            8378
+          ],
+          [
+            8380,
+            8383
+          ],
+          [
+            8413,
+            8413
+          ],
+          [
+            8470,
+            8471
+          ],
+          [
+            8480,
+            8480
+          ],
+          [
+            8482,
+            8482
+          ],
+          [
+            8486,
+            8486
+          ],
+          [
+            8490,
+            8491
+          ],
+          [
+            8531,
+            8531
+          ],
+          [
+            8544,
+            8544
+          ],
+          [
+            8548,
+            8548
+          ],
+          [
+            8553,
+            8553
+          ],
+          [
+            8556,
+            8559
+          ],
+          [
+            8706,
+            8706
+          ],
+          [
+            8710,
+            8711
+          ],
+          [
+            8719,
+            8719
+          ],
+          [
+            8721,
+            8722
+          ],
+          [
+            8729,
+            8730
+          ],
+          [
+            8734,
+            8734
+          ],
+          [
+            8747,
+            8747
+          ],
+          [
+            8758,
+            8758
+          ],
+          [
+            8764,
+            8764
+          ],
+          [
+            8776,
+            8776
+          ],
+          [
+            8800,
+            8802
+          ],
+          [
+            8804,
+            8805
+          ],
+          [
+            8901,
+            8901
+          ],
+          [
+            9674,
+            9674
+          ],
+          [
+            9702,
+            9702
+          ],
+          [
+            11825,
+            11825
+          ],
+          [
+            42926,
+            42926
+          ],
+          [
+            127338,
+            127339
+          ]
+        ],
+        "glyph_count": 1399,
+        "unicode_count": 966,
+        "metrics": {
+          "x_height_em": 0.5015,
+          "cap_height_em": 0.7051,
+          "average_advance_em": 0.6134,
+          "mono_measured": false,
+          "digit_tabular_default": false,
+          "measurement_sample": "Hamburgefontsiv0123456789; default unshaped hmtx advances"
+        },
+        "category": "serif",
+        "category_basis": "measured sample widths then declared PANOSE",
+        "family_key": "69100a31d04bf6e5b179acf6",
+        "canonical_hash": "30d1af221b94d9b9cbdc58252c36c020c47d08d33a4d04801de8f895bc83b099",
+        "rights": {
+          "status": "unknown",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "© 2017-2019 Apple Inc. All rights reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "New York is a trademark of Apple Inc."
+            },
+            {
+              "kind": "embedded-name-8",
+              "text": "Apple Inc."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Apple Inc."
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "http://www.apple.com/"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "You may use the Apple Font solely for creating mock-ups of user interfaces to be used in software products running on Apple’s iOS, iPadOS, macOS, tvOS or watchOS operating systems, as applicable. The foregoing right includes the right to show the Apple Font in screen shots, images, mock-ups or other depictions, digital and/or print, of such software products running solely on iOS, iPadOS, macOS, tvOS or watchOS.\n\nThe grants set forth in this License do not permit you to, and you agree not to, install, use or run the Apple Font for the purpose of creating mock-ups of user interfaces to be used in software products running on any non-Apple operating system or to enable others to do so. You may not embed the Apple Font in any software programs or other products. Except as expressly provided for herein, you may not use the Apple Font to, create, develop, display or otherwise distribute any documentation, artwork, website content or any other work product. \n\nYou may use this Apple Font: (i) only for the purposes described in this License and the License Agreement for the Apple New York Font; and (ii) only if you are a Registered Apple Developer, or as otherwise expressly permitted by Apple in writing."
+            }
+          ],
+          "review_required": true,
+          "nearby_files": []
+        },
+        "warnings": [],
+        "render_probe": true,
+        "origins": [
+          {
+            "source_id": "bekah",
+            "path": "Designers/Apple/New York/2020/Medium/NewYorkMedium-Heavy.otf",
+            "url": "https://github.com/bekahmcdonald/fonts",
+            "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+            "upstream_path": "Designers/Apple/New York/2020/Medium/NewYorkMedium-Heavy.otf",
+            "container": "otf"
+          }
+        ],
+        "equivalent_table_variants": [
+          "701913bcaa6ec4c7d612862fc8fcdacedefbce88833216b70ca7aecb52050da0:0"
+        ],
+        "family_available_styles": [
+          [
+            400,
+            false,
+            "Regular"
+          ],
+          [
+            400,
+            false,
+            "Regular Italic"
+          ],
+          [
+            500,
+            false,
+            "Medium"
+          ],
+          [
+            500,
+            false,
+            "Medium Italic"
+          ],
+          [
+            600,
+            false,
+            "Bold"
+          ],
+          [
+            600,
+            false,
+            "Bold Italic"
+          ],
+          [
+            600,
+            false,
+            "Semibold"
+          ],
+          [
+            600,
+            false,
+            "Semibold Italic"
+          ],
+          [
+            800,
+            false,
+            "Black"
+          ],
+          [
+            800,
+            false,
+            "Black Italic"
+          ],
+          [
+            800,
+            false,
+            "Heavy"
+          ],
+          [
+            800,
+            false,
+            "Heavy Italic"
+          ]
+        ],
+        "family_limits": [
+          "No declared italic in this metadata/version group"
+        ]
+      }
+    ],
+    "response_path": "new-york-inspect.json",
+    "command": [
+      "REPOSITORY/.venv/bin/type-evidence",
+      "--catalog",
+      "REPOSITORY/library/catalog.sqlite",
+      "inspect",
+      "701913bcaa6ec4c7d612862fc8fcdacedefbce88833216b70ca7aecb52050da0:0"
+    ]
+  },
+  {
+    "timestamp": "2026-09-30T16:50:44.654198+00:00",
+    "operation": "seal",
+    "sha256": "f1f9b9fd19434877493df870758c63c182316e455d3001c7d8d8717aee62487f"
+  },
+  {
+    "timestamp": "2026-09-30T16:50:44.782702+00:00",
+    "operation": "render",
+    "option": "pixelate",
+    "ids": {
+      "eyebrow": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "title": "8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff:0",
+      "dek": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "body": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "heading": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "caption": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0"
+    },
+    "seconds": 0.1259482920031587,
+    "canvas": [
+      1000,
+      1260
+    ],
+    "warnings": []
+  },
+  {
+    "timestamp": "2026-09-30T16:50:44.915016+00:00",
+    "operation": "render",
+    "option": "new-york",
+    "ids": {
+      "eyebrow": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "title": "701913bcaa6ec4c7d612862fc8fcdacedefbce88833216b70ca7aecb52050da0:0",
+      "dek": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "body": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "heading": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "caption": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0"
+    },
+    "seconds": 0.1317115840029146,
+    "canvas": [
+      1000,
+      1260
+    ],
+    "warnings": []
+  },
+  {
+    "timestamp": "2026-09-30T16:50:45.041771+00:00",
+    "operation": "render",
+    "option": "cooper-stencil",
+    "ids": {
+      "eyebrow": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "title": "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3:0",
+      "dek": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "body": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+      "heading": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+      "caption": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0"
+    },
+    "seconds": 0.1260720409991336,
+    "canvas": [
+      1000,
+      1260
+    ],
+    "warnings": []
+  },
+  {
+    "timestamp": "2026-09-30T16:51:21.721276+00:00",
+    "operation": "image-inspection",
+    "options": [
+      "pixelate",
+      "new-york",
+      "cooper-stencil"
+    ],
+    "full_size": true,
+    "quarter_size": true,
+    "observations": {
+      "pixelate": "Fully visible and readable at both sizes; blocky stepped contours signal games/digital nostalgia more than welcoming physical print exchange. Attractive but mismatched tone.",
+      "new-york": "Strong readable heavy serif title, but smooth conventional authority feels editorial/formal rather than playful independent studio.",
+      "cooper-stencil": "Rounded cut silhouettes remain the most tactile and playful; Polish support stays clear and visually subordinate; all title ink visible at quarter scale."
+    }
+  },
+  {
+    "timestamp": "2026-09-30T16:51:21.721557+00:00",
+    "operation": "stop",
+    "reason": "All C first-pass decisions complete; retain stronger B composition"
+  },
+  {
+    "timestamp": "2026-09-30T16:52:47.870814+00:00",
+    "operation": "record-audit",
+    "description": "Post-decision administration only: index identity, exact companion-record counts, measured clipping, carryover/familiarity and interpretation limitations; no design decision changed."
+  }
+]

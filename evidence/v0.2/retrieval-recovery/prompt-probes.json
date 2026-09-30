@@ -1,0 +1,531 @@
+{
+  "scope": "Non-held-out scratch prompt comparison; frozen source/catalog/index. No design outcome claim.",
+  "indexed_faces": 26313,
+  "stored_vector_parity": [
+    {
+      "family": "Lander Tall",
+      "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+      "stored_fresh_cosine": 0.9999998807907104,
+      "stored_mask_sha256": "35a52cdbbdf1c6d8ff85ac432a6659ad09e82dc620fa98621cd68abd3378bbf5",
+      "fresh_mask_sha256": "35a52cdbbdf1c6d8ff85ac432a6659ad09e82dc620fa98621cd68abd3378bbf5"
+    },
+    {
+      "family": "BlockedTop",
+      "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+      "stored_fresh_cosine": 1.000000238418579,
+      "stored_mask_sha256": "a24935b25e9b6d1feeaaddffee08b23ca272f6885cec66509c59d5234c96ce91",
+      "fresh_mask_sha256": "a24935b25e9b6d1feeaaddffee08b23ca272f6885cec66509c59d5234c96ce91"
+    },
+    {
+      "family": "Fatty Snax NF",
+      "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+      "stored_fresh_cosine": 1.0,
+      "stored_mask_sha256": "2d415ce62ce0deddf6294e985212291e50eb7aa623805b286966b4bdfc959a9b",
+      "fresh_mask_sha256": "2d415ce62ce0deddf6294e985212291e50eb7aa623805b286966b4bdfc959a9b"
+    }
+  ],
+  "experiments": [
+    {
+      "query": "warm humanist, not playful or handwritten",
+      "variant": "current",
+      "prompts": [
+        "warm humanist font",
+        "playful font",
+        "handwritten font"
+      ],
+      "weights": [
+        1,
+        -1,
+        -1
+      ],
+      "top4": [
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "score": 15.9153,
+          "category": "unknown"
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "score": 15.5231,
+          "category": "unknown"
+        },
+        {
+          "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+          "family": "PP Pangram Sans",
+          "style": "Compact Extrabold",
+          "score": 12.9539,
+          "category": "unknown"
+        },
+        {
+          "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+          "family": "Wyvern Hvy",
+          "style": "Regular",
+          "score": 12.8453,
+          "category": "sans"
+        }
+      ]
+    },
+    {
+      "query": "warm humanist, not playful or handwritten",
+      "variant": "comma_training_style",
+      "prompts": [
+        "warm, humanist, not playful, not handwritten font"
+      ],
+      "weights": [
+        1
+      ],
+      "top4": [
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "score": 14.1483,
+          "category": "unknown"
+        },
+        {
+          "id": "7a3e29ecad072246c9cb9325b9ef9726b361c9a0977478c16229311c75f60824:0",
+          "family": "Suisse Works",
+          "style": "Regular",
+          "score": 13.1793,
+          "category": "serif"
+        },
+        {
+          "id": "4b6c3fc80713d8b1d765a2bdde905d465a5eb1e66d56a36d123b136ec3537ccd:0",
+          "family": "Libre Caslon Condensed",
+          "style": "Regular",
+          "score": 13.1496,
+          "category": "serif"
+        },
+        {
+          "id": "f4e8711c0e525a1d5ea84332cb076bd41fbfb6b7a3ad9336904689fb436a9508:0",
+          "family": "New York Medium",
+          "style": "Regular",
+          "score": 13.1062,
+          "category": "serif"
+        }
+      ]
+    },
+    {
+      "query": "warm humanist, not playful or handwritten",
+      "variant": "attribute_ensemble",
+      "prompts": [
+        "warm font",
+        "humanist font",
+        "playful font",
+        "handwritten font"
+      ],
+      "weights": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "top4": [
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "score": 14.882,
+          "category": "unknown"
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "score": 14.6153,
+          "category": "unknown"
+        },
+        {
+          "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+          "family": "PP Pangram Sans",
+          "style": "Compact Extrabold",
+          "score": 12.8039,
+          "category": "unknown"
+        },
+        {
+          "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+          "family": "Wyvern Hvy",
+          "style": "Regular",
+          "score": 12.5006,
+          "category": "sans"
+        }
+      ]
+    },
+    {
+      "query": "warm humanist, not playful or handwritten",
+      "variant": "photo_sentence",
+      "prompts": [
+        "a photo of text in a warm, humanist font",
+        "playful font",
+        "handwritten font"
+      ],
+      "weights": [
+        1,
+        -1,
+        -1
+      ],
+      "top4": [
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "score": 16.7896,
+          "category": "unknown"
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "score": 16.4507,
+          "category": "unknown"
+        },
+        {
+          "id": "4f73159be231ba781423243aa95edf4dc38115921d572e5386cae5c823447798:0",
+          "family": "Noto Serif",
+          "style": "Condensed",
+          "score": 13.2984,
+          "category": "serif"
+        },
+        {
+          "id": "a7fe3624c4d25a8b817f8aedbbdd5f20e4859040433a4c7643bfac6df4dbb68c:0",
+          "family": "Domaine Display Narrow",
+          "style": "Not Licensed for Desktop Use",
+          "score": 13.0361,
+          "category": "serif"
+        }
+      ]
+    },
+    {
+      "query": "angular futuristic technical",
+      "variant": "current",
+      "prompts": [
+        "angular futuristic technical font"
+      ],
+      "weights": [
+        1
+      ],
+      "top4": [
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "score": 15.823,
+          "category": "unknown"
+        },
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "score": 15.6232,
+          "category": "unknown"
+        },
+        {
+          "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+          "family": "Taskforce Outline CondItalic",
+          "style": "Outline CondItalic",
+          "score": 15.499,
+          "category": "unknown"
+        },
+        {
+          "id": "9286f109c46ced8a32f82d04550bfb6f4a5f968ba02e974f3b9ce0d6541d8806:0",
+          "family": "Taskforce Outline",
+          "style": "Outline",
+          "score": 14.9063,
+          "category": "unknown"
+        }
+      ]
+    },
+    {
+      "query": "angular futuristic technical",
+      "variant": "comma_training_style",
+      "prompts": [
+        "angular, futuristic, technical font"
+      ],
+      "weights": [
+        1
+      ],
+      "top4": [
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "score": 15.7103,
+          "category": "unknown"
+        },
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "score": 14.6361,
+          "category": "unknown"
+        },
+        {
+          "id": "81e478888d31ad75fc62e1f68b6cb136a90a430eb6322682e3cea53a6a12803e:0",
+          "family": "Kubrick Shadow",
+          "style": "Regular",
+          "score": 14.2264,
+          "category": "unknown"
+        },
+        {
+          "id": "f4118ae796e401dffcc3d0a11bda0314ea2bdd9f400040411d71ff8ca35e44f2:0",
+          "family": "Kubrick Pro",
+          "style": "Regular",
+          "score": 14.21,
+          "category": "unknown"
+        }
+      ]
+    },
+    {
+      "query": "angular futuristic technical",
+      "variant": "attribute_ensemble",
+      "prompts": [
+        "angular font",
+        "futuristic font",
+        "technical font"
+      ],
+      "weights": [
+        1,
+        1,
+        1
+      ],
+      "top4": [
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "score": 15.3585,
+          "category": "unknown"
+        },
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "score": 14.6315,
+          "category": "unknown"
+        },
+        {
+          "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+          "family": "Taskforce Outline CondItalic",
+          "style": "Outline CondItalic",
+          "score": 14.1229,
+          "category": "unknown"
+        },
+        {
+          "id": "6b2feb92704e65ec1e354dea6ddd3fb54b9900d5842e75948412be53b1a443f4:0",
+          "family": "SF RetroSplice SC Outline",
+          "style": "Regular",
+          "score": 13.7978,
+          "category": "unknown"
+        }
+      ]
+    },
+    {
+      "query": "angular futuristic technical",
+      "variant": "photo_sentence",
+      "prompts": [
+        "a photo of text in a angular, futuristic, technical font"
+      ],
+      "weights": [
+        1
+      ],
+      "top4": [
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "score": 13.0623,
+          "category": "unknown"
+        },
+        {
+          "id": "02fb801c8a8cd2c52b7c869fce99d6d112650db04b5c70e27bd289628648bdd9:0",
+          "family": "Interceptor Rotalic",
+          "style": "Rotalic",
+          "score": 11.8514,
+          "category": "unknown"
+        },
+        {
+          "id": "f4118ae796e401dffcc3d0a11bda0314ea2bdd9f400040411d71ff8ca35e44f2:0",
+          "family": "Kubrick Pro",
+          "style": "Regular",
+          "score": 11.7002,
+          "category": "unknown"
+        },
+        {
+          "id": "1f4e820d694e11f1995c5671009054ebdb05ad4389f2249f0acb51b425029540:0",
+          "family": "AlphaRev Hollow",
+          "style": "Regular",
+          "score": 11.6503,
+          "category": "display"
+        }
+      ]
+    },
+    {
+      "query": "elegant high contrast serif",
+      "variant": "current",
+      "prompts": [
+        "serif elegant high contrast font"
+      ],
+      "weights": [
+        1
+      ],
+      "top4": [
+        {
+          "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+          "family": "Fatty Snax NF",
+          "style": "Regular",
+          "score": 16.4956,
+          "category": "serif"
+        },
+        {
+          "id": "0b57f06624ebb46aafd9185990b195574fc5c285d6d249e768f24b58d8bd1419:0",
+          "family": "Extra virgin",
+          "style": "Regular",
+          "score": 15.2776,
+          "category": "unknown"
+        },
+        {
+          "id": "dd4109b1c77dd10c6dbc45b3da9ba922b67a6eff86d63d94d5f0fd150a1c0a4f:0",
+          "family": "Mondo Redondo NF",
+          "style": "Regular",
+          "score": 14.7656,
+          "category": "serif"
+        },
+        {
+          "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+          "family": "Offshore Banking Business",
+          "style": "Regular",
+          "score": 14.3788,
+          "category": "unknown"
+        }
+      ]
+    },
+    {
+      "query": "elegant high contrast serif",
+      "variant": "comma_training_style",
+      "prompts": [
+        "serif, elegant, high contrast font"
+      ],
+      "weights": [
+        1
+      ],
+      "top4": [
+        {
+          "id": "33ed01b2b4ad90da4594585d94968121555643f2bb564423c861d94bd6550c99:0",
+          "family": "Rutin Tutin NF",
+          "style": "Regular",
+          "score": 14.6827,
+          "category": "serif"
+        },
+        {
+          "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+          "family": "Fatty Snax NF",
+          "style": "Regular",
+          "score": 14.3019,
+          "category": "serif"
+        },
+        {
+          "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+          "family": "Offshore Banking Business",
+          "style": "Regular",
+          "score": 13.8934,
+          "category": "unknown"
+        },
+        {
+          "id": "42c2427eb7dd5470347115ed78489b26e72005e4eb1ea1ef49348cca17a5c237:0",
+          "family": "Pamelor I",
+          "style": "Regular",
+          "score": 13.8234,
+          "category": "serif"
+        }
+      ]
+    },
+    {
+      "query": "elegant high contrast serif",
+      "variant": "attribute_ensemble",
+      "prompts": [
+        "serif font",
+        "elegant font",
+        "high contrast font"
+      ],
+      "weights": [
+        1,
+        1,
+        1
+      ],
+      "top4": [
+        {
+          "id": "c0e00cebd3d674406d2e64c20417b69c45eb63812bbaf441e399ac3046a75b92:0",
+          "family": "Charbroiled",
+          "style": "Regular",
+          "score": 13.4549,
+          "category": "display"
+        },
+        {
+          "id": "843447bf947e4d0a9ab1f34617c36c05375e87a5cb1a5636d568a9e9a3aff0a7:0",
+          "family": "Old Copperfield",
+          "style": "Regular",
+          "score": 13.4473,
+          "category": "sans"
+        },
+        {
+          "id": "a9422f382c952a0121e7150b43552f88bbea1d9c438f1abaff9fc863527c3203:0",
+          "family": "Tanglewood Tales NF",
+          "style": "Regular",
+          "score": 13.4299,
+          "category": "serif"
+        },
+        {
+          "id": "bbaf05d05f17decd6d492e987104673537ab31837a83f117ce04a71957858b27:0",
+          "family": "BodoniTriangles",
+          "style": "Regular",
+          "score": 13.2789,
+          "category": "unknown"
+        }
+      ]
+    },
+    {
+      "query": "elegant high contrast serif",
+      "variant": "photo_sentence",
+      "prompts": [
+        "a photo of text in a serif, elegant, high contrast font"
+      ],
+      "weights": [
+        1
+      ],
+      "top4": [
+        {
+          "id": "33ed01b2b4ad90da4594585d94968121555643f2bb564423c861d94bd6550c99:0",
+          "family": "Rutin Tutin NF",
+          "style": "Regular",
+          "score": 16.2614,
+          "category": "serif"
+        },
+        {
+          "id": "b5cec3d1f5d17c732909d0cc91b2c2b03bf7c3831a63e57510851d75e8f22ac1:0",
+          "family": "Tobacco Road NF",
+          "style": "Regular",
+          "score": 15.2751,
+          "category": "serif"
+        },
+        {
+          "id": "3f33e509661c1d2df297e87ca2985a288f7fef47d745274b90611730ce5d80b8:0",
+          "family": "Two For Juan NF",
+          "style": "Regular",
+          "score": 14.0491,
+          "category": "serif"
+        },
+        {
+          "id": "403dc5595a8cdbe4b47e71c3c8109eed7ef55d13da9df120011c0ba34aed920d:0",
+          "family": "Ding Dong Daddyo NF",
+          "style": "Regular",
+          "score": 13.8154,
+          "category": "serif"
+        }
+      ]
+    }
+  ]
+}

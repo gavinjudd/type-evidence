@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "purpose": "Verify copied/normalized historical evidence. Source names are workspace-relative labels, not requirements for replay.",
+  "files": [
+    {
+      "source_name": "outputs/type-evidence/evidence/v0.2/query-smoke.json",
+      "published_name": "initial-smoke.json",
+      "source_sha256": "d5abfb2a2d571531f4e719bf46918a8a1becd96fba13474b82329c9d102066b5",
+      "published_sha256": "d5abfb2a2d571531f4e719bf46918a8a1becd96fba13474b82329c9d102066b5",
+      "bytes": 19804,
+      "transformation": "none; byte-identical copy"
+    },
+    {
+      "source_name": "work/fontclip-recovery/prompt-probes.json",
+      "published_name": "prompt-probes.json",
+      "source_sha256": "7fa881cbe2e89f5c7ef94837c3040180bfffe3c6cf71bf77fd296aec14dfedaf",
+      "published_sha256": "7fa881cbe2e89f5c7ef94837c3040180bfffe3c6cf71bf77fd296aec14dfedaf",
+      "bytes": 15816,
+      "transformation": "none; byte-identical copy"
+    },
+    {
+      "source_name": "work/fontclip-recovery/image-probes.json",
+      "published_name": "image-probes.json",
+      "source_sha256": "f570fd4f44c73aa6156e2edb8cdb4081663e3b3fbbc639102ebdeb2fcc93a51c",
+      "published_sha256": "10b07ba06563c4a536d586f5b268ec5284a556735f29941932e2fcc587089db3",
+      "bytes": 67481,
+      "transformation": "Corrected scope text to the actual 18 recorded faces: 12 original candidates plus six eligible contrast representatives, selected from nine requested family names. All IDs, numeric scores and rankings are unchanged."
+    },
+    {
+      "source_name": "work/fontclip-recovery/api-recovery.json",
+      "published_name": "api-recovery.json",
+      "source_sha256": "eb387df9a922de891560d75e9f7a58306699a3c73f84769c94e5a68b858d0194",
+      "published_sha256": "eb387df9a922de891560d75e9f7a58306699a3c73f84769c94e5a68b858d0194",
+      "bytes": 13518,
+      "transformation": "none; byte-identical copy"
+    },
+    {
+      "source_name": "work/fontclip-recovery/angular-reference/comparison.png",
+      "published_name": "angular-reference.png",
+      "source_sha256": "d61e8f40ab806a0181b7c9d046094934bc8c5270b2e77f06f9c59bed19751e3b",
+      "published_sha256": "d61e8f40ab806a0181b7c9d046094934bc8c5270b2e77f06f9c59bed19751e3b",
+      "bytes": 128708,
+      "transformation": "none; byte-identical copy"
+    },
+    {
+      "source_name": "work/fontclip-recovery/elegant-reference/comparison.png",
+      "published_name": "elegant-reference.png",
+      "source_sha256": "33e3dbaaaa9ba71277cbaf614dcebc7f137adfabbd737f5c6cece86c36c7e35f",
+      "published_sha256": "33e3dbaaaa9ba71277cbaf614dcebc7f137adfabbd737f5c6cece86c36c7e35f",
+      "bytes": 157335,
+      "transformation": "none; byte-identical copy"
+    },
+    {
+      "source_name": "work/fontclip-recovery/findings.json",
+      "published_name": "summary.json",
+      "source_sha256": "b265664d9619dcb5ced6ec9cc18228055ea2633a4779467a1315defc706c9b31",
+      "published_sha256": "a9ef1b08bcf3b58da1964717f910a49bbb1ef62ebe7fb5eb0cf44db144e25b1f",
+      "bytes": 3997,
+      "transformation": "Reworded scope and limits for historical publication, removed internal coordination wording, mapped published artifact names, added direct visual-review observations. No machine-specific paths retained."
+    }
+  ]
+}

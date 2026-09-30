@@ -1,0 +1,44 @@
+{
+  "scope": "Executed portable reproduction script against the local frozen inputs. All 24 ranked IDs match the six historical cases. Later source or catalog changes can change rankings. This verifies replay, not design quality.",
+  "script_sha256": "4de773606d3a08b13839912b20d1fc1fd4c0c08d40a2b306432a5be2865d7991",
+  "cases_sha256": "eb387df9a922de891560d75e9f7a58306699a3c73f84769c94e5a68b858d0194",
+  "model_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+  "checks": [
+    {
+      "case": "angular",
+      "variant": "negative",
+      "ranked_ids_match": true,
+      "candidate_count": 4
+    },
+    {
+      "case": "angular",
+      "variant": "avoid_bad_top",
+      "ranked_ids_match": true,
+      "candidate_count": 4
+    },
+    {
+      "case": "angular",
+      "variant": "reference",
+      "ranked_ids_match": true,
+      "candidate_count": 4
+    },
+    {
+      "case": "elegant",
+      "variant": "negative",
+      "ranked_ids_match": true,
+      "candidate_count": 4
+    },
+    {
+      "case": "elegant",
+      "variant": "avoid_bad_top",
+      "ranked_ids_match": true,
+      "candidate_count": 4
+    },
+    {
+      "case": "elegant",
+      "variant": "reference",
+      "ranked_ids_match": true,
+      "candidate_count": 4
+    }
+  ]
+}

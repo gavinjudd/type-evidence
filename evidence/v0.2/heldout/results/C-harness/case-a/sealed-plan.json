@@ -1,0 +1,40 @@
+{
+  "baseline_decision": "Compare original Roboto and A/B Source with two semantic candidates.",
+  "options": [
+    {
+      "family": "Noto Sans SC",
+      "styles": [
+        "wght400",
+        "wght700"
+      ],
+      "settings": "baseline sizes, title leading1.2, explicit wght per role",
+      "expected_fit": "Top initial result has broad-language coverage and tabular defaults; inspect actual requested weights despite model embedding thin default.",
+      "uncertainty": "Three initial Noto regional families appear identical in returned Latin metrics/score; rank diversity is limited; names do not certify visual difference.",
+      "previously_familiar": true
+    },
+    {
+      "family": "Wyvern",
+      "styles": [
+        "Regular400",
+        "Bold700"
+      ],
+      "settings": "baseline sizes, title leading1.2",
+      "expected_fit": "Unfamiliar result from second page; higher lowercase proportions and short advance widths may suit bilingual compactness.",
+      "uncertainty": "Actual unfamiliar forms may not be calm despite semantic association.",
+      "previously_familiar": false
+    },
+    {
+      "family": "Source Sans Pro",
+      "styles": [
+        "Regular400",
+        "Bold700"
+      ],
+      "settings": "A/B body22 caption18 title leading1.2",
+      "expected_fit": "Established calm control from prior conditions.",
+      "uncertainty": "Familiarity and earlier size tuning are carryover.",
+      "previously_familiar": true
+    }
+  ],
+  "query_refinement": "Used exact same brief and pagination next_offset3 to explore past first group; required regular and bold resolved automatically.",
+  "sealed_at_utc": "2026-09-30T16:48:39.190300+00:00"
+}

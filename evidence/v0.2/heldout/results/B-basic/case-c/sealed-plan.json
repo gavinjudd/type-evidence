@@ -1,0 +1,39 @@
+{
+  "baseline_decision": "Compare original Roboto and A-selected Source Sans with two unfamiliar catalog candidates; selection must improve actual instruction reading.",
+  "query_method": "Alphabetical sans metadata pages from A, positions 0 and 12; require audit text cmap coverage; exact selected family style lookups.",
+  "options": [
+    {
+      "family": "ABC Social Variable",
+      "styles": [
+        "wght 400/700, ital 0"
+      ],
+      "settings": "body18 caption15 other baseline; audit appended outside production content",
+      "expected_fit": "Variable regular/bold range gives coherent emphasis; actual sans metadata and Turkish coverage make it feasible.",
+      "uncertainty": "Unknown forms could feel too severe; no model descriptors viewed.",
+      "previously_familiar": false
+    },
+    {
+      "family": "Clother",
+      "styles": [
+        "Regular400",
+        "Bold700"
+      ],
+      "settings": "body18 caption15 other baseline; audit appended",
+      "expected_fit": "Coherent static regular/bold styles and Turkish cmap coverage; worth checking for humane compact forms.",
+      "uncertainty": "Unfamiliar shape; name is not evidence of fit.",
+      "previously_familiar": false
+    },
+    {
+      "family": "Source Sans Pro",
+      "styles": [
+        "Regular400",
+        "Bold700"
+      ],
+      "settings": "body18 caption15 other baseline; audit appended",
+      "expected_fit": "Carryover control from A with differentiated I/l forms.",
+      "uncertainty": "Prior exposure gives this option an advantage.",
+      "previously_familiar": true
+    }
+  ],
+  "sealed_at_utc": "2026-09-30T16:23:17.111319+00:00"
+}

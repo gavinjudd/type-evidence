@@ -1,0 +1,31 @@
+{
+  "baseline_decision": "Functional coherent Roboto control; retain unless candidate makes bilingual text and timetable calmer or clearer.",
+  "options": [
+    {
+      "family": "Source Sans Pro",
+      "styles": [
+        "Regular 400",
+        "Bold 700"
+      ],
+      "roles": "all",
+      "settings": "baseline sizes except title line_height 1.2",
+      "expected_fit": "Open humanist forms may feel more welcoming and maintain clear compact timetable digits.",
+      "uncertainty": "Availability, exact French coverage and any real advantage over Roboto."
+    },
+    {
+      "family": "Noto Sans",
+      "styles": [
+        "Regular 400",
+        "Bold 700"
+      ],
+      "roles": "all",
+      "settings": "baseline sizes; title 1.2 leading",
+      "expected_fit": "Even language support and practical letterforms.",
+      "uncertainty": "Could be merely different with no practical improvement."
+    }
+  ],
+  "origin": "Prior general font knowledge + supplied baseline only; no catalog browsing or semantic outputs read",
+  "max_families_per_option": 2,
+  "baseline_inspected_at_project_size": true,
+  "sealed_at_utc": "2026-09-30T16:16:44.489914+00:00"
+}

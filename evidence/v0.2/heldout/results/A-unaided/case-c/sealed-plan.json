@@ -1,0 +1,31 @@
+{
+  "baseline_decision": "Existing Roboto is readable and compact; retain unless another family meaningfully improves character distinction or warmth.",
+  "options": [
+    {
+      "family": "Atkinson Hyperlegible",
+      "styles": [
+        "Regular 400",
+        "Bold 700"
+      ],
+      "roles": "all",
+      "settings": "body 18 px / 1.5; other roles baseline",
+      "expected_fit": "Distinctive I/l/1 forms and open shapes may support novice readers on phones.",
+      "uncertainty": "Exact Turkish coverage, title width and degree of visual improvement."
+    },
+    {
+      "family": "Source Sans Pro",
+      "styles": [
+        "Regular 400",
+        "Bold 700"
+      ],
+      "roles": "all",
+      "settings": "body 18 px / 1.5; other roles baseline",
+      "expected_fit": "Humanist clarity with less mechanical tone.",
+      "uncertainty": "May offer weak benefit versus Roboto; Turkish case distinctions need inspection."
+    }
+  ],
+  "origin": "Prior general font knowledge + supplied baseline only; no catalog browsing or semantic outputs read",
+  "max_families_per_option": 2,
+  "baseline_inspected_at_project_size": true,
+  "sealed_at_utc": "2026-09-30T16:16:44.490784+00:00"
+}

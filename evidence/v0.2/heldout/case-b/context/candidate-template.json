@@ -1,0 +1,105 @@
+{
+  "template": "poster",
+  "title": "OFFCUT print exchange",
+  "medium": "print-preview",
+  "width": 1000,
+  "padding": 64,
+  "gap": 28,
+  "min_height": 1260,
+  "background": "#ef9d59",
+  "roles": {
+    "eyebrow": {
+      "font_id": "CHOOSE_EXACT_EYEBROW_ID",
+      "size": 22,
+      "weight": 700,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#262521",
+      "language": "en"
+    },
+    "title": {
+      "font_id": "CHOOSE_EXACT_TITLE_ID",
+      "size": 138,
+      "weight": 700,
+      "italic": false,
+      "line_height": 1.0,
+      "color": "#262521",
+      "language": "en"
+    },
+    "dek": {
+      "font_id": "CHOOSE_EXACT_DEK_ID",
+      "size": 37,
+      "weight": 400,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#262521",
+      "language": "en"
+    },
+    "body": {
+      "font_id": "CHOOSE_EXACT_BODY_ID",
+      "size": 31,
+      "weight": 400,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#262521",
+      "language": "pl"
+    },
+    "heading": {
+      "font_id": "CHOOSE_EXACT_HEADING_ID",
+      "size": 32,
+      "weight": 700,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#262521",
+      "language": "pl"
+    },
+    "caption": {
+      "font_id": "CHOOSE_EXACT_CAPTION_ID",
+      "size": 24,
+      "weight": 400,
+      "italic": false,
+      "line_height": 1.4,
+      "color": "#262521",
+      "language": "pl"
+    }
+  },
+  "blocks": [
+    {
+      "role": "eyebrow",
+      "text": "COMMON PRESS / OTWARTA PRACOWNIA"
+    },
+    {
+      "role": "title",
+      "text": "OFFCUT"
+    },
+    {
+      "role": "dek",
+      "text": "A print in.\nA print out."
+    },
+    {
+      "type": "spacer",
+      "height": 42
+    },
+    {
+      "type": "rule",
+      "color": "#262521",
+      "thickness": 2
+    },
+    {
+      "role": "heading",
+      "text": "Sobota, 17 października / 18:00–22:00"
+    },
+    {
+      "role": "body",
+      "text": "Druk, papier i ludzie.\nPrzynieś jeden wydruk, wybierz następny."
+    },
+    {
+      "role": "body",
+      "text": "Pracownia przy Rynku 8\nŁódź"
+    },
+    {
+      "role": "caption",
+      "text": "Każdy poziom doświadczenia jest mile widziany.\nWstęp wolny. Papier i tusz na miejscu."
+    }
+  ]
+}

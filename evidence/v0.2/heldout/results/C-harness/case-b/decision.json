@@ -1,0 +1,26 @@
+{
+  "final": "cooper-stencil",
+  "baseline_retained": false,
+  "decision": "Retain B Cooper-Black-Stencil at160 with Roboto support. C found usable initial and refined title faces but neither matched the studio tone as closely. C ties B; both are subjectively preferred over the unaided Roboto title fallback.",
+  "revision_reason": "No additional revision after inspection; preserve successful B settings and supporting hierarchy.",
+  "counterargument": "SF Pixelate could imply screenprinting or modular stamps to another viewer, and New York is less literal than stencil. The preference is contextual self-assessment, not an objective quality result.",
+  "scores": [
+    5,
+    5,
+    5,
+    4
+  ],
+  "score_observations": [
+    "Memorable rounded stencil word suits community print exchange.",
+    "Tactile playful mass without distressed military effect.",
+    "Title dominates at both scales; date/place remain easily locatable.",
+    "Plain support balances the expressive title without competing."
+  ],
+  "carryover_candidates": [
+    "Cooper-Black-Stencil first discovered and selected in B; exact same title face and160px size retained.",
+    "Roboto supporting faces from supplied baseline."
+  ],
+  "carryover_layout": [
+    "B one-line title160 and unchanged information layout retained."
+  ]
+}

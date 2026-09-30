@@ -1,0 +1,27 @@
+{
+  "final": "source-sans",
+  "baseline_retained": false,
+  "decision": "Retain A/B Source Sans Pro. First-pass C adds no improvement: Noto Sans SC has distracting full-width-like curly apostrophe spacing in French despite passing exact coverage; Wyvern appears too condensed for the requested open treatment.",
+  "revision_reason": "No further revision: retain established Source sizes after rejecting unsuitable rendered alternatives.",
+  "counterargument": "Noto Sans SC has robust clear digits and could potentially be fixed with other OpenType width features; that was not investigated within this comparison. Source benefits from prior size tuning.",
+  "scores": [
+    4,
+    4,
+    5,
+    5
+  ],
+  "score_observations": [
+    "Bilingual notice and time columns remain easy to scan.",
+    "Source remains practical and welcoming.",
+    "Dates and times clearly stand apart.",
+    "Single-family coherence with natural French punctuation spacing."
+  ],
+  "carryover_candidates": [
+    "Source Sans Pro selected in A and B.",
+    "Lander Tall seen/rendered in earlier C case-c; not rendered here.",
+    "Century Gothic seen in B case-c browse; returned C page2 but not rendered."
+  ],
+  "carryover_layout": [
+    "Body22/caption18 and title leading1.2 reused from A."
+  ]
+}

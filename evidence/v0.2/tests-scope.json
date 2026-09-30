@@ -1,16 +1,47 @@
 {
   "version": "0.2.0",
   "full_suite": {
-    "result": "242 passed",
-    "elapsed_seconds": 4.95,
+    "result": "270 passed",
+    "elapsed_seconds": 3.37,
     "environment": "macOS, Python 3.12.13, optional visual dependencies installed; synthetic unit/regression fonts"
   },
   "core_only": {
-    "result": "232 passed, 10 skipped",
-    "elapsed_seconds": 2.95,
+    "result": "260 passed, 10 skipped",
+    "elapsed_seconds": 2.41,
     "scope": "Final suite in a separate clean environment installed offline from local package cache with core/test dependencies only. Ten optional visual-model tests skip because torch is absent."
   },
   "normalization": "Machine hostname removed from JUnit; local repository paths replaced with REPOSITORY. Original records retained locally.",
   "native_windows": "Not run",
-  "design_quality": "Passing tests do not establish aesthetic improvement."
+  "design_quality": "Passing tests do not establish aesthetic improvement.",
+  "source_hashes": {
+    "type_evidence/__init__.py": "4279d8dc9d8a9123db402e0fe8ddbd53de90df70c5da584acff33205beee4597",
+    "type_evidence/__main__.py": "bd045ddd5242d002f692dac452be9afba38deef5cde541a5fc074bfef5987b91",
+    "type_evidence/catalog.py": "b8ac317cb3678eec82b2907aeaed9d1330f5d56cf00bdee3bfa520fe7661d944",
+    "type_evidence/cli.py": "bbbb35d96543ed8f6696762e80763e6fda8f592832e6474c70a0a7433d10cd0b",
+    "type_evidence/composition.py": "443f7a2ccd6869f52c2aed4dcb278f0b86608b1d74e6ca424e3cf0b0ccb69e2a",
+    "type_evidence/discovery.py": "cce976d8f9cc4b5ac01702a464295528d00a3ed8f59c5ea396d3a7f11577105a",
+    "type_evidence/mcp.py": "50863b1efcd20b5764c29f5628a065c162052afba38e0d15ed8792edf19fb80f",
+    "type_evidence/operations.py": "f37ef2ae9bfadbf12c03060fb062e3c8a27ff7b5a5c803f0fc8a204e21c2f369",
+    "type_evidence/render.py": "30f548b6e15b724c9307c492cb08787ca01d2448544b209d5a388a1acb9a8b71",
+    "type_evidence/sources.py": "d0d563b5592d1d61463ea2d8e6d7dfe4d43b247d2f9be5e91a927378679d8ffa",
+    "type_evidence/visual.py": "ba887f416cef3d7009994aad5e74ead1039537df3fa98e55c6343ca89b2d6428",
+    "tests/test_catalog.py": "9c40c962ab4f58b59803eda39daa85593cc3d298392506bdb8cb2c8c5e3261c3",
+    "tests/test_cli_mcp.py": "bbd307149557fd7c2f5dd0eef58868831a65a040f5bcee68a78a40af49a604f8",
+    "tests/test_composition.py": "8caa0cace5d8082d2102b870c6d8f6e1b3ec47156ccb2e3eca56a27486b45ae3",
+    "tests/test_discovery.py": "7d5afb77bf989489559341cc0f6d9d8b892f9cdd783470495f57fc6026f98f76",
+    "tests/test_discovery_v2.py": "0c30ad20a727dc41d04e1bf0c92ab865938d7e07c6989d89243d7b9da4805f0f",
+    "tests/test_family_requirements.py": "d69e5922b9388095dfb990342f2a94e959882d0efd9dccce2c4e57cfbb489b0d",
+    "tests/test_mcp_v2.py": "a84d45e5f4013a514e39ccf426bd8dba3728f4ed07782af0097ddf1c4673a2a0",
+    "tests/test_observed_corpus_regressions.py": "fd68a18266048f389b44a6409f4a8fea95649b4e8af28704a63b850fb9f33c50",
+    "tests/test_render.py": "dc3f7b24a7a277f571281e759db751593d624d51e084fa3180876dcf6620bf35",
+    "tests/test_review_bundle.py": "3d23e5a067a6859aedba70d3356353bef680766d4fa90b27fe4cb9a651cc8180",
+    "tests/test_review_regressions.py": "c2b8c1e4ec9a703644b8224ddcfd780206eedf26f738cbf67fda2ba4d227a919",
+    "tests/test_source_expansion.py": "7c176108b46547ffa861362f08c747267cba9e707596d8b74f9a301ff723f1eb",
+    "tests/test_sources.py": "b0445e04f09d7763209b6434e5cde2ae9a64b66d5feed567addeefd974f800af",
+    "tests/test_visual.py": "892d7f806aed709864aea225ed31c581290c61ba751a260e7319399ae73d6372",
+    "tests/test_visual_integration_review.py": "5d0b079e14e545820f75691dc1810bb2c393d080a9a618b77db436f9b21e708d",
+    "scripts/review_bundle.py": "99bbdef76bcd221e1a2907bce0b00e3b4d1a270d0de59ed0c91e4b11b0cafc85",
+    "scripts/verify_fontclip_parity.py": "cbcceb2079227df03f2c1b7823de54f804c156c869d31f38a6f8bdc4645ebf57",
+    "scripts/verify_library.py": "2ed8a4607e2d2bd7a66f8e042b7757fc3e1f5eaad1de5b83b69ee3e04e8673a8"
+  }
 }

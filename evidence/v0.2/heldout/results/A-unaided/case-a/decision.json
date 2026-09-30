@@ -1,0 +1,19 @@
+{
+  "final": "final",
+  "baseline_retained": false,
+  "decision": "Slight subjective preference for Source Sans Pro after increasing body and captions. Calm compact title and open body suit a practical service notice; material reading improvement is not established.",
+  "revision_reason": "Increase body 20 to 22 and caption 16 to 18 to compensate smaller apparent size; keep title leading 1.2.",
+  "counterargument": "Roboto already solves the information task; change adds no demonstrated reading-speed benefit and baseline times are somewhat heavier.",
+  "scores": [
+    4,
+    4,
+    5,
+    5
+  ],
+  "score_observations": [
+    "Bilingual explanations are similarly prominent and timetable labels are easy to scan.",
+    "Open humanist forms feel welcoming without emergency urgency.",
+    "Dates and times remain prominent and columns clearly separate.",
+    "One family gives consistent forms across all roles."
+  ]
+}

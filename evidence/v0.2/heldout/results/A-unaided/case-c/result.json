@@ -1,0 +1,782 @@
+{
+  "schema_version": 1,
+  "case_id": "case-c",
+  "condition": "A-unaided",
+  "evaluator": {
+    "model": "inherited GPT-6 agent; exact picker identity unavailable",
+    "effort": "inherited",
+    "environment": "same local project .venv, same agent across conditions"
+  },
+  "inputs": {
+    "brief_sha256": "c3036ad4f8d949a629ea73459361c313027d1b55b7387bacae8cd986ee833537",
+    "catalog_sha256": "5fe03fd4779bc83016766254cfbaa9743cbc5df0d20f275aea5f4c7f53245740",
+    "source_commits": {
+      "bekah": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+      "extsalt": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+      "google-curated-2026": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+      "arrowtype-recursive-1.085": "6d491202cea5cf6a493ef710cbef2527b9b08939"
+    },
+    "visual_index_identity": null
+  },
+  "budget": {
+    "active_minutes_limit": 8,
+    "information_operations_limit": 6,
+    "records_per_operation_limit": 12,
+    "option_render_limit_including_baseline": 4,
+    "final_revision_limit": 1,
+    "start_utc": "2026-09-30T16:16:44.490674+00:00",
+    "end_utc": "2026-09-30T16:20:54.230542+00:00",
+    "active_seconds": 121.458,
+    "actual_information_operations": 2,
+    "actual_records_seen": 4,
+    "actual_option_renders": 4,
+    "actual_final_revisions": 1,
+    "exceptions": [],
+    "paused_seconds": 128.282,
+    "timing_scope": "Shared brief/baseline familiarization and helper setup outside timed stages; all case-specific lookup, inspection, reasoning and refinement between logged active start/resume and stop."
+  },
+  "sealed_plan": {
+    "path": "sealed-plan.json",
+    "sha256": "16d3d736e3fd2fc9084c0e05df7a4d484ae006b7b57373ee0ec1dc8cf66fd2d6",
+    "sealed_at_utc": "2026-09-30T16:16:44.490784+00:00",
+    "before_candidate_image_inspection": true
+  },
+  "families_seen": [
+    "Atkinson Hyperlegible",
+    "Roboto",
+    "Source Sans Pro"
+  ],
+  "candidates_explored": [
+    {
+      "family": [
+        "Atkinson Hyperlegible"
+      ],
+      "exact_ids": [
+        "5a3b0c8cc8ca545155150b4512a1fa248298df121c50d6557e651e61fbdab92f:0",
+        "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0"
+      ],
+      "first_seen_in_condition": "A-unaided",
+      "previously_familiar_self_report": true,
+      "rendered_composition": null,
+      "inspected_at_project_size": false,
+      "observations": [],
+      "rejection_reason": "Font 5a3b0c8cc8ca545155150b4512a1fa248298df121c50d6557e651e61fbdab92f:0 lacks required characters: U+0130. No fallback was used."
+    },
+    {
+      "family": [
+        "Source Sans Pro"
+      ],
+      "exact_ids": [
+        "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+        "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0"
+      ],
+      "first_seen_in_condition": "A-unaided",
+      "previously_familiar_self_report": true,
+      "rendered_composition": "source-sans/composition.png",
+      "inspected_at_project_size": true,
+      "observations": [
+        "Source Sans Pro shows a foot on lowercase l and bars on capital I in the audit; dotted İ and dotless ı remain visibly different. Roboto I/l are less distinguishable. Source body at 18 px remains compact; caption appears small."
+      ],
+      "rejection_reason": null
+    },
+    {
+      "family": [
+        "Roboto"
+      ],
+      "exact_ids": [
+        "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0"
+      ],
+      "first_seen_in_condition": "A-unaided",
+      "previously_familiar_self_report": true,
+      "rendered_composition": "baseline-audit/composition.png",
+      "inspected_at_project_size": true,
+      "observations": [
+        "Source Sans Pro shows a foot on lowercase l and bars on capital I in the audit; dotted İ and dotless ı remain visibly different. Roboto I/l are less distinguishable. Source body at 18 px remains compact; caption appears small."
+      ],
+      "rejection_reason": null
+    },
+    {
+      "family": [
+        "Source Sans Pro"
+      ],
+      "exact_ids": [
+        "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+        "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0"
+      ],
+      "first_seen_in_condition": "A-unaided",
+      "previously_familiar_self_report": true,
+      "rendered_composition": "final/composition.png",
+      "inspected_at_project_size": true,
+      "observations": [
+        "Final caption 15 px improves tip/support legibility. Turkish accents are intact; heading and button each occupy one line. No clipping or overlap observed; 578 px screen height."
+      ],
+      "rejection_reason": null
+    }
+  ],
+  "discovery_failures": [],
+  "asset_failures": [
+    {
+      "timestamp": "2026-09-30T16:19:39.072733+00:00",
+      "operation": "asset-failure",
+      "family": "Atkinson Hyperlegible",
+      "error": "Exact bold face lacks U+0130; compositor stopped with no fallback."
+    }
+  ],
+  "operational_failures": [
+    {
+      "timestamp": "2026-09-30T16:19:39.072783+00:00",
+      "operation": "operational-failure",
+      "error": "view_image attempted absent atkinson PNG after renderer rejection; no image was inspected; continued only with existing options."
+    }
+  ],
+  "final": {
+    "baseline_retained": false,
+    "chosen_roles": {
+      "eyebrow": {
+        "id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+        "family": "Source Sans Pro",
+        "style": "Bold",
+        "sha256": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb",
+        "face_index": 0,
+        "size_px": 14,
+        "line_height_px": 19.599999999999998,
+        "color": "#244542",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "tr",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            47,
+            50,
+            53,
+            65,
+            66,
+            68,
+            73,
+            75,
+            76,
+            77,
+            85,
+            220,
+            304,
+            350
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+            },
+            {
+              "kind": "embedded-name-8",
+              "text": "Adobe Systems Incorporated"
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Paul D. Hunt"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "http://www.adobe.com/type"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://scripts.sil.org/OFL"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Paul D. Hunt/Source/Sans Pro/OFL.txt",
+              "sha256": "8ce06420e0277f1b28f514473263688414965ffdc13c3de4f1f0547a6d45f10b",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 700,
+        "actual_italic": false,
+        "line_height": 1.4
+      },
+      "title": {
+        "id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+        "family": "Source Sans Pro",
+        "style": "Bold",
+        "sha256": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb",
+        "face_index": 0,
+        "size_px": 28,
+        "line_height_px": 32.199999999999996,
+        "color": "#244542",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "tr",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            100,
+            101,
+            103,
+            105,
+            108,
+            110,
+            112,
+            114,
+            231,
+            287,
+            304
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+            },
+            {
+              "kind": "embedded-name-8",
+              "text": "Adobe Systems Incorporated"
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Paul D. Hunt"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "http://www.adobe.com/type"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://scripts.sil.org/OFL"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Paul D. Hunt/Source/Sans Pro/OFL.txt",
+              "sha256": "8ce06420e0277f1b28f514473263688414965ffdc13c3de4f1f0547a6d45f10b",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 700,
+        "actual_italic": false,
+        "line_height": 1.15
+      },
+      "body": {
+        "id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+        "family": "Source Sans Pro",
+        "style": "Regular",
+        "sha256": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3",
+        "face_index": 0,
+        "size_px": 18,
+        "line_height_px": 27.0,
+        "color": "#244542",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "tr",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            46,
+            48,
+            49,
+            50,
+            51,
+            52,
+            59,
+            75,
+            80,
+            85,
+            97,
+            99,
+            100,
+            101,
+            103,
+            105,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            114,
+            115,
+            116,
+            117,
+            118,
+            121,
+            122,
+            183,
+            231,
+            252,
+            287,
+            304,
+            305,
+            351
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+            },
+            {
+              "kind": "embedded-name-8",
+              "text": "Adobe Systems Incorporated"
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Paul D. Hunt"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "http://www.adobe.com/type"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://scripts.sil.org/OFL"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Paul D. Hunt/Source/Sans Pro/OFL.txt",
+              "sha256": "8ce06420e0277f1b28f514473263688414965ffdc13c3de4f1f0547a6d45f10b",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 400,
+        "actual_italic": false,
+        "line_height": 1.5
+      },
+      "heading": {
+        "id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+        "family": "Source Sans Pro",
+        "style": "Bold",
+        "sha256": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb",
+        "face_index": 0,
+        "size_px": 18,
+        "line_height_px": 25.2,
+        "color": "#244542",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "tr",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            89,
+            97,
+            100,
+            108,
+            110,
+            111,
+            115,
+            117,
+            122,
+            305
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+            },
+            {
+              "kind": "embedded-name-8",
+              "text": "Adobe Systems Incorporated"
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Paul D. Hunt"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "http://www.adobe.com/type"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://scripts.sil.org/OFL"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Paul D. Hunt/Source/Sans Pro/OFL.txt",
+              "sha256": "8ce06420e0277f1b28f514473263688414965ffdc13c3de4f1f0547a6d45f10b",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 700,
+        "actual_italic": false,
+        "line_height": 1.4
+      },
+      "caption": {
+        "id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+        "family": "Source Sans Pro",
+        "style": "Regular",
+        "sha256": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3",
+        "face_index": 0,
+        "size_px": 15,
+        "line_height_px": 21.0,
+        "color": "#244542",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "tr",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            46,
+            58,
+            75,
+            85,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            104,
+            105,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            114,
+            115,
+            116,
+            117,
+            121,
+            122,
+            231,
+            252,
+            304,
+            305,
+            351
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+            },
+            {
+              "kind": "embedded-name-8",
+              "text": "Adobe Systems Incorporated"
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Paul D. Hunt"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "http://www.adobe.com/type"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://scripts.sil.org/OFL"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Paul D. Hunt/Source/Sans Pro/OFL.txt",
+              "sha256": "8ce06420e0277f1b28f514473263688414965ffdc13c3de4f1f0547a6d45f10b",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 400,
+        "actual_italic": false,
+        "line_height": 1.4
+      },
+      "button": {
+        "id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+        "family": "Source Sans Pro",
+        "style": "Bold",
+        "sha256": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb",
+        "face_index": 0,
+        "size_px": 18,
+        "line_height_px": 25.2,
+        "color": "#ffffff",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "tr",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            44,
+            72,
+            97,
+            100,
+            101,
+            105,
+            108,
+            109,
+            114,
+            118,
+            122,
+            305
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+            },
+            {
+              "kind": "embedded-name-8",
+              "text": "Adobe Systems Incorporated"
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Paul D. Hunt"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "http://www.adobe.com/type"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://scripts.sil.org/OFL"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Paul D. Hunt/Source/Sans Pro/OFL.txt",
+              "sha256": "8ce06420e0277f1b28f514473263688414965ffdc13c3de4f1f0547a6d45f10b",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 700,
+        "actual_italic": false,
+        "line_height": 1.4
+      }
+    },
+    "composition_spec": "final/spec.json",
+    "manifest": "final/manifest.json",
+    "image": "final/composition.png",
+    "implementation_recipe": "final/application.css",
+    "revision_reason": "Increase captions 14 to 15 after inspection and remove appended audit from final production composition.",
+    "decision": "Choose Source Sans Pro at body 18 px and captions 15 px. Actual audit shows more distinct I/l forms than Roboto, and the open lowercase feels patient; this remains a self-assessed visual improvement, not a user comprehension study.",
+    "counterargument": "Roboto is already compact and functional; increased body/caption size contributes to the improvement independently of family choice."
+  },
+  "objective_checks": [
+    {
+      "requirement": "Exact asset bytes and role text coverage; no synthetic style or fallback",
+      "result": "pass",
+      "evidence": "final/manifest.json roles and no_fallback; each exact face resolved and hashed immediately before compose."
+    },
+    {
+      "requirement": "Width, maximum height, no clipping or overlap",
+      "result": "pass",
+      "evidence": "Canvas [390, 578]; no renderer warnings; full composition visually inspected. Measured clipped blocks: 0; measured overlapping-line blocks: 0."
+    },
+    {
+      "requirement": "Native browser and physical print equivalence",
+      "result": "unverified",
+      "evidence": "Only exact compositor PNG inspected; CSS/HTML recipes not staged with font assets or browser-tested."
+    },
+    {
+      "requirement": "Turkish audit and heading/button line limits",
+      "result": "pass",
+      "evidence": "Appended audit inspected at actual body size; final title and button visibly within limits. Exact tr language recorded in every role."
+    }
+  ],
+  "subjective_assessment": {
+    "judge": "self",
+    "audience_context_fit": {
+      "score_1_to_5": 5,
+      "observation": "Small-screen instruction remains compact with more differentiated audit characters."
+    },
+    "tone": {
+      "score_1_to_5": 4,
+      "observation": "Open forms and moderate bold feel patient and capable."
+    },
+    "hierarchy": {
+      "score_1_to_5": 5,
+      "observation": "Task and continuation are one line; material label and numbered steps are clear."
+    },
+    "role_pairing_coherence": {
+      "score_1_to_5": 5,
+      "observation": "One family gives a coherent explanation and control system."
+    },
+    "overall_preference": "Choose Source Sans Pro at body 18 px and captions 15 px. Actual audit shows more distinct I/l forms than Roboto, and the open lowercase feels patient; this remains a self-assessed visual improvement, not a user comprehension study.",
+    "confidence": "moderate; single selecting-agent visual judgment",
+    "counterargument": "Roboto is already compact and functional; increased body/caption size contributes to the improvement independently of family choice."
+  },
+  "carryover": {
+    "reused_earlier_candidates": [],
+    "reused_earlier_layout_learnings": [],
+    "other": "Same evaluator; all unaided plans sealed before first exact lookup. Shared baseline familiarization occurred during setup."
+  },
+  "limitations": [
+    "Internal formative self-assessment; no causal or statistical proof of improved typography.",
+    "Same evaluator sees sequential conditions; later stages can benefit from familiarity.",
+    "Physical print and browser implementation unverified; font binaries intentionally not distributed.",
+    "Shared baseline and brief familiarization excluded from active timer as setup.",
+    "Failed render attempts consume an option slot conservatively."
+  ],
+  "protocol_violations": []
+}

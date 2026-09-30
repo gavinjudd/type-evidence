@@ -1,0 +1,741 @@
+{
+  "schema_version": 1,
+  "case_id": "case-b",
+  "condition": "A-unaided",
+  "evaluator": {
+    "model": "inherited GPT-6 agent; exact picker identity unavailable",
+    "effort": "inherited",
+    "environment": "same local project .venv, same agent across conditions"
+  },
+  "inputs": {
+    "brief_sha256": "6a8bec9df832b13fa0e6ddafa19a3d983c203f63c5161595471a0b7857cdf00f",
+    "catalog_sha256": "5fe03fd4779bc83016766254cfbaa9743cbc5df0d20f275aea5f4c7f53245740",
+    "source_commits": {
+      "bekah": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+      "extsalt": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+      "google-curated-2026": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+      "arrowtype-recursive-1.085": "6d491202cea5cf6a493ef710cbef2527b9b08939"
+    },
+    "visual_index_identity": null
+  },
+  "budget": {
+    "active_minutes_limit": 8,
+    "information_operations_limit": 6,
+    "records_per_operation_limit": 12,
+    "option_render_limit_including_baseline": 4,
+    "final_revision_limit": 1,
+    "start_utc": "2026-09-30T16:16:44.490273+00:00",
+    "end_utc": "2026-09-30T16:18:52.772470+00:00",
+    "active_seconds": 43.38,
+    "actual_information_operations": 2,
+    "actual_records_seen": 0,
+    "actual_option_renders": 3,
+    "actual_final_revisions": 0,
+    "exceptions": [],
+    "paused_seconds": 84.902,
+    "timing_scope": "Shared brief/baseline familiarization and helper setup outside timed stages; all case-specific lookup, inspection, reasoning and refinement between logged active start/resume and stop."
+  },
+  "sealed_plan": {
+    "path": "sealed-plan.json",
+    "sha256": "9b107feca996dd87a3745f2f485ff5c9ff0a6379f13550eaf3dcb4aba3ad24e4",
+    "sealed_at_utc": "2026-09-30T16:16:44.490327+00:00",
+    "before_candidate_image_inspection": true
+  },
+  "families_seen": [
+    "Roboto"
+  ],
+  "candidates_explored": [
+    {
+      "family": [
+        "Roboto"
+      ],
+      "exact_ids": [
+        "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0"
+      ],
+      "first_seen_in_condition": "A-unaided",
+      "previously_familiar_self_report": true,
+      "rendered_composition": "baseline-large/composition.png",
+      "inspected_at_project_size": true,
+      "observations": [
+        "Both titles are fully visible at full and quarter scale. Stacked version makes OFF and CUT look separate and pushes practical information down; one-line 170 px remains a single memorable word. Polish support retains clear accents and unobstructed dates and address."
+      ],
+      "rejection_reason": null
+    },
+    {
+      "family": [
+        "Roboto"
+      ],
+      "exact_ids": [
+        "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0"
+      ],
+      "first_seen_in_condition": "A-unaided",
+      "previously_familiar_self_report": true,
+      "rendered_composition": "baseline-stacked/composition.png",
+      "inspected_at_project_size": true,
+      "observations": [
+        "Both titles are fully visible at full and quarter scale. Stacked version makes OFF and CUT look separate and pushes practical information down; one-line 170 px remains a single memorable word. Polish support retains clear accents and unobstructed dates and address."
+      ],
+      "rejection_reason": null
+    },
+    {
+      "family": [
+        "Cooper Black"
+      ],
+      "exact_ids": [],
+      "first_seen_in_condition": "A-unaided",
+      "previously_familiar_self_report": true,
+      "rendered_composition": null,
+      "inspected_at_project_size": false,
+      "observations": [
+        "Exact-name resolution returned no records."
+      ],
+      "rejection_reason": "Asset/discovery miss; no visual-quality judgment possible."
+    },
+    {
+      "family": [
+        "Archivo Black"
+      ],
+      "exact_ids": [],
+      "first_seen_in_condition": "A-unaided",
+      "previously_familiar_self_report": true,
+      "rendered_composition": null,
+      "inspected_at_project_size": false,
+      "observations": [
+        "Exact-name resolution returned no records."
+      ],
+      "rejection_reason": "Asset/discovery miss; no visual-quality judgment possible."
+    }
+  ],
+  "discovery_failures": [
+    {
+      "timestamp": "2026-09-30T16:18:30.694421+00:00",
+      "operation": "discovery-failure",
+      "families": [
+        "Cooper Black",
+        "Archivo Black"
+      ],
+      "reason": "Exact names absent; no near-name alternatives permitted in A. Retain sealed baseline family."
+    }
+  ],
+  "asset_failures": [],
+  "operational_failures": [],
+  "final": {
+    "baseline_retained": true,
+    "chosen_roles": {
+      "eyebrow": {
+        "id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+        "family": "Roboto",
+        "style": "Bold",
+        "sha256": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a",
+        "face_index": 0,
+        "size_px": 22,
+        "line_height_px": 30.799999999999997,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "en",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            47,
+            65,
+            67,
+            69,
+            73,
+            77,
+            78,
+            79,
+            80,
+            82,
+            83,
+            84,
+            87
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Bold.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Bold.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 700,
+        "actual_italic": false,
+        "line_height": 1.4
+      },
+      "title": {
+        "id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+        "family": "Roboto",
+        "style": "Bold",
+        "sha256": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a",
+        "face_index": 0,
+        "size_px": 170,
+        "line_height_px": 170.0,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "en",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            67,
+            70,
+            79,
+            84,
+            85
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Bold.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Bold.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 700,
+        "actual_italic": false,
+        "line_height": 1.0
+      },
+      "dek": {
+        "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "family": "Roboto",
+        "style": "Regular",
+        "sha256": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed",
+        "face_index": 0,
+        "size_px": 37,
+        "line_height_px": 51.8,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "en",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            46,
+            65,
+            105,
+            110,
+            111,
+            112,
+            114,
+            116,
+            117
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 400,
+        "actual_italic": false,
+        "line_height": 1.4
+      },
+      "body": {
+        "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "family": "Roboto",
+        "style": "Regular",
+        "sha256": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed",
+        "face_index": 0,
+        "size_px": 31,
+        "line_height_px": 43.4,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "pl",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            44,
+            46,
+            56,
+            68,
+            80,
+            82,
+            97,
+            98,
+            99,
+            100,
+            101,
+            105,
+            106,
+            107,
+            108,
+            110,
+            111,
+            112,
+            114,
+            115,
+            116,
+            117,
+            119,
+            121,
+            122,
+            243,
+            281,
+            321,
+            347,
+            378
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 400,
+        "actual_italic": false,
+        "line_height": 1.4
+      },
+      "heading": {
+        "id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+        "family": "Roboto",
+        "style": "Bold",
+        "sha256": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a",
+        "face_index": 0,
+        "size_px": 32,
+        "line_height_px": 44.8,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "pl",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            44,
+            47,
+            48,
+            49,
+            50,
+            55,
+            56,
+            58,
+            83,
+            97,
+            98,
+            100,
+            101,
+            105,
+            107,
+            110,
+            111,
+            112,
+            114,
+            116,
+            122,
+            378,
+            8211
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Bold.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Bold.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 700,
+        "actual_italic": false,
+        "line_height": 1.4
+      },
+      "caption": {
+        "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "family": "Roboto",
+        "style": "Regular",
+        "sha256": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed",
+        "face_index": 0,
+        "size_px": 24,
+        "line_height_px": 33.599999999999994,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "pl",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            46,
+            75,
+            80,
+            87,
+            97,
+            99,
+            100,
+            101,
+            105,
+            106,
+            108,
+            109,
+            110,
+            111,
+            112,
+            114,
+            115,
+            116,
+            117,
+            119,
+            121,
+            122,
+            281,
+            347,
+            380
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 400,
+        "actual_italic": false,
+        "line_height": 1.4
+      }
+    },
+    "composition_spec": "baseline-large/spec.json",
+    "manifest": "baseline-large/manifest.json",
+    "image": "baseline-large/composition.png",
+    "implementation_recipe": "baseline-large/application.css",
+    "revision_reason": "Increase existing title 138 to 170 after exact family lookup failures; reject stacked direction because it fragments the name and delays event information.",
+    "decision": "Retain Roboto with a 170 px one-line title. Both sealed replacement names were unavailable; the larger baseline title gives stronger presence but remains less tactile/playful than desired.",
+    "counterargument": "This is a functional fallback with limited studio personality; original 138 px control is more restrained and already legible."
+  },
+  "objective_checks": [
+    {
+      "requirement": "Exact asset bytes and role text coverage; no synthetic style or fallback",
+      "result": "pass",
+      "evidence": "baseline-large/manifest.json roles and no_fallback; each exact face resolved and hashed immediately before compose."
+    },
+    {
+      "requirement": "Width, maximum height, no clipping or overlap",
+      "result": "pass",
+      "evidence": "Canvas [1000, 1260]; no renderer warnings; full composition visually inspected. Measured clipped blocks: 0; measured overlapping-line blocks: 0."
+    },
+    {
+      "requirement": "Native browser and physical print equivalence",
+      "result": "unverified",
+      "evidence": "Only exact compositor PNG inspected; CSS/HTML recipes not staged with font assets or browser-tested."
+    },
+    {
+      "requirement": "Title full/quarter visibility and Polish supporting accents",
+      "result": "pass",
+      "evidence": "Full-size and quarter PNGs opened; all Polish text validated by renderer."
+    }
+  ],
+  "subjective_assessment": {
+    "judge": "self",
+    "audience_context_fit": {
+      "score_1_to_5": 3,
+      "observation": "Date, location and participation rule remain easy to locate."
+    },
+    "tone": {
+      "score_1_to_5": 3,
+      "observation": "Confident larger title remains fairly neutral rather than tactile."
+    },
+    "hierarchy": {
+      "score_1_to_5": 5,
+      "observation": "One-line name is dominant while practical information stays below the divider."
+    },
+    "role_pairing_coherence": {
+      "score_1_to_5": 5,
+      "observation": "Consistent family keeps supporting copy coherent."
+    },
+    "overall_preference": "Retain Roboto with a 170 px one-line title. Both sealed replacement names were unavailable; the larger baseline title gives stronger presence but remains less tactile/playful than desired.",
+    "confidence": "moderate; single selecting-agent visual judgment",
+    "counterargument": "This is a functional fallback with limited studio personality; original 138 px control is more restrained and already legible."
+  },
+  "carryover": {
+    "reused_earlier_candidates": [],
+    "reused_earlier_layout_learnings": [],
+    "other": "Same evaluator; all unaided plans sealed before first exact lookup. Shared baseline familiarization occurred during setup."
+  },
+  "limitations": [
+    "Internal formative self-assessment; no causal or statistical proof of improved typography.",
+    "Same evaluator sees sequential conditions; later stages can benefit from familiarity.",
+    "Physical print and browser implementation unverified; font binaries intentionally not distributed.",
+    "Shared baseline and brief familiarization excluded from active timer as setup.",
+    "Failed render attempts consume an option slot conservatively."
+  ],
+  "protocol_violations": []
+}

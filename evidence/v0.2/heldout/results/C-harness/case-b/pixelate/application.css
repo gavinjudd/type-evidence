@@ -1,0 +1,29 @@
+/* Stage only authorized exact assets at the URLs below. No fonts are bundled. */
+/* Recheck layout/rasterization in your browser; this is an implementation recipe. */
+.te-recipe { margin: 0; }
+.te-status { font: 16px/1.5 system-ui,sans-serif; padding: 20px; overflow-wrap: anywhere; }
+.te-composition, .te-composition * { box-sizing: border-box; }
+.te-composition { margin: 0 auto; width: 1000px; max-width: 100%; padding: 64px; background: #ef9d59; min-height: 1260px; }
+.te-text { margin: 0; white-space: pre-wrap; overflow-wrap: normal; font-synthesis: none; }
+.te-columns { display: grid; grid-template-columns: var(--te-column-tracks); }
+.te-table-scroll { max-width: 100%; overflow-x: auto; }
+.te-scroll-hint { display: none; margin: 0 0 8px; font: 12px/1.4 system-ui,sans-serif; color: inherit; }
+.te-table-group[data-overflow] > .te-scroll-hint { display: block; }
+@font-face { font-family: "te-c9cc991deb5d27f2-0-eyebrow"; src: url("assets/c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a.ttf"); font-weight: 700; font-style: normal; font-display: block; }
+.te-role-eyebrow { font-family: "te-c9cc991deb5d27f2-0-eyebrow"; font-size: 22px; line-height: 1.4; font-weight: 700; font-style: normal; font-synthesis: none; font-feature-settings: normal; font-variation-settings: normal; font-optical-sizing: none; color: #262521; text-align: start; unicode-bidi: plaintext; }
+@font-face { font-family: "te-8dfaee51286bbea5-0-title"; src: url("assets/8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff.ttf"); font-weight: 700; font-style: normal; font-display: block; }
+.te-role-title { font-family: "te-8dfaee51286bbea5-0-title"; font-size: 150px; line-height: 1.0; font-weight: 700; font-style: normal; font-synthesis: none; font-feature-settings: normal; font-variation-settings: normal; font-optical-sizing: none; color: #262521; text-align: start; unicode-bidi: plaintext; }
+@font-face { font-family: "te-017c0be9aaa6d035-0-dek"; src: url("assets/017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed.ttf"); font-weight: 400; font-style: normal; font-display: block; }
+.te-role-dek { font-family: "te-017c0be9aaa6d035-0-dek"; font-size: 37px; line-height: 1.4; font-weight: 400; font-style: normal; font-synthesis: none; font-feature-settings: normal; font-variation-settings: normal; font-optical-sizing: none; color: #262521; text-align: start; unicode-bidi: plaintext; }
+@font-face { font-family: "te-017c0be9aaa6d035-0-body"; src: url("assets/017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed.ttf"); font-weight: 400; font-style: normal; font-display: block; }
+.te-role-body { font-family: "te-017c0be9aaa6d035-0-body"; font-size: 31px; line-height: 1.4; font-weight: 400; font-style: normal; font-synthesis: none; font-feature-settings: normal; font-variation-settings: normal; font-optical-sizing: none; color: #262521; text-align: start; unicode-bidi: plaintext; }
+@font-face { font-family: "te-c9cc991deb5d27f2-0-heading"; src: url("assets/c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a.ttf"); font-weight: 700; font-style: normal; font-display: block; }
+.te-role-heading { font-family: "te-c9cc991deb5d27f2-0-heading"; font-size: 32px; line-height: 1.4; font-weight: 700; font-style: normal; font-synthesis: none; font-feature-settings: normal; font-variation-settings: normal; font-optical-sizing: none; color: #262521; text-align: start; unicode-bidi: plaintext; }
+@font-face { font-family: "te-017c0be9aaa6d035-0-caption"; src: url("assets/017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed.ttf"); font-weight: 400; font-style: normal; font-display: block; }
+.te-role-caption { font-family: "te-017c0be9aaa6d035-0-caption"; font-size: 24px; line-height: 1.4; font-weight: 400; font-style: normal; font-synthesis: none; font-feature-settings: normal; font-variation-settings: normal; font-optical-sizing: none; color: #262521; text-align: start; unicode-bidi: plaintext; }
+@media (max-width: 640px) {
+  .te-composition { padding: 24px; min-height: 0; }
+  .te-columns { grid-template-columns: 1fr; }
+  .te-text { overflow-wrap: break-word; }
+  .te-role-title { font-size: clamp(32px, 12vw, 64px); }
+}

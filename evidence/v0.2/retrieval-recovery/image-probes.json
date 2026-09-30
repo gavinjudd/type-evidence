@@ -1,0 +1,1822 @@
+{
+  "scope": "Exploratory hand-selected 18-face comparison set combining the 12 smoke-result faces and six eligible contrasting family representatives from a predefined nine-family list. Not a corpus rerank, held-out test, or proof of design improvement.",
+  "seed": 12345,
+  "augmentation_samples": 8,
+  "ranking": "Raw cosine; no metadata, style filtering or family diversity added.",
+  "records": [
+    {
+      "id": "0b57f06624ebb46aafd9185990b195574fc5c285d6d249e768f24b58d8bd1419:0",
+      "family": "Extra virgin",
+      "style": "Regular",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": 0.053492262959480286,
+          "angular futuristic technical font": 0.002225751057267189,
+          "warm humanist font": 0.00024896860122680664
+        },
+        "official_center": {
+          "serif elegant high contrast font": 0.0925832986831665,
+          "angular futuristic technical font": 0.011554192751646042,
+          "warm humanist font": -0.013277210295200348
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": 0.07006986439228058,
+          "angular futuristic technical font": 0.018038176000118256,
+          "warm humanist font": -0.0026705488562583923
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": 0.06695583462715149,
+          "angular futuristic technical font": 0.021231813356280327,
+          "warm humanist font": -0.000980481505393982
+        }
+      }
+    },
+    {
+      "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+      "family": "Offshore Banking Business",
+      "style": "Regular",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": 0.04644877463579178,
+          "angular futuristic technical font": -0.0026341378688812256,
+          "warm humanist font": 0.021110210567712784
+        },
+        "official_center": {
+          "serif elegant high contrast font": 0.03964005410671234,
+          "angular futuristic technical font": 0.006173472851514816,
+          "warm humanist font": 0.01354682445526123
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": 0.04642194136977196,
+          "angular futuristic technical font": 0.006467096507549286,
+          "warm humanist font": 0.013777080923318863
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": 0.04537872597575188,
+          "angular futuristic technical font": 0.006167560815811157,
+          "warm humanist font": 0.019701648503541946
+        }
+      }
+    },
+    {
+      "id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+      "family": "Fraunces",
+      "style": "Black",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": -0.017730671912431717,
+          "angular futuristic technical font": -0.04437201842665672,
+          "warm humanist font": 0.05075417086482048
+        },
+        "official_center": {
+          "serif elegant high contrast font": -0.014788582921028137,
+          "angular futuristic technical font": -0.04790448397397995,
+          "warm humanist font": 0.05592219531536102
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": 0.008242238312959671,
+          "angular futuristic technical font": -0.02059905044734478,
+          "warm humanist font": 0.040293287485837936
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": 0.009776584804058075,
+          "angular futuristic technical font": -0.011025933548808098,
+          "warm humanist font": 0.046410806477069855
+        }
+      }
+    },
+    {
+      "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+      "family": "Lander Tall",
+      "style": "Regular",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": -0.10949146747589111,
+          "angular futuristic technical font": -0.14301146566867828,
+          "warm humanist font": 0.04094807803630829
+        },
+        "official_center": {
+          "serif elegant high contrast font": -0.09084314852952957,
+          "angular futuristic technical font": -0.1295546293258667,
+          "warm humanist font": 0.04893112927675247
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": -0.05059192329645157,
+          "angular futuristic technical font": -0.05918944627046585,
+          "warm humanist font": 0.04583144932985306
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": -0.04894742742180824,
+          "angular futuristic technical font": -0.06348339468240738,
+          "warm humanist font": 0.051905326545238495
+        }
+      }
+    },
+    {
+      "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+      "family": "IBM Plex Sans",
+      "style": "Regular",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": -0.12963898479938507,
+          "angular futuristic technical font": -0.04763735830783844,
+          "warm humanist font": 0.026299599558115005
+        },
+        "official_center": {
+          "serif elegant high contrast font": -0.1432795375585556,
+          "angular futuristic technical font": -0.07537780702114105,
+          "warm humanist font": 0.024774260818958282
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": -0.10403749346733093,
+          "angular futuristic technical font": -0.036705322563648224,
+          "warm humanist font": 0.021630026400089264
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": -0.1026875451207161,
+          "angular futuristic technical font": -0.015910159796476364,
+          "warm humanist font": 0.03261932358145714
+        }
+      }
+    },
+    {
+      "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+      "family": "Extechchop Shadow",
+      "style": "Shadow",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": -0.029756471514701843,
+          "angular futuristic technical font": 0.07539579272270203,
+          "warm humanist font": -0.010797038674354553
+        },
+        "official_center": {
+          "serif elegant high contrast font": -0.0019668564200401306,
+          "angular futuristic technical font": 0.07186613976955414,
+          "warm humanist font": -0.008958764374256134
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": -0.011171102523803711,
+          "angular futuristic technical font": 0.05854671075940132,
+          "warm humanist font": -0.016493994742631912
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": -0.01736757904291153,
+          "angular futuristic technical font": 0.07764637470245361,
+          "warm humanist font": -0.007325470447540283
+        }
+      }
+    },
+    {
+      "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+      "family": "Rajdhani",
+      "style": "Regular",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": -0.12655392289161682,
+          "angular futuristic technical font": -0.04294198006391525,
+          "warm humanist font": -0.023828759789466858
+        },
+        "official_center": {
+          "serif elegant high contrast font": -0.12845447659492493,
+          "angular futuristic technical font": -0.04983184486627579,
+          "warm humanist font": -0.03281194716691971
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": -0.08936211466789246,
+          "angular futuristic technical font": -0.012219749391078949,
+          "warm humanist font": -0.013936508446931839
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": -0.09305830299854279,
+          "angular futuristic technical font": -0.00362444669008255,
+          "warm humanist font": -0.012330077588558197
+        }
+      }
+    },
+    {
+      "id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+      "family": "Atkinson Hyperlegible",
+      "style": "Regular",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": -0.11909908056259155,
+          "angular futuristic technical font": -0.03407365828752518,
+          "warm humanist font": 0.03332555294036865
+        },
+        "official_center": {
+          "serif elegant high contrast font": -0.134881854057312,
+          "angular futuristic technical font": -0.07283499836921692,
+          "warm humanist font": 0.023937230929732323
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": -0.09899228811264038,
+          "angular futuristic technical font": -0.035519588738679886,
+          "warm humanist font": 0.025128930807113647
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": -0.08889733254909515,
+          "angular futuristic technical font": -0.008305966854095459,
+          "warm humanist font": 0.03744644299149513
+        }
+      }
+    },
+    {
+      "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+      "family": "PP Pangram Sans",
+      "style": "Compact Extrabold",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": -0.06854575872421265,
+          "angular futuristic technical font": -0.06607076525688171,
+          "warm humanist font": 0.05364733934402466
+        },
+        "official_center": {
+          "serif elegant high contrast font": -0.07902033627033234,
+          "angular futuristic technical font": -0.08032923936843872,
+          "warm humanist font": 0.04943925514817238
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": -0.041213132441043854,
+          "angular futuristic technical font": -0.030380811542272568,
+          "warm humanist font": 0.04452808201313019
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": -0.03457042574882507,
+          "angular futuristic technical font": -0.016333263367414474,
+          "warm humanist font": 0.053165677934885025
+        }
+      }
+    },
+    {
+      "id": "9286f109c46ced8a32f82d04550bfb6f4a5f968ba02e974f3b9ce0d6541d8806:0",
+      "family": "Taskforce Outline",
+      "style": "Outline",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": -0.010047342628240585,
+          "angular futuristic technical font": 0.07104241102933884,
+          "warm humanist font": -0.037405870854854584
+        },
+        "official_center": {
+          "serif elegant high contrast font": 0.018388181924819946,
+          "angular futuristic technical font": 0.07170277833938599,
+          "warm humanist font": -0.013534445315599442
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": -0.0008310526609420776,
+          "angular futuristic technical font": 0.05276782065629959,
+          "warm humanist font": -0.017763614654541016
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": -0.009751573204994202,
+          "angular futuristic technical font": 0.06702218949794769,
+          "warm humanist font": -0.021651912480592728
+        }
+      }
+    },
+    {
+      "id": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b:0",
+      "family": "Source Serif 4",
+      "style": "Regular",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": -0.09234888851642609,
+          "angular futuristic technical font": -0.07526388764381409,
+          "warm humanist font": 0.03594810515642166
+        },
+        "official_center": {
+          "serif elegant high contrast font": -0.096343994140625,
+          "angular futuristic technical font": -0.10078053176403046,
+          "warm humanist font": 0.03284095227718353
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": -0.06958197057247162,
+          "angular futuristic technical font": -0.057929329574108124,
+          "warm humanist font": 0.03573362156748772
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": -0.0485442578792572,
+          "angular futuristic technical font": -0.034839894622564316,
+          "warm humanist font": 0.041851408779621124
+        }
+      }
+    },
+    {
+      "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+      "family": "Wyvern Hvy",
+      "style": "Regular",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": -0.10173922777175903,
+          "angular futuristic technical font": -0.06952331960201263,
+          "warm humanist font": 0.045054372400045395
+        },
+        "official_center": {
+          "serif elegant high contrast font": -0.0951574295759201,
+          "angular futuristic technical font": -0.06835250556468964,
+          "warm humanist font": 0.047084007412195206
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": -0.06157094985246658,
+          "angular futuristic technical font": -0.0334196463227272,
+          "warm humanist font": 0.04256290942430496
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": -0.06305033713579178,
+          "angular futuristic technical font": -0.022960923612117767,
+          "warm humanist font": 0.051704272627830505
+        }
+      }
+    },
+    {
+      "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+      "family": "Fatty Snax NF",
+      "style": "Regular",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": 0.03169139847159386,
+          "angular futuristic technical font": -0.008268695324659348,
+          "warm humanist font": 0.004747305065393448
+        },
+        "official_center": {
+          "serif elegant high contrast font": 0.02827061340212822,
+          "angular futuristic technical font": -0.01572485826909542,
+          "warm humanist font": 0.0110279880464077
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": 0.03728592395782471,
+          "angular futuristic technical font": -0.014695439487695694,
+          "warm humanist font": 0.0014897286891937256
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": 0.0384550616145134,
+          "angular futuristic technical font": 0.00936468131840229,
+          "warm humanist font": 0.010569129139184952
+        }
+      }
+    },
+    {
+      "id": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440:0",
+      "family": "Literata",
+      "style": "Regular",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": -0.09003088623285294,
+          "angular futuristic technical font": -0.07755185663700104,
+          "warm humanist font": 0.040737517178058624
+        },
+        "official_center": {
+          "serif elegant high contrast font": -0.10273405909538269,
+          "angular futuristic technical font": -0.10918299853801727,
+          "warm humanist font": 0.0398506335914135
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": -0.06551028788089752,
+          "angular futuristic technical font": -0.052185192704200745,
+          "warm humanist font": 0.04146698862314224
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": -0.052370890974998474,
+          "angular futuristic technical font": -0.03652375191450119,
+          "warm humanist font": 0.04573051631450653
+        }
+      }
+    },
+    {
+      "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+      "family": "Lander Grande",
+      "style": "Regular",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": -0.10217197984457016,
+          "angular futuristic technical font": -0.13825780153274536,
+          "warm humanist font": 0.04021501541137695
+        },
+        "official_center": {
+          "serif elegant high contrast font": -0.08132822811603546,
+          "angular futuristic technical font": -0.13082735240459442,
+          "warm humanist font": 0.036724288016557693
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": -0.04538949579000473,
+          "angular futuristic technical font": -0.05957470461726189,
+          "warm humanist font": 0.039532288908958435
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": -0.04460684955120087,
+          "angular futuristic technical font": -0.06416154652833939,
+          "warm humanist font": 0.04873446747660637
+        }
+      }
+    },
+    {
+      "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+      "family": "BlockedTop",
+      "style": "Regular",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": 0.022948265075683594,
+          "angular futuristic technical font": 0.07660923898220062,
+          "warm humanist font": 0.010061938315629959
+        },
+        "official_center": {
+          "serif elegant high contrast font": 0.024992574006319046,
+          "angular futuristic technical font": 0.07721579074859619,
+          "warm humanist font": 0.012654401361942291
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": 0.025389771908521652,
+          "angular futuristic technical font": 0.05270664021372795,
+          "warm humanist font": 0.0014351308345794678
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": 0.027923226356506348,
+          "angular futuristic technical font": 0.06687650829553604,
+          "warm humanist font": 0.006817445158958435
+        }
+      }
+    },
+    {
+      "id": "dd4109b1c77dd10c6dbc45b3da9ba922b67a6eff86d63d94d5f0fd150a1c0a4f:0",
+      "family": "Mondo Redondo NF",
+      "style": "Regular",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": 0.018134497106075287,
+          "angular futuristic technical font": 0.006274696439504623,
+          "warm humanist font": 0.01825801283121109
+        },
+        "official_center": {
+          "serif elegant high contrast font": 0.011783130466938019,
+          "angular futuristic technical font": 0.0008699800819158554,
+          "warm humanist font": 0.014197815209627151
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": 0.026189681142568588,
+          "angular futuristic technical font": 0.011674398556351662,
+          "warm humanist font": 0.011370796710252762
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": 0.028711020946502686,
+          "angular futuristic technical font": 0.03046802245080471,
+          "warm humanist font": 0.020709194242954254
+        }
+      }
+    },
+    {
+      "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+      "family": "Taskforce Outline CondItalic",
+      "style": "Outline CondItalic",
+      "scores": {
+        "stored_full": {
+          "serif elegant high contrast font": -0.020628470927476883,
+          "angular futuristic technical font": 0.07464199513196945,
+          "warm humanist font": -0.030670832842588425
+        },
+        "official_center": {
+          "serif elegant high contrast font": 0.002446122467517853,
+          "angular futuristic technical font": 0.07660244405269623,
+          "warm humanist font": -0.00884929671883583
+        },
+        "official_aug8": {
+          "serif elegant high contrast font": -0.004937902092933655,
+          "angular futuristic technical font": 0.05684977024793625,
+          "warm humanist font": -0.010866053402423859
+        },
+        "ours_aug8": {
+          "serif elegant high contrast font": -0.01248154416680336,
+          "angular futuristic technical font": 0.06981146335601807,
+          "warm humanist font": -0.014121189713478088
+        }
+      }
+    }
+  ],
+  "rankings": {
+    "serif elegant high contrast font": {
+      "stored_full": [
+        {
+          "id": "0b57f06624ebb46aafd9185990b195574fc5c285d6d249e768f24b58d8bd1419:0",
+          "family": "Extra virgin",
+          "style": "Regular",
+          "cosine": 0.053492262959480286
+        },
+        {
+          "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+          "family": "Offshore Banking Business",
+          "style": "Regular",
+          "cosine": 0.04644877463579178
+        },
+        {
+          "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+          "family": "Fatty Snax NF",
+          "style": "Regular",
+          "cosine": 0.03169139847159386
+        },
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "cosine": 0.022948265075683594
+        },
+        {
+          "id": "dd4109b1c77dd10c6dbc45b3da9ba922b67a6eff86d63d94d5f0fd150a1c0a4f:0",
+          "family": "Mondo Redondo NF",
+          "style": "Regular",
+          "cosine": 0.018134497106075287
+        },
+        {
+          "id": "9286f109c46ced8a32f82d04550bfb6f4a5f968ba02e974f3b9ce0d6541d8806:0",
+          "family": "Taskforce Outline",
+          "style": "Outline",
+          "cosine": -0.010047342628240585
+        },
+        {
+          "id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+          "family": "Fraunces",
+          "style": "Black",
+          "cosine": -0.017730671912431717
+        },
+        {
+          "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+          "family": "Taskforce Outline CondItalic",
+          "style": "Outline CondItalic",
+          "cosine": -0.020628470927476883
+        },
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "cosine": -0.029756471514701843
+        },
+        {
+          "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+          "family": "PP Pangram Sans",
+          "style": "Compact Extrabold",
+          "cosine": -0.06854575872421265
+        },
+        {
+          "id": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440:0",
+          "family": "Literata",
+          "style": "Regular",
+          "cosine": -0.09003088623285294
+        },
+        {
+          "id": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b:0",
+          "family": "Source Serif 4",
+          "style": "Regular",
+          "cosine": -0.09234888851642609
+        },
+        {
+          "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+          "family": "Wyvern Hvy",
+          "style": "Regular",
+          "cosine": -0.10173922777175903
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "cosine": -0.10217197984457016
+        },
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "cosine": -0.10949146747589111
+        },
+        {
+          "id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+          "family": "Atkinson Hyperlegible",
+          "style": "Regular",
+          "cosine": -0.11909908056259155
+        },
+        {
+          "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+          "family": "Rajdhani",
+          "style": "Regular",
+          "cosine": -0.12655392289161682
+        },
+        {
+          "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+          "family": "IBM Plex Sans",
+          "style": "Regular",
+          "cosine": -0.12963898479938507
+        }
+      ],
+      "official_center": [
+        {
+          "id": "0b57f06624ebb46aafd9185990b195574fc5c285d6d249e768f24b58d8bd1419:0",
+          "family": "Extra virgin",
+          "style": "Regular",
+          "cosine": 0.0925832986831665
+        },
+        {
+          "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+          "family": "Offshore Banking Business",
+          "style": "Regular",
+          "cosine": 0.03964005410671234
+        },
+        {
+          "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+          "family": "Fatty Snax NF",
+          "style": "Regular",
+          "cosine": 0.02827061340212822
+        },
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "cosine": 0.024992574006319046
+        },
+        {
+          "id": "9286f109c46ced8a32f82d04550bfb6f4a5f968ba02e974f3b9ce0d6541d8806:0",
+          "family": "Taskforce Outline",
+          "style": "Outline",
+          "cosine": 0.018388181924819946
+        },
+        {
+          "id": "dd4109b1c77dd10c6dbc45b3da9ba922b67a6eff86d63d94d5f0fd150a1c0a4f:0",
+          "family": "Mondo Redondo NF",
+          "style": "Regular",
+          "cosine": 0.011783130466938019
+        },
+        {
+          "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+          "family": "Taskforce Outline CondItalic",
+          "style": "Outline CondItalic",
+          "cosine": 0.002446122467517853
+        },
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "cosine": -0.0019668564200401306
+        },
+        {
+          "id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+          "family": "Fraunces",
+          "style": "Black",
+          "cosine": -0.014788582921028137
+        },
+        {
+          "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+          "family": "PP Pangram Sans",
+          "style": "Compact Extrabold",
+          "cosine": -0.07902033627033234
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "cosine": -0.08132822811603546
+        },
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "cosine": -0.09084314852952957
+        },
+        {
+          "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+          "family": "Wyvern Hvy",
+          "style": "Regular",
+          "cosine": -0.0951574295759201
+        },
+        {
+          "id": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b:0",
+          "family": "Source Serif 4",
+          "style": "Regular",
+          "cosine": -0.096343994140625
+        },
+        {
+          "id": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440:0",
+          "family": "Literata",
+          "style": "Regular",
+          "cosine": -0.10273405909538269
+        },
+        {
+          "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+          "family": "Rajdhani",
+          "style": "Regular",
+          "cosine": -0.12845447659492493
+        },
+        {
+          "id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+          "family": "Atkinson Hyperlegible",
+          "style": "Regular",
+          "cosine": -0.134881854057312
+        },
+        {
+          "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+          "family": "IBM Plex Sans",
+          "style": "Regular",
+          "cosine": -0.1432795375585556
+        }
+      ],
+      "official_aug8": [
+        {
+          "id": "0b57f06624ebb46aafd9185990b195574fc5c285d6d249e768f24b58d8bd1419:0",
+          "family": "Extra virgin",
+          "style": "Regular",
+          "cosine": 0.07006986439228058
+        },
+        {
+          "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+          "family": "Offshore Banking Business",
+          "style": "Regular",
+          "cosine": 0.04642194136977196
+        },
+        {
+          "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+          "family": "Fatty Snax NF",
+          "style": "Regular",
+          "cosine": 0.03728592395782471
+        },
+        {
+          "id": "dd4109b1c77dd10c6dbc45b3da9ba922b67a6eff86d63d94d5f0fd150a1c0a4f:0",
+          "family": "Mondo Redondo NF",
+          "style": "Regular",
+          "cosine": 0.026189681142568588
+        },
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "cosine": 0.025389771908521652
+        },
+        {
+          "id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+          "family": "Fraunces",
+          "style": "Black",
+          "cosine": 0.008242238312959671
+        },
+        {
+          "id": "9286f109c46ced8a32f82d04550bfb6f4a5f968ba02e974f3b9ce0d6541d8806:0",
+          "family": "Taskforce Outline",
+          "style": "Outline",
+          "cosine": -0.0008310526609420776
+        },
+        {
+          "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+          "family": "Taskforce Outline CondItalic",
+          "style": "Outline CondItalic",
+          "cosine": -0.004937902092933655
+        },
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "cosine": -0.011171102523803711
+        },
+        {
+          "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+          "family": "PP Pangram Sans",
+          "style": "Compact Extrabold",
+          "cosine": -0.041213132441043854
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "cosine": -0.04538949579000473
+        },
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "cosine": -0.05059192329645157
+        },
+        {
+          "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+          "family": "Wyvern Hvy",
+          "style": "Regular",
+          "cosine": -0.06157094985246658
+        },
+        {
+          "id": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440:0",
+          "family": "Literata",
+          "style": "Regular",
+          "cosine": -0.06551028788089752
+        },
+        {
+          "id": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b:0",
+          "family": "Source Serif 4",
+          "style": "Regular",
+          "cosine": -0.06958197057247162
+        },
+        {
+          "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+          "family": "Rajdhani",
+          "style": "Regular",
+          "cosine": -0.08936211466789246
+        },
+        {
+          "id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+          "family": "Atkinson Hyperlegible",
+          "style": "Regular",
+          "cosine": -0.09899228811264038
+        },
+        {
+          "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+          "family": "IBM Plex Sans",
+          "style": "Regular",
+          "cosine": -0.10403749346733093
+        }
+      ],
+      "ours_aug8": [
+        {
+          "id": "0b57f06624ebb46aafd9185990b195574fc5c285d6d249e768f24b58d8bd1419:0",
+          "family": "Extra virgin",
+          "style": "Regular",
+          "cosine": 0.06695583462715149
+        },
+        {
+          "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+          "family": "Offshore Banking Business",
+          "style": "Regular",
+          "cosine": 0.04537872597575188
+        },
+        {
+          "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+          "family": "Fatty Snax NF",
+          "style": "Regular",
+          "cosine": 0.0384550616145134
+        },
+        {
+          "id": "dd4109b1c77dd10c6dbc45b3da9ba922b67a6eff86d63d94d5f0fd150a1c0a4f:0",
+          "family": "Mondo Redondo NF",
+          "style": "Regular",
+          "cosine": 0.028711020946502686
+        },
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "cosine": 0.027923226356506348
+        },
+        {
+          "id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+          "family": "Fraunces",
+          "style": "Black",
+          "cosine": 0.009776584804058075
+        },
+        {
+          "id": "9286f109c46ced8a32f82d04550bfb6f4a5f968ba02e974f3b9ce0d6541d8806:0",
+          "family": "Taskforce Outline",
+          "style": "Outline",
+          "cosine": -0.009751573204994202
+        },
+        {
+          "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+          "family": "Taskforce Outline CondItalic",
+          "style": "Outline CondItalic",
+          "cosine": -0.01248154416680336
+        },
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "cosine": -0.01736757904291153
+        },
+        {
+          "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+          "family": "PP Pangram Sans",
+          "style": "Compact Extrabold",
+          "cosine": -0.03457042574882507
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "cosine": -0.04460684955120087
+        },
+        {
+          "id": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b:0",
+          "family": "Source Serif 4",
+          "style": "Regular",
+          "cosine": -0.0485442578792572
+        },
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "cosine": -0.04894742742180824
+        },
+        {
+          "id": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440:0",
+          "family": "Literata",
+          "style": "Regular",
+          "cosine": -0.052370890974998474
+        },
+        {
+          "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+          "family": "Wyvern Hvy",
+          "style": "Regular",
+          "cosine": -0.06305033713579178
+        },
+        {
+          "id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+          "family": "Atkinson Hyperlegible",
+          "style": "Regular",
+          "cosine": -0.08889733254909515
+        },
+        {
+          "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+          "family": "Rajdhani",
+          "style": "Regular",
+          "cosine": -0.09305830299854279
+        },
+        {
+          "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+          "family": "IBM Plex Sans",
+          "style": "Regular",
+          "cosine": -0.1026875451207161
+        }
+      ]
+    },
+    "angular futuristic technical font": {
+      "stored_full": [
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "cosine": 0.07660923898220062
+        },
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "cosine": 0.07539579272270203
+        },
+        {
+          "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+          "family": "Taskforce Outline CondItalic",
+          "style": "Outline CondItalic",
+          "cosine": 0.07464199513196945
+        },
+        {
+          "id": "9286f109c46ced8a32f82d04550bfb6f4a5f968ba02e974f3b9ce0d6541d8806:0",
+          "family": "Taskforce Outline",
+          "style": "Outline",
+          "cosine": 0.07104241102933884
+        },
+        {
+          "id": "dd4109b1c77dd10c6dbc45b3da9ba922b67a6eff86d63d94d5f0fd150a1c0a4f:0",
+          "family": "Mondo Redondo NF",
+          "style": "Regular",
+          "cosine": 0.006274696439504623
+        },
+        {
+          "id": "0b57f06624ebb46aafd9185990b195574fc5c285d6d249e768f24b58d8bd1419:0",
+          "family": "Extra virgin",
+          "style": "Regular",
+          "cosine": 0.002225751057267189
+        },
+        {
+          "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+          "family": "Offshore Banking Business",
+          "style": "Regular",
+          "cosine": -0.0026341378688812256
+        },
+        {
+          "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+          "family": "Fatty Snax NF",
+          "style": "Regular",
+          "cosine": -0.008268695324659348
+        },
+        {
+          "id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+          "family": "Atkinson Hyperlegible",
+          "style": "Regular",
+          "cosine": -0.03407365828752518
+        },
+        {
+          "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+          "family": "Rajdhani",
+          "style": "Regular",
+          "cosine": -0.04294198006391525
+        },
+        {
+          "id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+          "family": "Fraunces",
+          "style": "Black",
+          "cosine": -0.04437201842665672
+        },
+        {
+          "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+          "family": "IBM Plex Sans",
+          "style": "Regular",
+          "cosine": -0.04763735830783844
+        },
+        {
+          "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+          "family": "PP Pangram Sans",
+          "style": "Compact Extrabold",
+          "cosine": -0.06607076525688171
+        },
+        {
+          "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+          "family": "Wyvern Hvy",
+          "style": "Regular",
+          "cosine": -0.06952331960201263
+        },
+        {
+          "id": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b:0",
+          "family": "Source Serif 4",
+          "style": "Regular",
+          "cosine": -0.07526388764381409
+        },
+        {
+          "id": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440:0",
+          "family": "Literata",
+          "style": "Regular",
+          "cosine": -0.07755185663700104
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "cosine": -0.13825780153274536
+        },
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "cosine": -0.14301146566867828
+        }
+      ],
+      "official_center": [
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "cosine": 0.07721579074859619
+        },
+        {
+          "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+          "family": "Taskforce Outline CondItalic",
+          "style": "Outline CondItalic",
+          "cosine": 0.07660244405269623
+        },
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "cosine": 0.07186613976955414
+        },
+        {
+          "id": "9286f109c46ced8a32f82d04550bfb6f4a5f968ba02e974f3b9ce0d6541d8806:0",
+          "family": "Taskforce Outline",
+          "style": "Outline",
+          "cosine": 0.07170277833938599
+        },
+        {
+          "id": "0b57f06624ebb46aafd9185990b195574fc5c285d6d249e768f24b58d8bd1419:0",
+          "family": "Extra virgin",
+          "style": "Regular",
+          "cosine": 0.011554192751646042
+        },
+        {
+          "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+          "family": "Offshore Banking Business",
+          "style": "Regular",
+          "cosine": 0.006173472851514816
+        },
+        {
+          "id": "dd4109b1c77dd10c6dbc45b3da9ba922b67a6eff86d63d94d5f0fd150a1c0a4f:0",
+          "family": "Mondo Redondo NF",
+          "style": "Regular",
+          "cosine": 0.0008699800819158554
+        },
+        {
+          "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+          "family": "Fatty Snax NF",
+          "style": "Regular",
+          "cosine": -0.01572485826909542
+        },
+        {
+          "id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+          "family": "Fraunces",
+          "style": "Black",
+          "cosine": -0.04790448397397995
+        },
+        {
+          "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+          "family": "Rajdhani",
+          "style": "Regular",
+          "cosine": -0.04983184486627579
+        },
+        {
+          "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+          "family": "Wyvern Hvy",
+          "style": "Regular",
+          "cosine": -0.06835250556468964
+        },
+        {
+          "id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+          "family": "Atkinson Hyperlegible",
+          "style": "Regular",
+          "cosine": -0.07283499836921692
+        },
+        {
+          "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+          "family": "IBM Plex Sans",
+          "style": "Regular",
+          "cosine": -0.07537780702114105
+        },
+        {
+          "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+          "family": "PP Pangram Sans",
+          "style": "Compact Extrabold",
+          "cosine": -0.08032923936843872
+        },
+        {
+          "id": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b:0",
+          "family": "Source Serif 4",
+          "style": "Regular",
+          "cosine": -0.10078053176403046
+        },
+        {
+          "id": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440:0",
+          "family": "Literata",
+          "style": "Regular",
+          "cosine": -0.10918299853801727
+        },
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "cosine": -0.1295546293258667
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "cosine": -0.13082735240459442
+        }
+      ],
+      "official_aug8": [
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "cosine": 0.05854671075940132
+        },
+        {
+          "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+          "family": "Taskforce Outline CondItalic",
+          "style": "Outline CondItalic",
+          "cosine": 0.05684977024793625
+        },
+        {
+          "id": "9286f109c46ced8a32f82d04550bfb6f4a5f968ba02e974f3b9ce0d6541d8806:0",
+          "family": "Taskforce Outline",
+          "style": "Outline",
+          "cosine": 0.05276782065629959
+        },
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "cosine": 0.05270664021372795
+        },
+        {
+          "id": "0b57f06624ebb46aafd9185990b195574fc5c285d6d249e768f24b58d8bd1419:0",
+          "family": "Extra virgin",
+          "style": "Regular",
+          "cosine": 0.018038176000118256
+        },
+        {
+          "id": "dd4109b1c77dd10c6dbc45b3da9ba922b67a6eff86d63d94d5f0fd150a1c0a4f:0",
+          "family": "Mondo Redondo NF",
+          "style": "Regular",
+          "cosine": 0.011674398556351662
+        },
+        {
+          "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+          "family": "Offshore Banking Business",
+          "style": "Regular",
+          "cosine": 0.006467096507549286
+        },
+        {
+          "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+          "family": "Rajdhani",
+          "style": "Regular",
+          "cosine": -0.012219749391078949
+        },
+        {
+          "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+          "family": "Fatty Snax NF",
+          "style": "Regular",
+          "cosine": -0.014695439487695694
+        },
+        {
+          "id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+          "family": "Fraunces",
+          "style": "Black",
+          "cosine": -0.02059905044734478
+        },
+        {
+          "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+          "family": "PP Pangram Sans",
+          "style": "Compact Extrabold",
+          "cosine": -0.030380811542272568
+        },
+        {
+          "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+          "family": "Wyvern Hvy",
+          "style": "Regular",
+          "cosine": -0.0334196463227272
+        },
+        {
+          "id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+          "family": "Atkinson Hyperlegible",
+          "style": "Regular",
+          "cosine": -0.035519588738679886
+        },
+        {
+          "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+          "family": "IBM Plex Sans",
+          "style": "Regular",
+          "cosine": -0.036705322563648224
+        },
+        {
+          "id": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440:0",
+          "family": "Literata",
+          "style": "Regular",
+          "cosine": -0.052185192704200745
+        },
+        {
+          "id": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b:0",
+          "family": "Source Serif 4",
+          "style": "Regular",
+          "cosine": -0.057929329574108124
+        },
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "cosine": -0.05918944627046585
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "cosine": -0.05957470461726189
+        }
+      ],
+      "ours_aug8": [
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "cosine": 0.07764637470245361
+        },
+        {
+          "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+          "family": "Taskforce Outline CondItalic",
+          "style": "Outline CondItalic",
+          "cosine": 0.06981146335601807
+        },
+        {
+          "id": "9286f109c46ced8a32f82d04550bfb6f4a5f968ba02e974f3b9ce0d6541d8806:0",
+          "family": "Taskforce Outline",
+          "style": "Outline",
+          "cosine": 0.06702218949794769
+        },
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "cosine": 0.06687650829553604
+        },
+        {
+          "id": "dd4109b1c77dd10c6dbc45b3da9ba922b67a6eff86d63d94d5f0fd150a1c0a4f:0",
+          "family": "Mondo Redondo NF",
+          "style": "Regular",
+          "cosine": 0.03046802245080471
+        },
+        {
+          "id": "0b57f06624ebb46aafd9185990b195574fc5c285d6d249e768f24b58d8bd1419:0",
+          "family": "Extra virgin",
+          "style": "Regular",
+          "cosine": 0.021231813356280327
+        },
+        {
+          "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+          "family": "Fatty Snax NF",
+          "style": "Regular",
+          "cosine": 0.00936468131840229
+        },
+        {
+          "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+          "family": "Offshore Banking Business",
+          "style": "Regular",
+          "cosine": 0.006167560815811157
+        },
+        {
+          "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+          "family": "Rajdhani",
+          "style": "Regular",
+          "cosine": -0.00362444669008255
+        },
+        {
+          "id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+          "family": "Atkinson Hyperlegible",
+          "style": "Regular",
+          "cosine": -0.008305966854095459
+        },
+        {
+          "id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+          "family": "Fraunces",
+          "style": "Black",
+          "cosine": -0.011025933548808098
+        },
+        {
+          "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+          "family": "IBM Plex Sans",
+          "style": "Regular",
+          "cosine": -0.015910159796476364
+        },
+        {
+          "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+          "family": "PP Pangram Sans",
+          "style": "Compact Extrabold",
+          "cosine": -0.016333263367414474
+        },
+        {
+          "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+          "family": "Wyvern Hvy",
+          "style": "Regular",
+          "cosine": -0.022960923612117767
+        },
+        {
+          "id": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b:0",
+          "family": "Source Serif 4",
+          "style": "Regular",
+          "cosine": -0.034839894622564316
+        },
+        {
+          "id": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440:0",
+          "family": "Literata",
+          "style": "Regular",
+          "cosine": -0.03652375191450119
+        },
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "cosine": -0.06348339468240738
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "cosine": -0.06416154652833939
+        }
+      ]
+    },
+    "warm humanist font": {
+      "stored_full": [
+        {
+          "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+          "family": "PP Pangram Sans",
+          "style": "Compact Extrabold",
+          "cosine": 0.05364733934402466
+        },
+        {
+          "id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+          "family": "Fraunces",
+          "style": "Black",
+          "cosine": 0.05075417086482048
+        },
+        {
+          "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+          "family": "Wyvern Hvy",
+          "style": "Regular",
+          "cosine": 0.045054372400045395
+        },
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "cosine": 0.04094807803630829
+        },
+        {
+          "id": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440:0",
+          "family": "Literata",
+          "style": "Regular",
+          "cosine": 0.040737517178058624
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "cosine": 0.04021501541137695
+        },
+        {
+          "id": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b:0",
+          "family": "Source Serif 4",
+          "style": "Regular",
+          "cosine": 0.03594810515642166
+        },
+        {
+          "id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+          "family": "Atkinson Hyperlegible",
+          "style": "Regular",
+          "cosine": 0.03332555294036865
+        },
+        {
+          "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+          "family": "IBM Plex Sans",
+          "style": "Regular",
+          "cosine": 0.026299599558115005
+        },
+        {
+          "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+          "family": "Offshore Banking Business",
+          "style": "Regular",
+          "cosine": 0.021110210567712784
+        },
+        {
+          "id": "dd4109b1c77dd10c6dbc45b3da9ba922b67a6eff86d63d94d5f0fd150a1c0a4f:0",
+          "family": "Mondo Redondo NF",
+          "style": "Regular",
+          "cosine": 0.01825801283121109
+        },
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "cosine": 0.010061938315629959
+        },
+        {
+          "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+          "family": "Fatty Snax NF",
+          "style": "Regular",
+          "cosine": 0.004747305065393448
+        },
+        {
+          "id": "0b57f06624ebb46aafd9185990b195574fc5c285d6d249e768f24b58d8bd1419:0",
+          "family": "Extra virgin",
+          "style": "Regular",
+          "cosine": 0.00024896860122680664
+        },
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "cosine": -0.010797038674354553
+        },
+        {
+          "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+          "family": "Rajdhani",
+          "style": "Regular",
+          "cosine": -0.023828759789466858
+        },
+        {
+          "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+          "family": "Taskforce Outline CondItalic",
+          "style": "Outline CondItalic",
+          "cosine": -0.030670832842588425
+        },
+        {
+          "id": "9286f109c46ced8a32f82d04550bfb6f4a5f968ba02e974f3b9ce0d6541d8806:0",
+          "family": "Taskforce Outline",
+          "style": "Outline",
+          "cosine": -0.037405870854854584
+        }
+      ],
+      "official_center": [
+        {
+          "id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+          "family": "Fraunces",
+          "style": "Black",
+          "cosine": 0.05592219531536102
+        },
+        {
+          "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+          "family": "PP Pangram Sans",
+          "style": "Compact Extrabold",
+          "cosine": 0.04943925514817238
+        },
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "cosine": 0.04893112927675247
+        },
+        {
+          "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+          "family": "Wyvern Hvy",
+          "style": "Regular",
+          "cosine": 0.047084007412195206
+        },
+        {
+          "id": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440:0",
+          "family": "Literata",
+          "style": "Regular",
+          "cosine": 0.0398506335914135
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "cosine": 0.036724288016557693
+        },
+        {
+          "id": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b:0",
+          "family": "Source Serif 4",
+          "style": "Regular",
+          "cosine": 0.03284095227718353
+        },
+        {
+          "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+          "family": "IBM Plex Sans",
+          "style": "Regular",
+          "cosine": 0.024774260818958282
+        },
+        {
+          "id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+          "family": "Atkinson Hyperlegible",
+          "style": "Regular",
+          "cosine": 0.023937230929732323
+        },
+        {
+          "id": "dd4109b1c77dd10c6dbc45b3da9ba922b67a6eff86d63d94d5f0fd150a1c0a4f:0",
+          "family": "Mondo Redondo NF",
+          "style": "Regular",
+          "cosine": 0.014197815209627151
+        },
+        {
+          "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+          "family": "Offshore Banking Business",
+          "style": "Regular",
+          "cosine": 0.01354682445526123
+        },
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "cosine": 0.012654401361942291
+        },
+        {
+          "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+          "family": "Fatty Snax NF",
+          "style": "Regular",
+          "cosine": 0.0110279880464077
+        },
+        {
+          "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+          "family": "Taskforce Outline CondItalic",
+          "style": "Outline CondItalic",
+          "cosine": -0.00884929671883583
+        },
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "cosine": -0.008958764374256134
+        },
+        {
+          "id": "0b57f06624ebb46aafd9185990b195574fc5c285d6d249e768f24b58d8bd1419:0",
+          "family": "Extra virgin",
+          "style": "Regular",
+          "cosine": -0.013277210295200348
+        },
+        {
+          "id": "9286f109c46ced8a32f82d04550bfb6f4a5f968ba02e974f3b9ce0d6541d8806:0",
+          "family": "Taskforce Outline",
+          "style": "Outline",
+          "cosine": -0.013534445315599442
+        },
+        {
+          "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+          "family": "Rajdhani",
+          "style": "Regular",
+          "cosine": -0.03281194716691971
+        }
+      ],
+      "official_aug8": [
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "cosine": 0.04583144932985306
+        },
+        {
+          "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+          "family": "PP Pangram Sans",
+          "style": "Compact Extrabold",
+          "cosine": 0.04452808201313019
+        },
+        {
+          "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+          "family": "Wyvern Hvy",
+          "style": "Regular",
+          "cosine": 0.04256290942430496
+        },
+        {
+          "id": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440:0",
+          "family": "Literata",
+          "style": "Regular",
+          "cosine": 0.04146698862314224
+        },
+        {
+          "id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+          "family": "Fraunces",
+          "style": "Black",
+          "cosine": 0.040293287485837936
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "cosine": 0.039532288908958435
+        },
+        {
+          "id": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b:0",
+          "family": "Source Serif 4",
+          "style": "Regular",
+          "cosine": 0.03573362156748772
+        },
+        {
+          "id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+          "family": "Atkinson Hyperlegible",
+          "style": "Regular",
+          "cosine": 0.025128930807113647
+        },
+        {
+          "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+          "family": "IBM Plex Sans",
+          "style": "Regular",
+          "cosine": 0.021630026400089264
+        },
+        {
+          "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+          "family": "Offshore Banking Business",
+          "style": "Regular",
+          "cosine": 0.013777080923318863
+        },
+        {
+          "id": "dd4109b1c77dd10c6dbc45b3da9ba922b67a6eff86d63d94d5f0fd150a1c0a4f:0",
+          "family": "Mondo Redondo NF",
+          "style": "Regular",
+          "cosine": 0.011370796710252762
+        },
+        {
+          "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+          "family": "Fatty Snax NF",
+          "style": "Regular",
+          "cosine": 0.0014897286891937256
+        },
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "cosine": 0.0014351308345794678
+        },
+        {
+          "id": "0b57f06624ebb46aafd9185990b195574fc5c285d6d249e768f24b58d8bd1419:0",
+          "family": "Extra virgin",
+          "style": "Regular",
+          "cosine": -0.0026705488562583923
+        },
+        {
+          "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+          "family": "Taskforce Outline CondItalic",
+          "style": "Outline CondItalic",
+          "cosine": -0.010866053402423859
+        },
+        {
+          "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+          "family": "Rajdhani",
+          "style": "Regular",
+          "cosine": -0.013936508446931839
+        },
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "cosine": -0.016493994742631912
+        },
+        {
+          "id": "9286f109c46ced8a32f82d04550bfb6f4a5f968ba02e974f3b9ce0d6541d8806:0",
+          "family": "Taskforce Outline",
+          "style": "Outline",
+          "cosine": -0.017763614654541016
+        }
+      ],
+      "ours_aug8": [
+        {
+          "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+          "family": "PP Pangram Sans",
+          "style": "Compact Extrabold",
+          "cosine": 0.053165677934885025
+        },
+        {
+          "id": "36244e91159a268a8ef2875cb70a957058d7c1c83bc64969b98c8e3574968025:0",
+          "family": "Lander Tall",
+          "style": "Regular",
+          "cosine": 0.051905326545238495
+        },
+        {
+          "id": "9d8b84cc8a640e7626b86a2aec2df256b93b408ac17e8d0be3aa2df5277291f3:0",
+          "family": "Wyvern Hvy",
+          "style": "Regular",
+          "cosine": 0.051704272627830505
+        },
+        {
+          "id": "b852b46eaea830487446436f832dd95fcb7bde65894c0c4b71d54e93a8ef3237:0",
+          "family": "Lander Grande",
+          "style": "Regular",
+          "cosine": 0.04873446747660637
+        },
+        {
+          "id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+          "family": "Fraunces",
+          "style": "Black",
+          "cosine": 0.046410806477069855
+        },
+        {
+          "id": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440:0",
+          "family": "Literata",
+          "style": "Regular",
+          "cosine": 0.04573051631450653
+        },
+        {
+          "id": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b:0",
+          "family": "Source Serif 4",
+          "style": "Regular",
+          "cosine": 0.041851408779621124
+        },
+        {
+          "id": "7fb917c89019896d0b52ee84b7cbb3304c18cb90b19a62f5e32712bd23e97669:0",
+          "family": "Atkinson Hyperlegible",
+          "style": "Regular",
+          "cosine": 0.03744644299149513
+        },
+        {
+          "id": "36f50919fa8757ed34edae584c69c4127c9fbb805d43eccf166e6dfa9eaa8f3a:0",
+          "family": "IBM Plex Sans",
+          "style": "Regular",
+          "cosine": 0.03261932358145714
+        },
+        {
+          "id": "dd4109b1c77dd10c6dbc45b3da9ba922b67a6eff86d63d94d5f0fd150a1c0a4f:0",
+          "family": "Mondo Redondo NF",
+          "style": "Regular",
+          "cosine": 0.020709194242954254
+        },
+        {
+          "id": "11134b76e93d935b0c5db10cc250177e6178141083a03554e9f67ebdc910e8f7:0",
+          "family": "Offshore Banking Business",
+          "style": "Regular",
+          "cosine": 0.019701648503541946
+        },
+        {
+          "id": "acb0966111779708565d045f111b21c6f8cf895fbb5354781928236ec74cbfc5:0",
+          "family": "Fatty Snax NF",
+          "style": "Regular",
+          "cosine": 0.010569129139184952
+        },
+        {
+          "id": "c96cf4e8c22e5f40ce8e0267ff471593cb074912dc391975e9ee24dd85dd3a6a:0",
+          "family": "BlockedTop",
+          "style": "Regular",
+          "cosine": 0.006817445158958435
+        },
+        {
+          "id": "0b57f06624ebb46aafd9185990b195574fc5c285d6d249e768f24b58d8bd1419:0",
+          "family": "Extra virgin",
+          "style": "Regular",
+          "cosine": -0.000980481505393982
+        },
+        {
+          "id": "68a3ba44deaf4623464cc6b632c3b5bb160ec0c4540933b936a4c4da0647d62c:0",
+          "family": "Extechchop Shadow",
+          "style": "Shadow",
+          "cosine": -0.007325470447540283
+        },
+        {
+          "id": "6e1fc228a8318251a6e569502ec57bac1e4656c582f92f59ccecc4688e039b98:0",
+          "family": "Rajdhani",
+          "style": "Regular",
+          "cosine": -0.012330077588558197
+        },
+        {
+          "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+          "family": "Taskforce Outline CondItalic",
+          "style": "Outline CondItalic",
+          "cosine": -0.014121189713478088
+        },
+        {
+          "id": "9286f109c46ced8a32f82d04550bfb6f4a5f968ba02e974f3b9ce0d6541d8806:0",
+          "family": "Taskforce Outline",
+          "style": "Outline",
+          "cosine": -0.021651912480592728
+        }
+      ]
+    }
+  }
+}

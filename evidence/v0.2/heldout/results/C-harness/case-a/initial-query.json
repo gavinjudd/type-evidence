@@ -1,0 +1,27 @@
+{
+  "role": "body",
+  "query": "calm open humanist sans. Not playful; not condensed; not decorative.",
+  "text": "A different landing, the same crossing. Pendant les travaux, utilisez le quai est. La traversée dure toujours 8 minutes. From town / De la ville. From island / De l’île. 07:10 07:25 08:10 09:10 Besoin d’aide ?",
+  "weight": 400,
+  "italic": false,
+  "required_styles": [
+    {
+      "weight": 400,
+      "italic": false
+    },
+    {
+      "weight": 700,
+      "italic": false
+    }
+  ],
+  "size": 20,
+  "density": "balanced",
+  "audience": "residents and older ferry passengers reading English and French in a queue",
+  "medium": "740 px A5 printed service notice preview with numerical timetable",
+  "tone": "calm trustworthy practical welcoming",
+  "hierarchy": "service label, headline, dates, bilingual explanation, timetable, assistance",
+  "language": "fr",
+  "surroundings": "dark ink warm paper teal rule pale timetable rules",
+  "existing_id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+  "limit": 4
+}

@@ -103,7 +103,9 @@ All successful CLI output is JSON; errors use stderr and a nonzero exit status. 
 
 Font rights remain separate from aesthetic fit. Unknown rights stay unknown; an embedded open-license notice is evidence to review, not distribution permission. No font binaries or model weights are published in this repository or its review ZIP.
 
-See [architecture](docs/architecture.md), [collection additions](docs/collection-v2.md), [maintenance](docs/maintenance.md) and [versioned evidence](evidence/v0.2/). The FontCLIP adapter has CPU float32 parity evidence against the pinned upstream implementation. This checks the model adapter, not whether its recommendations improve design outcomes. The earlier [v0.1 evaluation](evidence/evaluation.md) is historical and does not evaluate the new visual/composition workflow.
+See [architecture](docs/architecture.md), [collection additions](docs/collection-v2.md), [maintenance](docs/maintenance.md) and the [visual review](evidence/v0.2/index.html). The FontCLIP adapter has CPU float32 parity evidence against the pinned upstream implementation. This checks the model adapter, not whether its recommendations improve design outcomes.
+
+In the [three-case held-out comparison](evidence/v0.2/heldout/README.md), the harness did not improve the final compositions over basic access to the same fonts. All nine finals passed exact-asset and measured layout checks. Semantic retrieval sometimes missed the intended tone; supplied visual references recovered more useful directions in a separate development study. The evidence retains these failures, the unchanged first-pass results, and separately labeled fixes. The earlier [v0.1 evaluation](evidence/evaluation.md) is historical.
 
 ## Development
 

@@ -36,7 +36,7 @@ The adapter uses newline-delimited stdio JSON-RPC and supports protocol versions
 
 ## A brief that can be acted on
 
-This is a complete `font_search` input. For CLI use, save the ordinary brief fields to JSON and pass `--brief`; `visual` is a separate CLI option.
+This is a complete `font_search` input. For CLI use, save it as JSON and pass `--brief`. Saved `visual` and `reference_image` settings are supported; explicit CLI flags override them.
 
 ```json
 {
@@ -83,7 +83,19 @@ Inspect the requested script at the actual size and settings. The embedding repr
 
 ## Recover from a weak first result
 
-Keep the brief fixed and use `pagination.next_offset` for a new page of distinct family alternatives. The existing baseline, if eligible, retains its reserved slot. Change one design direction at a time, reset `offset` to 0, and use:
+Inspect the initial options in a shared-text comparison. If the direction is useful, keep the brief fixed and use `pagination.next_offset` for distinct family alternatives. If the actual letterforms miss the intent, select an existing font or a typography crop that expresses the desired direction, then make a reference-led pass. Clear the failed `query` and `tone` for this first pass, retain the real text and required styles, and keep the eligible current font as `existing_id`. Reset `offset` to 0 whenever the brief changes.
+
+For example, find and inspect a narrow technical anchor, then use either its exact ID or a crop dominated by the intended typography. Replace `ANCHOR_ID` and `BASELINE_ID` with verified IDs:
+
+```sh
+type-evidence search --family 'Rajdhani' --text 'Review 24 requests' --weight 400 --upright --visual off --limit 4
+type-evidence inspect ANCHOR_ID
+type-evidence search --similar-to ANCHOR_ID --existing-id BASELINE_ID --role ui --text 'Review 24 requests' --weight 400 --upright --visual on --limit 4
+type-evidence search --reference-image /absolute/path/type-crop.png --existing-id BASELINE_ID --role ui --text 'Review 24 requests' --weight 400 --upright --visual on --limit 4
+type-evidence compare BASELINE_ID CANDIDATE_ID_1 CANDIDATE_ID_2 --text 'Review 24 requests' --sizes 15 24 48 --out library/reference-study
+```
+
+Use one reference route per first pass, inspect its results, and refine the selected direction. A reference supplies an explicit visual preference; it is not evidence that the original semantic query succeeded. In the [recorded recovery study](../evidence/v0.2/retrieval-recovery/README.md), references produced more relevant letterforms while extra negations and `avoid_like` sometimes returned unrelated faces or pictograms. Do not keep adding negatives blindly. These controls remain useful when a rendered comparison confirms the change:
 
 - `similar_to: "EXACT_ID"` for neighbors, or `avoid_like: "EXACT_ID"` to move away from a reference.
 - `exclude_families: ["Family A", "Family B"]` to leave entire families out; `exclude` operates on exact IDs.

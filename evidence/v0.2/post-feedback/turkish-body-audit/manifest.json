@@ -1,0 +1,607 @@
+{
+  "schema_version": 1,
+  "kind": "exact-font-comparison",
+  "text": "1 l I İ ı i — İplik, iğne, ölçü, güç, şaşırma.",
+  "text_sha256": "20effb689e1f6cadd5e517b10afeb719dfcc222a08b0b42536a7188f0553760a",
+  "original_text_sha256": "20effb689e1f6cadd5e517b10afeb719dfcc222a08b0b42536a7188f0553760a",
+  "text_transformations": [],
+  "settings": {
+    "sizes_px": [
+      18
+    ],
+    "requested_width_px": 1440,
+    "axes": {},
+    "features": {},
+    "feature_defaults": "HarfBuzz/OpenType defaults remain enabled unless explicitly overridden",
+    "direction": "inferred per line; same-direction LTR scripts itemized",
+    "language": "tr",
+    "input_runs": [
+      {
+        "scripts": [
+          "Latn"
+        ],
+        "direction": "ltr"
+      }
+    ],
+    "wrap": "whitespace boundaries only; text preserved"
+  },
+  "renderer": {
+    "backend": "HarfBuzz shaping + native FreeType grayscale outline rasterization",
+    "harfbuzz": "12.1.0",
+    "freetype": "2.13.2",
+    "freetype_py": "2.5.1",
+    "uharfbuzz": "0.52.0",
+    "fonttools": "4.60.2",
+    "pillow": "11.3.0",
+    "python": "3.12.13",
+    "supersampling": 4,
+    "downsampling": "Lanczos",
+    "hinting": "none",
+    "position_quantization_px": 0.25,
+    "labels": "Pillow bundled default font; labels are separate from candidate specimens"
+  },
+  "no_fallback": {
+    "verified": true,
+    "system_font_lookup": false,
+    "glyph_zero_count": 0,
+    "statement": "Every specimen glyph is shaped by HarfBuzz and drawn by FreeType from its exact verified source face. No system lookup, substitute font, or fallback font is used. Labels and page UI are separate."
+  },
+  "limitations": [
+    "Specimens use unhinted monochrome outlines; they do not predict browser, game engine, printer, or OS text rasterization.",
+    "LTR scripts are itemized in source order; Common/Inherited characters follow neighboring script runs. Bidirectional paragraphs, mixed-script RTL lines, vertical writing, Unicode variation selectors, and color/bitmap fonts are rejected.",
+    "Line wrapping preserves whitespace and does not implement language-specific hyphenation. All ink bounds receive padding; oversized output is rejected instead of clipped.",
+    "Nonvisual evidence describes measured geometry, coverage, shaping, and settings. It does not claim aesthetic quality, accessibility, or licensing clearance."
+  ],
+  "fonts": [
+    {
+      "id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "family": "Source Sans Pro",
+      "style": "Regular",
+      "sha256": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3",
+      "face_index": 0,
+      "source_bytes": 269108,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Adobe Systems Incorporated"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Paul D. Hunt"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "http://www.adobe.com/type"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "http://scripts.sil.org/OFL"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": [
+          {
+            "source_id": "bekah",
+            "path": "Designers/Paul D. Hunt/Source/Sans Pro/OFL.txt",
+            "sha256": "8ce06420e0277f1b28f514473263688414965ffdc13c3de4f1f0547a6d45f10b",
+            "scope": "nearby-file; applicability unverified"
+          }
+        ]
+      },
+      "axes": {},
+      "axis_value_sources": {},
+      "coverage": {
+        "required_codepoints": [
+          32,
+          44,
+          46,
+          49,
+          73,
+          97,
+          101,
+          103,
+          105,
+          107,
+          108,
+          109,
+          110,
+          112,
+          114,
+          231,
+          246,
+          252,
+          287,
+          304,
+          305,
+          351,
+          8212
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "decompressed_in_memory": false,
+      "outline_tables": [
+        "glyf"
+      ],
+      "measurements": [
+        {
+          "size_px": 18,
+          "line_count": 1,
+          "line_height_px": 24.3,
+          "ascender_px": 17.712,
+          "descender_px": 4.914,
+          "ink_bounds_px": [
+            1.25,
+            2.75,
+            290.75,
+            22.0
+          ],
+          "canvas_px": [
+            300,
+            31
+          ],
+          "ink_offset_px": [
+            4.0,
+            4.0
+          ],
+          "clipped": false,
+          "overflow_handling": "canvas expands to include all ink; whitespace wrapping; 4096px unbreakable-line limit",
+          "mask_sha256": "c115e0ce55668167670585b10837a95b0090b122837d98900000622d7066aec8",
+          "lines": [
+            {
+              "text": "1 l I İ ı i — İplik, iğne, ölçü, güç, şaşırma.",
+              "direction": "ltr",
+              "script": "Latn",
+              "language": "tr",
+              "script_runs": [
+                {
+                  "start": 0,
+                  "end": 46,
+                  "script": "Latn",
+                  "direction": "ltr",
+                  "glyph_count": 46
+                }
+              ],
+              "glyphs": [
+                {
+                  "glyph_id": 1059,
+                  "cluster": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "x_advance": 8.946,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1,
+                  "cluster": 1,
+                  "x": 8.946,
+                  "y": 0.0,
+                  "x_advance": 3.5999999999999996,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 39,
+                  "cluster": 2,
+                  "x": 12.546,
+                  "y": 0.0,
+                  "x_advance": 4.59,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1,
+                  "cluster": 3,
+                  "x": 17.136,
+                  "y": 0.0,
+                  "x_advance": 3.5999999999999996,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 10,
+                  "cluster": 4,
+                  "x": 20.735999999999997,
+                  "y": 0.0,
+                  "x_advance": 4.734,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1,
+                  "cluster": 5,
+                  "x": 25.47,
+                  "y": 0.0,
+                  "x_advance": 3.5999999999999996,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 127,
+                  "cluster": 6,
+                  "x": 29.069999999999997,
+                  "y": 0.0,
+                  "x_advance": 4.734,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1,
+                  "cluster": 7,
+                  "x": 33.803999999999995,
+                  "y": 0.0,
+                  "x_advance": 3.5999999999999996,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 327,
+                  "cluster": 8,
+                  "x": 37.403999999999996,
+                  "y": 0.0,
+                  "x_advance": 4.428,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1,
+                  "cluster": 9,
+                  "x": 41.831999999999994,
+                  "y": 0.0,
+                  "x_advance": 3.5999999999999996,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1177,
+                  "cluster": 10,
+                  "x": 45.431999999999995,
+                  "y": 0.0,
+                  "x_advance": 4.428,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1,
+                  "cluster": 11,
+                  "x": 49.86,
+                  "y": 0.0,
+                  "x_advance": 3.5999999999999996,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1126,
+                  "cluster": 12,
+                  "x": 53.459999999999994,
+                  "y": 0.0,
+                  "x_advance": 14.399999999999999,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1,
+                  "cluster": 13,
+                  "x": 67.86,
+                  "y": 0.0,
+                  "x_advance": 3.5999999999999996,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 127,
+                  "cluster": 14,
+                  "x": 71.46,
+                  "y": 0.0,
+                  "x_advance": 4.734,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 43,
+                  "cluster": 15,
+                  "x": 76.19399999999999,
+                  "y": 0.0,
+                  "x_advance": 9.989999999999998,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 39,
+                  "cluster": 16,
+                  "x": 86.184,
+                  "y": 0.0,
+                  "x_advance": 4.59,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1177,
+                  "cluster": 17,
+                  "x": 90.77399999999999,
+                  "y": 0.0,
+                  "x_advance": 4.428,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 38,
+                  "cluster": 18,
+                  "x": 95.202,
+                  "y": 0.0,
+                  "x_advance": 9.144,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1103,
+                  "cluster": 19,
+                  "x": 104.34599999999999,
+                  "y": 0.0,
+                  "x_advance": 4.481999999999999,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1,
+                  "cluster": 20,
+                  "x": 108.82799999999999,
+                  "y": 0.0,
+                  "x_advance": 3.5999999999999996,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1177,
+                  "cluster": 21,
+                  "x": 112.428,
+                  "y": 0.0,
+                  "x_advance": 4.428,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 304,
+                  "cluster": 22,
+                  "x": 116.856,
+                  "y": 0.0,
+                  "x_advance": 9.072,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 41,
+                  "cluster": 23,
+                  "x": 125.928,
+                  "y": 0.0,
+                  "x_advance": 9.846,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 32,
+                  "cluster": 24,
+                  "x": 135.774,
+                  "y": 0.0,
+                  "x_advance": 8.927999999999999,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1103,
+                  "cluster": 25,
+                  "x": 144.702,
+                  "y": 0.0,
+                  "x_advance": 4.481999999999999,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1,
+                  "cluster": 26,
+                  "x": 149.184,
+                  "y": 0.0,
+                  "x_advance": 3.5999999999999996,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 357,
+                  "cluster": 27,
+                  "x": 152.784,
+                  "y": 0.0,
+                  "x_advance": 9.755999999999998,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 39,
+                  "cluster": 28,
+                  "x": 162.54,
+                  "y": 0.0,
+                  "x_advance": 4.59,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 275,
+                  "cluster": 29,
+                  "x": 167.13,
+                  "y": 0.0,
+                  "x_advance": 8.208,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 405,
+                  "cluster": 30,
+                  "x": 175.338,
+                  "y": 0.0,
+                  "x_advance": 9.792,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1103,
+                  "cluster": 31,
+                  "x": 185.13,
+                  "y": 0.0,
+                  "x_advance": 4.481999999999999,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1,
+                  "cluster": 32,
+                  "x": 189.612,
+                  "y": 0.0,
+                  "x_advance": 3.5999999999999996,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 34,
+                  "cluster": 33,
+                  "x": 193.212,
+                  "y": 0.0,
+                  "x_advance": 9.072,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 405,
+                  "cluster": 34,
+                  "x": 202.284,
+                  "y": 0.0,
+                  "x_advance": 9.792,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 275,
+                  "cluster": 35,
+                  "x": 212.076,
+                  "y": 0.0,
+                  "x_advance": 8.208,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1103,
+                  "cluster": 36,
+                  "x": 220.284,
+                  "y": 0.0,
+                  "x_advance": 4.481999999999999,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1,
+                  "cluster": 37,
+                  "x": 224.766,
+                  "y": 0.0,
+                  "x_advance": 3.5999999999999996,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 389,
+                  "cluster": 38,
+                  "x": 228.36599999999999,
+                  "y": 0.0,
+                  "x_advance": 7.542,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 28,
+                  "cluster": 39,
+                  "x": 235.908,
+                  "y": 0.0,
+                  "x_advance": 9.072,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 389,
+                  "cluster": 40,
+                  "x": 244.98,
+                  "y": 0.0,
+                  "x_advance": 7.542,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 327,
+                  "cluster": 41,
+                  "x": 252.522,
+                  "y": 0.0,
+                  "x_advance": 4.428,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 45,
+                  "cluster": 42,
+                  "x": 256.95,
+                  "y": 0.0,
+                  "x_advance": 6.2459999999999996,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 40,
+                  "cluster": 43,
+                  "x": 263.19599999999997,
+                  "y": 0.0,
+                  "x_advance": 14.921999999999999,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 28,
+                  "cluster": 44,
+                  "x": 278.118,
+                  "y": 0.0,
+                  "x_advance": 9.072,
+                  "y_advance": 0.0
+                },
+                {
+                  "glyph_id": 1102,
+                  "cluster": 45,
+                  "x": 287.19,
+                  "y": 0.0,
+                  "x_advance": 4.481999999999999,
+                  "y_advance": 0.0
+                }
+              ],
+              "advance_px": [
+                291.67199999999997,
+                0.0
+              ],
+              "paragraph": 0,
+              "baseline_px": 17.712,
+              "ink_bounds_px": [
+                1.25,
+                2.75,
+                290.75,
+                22.0
+              ]
+            }
+          ]
+        }
+      ],
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "image": {
+        "file": "specimen-01-c9868de61ff2.png",
+        "sha256": "204fac9ce55228db8648e8b5b57c23200dbabd41d7e7cf885eec0e6699c037a0",
+        "width": 1440,
+        "height": 302
+      }
+    }
+  ],
+  "images": [
+    {
+      "file": "comparison.png",
+      "sha256": "5fd606a6b956664b900acac6b87245b40ce14f7a54128a7321bb7ac99a97d83c",
+      "width": 1440,
+      "height": 302
+    },
+    {
+      "file": "specimen-01-c9868de61ff2.png",
+      "sha256": "204fac9ce55228db8648e8b5b57c23200dbabd41d7e7cf885eec0e6699c037a0",
+      "width": 1440,
+      "height": 302
+    }
+  ],
+  "outputs": {
+    "html": "index.html",
+    "comparison": "comparison.png",
+    "manifest": "manifest.json",
+    "specimens": [
+      "specimen-01-c9868de61ff2.png"
+    ]
+  },
+  "html_sha256": "a6a2f2d6f9b16fdce8ee9b98264c6fab1773a9d43b6d471305aecfb2156e75f2"
+}

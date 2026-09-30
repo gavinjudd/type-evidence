@@ -1,0 +1,795 @@
+{
+  "schema_version": 1,
+  "case_id": "case-b",
+  "condition": "C-harness",
+  "evaluator": {
+    "model": "inherited GPT-6 agent; exact picker identity unavailable",
+    "effort": "inherited",
+    "environment": "same local project .venv, same agent across conditions"
+  },
+  "inputs": {
+    "brief_sha256": "6a8bec9df832b13fa0e6ddafa19a3d983c203f63c5161595471a0b7857cdf00f",
+    "catalog_sha256": "5fe03fd4779bc83016766254cfbaa9743cbc5df0d20f275aea5f4c7f53245740",
+    "source_commits": {
+      "bekah": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+      "extsalt": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+      "google-curated-2026": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+      "arrowtype-recursive-1.085": "6d491202cea5cf6a493ef710cbef2527b9b08939"
+    },
+    "visual_index_identity": {
+      "freeze_file": "visual-firstpass-freeze.json",
+      "freeze_sha256": "a987e9dcb7f043e44bd94a757f4fd9359ab143e525b14a4d61295d2e9331ede9",
+      "source_commit": "13a915c2e8a9903b8927f525a4ba5e8a040b4344",
+      "index_file": "visual.sqlite",
+      "index_sha256": "181d5153fceb393ebcec4092d80aa33a1d79172d3385161b8bd290079fa79e4a",
+      "checkpoint_sha256": "c441277fbed4366d32d8fb65725189b97d3fe88bae5fe0648b969feea01bbb00",
+      "catalog_faces": 27520,
+      "indexed_faces": 26313,
+      "unindexed_faces": 1207,
+      "sample_script": "Latin",
+      "sample_axes": "default, varies by exact font; actual role axes recorded separately"
+    }
+  },
+  "budget": {
+    "active_minutes_limit": 8,
+    "information_operations_limit": 6,
+    "records_per_operation_limit": 12,
+    "option_render_limit_including_baseline": 4,
+    "final_revision_limit": 1,
+    "start_utc": "2026-09-30T16:49:20.310373+00:00",
+    "end_utc": "2026-09-30T16:51:21.721557+00:00",
+    "active_seconds": 121.411,
+    "actual_information_operations": 5,
+    "actual_records_seen": 20,
+    "actual_option_renders": 4,
+    "actual_final_revisions": 0,
+    "exceptions": [],
+    "paused_seconds": 0,
+    "timing_scope": "Shared brief/baseline familiarization and helper setup outside timed stages; all case-specific lookup, inspection, reasoning and refinement between logged active start/resume and stop.",
+    "returned_candidate_family_records": 20,
+    "face_records_including_resolved_companions": 20,
+    "max_face_records_including_resolved_companions_per_operation": 6,
+    "information_cap_note": "Candidate family rows counted as records; also audited exact returned face IDs including companions, never more than twelve per information operation. Render/inspection budget is additional to six information operations."
+  },
+  "sealed_plan": {
+    "path": "sealed-plan.json",
+    "sha256": "f1f9b9fd19434877493df870758c63c182316e455d3001c7d8d8717aee62487f",
+    "sealed_at_utc": "2026-09-30T16:50:44.653938+00:00",
+    "before_candidate_image_inspection": true
+  },
+  "families_seen": [
+    "Beam Rider Bold Laser",
+    "Cooper-Black-Stencil",
+    "FK Raster Grotesk",
+    "Joystix Gaunt",
+    "Keystone",
+    "New York Large",
+    "New York Medium",
+    "New York Small",
+    "Noto Serif",
+    "November",
+    "Orbikular",
+    "P22 Gauguin",
+    "Roboto",
+    "SF Intermosaic",
+    "SF Pixelate",
+    "SF Pixelate Shaded",
+    "Silkscreen"
+  ],
+  "candidates_explored": [
+    {
+      "family": [
+        "Roboto",
+        "SF Pixelate"
+      ],
+      "exact_ids": [
+        "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff:0",
+        "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0"
+      ],
+      "first_seen_in_condition": "C-harness",
+      "previously_familiar_self_report": false,
+      "rendered_composition": "pixelate/composition.png",
+      "inspected_at_project_size": true,
+      "observations": [
+        {
+          "pixelate": "Fully visible and readable at both sizes; blocky stepped contours signal games/digital nostalgia more than welcoming physical print exchange. Attractive but mismatched tone.",
+          "new-york": "Strong readable heavy serif title, but smooth conventional authority feels editorial/formal rather than playful independent studio.",
+          "cooper-stencil": "Rounded cut silhouettes remain the most tactile and playful; Polish support stays clear and visually subordinate; all title ink visible at quarter scale."
+        }
+      ],
+      "rejection_reason": "See concrete visual observations; feasible rendering did not surpass chosen contextual composition.",
+      "familiarity_before_study_by_family": {
+        "Roboto": true,
+        "SF Pixelate": false
+      }
+    },
+    {
+      "family": [
+        "New York Medium",
+        "Roboto"
+      ],
+      "exact_ids": [
+        "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "701913bcaa6ec4c7d612862fc8fcdacedefbce88833216b70ca7aecb52050da0:0",
+        "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0"
+      ],
+      "first_seen_in_condition": "C-harness",
+      "previously_familiar_self_report": true,
+      "rendered_composition": "new-york/composition.png",
+      "inspected_at_project_size": true,
+      "observations": [
+        {
+          "pixelate": "Fully visible and readable at both sizes; blocky stepped contours signal games/digital nostalgia more than welcoming physical print exchange. Attractive but mismatched tone.",
+          "new-york": "Strong readable heavy serif title, but smooth conventional authority feels editorial/formal rather than playful independent studio.",
+          "cooper-stencil": "Rounded cut silhouettes remain the most tactile and playful; Polish support stays clear and visually subordinate; all title ink visible at quarter scale."
+        }
+      ],
+      "rejection_reason": "See concrete visual observations; feasible rendering did not surpass chosen contextual composition.",
+      "familiarity_before_study_by_family": {
+        "New York Medium": true,
+        "Roboto": true
+      }
+    },
+    {
+      "family": [
+        "Cooper-Black-Stencil",
+        "Roboto"
+      ],
+      "exact_ids": [
+        "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3:0",
+        "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0"
+      ],
+      "first_seen_in_condition": "B-basic",
+      "previously_familiar_self_report": false,
+      "rendered_composition": "cooper-stencil/composition.png",
+      "inspected_at_project_size": true,
+      "observations": [
+        {
+          "pixelate": "Fully visible and readable at both sizes; blocky stepped contours signal games/digital nostalgia more than welcoming physical print exchange. Attractive but mismatched tone.",
+          "new-york": "Strong readable heavy serif title, but smooth conventional authority feels editorial/formal rather than playful independent studio.",
+          "cooper-stencil": "Rounded cut silhouettes remain the most tactile and playful; Polish support stays clear and visually subordinate; all title ink visible at quarter scale."
+        }
+      ],
+      "rejection_reason": null,
+      "familiarity_before_study_by_family": {
+        "Cooper-Black-Stencil": false,
+        "Roboto": true
+      }
+    }
+  ],
+  "discovery_failures": [],
+  "asset_failures": [],
+  "operational_failures": [],
+  "final": {
+    "baseline_retained": false,
+    "chosen_roles": {
+      "eyebrow": {
+        "id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+        "family": "Roboto",
+        "style": "Bold",
+        "sha256": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a",
+        "face_index": 0,
+        "size_px": 22,
+        "line_height_px": 30.799999999999997,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "en",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            47,
+            65,
+            67,
+            69,
+            73,
+            77,
+            78,
+            79,
+            80,
+            82,
+            83,
+            84,
+            87
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Bold.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Bold.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 700,
+        "actual_italic": false,
+        "line_height": 1.4
+      },
+      "title": {
+        "id": "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3:0",
+        "family": "Cooper-Black-Stencil",
+        "style": "Regular",
+        "sha256": "3da401e8a0822a47e24519e7d891e3a70e516e8ae9e189c856a7eb0236482ed3",
+        "face_index": 0,
+        "size_px": 160,
+        "line_height_px": 160.0,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "en",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            67,
+            70,
+            79,
+            84,
+            85
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "extsalt",
+          "path": "Cooper-Black-Stencil.ttf",
+          "url": "https://github.com/extsalt/10000-font-collection",
+          "commit": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+          "upstream_path": "Cooper-Black-Stencil.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "unknown",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "© Copyright SoftMaker Software GmbH and its licensors"
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "The typeface name is a trademark owned by SoftMaker Software GmbH and/or its licensors and may be registered in certain jurisdictions."
+            },
+            {
+              "kind": "embedded-name-8",
+              "text": "SoftMaker Software GmbH"
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "SoftMaker Software GmbH"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "http://www.softmaker.de"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.softmaker.de"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": []
+        },
+        "actual_weight": 400,
+        "actual_italic": false,
+        "line_height": 1.0
+      },
+      "dek": {
+        "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "family": "Roboto",
+        "style": "Regular",
+        "sha256": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed",
+        "face_index": 0,
+        "size_px": 37,
+        "line_height_px": 51.8,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "en",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            46,
+            65,
+            105,
+            110,
+            111,
+            112,
+            114,
+            116,
+            117
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 400,
+        "actual_italic": false,
+        "line_height": 1.4
+      },
+      "body": {
+        "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "family": "Roboto",
+        "style": "Regular",
+        "sha256": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed",
+        "face_index": 0,
+        "size_px": 31,
+        "line_height_px": 43.4,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "pl",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            44,
+            46,
+            56,
+            68,
+            80,
+            82,
+            97,
+            98,
+            99,
+            100,
+            101,
+            105,
+            106,
+            107,
+            108,
+            110,
+            111,
+            112,
+            114,
+            115,
+            116,
+            117,
+            119,
+            121,
+            122,
+            243,
+            281,
+            321,
+            347,
+            378
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 400,
+        "actual_italic": false,
+        "line_height": 1.4
+      },
+      "heading": {
+        "id": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a:0",
+        "family": "Roboto",
+        "style": "Bold",
+        "sha256": "c9cc991deb5d27f267830a19f2301eb164d9e61ec08669c1a1a291c5620ff40a",
+        "face_index": 0,
+        "size_px": 32,
+        "line_height_px": 44.8,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "pl",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            44,
+            47,
+            48,
+            49,
+            50,
+            55,
+            56,
+            58,
+            83,
+            97,
+            98,
+            100,
+            101,
+            105,
+            107,
+            110,
+            111,
+            112,
+            114,
+            116,
+            122,
+            378,
+            8211
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Bold.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Bold.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 700,
+        "actual_italic": false,
+        "line_height": 1.4
+      },
+      "caption": {
+        "id": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed:0",
+        "family": "Roboto",
+        "style": "Regular",
+        "sha256": "017c0be9aaa6d0359737e1fa762ad304c0e0107927faff5a6c1f415c7f5244ed",
+        "face_index": 0,
+        "size_px": 24,
+        "line_height_px": 33.599999999999994,
+        "color": "#262521",
+        "axes": {},
+        "axis_value_sources": {},
+        "features": {},
+        "language": "pl",
+        "direction": "inferred per line",
+        "coverage": {
+          "required_codepoints": [
+            32,
+            46,
+            75,
+            80,
+            87,
+            97,
+            99,
+            100,
+            101,
+            105,
+            106,
+            108,
+            109,
+            110,
+            111,
+            112,
+            114,
+            115,
+            116,
+            117,
+            119,
+            121,
+            122,
+            281,
+            347,
+            380
+          ],
+          "missing_codepoints": [],
+          "join_controls": [],
+          "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+        },
+        "glyph_zero_count": 0,
+        "asset_verified": true,
+        "provenance": {
+          "source_id": "bekah",
+          "path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "url": "https://github.com/bekahmcdonald/fonts",
+          "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+          "upstream_path": "Designers/Christian Robertson/Roboto/Standard/Roboto-Regular.ttf",
+          "container": "ttf"
+        },
+        "rights": {
+          "status": "embedded-open-license",
+          "evidence": [
+            {
+              "kind": "embedded-name-0",
+              "text": "Copyright 2011 Google Inc. All Rights Reserved."
+            },
+            {
+              "kind": "embedded-name-7",
+              "text": "Roboto is a trademark of Google."
+            },
+            {
+              "kind": "embedded-name-9",
+              "text": "Google"
+            },
+            {
+              "kind": "embedded-name-11",
+              "text": "Google.com"
+            },
+            {
+              "kind": "embedded-name-13",
+              "text": "Licensed under the Apache License, Version 2.0"
+            },
+            {
+              "kind": "embedded-name-14",
+              "text": "http://www.apache.org/licenses/LICENSE-2.0"
+            }
+          ],
+          "review_required": true,
+          "nearby_files": [
+            {
+              "source_id": "bekah",
+              "path": "Designers/Christian Robertson/Roboto/Standard/LICENSE.txt",
+              "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+              "scope": "nearby-file; applicability unverified"
+            }
+          ]
+        },
+        "actual_weight": 400,
+        "actual_italic": false,
+        "line_height": 1.4
+      }
+    },
+    "composition_spec": "cooper-stencil/spec.json",
+    "manifest": "cooper-stencil/manifest.json",
+    "image": "cooper-stencil/composition.png",
+    "implementation_recipe": "cooper-stencil/application.css",
+    "revision_reason": "No additional revision after inspection; preserve successful B settings and supporting hierarchy.",
+    "decision": "Retain B Cooper-Black-Stencil at160 with Roboto support. C found usable initial and refined title faces but neither matched the studio tone as closely. C ties B; both are subjectively preferred over the unaided Roboto title fallback.",
+    "counterargument": "SF Pixelate could imply screenprinting or modular stamps to another viewer, and New York is less literal than stencil. The preference is contextual self-assessment, not an objective quality result."
+  },
+  "objective_checks": [
+    {
+      "requirement": "Exact asset bytes and role text coverage; no synthetic style or fallback",
+      "result": "pass",
+      "evidence": "cooper-stencil/manifest.json roles and no_fallback; each exact face resolved and hashed immediately before compose."
+    },
+    {
+      "requirement": "Width, maximum height, no clipping or overlap",
+      "result": "pass",
+      "evidence": "Canvas [1000, 1260]; no renderer warnings; full composition visually inspected. Measured clipped blocks: 0; overlapping-line blocks: 0."
+    },
+    {
+      "requirement": "Native browser and physical print equivalence",
+      "result": "unverified",
+      "evidence": "Only exact compositor PNG inspected; CSS/HTML recipes not staged with font assets or browser-tested."
+    },
+    {
+      "requirement": "Title full/quarter visibility and Polish supporting accents",
+      "result": "pass",
+      "evidence": "Full-size and quarter PNGs opened; all Polish text validated by renderer."
+    }
+  ],
+  "subjective_assessment": {
+    "judge": "self",
+    "audience_context_fit": {
+      "score_1_to_5": 5,
+      "observation": "Memorable rounded stencil word suits community print exchange."
+    },
+    "tone": {
+      "score_1_to_5": 5,
+      "observation": "Tactile playful mass without distressed military effect."
+    },
+    "hierarchy": {
+      "score_1_to_5": 5,
+      "observation": "Title dominates at both scales; date/place remain easily locatable."
+    },
+    "role_pairing_coherence": {
+      "score_1_to_5": 4,
+      "observation": "Plain support balances the expressive title without competing."
+    },
+    "overall_preference": "Retain B Cooper-Black-Stencil at160 with Roboto support. C found usable initial and refined title faces but neither matched the studio tone as closely. C ties B; both are subjectively preferred over the unaided Roboto title fallback.",
+    "confidence": "moderate; single selecting-agent visual judgment",
+    "counterargument": "SF Pixelate could imply screenprinting or modular stamps to another viewer, and New York is less literal than stencil. The preference is contextual self-assessment, not an objective quality result."
+  },
+  "carryover": {
+    "reused_earlier_candidates": [
+      "Cooper-Black-Stencil first discovered and selected in B; exact same title face and160px size retained.",
+      "Roboto supporting faces from supplied baseline."
+    ],
+    "reused_earlier_layout_learnings": [
+      "B one-line title160 and unchanged information layout retained."
+    ],
+    "other": "Same evaluator; all unaided plans sealed before first exact lookup. Shared baseline familiarization occurred during setup."
+  },
+  "limitations": [
+    "Internal formative self-assessment; no causal or statistical proof of improved typography.",
+    "Same evaluator sees sequential conditions; later stages can benefit from familiarity.",
+    "Physical print and browser implementation unverified; font binaries intentionally not distributed.",
+    "Shared baseline and brief familiarization excluded from active timer as setup.",
+    "Failed render attempts consume an option slot conservatively.",
+    "C discovery uses rendered default-axis Latin samples; its ranking does not model every Turkish/French/Polish glyph or requested weight instance.",
+    "C application recipes include a coordinator HTML responsiveness change; PNG engine and retained final image bytes are unchanged. Browser rendering remains unverified.",
+    "Model process startup was included in active C query time; no held-out query used for warm-up."
+  ],
+  "protocol_violations": [],
+  "composition_failures": [
+    {
+      "option": "pixelate",
+      "kind": "subjective tone mismatch",
+      "observation": "Digital game association stronger than physical community printing."
+    },
+    {
+      "option": "new-york",
+      "kind": "subjective tone mismatch",
+      "observation": "Formal editorial authority does not provide desired playful tactile character."
+    }
+  ]
+}

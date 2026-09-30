@@ -71,6 +71,39 @@ def _axis(font, tag):
     return None
 
 
+def _style_words(font):
+    """Read explicit style words, excluding a literal family-name prefix.
+
+    Names are conflict evidence only, never a replacement for numeric metadata.
+    Camel-case splitting recognizes CondItalic without matching arbitrary
+    substrings such as an unrelated family named Blackbird.
+    """
+    family = _SPACE.sub(" ", str(font.get("family") or "")).strip()
+    words = set()
+    for field in ("style", "full_name"):
+        name = _SPACE.sub(" ", str(font.get(field) or "")).strip()
+        if family and name.casefold().startswith(family.casefold()):
+            suffix = name[len(family):]
+            if not suffix or not suffix[0].isalnum():
+                name = suffix
+        name = re.sub(r"([a-z])([A-Z])", r"\1 \2", name)
+        name = re.sub(r"([A-Z])([A-Z][a-z])", r"\1 \2", name)
+        words.update(re.findall(r"[a-z]+", name.casefold()))
+    return words
+
+
+def _weight_name_conflict(words, requested):
+    # Deliberately broad bands: naming conventions cannot establish an exact
+    # weight, but an explicit heavy style is incompatible with regular 400.
+    if words & {"bold", "semibold", "demibold", "extrabold", "ultrabold"} and requested < 600:
+        return True
+    if words & {"black", "heavy"} and requested < 700:
+        return True
+    if words & {"thin", "hairline", "light", "extralight", "ultralight"} and requested > 350:
+        return True
+    return False
+
+
 def _covers(font, codepoints):
     ranges = sorted((int(a), int(b)) for a, b in font.get("coverage", []))
     starts = [a for a, _ in ranges]
@@ -162,9 +195,7 @@ def _hard_constraints(font, brief, codepoints, family_styles):
         failures.append('no_usable_unicode_cmap')
     if 'family' in brief and _key(font.get('family')) != _key(brief['family']):
         failures.append('exact_family_name_mismatch')
-    name_slanted = bool(re.search(r'\b(italic|oblique|slanted|obl)\b', ' '.join(str(font.get(field, '')) for field in ('style', 'full_name')), re.I))
-    if 'italic' in brief and name_slanted and not font.get('italic'):
-        failures.append('style_metadata_conflict')
+    style_words = _style_words(font) if 'weight' in brief or 'italic' in brief else set()
     if font["id"] in brief.get("exclude", []):
         failures.append("explicitly_excluded")
     if _key(font.get("family")) in {_key(value) for value in brief.get("exclude_families", [])}:
@@ -174,17 +205,29 @@ def _hard_constraints(font, brief, codepoints, family_styles):
     if "weight" in brief:
         requested = brief["weight"]
         variable = _axis(font, "wght")
-        if variable and variable["min"] <= requested <= variable["max"]:
-            axes["wght"] = requested
-        elif font.get("weight") != requested:
-            failures.append("requested_weight_unavailable")
+        if variable:
+            if variable["min"] <= requested <= variable["max"]:
+                axes["wght"] = requested
+            else:
+                failures.append("requested_weight_unavailable")
+        else:
+            if font.get("weight") != requested:
+                failures.append("requested_weight_unavailable")
+            if _weight_name_conflict(style_words, requested):
+                failures.append("weight_metadata_conflict")
     if "italic" in brief:
         requested = brief["italic"]
         variable = _axis(font, "ital")
-        if variable and variable["min"] <= int(requested) <= variable["max"]:
-            axes["ital"] = int(requested)
-        elif bool(font.get("italic")) != requested:
-            failures.append("requested_italic_state_unavailable")
+        if variable:
+            if variable["min"] <= int(requested) <= variable["max"]:
+                axes["ital"] = int(requested)
+            else:
+                failures.append("requested_italic_state_unavailable")
+        else:
+            if bool(font.get("italic")) != requested:
+                failures.append("requested_italic_state_unavailable")
+            if style_words & {'italic', 'oblique', 'slanted', 'obl'} and not font.get('italic'):
+                failures.append('style_metadata_conflict')
     if "style" in brief and _key(font.get("style")) != _key(brief["style"]):
         failures.append("requested_style_name_unavailable")
     if "category" in brief and font.get("category", "unknown") != brief["category"]:
@@ -199,11 +242,13 @@ def _hard_constraints(font, brief, codepoints, family_styles):
 
 
 # Keep language interpretation deliberately inspectable. Negation scopes across
-# coordinated terms, but resets at punctuation or an explicit contrast. It is
+# coordinated terms, including comma lists, but resets at a clause boundary or
+# explicit positive transition. It is
 # not silently discarded before aliases or visual-semantic retrieval.
 _NEGATORS = {"not", "no", "without", "avoid", "avoiding", "neither", "less", "exclude", "excluding"}
 _CONTRAST = {"but", "however", "yet", "instead", "except"}
-_GRAMMAR = _NEGATORS | _CONTRAST | {"and", "or", "nor", "a", "an", "the", "too", "very", "rather"}
+_AFFIRMERS = {"prefer", "preferring", "want", "use", "include", "including"}
+_GRAMMAR = _NEGATORS | _CONTRAST | _AFFIRMERS | {"and", "or", "nor", "a", "an", "the", "too", "very", "rather"}
 
 
 def interpret_query(query):
@@ -218,8 +263,18 @@ def interpret_query(query):
     i = 0
     while i < len(tokens):
         token = tokens[i]
-        if token in {",", ";", ".", "!", "?", ":"} or token in _CONTRAST:
+        if token == ",":
+            i += 1
+            continue
+        if token in {";", ".", "!", "?", ":"} or token in _CONTRAST:
             negated = False
+            i += 1
+            continue
+        if token in _AFFIRMERS:
+            # "do not use X" stays negative; a new comma-led clause such as
+            # "avoid X, prefer Y" explicitly switches back to positive.
+            if i and tokens[i - 1] == ",":
+                negated = False
             i += 1
             continue
         if token in _NEGATORS:
@@ -257,6 +312,18 @@ def interpret_query(query):
         i += 1
     return {"positive": positive, "negative": negative,
             "unmodeled_positive": unknown_positive, "unmodeled_negative": unknown_negative}
+
+
+def interpret_brief(brief):
+    """Query and tone are independent clauses, shared by every ranker."""
+    result = {"positive": {}, "negative": {}, "unmodeled_positive": [], "unmodeled_negative": []}
+    for field in ("query", "tone"):
+        terms = interpret_query(brief.get(field, ""))
+        for polarity in ("positive", "negative"):
+            result[polarity].update(terms[polarity])
+            unknown = "unmodeled_" + polarity
+            result[unknown].extend(term for term in terms[unknown] if term not in result[unknown])
+    return result
 
 
 def _preference_match(font, preference, weight, italic):
@@ -505,7 +572,7 @@ def search(catalog, brief: dict, visual_index=None) -> dict:
             resolutions.append(dict(requested, id=ident, required_axes=applied))
         family_resolutions[family_key] = resolutions
     query = _key(brief.get("query"))
-    interpretation = interpret_query(" ".join(brief.get(field, "") for field in ("query", "tone")))
+    interpretation = interpret_brief(brief)
     query_terms = interpretation["positive"]
     eligible = []
     rejected = Counter()
@@ -611,7 +678,7 @@ def search(catalog, brief: dict, visual_index=None) -> dict:
             "negated_aliases": interpretation["negative"],
             "unmodeled_terms": sorted(set(interpretation["unmodeled_positive"] + interpretation["unmodeled_negative"]))[:20],
             "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases. The active visual adapter may interpret their appearance; inspect its evidence and render finalists." if visual_records else "Terms not interpreted by deterministic aliases; only literal name matching can use them without a visual adapter.",
-            "negation_scope": "Negation extends across coordinated terms until punctuation or an explicit contrast such as but. Ambiguous prose should be rewritten or checked against these reported terms.",
+            "negation_scope": "Query and tone are interpreted independently. Negation extends across comma-coordinated terms until a sentence/semicolon/colon boundary, an explicit contrast such as but, or a comma-led positive clause such as prefer or use. Check the reported polarity for ambiguous prose.",
             "unmodeled_positive": interpretation["unmodeled_positive"][:20],
             "unmodeled_negative": interpretation["unmodeled_negative"][:20],
             "visual_scoring_active": bool(visual_records),

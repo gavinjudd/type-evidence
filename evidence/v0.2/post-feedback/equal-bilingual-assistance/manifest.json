@@ -1,0 +1,5466 @@
+{
+  "schema_version": 1,
+  "kind": "exact-font-composition",
+  "title": "Harbour link notice",
+  "template": "interface",
+  "medium": "print-preview",
+  "canvas_px": [
+    740,
+    704
+  ],
+  "roles": {
+    "eyebrow": {
+      "id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "family": "Source Sans Pro",
+      "style": "Bold",
+      "sha256": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb",
+      "face_index": 0,
+      "size_px": 16,
+      "line_height_px": 22.4,
+      "color": "#202b30",
+      "axes": {},
+      "axis_value_sources": {},
+      "features": {},
+      "language": "en",
+      "direction": "inferred per line",
+      "coverage": {
+        "required_codepoints": [
+          32,
+          47,
+          65,
+          66,
+          68,
+          72,
+          73,
+          75,
+          76,
+          78,
+          79,
+          80,
+          82,
+          83,
+          84,
+          85
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Adobe Systems Incorporated"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Paul D. Hunt"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "http://www.adobe.com/type"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "http://scripts.sil.org/OFL"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": [
+          {
+            "source_id": "bekah",
+            "path": "Designers/Paul D. Hunt/Source/Sans Pro/OFL.txt",
+            "sha256": "8ce06420e0277f1b28f514473263688414965ffdc13c3de4f1f0547a6d45f10b",
+            "scope": "nearby-file; applicability unverified"
+          }
+        ]
+      }
+    },
+    "title": {
+      "id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "family": "Source Sans Pro",
+      "style": "Bold",
+      "sha256": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb",
+      "face_index": 0,
+      "size_px": 34,
+      "line_height_px": 40.8,
+      "color": "#202b30",
+      "axes": {},
+      "axis_value_sources": {},
+      "features": {},
+      "language": "en",
+      "direction": "inferred per line",
+      "coverage": {
+        "required_codepoints": [
+          32,
+          44,
+          46,
+          65,
+          97,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          108,
+          109,
+          110,
+          111,
+          114,
+          115,
+          116
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Adobe Systems Incorporated"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Paul D. Hunt"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "http://www.adobe.com/type"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "http://scripts.sil.org/OFL"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": [
+          {
+            "source_id": "bekah",
+            "path": "Designers/Paul D. Hunt/Source/Sans Pro/OFL.txt",
+            "sha256": "8ce06420e0277f1b28f514473263688414965ffdc13c3de4f1f0547a6d45f10b",
+            "scope": "nearby-file; applicability unverified"
+          }
+        ]
+      }
+    },
+    "body": {
+      "id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "family": "Source Sans Pro",
+      "style": "Regular",
+      "sha256": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3",
+      "face_index": 0,
+      "size_px": 22,
+      "line_height_px": 30.799999999999997,
+      "color": "#202b30",
+      "axes": {},
+      "axis_value_sources": {},
+      "features": {},
+      "language": "en",
+      "direction": "inferred per line",
+      "coverage": {
+        "required_codepoints": [
+          32,
+          46,
+          56,
+          84,
+          85,
+          97,
+          99,
+          100,
+          101,
+          103,
+          104,
+          105,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          114,
+          115,
+          116,
+          117,
+          119
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Adobe Systems Incorporated"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Paul D. Hunt"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "http://www.adobe.com/type"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "http://scripts.sil.org/OFL"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": [
+          {
+            "source_id": "bekah",
+            "path": "Designers/Paul D. Hunt/Source/Sans Pro/OFL.txt",
+            "sha256": "8ce06420e0277f1b28f514473263688414965ffdc13c3de4f1f0547a6d45f10b",
+            "scope": "nearby-file; applicability unverified"
+          }
+        ]
+      }
+    },
+    "body_fr": {
+      "id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "family": "Source Sans Pro",
+      "style": "Regular",
+      "sha256": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3",
+      "face_index": 0,
+      "size_px": 22,
+      "line_height_px": 30.799999999999997,
+      "color": "#202b30",
+      "axes": {},
+      "axis_value_sources": {},
+      "features": {},
+      "language": "fr",
+      "direction": "inferred per line",
+      "coverage": {
+        "required_codepoints": [
+          32,
+          44,
+          46,
+          56,
+          76,
+          80,
+          97,
+          100,
+          101,
+          105,
+          106,
+          108,
+          109,
+          110,
+          111,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          120,
+          122,
+          233
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Adobe Systems Incorporated"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Paul D. Hunt"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "http://www.adobe.com/type"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "http://scripts.sil.org/OFL"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": [
+          {
+            "source_id": "bekah",
+            "path": "Designers/Paul D. Hunt/Source/Sans Pro/OFL.txt",
+            "sha256": "8ce06420e0277f1b28f514473263688414965ffdc13c3de4f1f0547a6d45f10b",
+            "scope": "nearby-file; applicability unverified"
+          }
+        ]
+      }
+    },
+    "heading": {
+      "id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "family": "Source Sans Pro",
+      "style": "Bold",
+      "sha256": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb",
+      "face_index": 0,
+      "size_px": 21,
+      "line_height_px": 29.4,
+      "color": "#202b30",
+      "axes": {},
+      "axis_value_sources": {},
+      "features": {},
+      "language": "en",
+      "direction": "inferred per line",
+      "coverage": {
+        "required_codepoints": [
+          32,
+          47,
+          49,
+          50,
+          54,
+          79,
+          98,
+          99,
+          101,
+          111,
+          114,
+          116,
+          8211
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Adobe Systems Incorporated"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Paul D. Hunt"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "http://www.adobe.com/type"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "http://scripts.sil.org/OFL"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": [
+          {
+            "source_id": "bekah",
+            "path": "Designers/Paul D. Hunt/Source/Sans Pro/OFL.txt",
+            "sha256": "8ce06420e0277f1b28f514473263688414965ffdc13c3de4f1f0547a6d45f10b",
+            "scope": "nearby-file; applicability unverified"
+          }
+        ]
+      }
+    },
+    "time": {
+      "id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "family": "Source Sans Pro",
+      "style": "Bold",
+      "sha256": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb",
+      "face_index": 0,
+      "size_px": 24,
+      "line_height_px": 33.599999999999994,
+      "color": "#202b30",
+      "axes": {},
+      "axis_value_sources": {},
+      "features": {},
+      "language": "en",
+      "direction": "inferred per line",
+      "coverage": {
+        "required_codepoints": [
+          48,
+          49,
+          50,
+          53,
+          55,
+          56,
+          57,
+          58
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Bold.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Adobe Systems Incorporated"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Paul D. Hunt"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "http://www.adobe.com/type"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "http://scripts.sil.org/OFL"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": [
+          {
+            "source_id": "bekah",
+            "path": "Designers/Paul D. Hunt/Source/Sans Pro/OFL.txt",
+            "sha256": "8ce06420e0277f1b28f514473263688414965ffdc13c3de4f1f0547a6d45f10b",
+            "scope": "nearby-file; applicability unverified"
+          }
+        ]
+      }
+    },
+    "caption": {
+      "id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "family": "Source Sans Pro",
+      "style": "Regular",
+      "sha256": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3",
+      "face_index": 0,
+      "size_px": 18,
+      "line_height_px": 25.2,
+      "color": "#202b30",
+      "axes": {},
+      "axis_value_sources": {},
+      "features": {},
+      "language": "en",
+      "direction": "inferred per line",
+      "coverage": {
+        "required_codepoints": [
+          32,
+          46,
+          47,
+          63,
+          65,
+          68,
+          70,
+          78,
+          97,
+          99,
+          100,
+          101,
+          103,
+          104,
+          105,
+          107,
+          108,
+          109,
+          110,
+          111,
+          114,
+          115,
+          116,
+          118,
+          119,
+          238,
+          8217
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Adobe Systems Incorporated"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Paul D. Hunt"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "http://www.adobe.com/type"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "http://scripts.sil.org/OFL"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": [
+          {
+            "source_id": "bekah",
+            "path": "Designers/Paul D. Hunt/Source/Sans Pro/OFL.txt",
+            "sha256": "8ce06420e0277f1b28f514473263688414965ffdc13c3de4f1f0547a6d45f10b",
+            "scope": "nearby-file; applicability unverified"
+          }
+        ]
+      }
+    },
+    "assistance_fr": {
+      "id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "family": "Source Sans Pro",
+      "style": "Regular",
+      "sha256": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3",
+      "face_index": 0,
+      "size_px": 18,
+      "line_height_px": 25.2,
+      "color": "#202b30",
+      "axes": {},
+      "axis_value_sources": {},
+      "features": {},
+      "language": "fr",
+      "direction": "inferred per line",
+      "coverage": {
+        "required_codepoints": [
+          32,
+          45,
+          46,
+          63,
+          65,
+          66,
+          97,
+          100,
+          101,
+          105,
+          108,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          122,
+          224,
+          233,
+          8217
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Designers/Paul D. Hunt/Source/Sans Pro/SourceSansPro-Regular.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "embedded-open-license",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright 2010, 2012, 2014 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Adobe Systems Incorporated"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Paul D. Hunt"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "http://www.adobe.com/type"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "http://scripts.sil.org/OFL"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": [
+          {
+            "source_id": "bekah",
+            "path": "Designers/Paul D. Hunt/Source/Sans Pro/OFL.txt",
+            "sha256": "8ce06420e0277f1b28f514473263688414965ffdc13c3de4f1f0547a6d45f10b",
+            "scope": "nearby-file; applicability unverified"
+          }
+        ]
+      }
+    }
+  },
+  "renderer": {
+    "backend": "HarfBuzz shaping + native FreeType unhinted outline rasterization",
+    "harfbuzz": "12.1.0",
+    "freetype": "2.13.2",
+    "supersampling": 4,
+    "system_font_lookup": false
+  },
+  "no_fallback": {
+    "verified": true,
+    "glyph_zero_count": 0,
+    "font_synthesis": false
+  },
+  "measurements": [
+    {
+      "text": "HARBOUR LINK / LIAISON DU PORT",
+      "size_px": 16,
+      "line_height_px": 22.4,
+      "line_count": 1,
+      "canvas_px": [
+        656,
+        21
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "HARBOUR LINK / LIAISON DU PORT",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "en",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 30,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 30
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 9,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 10.784,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 2,
+              "cluster": 1,
+              "x": 10.784,
+              "y": 0.0,
+              "x_advance": 9.168000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 19,
+              "cluster": 2,
+              "x": 19.952,
+              "y": 0.0,
+              "x_advance": 9.808,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 3,
+              "cluster": 3,
+              "x": 29.76,
+              "y": 0.0,
+              "x_advance": 9.68,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 16,
+              "cluster": 4,
+              "x": 39.44,
+              "y": 0.0,
+              "x_advance": 10.944,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 22,
+              "cluster": 5,
+              "x": 50.384,
+              "y": 0.0,
+              "x_advance": 10.64,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 19,
+              "cluster": 6,
+              "x": 61.024,
+              "y": 0.0,
+              "x_advance": 9.808,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 7,
+              "x": 70.83200000000001,
+              "y": 0.0,
+              "x_advance": 3.2,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 13,
+              "cluster": 8,
+              "x": 74.032,
+              "y": 0.0,
+              "x_advance": 8.288,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 10,
+              "cluster": 9,
+              "x": 82.32000000000001,
+              "y": 0.0,
+              "x_advance": 4.816,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 15,
+              "cluster": 10,
+              "x": 87.136,
+              "y": 0.0,
+              "x_advance": 10.64,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 12,
+              "cluster": 11,
+              "x": 97.776,
+              "y": 0.0,
+              "x_advance": 9.824,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 12,
+              "x": 107.60000000000001,
+              "y": 0.0,
+              "x_advance": 3.2,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1142,
+              "cluster": 13,
+              "x": 110.8,
+              "y": 0.0,
+              "x_advance": 5.424,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 14,
+              "x": 116.224,
+              "y": 0.0,
+              "x_advance": 3.2,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 13,
+              "cluster": 15,
+              "x": 119.424,
+              "y": 0.0,
+              "x_advance": 8.288,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 10,
+              "cluster": 16,
+              "x": 127.712,
+              "y": 0.0,
+              "x_advance": 4.816,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 2,
+              "cluster": 17,
+              "x": 132.528,
+              "y": 0.0,
+              "x_advance": 9.168000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 10,
+              "cluster": 18,
+              "x": 141.696,
+              "y": 0.0,
+              "x_advance": 4.816,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 20,
+              "cluster": 19,
+              "x": 146.512,
+              "y": 0.0,
+              "x_advance": 8.896,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 16,
+              "cluster": 20,
+              "x": 155.40800000000002,
+              "y": 0.0,
+              "x_advance": 10.944,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 15,
+              "cluster": 21,
+              "x": 166.352,
+              "y": 0.0,
+              "x_advance": 10.64,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 22,
+              "x": 176.992,
+              "y": 0.0,
+              "x_advance": 3.2,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 5,
+              "cluster": 23,
+              "x": 180.192,
+              "y": 0.0,
+              "x_advance": 10.16,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 22,
+              "cluster": 24,
+              "x": 190.352,
+              "y": 0.0,
+              "x_advance": 10.64,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 25,
+              "x": 200.992,
+              "y": 0.0,
+              "x_advance": 3.2,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 17,
+              "cluster": 26,
+              "x": 204.192,
+              "y": 0.0,
+              "x_advance": 9.536,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 16,
+              "cluster": 27,
+              "x": 213.728,
+              "y": 0.0,
+              "x_advance": 10.944,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 19,
+              "cluster": 28,
+              "x": 224.672,
+              "y": 0.0,
+              "x_advance": 9.52,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 21,
+              "cluster": 29,
+              "x": 234.192,
+              "y": 0.0,
+              "x_advance": 8.896,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            243.088,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 15.744,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.0,
+            4.25,
+            246.75,
+            18.5
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "eyebrow",
+      "block_path": "blocks.0",
+      "position_px": [
+        42,
+        42
+      ],
+      "width_px": 656,
+      "font_id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "align": "start"
+    },
+    {
+      "text": "A different landing,\nthe same crossing.",
+      "size_px": 34,
+      "line_height_px": 40.8,
+      "line_count": 2,
+      "canvas_px": [
+        656,
+        84
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "A different landing,",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "en",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 20,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 19
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 2,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 19.482000000000003,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 1,
+              "x": 19.482000000000003,
+              "y": 0.0,
+              "x_advance": 6.800000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 31,
+              "cluster": 2,
+              "x": 26.282000000000004,
+              "y": 0.0,
+              "x_advance": 19.482000000000003,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 3,
+              "x": 45.764,
+              "y": 0.0,
+              "x_advance": 9.384,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 514,
+              "cluster": 4,
+              "x": 55.148,
+              "y": 0.0,
+              "x_advance": 21.998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 6,
+              "x": 77.146,
+              "y": 0.0,
+              "x_advance": 17.612000000000002,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 7,
+              "x": 94.75800000000001,
+              "y": 0.0,
+              "x_advance": 13.192,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 8,
+              "x": 107.95,
+              "y": 0.0,
+              "x_advance": 17.612000000000002,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 9,
+              "x": 125.56200000000001,
+              "y": 0.0,
+              "x_advance": 19.448,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 10,
+              "x": 145.01000000000002,
+              "y": 0.0,
+              "x_advance": 13.022,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 11,
+              "x": 158.032,
+              "y": 0.0,
+              "x_advance": 6.800000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 12,
+              "x": 164.83200000000002,
+              "y": 0.0,
+              "x_advance": 9.724,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 13,
+              "x": 174.556,
+              "y": 0.0,
+              "x_advance": 17.918000000000003,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 14,
+              "x": 192.47400000000002,
+              "y": 0.0,
+              "x_advance": 19.448,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 31,
+              "cluster": 15,
+              "x": 211.92200000000003,
+              "y": 0.0,
+              "x_advance": 19.482000000000003,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 16,
+              "x": 231.40400000000002,
+              "y": 0.0,
+              "x_advance": 9.384,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 17,
+              "x": 240.788,
+              "y": 0.0,
+              "x_advance": 19.448,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 34,
+              "cluster": 18,
+              "x": 260.23600000000005,
+              "y": 0.0,
+              "x_advance": 18.156000000000002,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1103,
+              "cluster": 19,
+              "x": 278.392,
+              "y": 0.0,
+              "x_advance": 10.200000000000001,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            288.59200000000004,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 33.456,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            3.75,
+            8.75,
+            291.25,
+            40.75
+          ]
+        },
+        {
+          "text": "the same crossing.",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "en",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 18,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 18
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 47,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 13.022,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 35,
+              "cluster": 1,
+              "x": 13.022,
+              "y": 0.0,
+              "x_advance": 19.414,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 2,
+              "x": 32.436,
+              "y": 0.0,
+              "x_advance": 17.612000000000002,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 3,
+              "x": 50.048,
+              "y": 0.0,
+              "x_advance": 6.800000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 4,
+              "x": 56.848000000000006,
+              "y": 0.0,
+              "x_advance": 15.062000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 5,
+              "x": 71.91000000000001,
+              "y": 0.0,
+              "x_advance": 17.918000000000003,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 40,
+              "cluster": 6,
+              "x": 89.828,
+              "y": 0.0,
+              "x_advance": 29.138,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 7,
+              "x": 118.96600000000001,
+              "y": 0.0,
+              "x_advance": 17.612000000000002,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 8,
+              "x": 136.578,
+              "y": 0.0,
+              "x_advance": 6.800000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 30,
+              "cluster": 9,
+              "x": 143.37800000000001,
+              "y": 0.0,
+              "x_advance": 15.878000000000002,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 10,
+              "x": 159.256,
+              "y": 0.0,
+              "x_advance": 13.192,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 42,
+              "cluster": 11,
+              "x": 172.448,
+              "y": 0.0,
+              "x_advance": 18.700000000000003,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 12,
+              "x": 191.14800000000002,
+              "y": 0.0,
+              "x_advance": 15.062000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 13,
+              "x": 206.21,
+              "y": 0.0,
+              "x_advance": 15.062000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 14,
+              "x": 221.27200000000002,
+              "y": 0.0,
+              "x_advance": 9.384,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 15,
+              "x": 230.656,
+              "y": 0.0,
+              "x_advance": 19.448,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 34,
+              "cluster": 16,
+              "x": 250.104,
+              "y": 0.0,
+              "x_advance": 18.156000000000002,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1102,
+              "cluster": 17,
+              "x": 268.26,
+              "y": 0.0,
+              "x_advance": 10.200000000000001,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            278.46000000000004,
+            0.0
+          ],
+          "paragraph": 1,
+          "baseline_px": 74.256,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            4.5,
+            49.5,
+            280.5,
+            81.5
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "title",
+      "block_path": "blocks.1",
+      "position_px": [
+        42,
+        79
+      ],
+      "width_px": 656,
+      "font_id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "align": "start"
+    },
+    {
+      "text": "12–16 October / 12–16 octobre",
+      "size_px": 21,
+      "line_height_px": 29.4,
+      "line_count": 1,
+      "canvas_px": [
+        656,
+        27
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "12–16 October / 12–16 octobre",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "en",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 29,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 29
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 1059,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 11.088000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1060,
+              "cluster": 1,
+              "x": 11.088000000000001,
+              "y": 0.0,
+              "x_advance": 11.088000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1125,
+              "cluster": 2,
+              "x": 22.176000000000002,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1059,
+              "cluster": 3,
+              "x": 32.256,
+              "y": 0.0,
+              "x_advance": 11.088000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1064,
+              "cluster": 4,
+              "x": 43.344,
+              "y": 0.0,
+              "x_advance": 11.088000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 5,
+              "x": 54.432,
+              "y": 0.0,
+              "x_advance": 4.2,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 16,
+              "cluster": 6,
+              "x": 58.632000000000005,
+              "y": 0.0,
+              "x_advance": 14.364,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 30,
+              "cluster": 7,
+              "x": 72.99600000000001,
+              "y": 0.0,
+              "x_advance": 9.597000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 8,
+              "x": 82.593,
+              "y": 0.0,
+              "x_advance": 7.665,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 42,
+              "cluster": 9,
+              "x": 90.25800000000001,
+              "y": 0.0,
+              "x_advance": 11.655000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 29,
+              "cluster": 10,
+              "x": 101.91300000000001,
+              "y": 0.0,
+              "x_advance": 12.033000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 11,
+              "x": 113.94600000000001,
+              "y": 0.0,
+              "x_advance": 10.878,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 12,
+              "x": 124.82400000000001,
+              "y": 0.0,
+              "x_advance": 8.358,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 13,
+              "x": 133.18200000000002,
+              "y": 0.0,
+              "x_advance": 4.2,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1142,
+              "cluster": 14,
+              "x": 137.382,
+              "y": 0.0,
+              "x_advance": 7.119000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 15,
+              "x": 144.501,
+              "y": 0.0,
+              "x_advance": 4.2,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1059,
+              "cluster": 16,
+              "x": 148.70100000000002,
+              "y": 0.0,
+              "x_advance": 11.088000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1060,
+              "cluster": 17,
+              "x": 159.78900000000002,
+              "y": 0.0,
+              "x_advance": 11.088000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1125,
+              "cluster": 18,
+              "x": 170.877,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1059,
+              "cluster": 19,
+              "x": 180.95700000000002,
+              "y": 0.0,
+              "x_advance": 11.088000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1064,
+              "cluster": 20,
+              "x": 192.04500000000002,
+              "y": 0.0,
+              "x_advance": 11.088000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 21,
+              "x": 203.133,
+              "y": 0.0,
+              "x_advance": 4.2,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 42,
+              "cluster": 22,
+              "x": 207.33300000000003,
+              "y": 0.0,
+              "x_advance": 11.655000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 30,
+              "cluster": 23,
+              "x": 218.988,
+              "y": 0.0,
+              "x_advance": 9.597000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 24,
+              "x": 228.585,
+              "y": 0.0,
+              "x_advance": 7.665,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 42,
+              "cluster": 25,
+              "x": 236.25000000000003,
+              "y": 0.0,
+              "x_advance": 11.655000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 29,
+              "cluster": 26,
+              "x": 247.90500000000003,
+              "y": 0.0,
+              "x_advance": 12.033000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 27,
+              "x": 259.938,
+              "y": 0.0,
+              "x_advance": 8.148,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 28,
+              "x": 268.086,
+              "y": 0.0,
+              "x_advance": 10.878,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            278.964,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 20.664,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.25,
+            5.75,
+            282.25,
+            24.25
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "heading",
+      "block_path": "blocks.2",
+      "position_px": [
+        42,
+        179
+      ],
+      "width_px": 656,
+      "font_id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "align": "start"
+    },
+    {
+      "text": "Use the east landing while we repair the west ramp. The crossing still takes 8 minutes.",
+      "size_px": 22,
+      "line_height_px": 30.799999999999997,
+      "line_count": 2,
+      "canvas_px": [
+        656,
+        59
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "Use the east landing while we repair the west ramp. The crossing still ",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "en",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 71,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 71
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 22,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 14.101999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 1,
+              "x": 14.101999999999999,
+              "y": 0.0,
+              "x_advance": 9.218,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 2,
+              "x": 23.32,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 3,
+              "x": 34.232,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 4,
+              "x": 38.632,
+              "y": 0.0,
+              "x_advance": 7.436,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 35,
+              "cluster": 5,
+              "x": 46.068,
+              "y": 0.0,
+              "x_advance": 11.968,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 6,
+              "x": 58.035999999999994,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 7,
+              "x": 68.948,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 8,
+              "x": 73.348,
+              "y": 0.0,
+              "x_advance": 10.604,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 9,
+              "x": 83.952,
+              "y": 0.0,
+              "x_advance": 11.088,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 10,
+              "x": 95.03999999999999,
+              "y": 0.0,
+              "x_advance": 8.777999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 11,
+              "x": 103.818,
+              "y": 0.0,
+              "x_advance": 7.436,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 12,
+              "x": 111.25399999999999,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 13,
+              "x": 115.654,
+              "y": 0.0,
+              "x_advance": 5.609999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 14,
+              "x": 121.264,
+              "y": 0.0,
+              "x_advance": 11.088,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 15,
+              "x": 132.352,
+              "y": 0.0,
+              "x_advance": 12.033999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 31,
+              "cluster": 16,
+              "x": 144.386,
+              "y": 0.0,
+              "x_advance": 12.209999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 17,
+              "x": 156.596,
+              "y": 0.0,
+              "x_advance": 5.412,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 18,
+              "x": 162.00799999999998,
+              "y": 0.0,
+              "x_advance": 12.033999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 34,
+              "cluster": 19,
+              "x": 174.042,
+              "y": 0.0,
+              "x_advance": 11.088,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 20,
+              "x": 185.13,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 50,
+              "cluster": 21,
+              "x": 189.53,
+              "y": 0.0,
+              "x_advance": 15.796,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 35,
+              "cluster": 22,
+              "x": 205.326,
+              "y": 0.0,
+              "x_advance": 11.968,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 23,
+              "x": 217.29399999999998,
+              "y": 0.0,
+              "x_advance": 5.412,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 24,
+              "x": 222.706,
+              "y": 0.0,
+              "x_advance": 5.609999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 25,
+              "x": 228.31599999999997,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 26,
+              "x": 239.22799999999998,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 50,
+              "cluster": 27,
+              "x": 243.628,
+              "y": 0.0,
+              "x_advance": 15.707999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 28,
+              "x": 259.336,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 29,
+              "x": 270.248,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 30,
+              "x": 274.64799999999997,
+              "y": 0.0,
+              "x_advance": 7.414,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 31,
+              "x": 282.062,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 43,
+              "cluster": 32,
+              "x": 292.974,
+              "y": 0.0,
+              "x_advance": 11.902,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 33,
+              "x": 304.876,
+              "y": 0.0,
+              "x_advance": 11.088,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 34,
+              "x": 315.964,
+              "y": 0.0,
+              "x_advance": 5.412,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 35,
+              "x": 321.376,
+              "y": 0.0,
+              "x_advance": 7.6339999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 36,
+              "x": 329.01,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 37,
+              "x": 333.40999999999997,
+              "y": 0.0,
+              "x_advance": 7.436,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 35,
+              "cluster": 38,
+              "x": 340.846,
+              "y": 0.0,
+              "x_advance": 11.968,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 39,
+              "x": 352.81399999999996,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 40,
+              "x": 363.726,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 50,
+              "cluster": 41,
+              "x": 368.126,
+              "y": 0.0,
+              "x_advance": 15.707999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 42,
+              "x": 383.834,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 43,
+              "x": 394.746,
+              "y": 0.0,
+              "x_advance": 8.777999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 44,
+              "x": 403.524,
+              "y": 0.0,
+              "x_advance": 7.436,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 45,
+              "x": 410.96,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 46,
+              "x": 415.35999999999996,
+              "y": 0.0,
+              "x_advance": 7.106,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 47,
+              "x": 422.46599999999995,
+              "y": 0.0,
+              "x_advance": 11.088,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 40,
+              "cluster": 48,
+              "x": 433.554,
+              "y": 0.0,
+              "x_advance": 18.238,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 43,
+              "cluster": 49,
+              "x": 451.792,
+              "y": 0.0,
+              "x_advance": 11.989999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1102,
+              "cluster": 50,
+              "x": 463.782,
+              "y": 0.0,
+              "x_advance": 5.478,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 51,
+              "x": 469.26,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 21,
+              "cluster": 52,
+              "x": 473.65999999999997,
+              "y": 0.0,
+              "x_advance": 11.792,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 35,
+              "cluster": 53,
+              "x": 485.452,
+              "y": 0.0,
+              "x_advance": 11.968,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 54,
+              "x": 497.41999999999996,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 55,
+              "x": 508.332,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 30,
+              "cluster": 56,
+              "x": 512.732,
+              "y": 0.0,
+              "x_advance": 10.032,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 57,
+              "x": 522.764,
+              "y": 0.0,
+              "x_advance": 7.414,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 42,
+              "cluster": 58,
+              "x": 530.178,
+              "y": 0.0,
+              "x_advance": 11.924,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 59,
+              "x": 542.102,
+              "y": 0.0,
+              "x_advance": 9.218,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 60,
+              "x": 551.3199999999999,
+              "y": 0.0,
+              "x_advance": 9.218,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 61,
+              "x": 560.538,
+              "y": 0.0,
+              "x_advance": 5.412,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 62,
+              "x": 565.9499999999999,
+              "y": 0.0,
+              "x_advance": 12.033999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 34,
+              "cluster": 63,
+              "x": 577.9839999999999,
+              "y": 0.0,
+              "x_advance": 11.088,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 64,
+              "x": 589.072,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 65,
+              "x": 593.472,
+              "y": 0.0,
+              "x_advance": 8.777999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 66,
+              "x": 602.25,
+              "y": 0.0,
+              "x_advance": 7.436,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 67,
+              "x": 609.6859999999999,
+              "y": 0.0,
+              "x_advance": 5.412,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 68,
+              "x": 615.098,
+              "y": 0.0,
+              "x_advance": 5.609999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 69,
+              "x": 620.708,
+              "y": 0.0,
+              "x_advance": 5.609999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 70,
+              "x": 626.318,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            630.718,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 21.648,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.75,
+            6.0,
+            629.5,
+            26.75
+          ]
+        },
+        {
+          "text": "takes 8 minutes.",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "en",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 16,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 16
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 47,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 6.973999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 1,
+              "x": 6.973999999999999,
+              "y": 0.0,
+              "x_advance": 11.088,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 38,
+              "cluster": 2,
+              "x": 18.061999999999998,
+              "y": 0.0,
+              "x_advance": 10.494,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 3,
+              "x": 28.555999999999997,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 4,
+              "x": 39.467999999999996,
+              "y": 0.0,
+              "x_advance": 9.218,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 5,
+              "x": 48.686,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1066,
+              "cluster": 6,
+              "x": 53.086,
+              "y": 0.0,
+              "x_advance": 10.934,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 7,
+              "x": 64.02,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 40,
+              "cluster": 8,
+              "x": 68.42,
+              "y": 0.0,
+              "x_advance": 18.238,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 9,
+              "x": 86.658,
+              "y": 0.0,
+              "x_advance": 5.412,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 10,
+              "x": 92.07,
+              "y": 0.0,
+              "x_advance": 12.033999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 48,
+              "cluster": 11,
+              "x": 104.104,
+              "y": 0.0,
+              "x_advance": 11.968,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 12,
+              "x": 116.07199999999999,
+              "y": 0.0,
+              "x_advance": 7.127999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 13,
+              "x": 123.19999999999999,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 14,
+              "x": 134.112,
+              "y": 0.0,
+              "x_advance": 9.218,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1102,
+              "cluster": 15,
+              "x": 143.32999999999998,
+              "y": 0.0,
+              "x_advance": 5.478,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            148.808,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 52.44799999999999,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            4.5,
+            36.75,
+            151.5,
+            53.0
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "body",
+      "block_path": "blocks.4",
+      "position_px": [
+        42,
+        242
+      ],
+      "width_px": 656,
+      "font_id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "align": "start"
+    },
+    {
+      "text": "Pendant les travaux, utilisez le quai est. La traversée dure toujours 8 minutes.",
+      "size_px": 22,
+      "line_height_px": 30.799999999999997,
+      "line_count": 2,
+      "canvas_px": [
+        656,
+        59
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "Pendant les travaux, utilisez le quai est. La traversée dure toujours 8 ",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "fr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 72,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 72
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 17,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 11.924,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 1,
+              "x": 11.924,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 2,
+              "x": 22.836,
+              "y": 0.0,
+              "x_advance": 12.033999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 31,
+              "cluster": 3,
+              "x": 34.87,
+              "y": 0.0,
+              "x_advance": 12.209999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 4,
+              "x": 47.08,
+              "y": 0.0,
+              "x_advance": 11.088,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 5,
+              "x": 58.168,
+              "y": 0.0,
+              "x_advance": 12.033999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 6,
+              "x": 70.202,
+              "y": 0.0,
+              "x_advance": 7.436,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 7,
+              "x": 77.63799999999999,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 8,
+              "x": 82.038,
+              "y": 0.0,
+              "x_advance": 5.609999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 9,
+              "x": 87.648,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 10,
+              "x": 98.55999999999999,
+              "y": 0.0,
+              "x_advance": 9.218,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 11,
+              "x": 107.77799999999999,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 12,
+              "x": 112.178,
+              "y": 0.0,
+              "x_advance": 7.436,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 13,
+              "x": 119.61399999999999,
+              "y": 0.0,
+              "x_advance": 7.106,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 14,
+              "x": 126.72,
+              "y": 0.0,
+              "x_advance": 11.088,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 49,
+              "cluster": 15,
+              "x": 137.808,
+              "y": 0.0,
+              "x_advance": 9.834,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 16,
+              "x": 147.642,
+              "y": 0.0,
+              "x_advance": 11.088,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 48,
+              "cluster": 17,
+              "x": 158.73,
+              "y": 0.0,
+              "x_advance": 11.968,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 51,
+              "cluster": 18,
+              "x": 170.69799999999998,
+              "y": 0.0,
+              "x_advance": 9.966,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1103,
+              "cluster": 19,
+              "x": 180.664,
+              "y": 0.0,
+              "x_advance": 5.478,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 20,
+              "x": 186.142,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 48,
+              "cluster": 21,
+              "x": 190.542,
+              "y": 0.0,
+              "x_advance": 11.968,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 22,
+              "x": 202.51,
+              "y": 0.0,
+              "x_advance": 7.436,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 23,
+              "x": 209.946,
+              "y": 0.0,
+              "x_advance": 5.412,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 24,
+              "x": 215.35799999999998,
+              "y": 0.0,
+              "x_advance": 5.609999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 25,
+              "x": 220.968,
+              "y": 0.0,
+              "x_advance": 5.412,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 26,
+              "x": 226.38,
+              "y": 0.0,
+              "x_advance": 9.218,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 27,
+              "x": 235.59799999999998,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 53,
+              "cluster": 28,
+              "x": 246.51,
+              "y": 0.0,
+              "x_advance": 9.35,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 29,
+              "x": 255.85999999999999,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 30,
+              "x": 260.26,
+              "y": 0.0,
+              "x_advance": 5.609999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 31,
+              "x": 265.87,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 32,
+              "x": 276.782,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 44,
+              "cluster": 33,
+              "x": 281.18199999999996,
+              "y": 0.0,
+              "x_advance": 12.209999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 48,
+              "cluster": 34,
+              "x": 293.392,
+              "y": 0.0,
+              "x_advance": 11.968,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 35,
+              "x": 305.35999999999996,
+              "y": 0.0,
+              "x_advance": 11.088,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 36,
+              "x": 316.448,
+              "y": 0.0,
+              "x_advance": 5.412,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 37,
+              "x": 321.85999999999996,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 38,
+              "x": 326.26,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 39,
+              "x": 337.17199999999997,
+              "y": 0.0,
+              "x_advance": 8.777999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 40,
+              "x": 345.95,
+              "y": 0.0,
+              "x_advance": 7.59,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1102,
+              "cluster": 41,
+              "x": 353.53999999999996,
+              "y": 0.0,
+              "x_advance": 5.478,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 42,
+              "x": 359.018,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 13,
+              "cluster": 43,
+              "x": 363.418,
+              "y": 0.0,
+              "x_advance": 10.692,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 44,
+              "x": 374.10999999999996,
+              "y": 0.0,
+              "x_advance": 11.088,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 45,
+              "x": 385.198,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 46,
+              "x": 389.59799999999996,
+              "y": 0.0,
+              "x_advance": 7.436,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 47,
+              "x": 397.034,
+              "y": 0.0,
+              "x_advance": 7.106,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 48,
+              "x": 404.14,
+              "y": 0.0,
+              "x_advance": 11.088,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 49,
+              "cluster": 49,
+              "x": 415.22799999999995,
+              "y": 0.0,
+              "x_advance": 10.186,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 50,
+              "x": 425.414,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 51,
+              "x": 436.32599999999996,
+              "y": 0.0,
+              "x_advance": 7.545999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 52,
+              "x": 443.87199999999996,
+              "y": 0.0,
+              "x_advance": 9.218,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 285,
+              "cluster": 53,
+              "x": 453.09,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 54,
+              "x": 464.00199999999995,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 55,
+              "x": 474.914,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 31,
+              "cluster": 56,
+              "x": 479.31399999999996,
+              "y": 0.0,
+              "x_advance": 12.209999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 48,
+              "cluster": 57,
+              "x": 491.52399999999994,
+              "y": 0.0,
+              "x_advance": 11.968,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 58,
+              "x": 503.49199999999996,
+              "y": 0.0,
+              "x_advance": 7.414,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 59,
+              "x": 510.90599999999995,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 60,
+              "x": 521.818,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 61,
+              "x": 526.218,
+              "y": 0.0,
+              "x_advance": 7.127999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 42,
+              "cluster": 62,
+              "x": 533.346,
+              "y": 0.0,
+              "x_advance": 11.924,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 48,
+              "cluster": 63,
+              "x": 545.27,
+              "y": 0.0,
+              "x_advance": 11.968,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 37,
+              "cluster": 64,
+              "x": 557.2379999999999,
+              "y": 0.0,
+              "x_advance": 5.433999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 42,
+              "cluster": 65,
+              "x": 562.6719999999999,
+              "y": 0.0,
+              "x_advance": 11.924,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 48,
+              "cluster": 66,
+              "x": 574.596,
+              "y": 0.0,
+              "x_advance": 11.968,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 67,
+              "x": 586.564,
+              "y": 0.0,
+              "x_advance": 7.545999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 68,
+              "x": 594.11,
+              "y": 0.0,
+              "x_advance": 9.218,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 69,
+              "x": 603.328,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1066,
+              "cluster": 70,
+              "x": 607.728,
+              "y": 0.0,
+              "x_advance": 10.934,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 71,
+              "x": 618.6619999999999,
+              "y": 0.0,
+              "x_advance": 4.3999999999999995,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            623.062,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 21.648,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.75,
+            4.5,
+            622.0,
+            26.75
+          ]
+        },
+        {
+          "text": "minutes.",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "fr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 8,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 8
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 40,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 18.238,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 1,
+              "x": 18.238,
+              "y": 0.0,
+              "x_advance": 5.412,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 2,
+              "x": 23.65,
+              "y": 0.0,
+              "x_advance": 12.033999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 48,
+              "cluster": 3,
+              "x": 35.684,
+              "y": 0.0,
+              "x_advance": 11.968,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 4,
+              "x": 47.651999999999994,
+              "y": 0.0,
+              "x_advance": 7.127999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 5,
+              "x": 54.779999999999994,
+              "y": 0.0,
+              "x_advance": 10.911999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 6,
+              "x": 65.692,
+              "y": 0.0,
+              "x_advance": 9.218,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1102,
+              "cluster": 7,
+              "x": 74.91,
+              "y": 0.0,
+              "x_advance": 5.478,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            80.38799999999999,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 52.44799999999999,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.75,
+            37.25,
+            83.25,
+            53.0
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "body_fr",
+      "block_path": "blocks.5",
+      "position_px": [
+        42,
+        317
+      ],
+      "width_px": 656,
+      "font_id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "align": "start"
+    },
+    {
+      "text": "From town / De la ville",
+      "size_px": 18,
+      "line_height_px": 25.2,
+      "line_count": 1,
+      "canvas_px": [
+        310,
+        23
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "From town / De la ville",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "en",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 23,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 23
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 7,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 8.532,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 1,
+              "x": 8.532,
+              "y": 0.0,
+              "x_advance": 6.066,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 42,
+              "cluster": 2,
+              "x": 14.597999999999999,
+              "y": 0.0,
+              "x_advance": 9.755999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 40,
+              "cluster": 3,
+              "x": 24.354,
+              "y": 0.0,
+              "x_advance": 14.921999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 4,
+              "x": 39.275999999999996,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 5,
+              "x": 42.876,
+              "y": 0.0,
+              "x_advance": 5.832,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 42,
+              "cluster": 6,
+              "x": 48.708,
+              "y": 0.0,
+              "x_advance": 9.684,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 50,
+              "cluster": 7,
+              "x": 58.391999999999996,
+              "y": 0.0,
+              "x_advance": 12.924,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 8,
+              "x": 71.31599999999999,
+              "y": 0.0,
+              "x_advance": 9.846,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 9,
+              "x": 81.16199999999999,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1142,
+              "cluster": 10,
+              "x": 84.762,
+              "y": 0.0,
+              "x_advance": 6.3,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 11,
+              "x": 91.062,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 5,
+              "cluster": 12,
+              "x": 94.66199999999999,
+              "y": 0.0,
+              "x_advance": 11.069999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 13,
+              "x": 105.73199999999999,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 14,
+              "x": 114.66,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 15,
+              "x": 118.25999999999999,
+              "y": 0.0,
+              "x_advance": 4.59,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 16,
+              "x": 122.85,
+              "y": 0.0,
+              "x_advance": 9.072,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 17,
+              "x": 131.922,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 49,
+              "cluster": 18,
+              "x": 135.522,
+              "y": 0.0,
+              "x_advance": 8.405999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 19,
+              "x": 143.928,
+              "y": 0.0,
+              "x_advance": 4.428,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 20,
+              "x": 148.356,
+              "y": 0.0,
+              "x_advance": 4.59,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 21,
+              "x": 152.946,
+              "y": 0.0,
+              "x_advance": 4.59,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 22,
+              "x": 157.536,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            166.464,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 17.712,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.5,
+            4.75,
+            169.75,
+            20.75
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "caption",
+      "block_path": "blocks.6.rows.0.0",
+      "position_px": [
+        51,
+        401
+      ],
+      "width_px": 310,
+      "font_id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "align": "start"
+    },
+    {
+      "text": "From island / De l’île",
+      "size_px": 18,
+      "line_height_px": 25.2,
+      "line_count": 1,
+      "canvas_px": [
+        310,
+        23
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "From island / De l’île",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "en",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 22,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 22
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 7,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 8.532,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 1,
+              "x": 8.532,
+              "y": 0.0,
+              "x_advance": 6.066,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 42,
+              "cluster": 2,
+              "x": 14.597999999999999,
+              "y": 0.0,
+              "x_advance": 9.755999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 40,
+              "cluster": 3,
+              "x": 24.354,
+              "y": 0.0,
+              "x_advance": 14.921999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 4,
+              "x": 39.275999999999996,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 5,
+              "x": 42.876,
+              "y": 0.0,
+              "x_advance": 4.428,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 6,
+              "x": 47.303999999999995,
+              "y": 0.0,
+              "x_advance": 7.542,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 7,
+              "x": 54.846,
+              "y": 0.0,
+              "x_advance": 4.59,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 8,
+              "x": 59.43599999999999,
+              "y": 0.0,
+              "x_advance": 9.072,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 9,
+              "x": 68.508,
+              "y": 0.0,
+              "x_advance": 9.846,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 31,
+              "cluster": 10,
+              "x": 78.354,
+              "y": 0.0,
+              "x_advance": 9.989999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 11,
+              "x": 88.344,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1142,
+              "cluster": 12,
+              "x": 91.94399999999999,
+              "y": 0.0,
+              "x_advance": 6.3,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 13,
+              "x": 98.24399999999999,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 5,
+              "cluster": 14,
+              "x": 101.844,
+              "y": 0.0,
+              "x_advance": 11.069999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 15,
+              "x": 112.91399999999999,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 16,
+              "x": 121.84199999999998,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 17,
+              "x": 125.442,
+              "y": 0.0,
+              "x_advance": 4.59,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1114,
+              "cluster": 18,
+              "x": 130.03199999999998,
+              "y": 0.0,
+              "x_advance": 4.481999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 317,
+              "cluster": 19,
+              "x": 134.51399999999998,
+              "y": 0.0,
+              "x_advance": 4.428,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 20,
+              "x": 138.94199999999998,
+              "y": 0.0,
+              "x_advance": 4.59,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 21,
+              "x": 143.53199999999998,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            152.45999999999998,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 17.712,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.5,
+            4.25,
+            155.75,
+            20.75
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "caption",
+      "block_path": "blocks.6.rows.0.1",
+      "position_px": [
+        379,
+        401
+      ],
+      "width_px": 310,
+      "font_id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "align": "start"
+    },
+    {
+      "text": "07:10",
+      "size_px": 24,
+      "line_height_px": 33.599999999999994,
+      "line_count": 1,
+      "canvas_px": [
+        310,
+        31
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "07:10",
+          "direction": "ltr",
+          "script": "Zyyy",
+          "language": "en",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 5,
+              "script": "Zyyy",
+              "direction": "ltr",
+              "glyph_count": 5
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 1058,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1065,
+              "cluster": 1,
+              "x": 12.672,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1104,
+              "cluster": 2,
+              "x": 25.344,
+              "y": 0.0,
+              "x_advance": 7.2,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1059,
+              "cluster": 3,
+              "x": 32.544000000000004,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1058,
+              "cluster": 4,
+              "x": 45.216,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            57.888,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 23.616,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            4.75,
+            7.75,
+            61.25,
+            24.0
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "time",
+      "block_path": "blocks.6.rows.1.0",
+      "position_px": [
+        51,
+        443
+      ],
+      "width_px": 310,
+      "font_id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "align": "start"
+    },
+    {
+      "text": "07:25",
+      "size_px": 24,
+      "line_height_px": 33.599999999999994,
+      "line_count": 1,
+      "canvas_px": [
+        310,
+        31
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "07:25",
+          "direction": "ltr",
+          "script": "Zyyy",
+          "language": "en",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 5,
+              "script": "Zyyy",
+              "direction": "ltr",
+              "glyph_count": 5
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 1058,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1065,
+              "cluster": 1,
+              "x": 12.672,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1104,
+              "cluster": 2,
+              "x": 25.344,
+              "y": 0.0,
+              "x_advance": 7.2,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1060,
+              "cluster": 3,
+              "x": 32.544000000000004,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1063,
+              "cluster": 4,
+              "x": 45.216,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            57.888,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 23.616,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            4.75,
+            7.75,
+            61.0,
+            24.0
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "time",
+      "block_path": "blocks.6.rows.1.1",
+      "position_px": [
+        379,
+        443
+      ],
+      "width_px": 310,
+      "font_id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "align": "start"
+    },
+    {
+      "text": "08:10",
+      "size_px": 24,
+      "line_height_px": 33.599999999999994,
+      "line_count": 1,
+      "canvas_px": [
+        310,
+        31
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "08:10",
+          "direction": "ltr",
+          "script": "Zyyy",
+          "language": "en",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 5,
+              "script": "Zyyy",
+              "direction": "ltr",
+              "glyph_count": 5
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 1058,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1066,
+              "cluster": 1,
+              "x": 12.672,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1104,
+              "cluster": 2,
+              "x": 25.344,
+              "y": 0.0,
+              "x_advance": 7.2,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1059,
+              "cluster": 3,
+              "x": 32.544000000000004,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1058,
+              "cluster": 4,
+              "x": 45.216,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            57.888,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 23.616,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            4.75,
+            7.75,
+            61.25,
+            24.0
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "time",
+      "block_path": "blocks.6.rows.2.0",
+      "position_px": [
+        51,
+        493
+      ],
+      "width_px": 310,
+      "font_id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "align": "start"
+    },
+    {
+      "text": "08:25",
+      "size_px": 24,
+      "line_height_px": 33.599999999999994,
+      "line_count": 1,
+      "canvas_px": [
+        310,
+        31
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "08:25",
+          "direction": "ltr",
+          "script": "Zyyy",
+          "language": "en",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 5,
+              "script": "Zyyy",
+              "direction": "ltr",
+              "glyph_count": 5
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 1058,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1066,
+              "cluster": 1,
+              "x": 12.672,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1104,
+              "cluster": 2,
+              "x": 25.344,
+              "y": 0.0,
+              "x_advance": 7.2,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1060,
+              "cluster": 3,
+              "x": 32.544000000000004,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1063,
+              "cluster": 4,
+              "x": 45.216,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            57.888,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 23.616,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            4.75,
+            7.75,
+            61.0,
+            24.0
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "time",
+      "block_path": "blocks.6.rows.2.1",
+      "position_px": [
+        379,
+        493
+      ],
+      "width_px": 310,
+      "font_id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "align": "start"
+    },
+    {
+      "text": "09:10",
+      "size_px": 24,
+      "line_height_px": 33.599999999999994,
+      "line_count": 1,
+      "canvas_px": [
+        310,
+        31
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "09:10",
+          "direction": "ltr",
+          "script": "Zyyy",
+          "language": "en",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 5,
+              "script": "Zyyy",
+              "direction": "ltr",
+              "glyph_count": 5
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 1058,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1067,
+              "cluster": 1,
+              "x": 12.672,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1104,
+              "cluster": 2,
+              "x": 25.344,
+              "y": 0.0,
+              "x_advance": 7.2,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1059,
+              "cluster": 3,
+              "x": 32.544000000000004,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1058,
+              "cluster": 4,
+              "x": 45.216,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            57.888,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 23.616,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            4.75,
+            7.75,
+            61.25,
+            24.0
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "time",
+      "block_path": "blocks.6.rows.3.0",
+      "position_px": [
+        51,
+        543
+      ],
+      "width_px": 310,
+      "font_id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "align": "start"
+    },
+    {
+      "text": "09:25",
+      "size_px": 24,
+      "line_height_px": 33.599999999999994,
+      "line_count": 1,
+      "canvas_px": [
+        310,
+        31
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "09:25",
+          "direction": "ltr",
+          "script": "Zyyy",
+          "language": "en",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 5,
+              "script": "Zyyy",
+              "direction": "ltr",
+              "glyph_count": 5
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 1058,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1067,
+              "cluster": 1,
+              "x": 12.672,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1104,
+              "cluster": 2,
+              "x": 25.344,
+              "y": 0.0,
+              "x_advance": 7.2,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1060,
+              "cluster": 3,
+              "x": 32.544000000000004,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1063,
+              "cluster": 4,
+              "x": 45.216,
+              "y": 0.0,
+              "x_advance": 12.672,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            57.888,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 23.616,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            4.75,
+            7.75,
+            61.0,
+            24.0
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "time",
+      "block_path": "blocks.6.rows.3.1",
+      "position_px": [
+        379,
+        543
+      ],
+      "width_px": 310,
+      "font_id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+      "align": "start"
+    },
+    {
+      "text": "Need a hand? Ask the crew at the east landing.",
+      "size_px": 18,
+      "line_height_px": 25.2,
+      "line_count": 1,
+      "canvas_px": [
+        656,
+        23
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "Need a hand? Ask the crew at the east landing.",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "en",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 46,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 46
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 15,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 11.645999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 1,
+              "x": 11.645999999999999,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 2,
+              "x": 20.573999999999998,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 31,
+              "cluster": 3,
+              "x": 29.502,
+              "y": 0.0,
+              "x_advance": 9.989999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 4,
+              "x": 39.492,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 5,
+              "x": 43.092,
+              "y": 0.0,
+              "x_advance": 9.072,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 6,
+              "x": 52.163999999999994,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 35,
+              "cluster": 7,
+              "x": 55.763999999999996,
+              "y": 0.0,
+              "x_advance": 9.792,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 8,
+              "x": 65.556,
+              "y": 0.0,
+              "x_advance": 9.072,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 9,
+              "x": 74.628,
+              "y": 0.0,
+              "x_advance": 9.846,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 31,
+              "cluster": 10,
+              "x": 84.47399999999999,
+              "y": 0.0,
+              "x_advance": 9.989999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1109,
+              "cluster": 11,
+              "x": 94.464,
+              "y": 0.0,
+              "x_advance": 7.6499999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 12,
+              "x": 102.11399999999999,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 2,
+              "cluster": 13,
+              "x": 105.714,
+              "y": 0.0,
+              "x_advance": 10.206,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 14,
+              "x": 115.91999999999999,
+              "y": 0.0,
+              "x_advance": 7.542,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 38,
+              "cluster": 15,
+              "x": 123.46199999999999,
+              "y": 0.0,
+              "x_advance": 8.91,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 16,
+              "x": 132.37199999999999,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 17,
+              "x": 135.97199999999998,
+              "y": 0.0,
+              "x_advance": 6.084,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 35,
+              "cluster": 18,
+              "x": 142.05599999999998,
+              "y": 0.0,
+              "x_advance": 9.792,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 19,
+              "x": 151.84799999999998,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 20,
+              "x": 160.77599999999998,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 30,
+              "cluster": 21,
+              "x": 164.37599999999998,
+              "y": 0.0,
+              "x_advance": 8.208,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 22,
+              "x": 172.58399999999997,
+              "y": 0.0,
+              "x_advance": 6.066,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 23,
+              "x": 178.64999999999998,
+              "y": 0.0,
+              "x_advance": 9.017999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 50,
+              "cluster": 24,
+              "x": 187.66799999999998,
+              "y": 0.0,
+              "x_advance": 12.924,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 25,
+              "x": 200.59199999999998,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 26,
+              "x": 204.19199999999998,
+              "y": 0.0,
+              "x_advance": 8.819999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 27,
+              "x": 213.01199999999997,
+              "y": 0.0,
+              "x_advance": 6.084,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 28,
+              "x": 219.09599999999998,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 29,
+              "x": 222.69599999999997,
+              "y": 0.0,
+              "x_advance": 6.084,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 35,
+              "cluster": 30,
+              "x": 228.77999999999997,
+              "y": 0.0,
+              "x_advance": 9.792,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 31,
+              "x": 238.57199999999997,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 32,
+              "x": 247.49999999999997,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 33,
+              "x": 251.1,
+              "y": 0.0,
+              "x_advance": 8.676,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 34,
+              "x": 259.77599999999995,
+              "y": 0.0,
+              "x_advance": 9.072,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 35,
+              "x": 268.84799999999996,
+              "y": 0.0,
+              "x_advance": 7.1819999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 36,
+              "x": 276.03,
+              "y": 0.0,
+              "x_advance": 6.084,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 37,
+              "x": 282.114,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 38,
+              "x": 285.714,
+              "y": 0.0,
+              "x_advance": 4.59,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 39,
+              "x": 290.304,
+              "y": 0.0,
+              "x_advance": 9.072,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 40,
+              "x": 299.376,
+              "y": 0.0,
+              "x_advance": 9.846,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 31,
+              "cluster": 41,
+              "x": 309.222,
+              "y": 0.0,
+              "x_advance": 9.989999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 42,
+              "x": 319.212,
+              "y": 0.0,
+              "x_advance": 4.428,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 43,
+              "x": 323.64,
+              "y": 0.0,
+              "x_advance": 9.846,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 34,
+              "cluster": 44,
+              "x": 333.486,
+              "y": 0.0,
+              "x_advance": 9.072,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1102,
+              "cluster": 45,
+              "x": 342.558,
+              "y": 0.0,
+              "x_advance": 4.481999999999999,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            347.03999999999996,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 17.712,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.5,
+            4.75,
+            350.0,
+            22.0
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "caption",
+      "block_path": "blocks.7",
+      "position_px": [
+        42,
+        600
+      ],
+      "width_px": 656,
+      "font_id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "align": "start"
+    },
+    {
+      "text": "Besoin d’aide ? Adressez-vous à l’équipe du quai est.",
+      "size_px": 18,
+      "line_height_px": 25.2,
+      "line_count": 1,
+      "canvas_px": [
+        656,
+        23
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "Besoin d’aide ? Adressez-vous à l’équipe du quai est.",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "fr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 53,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 53
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 3,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 10.584,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 1,
+              "x": 10.584,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 2,
+              "x": 19.511999999999997,
+              "y": 0.0,
+              "x_advance": 7.542,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 42,
+              "cluster": 3,
+              "x": 27.054,
+              "y": 0.0,
+              "x_advance": 9.755999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 4,
+              "x": 36.809999999999995,
+              "y": 0.0,
+              "x_advance": 4.428,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 41,
+              "cluster": 5,
+              "x": 41.238,
+              "y": 0.0,
+              "x_advance": 9.846,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 6,
+              "x": 51.083999999999996,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 31,
+              "cluster": 7,
+              "x": 54.684,
+              "y": 0.0,
+              "x_advance": 9.989999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1114,
+              "cluster": 8,
+              "x": 64.67399999999999,
+              "y": 0.0,
+              "x_advance": 3.312,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 9,
+              "x": 67.98599999999999,
+              "y": 0.0,
+              "x_advance": 9.072,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 10,
+              "x": 77.05799999999999,
+              "y": 0.0,
+              "x_advance": 4.428,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 31,
+              "cluster": 11,
+              "x": 81.48599999999999,
+              "y": 0.0,
+              "x_advance": 9.989999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 12,
+              "x": 91.476,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 13,
+              "x": 100.404,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1109,
+              "cluster": 14,
+              "x": 104.00399999999999,
+              "y": 0.0,
+              "x_advance": 7.6499999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 15,
+              "x": 111.654,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 2,
+              "cluster": 16,
+              "x": 115.25399999999999,
+              "y": 0.0,
+              "x_advance": 9.792,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 31,
+              "cluster": 17,
+              "x": 125.04599999999999,
+              "y": 0.0,
+              "x_advance": 9.989999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 45,
+              "cluster": 18,
+              "x": 135.036,
+              "y": 0.0,
+              "x_advance": 6.066,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 19,
+              "x": 141.10199999999998,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 20,
+              "x": 150.03,
+              "y": 0.0,
+              "x_advance": 7.542,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 21,
+              "x": 157.57199999999997,
+              "y": 0.0,
+              "x_advance": 7.542,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 22,
+              "x": 165.11399999999998,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 53,
+              "cluster": 23,
+              "x": 174.04199999999997,
+              "y": 0.0,
+              "x_advance": 7.361999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1123,
+              "cluster": 24,
+              "x": 181.404,
+              "y": 0.0,
+              "x_advance": 5.4719999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 49,
+              "cluster": 25,
+              "x": 186.87599999999998,
+              "y": 0.0,
+              "x_advance": 8.334,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 42,
+              "cluster": 26,
+              "x": 195.20999999999998,
+              "y": 0.0,
+              "x_advance": 9.755999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 48,
+              "cluster": 27,
+              "x": 204.96599999999998,
+              "y": 0.0,
+              "x_advance": 9.792,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 28,
+              "x": 214.75799999999998,
+              "y": 0.0,
+              "x_advance": 7.542,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 29,
+              "x": 222.29999999999998,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 248,
+              "cluster": 30,
+              "x": 225.89999999999998,
+              "y": 0.0,
+              "x_advance": 9.072,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 31,
+              "x": 234.97199999999998,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 39,
+              "cluster": 32,
+              "x": 238.57199999999997,
+              "y": 0.0,
+              "x_advance": 4.59,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1114,
+              "cluster": 33,
+              "x": 243.16199999999998,
+              "y": 0.0,
+              "x_advance": 3.4379999999999997,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 285,
+              "cluster": 34,
+              "x": 246.6,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 44,
+              "cluster": 35,
+              "x": 255.528,
+              "y": 0.0,
+              "x_advance": 9.989999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 48,
+              "cluster": 36,
+              "x": 265.518,
+              "y": 0.0,
+              "x_advance": 9.792,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 37,
+              "x": 275.31,
+              "y": 0.0,
+              "x_advance": 4.428,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 43,
+              "cluster": 38,
+              "x": 279.738,
+              "y": 0.0,
+              "x_advance": 9.989999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 39,
+              "x": 289.72799999999995,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 40,
+              "x": 298.65599999999995,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 31,
+              "cluster": 41,
+              "x": 302.256,
+              "y": 0.0,
+              "x_advance": 9.989999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 48,
+              "cluster": 42,
+              "x": 312.246,
+              "y": 0.0,
+              "x_advance": 9.792,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 43,
+              "x": 322.03799999999995,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 44,
+              "cluster": 44,
+              "x": 325.638,
+              "y": 0.0,
+              "x_advance": 9.989999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 48,
+              "cluster": 45,
+              "x": 335.628,
+              "y": 0.0,
+              "x_advance": 9.792,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 28,
+              "cluster": 46,
+              "x": 345.41999999999996,
+              "y": 0.0,
+              "x_advance": 9.072,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 36,
+              "cluster": 47,
+              "x": 354.49199999999996,
+              "y": 0.0,
+              "x_advance": 4.428,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 48,
+              "x": 358.91999999999996,
+              "y": 0.0,
+              "x_advance": 3.5999999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 32,
+              "cluster": 49,
+              "x": 362.52,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 46,
+              "cluster": 50,
+              "x": 371.448,
+              "y": 0.0,
+              "x_advance": 7.1819999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 47,
+              "cluster": 51,
+              "x": 378.63,
+              "y": 0.0,
+              "x_advance": 6.21,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1102,
+              "cluster": 52,
+              "x": 384.84,
+              "y": 0.0,
+              "x_advance": 4.481999999999999,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            389.32199999999995,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 17.712,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.5,
+            3.5,
+            392.25,
+            21.5
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "assistance_fr",
+      "block_path": "blocks.8",
+      "position_px": [
+        42,
+        639
+      ],
+      "width_px": 656,
+      "font_id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+      "align": "start"
+    }
+  ],
+  "warnings": [],
+  "implementation": {
+    "roles": {
+      "eyebrow": {
+        "exact_id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+        "sha256": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb",
+        "face_index": 0,
+        "asset_url": "assets/9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb.ttf",
+        "css_family_alias": "te-9cbab47276fc04c6-0-eyebrow",
+        "settings": {
+          "font-family": "\"te-9cbab47276fc04c6-0-eyebrow\"",
+          "font-size": "16px",
+          "line-height": "1.4",
+          "font-weight": "700",
+          "font-style": "normal",
+          "font-synthesis": "none",
+          "font-feature-settings": "normal",
+          "font-variation-settings": "normal",
+          "font-optical-sizing": "none",
+          "color": "#202b30",
+          "text-align": "start",
+          "unicode-bidi": "plaintext"
+        },
+        "language": "en",
+        "direct_webfont_recipe_supported": true,
+        "source_asset_not_copied": true
+      },
+      "title": {
+        "exact_id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+        "sha256": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb",
+        "face_index": 0,
+        "asset_url": "assets/9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb.ttf",
+        "css_family_alias": "te-9cbab47276fc04c6-0-title",
+        "settings": {
+          "font-family": "\"te-9cbab47276fc04c6-0-title\"",
+          "font-size": "34px",
+          "line-height": "1.2",
+          "font-weight": "700",
+          "font-style": "normal",
+          "font-synthesis": "none",
+          "font-feature-settings": "normal",
+          "font-variation-settings": "normal",
+          "font-optical-sizing": "none",
+          "color": "#202b30",
+          "text-align": "start",
+          "unicode-bidi": "plaintext"
+        },
+        "language": "en",
+        "direct_webfont_recipe_supported": true,
+        "source_asset_not_copied": true
+      },
+      "body": {
+        "exact_id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+        "sha256": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3",
+        "face_index": 0,
+        "asset_url": "assets/c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3.ttf",
+        "css_family_alias": "te-c9868de61ff2bab0-0-body",
+        "settings": {
+          "font-family": "\"te-c9868de61ff2bab0-0-body\"",
+          "font-size": "22px",
+          "line-height": "1.4",
+          "font-weight": "400",
+          "font-style": "normal",
+          "font-synthesis": "none",
+          "font-feature-settings": "normal",
+          "font-variation-settings": "normal",
+          "font-optical-sizing": "none",
+          "color": "#202b30",
+          "text-align": "start",
+          "unicode-bidi": "plaintext"
+        },
+        "language": "en",
+        "direct_webfont_recipe_supported": true,
+        "source_asset_not_copied": true
+      },
+      "body_fr": {
+        "exact_id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+        "sha256": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3",
+        "face_index": 0,
+        "asset_url": "assets/c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3.ttf",
+        "css_family_alias": "te-c9868de61ff2bab0-0-body_fr",
+        "settings": {
+          "font-family": "\"te-c9868de61ff2bab0-0-body_fr\"",
+          "font-size": "22px",
+          "line-height": "1.4",
+          "font-weight": "400",
+          "font-style": "normal",
+          "font-synthesis": "none",
+          "font-feature-settings": "normal",
+          "font-variation-settings": "normal",
+          "font-optical-sizing": "none",
+          "color": "#202b30",
+          "text-align": "start",
+          "unicode-bidi": "plaintext"
+        },
+        "language": "fr",
+        "direct_webfont_recipe_supported": true,
+        "source_asset_not_copied": true
+      },
+      "heading": {
+        "exact_id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+        "sha256": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb",
+        "face_index": 0,
+        "asset_url": "assets/9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb.ttf",
+        "css_family_alias": "te-9cbab47276fc04c6-0-heading",
+        "settings": {
+          "font-family": "\"te-9cbab47276fc04c6-0-heading\"",
+          "font-size": "21px",
+          "line-height": "1.4",
+          "font-weight": "700",
+          "font-style": "normal",
+          "font-synthesis": "none",
+          "font-feature-settings": "normal",
+          "font-variation-settings": "normal",
+          "font-optical-sizing": "none",
+          "color": "#202b30",
+          "text-align": "start",
+          "unicode-bidi": "plaintext"
+        },
+        "language": "en",
+        "direct_webfont_recipe_supported": true,
+        "source_asset_not_copied": true
+      },
+      "time": {
+        "exact_id": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb:0",
+        "sha256": "9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb",
+        "face_index": 0,
+        "asset_url": "assets/9cbab47276fc04c65ac78098e9a2069c55e26f21701b29092734ce4e830f80fb.ttf",
+        "css_family_alias": "te-9cbab47276fc04c6-0-time",
+        "settings": {
+          "font-family": "\"te-9cbab47276fc04c6-0-time\"",
+          "font-size": "24px",
+          "line-height": "1.4",
+          "font-weight": "700",
+          "font-style": "normal",
+          "font-synthesis": "none",
+          "font-feature-settings": "normal",
+          "font-variation-settings": "normal",
+          "font-optical-sizing": "none",
+          "color": "#202b30",
+          "text-align": "start",
+          "unicode-bidi": "plaintext"
+        },
+        "language": "en",
+        "direct_webfont_recipe_supported": true,
+        "source_asset_not_copied": true
+      },
+      "caption": {
+        "exact_id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+        "sha256": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3",
+        "face_index": 0,
+        "asset_url": "assets/c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3.ttf",
+        "css_family_alias": "te-c9868de61ff2bab0-0-caption",
+        "settings": {
+          "font-family": "\"te-c9868de61ff2bab0-0-caption\"",
+          "font-size": "18px",
+          "line-height": "1.4",
+          "font-weight": "400",
+          "font-style": "normal",
+          "font-synthesis": "none",
+          "font-feature-settings": "normal",
+          "font-variation-settings": "normal",
+          "font-optical-sizing": "none",
+          "color": "#202b30",
+          "text-align": "start",
+          "unicode-bidi": "plaintext"
+        },
+        "language": "en",
+        "direct_webfont_recipe_supported": true,
+        "source_asset_not_copied": true
+      },
+      "assistance_fr": {
+        "exact_id": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3:0",
+        "sha256": "c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3",
+        "face_index": 0,
+        "asset_url": "assets/c9868de61ff2bab0b5a3a6d01c4b76f299459f08c6ae2f2c0383b4f9f6bedbf3.ttf",
+        "css_family_alias": "te-c9868de61ff2bab0-0-assistance_fr",
+        "settings": {
+          "font-family": "\"te-c9868de61ff2bab0-0-assistance_fr\"",
+          "font-size": "18px",
+          "line-height": "1.4",
+          "font-weight": "400",
+          "font-style": "normal",
+          "font-synthesis": "none",
+          "font-feature-settings": "normal",
+          "font-variation-settings": "normal",
+          "font-optical-sizing": "none",
+          "color": "#202b30",
+          "text-align": "start",
+          "unicode-bidi": "plaintext"
+        },
+        "language": "fr",
+        "direct_webfont_recipe_supported": true,
+        "source_asset_not_copied": true
+      }
+    },
+    "collection_roles_requiring_extraction": [],
+    "status": "requires assets and target-environment validation",
+    "files": [
+      "application.css",
+      "application.html",
+      "application.js"
+    ],
+    "browser_asset_gate": "Composition hidden until SHA-256 verification and FontFace loading succeed for every role; no fallback preview on failure.",
+    "responsive_layout": {
+      "canvas": "PNG uses the exact requested width; the browser recipe adapts to its viewport.",
+      "breakpoint_px": 640,
+      "mobile_padding_px": 24,
+      "columns": "stack into one column at or below the breakpoint",
+      "tables": "keyboard-focusable horizontal scroll region with a visible hint only when overflowing",
+      "interface_labels": "Status and scroll hints use a separate system UI font; project content uses verified role faces.",
+      "mobile_role_font_sizes": {},
+      "font_ids_axes_features": "unchanged"
+    },
+    "instructions": [
+      "Resolve each exact_id immediately before staging authorized font assets at its asset_url. Check the expected SHA-256. Fonts are not copied by compose.",
+      "Use the scoped CSS family aliases, explicit axes/features and font-synthesis:none; do not substitute a similarly named family.",
+      "Inspect the implementation at its actual viewport, zoom, content, language, and device. The live layout recomputes line breaks and may differ from this unhinted preview.",
+      "For collection faces, explicitly extract the selected face if permitted, index and verify the standalone derivative, then regenerate the recipe. Do not point a TTF URL at a TTC."
+    ]
+  },
+  "limitations": [
+    "Contextual PNGs show this unhinted renderer, not browser, OS, printer, or game-engine equivalence.",
+    "Whitespace wrapping preserves text; hyphenation, full Unicode line breaking, bidi paragraphs, color fonts, and vertical writing are unsupported.",
+    "Print-preview describes a pixel layout; no physical dimensions, ICC color profile, or printer calibration is implied.",
+    "CSS/HTML use exact scoped font aliases and settings but require authorized local asset staging and target-environment verification. Collection faces require explicit extraction.",
+    "Geometry is measured; visual suitability and pairing quality require inspecting the composition in the project's context."
+  ],
+  "outputs": {
+    "composition": "composition.png",
+    "html": "index.html",
+    "manifest": "manifest.json",
+    "spec": "spec.json",
+    "css": "application.css",
+    "application_html": "application.html",
+    "application_js": "application.js"
+  },
+  "images": [
+    {
+      "file": "composition.png",
+      "sha256": "6863d13e0840134028fff04f4b3809425c48b41c1e68bb1584b1f599cbd755f3",
+      "width": 740,
+      "height": 704
+    }
+  ],
+  "file_sha256": {
+    "spec.json": "239efe885e7d4c689b6f1fdff1f60386252e1e17f944ab26f384fc9bb15955f3",
+    "application.css": "c0e737274e1a14f724ea97d9cd1a53328f26ddd1558f595f3062b99969d2d1be",
+    "application.html": "71b13783f1e1ed086f53c10f7a8b19acd954cfb59fa600883bdd070ad62de57d",
+    "application.js": "f50f97b966548ece999b147ebe4d0d1dca18035837dc68dc385dd15763e07315",
+    "index.html": "76dc630633960d14686dc960583f6d249f7b9fd2fcaf2c648668a9509df4c3a3"
+  }
+}

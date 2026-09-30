@@ -1,0 +1,200 @@
+[
+  {
+    "face": {
+      "id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+      "family": "PP Pangram Sans",
+      "style": "Compact Extrabold",
+      "full_name": "PP Pangram Sans Compact Extrabold",
+      "weight": 400,
+      "italic": false,
+      "axes": []
+    },
+    "hard_request": {
+      "weight": 400
+    },
+    "result": {
+      "schema_version": 1,
+      "status": "no_matches",
+      "role": "ui",
+      "candidates": [],
+      "baseline": {
+        "requested_id": "8ba924a418b8cc8a364801c5e83f4f5a07588228ab28e2919462a1a331b34797:0",
+        "status": "rejected",
+        "reasons": [
+          "weight_metadata_conflict"
+        ]
+      },
+      "counts": {
+        "catalog_faces": 1,
+        "eligible_faces": 0,
+        "returned_faces": 0,
+        "eligible_distinct_alternatives": 0,
+        "visual_scored_faces": 0
+      },
+      "pagination": {
+        "offset": 0,
+        "limit": 6,
+        "next_offset": null,
+        "has_more": false,
+        "meaning": "Offset counts distinct alternatives, excluding the reserved baseline. Keep the brief and catalog fixed between pages; changing either starts a new exploration."
+      },
+      "constraint_rejections": {
+        "weight_metadata_conflict": 1
+      },
+      "query_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {},
+        "negated_aliases": {},
+        "unmodeled_terms": [],
+        "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases; only literal name matching can use them without a visual adapter.",
+        "negation_scope": "Query and tone are interpreted independently. Negation extends across comma-coordinated terms until a sentence/semicolon/colon boundary, an explicit contrast such as but, or a comma-led positive clause such as prefer or use. Check the reported polarity for ambiguous prose.",
+        "unmodeled_positive": [],
+        "unmodeled_negative": [],
+        "visual_scoring_active": false,
+        "unrecognized_brief_fields": [],
+        "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect."
+      },
+      "refinement": {
+        "similar_to": null,
+        "avoid_like": null,
+        "method": "Content-based visual evidence when supplied for a face; otherwise proximity in at least two measured proportions. Reference IDs remain eligible unless excluded."
+      },
+      "context_interpretation": {
+        "supplied_fields": [],
+        "measurement_rules": [
+          "small-size lowercase proportions",
+          "audience lowercase proportions",
+          "density sampled advances",
+          "numeric alignment",
+          "observed hierarchy styles"
+        ],
+        "handoff_fields": [],
+        "advice": "Use the actual language, size, text, hierarchy and surrounding design in a contextual composition. Context fields guide preferences; none proves aesthetic fit."
+      },
+      "constraints": {
+        "coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
+        "text_codepoint_count": 0,
+        "text_supplied": false,
+        "family_diversity": "At most one face per family; equivalent canonical content is also deduplicated. Equal-score ties favor differences in known category, width, monospace measurement, x-height, and advance-width bands; this is not proof of visual distinction.",
+        "open_evidence_requested": false
+      },
+      "alternatives": [
+        {
+          "option": "single_family",
+          "advice": "Compare a single family's observed styles before adding a second typeface; additional fonts are not inherently an improvement."
+        },
+        {
+          "option": "keep_existing",
+          "advice": "Keeping the current typography is a valid outcome. Supply existing_id to include an exact catalog face as the comparison baseline."
+        }
+      ],
+      "limitations": [
+        "Rankings combine explicitly labeled evidence. Visual adapter scores are interpretations, not quality or readability measurements; missing visual evidence remains eligible.",
+        "Render the selected exact faces on project text at intended sizes. Coverage alone cannot establish legibility, shaping, personality, or good pairing.",
+        "Metadata categories and family groupings may be imperfect. Available styles describe this collection, not a complete upstream family.",
+        "Unknown rights remain unknown. Embedded open-license evidence is not legal clearance; review source and license evidence before distribution."
+      ]
+    },
+    "broad_discovery_retains_face": true
+  },
+  {
+    "face": {
+      "id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+      "family": "Taskforce Outline CondItalic",
+      "style": "Outline CondItalic",
+      "full_name": "Taskforce Outline CondItalic",
+      "weight": 400,
+      "italic": false,
+      "axes": []
+    },
+    "hard_request": {
+      "italic": false
+    },
+    "result": {
+      "schema_version": 1,
+      "status": "no_matches",
+      "role": "ui",
+      "candidates": [],
+      "baseline": {
+        "requested_id": "f8f84f7a70c16aeac597a68484eaf8c1a6c1c1fd463b17d6a8874c6eb6c91af5:0",
+        "status": "rejected",
+        "reasons": [
+          "style_metadata_conflict"
+        ]
+      },
+      "counts": {
+        "catalog_faces": 1,
+        "eligible_faces": 0,
+        "returned_faces": 0,
+        "eligible_distinct_alternatives": 0,
+        "visual_scored_faces": 0
+      },
+      "pagination": {
+        "offset": 0,
+        "limit": 6,
+        "next_offset": null,
+        "has_more": false,
+        "meaning": "Offset counts distinct alternatives, excluding the reserved baseline. Keep the brief and catalog fixed between pages; changing either starts a new exploration."
+      },
+      "constraint_rejections": {
+        "style_metadata_conflict": 1
+      },
+      "query_interpretation": {
+        "exact_name_match_count": 0,
+        "name_lookup_advice": "query ranks preferences and can return alternatives when a name is absent. Use family for a hard exact family-name lookup.",
+        "aliases": {},
+        "negated_aliases": {},
+        "unmodeled_terms": [],
+        "unmodeled_terms_meaning": "Terms not interpreted by deterministic aliases; only literal name matching can use them without a visual adapter.",
+        "negation_scope": "Query and tone are interpreted independently. Negation extends across comma-coordinated terms until a sentence/semicolon/colon boundary, an explicit contrast such as but, or a comma-led positive clause such as prefer or use. Check the reported polarity for ambiguous prose.",
+        "unmodeled_positive": [],
+        "unmodeled_negative": [],
+        "visual_scoring_active": false,
+        "unrecognized_brief_fields": [],
+        "method": "Negation-aware aliases, literal name matches, measured context preferences, and optional content-based visual evidence. Unmodeled terms are not interpreted by metadata ranking; a visual adapter may interpret them. unrecognized brief fields have no effect."
+      },
+      "refinement": {
+        "similar_to": null,
+        "avoid_like": null,
+        "method": "Content-based visual evidence when supplied for a face; otherwise proximity in at least two measured proportions. Reference IDs remain eligible unless excluded."
+      },
+      "context_interpretation": {
+        "supplied_fields": [],
+        "measurement_rules": [
+          "small-size lowercase proportions",
+          "audience lowercase proportions",
+          "density sampled advances",
+          "numeric alignment",
+          "observed hierarchy styles"
+        ],
+        "handoff_fields": [],
+        "advice": "Use the actual language, size, text, hierarchy and surrounding design in a contextual composition. Context fields guide preferences; none proves aesthetic fit."
+      },
+      "constraints": {
+        "coverage": "Requested non-layout characters must occur in cmap; this does not prove shaping correctness.",
+        "text_codepoint_count": 0,
+        "text_supplied": false,
+        "family_diversity": "At most one face per family; equivalent canonical content is also deduplicated. Equal-score ties favor differences in known category, width, monospace measurement, x-height, and advance-width bands; this is not proof of visual distinction.",
+        "open_evidence_requested": false
+      },
+      "alternatives": [
+        {
+          "option": "single_family",
+          "advice": "Compare a single family's observed styles before adding a second typeface; additional fonts are not inherently an improvement."
+        },
+        {
+          "option": "keep_existing",
+          "advice": "Keeping the current typography is a valid outcome. Supply existing_id to include an exact catalog face as the comparison baseline."
+        }
+      ],
+      "limitations": [
+        "Rankings combine explicitly labeled evidence. Visual adapter scores are interpretations, not quality or readability measurements; missing visual evidence remains eligible.",
+        "Render the selected exact faces on project text at intended sizes. Coverage alone cannot establish legibility, shaping, personality, or good pairing.",
+        "Metadata categories and family groupings may be imperfect. Available styles describe this collection, not a complete upstream family.",
+        "Unknown rights remain unknown. Embedded open-license evidence is not legal clearance; review source and license evidence before distribution."
+      ]
+    },
+    "broad_discovery_retains_face": true
+  }
+]

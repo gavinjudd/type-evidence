@@ -1,0 +1,26 @@
+{
+  "name": "OFFCUT: a community print exchange",
+  "project": "A fictional community print studio is promoting a one-evening print exchange. The same visual treatment must work as a small poster and a social tile; only the 1000 px portrait poster is fixed for this comparison.",
+  "audience": "Local adults who make things, art students, and people curious about printmaking but unfamiliar with studio jargon. The local information is in Polish.",
+  "medium": "A 1000 px portrait event poster preview, later adapted to an A3 print and a social image. Judge the title both at full size and in a quarter-size view.",
+  "tone": "Tactile, playful and confident, with enough character to feel like a small independent studio. Avoid precious luxury, wedding invitation, or corporate conference cues. Do not assume that distressed or handwritten lettering is the only route.",
+  "density": "comfortable",
+  "main_task": "Make OFFCUT memorable, then let the viewer recover what the event is, its date, location and participation rule without searching.",
+  "language": "The main title is the ASCII word OFFCUT. Polish supporting copy contains diacritics and must remain intact. A title face need not cover unused Polish letters if the supporting role uses a verified suitable face.",
+  "hierarchy": "One dominant title; a short studio statement; clear date/time and place; a smaller instruction. The title and information must be judged together.",
+  "surroundings": "Warm orange paper, near-black ink, one thin divider. Keep the supplied colors and copy. No illustrations, shadows, gradients or extra brand marks.",
+  "existing_baseline": "The supplied neutral current typography is a control fixture, not a recommended direction. An expressive change is invited, but one family or retaining parts of the current system is acceptable if it serves the work.",
+  "design_freedom": "Choose typography, title line break and role sizes. Title size 100–170 px; supporting text 24–38 px; caption 20–26 px. Keep width 1000 and padding 64. You may vary whitespace or leading, but keep information order and max height 1500. Prefer no more than two families.",
+  "acceptance": [
+    "Title is fully visible at full and quarter-size, with no clipped ink or unresolved overlaps.",
+    "All Polish supporting text, including ł, ń, ó, ę and ż, renders from the chosen exact supporting face.",
+    "Date, place and participation instructions remain easy to locate beneath the expressive title.",
+    "If pairing two families, explain the relationship using the actual composition, not generic serif/sans labels.",
+    "Record whether character comes at the expense of information and revise if it does."
+  ],
+  "primary_sizes": {
+    "title": 138,
+    "body": 31,
+    "caption": 24
+  }
+}

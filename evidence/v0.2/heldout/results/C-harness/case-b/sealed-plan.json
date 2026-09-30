@@ -1,0 +1,37 @@
+{
+  "baseline_decision": "Use original Roboto baseline and B-selected Cooper-Black-Stencil as controls; keep verified Roboto Polish support throughout.",
+  "options": [
+    {
+      "family": "SF Pixelate",
+      "styles": [
+        "Bold700"
+      ],
+      "settings": "title150; all supporting roles supplied Roboto",
+      "expected_fit": "Initial top visual result may supply playful graphic cut-like shapes; test despite name suggesting digital tone.",
+      "uncertainty": "Pixelated lettering could signal games rather than tactile printmaking.",
+      "previously_familiar": false
+    },
+    {
+      "family": "New York Medium",
+      "styles": [
+        "Heavy800"
+      ],
+      "settings": "title150; all supporting roles supplied Roboto",
+      "expected_fit": "Refined heavy serif result offers warm rounded substantial title mass without distress.",
+      "uncertainty": "Could read as newspaper or formal identity; not inherently independent-studio character.",
+      "previously_familiar": true
+    },
+    {
+      "family": "Cooper-Black-Stencil",
+      "styles": [
+        "Regular400"
+      ],
+      "settings": "B title160; all supporting roles supplied Roboto",
+      "expected_fit": "Existing B rounded stencil title directly connects cuts and friendliness while protecting information.",
+      "uncertainty": "Known successful carryover with prior tuning may be favored.",
+      "previously_familiar": false
+    }
+  ],
+  "query_refinement": "Initial and next page were dominated by pixel/retro model associations. Refined positive forms, excluded initial cluster, used similar_to B Cooper and avoid_like SF Pixelate; inspect both initial and refined directions.",
+  "sealed_at_utc": "2026-09-30T16:50:44.653938+00:00"
+}

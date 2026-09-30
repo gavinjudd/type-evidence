@@ -1,0 +1,5341 @@
+{
+  "schema_version": 1,
+  "kind": "exact-font-composition",
+  "title": "Dikiş Kulübü mobile instruction",
+  "template": "interface",
+  "medium": "screen",
+  "canvas_px": [
+    390,
+    627
+  ],
+  "roles": {
+    "eyebrow": {
+      "id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "family": "ABC Social Variable",
+      "style": "Regular",
+      "sha256": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8",
+      "face_index": 0,
+      "size_px": 14,
+      "line_height_px": 19.599999999999998,
+      "color": "#244542",
+      "axes": {
+        "wght": 700.0,
+        "ital": 0.0
+      },
+      "axis_value_sources": {
+        "wght": "explicit",
+        "ital": "explicit"
+      },
+      "features": {},
+      "language": "tr",
+      "direction": "inferred per line",
+      "coverage": {
+        "required_codepoints": [
+          32,
+          47,
+          50,
+          53,
+          65,
+          66,
+          68,
+          73,
+          75,
+          76,
+          77,
+          85,
+          220,
+          304,
+          350
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Foundries/ABCDinamo/Social/Variable/ABC Social Variable.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Foundries/ABCDinamo/Social/Variable/ABC Social Variable.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "unknown",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright © 2021 by Dinamo. All rights reserved-"
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "ABC Social is a trademark of Dinamo GmbH, Switzerland."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Dinamo"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Fabian Harb, Wei Huang, Malte Bentzen, Erkin Karamemet"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "https://abcdinamo.com"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "DINAMO END USER LICENSE AGREEMENT\r\nOpening:\r\nThis is an agreement between the Licensee and Dinamo GmbH (hereafter “Dinamo”). The License, or “License Owner”, is the business entity for who the typeface is at service and in use (and not the commissioned designer or agency creating the work). By purchasing, or downloading, or installing, or using, or otherwise handling digital typeface software (hereafter “font(s)”) by Dinamo, the Licensee automatically accepts the terms of this agreement and acknowledges understanding and complying with its terms.\r\nAcquiring a license from Dinamo grants the Licensee the right to use the specified font(s) on a specified number of work stations, and/or in a specified number of applications, used or visited by a specified number of visitors or users. The Licensee is not purchasing the copyright to the design or any other part of the fonts, but the right to use the font(s) as specified in this agreement, according to the Licensee’s specified license type(s). All uses not specifically licensed require a separate license.\r\nDESKTOP LICENSE\r\n— License Owner is the end client for who the typeface is in use – not the commissioned designer or agency.\r\n— The Print License is calculated based on the total size of the company which owns font(s). The company size is referenced on the Licensee’s invoice. If the size of the company increases, the license must be updated. In the case of the closure or merging of business entities, the license and the fonts cannot be transferred.\r\n— All licensed work-stations must legally belong to one business entity. If the business entity employs any third parties or self-employed or temporarily-employed freelancers, a separate license is necessary for those parties.\r\n— The font(s) are provided in OTF format and may be used offline only. The Licensee can make security copies of the font(s) as long as they remain inaccessible to external parties.\r\n— When embedded in production files, a copy of the font(s) may be shared with prepress and printing entities. If any of these external entities manipulate texts using Dinamo font(s), an individual license is necessary for those parties.\r\n— The font(s) may be embedded into public PDF files as vector outlines.\r\n— Print-font(s) must not be used to generate web-font(s).\r\nGENERAL LIMITATIONS/PERMISSIONS\r\n— Font(s) created by Dinamo, including Custom Typefaces, and all their constituents must not be amended, regenerated, or reformatted in any way. Any rights, including but not limited to copyrights and trademarks, remain with Dinamo.\r\n— Font(s) created by Dinamo, including Custom Typefaces, and all their constituents must not be resold, lent, rented, distributed, or traded in any way to third parties.\r\n— Any expansion or derivatives of Font(s) created by Dinamo must be done or authorised by Dinamo.\r\nWARRANTY/LIABILITY\r\n— Dinamo guarantees its font(s) to be free of defect for fourteen (14) days upon purchase. Claims must include receipt and documentation of the defect.\r\n–—Refunds are granted only when software defects cannot be resolved by Dinamo. Any refund immediately terminates the Licensee’s right to use the font(s).\r\n— Any use of Dinamo font(s) that may result in harm, death, injury, property or environmental damages is not permitted.\r\n— In no event is Dinamo liable for any loss or damages caused by the use of their font(s), including lost profits, lost data, lost business opportunities, or lost savings.\r\n— Some jurisdictions do not allow the exclusions of limitations of incidental, consequential, or special damages, so the above exclusion may not apply to the Licensee. Some jurisdictions do not allow the exclusions of implied warranties or limitations on how long an implied warranty may last, so the above limitations may not apply to the Licensee. To the extent permitted by law, any implied warranties are limited to fourteen (14) days.\r\n— The Licensee agrees that font(s), its design, structure, organisation, encoding, and all its copies are owned by and valuable property of Dinamo and protected under Swiss law, by the copyright and trademark laws of other countries and international treaties.\r\n— The fonts are not warranted to operate on all computer operating systems. Dinamo is not responsible for operating system errors or inoperability faults.\r\nTERMINATION\r\n— Any breach of this agreement immediately voids and annuls the complete license and any usage right of the font(s) with immediate effect.\r\n— In the event of termination, all fonts and back-up copies must be deleted; this act has to be documented/assured upon request of Dinamo.\r\nCONFIDENTIALITY\r\n— The Licensee is obliged to undertake all steps to prevent unauthorised access to the fonts and its copies. — If the Licensee grants employees or representatives access to the font software, the Licensee is required to inform them of this EULA.\r\nFINAL PROVISIONS\r\n— This EULA represents the complete agreement between the parties; all verbal communications and prior communications regarding the application of the licensed font(s) are not valid or effective. Any and all rights not expressly granted in this agreement are reserved to Dinamo.\r\n— This license agreement cannot be amended without written permission of Dinamo. Any amendment will be supervised by Dinamo’s attorney; attorney fees are at the expense of the licensee.\r\n— All disputes arising from this agreement are exclusive subject of the law of the Federal Republic of Switzerland. The rights and obligations of the parties arising from this contract are based on Swiss law as it relates to contracts made in Switzerland and fully performed therein. The conflict of law provisions of Switzerland nor the conflict of law provisions of any other jurisdiction do not apply. The Licensee expressly consents to the jurisdiction of the Swiss Courts over any dispute arising out of this agreement, even if the breach of contractual rights takes place in a foreign country. Place of jurisdiction is Basel, Switzerland.\r\n– All legal fees arising from a dispute over or breach of this agreement are to be covered by the Licensee; the Licensee will reimburse Dinamo for any legal fees arising from a dispute over violations of this EULA\r\n– Any violation of this license entitles Dinamo to payment by the licensee of all costs incurred by it, to investigate and address the violation, enforce the License and/or finalise a settlement, including reasonable investigators’ and attorneys’ fees.\r\n— The invalidity or inoperativeness of one or more provisions of this contract does not affect the validity of the rest of the contract and the remaining other provisions shall thereby remain unaffected. An invalid provision shall be replaced by a provision that is permitted by law and which approaches the invalid provision and economic interests intended by the parties.\r\n— This agreement is not governed by the “United Nation Convention on Contracts for the International Sale of Goods.”"
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "https://abcdinamo.com/information"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": []
+      }
+    },
+    "title": {
+      "id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "family": "ABC Social Variable",
+      "style": "Regular",
+      "sha256": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8",
+      "face_index": 0,
+      "size_px": 28,
+      "line_height_px": 32.199999999999996,
+      "color": "#244542",
+      "axes": {
+        "wght": 700.0,
+        "ital": 0.0
+      },
+      "axis_value_sources": {
+        "wght": "explicit",
+        "ital": "explicit"
+      },
+      "features": {},
+      "language": "tr",
+      "direction": "inferred per line",
+      "coverage": {
+        "required_codepoints": [
+          32,
+          100,
+          101,
+          103,
+          105,
+          108,
+          110,
+          112,
+          114,
+          231,
+          287,
+          304
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Foundries/ABCDinamo/Social/Variable/ABC Social Variable.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Foundries/ABCDinamo/Social/Variable/ABC Social Variable.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "unknown",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright © 2021 by Dinamo. All rights reserved-"
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "ABC Social is a trademark of Dinamo GmbH, Switzerland."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Dinamo"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Fabian Harb, Wei Huang, Malte Bentzen, Erkin Karamemet"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "https://abcdinamo.com"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "DINAMO END USER LICENSE AGREEMENT\r\nOpening:\r\nThis is an agreement between the Licensee and Dinamo GmbH (hereafter “Dinamo”). The License, or “License Owner”, is the business entity for who the typeface is at service and in use (and not the commissioned designer or agency creating the work). By purchasing, or downloading, or installing, or using, or otherwise handling digital typeface software (hereafter “font(s)”) by Dinamo, the Licensee automatically accepts the terms of this agreement and acknowledges understanding and complying with its terms.\r\nAcquiring a license from Dinamo grants the Licensee the right to use the specified font(s) on a specified number of work stations, and/or in a specified number of applications, used or visited by a specified number of visitors or users. The Licensee is not purchasing the copyright to the design or any other part of the fonts, but the right to use the font(s) as specified in this agreement, according to the Licensee’s specified license type(s). All uses not specifically licensed require a separate license.\r\nDESKTOP LICENSE\r\n— License Owner is the end client for who the typeface is in use – not the commissioned designer or agency.\r\n— The Print License is calculated based on the total size of the company which owns font(s). The company size is referenced on the Licensee’s invoice. If the size of the company increases, the license must be updated. In the case of the closure or merging of business entities, the license and the fonts cannot be transferred.\r\n— All licensed work-stations must legally belong to one business entity. If the business entity employs any third parties or self-employed or temporarily-employed freelancers, a separate license is necessary for those parties.\r\n— The font(s) are provided in OTF format and may be used offline only. The Licensee can make security copies of the font(s) as long as they remain inaccessible to external parties.\r\n— When embedded in production files, a copy of the font(s) may be shared with prepress and printing entities. If any of these external entities manipulate texts using Dinamo font(s), an individual license is necessary for those parties.\r\n— The font(s) may be embedded into public PDF files as vector outlines.\r\n— Print-font(s) must not be used to generate web-font(s).\r\nGENERAL LIMITATIONS/PERMISSIONS\r\n— Font(s) created by Dinamo, including Custom Typefaces, and all their constituents must not be amended, regenerated, or reformatted in any way. Any rights, including but not limited to copyrights and trademarks, remain with Dinamo.\r\n— Font(s) created by Dinamo, including Custom Typefaces, and all their constituents must not be resold, lent, rented, distributed, or traded in any way to third parties.\r\n— Any expansion or derivatives of Font(s) created by Dinamo must be done or authorised by Dinamo.\r\nWARRANTY/LIABILITY\r\n— Dinamo guarantees its font(s) to be free of defect for fourteen (14) days upon purchase. Claims must include receipt and documentation of the defect.\r\n–—Refunds are granted only when software defects cannot be resolved by Dinamo. Any refund immediately terminates the Licensee’s right to use the font(s).\r\n— Any use of Dinamo font(s) that may result in harm, death, injury, property or environmental damages is not permitted.\r\n— In no event is Dinamo liable for any loss or damages caused by the use of their font(s), including lost profits, lost data, lost business opportunities, or lost savings.\r\n— Some jurisdictions do not allow the exclusions of limitations of incidental, consequential, or special damages, so the above exclusion may not apply to the Licensee. Some jurisdictions do not allow the exclusions of implied warranties or limitations on how long an implied warranty may last, so the above limitations may not apply to the Licensee. To the extent permitted by law, any implied warranties are limited to fourteen (14) days.\r\n— The Licensee agrees that font(s), its design, structure, organisation, encoding, and all its copies are owned by and valuable property of Dinamo and protected under Swiss law, by the copyright and trademark laws of other countries and international treaties.\r\n— The fonts are not warranted to operate on all computer operating systems. Dinamo is not responsible for operating system errors or inoperability faults.\r\nTERMINATION\r\n— Any breach of this agreement immediately voids and annuls the complete license and any usage right of the font(s) with immediate effect.\r\n— In the event of termination, all fonts and back-up copies must be deleted; this act has to be documented/assured upon request of Dinamo.\r\nCONFIDENTIALITY\r\n— The Licensee is obliged to undertake all steps to prevent unauthorised access to the fonts and its copies. — If the Licensee grants employees or representatives access to the font software, the Licensee is required to inform them of this EULA.\r\nFINAL PROVISIONS\r\n— This EULA represents the complete agreement between the parties; all verbal communications and prior communications regarding the application of the licensed font(s) are not valid or effective. Any and all rights not expressly granted in this agreement are reserved to Dinamo.\r\n— This license agreement cannot be amended without written permission of Dinamo. Any amendment will be supervised by Dinamo’s attorney; attorney fees are at the expense of the licensee.\r\n— All disputes arising from this agreement are exclusive subject of the law of the Federal Republic of Switzerland. The rights and obligations of the parties arising from this contract are based on Swiss law as it relates to contracts made in Switzerland and fully performed therein. The conflict of law provisions of Switzerland nor the conflict of law provisions of any other jurisdiction do not apply. The Licensee expressly consents to the jurisdiction of the Swiss Courts over any dispute arising out of this agreement, even if the breach of contractual rights takes place in a foreign country. Place of jurisdiction is Basel, Switzerland.\r\n– All legal fees arising from a dispute over or breach of this agreement are to be covered by the Licensee; the Licensee will reimburse Dinamo for any legal fees arising from a dispute over violations of this EULA\r\n– Any violation of this license entitles Dinamo to payment by the licensee of all costs incurred by it, to investigate and address the violation, enforce the License and/or finalise a settlement, including reasonable investigators’ and attorneys’ fees.\r\n— The invalidity or inoperativeness of one or more provisions of this contract does not affect the validity of the rest of the contract and the remaining other provisions shall thereby remain unaffected. An invalid provision shall be replaced by a provision that is permitted by law and which approaches the invalid provision and economic interests intended by the parties.\r\n— This agreement is not governed by the “United Nation Convention on Contracts for the International Sale of Goods.”"
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "https://abcdinamo.com/information"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": []
+      }
+    },
+    "body": {
+      "id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "family": "ABC Social Variable",
+      "style": "Regular",
+      "sha256": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8",
+      "face_index": 0,
+      "size_px": 18,
+      "line_height_px": 27.0,
+      "color": "#244542",
+      "axes": {
+        "wght": 400.0,
+        "ital": 0.0
+      },
+      "axis_value_sources": {
+        "wght": "explicit",
+        "ital": "explicit"
+      },
+      "features": {},
+      "language": "tr",
+      "direction": "inferred per line",
+      "coverage": {
+        "required_codepoints": [
+          32,
+          44,
+          46,
+          48,
+          49,
+          50,
+          51,
+          52,
+          59,
+          73,
+          75,
+          80,
+          85,
+          97,
+          99,
+          100,
+          101,
+          103,
+          105,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          114,
+          115,
+          116,
+          117,
+          118,
+          121,
+          122,
+          183,
+          231,
+          246,
+          252,
+          287,
+          304,
+          305,
+          351,
+          8212
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Foundries/ABCDinamo/Social/Variable/ABC Social Variable.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Foundries/ABCDinamo/Social/Variable/ABC Social Variable.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "unknown",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright © 2021 by Dinamo. All rights reserved-"
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "ABC Social is a trademark of Dinamo GmbH, Switzerland."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Dinamo"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Fabian Harb, Wei Huang, Malte Bentzen, Erkin Karamemet"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "https://abcdinamo.com"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "DINAMO END USER LICENSE AGREEMENT\r\nOpening:\r\nThis is an agreement between the Licensee and Dinamo GmbH (hereafter “Dinamo”). The License, or “License Owner”, is the business entity for who the typeface is at service and in use (and not the commissioned designer or agency creating the work). By purchasing, or downloading, or installing, or using, or otherwise handling digital typeface software (hereafter “font(s)”) by Dinamo, the Licensee automatically accepts the terms of this agreement and acknowledges understanding and complying with its terms.\r\nAcquiring a license from Dinamo grants the Licensee the right to use the specified font(s) on a specified number of work stations, and/or in a specified number of applications, used or visited by a specified number of visitors or users. The Licensee is not purchasing the copyright to the design or any other part of the fonts, but the right to use the font(s) as specified in this agreement, according to the Licensee’s specified license type(s). All uses not specifically licensed require a separate license.\r\nDESKTOP LICENSE\r\n— License Owner is the end client for who the typeface is in use – not the commissioned designer or agency.\r\n— The Print License is calculated based on the total size of the company which owns font(s). The company size is referenced on the Licensee’s invoice. If the size of the company increases, the license must be updated. In the case of the closure or merging of business entities, the license and the fonts cannot be transferred.\r\n— All licensed work-stations must legally belong to one business entity. If the business entity employs any third parties or self-employed or temporarily-employed freelancers, a separate license is necessary for those parties.\r\n— The font(s) are provided in OTF format and may be used offline only. The Licensee can make security copies of the font(s) as long as they remain inaccessible to external parties.\r\n— When embedded in production files, a copy of the font(s) may be shared with prepress and printing entities. If any of these external entities manipulate texts using Dinamo font(s), an individual license is necessary for those parties.\r\n— The font(s) may be embedded into public PDF files as vector outlines.\r\n— Print-font(s) must not be used to generate web-font(s).\r\nGENERAL LIMITATIONS/PERMISSIONS\r\n— Font(s) created by Dinamo, including Custom Typefaces, and all their constituents must not be amended, regenerated, or reformatted in any way. Any rights, including but not limited to copyrights and trademarks, remain with Dinamo.\r\n— Font(s) created by Dinamo, including Custom Typefaces, and all their constituents must not be resold, lent, rented, distributed, or traded in any way to third parties.\r\n— Any expansion or derivatives of Font(s) created by Dinamo must be done or authorised by Dinamo.\r\nWARRANTY/LIABILITY\r\n— Dinamo guarantees its font(s) to be free of defect for fourteen (14) days upon purchase. Claims must include receipt and documentation of the defect.\r\n–—Refunds are granted only when software defects cannot be resolved by Dinamo. Any refund immediately terminates the Licensee’s right to use the font(s).\r\n— Any use of Dinamo font(s) that may result in harm, death, injury, property or environmental damages is not permitted.\r\n— In no event is Dinamo liable for any loss or damages caused by the use of their font(s), including lost profits, lost data, lost business opportunities, or lost savings.\r\n— Some jurisdictions do not allow the exclusions of limitations of incidental, consequential, or special damages, so the above exclusion may not apply to the Licensee. Some jurisdictions do not allow the exclusions of implied warranties or limitations on how long an implied warranty may last, so the above limitations may not apply to the Licensee. To the extent permitted by law, any implied warranties are limited to fourteen (14) days.\r\n— The Licensee agrees that font(s), its design, structure, organisation, encoding, and all its copies are owned by and valuable property of Dinamo and protected under Swiss law, by the copyright and trademark laws of other countries and international treaties.\r\n— The fonts are not warranted to operate on all computer operating systems. Dinamo is not responsible for operating system errors or inoperability faults.\r\nTERMINATION\r\n— Any breach of this agreement immediately voids and annuls the complete license and any usage right of the font(s) with immediate effect.\r\n— In the event of termination, all fonts and back-up copies must be deleted; this act has to be documented/assured upon request of Dinamo.\r\nCONFIDENTIALITY\r\n— The Licensee is obliged to undertake all steps to prevent unauthorised access to the fonts and its copies. — If the Licensee grants employees or representatives access to the font software, the Licensee is required to inform them of this EULA.\r\nFINAL PROVISIONS\r\n— This EULA represents the complete agreement between the parties; all verbal communications and prior communications regarding the application of the licensed font(s) are not valid or effective. Any and all rights not expressly granted in this agreement are reserved to Dinamo.\r\n— This license agreement cannot be amended without written permission of Dinamo. Any amendment will be supervised by Dinamo’s attorney; attorney fees are at the expense of the licensee.\r\n— All disputes arising from this agreement are exclusive subject of the law of the Federal Republic of Switzerland. The rights and obligations of the parties arising from this contract are based on Swiss law as it relates to contracts made in Switzerland and fully performed therein. The conflict of law provisions of Switzerland nor the conflict of law provisions of any other jurisdiction do not apply. The Licensee expressly consents to the jurisdiction of the Swiss Courts over any dispute arising out of this agreement, even if the breach of contractual rights takes place in a foreign country. Place of jurisdiction is Basel, Switzerland.\r\n– All legal fees arising from a dispute over or breach of this agreement are to be covered by the Licensee; the Licensee will reimburse Dinamo for any legal fees arising from a dispute over violations of this EULA\r\n– Any violation of this license entitles Dinamo to payment by the licensee of all costs incurred by it, to investigate and address the violation, enforce the License and/or finalise a settlement, including reasonable investigators’ and attorneys’ fees.\r\n— The invalidity or inoperativeness of one or more provisions of this contract does not affect the validity of the rest of the contract and the remaining other provisions shall thereby remain unaffected. An invalid provision shall be replaced by a provision that is permitted by law and which approaches the invalid provision and economic interests intended by the parties.\r\n— This agreement is not governed by the “United Nation Convention on Contracts for the International Sale of Goods.”"
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "https://abcdinamo.com/information"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": []
+      }
+    },
+    "heading": {
+      "id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "family": "ABC Social Variable",
+      "style": "Regular",
+      "sha256": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8",
+      "face_index": 0,
+      "size_px": 18,
+      "line_height_px": 25.2,
+      "color": "#244542",
+      "axes": {
+        "wght": 700.0,
+        "ital": 0.0
+      },
+      "axis_value_sources": {
+        "wght": "explicit",
+        "ital": "explicit"
+      },
+      "features": {},
+      "language": "tr",
+      "direction": "inferred per line",
+      "coverage": {
+        "required_codepoints": [
+          32,
+          89,
+          97,
+          100,
+          108,
+          110,
+          111,
+          115,
+          117,
+          122,
+          305
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Foundries/ABCDinamo/Social/Variable/ABC Social Variable.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Foundries/ABCDinamo/Social/Variable/ABC Social Variable.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "unknown",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright © 2021 by Dinamo. All rights reserved-"
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "ABC Social is a trademark of Dinamo GmbH, Switzerland."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Dinamo"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Fabian Harb, Wei Huang, Malte Bentzen, Erkin Karamemet"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "https://abcdinamo.com"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "DINAMO END USER LICENSE AGREEMENT\r\nOpening:\r\nThis is an agreement between the Licensee and Dinamo GmbH (hereafter “Dinamo”). The License, or “License Owner”, is the business entity for who the typeface is at service and in use (and not the commissioned designer or agency creating the work). By purchasing, or downloading, or installing, or using, or otherwise handling digital typeface software (hereafter “font(s)”) by Dinamo, the Licensee automatically accepts the terms of this agreement and acknowledges understanding and complying with its terms.\r\nAcquiring a license from Dinamo grants the Licensee the right to use the specified font(s) on a specified number of work stations, and/or in a specified number of applications, used or visited by a specified number of visitors or users. The Licensee is not purchasing the copyright to the design or any other part of the fonts, but the right to use the font(s) as specified in this agreement, according to the Licensee’s specified license type(s). All uses not specifically licensed require a separate license.\r\nDESKTOP LICENSE\r\n— License Owner is the end client for who the typeface is in use – not the commissioned designer or agency.\r\n— The Print License is calculated based on the total size of the company which owns font(s). The company size is referenced on the Licensee’s invoice. If the size of the company increases, the license must be updated. In the case of the closure or merging of business entities, the license and the fonts cannot be transferred.\r\n— All licensed work-stations must legally belong to one business entity. If the business entity employs any third parties or self-employed or temporarily-employed freelancers, a separate license is necessary for those parties.\r\n— The font(s) are provided in OTF format and may be used offline only. The Licensee can make security copies of the font(s) as long as they remain inaccessible to external parties.\r\n— When embedded in production files, a copy of the font(s) may be shared with prepress and printing entities. If any of these external entities manipulate texts using Dinamo font(s), an individual license is necessary for those parties.\r\n— The font(s) may be embedded into public PDF files as vector outlines.\r\n— Print-font(s) must not be used to generate web-font(s).\r\nGENERAL LIMITATIONS/PERMISSIONS\r\n— Font(s) created by Dinamo, including Custom Typefaces, and all their constituents must not be amended, regenerated, or reformatted in any way. Any rights, including but not limited to copyrights and trademarks, remain with Dinamo.\r\n— Font(s) created by Dinamo, including Custom Typefaces, and all their constituents must not be resold, lent, rented, distributed, or traded in any way to third parties.\r\n— Any expansion or derivatives of Font(s) created by Dinamo must be done or authorised by Dinamo.\r\nWARRANTY/LIABILITY\r\n— Dinamo guarantees its font(s) to be free of defect for fourteen (14) days upon purchase. Claims must include receipt and documentation of the defect.\r\n–—Refunds are granted only when software defects cannot be resolved by Dinamo. Any refund immediately terminates the Licensee’s right to use the font(s).\r\n— Any use of Dinamo font(s) that may result in harm, death, injury, property or environmental damages is not permitted.\r\n— In no event is Dinamo liable for any loss or damages caused by the use of their font(s), including lost profits, lost data, lost business opportunities, or lost savings.\r\n— Some jurisdictions do not allow the exclusions of limitations of incidental, consequential, or special damages, so the above exclusion may not apply to the Licensee. Some jurisdictions do not allow the exclusions of implied warranties or limitations on how long an implied warranty may last, so the above limitations may not apply to the Licensee. To the extent permitted by law, any implied warranties are limited to fourteen (14) days.\r\n— The Licensee agrees that font(s), its design, structure, organisation, encoding, and all its copies are owned by and valuable property of Dinamo and protected under Swiss law, by the copyright and trademark laws of other countries and international treaties.\r\n— The fonts are not warranted to operate on all computer operating systems. Dinamo is not responsible for operating system errors or inoperability faults.\r\nTERMINATION\r\n— Any breach of this agreement immediately voids and annuls the complete license and any usage right of the font(s) with immediate effect.\r\n— In the event of termination, all fonts and back-up copies must be deleted; this act has to be documented/assured upon request of Dinamo.\r\nCONFIDENTIALITY\r\n— The Licensee is obliged to undertake all steps to prevent unauthorised access to the fonts and its copies. — If the Licensee grants employees or representatives access to the font software, the Licensee is required to inform them of this EULA.\r\nFINAL PROVISIONS\r\n— This EULA represents the complete agreement between the parties; all verbal communications and prior communications regarding the application of the licensed font(s) are not valid or effective. Any and all rights not expressly granted in this agreement are reserved to Dinamo.\r\n— This license agreement cannot be amended without written permission of Dinamo. Any amendment will be supervised by Dinamo’s attorney; attorney fees are at the expense of the licensee.\r\n— All disputes arising from this agreement are exclusive subject of the law of the Federal Republic of Switzerland. The rights and obligations of the parties arising from this contract are based on Swiss law as it relates to contracts made in Switzerland and fully performed therein. The conflict of law provisions of Switzerland nor the conflict of law provisions of any other jurisdiction do not apply. The Licensee expressly consents to the jurisdiction of the Swiss Courts over any dispute arising out of this agreement, even if the breach of contractual rights takes place in a foreign country. Place of jurisdiction is Basel, Switzerland.\r\n– All legal fees arising from a dispute over or breach of this agreement are to be covered by the Licensee; the Licensee will reimburse Dinamo for any legal fees arising from a dispute over violations of this EULA\r\n– Any violation of this license entitles Dinamo to payment by the licensee of all costs incurred by it, to investigate and address the violation, enforce the License and/or finalise a settlement, including reasonable investigators’ and attorneys’ fees.\r\n— The invalidity or inoperativeness of one or more provisions of this contract does not affect the validity of the rest of the contract and the remaining other provisions shall thereby remain unaffected. An invalid provision shall be replaced by a provision that is permitted by law and which approaches the invalid provision and economic interests intended by the parties.\r\n— This agreement is not governed by the “United Nation Convention on Contracts for the International Sale of Goods.”"
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "https://abcdinamo.com/information"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": []
+      }
+    },
+    "caption": {
+      "id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "family": "ABC Social Variable",
+      "style": "Regular",
+      "sha256": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8",
+      "face_index": 0,
+      "size_px": 15,
+      "line_height_px": 21.0,
+      "color": "#244542",
+      "axes": {
+        "wght": 400.0,
+        "ital": 0.0
+      },
+      "axis_value_sources": {
+        "wght": "explicit",
+        "ital": "explicit"
+      },
+      "features": {},
+      "language": "tr",
+      "direction": "inferred per line",
+      "coverage": {
+        "required_codepoints": [
+          32,
+          46,
+          58,
+          75,
+          85,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          104,
+          105,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          114,
+          115,
+          116,
+          117,
+          121,
+          122,
+          231,
+          252,
+          304,
+          305,
+          351
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Foundries/ABCDinamo/Social/Variable/ABC Social Variable.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Foundries/ABCDinamo/Social/Variable/ABC Social Variable.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "unknown",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright © 2021 by Dinamo. All rights reserved-"
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "ABC Social is a trademark of Dinamo GmbH, Switzerland."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Dinamo"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Fabian Harb, Wei Huang, Malte Bentzen, Erkin Karamemet"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "https://abcdinamo.com"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "DINAMO END USER LICENSE AGREEMENT\r\nOpening:\r\nThis is an agreement between the Licensee and Dinamo GmbH (hereafter “Dinamo”). The License, or “License Owner”, is the business entity for who the typeface is at service and in use (and not the commissioned designer or agency creating the work). By purchasing, or downloading, or installing, or using, or otherwise handling digital typeface software (hereafter “font(s)”) by Dinamo, the Licensee automatically accepts the terms of this agreement and acknowledges understanding and complying with its terms.\r\nAcquiring a license from Dinamo grants the Licensee the right to use the specified font(s) on a specified number of work stations, and/or in a specified number of applications, used or visited by a specified number of visitors or users. The Licensee is not purchasing the copyright to the design or any other part of the fonts, but the right to use the font(s) as specified in this agreement, according to the Licensee’s specified license type(s). All uses not specifically licensed require a separate license.\r\nDESKTOP LICENSE\r\n— License Owner is the end client for who the typeface is in use – not the commissioned designer or agency.\r\n— The Print License is calculated based on the total size of the company which owns font(s). The company size is referenced on the Licensee’s invoice. If the size of the company increases, the license must be updated. In the case of the closure or merging of business entities, the license and the fonts cannot be transferred.\r\n— All licensed work-stations must legally belong to one business entity. If the business entity employs any third parties or self-employed or temporarily-employed freelancers, a separate license is necessary for those parties.\r\n— The font(s) are provided in OTF format and may be used offline only. The Licensee can make security copies of the font(s) as long as they remain inaccessible to external parties.\r\n— When embedded in production files, a copy of the font(s) may be shared with prepress and printing entities. If any of these external entities manipulate texts using Dinamo font(s), an individual license is necessary for those parties.\r\n— The font(s) may be embedded into public PDF files as vector outlines.\r\n— Print-font(s) must not be used to generate web-font(s).\r\nGENERAL LIMITATIONS/PERMISSIONS\r\n— Font(s) created by Dinamo, including Custom Typefaces, and all their constituents must not be amended, regenerated, or reformatted in any way. Any rights, including but not limited to copyrights and trademarks, remain with Dinamo.\r\n— Font(s) created by Dinamo, including Custom Typefaces, and all their constituents must not be resold, lent, rented, distributed, or traded in any way to third parties.\r\n— Any expansion or derivatives of Font(s) created by Dinamo must be done or authorised by Dinamo.\r\nWARRANTY/LIABILITY\r\n— Dinamo guarantees its font(s) to be free of defect for fourteen (14) days upon purchase. Claims must include receipt and documentation of the defect.\r\n–—Refunds are granted only when software defects cannot be resolved by Dinamo. Any refund immediately terminates the Licensee’s right to use the font(s).\r\n— Any use of Dinamo font(s) that may result in harm, death, injury, property or environmental damages is not permitted.\r\n— In no event is Dinamo liable for any loss or damages caused by the use of their font(s), including lost profits, lost data, lost business opportunities, or lost savings.\r\n— Some jurisdictions do not allow the exclusions of limitations of incidental, consequential, or special damages, so the above exclusion may not apply to the Licensee. Some jurisdictions do not allow the exclusions of implied warranties or limitations on how long an implied warranty may last, so the above limitations may not apply to the Licensee. To the extent permitted by law, any implied warranties are limited to fourteen (14) days.\r\n— The Licensee agrees that font(s), its design, structure, organisation, encoding, and all its copies are owned by and valuable property of Dinamo and protected under Swiss law, by the copyright and trademark laws of other countries and international treaties.\r\n— The fonts are not warranted to operate on all computer operating systems. Dinamo is not responsible for operating system errors or inoperability faults.\r\nTERMINATION\r\n— Any breach of this agreement immediately voids and annuls the complete license and any usage right of the font(s) with immediate effect.\r\n— In the event of termination, all fonts and back-up copies must be deleted; this act has to be documented/assured upon request of Dinamo.\r\nCONFIDENTIALITY\r\n— The Licensee is obliged to undertake all steps to prevent unauthorised access to the fonts and its copies. — If the Licensee grants employees or representatives access to the font software, the Licensee is required to inform them of this EULA.\r\nFINAL PROVISIONS\r\n— This EULA represents the complete agreement between the parties; all verbal communications and prior communications regarding the application of the licensed font(s) are not valid or effective. Any and all rights not expressly granted in this agreement are reserved to Dinamo.\r\n— This license agreement cannot be amended without written permission of Dinamo. Any amendment will be supervised by Dinamo’s attorney; attorney fees are at the expense of the licensee.\r\n— All disputes arising from this agreement are exclusive subject of the law of the Federal Republic of Switzerland. The rights and obligations of the parties arising from this contract are based on Swiss law as it relates to contracts made in Switzerland and fully performed therein. The conflict of law provisions of Switzerland nor the conflict of law provisions of any other jurisdiction do not apply. The Licensee expressly consents to the jurisdiction of the Swiss Courts over any dispute arising out of this agreement, even if the breach of contractual rights takes place in a foreign country. Place of jurisdiction is Basel, Switzerland.\r\n– All legal fees arising from a dispute over or breach of this agreement are to be covered by the Licensee; the Licensee will reimburse Dinamo for any legal fees arising from a dispute over violations of this EULA\r\n– Any violation of this license entitles Dinamo to payment by the licensee of all costs incurred by it, to investigate and address the violation, enforce the License and/or finalise a settlement, including reasonable investigators’ and attorneys’ fees.\r\n— The invalidity or inoperativeness of one or more provisions of this contract does not affect the validity of the rest of the contract and the remaining other provisions shall thereby remain unaffected. An invalid provision shall be replaced by a provision that is permitted by law and which approaches the invalid provision and economic interests intended by the parties.\r\n— This agreement is not governed by the “United Nation Convention on Contracts for the International Sale of Goods.”"
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "https://abcdinamo.com/information"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": []
+      }
+    },
+    "button": {
+      "id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "family": "ABC Social Variable",
+      "style": "Regular",
+      "sha256": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8",
+      "face_index": 0,
+      "size_px": 18,
+      "line_height_px": 25.2,
+      "color": "#ffffff",
+      "axes": {
+        "wght": 700.0,
+        "ital": 0.0
+      },
+      "axis_value_sources": {
+        "wght": "explicit",
+        "ital": "explicit"
+      },
+      "features": {},
+      "language": "tr",
+      "direction": "inferred per line",
+      "coverage": {
+        "required_codepoints": [
+          32,
+          44,
+          72,
+          97,
+          100,
+          101,
+          105,
+          108,
+          109,
+          114,
+          118,
+          122,
+          305
+        ],
+        "missing_codepoints": [],
+        "join_controls": [],
+        "checked_against": "exact-face Unicode cmap and post-shaping glyph IDs"
+      },
+      "glyph_zero_count": 0,
+      "asset_verified": true,
+      "provenance": {
+        "source_id": "bekah",
+        "path": "Foundries/ABCDinamo/Social/Variable/ABC Social Variable.ttf",
+        "url": "https://github.com/bekahmcdonald/fonts",
+        "commit": "7841ca896a9a770d5ea18fd5faef0eb91ad90ef3",
+        "upstream_path": "Foundries/ABCDinamo/Social/Variable/ABC Social Variable.ttf",
+        "container": "ttf"
+      },
+      "rights": {
+        "status": "unknown",
+        "evidence": [
+          {
+            "kind": "embedded-name-0",
+            "text": "Copyright © 2021 by Dinamo. All rights reserved-"
+          },
+          {
+            "kind": "embedded-name-7",
+            "text": "ABC Social is a trademark of Dinamo GmbH, Switzerland."
+          },
+          {
+            "kind": "embedded-name-8",
+            "text": "Dinamo"
+          },
+          {
+            "kind": "embedded-name-9",
+            "text": "Fabian Harb, Wei Huang, Malte Bentzen, Erkin Karamemet"
+          },
+          {
+            "kind": "embedded-name-11",
+            "text": "https://abcdinamo.com"
+          },
+          {
+            "kind": "embedded-name-13",
+            "text": "DINAMO END USER LICENSE AGREEMENT\r\nOpening:\r\nThis is an agreement between the Licensee and Dinamo GmbH (hereafter “Dinamo”). The License, or “License Owner”, is the business entity for who the typeface is at service and in use (and not the commissioned designer or agency creating the work). By purchasing, or downloading, or installing, or using, or otherwise handling digital typeface software (hereafter “font(s)”) by Dinamo, the Licensee automatically accepts the terms of this agreement and acknowledges understanding and complying with its terms.\r\nAcquiring a license from Dinamo grants the Licensee the right to use the specified font(s) on a specified number of work stations, and/or in a specified number of applications, used or visited by a specified number of visitors or users. The Licensee is not purchasing the copyright to the design or any other part of the fonts, but the right to use the font(s) as specified in this agreement, according to the Licensee’s specified license type(s). All uses not specifically licensed require a separate license.\r\nDESKTOP LICENSE\r\n— License Owner is the end client for who the typeface is in use – not the commissioned designer or agency.\r\n— The Print License is calculated based on the total size of the company which owns font(s). The company size is referenced on the Licensee’s invoice. If the size of the company increases, the license must be updated. In the case of the closure or merging of business entities, the license and the fonts cannot be transferred.\r\n— All licensed work-stations must legally belong to one business entity. If the business entity employs any third parties or self-employed or temporarily-employed freelancers, a separate license is necessary for those parties.\r\n— The font(s) are provided in OTF format and may be used offline only. The Licensee can make security copies of the font(s) as long as they remain inaccessible to external parties.\r\n— When embedded in production files, a copy of the font(s) may be shared with prepress and printing entities. If any of these external entities manipulate texts using Dinamo font(s), an individual license is necessary for those parties.\r\n— The font(s) may be embedded into public PDF files as vector outlines.\r\n— Print-font(s) must not be used to generate web-font(s).\r\nGENERAL LIMITATIONS/PERMISSIONS\r\n— Font(s) created by Dinamo, including Custom Typefaces, and all their constituents must not be amended, regenerated, or reformatted in any way. Any rights, including but not limited to copyrights and trademarks, remain with Dinamo.\r\n— Font(s) created by Dinamo, including Custom Typefaces, and all their constituents must not be resold, lent, rented, distributed, or traded in any way to third parties.\r\n— Any expansion or derivatives of Font(s) created by Dinamo must be done or authorised by Dinamo.\r\nWARRANTY/LIABILITY\r\n— Dinamo guarantees its font(s) to be free of defect for fourteen (14) days upon purchase. Claims must include receipt and documentation of the defect.\r\n–—Refunds are granted only when software defects cannot be resolved by Dinamo. Any refund immediately terminates the Licensee’s right to use the font(s).\r\n— Any use of Dinamo font(s) that may result in harm, death, injury, property or environmental damages is not permitted.\r\n— In no event is Dinamo liable for any loss or damages caused by the use of their font(s), including lost profits, lost data, lost business opportunities, or lost savings.\r\n— Some jurisdictions do not allow the exclusions of limitations of incidental, consequential, or special damages, so the above exclusion may not apply to the Licensee. Some jurisdictions do not allow the exclusions of implied warranties or limitations on how long an implied warranty may last, so the above limitations may not apply to the Licensee. To the extent permitted by law, any implied warranties are limited to fourteen (14) days.\r\n— The Licensee agrees that font(s), its design, structure, organisation, encoding, and all its copies are owned by and valuable property of Dinamo and protected under Swiss law, by the copyright and trademark laws of other countries and international treaties.\r\n— The fonts are not warranted to operate on all computer operating systems. Dinamo is not responsible for operating system errors or inoperability faults.\r\nTERMINATION\r\n— Any breach of this agreement immediately voids and annuls the complete license and any usage right of the font(s) with immediate effect.\r\n— In the event of termination, all fonts and back-up copies must be deleted; this act has to be documented/assured upon request of Dinamo.\r\nCONFIDENTIALITY\r\n— The Licensee is obliged to undertake all steps to prevent unauthorised access to the fonts and its copies. — If the Licensee grants employees or representatives access to the font software, the Licensee is required to inform them of this EULA.\r\nFINAL PROVISIONS\r\n— This EULA represents the complete agreement between the parties; all verbal communications and prior communications regarding the application of the licensed font(s) are not valid or effective. Any and all rights not expressly granted in this agreement are reserved to Dinamo.\r\n— This license agreement cannot be amended without written permission of Dinamo. Any amendment will be supervised by Dinamo’s attorney; attorney fees are at the expense of the licensee.\r\n— All disputes arising from this agreement are exclusive subject of the law of the Federal Republic of Switzerland. The rights and obligations of the parties arising from this contract are based on Swiss law as it relates to contracts made in Switzerland and fully performed therein. The conflict of law provisions of Switzerland nor the conflict of law provisions of any other jurisdiction do not apply. The Licensee expressly consents to the jurisdiction of the Swiss Courts over any dispute arising out of this agreement, even if the breach of contractual rights takes place in a foreign country. Place of jurisdiction is Basel, Switzerland.\r\n– All legal fees arising from a dispute over or breach of this agreement are to be covered by the Licensee; the Licensee will reimburse Dinamo for any legal fees arising from a dispute over violations of this EULA\r\n– Any violation of this license entitles Dinamo to payment by the licensee of all costs incurred by it, to investigate and address the violation, enforce the License and/or finalise a settlement, including reasonable investigators’ and attorneys’ fees.\r\n— The invalidity or inoperativeness of one or more provisions of this contract does not affect the validity of the rest of the contract and the remaining other provisions shall thereby remain unaffected. An invalid provision shall be replaced by a provision that is permitted by law and which approaches the invalid provision and economic interests intended by the parties.\r\n— This agreement is not governed by the “United Nation Convention on Contracts for the International Sale of Goods.”"
+          },
+          {
+            "kind": "embedded-name-14",
+            "text": "https://abcdinamo.com/information"
+          }
+        ],
+        "review_required": true,
+        "nearby_files": []
+      }
+    }
+  },
+  "renderer": {
+    "backend": "HarfBuzz shaping + native FreeType unhinted outline rasterization",
+    "harfbuzz": "12.1.0",
+    "freetype": "2.13.2",
+    "supersampling": 4,
+    "system_font_lookup": false
+  },
+  "no_fallback": {
+    "verified": true,
+    "glyph_zero_count": 0,
+    "font_synthesis": false
+  },
+  "measurements": [
+    {
+      "text": "DİKİŞ KULÜBÜ / ADIM 2 / 5",
+      "size_px": 14,
+      "line_height_px": 19.599999999999998,
+      "line_count": 1,
+      "canvas_px": [
+        346,
+        18
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "DİKİŞ KULÜBÜ / ADIM 2 / 5",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "tr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 25,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 25
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 22,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 9.926,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 57,
+              "cluster": 1,
+              "x": 9.926,
+              "y": 0.0,
+              "x_advance": 4.018,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 66,
+              "cluster": 2,
+              "x": 13.944,
+              "y": 0.0,
+              "x_advance": 9.352,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 57,
+              "cluster": 3,
+              "x": 23.296,
+              "y": 0.0,
+              "x_advance": 4.018,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 120,
+              "cluster": 4,
+              "x": 27.314,
+              "y": 0.0,
+              "x_advance": 8.386000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 5,
+              "x": 35.7,
+              "y": 0.0,
+              "x_advance": 2.856,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 66,
+              "cluster": 6,
+              "x": 38.556,
+              "y": 0.0,
+              "x_advance": 9.352,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 135,
+              "cluster": 7,
+              "x": 47.908,
+              "y": 0.0,
+              "x_advance": 9.73,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 71,
+              "cluster": 8,
+              "x": 57.638,
+              "y": 0.0,
+              "x_advance": 7.462,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 139,
+              "cluster": 9,
+              "x": 65.1,
+              "y": 0.0,
+              "x_advance": 9.73,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 14,
+              "cluster": 10,
+              "x": 74.83,
+              "y": 0.0,
+              "x_advance": 9.38,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 139,
+              "cluster": 11,
+              "x": 84.21000000000001,
+              "y": 0.0,
+              "x_advance": 9.73,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 12,
+              "x": 93.94,
+              "y": 0.0,
+              "x_advance": 2.856,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 506,
+              "cluster": 13,
+              "x": 96.796,
+              "y": 0.0,
+              "x_advance": 4.634,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 14,
+              "x": 101.43,
+              "y": 0.0,
+              "x_advance": 2.492,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 1,
+              "cluster": 15,
+              "x": 103.922,
+              "y": 0.0,
+              "x_advance": 9.394,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 22,
+              "cluster": 16,
+              "x": 113.316,
+              "y": 0.0,
+              "x_advance": 9.926,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 51,
+              "cluster": 17,
+              "x": 123.242,
+              "y": 0.0,
+              "x_advance": 4.018,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 84,
+              "cluster": 18,
+              "x": 127.26,
+              "y": 0.0,
+              "x_advance": 12.908,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 19,
+              "x": 140.168,
+              "y": 0.0,
+              "x_advance": 2.856,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 373,
+              "cluster": 20,
+              "x": 143.024,
+              "y": 0.0,
+              "x_advance": 8.232,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 21,
+              "x": 151.256,
+              "y": 0.0,
+              "x_advance": 2.856,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 506,
+              "cluster": 22,
+              "x": 154.112,
+              "y": 0.0,
+              "x_advance": 4.634,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 23,
+              "x": 158.746,
+              "y": 0.0,
+              "x_advance": 2.856,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 379,
+              "cluster": 24,
+              "x": 161.602,
+              "y": 0.0,
+              "x_advance": 8.204,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            169.806,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 13.286,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            4.75,
+            0.75,
+            173.25,
+            16.5
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "eyebrow",
+      "block_path": "blocks.0",
+      "position_px": [
+        22,
+        22
+      ],
+      "width_px": 346,
+      "font_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "align": "start"
+    },
+    {
+      "text": "İpliği iğneden geçirin",
+      "size_px": 28,
+      "line_height_px": 32.199999999999996,
+      "line_count": 1,
+      "canvas_px": [
+        346,
+        36
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "İpliği iğneden geçirin",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "tr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 22,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 22
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 57,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 7.924,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 301,
+              "cluster": 1,
+              "x": 7.924,
+              "y": 0.0,
+              "x_advance": 16.8,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 2,
+              "x": 24.724,
+              "y": 0.0,
+              "x_advance": 7.168,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 3,
+              "x": 31.892,
+              "y": 0.0,
+              "x_advance": 7.196,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 220,
+              "cluster": 4,
+              "x": 39.088,
+              "y": 0.0,
+              "x_advance": 16.66,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 5,
+              "x": 55.748000000000005,
+              "y": 0.0,
+              "x_advance": 7.196,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 6,
+              "x": 62.944,
+              "y": 0.0,
+              "x_advance": 5.712,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 7,
+              "x": 68.656,
+              "y": 0.0,
+              "x_advance": 7.196,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 220,
+              "cluster": 8,
+              "x": 75.852,
+              "y": 0.0,
+              "x_advance": 16.66,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 9,
+              "x": 92.512,
+              "y": 0.0,
+              "x_advance": 16.38,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 10,
+              "x": 108.892,
+              "y": 0.0,
+              "x_advance": 15.540000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 199,
+              "cluster": 11,
+              "x": 124.432,
+              "y": 0.0,
+              "x_advance": 16.8,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 12,
+              "x": 141.232,
+              "y": 0.0,
+              "x_advance": 15.540000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 13,
+              "x": 156.772,
+              "y": 0.0,
+              "x_advance": 16.38,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 14,
+              "x": 173.15200000000002,
+              "y": 0.0,
+              "x_advance": 5.712,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 219,
+              "cluster": 15,
+              "x": 178.864,
+              "y": 0.0,
+              "x_advance": 16.072,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 16,
+              "x": 194.936,
+              "y": 0.0,
+              "x_advance": 15.540000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 195,
+              "cluster": 17,
+              "x": 210.476,
+              "y": 0.0,
+              "x_advance": 14.700000000000001,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 18,
+              "x": 225.17600000000002,
+              "y": 0.0,
+              "x_advance": 7.196,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 304,
+              "cluster": 19,
+              "x": 232.372,
+              "y": 0.0,
+              "x_advance": 11.592,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 20,
+              "x": 243.964,
+              "y": 0.0,
+              "x_advance": 7.196,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 21,
+              "x": 251.16,
+              "y": 0.0,
+              "x_advance": 16.38,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            267.54,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 26.572,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.75,
+            1.5,
+            270.25,
+            33.0
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "title",
+      "block_path": "blocks.1",
+      "position_px": [
+        22,
+        56
+      ],
+      "width_px": 346,
+      "font_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "align": "start"
+    },
+    {
+      "text": "İpliğin ucunu düz kesin. İğneyi ışığa doğru tutun ve ipliği delikten yavaşça geçirin.",
+      "size_px": 18,
+      "line_height_px": 27.0,
+      "line_count": 2,
+      "canvas_px": [
+        346,
+        51
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "İpliğin ucunu düz kesin. İğneyi ışığa doğru ",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "tr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 44,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 44
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 57,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 4.643999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 301,
+              "cluster": 1,
+              "x": 4.643999999999999,
+              "y": 0.0,
+              "x_advance": 10.314,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 2,
+              "x": 14.957999999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 3,
+              "x": 18.953999999999997,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 220,
+              "cluster": 4,
+              "x": 22.95,
+              "y": 0.0,
+              "x_advance": 10.404,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 5,
+              "x": 33.354,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 6,
+              "x": 37.349999999999994,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 7,
+              "x": 47.43,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 8,
+              "x": 51.425999999999995,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 192,
+              "cluster": 9,
+              "x": 61.32599999999999,
+              "y": 0.0,
+              "x_advance": 9.18,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 10,
+              "x": 70.506,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 11,
+              "x": 80.40599999999999,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 12,
+              "x": 90.48599999999999,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 13,
+              "x": 100.386,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 199,
+              "cluster": 14,
+              "x": 104.38199999999999,
+              "y": 0.0,
+              "x_advance": 10.331999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 336,
+              "cluster": 15,
+              "x": 114.71399999999998,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 359,
+              "cluster": 16,
+              "x": 124.61399999999999,
+              "y": 0.0,
+              "x_advance": 8.532,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 17,
+              "x": 133.146,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 18,
+              "x": 137.142,
+              "y": 0.0,
+              "x_advance": 8.946,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 19,
+              "x": 146.088,
+              "y": 0.0,
+              "x_advance": 9.629999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 311,
+              "cluster": 20,
+              "x": 155.718,
+              "y": 0.0,
+              "x_advance": 8.549999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 21,
+              "x": 164.268,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 22,
+              "x": 168.26399999999998,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 475,
+              "cluster": 23,
+              "x": 178.344,
+              "y": 0.0,
+              "x_advance": 3.4559999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 24,
+              "x": 181.79999999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 57,
+              "cluster": 25,
+              "x": 185.796,
+              "y": 0.0,
+              "x_advance": 4.553999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 220,
+              "cluster": 26,
+              "x": 190.35,
+              "y": 0.0,
+              "x_advance": 10.404,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 27,
+              "x": 200.754,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 28,
+              "x": 210.83399999999997,
+              "y": 0.0,
+              "x_advance": 9.504,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 352,
+              "cluster": 29,
+              "x": 220.338,
+              "y": 0.0,
+              "x_advance": 9.017999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 30,
+              "x": 229.356,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 31,
+              "x": 233.35199999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 32,
+              "x": 237.34799999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 314,
+              "cluster": 33,
+              "x": 241.344,
+              "y": 0.0,
+              "x_advance": 8.549999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 34,
+              "x": 249.89399999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 220,
+              "cluster": 35,
+              "x": 253.89,
+              "y": 0.0,
+              "x_advance": 10.206,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 36,
+              "x": 264.096,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 37,
+              "x": 273.834,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 199,
+              "cluster": 38,
+              "x": 277.83,
+              "y": 0.0,
+              "x_advance": 10.331999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 288,
+              "cluster": 39,
+              "x": 288.162,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 220,
+              "cluster": 40,
+              "x": 298.06199999999995,
+              "y": 0.0,
+              "x_advance": 10.404,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 304,
+              "cluster": 41,
+              "x": 308.46599999999995,
+              "y": 0.0,
+              "x_advance": 6.587999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 42,
+              "x": 315.054,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 43,
+              "x": 324.95399999999995,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            328.95,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 17.082,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.25,
+            0.75,
+            327.75,
+            21.0
+          ]
+        },
+        {
+          "text": "tutun ve ipliği delikten yavaşça geçirin.",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "tr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 41,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 41
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 321,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 6.552,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 1,
+              "x": 6.552,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 321,
+              "cluster": 2,
+              "x": 16.451999999999998,
+              "y": 0.0,
+              "x_advance": 6.552,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 3,
+              "x": 23.003999999999998,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 4,
+              "x": 32.903999999999996,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 5,
+              "x": 42.983999999999995,
+              "y": 0.0,
+              "x_advance": 3.654,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 344,
+              "cluster": 6,
+              "x": 46.638,
+              "y": 0.0,
+              "x_advance": 8.927999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 7,
+              "x": 55.565999999999995,
+              "y": 0.0,
+              "x_advance": 9.629999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 8,
+              "x": 65.196,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 9,
+              "x": 69.192,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 301,
+              "cluster": 10,
+              "x": 73.18799999999999,
+              "y": 0.0,
+              "x_advance": 10.314,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 11,
+              "x": 83.502,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 12,
+              "x": 87.49799999999999,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 220,
+              "cluster": 13,
+              "x": 91.494,
+              "y": 0.0,
+              "x_advance": 10.404,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 14,
+              "x": 101.898,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 15,
+              "x": 105.89399999999999,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 199,
+              "cluster": 16,
+              "x": 109.88999999999999,
+              "y": 0.0,
+              "x_advance": 10.331999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 17,
+              "x": 120.222,
+              "y": 0.0,
+              "x_advance": 9.629999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 18,
+              "x": 129.852,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 19,
+              "x": 133.84799999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 20,
+              "x": 137.844,
+              "y": 0.0,
+              "x_advance": 9.378,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 321,
+              "cluster": 21,
+              "x": 147.22199999999998,
+              "y": 0.0,
+              "x_advance": 6.39,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 22,
+              "x": 153.612,
+              "y": 0.0,
+              "x_advance": 9.629999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 23,
+              "x": 163.242,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 24,
+              "x": 173.32199999999997,
+              "y": 0.0,
+              "x_advance": 3.654,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 352,
+              "cluster": 25,
+              "x": 176.976,
+              "y": 0.0,
+              "x_advance": 8.819999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 26,
+              "x": 185.796,
+              "y": 0.0,
+              "x_advance": 9.395999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 344,
+              "cluster": 27,
+              "x": 195.19199999999998,
+              "y": 0.0,
+              "x_advance": 8.91,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 28,
+              "x": 204.10199999999998,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 314,
+              "cluster": 29,
+              "x": 213.83999999999997,
+              "y": 0.0,
+              "x_advance": 8.549999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 195,
+              "cluster": 30,
+              "x": 222.39,
+              "y": 0.0,
+              "x_advance": 9.18,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 31,
+              "x": 231.57,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 32,
+              "x": 241.308,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 219,
+              "cluster": 33,
+              "x": 245.30399999999997,
+              "y": 0.0,
+              "x_advance": 10.133999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 34,
+              "x": 255.438,
+              "y": 0.0,
+              "x_advance": 9.629999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 195,
+              "cluster": 35,
+              "x": 265.068,
+              "y": 0.0,
+              "x_advance": 9.18,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 36,
+              "x": 274.248,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 304,
+              "cluster": 37,
+              "x": 278.24399999999997,
+              "y": 0.0,
+              "x_advance": 6.587999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 38,
+              "x": 284.832,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 39,
+              "x": 288.828,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 475,
+              "cluster": 40,
+              "x": 298.90799999999996,
+              "y": 0.0,
+              "x_advance": 3.9419999999999997,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            302.84999999999997,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 44.082,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            4.0,
+            31.0,
+            306.0,
+            48.0
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "body",
+      "block_path": "blocks.2",
+      "position_px": [
+        22,
+        108
+      ],
+      "width_px": 346,
+      "font_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "align": "start"
+    },
+    {
+      "text": "Yanınızda olsun",
+      "size_px": 18,
+      "line_height_px": 25.2,
+      "line_count": 1,
+      "canvas_px": [
+        346,
+        24
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "Yanınızda olsun",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "tr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 15,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 15
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 155,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 9.612,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 1,
+              "x": 9.612,
+              "y": 0.0,
+              "x_advance": 10.133999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 2,
+              "x": 19.746,
+              "y": 0.0,
+              "x_advance": 10.53,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 3,
+              "x": 30.275999999999996,
+              "y": 0.0,
+              "x_advance": 4.6259999999999994,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 4,
+              "x": 34.901999999999994,
+              "y": 0.0,
+              "x_advance": 10.53,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 5,
+              "x": 45.431999999999995,
+              "y": 0.0,
+              "x_advance": 4.6259999999999994,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 359,
+              "cluster": 6,
+              "x": 50.05799999999999,
+              "y": 0.0,
+              "x_advance": 9.017999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 199,
+              "cluster": 7,
+              "x": 59.07599999999999,
+              "y": 0.0,
+              "x_advance": 10.799999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 8,
+              "x": 69.87599999999999,
+              "y": 0.0,
+              "x_advance": 10.133999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 9,
+              "x": 80.00999999999999,
+              "y": 0.0,
+              "x_advance": 3.6719999999999997,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 288,
+              "cluster": 10,
+              "x": 83.68199999999999,
+              "y": 0.0,
+              "x_advance": 10.097999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 11,
+              "x": 93.77999999999999,
+              "y": 0.0,
+              "x_advance": 4.608,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 311,
+              "cluster": 12,
+              "x": 98.38799999999999,
+              "y": 0.0,
+              "x_advance": 8.963999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 13,
+              "x": 107.35199999999999,
+              "y": 0.0,
+              "x_advance": 10.386,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 14,
+              "x": 117.73799999999999,
+              "y": 0.0,
+              "x_advance": 10.53,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            128.268,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 17.082,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            4.0,
+            4.5,
+            131.5,
+            17.5
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "heading",
+      "block_path": "blocks.3",
+      "position_px": [
+        22,
+        175
+      ],
+      "width_px": 346,
+      "font_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "align": "start"
+    },
+    {
+      "text": "İğne · Pamuklu iplik · Küçük makas",
+      "size_px": 18,
+      "line_height_px": 27.0,
+      "line_count": 1,
+      "canvas_px": [
+        346,
+        24
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "İğne · Pamuklu iplik · Küçük makas",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "tr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 34,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 34
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 57,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 4.553999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 220,
+              "cluster": 1,
+              "x": 4.553999999999999,
+              "y": 0.0,
+              "x_advance": 10.404,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 2,
+              "x": 14.957999999999998,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 3,
+              "x": 25.037999999999997,
+              "y": 0.0,
+              "x_advance": 9.629999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 4,
+              "x": 34.668,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 501,
+              "cluster": 5,
+              "x": 38.663999999999994,
+              "y": 0.0,
+              "x_advance": 3.7259999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 6,
+              "x": 42.38999999999999,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 107,
+              "cluster": 7,
+              "x": 46.385999999999996,
+              "y": 0.0,
+              "x_advance": 10.854,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 8,
+              "x": 57.239999999999995,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 278,
+              "cluster": 9,
+              "x": 66.978,
+              "y": 0.0,
+              "x_advance": 16.128,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 10,
+              "x": 83.106,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 11,
+              "x": 93.00599999999999,
+              "y": 0.0,
+              "x_advance": 9.378,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 12,
+              "x": 102.38399999999999,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 13,
+              "x": 106.38,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 14,
+              "x": 116.27999999999999,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 15,
+              "x": 120.276,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 301,
+              "cluster": 16,
+              "x": 124.27199999999999,
+              "y": 0.0,
+              "x_advance": 10.314,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 17,
+              "x": 134.58599999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 18,
+              "x": 138.582,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 19,
+              "x": 142.578,
+              "y": 0.0,
+              "x_advance": 9.378,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 20,
+              "x": 151.956,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 501,
+              "cluster": 21,
+              "x": 155.952,
+              "y": 0.0,
+              "x_advance": 3.7259999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 22,
+              "x": 159.678,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 66,
+              "cluster": 23,
+              "x": 163.67399999999998,
+              "y": 0.0,
+              "x_advance": 11.177999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 336,
+              "cluster": 24,
+              "x": 174.85199999999998,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 195,
+              "cluster": 25,
+              "x": 184.75199999999998,
+              "y": 0.0,
+              "x_advance": 9.18,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 336,
+              "cluster": 26,
+              "x": 193.932,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 27,
+              "x": 203.832,
+              "y": 0.0,
+              "x_advance": 9.378,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 28,
+              "x": 213.20999999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 278,
+              "cluster": 29,
+              "x": 217.206,
+              "y": 0.0,
+              "x_advance": 16.128,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 30,
+              "x": 233.33399999999997,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 31,
+              "x": 243.07199999999997,
+              "y": 0.0,
+              "x_advance": 9.144,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 32,
+              "x": 252.21599999999998,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 311,
+              "cluster": 33,
+              "x": 261.954,
+              "y": 0.0,
+              "x_advance": 8.549999999999999,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            270.50399999999996,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 17.082,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.25,
+            0.75,
+            274.0,
+            21.0
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "body",
+      "block_path": "blocks.4",
+      "position_px": [
+        22,
+        215
+      ],
+      "width_px": 346,
+      "font_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "align": "start"
+    },
+    {
+      "text": "1. İpliği yaklaşık 40 cm uzunluğunda kesin.",
+      "size_px": 18,
+      "line_height_px": 27.0,
+      "line_count": 1,
+      "canvas_px": [
+        346,
+        24
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "1. İpliği yaklaşık 40 cm uzunluğunda kesin.",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "tr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 43,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 43
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 371,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 6.6419999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 475,
+              "cluster": 1,
+              "x": 6.6419999999999995,
+              "y": 0.0,
+              "x_advance": 3.4559999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 2,
+              "x": 10.097999999999999,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 57,
+              "cluster": 3,
+              "x": 14.094,
+              "y": 0.0,
+              "x_advance": 4.643999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 301,
+              "cluster": 4,
+              "x": 18.738,
+              "y": 0.0,
+              "x_advance": 10.314,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 5,
+              "x": 29.051999999999996,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 6,
+              "x": 33.047999999999995,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 220,
+              "cluster": 7,
+              "x": 37.044,
+              "y": 0.0,
+              "x_advance": 10.404,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 8,
+              "x": 47.44799999999999,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 9,
+              "x": 51.443999999999996,
+              "y": 0.0,
+              "x_advance": 3.654,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 352,
+              "cluster": 10,
+              "x": 55.098,
+              "y": 0.0,
+              "x_advance": 8.819999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 11,
+              "x": 63.91799999999999,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 12,
+              "x": 73.65599999999999,
+              "y": 0.0,
+              "x_advance": 9.378,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 13,
+              "x": 83.03399999999999,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 14,
+              "x": 87.02999999999999,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 314,
+              "cluster": 15,
+              "x": 96.76799999999999,
+              "y": 0.0,
+              "x_advance": 8.549999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 16,
+              "x": 105.318,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 17,
+              "x": 109.314,
+              "y": 0.0,
+              "x_advance": 9.378,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 18,
+              "x": 118.692,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 377,
+              "cluster": 19,
+              "x": 122.68799999999999,
+              "y": 0.0,
+              "x_advance": 10.35,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 369,
+              "cluster": 20,
+              "x": 133.03799999999998,
+              "y": 0.0,
+              "x_advance": 11.159999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 21,
+              "x": 144.19799999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 192,
+              "cluster": 22,
+              "x": 148.194,
+              "y": 0.0,
+              "x_advance": 9.18,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 278,
+              "cluster": 23,
+              "x": 157.374,
+              "y": 0.0,
+              "x_advance": 16.128,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 24,
+              "x": 173.50199999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 25,
+              "x": 177.498,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 359,
+              "cluster": 26,
+              "x": 187.398,
+              "y": 0.0,
+              "x_advance": 8.532,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 27,
+              "x": 195.92999999999998,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 28,
+              "x": 205.82999999999998,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 29,
+              "x": 215.91,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 30,
+              "x": 219.90599999999998,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 220,
+              "cluster": 31,
+              "x": 229.80599999999998,
+              "y": 0.0,
+              "x_advance": 10.404,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 32,
+              "x": 240.20999999999998,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 33,
+              "x": 250.10999999999999,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 199,
+              "cluster": 34,
+              "x": 260.19,
+              "y": 0.0,
+              "x_advance": 10.331999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 35,
+              "x": 270.522,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 36,
+              "x": 280.26,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 37,
+              "x": 284.256,
+              "y": 0.0,
+              "x_advance": 8.946,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 38,
+              "x": 293.202,
+              "y": 0.0,
+              "x_advance": 9.629999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 311,
+              "cluster": 39,
+              "x": 302.832,
+              "y": 0.0,
+              "x_advance": 8.549999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 40,
+              "x": 311.38199999999995,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 41,
+              "x": 315.378,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 475,
+              "cluster": 42,
+              "x": 325.45799999999997,
+              "y": 0.0,
+              "x_advance": 3.9419999999999997,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            329.4,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 17.082,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            4.25,
+            0.75,
+            332.5,
+            21.0
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "body",
+      "block_path": "blocks.6",
+      "position_px": [
+        22,
+        272
+      ],
+      "width_px": 346,
+      "font_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "align": "start"
+    },
+    {
+      "text": "2. Ucu parmaklarınızın arasında sıkıştırın.",
+      "size_px": 18,
+      "line_height_px": 27.0,
+      "line_count": 1,
+      "canvas_px": [
+        346,
+        24
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "2. Ucu parmaklarınızın arasında sıkıştırın.",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "tr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 43,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 43
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 373,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 10.116,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 475,
+              "cluster": 1,
+              "x": 10.116,
+              "y": 0.0,
+              "x_advance": 3.4559999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 2,
+              "x": 13.572,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 135,
+              "cluster": 3,
+              "x": 17.567999999999998,
+              "y": 0.0,
+              "x_advance": 12.095999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 192,
+              "cluster": 4,
+              "x": 29.663999999999998,
+              "y": 0.0,
+              "x_advance": 9.18,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 5,
+              "x": 38.843999999999994,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 6,
+              "x": 48.744,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 301,
+              "cluster": 7,
+              "x": 52.739999999999995,
+              "y": 0.0,
+              "x_advance": 10.314,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 8,
+              "x": 63.053999999999995,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 304,
+              "cluster": 9,
+              "x": 72.792,
+              "y": 0.0,
+              "x_advance": 6.587999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 278,
+              "cluster": 10,
+              "x": 79.38,
+              "y": 0.0,
+              "x_advance": 16.128,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 11,
+              "x": 95.508,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 12,
+              "x": 105.246,
+              "y": 0.0,
+              "x_advance": 9.378,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 13,
+              "x": 114.624,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 14,
+              "x": 118.61999999999999,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 304,
+              "cluster": 15,
+              "x": 128.358,
+              "y": 0.0,
+              "x_advance": 6.587999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 16,
+              "x": 134.946,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 17,
+              "x": 138.94199999999998,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 18,
+              "x": 149.022,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 359,
+              "cluster": 19,
+              "x": 153.018,
+              "y": 0.0,
+              "x_advance": 8.532,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 20,
+              "x": 161.54999999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 21,
+              "x": 165.546,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 22,
+              "x": 175.62599999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 23,
+              "x": 179.62199999999999,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 304,
+              "cluster": 24,
+              "x": 189.35999999999999,
+              "y": 0.0,
+              "x_advance": 6.335999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 25,
+              "x": 195.696,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 311,
+              "cluster": 26,
+              "x": 205.434,
+              "y": 0.0,
+              "x_advance": 8.549999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 27,
+              "x": 213.98399999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 28,
+              "x": 217.98,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 199,
+              "cluster": 29,
+              "x": 228.05999999999997,
+              "y": 0.0,
+              "x_advance": 10.331999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 30,
+              "x": 238.392,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 31,
+              "x": 248.13,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 311,
+              "cluster": 32,
+              "x": 252.12599999999998,
+              "y": 0.0,
+              "x_advance": 8.549999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 33,
+              "x": 260.676,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 34,
+              "x": 264.67199999999997,
+              "y": 0.0,
+              "x_advance": 9.378,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 35,
+              "x": 274.04999999999995,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 314,
+              "cluster": 36,
+              "x": 278.046,
+              "y": 0.0,
+              "x_advance": 8.37,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 321,
+              "cluster": 37,
+              "x": 286.416,
+              "y": 0.0,
+              "x_advance": 6.552,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 38,
+              "x": 292.96799999999996,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 304,
+              "cluster": 39,
+              "x": 296.964,
+              "y": 0.0,
+              "x_advance": 6.587999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 40,
+              "x": 303.55199999999996,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 41,
+              "x": 307.548,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 475,
+              "cluster": 42,
+              "x": 317.628,
+              "y": 0.0,
+              "x_advance": 3.9419999999999997,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            321.57,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 17.082,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            4.75,
+            4.25,
+            324.75,
+            20.75
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "body",
+      "block_path": "blocks.7",
+      "position_px": [
+        22,
+        312
+      ],
+      "width_px": 346,
+      "font_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "align": "start"
+    },
+    {
+      "text": "3. İpliği geçirin; iki ucu eşitlemeyin.",
+      "size_px": 18,
+      "line_height_px": 27.0,
+      "line_count": 1,
+      "canvas_px": [
+        346,
+        24
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "3. İpliği geçirin; iki ucu eşitlemeyin.",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "tr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 39,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 39
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 375,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 10.367999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 475,
+              "cluster": 1,
+              "x": 10.367999999999999,
+              "y": 0.0,
+              "x_advance": 3.4559999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 2,
+              "x": 13.823999999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 57,
+              "cluster": 3,
+              "x": 17.82,
+              "y": 0.0,
+              "x_advance": 4.643999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 301,
+              "cluster": 4,
+              "x": 22.464,
+              "y": 0.0,
+              "x_advance": 10.314,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 5,
+              "x": 32.778,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 6,
+              "x": 36.773999999999994,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 220,
+              "cluster": 7,
+              "x": 40.769999999999996,
+              "y": 0.0,
+              "x_advance": 10.404,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 8,
+              "x": 51.174,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 9,
+              "x": 55.169999999999995,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 219,
+              "cluster": 10,
+              "x": 59.166,
+              "y": 0.0,
+              "x_advance": 10.133999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 11,
+              "x": 69.3,
+              "y": 0.0,
+              "x_advance": 9.629999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 195,
+              "cluster": 12,
+              "x": 78.92999999999999,
+              "y": 0.0,
+              "x_advance": 9.18,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 13,
+              "x": 88.11,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 304,
+              "cluster": 14,
+              "x": 92.106,
+              "y": 0.0,
+              "x_advance": 6.587999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 15,
+              "x": 98.69399999999999,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 16,
+              "x": 102.69,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 483,
+              "cluster": 17,
+              "x": 112.77,
+              "y": 0.0,
+              "x_advance": 4.1579999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 18,
+              "x": 116.928,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 19,
+              "x": 120.92399999999999,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 20,
+              "x": 124.91999999999999,
+              "y": 0.0,
+              "x_advance": 9.378,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 21,
+              "x": 134.298,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 22,
+              "x": 138.29399999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 23,
+              "x": 142.29,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 192,
+              "cluster": 24,
+              "x": 152.19,
+              "y": 0.0,
+              "x_advance": 9.18,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 25,
+              "x": 161.36999999999998,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 26,
+              "x": 171.26999999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 27,
+              "x": 175.266,
+              "y": 0.0,
+              "x_advance": 9.629999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 314,
+              "cluster": 28,
+              "x": 184.896,
+              "y": 0.0,
+              "x_advance": 8.549999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 29,
+              "x": 193.446,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 321,
+              "cluster": 30,
+              "x": 197.44199999999998,
+              "y": 0.0,
+              "x_advance": 6.552,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 31,
+              "x": 203.99399999999997,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 32,
+              "x": 207.98999999999998,
+              "y": 0.0,
+              "x_advance": 9.629999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 278,
+              "cluster": 33,
+              "x": 217.61999999999998,
+              "y": 0.0,
+              "x_advance": 16.128,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 34,
+              "x": 233.748,
+              "y": 0.0,
+              "x_advance": 9.504,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 352,
+              "cluster": 35,
+              "x": 243.25199999999998,
+              "y": 0.0,
+              "x_advance": 9.017999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 36,
+              "x": 252.26999999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 37,
+              "x": 256.26599999999996,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 475,
+              "cluster": 38,
+              "x": 266.346,
+              "y": 0.0,
+              "x_advance": 3.9419999999999997,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            270.28799999999995,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 17.082,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            4.5,
+            0.75,
+            273.25,
+            21.0
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "body",
+      "block_path": "blocks.8",
+      "position_px": [
+        22,
+        352
+      ],
+      "width_px": 346,
+      "font_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "align": "start"
+    },
+    {
+      "text": "Küçük ipucu: Uzun iplik daha çok dolaşır. Kısa bir parça ile başlayın.",
+      "size_px": 15,
+      "line_height_px": 21.0,
+      "line_count": 2,
+      "canvas_px": [
+        318,
+        41
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "Küçük ipucu: Uzun iplik daha çok dolaşır. Kısa ",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "tr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 47,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 47
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 66,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 9.315,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 336,
+              "cluster": 1,
+              "x": 9.315,
+              "y": 0.0,
+              "x_advance": 8.25,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 195,
+              "cluster": 2,
+              "x": 17.564999999999998,
+              "y": 0.0,
+              "x_advance": 7.6499999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 336,
+              "cluster": 3,
+              "x": 25.215,
+              "y": 0.0,
+              "x_advance": 8.25,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 4,
+              "x": 33.464999999999996,
+              "y": 0.0,
+              "x_advance": 7.8149999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 5,
+              "x": 41.28,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 6,
+              "x": 44.61,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 301,
+              "cluster": 7,
+              "x": 47.94,
+              "y": 0.0,
+              "x_advance": 8.594999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 8,
+              "x": 56.535,
+              "y": 0.0,
+              "x_advance": 8.25,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 192,
+              "cluster": 9,
+              "x": 64.785,
+              "y": 0.0,
+              "x_advance": 7.6499999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 10,
+              "x": 72.435,
+              "y": 0.0,
+              "x_advance": 8.25,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 481,
+              "cluster": 11,
+              "x": 80.685,
+              "y": 0.0,
+              "x_advance": 3.3449999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 12,
+              "x": 84.03,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 135,
+              "cluster": 13,
+              "x": 87.36,
+              "y": 0.0,
+              "x_advance": 10.065,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 359,
+              "cluster": 14,
+              "x": 97.425,
+              "y": 0.0,
+              "x_advance": 7.109999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 15,
+              "x": 104.535,
+              "y": 0.0,
+              "x_advance": 8.25,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 16,
+              "x": 112.785,
+              "y": 0.0,
+              "x_advance": 8.4,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 17,
+              "x": 121.185,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 18,
+              "x": 124.515,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 301,
+              "cluster": 19,
+              "x": 127.845,
+              "y": 0.0,
+              "x_advance": 8.594999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 20,
+              "x": 136.44,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 21,
+              "x": 139.76999999999998,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 22,
+              "x": 143.1,
+              "y": 0.0,
+              "x_advance": 7.8149999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 23,
+              "x": 150.915,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 199,
+              "cluster": 24,
+              "x": 154.245,
+              "y": 0.0,
+              "x_advance": 8.61,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 25,
+              "x": 162.855,
+              "y": 0.0,
+              "x_advance": 8.115,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 237,
+              "cluster": 26,
+              "x": 170.97,
+              "y": 0.0,
+              "x_advance": 8.4,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 27,
+              "x": 179.37,
+              "y": 0.0,
+              "x_advance": 8.115,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 28,
+              "x": 187.48499999999999,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 195,
+              "cluster": 29,
+              "x": 190.815,
+              "y": 0.0,
+              "x_advance": 7.6499999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 288,
+              "cluster": 30,
+              "x": 198.465,
+              "y": 0.0,
+              "x_advance": 8.25,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 31,
+              "x": 206.715,
+              "y": 0.0,
+              "x_advance": 7.8149999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 32,
+              "x": 214.53,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 199,
+              "cluster": 33,
+              "x": 217.85999999999999,
+              "y": 0.0,
+              "x_advance": 8.61,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 288,
+              "cluster": 34,
+              "x": 226.47,
+              "y": 0.0,
+              "x_advance": 8.25,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 35,
+              "x": 234.72,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 36,
+              "x": 238.04999999999998,
+              "y": 0.0,
+              "x_advance": 8.115,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 314,
+              "cluster": 37,
+              "x": 246.165,
+              "y": 0.0,
+              "x_advance": 7.125,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 38,
+              "x": 253.29,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 304,
+              "cluster": 39,
+              "x": 256.62,
+              "y": 0.0,
+              "x_advance": 4.575,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 475,
+              "cluster": 40,
+              "x": 261.195,
+              "y": 0.0,
+              "x_advance": 2.88,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 41,
+              "x": 264.075,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 66,
+              "cluster": 42,
+              "x": 267.405,
+              "y": 0.0,
+              "x_advance": 9.45,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 43,
+              "x": 276.85499999999996,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 311,
+              "cluster": 44,
+              "x": 280.185,
+              "y": 0.0,
+              "x_advance": 7.125,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 45,
+              "x": 287.31,
+              "y": 0.0,
+              "x_advance": 8.115,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 46,
+              "x": 295.425,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            298.755,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 14.235,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.0,
+            3.75,
+            299.5,
+            17.5
+          ]
+        },
+        {
+          "text": "bir parça ile başlayın.",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "tr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 23,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 23
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 191,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 8.594999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 1,
+              "x": 8.594999999999999,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 304,
+              "cluster": 2,
+              "x": 11.924999999999999,
+              "y": 0.0,
+              "x_advance": 5.13,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 3,
+              "x": 17.055,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 301,
+              "cluster": 4,
+              "x": 20.384999999999998,
+              "y": 0.0,
+              "x_advance": 8.594999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 5,
+              "x": 28.98,
+              "y": 0.0,
+              "x_advance": 8.115,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 304,
+              "cluster": 6,
+              "x": 37.095,
+              "y": 0.0,
+              "x_advance": 5.25,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 195,
+              "cluster": 7,
+              "x": 42.345,
+              "y": 0.0,
+              "x_advance": 7.6499999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 8,
+              "x": 49.995,
+              "y": 0.0,
+              "x_advance": 8.115,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 9,
+              "x": 58.11,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 10,
+              "x": 61.44,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 11,
+              "x": 64.77,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 12,
+              "x": 68.1,
+              "y": 0.0,
+              "x_advance": 8.025,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 13,
+              "x": 76.125,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 191,
+              "cluster": 14,
+              "x": 79.455,
+              "y": 0.0,
+              "x_advance": 8.594999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 15,
+              "x": 88.05,
+              "y": 0.0,
+              "x_advance": 8.115,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 314,
+              "cluster": 16,
+              "x": 96.16499999999999,
+              "y": 0.0,
+              "x_advance": 7.125,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 17,
+              "x": 103.28999999999999,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 18,
+              "x": 106.61999999999999,
+              "y": 0.0,
+              "x_advance": 7.845,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 352,
+              "cluster": 19,
+              "x": 114.46499999999999,
+              "y": 0.0,
+              "x_advance": 7.515,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 20,
+              "x": 121.97999999999999,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 21,
+              "x": 125.31,
+              "y": 0.0,
+              "x_advance": 8.4,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 475,
+              "cluster": 22,
+              "x": 133.71,
+              "y": 0.0,
+              "x_advance": 3.2849999999999997,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            136.995,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 35.235,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.0,
+            24.75,
+            140.25,
+            38.5
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "caption",
+      "block_path": "blocks.9.blocks.0",
+      "position_px": [
+        36,
+        406
+      ],
+      "width_px": 318,
+      "font_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "align": "start"
+    },
+    {
+      "text": "Hazırım, devam edelim",
+      "size_px": 18,
+      "line_height_px": 25.2,
+      "line_count": 1,
+      "canvas_px": [
+        318,
+        24
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "Hazırım, devam edelim",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "tr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 21,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 21
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 48,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 13.175999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 1,
+              "x": 13.175999999999998,
+              "y": 0.0,
+              "x_advance": 10.133999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 359,
+              "cluster": 2,
+              "x": 23.31,
+              "y": 0.0,
+              "x_advance": 9.144,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 3,
+              "x": 32.454,
+              "y": 0.0,
+              "x_advance": 4.6259999999999994,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 304,
+              "cluster": 4,
+              "x": 37.08,
+              "y": 0.0,
+              "x_advance": 7.451999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 5,
+              "x": 44.532,
+              "y": 0.0,
+              "x_advance": 4.6259999999999994,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 278,
+              "cluster": 6,
+              "x": 49.157999999999994,
+              "y": 0.0,
+              "x_advance": 16.451999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 477,
+              "cluster": 7,
+              "x": 65.61,
+              "y": 0.0,
+              "x_advance": 4.284,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 8,
+              "x": 69.89399999999999,
+              "y": 0.0,
+              "x_advance": 3.6719999999999997,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 199,
+              "cluster": 9,
+              "x": 73.56599999999999,
+              "y": 0.0,
+              "x_advance": 10.799999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 10,
+              "x": 84.366,
+              "y": 0.0,
+              "x_advance": 9.755999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 344,
+              "cluster": 11,
+              "x": 94.122,
+              "y": 0.0,
+              "x_advance": 9.45,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 12,
+              "x": 103.57199999999999,
+              "y": 0.0,
+              "x_advance": 10.133999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 278,
+              "cluster": 13,
+              "x": 113.70599999999999,
+              "y": 0.0,
+              "x_advance": 16.451999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 14,
+              "x": 130.158,
+              "y": 0.0,
+              "x_advance": 3.6719999999999997,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 15,
+              "x": 133.82999999999998,
+              "y": 0.0,
+              "x_advance": 9.989999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 199,
+              "cluster": 16,
+              "x": 143.82,
+              "y": 0.0,
+              "x_advance": 10.799999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 17,
+              "x": 154.61999999999998,
+              "y": 0.0,
+              "x_advance": 9.989999999999998,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 18,
+              "x": 164.60999999999999,
+              "y": 0.0,
+              "x_advance": 4.608,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 19,
+              "x": 169.218,
+              "y": 0.0,
+              "x_advance": 4.6259999999999994,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 278,
+              "cluster": 20,
+              "x": 173.844,
+              "y": 0.0,
+              "x_advance": 16.451999999999998,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            190.296,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 17.082,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.0,
+            4.5,
+            193.5,
+            20.25
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "button",
+      "block_path": "blocks.10.blocks.0",
+      "position_px": [
+        36,
+        491
+      ],
+      "width_px": 318,
+      "font_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "align": "start"
+    },
+    {
+      "text": "İlerlemeniz bu telefonda saklanır.",
+      "size_px": 15,
+      "line_height_px": 21.0,
+      "line_count": 1,
+      "canvas_px": [
+        346,
+        20
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "İlerlemeniz bu telefonda saklanır.",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "tr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 34,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 34
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 57,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 3.8699999999999997,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 1,
+              "x": 3.8699999999999997,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 2,
+              "x": 7.199999999999999,
+              "y": 0.0,
+              "x_advance": 8.025,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 304,
+              "cluster": 3,
+              "x": 15.225,
+              "y": 0.0,
+              "x_advance": 5.49,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 4,
+              "x": 20.715,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 5,
+              "x": 24.044999999999998,
+              "y": 0.0,
+              "x_advance": 8.025,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 278,
+              "cluster": 6,
+              "x": 32.07,
+              "y": 0.0,
+              "x_advance": 13.44,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 7,
+              "x": 45.51,
+              "y": 0.0,
+              "x_advance": 8.025,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 8,
+              "x": 53.535,
+              "y": 0.0,
+              "x_advance": 8.4,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 9,
+              "x": 61.934999999999995,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 359,
+              "cluster": 10,
+              "x": 65.265,
+              "y": 0.0,
+              "x_advance": 7.109999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 11,
+              "x": 72.375,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 191,
+              "cluster": 12,
+              "x": 75.705,
+              "y": 0.0,
+              "x_advance": 8.594999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 332,
+              "cluster": 13,
+              "x": 84.3,
+              "y": 0.0,
+              "x_advance": 8.25,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 14,
+              "x": 92.55,
+              "y": 0.0,
+              "x_advance": 3.09,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 321,
+              "cluster": 15,
+              "x": 95.64,
+              "y": 0.0,
+              "x_advance": 5.325,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 16,
+              "x": 100.96499999999999,
+              "y": 0.0,
+              "x_advance": 8.025,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 17,
+              "x": 108.99,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 18,
+              "x": 112.32,
+              "y": 0.0,
+              "x_advance": 7.89,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 218,
+              "cluster": 19,
+              "x": 120.21,
+              "y": 0.0,
+              "x_advance": 4.875,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 288,
+              "cluster": 20,
+              "x": 125.085,
+              "y": 0.0,
+              "x_advance": 8.25,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 21,
+              "x": 133.335,
+              "y": 0.0,
+              "x_advance": 8.4,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 199,
+              "cluster": 22,
+              "x": 141.73499999999999,
+              "y": 0.0,
+              "x_advance": 8.61,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 23,
+              "x": 150.345,
+              "y": 0.0,
+              "x_advance": 8.115,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 24,
+              "x": 158.46,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 311,
+              "cluster": 25,
+              "x": 161.79,
+              "y": 0.0,
+              "x_advance": 7.125,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 26,
+              "x": 168.915,
+              "y": 0.0,
+              "x_advance": 8.115,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 27,
+              "x": 177.03,
+              "y": 0.0,
+              "x_advance": 7.8149999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 28,
+              "x": 184.845,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 29,
+              "x": 188.17499999999998,
+              "y": 0.0,
+              "x_advance": 8.115,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 30,
+              "x": 196.29,
+              "y": 0.0,
+              "x_advance": 8.4,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 31,
+              "x": 204.69,
+              "y": 0.0,
+              "x_advance": 3.33,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 304,
+              "cluster": 32,
+              "x": 208.01999999999998,
+              "y": 0.0,
+              "x_advance": 4.575,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 475,
+              "cluster": 33,
+              "x": 212.595,
+              "y": 0.0,
+              "x_advance": 3.2849999999999997,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            215.88,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 14.235,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            5.0,
+            0.75,
+            219.0,
+            14.5
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "caption",
+      "block_path": "blocks.11",
+      "position_px": [
+        22,
+        545
+      ],
+      "width_px": 346,
+      "font_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "align": "start"
+    },
+    {
+      "text": "1 l I İ ı i — İplik, iğne, ölçü, güç, şaşırma.",
+      "size_px": 18,
+      "line_height_px": 27.0,
+      "line_count": 1,
+      "canvas_px": [
+        346,
+        24
+      ],
+      "ink_origin_shift_px": [
+        0.0,
+        0.0
+      ],
+      "lines": [
+        {
+          "text": "1 l I İ ı i — İplik, iğne, ölçü, güç, şaşırma.",
+          "direction": "ltr",
+          "script": "Latn",
+          "language": "tr",
+          "script_runs": [
+            {
+              "start": 0,
+              "end": 46,
+              "script": "Latn",
+              "direction": "ltr",
+              "glyph_count": 46
+            }
+          ],
+          "glyphs": [
+            {
+              "glyph_id": 371,
+              "cluster": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "x_advance": 6.6419999999999995,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 1,
+              "x": 6.6419999999999995,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 2,
+              "x": 10.638,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 3,
+              "x": 14.633999999999999,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 51,
+              "cluster": 4,
+              "x": 18.63,
+              "y": 0.0,
+              "x_advance": 4.643999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 5,
+              "x": 23.273999999999997,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 57,
+              "cluster": 6,
+              "x": 27.27,
+              "y": 0.0,
+              "x_advance": 4.643999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 7,
+              "x": 31.913999999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 8,
+              "x": 35.91,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 9,
+              "x": 39.906,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 10,
+              "x": 43.901999999999994,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 11,
+              "x": 47.897999999999996,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 549,
+              "cluster": 12,
+              "x": 51.894,
+              "y": 0.0,
+              "x_advance": 17.874,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 13,
+              "x": 69.768,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 57,
+              "cluster": 14,
+              "x": 73.764,
+              "y": 0.0,
+              "x_advance": 4.643999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 301,
+              "cluster": 15,
+              "x": 78.40799999999999,
+              "y": 0.0,
+              "x_advance": 10.314,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 16,
+              "x": 88.722,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 17,
+              "x": 92.71799999999999,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 260,
+              "cluster": 18,
+              "x": 96.714,
+              "y": 0.0,
+              "x_advance": 9.378,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 477,
+              "cluster": 19,
+              "x": 106.092,
+              "y": 0.0,
+              "x_advance": 3.546,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 20,
+              "x": 109.63799999999999,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 246,
+              "cluster": 21,
+              "x": 113.63399999999999,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 220,
+              "cluster": 22,
+              "x": 117.63,
+              "y": 0.0,
+              "x_advance": 10.404,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 279,
+              "cluster": 23,
+              "x": 128.034,
+              "y": 0.0,
+              "x_advance": 10.08,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 206,
+              "cluster": 24,
+              "x": 138.11399999999998,
+              "y": 0.0,
+              "x_advance": 9.629999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 477,
+              "cluster": 25,
+              "x": 147.744,
+              "y": 0.0,
+              "x_advance": 3.546,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 26,
+              "x": 151.29,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 292,
+              "cluster": 27,
+              "x": 155.286,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 265,
+              "cluster": 28,
+              "x": 165.18599999999998,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 195,
+              "cluster": 29,
+              "x": 169.182,
+              "y": 0.0,
+              "x_advance": 9.18,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 336,
+              "cluster": 30,
+              "x": 178.362,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 477,
+              "cluster": 31,
+              "x": 188.26199999999997,
+              "y": 0.0,
+              "x_advance": 3.546,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 32,
+              "x": 191.808,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 219,
+              "cluster": 33,
+              "x": 195.80399999999997,
+              "y": 0.0,
+              "x_advance": 10.404,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 336,
+              "cluster": 34,
+              "x": 206.208,
+              "y": 0.0,
+              "x_advance": 9.899999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 195,
+              "cluster": 35,
+              "x": 216.10799999999998,
+              "y": 0.0,
+              "x_advance": 9.18,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 477,
+              "cluster": 36,
+              "x": 225.28799999999998,
+              "y": 0.0,
+              "x_advance": 3.546,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 591,
+              "cluster": 37,
+              "x": 228.83399999999997,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 314,
+              "cluster": 38,
+              "x": 232.82999999999998,
+              "y": 0.0,
+              "x_advance": 8.549999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 39,
+              "x": 241.38,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 314,
+              "cluster": 40,
+              "x": 251.118,
+              "y": 0.0,
+              "x_advance": 8.549999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 241,
+              "cluster": 41,
+              "x": 259.668,
+              "y": 0.0,
+              "x_advance": 3.9959999999999996,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 304,
+              "cluster": 42,
+              "x": 263.664,
+              "y": 0.0,
+              "x_advance": 6.587999999999999,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 278,
+              "cluster": 43,
+              "x": 270.25199999999995,
+              "y": 0.0,
+              "x_advance": 16.128,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 167,
+              "cluster": 44,
+              "x": 286.38,
+              "y": 0.0,
+              "x_advance": 9.738,
+              "y_advance": 0.0
+            },
+            {
+              "glyph_id": 475,
+              "cluster": 45,
+              "x": 296.118,
+              "y": 0.0,
+              "x_advance": 3.9419999999999997,
+              "y_advance": 0.0
+            }
+          ],
+          "advance_px": [
+            300.06,
+            0.0
+          ],
+          "paragraph": 0,
+          "baseline_px": 17.082,
+          "offset_x_px": 4,
+          "ink_bounds_px": [
+            4.25,
+            0.75,
+            303.0,
+            21.0
+          ]
+        }
+      ],
+      "ink_vertical_overlap_lines": [],
+      "clipped": false,
+      "role": "body",
+      "block_path": "blocks.12",
+      "position_px": [
+        22,
+        581
+      ],
+      "width_px": 346,
+      "font_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+      "align": "start"
+    }
+  ],
+  "warnings": [],
+  "implementation": {
+    "roles": {
+      "eyebrow": {
+        "exact_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+        "sha256": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8",
+        "face_index": 0,
+        "asset_url": "assets/c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8.ttf",
+        "css_family_alias": "te-c2f226b17889c293-0-eyebrow",
+        "settings": {
+          "font-family": "\"te-c2f226b17889c293-0-eyebrow\"",
+          "font-size": "14px",
+          "line-height": "1.4",
+          "font-weight": "700",
+          "font-style": "normal",
+          "font-synthesis": "none",
+          "font-feature-settings": "normal",
+          "font-variation-settings": "\"wght\" 700, \"ital\" 0",
+          "font-optical-sizing": "none",
+          "color": "#244542",
+          "text-align": "start",
+          "unicode-bidi": "plaintext"
+        },
+        "language": "tr",
+        "direct_webfont_recipe_supported": true,
+        "source_asset_not_copied": true
+      },
+      "title": {
+        "exact_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+        "sha256": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8",
+        "face_index": 0,
+        "asset_url": "assets/c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8.ttf",
+        "css_family_alias": "te-c2f226b17889c293-0-title",
+        "settings": {
+          "font-family": "\"te-c2f226b17889c293-0-title\"",
+          "font-size": "28px",
+          "line-height": "1.15",
+          "font-weight": "700",
+          "font-style": "normal",
+          "font-synthesis": "none",
+          "font-feature-settings": "normal",
+          "font-variation-settings": "\"wght\" 700, \"ital\" 0",
+          "font-optical-sizing": "none",
+          "color": "#244542",
+          "text-align": "start",
+          "unicode-bidi": "plaintext"
+        },
+        "language": "tr",
+        "direct_webfont_recipe_supported": true,
+        "source_asset_not_copied": true
+      },
+      "body": {
+        "exact_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+        "sha256": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8",
+        "face_index": 0,
+        "asset_url": "assets/c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8.ttf",
+        "css_family_alias": "te-c2f226b17889c293-0-body",
+        "settings": {
+          "font-family": "\"te-c2f226b17889c293-0-body\"",
+          "font-size": "18px",
+          "line-height": "1.5",
+          "font-weight": "400",
+          "font-style": "normal",
+          "font-synthesis": "none",
+          "font-feature-settings": "normal",
+          "font-variation-settings": "\"wght\" 400, \"ital\" 0",
+          "font-optical-sizing": "none",
+          "color": "#244542",
+          "text-align": "start",
+          "unicode-bidi": "plaintext"
+        },
+        "language": "tr",
+        "direct_webfont_recipe_supported": true,
+        "source_asset_not_copied": true
+      },
+      "heading": {
+        "exact_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+        "sha256": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8",
+        "face_index": 0,
+        "asset_url": "assets/c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8.ttf",
+        "css_family_alias": "te-c2f226b17889c293-0-heading",
+        "settings": {
+          "font-family": "\"te-c2f226b17889c293-0-heading\"",
+          "font-size": "18px",
+          "line-height": "1.4",
+          "font-weight": "700",
+          "font-style": "normal",
+          "font-synthesis": "none",
+          "font-feature-settings": "normal",
+          "font-variation-settings": "\"wght\" 700, \"ital\" 0",
+          "font-optical-sizing": "none",
+          "color": "#244542",
+          "text-align": "start",
+          "unicode-bidi": "plaintext"
+        },
+        "language": "tr",
+        "direct_webfont_recipe_supported": true,
+        "source_asset_not_copied": true
+      },
+      "caption": {
+        "exact_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+        "sha256": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8",
+        "face_index": 0,
+        "asset_url": "assets/c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8.ttf",
+        "css_family_alias": "te-c2f226b17889c293-0-caption",
+        "settings": {
+          "font-family": "\"te-c2f226b17889c293-0-caption\"",
+          "font-size": "15px",
+          "line-height": "1.4",
+          "font-weight": "400",
+          "font-style": "normal",
+          "font-synthesis": "none",
+          "font-feature-settings": "normal",
+          "font-variation-settings": "\"wght\" 400, \"ital\" 0",
+          "font-optical-sizing": "none",
+          "color": "#244542",
+          "text-align": "start",
+          "unicode-bidi": "plaintext"
+        },
+        "language": "tr",
+        "direct_webfont_recipe_supported": true,
+        "source_asset_not_copied": true
+      },
+      "button": {
+        "exact_id": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8:0",
+        "sha256": "c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8",
+        "face_index": 0,
+        "asset_url": "assets/c2f226b17889c293f8edddbdab42260104198132a911acafc1defaa289c393f8.ttf",
+        "css_family_alias": "te-c2f226b17889c293-0-button",
+        "settings": {
+          "font-family": "\"te-c2f226b17889c293-0-button\"",
+          "font-size": "18px",
+          "line-height": "1.4",
+          "font-weight": "700",
+          "font-style": "normal",
+          "font-synthesis": "none",
+          "font-feature-settings": "normal",
+          "font-variation-settings": "\"wght\" 700, \"ital\" 0",
+          "font-optical-sizing": "none",
+          "color": "#ffffff",
+          "text-align": "start",
+          "unicode-bidi": "plaintext"
+        },
+        "language": "tr",
+        "direct_webfont_recipe_supported": true,
+        "source_asset_not_copied": true
+      }
+    },
+    "collection_roles_requiring_extraction": [],
+    "status": "requires assets and target-environment validation",
+    "files": [
+      "application.css",
+      "application.html",
+      "application.js"
+    ],
+    "browser_asset_gate": "Composition hidden until SHA-256 verification and FontFace loading succeed for every role; no fallback preview on failure.",
+    "instructions": [
+      "Resolve each exact_id immediately before staging authorized font assets at its asset_url. Check the expected SHA-256. Fonts are not copied by compose.",
+      "Use the scoped CSS family aliases, explicit axes/features and font-synthesis:none; do not substitute a similarly named family.",
+      "Inspect the implementation at its actual viewport, zoom, content, language, and device. The live layout recomputes line breaks and may differ from this unhinted preview.",
+      "For collection faces, explicitly extract the selected face if permitted, index and verify the standalone derivative, then regenerate the recipe. Do not point a TTF URL at a TTC."
+    ]
+  },
+  "limitations": [
+    "Contextual PNGs show this unhinted renderer, not browser, OS, printer, or game-engine equivalence.",
+    "Whitespace wrapping preserves text; hyphenation, full Unicode line breaking, bidi paragraphs, color fonts, and vertical writing are unsupported.",
+    "Print-preview describes a pixel layout; no physical dimensions, ICC color profile, or printer calibration is implied.",
+    "CSS/HTML use exact scoped font aliases and settings but require authorized local asset staging and target-environment verification. Collection faces require explicit extraction.",
+    "Geometry is measured; visual suitability and pairing quality require inspecting the composition in the project's context."
+  ],
+  "outputs": {
+    "composition": "composition.png",
+    "html": "index.html",
+    "manifest": "manifest.json",
+    "spec": "spec.json",
+    "css": "application.css",
+    "application_html": "application.html",
+    "application_js": "application.js"
+  },
+  "images": [
+    {
+      "file": "composition.png",
+      "sha256": "81e11416379adf086205abfcb8e79f148d8ca12c8a26f9f7506cf16caad88012",
+      "width": 390,
+      "height": 627
+    }
+  ],
+  "file_sha256": {
+    "spec.json": "a62b28a2818a654b1ccac0f46ea1e7a5882005e67ca36d53e9aff8d1244d7796",
+    "application.css": "544d391857eead1acf59068a5103386d1eaed8fb7452fb207d12414d00d6a67a",
+    "application.html": "c23c865693ad327990046e5d53bf01088e86c727419999e9a8f54194795436ff",
+    "application.js": "b00c4020254c9bd41d866d3dc6a594d8514f18066541c6d2676d1d9afacf3d03",
+    "index.html": "8958c04531f6765141945135615dffb7d2d32af5983c89bf6819df491a0100b6"
+  }
+}

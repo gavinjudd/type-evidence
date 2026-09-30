@@ -1,0 +1,2 @@
+Retain Roboto with a 170 px one-line title. Both sealed replacement names were unavailable; the larger baseline title gives stronger presence but remains less tactile/playful than desired.
+Counterargument: This is a functional fallback with limited studio personality; original 138 px control is more restrained and already legible.

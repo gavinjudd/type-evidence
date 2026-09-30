@@ -1,0 +1,210 @@
+{
+  "id": "8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff:0",
+  "sha256": "8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff",
+  "face_index": 0,
+  "family": "SF Pixelate",
+  "style": "Bold",
+  "full_name": "SF Pixelate Bold",
+  "postscript_name": "SFPixelate-Bold",
+  "vendor": "MACR",
+  "version": "v1.0 - Freeware",
+  "weight": 700,
+  "width_class": 5,
+  "italic": false,
+  "units_per_em": 2048,
+  "axes": [],
+  "features": [],
+  "coverage": [
+    [
+      32,
+      126
+    ],
+    [
+      160,
+      162
+    ],
+    [
+      165,
+      165
+    ],
+    [
+      168,
+      168
+    ],
+    [
+      171,
+      171
+    ],
+    [
+      173,
+      173
+    ],
+    [
+      175,
+      177
+    ],
+    [
+      180,
+      180
+    ],
+    [
+      187,
+      187
+    ],
+    [
+      191,
+      198
+    ],
+    [
+      200,
+      207
+    ],
+    [
+      209,
+      221
+    ],
+    [
+      224,
+      230
+    ],
+    [
+      232,
+      239
+    ],
+    [
+      241,
+      253
+    ],
+    [
+      255,
+      255
+    ],
+    [
+      305,
+      305
+    ],
+    [
+      338,
+      339
+    ],
+    [
+      352,
+      353
+    ],
+    [
+      376,
+      376
+    ],
+    [
+      710,
+      711
+    ],
+    [
+      730,
+      730
+    ],
+    [
+      732,
+      732
+    ],
+    [
+      8211,
+      8212
+    ],
+    [
+      8216,
+      8218
+    ],
+    [
+      8220,
+      8222
+    ],
+    [
+      8226,
+      8226
+    ],
+    [
+      8230,
+      8230
+    ],
+    [
+      8240,
+      8240
+    ],
+    [
+      8249,
+      8250
+    ],
+    [
+      57345,
+      57346
+    ]
+  ],
+  "glyph_count": 191,
+  "unicode_count": 190,
+  "metrics": {
+    "x_height_em": 0.5151,
+    "cap_height_em": 0.7148,
+    "average_advance_em": 0.6601,
+    "mono_measured": false,
+    "digit_tabular_default": false,
+    "measurement_sample": "Hamburgefontsiv0123456789; default unshaped hmtx advances"
+  },
+  "category": "unknown",
+  "category_basis": "measured sample widths then declared PANOSE",
+  "family_key": "4f9a5eb64d54fe732125448f",
+  "canonical_hash": "62d6161755e07e0575515a86714690b939d26a554f239ac42242c0bffa6d3a35",
+  "rights": {
+    "status": "unknown",
+    "evidence": [
+      {
+        "kind": "embedded-name-0",
+        "text": "©2000 ShyFonts Type Foundry"
+      },
+      {
+        "kind": "embedded-name-7",
+        "text": "©2000 ShyFonts Type Foundry"
+      }
+    ],
+    "review_required": true,
+    "nearby_files": []
+  },
+  "warnings": [],
+  "render_probe": true,
+  "origins": [
+    {
+      "source_id": "extsalt",
+      "path": "SF Pixelate Bold.ttf",
+      "url": "https://github.com/extsalt/10000-font-collection",
+      "commit": "71fa21742b9f51afb2b0d83a5d0de6e1dedd269c",
+      "upstream_path": "SF Pixelate Bold.ttf",
+      "container": "ttf"
+    }
+  ],
+  "equivalent_table_variants": [
+    "8dfaee51286bbea58594ab75fb8cd5801cee60a8b7e10bf572a11d17a2d707ff:0"
+  ],
+  "family_available_styles": [
+    [
+      400,
+      false,
+      "Regular"
+    ],
+    [
+      400,
+      true,
+      "Oblique"
+    ],
+    [
+      700,
+      false,
+      "Bold"
+    ],
+    [
+      700,
+      true,
+      "Bold Oblique"
+    ]
+  ],
+  "family_limits": []
+}
