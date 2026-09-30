@@ -42,7 +42,7 @@ def test_contextual_pair_preserves_exact_text_and_settings(context, tmp_path):
     with Image.open(tmp_path/"out"/"composition.png") as image:
         assert list(image.size) == result["canvas_px"]
         assert image.getextrema()[0][0] < 80
-    assert json.loads((tmp_path/"out"/"manifest.json").read_text()) == result
+    assert json.loads((tmp_path/"out"/"manifest.json").read_text(encoding="utf-8")) == result
     assert hashlib.sha256((tmp_path/"out"/"composition.png").read_bytes()).hexdigest() == result["images"][0]["sha256"]
 
 
@@ -88,7 +88,7 @@ def test_css_exact_aliases_features_and_no_font_copy(context, tmp_path):
     cat, spec = context
     spec["roles"]["body"]["features"] = ["-liga", "tnum"]
     result = compose(cat, spec, tmp_path/"out")
-    css = (tmp_path/"out"/"application.css").read_text()
+    css = (tmp_path/"out"/"application.css").read_text(encoding="utf-8")
     assert "font-synthesis: none" in css and '"liga" 0, "tnum" 1' in css
     assert "font-optical-sizing: none" in css
     assert "local(" not in css and str(tmp_path) not in css
@@ -103,8 +103,8 @@ def test_css_exact_aliases_features_and_no_font_copy(context, tmp_path):
 def test_application_gate_hides_missing_or_changed_assets(context, tmp_path):
     cat, spec = context
     result = compose(cat, spec, tmp_path/"out")
-    html = (tmp_path/"out"/"application.html").read_text()
-    javascript = (tmp_path/"out"/"application.js").read_text()
+    html = (tmp_path/"out"/"application.html").read_text(encoding="utf-8")
+    javascript = (tmp_path/"out"/"application.js").read_text(encoding="utf-8")
     assert '<main class="te-composition" hidden>' in html
     assert 'crypto.subtle.digest("SHA-256", bytes)' in javascript
     assert 'hash !== role.sha256' in javascript
@@ -122,8 +122,8 @@ def test_application_recipe_adapts_layout_without_substituting_faces(context, tm
         {"blocks": [{"type": "table", "role": "body", "columns": [{"text": "A"}, {"text": "V"}], "rows": [["AV", "fi"]]}]},
     ]})
     result = compose(cat, spec, tmp_path/"out")
-    css = (tmp_path/"out"/"application.css").read_text()
-    html = (tmp_path/"out"/"application.html").read_text()
+    css = (tmp_path/"out"/"application.css").read_text(encoding="utf-8")
+    html = (tmp_path/"out"/"application.html").read_text(encoding="utf-8")
     rules = result["implementation"]["responsive_layout"]
     assert 'max-width: 100%' in css and '@media (max-width: 640px)' in css
     assert '.te-columns { grid-template-columns: 1fr; }' in css
@@ -200,7 +200,7 @@ def test_collection_is_rendered_but_not_misrepresented_as_ttf(tmp_path):
     assert result["roles"]["body"]["asset_verified"]
     assert result["implementation"]["collection_roles_requiring_extraction"] == ["body"]
     assert result["implementation"]["roles"]["body"]["asset_url"] is None
-    assert "@font-face {" not in (tmp_path/"out"/"application.css").read_text()
+    assert "@font-face {" not in (tmp_path/"out"/"application.css").read_text(encoding="utf-8")
 
 
 @pytest.mark.parametrize("mutation,error", [
@@ -225,16 +225,16 @@ def test_invalid_spec_is_bounded_and_typed(context, tmp_path, mutation, error):
 def test_prior_outputs_and_input_spec_preserved(context, tmp_path):
     cat, spec = context
     original = copy.deepcopy(spec)
-    out = tmp_path/"out"; out.mkdir(); (out/"keep.txt").write_text("keep")
+    out = tmp_path/"out"; out.mkdir(); (out/"keep.txt").write_text("keep", encoding="utf-8")
     with pytest.raises(RenderError, match="absent or empty"):
         compose(cat, spec, out)
-    assert (out/"keep.txt").read_text() == "keep" and spec == original
+    assert (out/"keep.txt").read_text(encoding="utf-8") == "keep" and spec == original
 
 
 def test_html_text_and_metadata_are_escaped(context, tmp_path):
     cat, spec = context
     spec["title"] = '<script>alert("unsafe")</script>'
     compose(cat, spec, tmp_path/"out")
-    html = (tmp_path/"out"/"index.html").read_text()
+    html = (tmp_path/"out"/"index.html").read_text(encoding="utf-8")
     assert '<script>' not in html and '&lt;script&gt;' in html
     assert "default-src 'none'" in html

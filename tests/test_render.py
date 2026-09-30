@@ -108,7 +108,7 @@ def test_exact_asset_outputs_have_real_geometry_and_digests(catalog, tmp_path):
         with Image.open(path) as png:
             assert png.size == (image["width"], image["height"])
             assert png.getextrema()[0][0] < 80
-    disk = json.loads((tmp_path/"out"/"manifest.json").read_text())
+    disk = json.loads((tmp_path/"out"/"manifest.json").read_text(encoding="utf-8"))
     assert disk == manifest
 
 
@@ -217,7 +217,7 @@ def test_html_escapes_metadata_and_text(tmp_path):
     # Keep project text covered by the synthetic face while checking the exact
     # untrusted name that would otherwise create an HTML element.
     result = compare(cat, list(cat.entries), "AV", tmp_path/"out", sizes=[16])
-    source = (tmp_path/"out"/"index.html").read_text()
+    source = (tmp_path/"out"/"index.html").read_text(encoding="utf-8")
     assert '<img src=x' not in source
     assert '&lt;img src=x onerror=&quot;alert(1)&quot;&gt;' in source
     assert "default-src 'none'" in source
@@ -243,10 +243,10 @@ def test_different_face_widths_produce_distinct_geometry(tmp_path):
 
 
 def test_prior_outputs_preserved(catalog, tmp_path):
-    out = tmp_path/"out";out.mkdir();(out/"keep.txt").write_text("keep")
+    out = tmp_path/"out";out.mkdir();(out/"keep.txt").write_text("keep", encoding="utf-8")
     with pytest.raises(RenderError, match="absent or empty"):
         compare(catalog, list(catalog.entries), "A", out, sizes=[16])
-    assert (out/"keep.txt").read_text() == "keep"
+    assert (out/"keep.txt").read_text(encoding="utf-8") == "keep"
 
 
 def test_ltr_scripts_are_itemized_with_global_clusters(tmp_path):

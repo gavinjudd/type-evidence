@@ -114,7 +114,7 @@ def run(args):
     if args.command == 'pin-source':
         from .sources import pin_github_source
         path = Path(args.lock)
-        data = json.loads(path.read_text()) if path.exists() else {'schema':2,'sources':[]}
+        data = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {'schema':2,'sources':[]}
         if any(s['id'] == args.id for s in data['sources']):
             raise ValueError('Source id already exists; use a new id or review/edit the existing lock explicitly')
         source = pin_github_source(args.repository,args.commit,args.paths,args.id)

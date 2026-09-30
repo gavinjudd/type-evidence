@@ -215,10 +215,18 @@ class Catalog:
         if not self.path.is_file():
             raise ValueError(f'Catalog not found: {self.path}. Run index first.')
         self.db = sqlite3.connect(self.path.as_uri() + '?mode=ro', uri=True)
-        schema = json.loads(self.db.execute("SELECT value FROM meta WHERE key='schema'").fetchone()[0])
-        if schema != SCHEMA:
+        try:
+            row = self.db.execute("SELECT value FROM meta WHERE key='schema'").fetchone()
+            if row is None:
+                raise ValueError('Catalog schema is missing; rebuild with index')
+            schema = json.loads(row[0])
+            if schema != SCHEMA:
+                raise ValueError('Unsupported catalog schema; rebuild with index')
+        except BaseException:
+            # A failed constructor has no caller-owned Catalog to close. Keep
+            # invalid/old catalogs replaceable, including on Windows.
             self.db.close()
-            raise ValueError('Unsupported catalog schema; rebuild with index')
+            raise
 
     def close(self):
         self.db.close()

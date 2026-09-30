@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import stat
 import subprocess
+from types import SimpleNamespace
 import zipfile
 
 import pytest
@@ -29,7 +30,12 @@ def prepare(tmp_path, files):
 def make_zip(path, entries):
     with zipfile.ZipFile(path, 'w', zipfile.ZIP_DEFLATED) as archive:
         for name, data in entries:
-            archive.writestr(name, data)
+            # Preserve deliberately unsafe member names on every host. ZipInfo's
+            # constructor otherwise normalizes backslashes on Windows and NULs.
+            info = zipfile.ZipInfo()
+            info.filename = info.orig_filename = name
+            info.compress_type = zipfile.ZIP_DEFLATED
+            archive.writestr(info, data)
 
 
 def test_base64_decoding_keeps_original_and_exact_provenance(tmp_path):
@@ -62,14 +68,31 @@ def test_zip_extracts_only_fonts_and_license_without_upstream_code(tmp_path):
     assert (root / 'fonts.zip').exists()
 
 
-@pytest.mark.parametrize('unsafe', ['../escape.ttf', '/escape.ttf', 'C:/escape.ttf', 'a\\escape.ttf', 'a/../escape.ttf'])
+@pytest.mark.parametrize('unsafe', ['../escape.ttf', '/escape.ttf', 'C:/escape.ttf', 'a\\escape.ttf', 'a/../escape.ttf', 'a\0escape.ttf'])
 def test_zip_traversal_refuses_entire_archive(tmp_path, unsafe):
     root = tmp_path / 'original'
     root.mkdir()
     make_zip(root / 'fonts.zip', [('safe.ttf', FONT), (unsafe, FONT)])
+    with zipfile.ZipFile(root / 'fonts.zip') as archive:
+        assert archive.infolist()[1].orig_filename == unsafe
     result = sources.prepare(root, tmp_path / 'derived', 'test', COMMIT)
     assert not result['derivations']
     assert result['report']['issues'][0]['kind'] == 'preparation-refused'
+
+
+def test_zip_rejects_raw_backslash_before_windows_reader_normalization(tmp_path, monkeypatch):
+    root = tmp_path / 'original'
+    root.mkdir()
+    make_zip(root / 'fonts.zip', [('safe.ttf', FONT), ('a\\escape.ttf', FONT)])
+    # Exercise Windows ZipInfo normalization without changing pathlib's host OS.
+    monkeypatch.setattr(zipfile, 'os', SimpleNamespace(**{**vars(zipfile.os), 'sep': '\\', 'altsep': '/'}))
+    with zipfile.ZipFile(root / 'fonts.zip') as archive:
+        entry = archive.infolist()[1]
+        assert entry.orig_filename == 'a\\escape.ttf'
+        assert entry.filename == 'a/escape.ttf'
+    result = sources.prepare(root, tmp_path / 'derived', 'test', COMMIT)
+    assert not result['derivations']
+    assert result['report']['issues'][0]['error'] == 'Unsafe archive member path'
 
 
 def test_zip_symlink_refused(tmp_path):
@@ -135,7 +158,7 @@ def test_modified_derivative_is_not_overwritten(tmp_path):
 
 def lock(tmp_path, commit=COMMIT):
     path = tmp_path / 'sources.lock.json'
-    path.write_text(json.dumps({'sources': [{'id': 'one', 'url': 'https://github.com/example/fonts.git', 'commit': commit}]}))
+    path.write_text(json.dumps({'sources': [{'id': 'one', 'url': 'https://github.com/example/fonts.git', 'commit': commit}]}), encoding='utf-8')
     return path
 
 
@@ -147,7 +170,7 @@ def test_fetch_reuses_exact_clean_checkout_without_mutation(tmp_path, monkeypatc
         commands.append(args)
         return {'status': '', 'rev-parse': COMMIT, 'remote': 'https://github.com/example/fonts.git'}[args[0]]
     monkeypatch.setattr(sources, '_git', fake_git)
-    result = sources.fetch(lock(tmp_path), tmp_path / 'library')
+    result = sources.fetch(lock(tmp_path), tmp_path / 'library', portable=False)
     assert result[0]['commit'] == COMMIT
     assert all(args[0] in {'status', 'rev-parse', 'remote'} for args in commands)
 
@@ -162,7 +185,7 @@ def test_fetch_refuses_dirty_checkout_without_reset(tmp_path, monkeypatch):
         return '?? user.txt'
     monkeypatch.setattr(sources, '_git', fake_git)
     with pytest.raises(ValueError, match='has changes'):
-        sources.fetch(lock(tmp_path), tmp_path / 'library')
+        sources.fetch(lock(tmp_path), tmp_path / 'library', portable=False)
     assert (root / 'user.txt').read_text() == 'preserve me'
     assert len(commands) == 1
 
@@ -246,15 +269,16 @@ def test_portable_materialization_reads_real_git_blobs_without_checkout(tmp_path
     git('init', '--bare', '--quiet')
     blob = git('hash-object', '-w', '--stdin', data=FONT)
     license_blob = git('hash-object', '-w', '--stdin', data=b'Test license text')
-    tree = git('mktree', data=(f'100644 blob {blob}\tCON.ttf\n100644 blob {blob}\tfont*.ttf\n100644 blob {license_blob}\tLICENSE%.txt\n').encode())
+    tree = git('mktree', data=(f'100644 blob {blob}\tCON.ttf\n100644 blob {blob}\tfont*.ttf\n100644 blob {license_blob}\tLICENSE%.txt\n100644 blob {blob}\t日本語.ttf\n').encode('utf-8'))
     commit = git('commit-tree', tree, '-m', 'Portable fixture')
     config = sources._materialize(repository, tmp_path / 'materialized', {'id': 'fixture', 'commit': commit, 'url': 'https://example.invalid/fonts.git'})
     assert Path(config['root'], '%43ON.ttf').read_bytes() == FONT
     assert Path(config['root'], 'font%2A.ttf').read_bytes() == FONT
+    assert Path(config['root'], '日本語.ttf').read_bytes() == FONT
     assert config['upstream_paths']['font%2A.ttf'] == 'font*.ttf'
-    assert config['acquisition']['files'] == 3
+    assert config['acquisition']['files'] == 4
     assert not config['acquisition']['skipped']
-    manifest = json.loads(Path(config['root'], '.type-evidence-source.json').read_text())
+    manifest = json.loads(Path(config['root'], '.type-evidence-source.json').read_text(encoding='utf-8'))
     assert all(len(record['sha256']) == 64 for record in manifest['files'])
     reused = sources._fetch_portable({'id': 'fixture', 'commit': commit}, Path(config['root']), repository, config['url'])
     assert reused == config

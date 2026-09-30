@@ -1,6 +1,9 @@
 """Independent regression cases found during review of exact resolution/discovery."""
 import io
 import json
+import sqlite3
+from contextlib import closing
+from pathlib import Path
 
 import pytest
 from fontTools.ttLib import TTCollection, TTFont
@@ -86,16 +89,76 @@ def test_upstream_path_survives_portable_source_materialization(tmp_path):
 
 
 def test_rebuild_can_replace_an_old_schema_without_discarding_sources(tmp_path):
-    import sqlite3
     source = tmp_path / 'source'; source.mkdir()
     make_font(source / 'face.ttf')
     target = tmp_path / 'catalog.sqlite'
     spec = [{'id': 'fixture', 'root': str(source)}]
     index_sources(spec, target, workers=1)
-    with sqlite3.connect(target) as db:
-        db.execute("UPDATE meta SET value='0' WHERE key='schema'")
+    # SQLite's transaction context manager commits but does not close a handle.
+    # The fixture itself must release it before testing atomic replacement.
+    with closing(sqlite3.connect(target)) as db:
+        with db:
+            db.execute("UPDATE meta SET value='0' WHERE key='schema'")
     report = index_sources(spec, target, workers=1)
     assert report['faces'] == 1
+
+
+@pytest.mark.parametrize('schema_state', ['old', 'invalid-json', 'missing-row', 'missing-table'])
+def test_failed_catalog_initialization_closes_connection_before_rebuild(tmp_path, monkeypatch, schema_state):
+    source = tmp_path / 'source'; source.mkdir()
+    make_font(source / 'face.ttf')
+    target = tmp_path / 'catalog.sqlite'
+    with closing(sqlite3.connect(target)) as db:
+        if schema_state != 'missing-table':
+            db.execute('CREATE TABLE meta(key TEXT PRIMARY KEY, value TEXT)')
+            if schema_state != 'missing-row':
+                db.execute('INSERT INTO meta VALUES (?, ?)',
+                           ('schema', '0' if schema_state == 'old' else 'not JSON'))
+        db.commit()
+    connect = sqlite3.connect
+    connections = []
+
+    def tracked_connect(*args, **kwargs):
+        connection = connect(*args, **kwargs)
+        connections.append(connection)  # Retain it so GC cannot hide a leak.
+        return connection
+
+    monkeypatch.setattr(sqlite3, 'connect', tracked_connect)
+    try:
+        with pytest.raises((ValueError, sqlite3.DatabaseError)):
+            Catalog(target)
+        with pytest.raises(sqlite3.ProgrammingError, match='closed'):
+            connections[0].execute('SELECT 1')
+        report = index_sources([{'id': 'fixture', 'root': str(source)}], target, workers=1)
+        assert report['faces'] == 1
+        for connection in connections:
+            with pytest.raises(sqlite3.ProgrammingError, match='closed'):
+                connection.execute('SELECT 1')
+        with closing(Catalog(target)) as catalog:
+            assert catalog.stats()['sources'][0]['id'] == 'fixture'
+            assert catalog.get(catalog.all()[0]['id'])['family'] == 'Fixture'
+    finally:
+        for connection in connections:
+            connection.close()
+
+
+def test_pin_source_preserves_utf8_lock_under_a_legacy_locale(tmp_path, monkeypatch):
+    from type_evidence import cli, sources
+    lock = tmp_path / 'sources.lock.json'
+    original = {'id': 'existing', 'note': 'Café İplik 日本語'}
+    lock.write_text(json.dumps({'schema': 2, 'sources': [original]}, ensure_ascii=False), encoding='utf-8')
+    read_text = Path.read_text
+
+    def legacy_read_text(path, encoding=None, errors=None):
+        return read_text(path, encoding=encoding or 'cp1252', errors=errors)
+
+    monkeypatch.setattr(Path, 'read_text', legacy_read_text)
+    monkeypatch.setattr(sources, 'pin_github_source', lambda *args: {'id': 'new'})
+    args = cli.parser().parse_args(['pin-source', '--repository', 'example/fonts', '--commit', 'a' * 40,
+                                    '--paths', 'fonts/example', '--id', 'new', '--lock', str(lock)])
+    assert cli.run(args)['added_source'] == 'new'
+    result = json.loads(lock.read_text(encoding='utf-8'))
+    assert result['sources'] == [original, {'id': 'new'}]
 
 
 def test_oversize_assets_are_not_counted_as_duplicate_files(tmp_path, monkeypatch):

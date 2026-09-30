@@ -44,7 +44,8 @@ def _git(root, *args):
                '-c', 'filter.lfs.smudge=', '-c', 'submodule.recurse=false']
     if root is not None:
         command += ['-C', str(root)]
-    result = subprocess.run(command + list(args), env=env, check=True, capture_output=True, text=True, timeout=600)
+    result = subprocess.run(command + list(args), env=env, check=True, capture_output=True,
+                            text=True, encoding='utf-8', timeout=600)
     return result.stdout.strip()
 
 
@@ -538,7 +539,9 @@ def prepare(root, output, source_id, commit, url=''):
                         if len(entries) > MAX_MEMBERS or sum(e.file_size for e in entries) > MAX_ARCHIVE_TOTAL:
                             raise ValueError('Archive exceeds member/total limit')
                         for entry in entries:
-                            _member_name(entry.filename)
+                            # ZipInfo.filename normalizes backslashes on Windows
+                            # and truncates NULs; validate the original archive name.
+                            _member_name(entry.orig_filename)
                             mode = entry.external_attr >> 16
                             if stat.S_ISLNK(mode) or (stat.S_IFMT(mode) and not (stat.S_ISREG(mode) or stat.S_ISDIR(mode))):
                                 raise ValueError('Archive links/special files refused')
