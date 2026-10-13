@@ -35,7 +35,7 @@ Verified on the local candidate in the Codex browser: open/commercial and foundr
 
 ## Automated checks and packaging
 
-The final local test counts and artifact hashes are recorded in [verification.json](verification.json). Python tests use generated synthetic fonts, packaged metadata and mocked acquisition endpoints. JavaScript tests cover filtering, search ranking, accent handling, preview URL restrictions, face selection, saved-state recovery, export and parity between the packaged and website directories.
+All three native runners passed **347 Python tests and 12 JavaScript tests** each, with 10 optional visual tests skipped: [Ubuntu, Windows and macOS CI](https://github.com/gavinjudd/type-evidence/actions/runs/38334888644), tested code commit `d30754562534d542c6196c026e5b54f7a26a72dd`. The final local test counts and artifact hashes are recorded in [verification.json](verification.json). Python tests use generated synthetic fonts, packaged metadata and mocked acquisition endpoints. JavaScript tests cover filtering, search ranking, accent handling, preview URL restrictions, face selection, saved-state recovery, export and parity between the packaged and website directories.
 
 The v0.3 wheel was built and installed outside the repository. Offline directory discovery returned all 2,167 listings, and a named Inter download plan worked without a repository-local source lock. The bundled directory and pack manifests are package data. The source review archive is independently checked for CRC, manifest hashes, safe paths, font-file magic and known secret signatures.
 
