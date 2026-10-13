@@ -6,6 +6,7 @@ Derived fonts retain byte-level provenance. Archive metadata is untrusted.
 from __future__ import annotations
 
 import base64
+from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import io
 import json
@@ -30,6 +31,98 @@ MAX_FILE = 128 * 1024 * 1024
 MAX_ARCHIVE_TOTAL = 512 * 1024 * 1024
 MAX_MEMBERS = 10000
 MAX_RATIO = 250
+PACK_MANIFEST = Path(__file__).with_name('source-packs.json')
+
+
+def _pack_manifest():
+    return json.loads(PACK_MANIFEST.read_text(encoding='utf-8'))
+
+
+def _selection(values, label):
+    if values is None:
+        return []
+    if isinstance(values, str):
+        values = [values]
+    if not isinstance(values, (list, tuple)) or not all(isinstance(v, str) and v.strip() for v in values):
+        raise ValueError(label + ' must be a list of nonempty names')
+    return list(dict.fromkeys(values))
+
+
+def source_packs():
+    """List download sizes and family counts from the bundled immutable manifest."""
+    manifest = _pack_manifest()
+    families = {f['id']: f for f in manifest['families']}
+    result = []
+    for pack in manifest['packs']:
+        selected = [families[ident] for ident in pack['families']]
+        files = [r for f in selected for r in f['files']]
+        result.append(dict(id=pack['id'], name=pack['name'], description=pack['description'],
+                           families=len(selected), font_files=sum(Path(r['path']).suffix.lower() in FONT_EXT for r in files),
+                           download_bytes=sum(r['bytes'] for r in files)))
+    return dict(collection=manifest['collection'], packs=result,
+                note='Sizes are uncompressed source bytes, including licenses and metadata. Overlapping packs reuse verified family sources.')
+
+
+def _select_sources(lock_path, *, source_ids=None, packs=None, families=None):
+    source_ids, packs, families = (_selection(source_ids, 'Source IDs'), _selection(packs, 'Packs'),
+                                   _selection(families, 'Families'))
+    explicit = bool(source_ids or packs or families)
+    entries = []
+    if lock_path is not None and (source_ids or not explicit):
+        lock = json.loads(Path(lock_path).read_text(encoding='utf-8'))
+        original = lock['sources'] if isinstance(lock, dict) else lock
+        by_id = {entry['id']: entry for entry in original}
+        missing = set(source_ids) - by_id.keys()
+        if missing:
+            raise ValueError('Unknown source IDs: ' + ', '.join(sorted(missing)))
+        entries.extend(by_id[ident] for ident in source_ids) if source_ids else entries.extend(original)
+    elif source_ids:
+        raise ValueError('A source lock is required to select source IDs')
+    if packs or families:
+        manifest = _pack_manifest()
+        by_id = {family['id']: family for family in manifest['families']}
+        by_pack = {pack['id']: pack for pack in manifest['packs']}
+        selected = set()
+        for pack in packs:
+            if pack not in by_pack:
+                raise ValueError('Unknown source pack: ' + pack)
+            selected.update(by_pack[pack]['families'])
+        names = {}
+        for family in by_id.values():
+            for name in [family['id'], family['family'], family['path'], family['path'].split('/')[-1]]:
+                names.setdefault(name.casefold(), set()).add(family['id'])
+        for name in families:
+            matches = names.get(name.casefold(), set())
+            if len(matches) != 1:
+                raise ValueError(('Unknown' if not matches else 'Ambiguous') + ' downloadable family: ' + name)
+            selected.update(matches)
+        collection = manifest['collection']
+        for ident in sorted(selected):
+            family = by_id[ident]
+            entries.append(dict(id=ident, url=collection['url'], commit=collection['commit'], acquisition='github-tree',
+                                selection=[family['path']], files=family['files'], family=family['family'],
+                                license=family['license']))
+    if not entries:
+        raise ValueError('Select at least one source, pack, or downloadable family')
+    return entries
+
+
+def plan_fetch(lock_path=None, *, source_ids=None, packs=None, families=None):
+    """Describe an exact selection without touching the network or local library."""
+    entries = _select_sources(lock_path, source_ids=source_ids, packs=packs, families=families)
+    rows = [dict(id=e['id'], family=e.get('family'), commit=e['commit'],
+                 files=len(e['files']) if 'files' in e else None,
+                 font_files=sum(Path(r['path']).suffix.lower() in FONT_EXT for r in e.get('files', [])) if 'files' in e else None,
+                 download_bytes=sum(r['bytes'] for r in e['files']) if 'files' in e else None,
+                 license=e.get('license')) for e in entries]
+    return dict(source_count=len(rows), family_count=sum(bool(r['family']) for r in rows),
+                font_files=sum(r['font_files'] or 0 for r in rows),
+                known_download_bytes=sum(r['download_bytes'] or 0 for r in rows),
+                unbounded_git_sources=sum(r['download_bytes'] is None for r in rows),
+                sources=rows[:50], sources_truncated=len(rows) > 50,
+                selection=dict(source_ids=_selection(source_ids, 'Source IDs'), packs=_selection(packs, 'Packs'),
+                               families=_selection(families, 'Families')),
+                note='Plan only. Sources are fetched at exact commits; existing verified bytes are reused. Git source sizes are unknown until fetched.')
 
 
 def _sha(data):
@@ -57,7 +150,7 @@ def _safe_directory(path):
     return path.resolve()
 
 
-def fetch(lock_path, library_root, *, portable=None):
+def fetch(lock_path, library_root, *, portable=None, source_ids=None, packs=None, families=None, workers=4):
     """Fetch exact commits into library_root/sources; refuse modified/mismatched trees.
 
     Lock shape: {"sources": [{"id": "name", "url": "https://...git", "commit": "40 hex"}]}.
@@ -68,11 +161,12 @@ def fetch(lock_path, library_root, *, portable=None):
     """
     if portable is None:
         portable = os.name == 'nt'
-    lock = json.loads(Path(lock_path).read_text(encoding='utf-8'))
-    entries = lock['sources'] if isinstance(lock, dict) else lock
+    entries = _select_sources(lock_path, source_ids=source_ids, packs=packs, families=families)
+    if not isinstance(workers, int) or isinstance(workers, bool) or not 1 <= workers <= 16:
+        raise ValueError('Download workers must be between 1 and 16')
     destination = _safe_directory(Path(library_root) / 'sources')
     destination.mkdir(parents=True, exist_ok=True)
-    result, seen = [], set()
+    seen = set()
     for entry in entries:
         ident, commit = entry['id'], entry['commit']
         url = entry.get('url', 'https://github.com/' + entry.get('repository', '') + '.git')
@@ -83,15 +177,18 @@ def fetch(lock_path, library_root, *, portable=None):
         if not re.fullmatch(r'https://[^\s/@]+/[^\s?#]+', url):
             raise ValueError('Only credential-free HTTPS source URLs are accepted')
         seen.add(ident)
+    # Validate source identities and pins before starting acquisition. Independent
+    # family roots are fetched concurrently; map preserves deterministic order.
+    def acquire(entry):
+        ident, commit = entry['id'], entry['commit']
+        url = entry.get('url', 'https://github.com/' + entry.get('repository', '') + '.git')
         root = _safe_directory(destination / ident)
-        if entry.get('acquisition') == 'github-subtree':
-            result.append(_fetch_github_subset(entry, root, url))
-            continue
+        if entry.get('acquisition') in {'github-subtree', 'github-tree'}:
+            return _fetch_github_subset(entry, root, url, cache=Path(library_root) / '.source-cache')
         if entry.get('acquisition') not in {None, 'git'}:
             raise ValueError('Unknown source acquisition mode')
         if portable:
-            result.append(_fetch_portable(entry, root, Path(library_root) / 'repositories' / (ident + '.git'), url))
-            continue
+            return _fetch_portable(entry, root, Path(library_root) / 'repositories' / (ident + '.git'), url)
         if root.exists():
             if not (root / '.git').is_dir() or (root / '.git').is_symlink():
                 raise ValueError('Existing destination is not an independent Git checkout: ' + str(root))
@@ -109,8 +206,9 @@ def fetch(lock_path, library_root, *, portable=None):
             _git(root, 'checkout', '--quiet', '--detach', commit)
             if _git(root, 'rev-parse', 'HEAD') != commit.lower():
                 raise ValueError('Fetched commit does not match lock')
-        result.append(dict(id=ident, root=str(root), url=url, commit=commit.lower()))
-    return result
+        return dict(id=ident, root=str(root), url=url, commit=commit.lower())
+    with ThreadPoolExecutor(max_workers=min(workers, len(entries))) as pool:
+        return list(pool.map(acquire, entries))
 
 
 def _github_repository(value):
@@ -194,8 +292,52 @@ def _verify_source_bytes(data, record, *, require_sha=True):
         raise ValueError('Source Git blob hash differs from lock')
 
 
-def _fetch_github_subset(entry, root, url):
+def _cached_source_bytes(url, record, cache, *, require_sha):
+    """Resume at verified blob boundaries; never reuse partial or changed data."""
+    if cache is None:
+        data = _https_bytes(url, record['bytes'])
+        _verify_source_bytes(data, record, require_sha=require_sha)
+        return data
+    cache = _safe_directory(cache / 'git-blobs')
+    cache.mkdir(parents=True, exist_ok=True)
+    target = cache / record['git_blob']
+    if target.is_symlink():
+        raise ValueError('Source cache symlink refused')
+    if target.exists():
+        if not target.is_file() or target.stat().st_size != record['bytes']:
+            raise ValueError('Existing source cache bytes differ; preserved')
+        data = target.read_bytes()
+        _verify_source_bytes(data, record, require_sha=require_sha)
+        return data
+    data = _https_bytes(url, record['bytes'])
+    _verify_source_bytes(data, record, require_sha=require_sha)
+    # A completed temporary file is atomically linked into the content cache.
+    # A competing process may publish identical bytes; it may never be replaced.
+    with tempfile.NamedTemporaryFile(dir=cache, prefix='.download-', delete=False) as stream:
+        temporary = Path(stream.name)
+        try:
+            stream.write(data)
+            stream.flush()
+            os.fsync(stream.fileno())
+        except BaseException:
+            stream.close()
+            temporary.unlink()
+            raise
+    try:
+        try:
+            os.link(temporary, target)
+        except FileExistsError:
+            if target.is_symlink() or not target.is_file() or target.stat().st_size != record['bytes']:
+                raise ValueError('Existing source cache bytes differ; preserved')
+            _verify_source_bytes(target.read_bytes(), record, require_sha=require_sha)
+    finally:
+        temporary.unlink()
+    return data
+
+
+def _fetch_github_subset(entry, root, url, cache=None):
     repository = _github_repository(url)
+    tree_pinned = entry.get('acquisition') == 'github-tree'
     files = entry.get('files')
     if not isinstance(files, list) or not 1 <= len(files) <= MAX_MEMBERS:
         raise ValueError('A bounded list of locked files is required')
@@ -213,22 +355,38 @@ def _fetch_github_subset(entry, root, url):
             if folded in components and components[folded] != (prefix, end == len(parts)):
                 raise ValueError('Portable source directory or file collision')
             components[folded] = (prefix, end == len(parts))
-        if (not re.fullmatch(r'[0-9a-f]{64}', record.get('sha256', ''))
+        if ((not tree_pinned and not re.fullmatch(r'[0-9a-f]{64}', record.get('sha256', '')))
+                or ('sha256' in record and not re.fullmatch(r'[0-9a-f]{64}', record['sha256']))
                 or not re.fullmatch(r'[0-9a-f]{40}', record.get('git_blob', ''))
                 or not isinstance(record.get('bytes'), int) or not 0 <= record['bytes'] <= MAX_FILE):
-            raise ValueError('Every selected file needs SHA-256, Git blob hash and bounded byte length')
+            raise ValueError('Every selected file needs valid pinned hashes and bounded byte length')
         total += record['bytes']
         records.append(dict(record, path=safe, upstream_path=upstream))
     if total > MAX_ARCHIVE_TOTAL:
         raise ValueError('Selected source exceeds total byte limit')
     config = dict(id=entry['id'], root=str(root), url=url, commit=entry['commit'].lower(),
                   upstream_paths={r['path']: r['upstream_path'] for r in records if r['path'] != r['upstream_path']},
-                  acquisition=dict(mode='pinned-github-subtree', files=len(records), bytes=total,
+                  acquisition=dict(mode='pinned-github-tree' if tree_pinned else 'pinned-github-subtree', files=len(records), bytes=total,
                                    selection=entry.get('selection', []), path_spelling='portable percent encoding'))
+    if tree_pinned:
+        config['acquisition']['integrity'] = 'Pinned Git blob SHA-1 and byte length; downloaded SHA-256 recorded in source manifest'
+        config['family'] = entry.get('family')
+        config['license'] = entry.get('license')
     expected = dict(config, files=records)
     marker = root / '.type-evidence-source.json'
     if root.exists():
-        if marker.is_symlink() or not marker.is_file() or json.loads(marker.read_text(encoding='utf-8')) != expected:
+        if marker.is_symlink() or not marker.is_file():
+            raise ValueError('Existing subset manifest differs from lock; preserved')
+        manifest = json.loads(marker.read_text(encoding='utf-8'))
+        if tree_pinned:
+            recorded = manifest.get('files', [])
+            if (not isinstance(recorded, list) or len(recorded) != len(records)
+                    or any(not re.fullmatch(r'[0-9a-f]{64}', r.get('sha256', '')) for r in recorded)
+                    or dict(manifest, files=[{k: v for k, v in r.items() if k != 'sha256' or 'sha256' in locked}
+                                             for r, locked in zip(recorded, records)]) != expected):
+                raise ValueError('Existing subset manifest differs from lock; preserved')
+            records = recorded
+        elif manifest != expected:
             raise ValueError('Existing subset manifest differs from lock; preserved')
         actual = {p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file() or p.is_symlink()}
         if actual != {r['path'] for r in records} | {marker.name}:
@@ -236,8 +394,8 @@ def _fetch_github_subset(entry, root, url):
         for record in records:
             path = root / record['path']
             _safe_directory(path.parent)
-            if path.is_symlink():
-                raise ValueError('Source symlink refused')
+            if path.is_symlink() or not path.is_file() or path.stat().st_size != record['bytes']:
+                raise ValueError('Existing source has changed/missing bytes or a symlink; preserved')
             _verify_source_bytes(path.read_bytes(), record)
         return config
     # The final directory appears only once every pinned file verifies. A failed
@@ -246,8 +404,9 @@ def _fetch_github_subset(entry, root, url):
         staging = Path(staging)
         for record in records:
             raw_url = 'https://raw.githubusercontent.com/' + repository + '/' + entry['commit'].lower() + '/' + quote(record['upstream_path'], safe='/')
-            data = _https_bytes(raw_url, record['bytes'])
-            _verify_source_bytes(data, record)
+            data = _cached_source_bytes(raw_url, record, cache, require_sha=not tree_pinned or 'sha256' in record)
+            if tree_pinned:
+                record['sha256'] = _sha(data)
             target = staging / record['path']
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_bytes(data)

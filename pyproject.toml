@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "type-evidence"
-version = "0.2.0"
-description = "Font discovery and typography for AI agents: explore real local fonts, compare in context, and use exact styles through CLI or MCP"
+version = "0.3.0"
+description = "Explore open and commercial fonts, fetch reproducible font packs, and compare exact local typography through CLI or MCP"
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]

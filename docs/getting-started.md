@@ -28,7 +28,43 @@ py -3 -m venv .venv
 
 For the remaining commands, activate the environment (`source .venv/bin/activate` on macOS/Linux, or `.\.venv\Scripts\Activate.ps1` in PowerShell), or continue using the full executable paths above. If PowerShell activation is restricted, use those executable paths; changing system policy is unnecessary. Install from this GitHub source; no PyPI publication is assumed.
 
+## Explore before downloading
+
+The [browser explorer](https://gavinjudd.github.io/type-evidence/) and bundled directory offer open and commercial family discovery, filters and official acquisition links. The CLI directory works offline immediately after installation:
+
+```sh
+type-evidence directory --stats
+type-evidence directory --query 'serif' --limit 6
+type-evidence directory --license-kind commercial --limit 6
+type-evidence packs
+```
+
+Directory results describe families; they do not claim you have the files, the required glyphs, or permission for a particular use. Their `directory:` identifiers cannot be passed to `compare` or `resolve`. Those commands require exact face IDs from a local index.
+
+## Download an open-font pack
+
+Choose a smaller collection for your task, inspect its size, then download and index it:
+
+```sh
+type-evidence fetch --pack starter --plan
+type-evidence fetch --pack starter
+type-evidence index
+type-evidence search --role ui --text 'Review 24 requests' --weight 400 --upright --visual off --limit 4
+```
+
+Use `packs` to see all available selections. Combine packs with repeated `--pack` flags or request a particular family with `--family`. Downloads use pinned upstream file identities, preserve license sidecars, and can be resumed. Later fetches preserve previously registered sources, including imported purchased fonts. See [pack scope and source pins](collection-v3.md).
+
 ## Use fonts you already have
+
+For purchased, subscription-provided, or other local fonts you are authorized to use, register their directory and index it in one command:
+
+```sh
+type-evidence import-local /absolute/path/to/my-project/fonts --id my-project-fonts --index
+```
+
+This leaves the original files in place and adds the directory to `library/sources.local.json`. Existing sources are preserved; an ID already attached to a different root or provenance is rejected. It does not install fonts or infer a license from ownership. `--url` can retain an optional public provider URL. For a separate project library, supply both `--catalog library-my-project/catalog.sqlite` before the command and `--library library-my-project` after it.
+
+### Manual source configuration
 
 Create a local file `local-sources.json`. Replace `root` with the absolute path to an existing directory containing font files you are authorized to use. JSON uses forward slashes on Windows too, for example `C:/Projects/MyProject/fonts`.
 
@@ -62,7 +98,7 @@ If you choose a custom catalog, include `--catalog` with that same path before e
 
 A small collection may have no face matching the requested text and styles. Relax a preference or provide another authorized face; do not assume a substitute was used. Read `issues` and result evidence gaps.
 
-## Use the pinned collection
+## Use the legacy mixed collection
 
 Review [the source selections](collection-v2.md) and [font rights](licensing.md) first. The broad collection mixes open and proprietary/unknown-rights material. Public availability is not a universal use or redistribution license.
 
@@ -72,7 +108,7 @@ type-evidence index
 type-evidence stats
 ```
 
-Allow roughly **6 GB for the source collections**, plus catalogs, derived assets and optional visual caches. Fetch uses the pinned commits and selected-file hashes in [sources.lock.json](../sources.lock.json), preserves modified checkouts and reports preparation failures. It downloads sources; it does not install system fonts. Windows acquisition maps incompatible upstream names to safe local paths with provenance retained.
+Allow roughly **6 GB for these legacy source collections**, plus catalogs, derived assets and optional visual caches. An unfiltered `fetch` retains this existing behavior; the new open packs use explicit `--pack` selections. Fetch uses the pinned commits and selected-file hashes in [sources.lock.json](../sources.lock.json), preserves modified checkouts and reports preparation failures. It downloads sources; it does not install system fonts. Windows acquisition maps incompatible upstream names to safe local paths with provenance retained.
 
 Use a short Windows checkout path. Some source archives need a compatible `7z`, `7zz` or libarchive `tar`; absent support is reported, not silently counted as success. See [maintenance](maintenance.md) for adding selected families, refreshing pins, or keeping libraries separate.
 

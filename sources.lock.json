@@ -1003,5 +1003,14 @@
         }
       ]
     }
+  ],
+  "collections": [
+    {
+      "id": "google-fonts-2026-10-12",
+      "manifest": "type_evidence/source-packs.json",
+      "commit": "66928797f271fed5ee428544e7229685e2d90127",
+      "default": false,
+      "selection": "Use --pack or --family to acquire only the selected families."
+    }
   ]
 }

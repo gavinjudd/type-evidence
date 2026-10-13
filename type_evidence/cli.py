@@ -18,6 +18,31 @@ def parser():
     s = sub.add_parser('fetch', help='Fetch pinned sources and prepare local derivatives')
     s.add_argument('--lock', default='sources.lock.json')
     s.add_argument('--library', default='library')
+    s.add_argument('--pack', action='append', dest='packs', help='Open-font pack; repeat to combine')
+    s.add_argument('--family', action='append', dest='families', help='Open family name or slug; repeat to combine')
+    s.add_argument('--source', action='append', dest='source_ids', help='Legacy lock source id; repeat to combine')
+    s.add_argument('--workers', type=int, default=4)
+    s.add_argument('--plan', action='store_true', help='Show sizes and sources without downloading')
+    sub.add_parser('packs', help='List downloadable open-font packs and their sizes')
+    s = sub.add_parser('directory', help='Search the bundled open/commercial family directory; no local catalog needed')
+    s.add_argument('--query', default='')
+    for name in ['category', 'provider', 'vendor', 'license-kind', 'access']:
+        s.add_argument('--' + name)
+    s.add_argument('--tag', action='append', dest='tags')
+    variable = s.add_mutually_exclusive_group()
+    variable.add_argument('--variable', action='store_true', default=None)
+    variable.add_argument('--static', dest='variable', action='store_false', default=None)
+    s.add_argument('--limit', type=int, default=20)
+    s.add_argument('--offset', type=int, default=0)
+    s.add_argument('--id', help='Inspect a directory family identifier')
+    s.add_argument('--stats', action='store_true')
+    s = sub.add_parser('import-local', help='Register fonts you own without copying or installing them')
+    s.add_argument('root')
+    s.add_argument('--id', required=True)
+    s.add_argument('--library', default='library')
+    s.add_argument('--url', default='', help='Optional public provenance URL')
+    s.add_argument('--index', action='store_true', help='Also index all registered sources into --catalog')
+    s.add_argument('--workers', type=int, default=4)
     s = sub.add_parser('index', help='Inspect source bytes and atomically build/rebuild catalog')
     s.add_argument('--sources', default='library/sources.local.json')
     s.add_argument('--workers', type=int, default=4)
@@ -108,6 +133,25 @@ def _text(args):
 
 
 def run(args):
+    if args.command == 'directory':
+        from .directory import directory_stats, search_directory, directory_detail
+        if args.id and args.stats:
+            raise ValueError('Use either --id or --stats')
+        if args.id:
+            return directory_detail(args.id)
+        if args.stats:
+            return directory_stats()
+        return search_directory(args.query, **{key:getattr(args, key) for key in
+            ['category','provider','vendor','license_kind','access','tags','variable','limit','offset']})
+    if args.command == 'packs':
+        from .sources import source_packs
+        return source_packs()
+    if args.command == 'import-local':
+        from .library import import_local
+        result = import_local(args.root, args.id, args.library, args.url)
+        if args.index:
+            result['index'] = index_sources(json.loads(Path(result['sources_file']).read_text(encoding='utf-8')), args.catalog, args.workers)
+        return result
     if args.command == 'visual-setup':
         from .visual import setup_model
         return setup_model(args.directory or Path(args.catalog).resolve().parent / 'models')
@@ -121,23 +165,47 @@ def run(args):
         data['sources'].append(source)
         data['schema'] = 2
         path.write_text(json.dumps(data,indent=2)+'\n',encoding='utf-8')
-        return {'lock':str(path.resolve()),'added_source':source['id'],'next':'type-evidence fetch; type-evidence index'}
+        return {'lock':str(path.resolve()),'added_source':source['id'],
+                'next':'Fetch only added_source from this lock using --source and --lock, then index.',
+                'next_argv':['type-evidence','fetch','--source',source['id'],'--lock',str(path.resolve())]}
     if args.command == 'fetch':
-        from .sources import fetch, prepare
+        from .sources import fetch, prepare, plan_fetch
+        from .library import merge_sources
+        selection = dict(source_ids=args.source_ids, packs=args.packs, families=args.families)
+        if args.plan:
+            return plan_fetch(args.lock, **selection)
         root = Path(args.library).resolve()
-        sources = fetch(Path(args.lock), root)
+        sources = fetch(Path(args.lock), root, workers=args.workers, **selection)
         derived = [prepare(s['root'], root / 'derived' / s['id'], s['id'], s['commit'], s['url']) for s in sources]
         config = root / 'sources.local.json'
-        config.write_text(json.dumps(sources + derived, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-        return {'sources_file': str(config), 'sources': len(sources), 'preparation': [d.get('report') for d in derived], 'next':'type-evidence index --sources ' + str(config)}
+        registered = merge_sources(config, sources + derived)
+        reports = [d.get('report') or {} for d in derived]
+        summary = {key:sum(report.get(key, 0) for report in reports)
+                   for key in ['base64_fonts','archive_fonts','license_sidecars','archives_seen','derived_files']}
+        summary['issues'] = sum(len(report.get('issues', [])) for report in reports)
+        return {'sources_file': str(config), 'sources': len(sources), 'registered_sources':len(registered),
+                'preparation':reports[:30], 'preparation_total':len(reports), 'preparation_truncated':len(reports)>30,
+                'preparation_summary':summary,
+                'detail':'Complete per-source preparation reports are preserved in sources_file.',
+                'next':'Index sources_file into the selected catalog.',
+                'next_argv':['type-evidence','--catalog',str(Path(args.catalog).resolve()),'index','--sources',str(config)]}
     if args.command == 'index':
         return index_sources(json.loads(Path(args.sources).read_text(encoding='utf-8')), args.catalog, args.workers)
     if args.command == 'doctor':
         import platform, fontTools, PIL, uharfbuzz
         from PIL import features
+        from .directory import directory_stats
+        directory = directory_stats()
         return {'version':__version__, 'python':platform.python_version(), 'platform':platform.platform(),
                 'fonttools':fontTools.__version__, 'pillow':PIL.__version__, 'harfbuzz':uharfbuzz.version_string(),
                 'pillow_raqm':features.check_feature('raqm'), 'catalog_exists':Path(args.catalog).is_file(),
+                'catalog_path':str(Path(args.catalog).resolve()),
+                'directory':{key:directory[key] for key in ['total_families','open_families','commercial_families']},
+                'next':(['Run stats and search with --catalog set to catalog_path before the subcommand.']
+                        if Path(args.catalog).is_file() else
+                        ['type-evidence directory --limit 6','type-evidence packs',
+                         'type-evidence fetch --pack starter --plan',
+                         'Register owned fonts with import-local, then index into catalog_path.']),
                 'rights_policy':'Evidence is not permission. Unknown rights remain unknown.'}
     if args.command == 'project':
         from .discovery import project_context

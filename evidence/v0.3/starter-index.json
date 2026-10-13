@@ -1,0 +1,22 @@
+{
+  "files_seen": 122,
+  "font_files": 43,
+  "source_count": 40,
+  "unique_files": 43,
+  "exact_duplicate_files": 0,
+  "faces": 43,
+  "family_groups": 20,
+  "family_names": 20,
+  "variable_faces": 29,
+  "rights_counts": {
+    "embedded-open-license": 43
+  },
+  "category_counts": {
+    "unknown": 23,
+    "serif": 2,
+    "mono": 16,
+    "sans": 2
+  },
+  "issue_counts": {},
+  "scope": "Unicode OpenType/TrueType faces with successful metadata, outline sample and FreeType load probes. No claim all glyphs are correct or families are complete."
+}

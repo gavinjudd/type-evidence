@@ -1,10 +1,86 @@
-# Type Evidence — Font Discovery & Typography for AI Agents
+# Type Evidence — Find the type. See the evidence.
 
-Help AI agents find and use real fonts that fit the work—from quiet reading faces to expressive display type. **Type Evidence** searches local font collections, explores visual alternatives, compares typography in context, and resolves the exact styles and files to implement a choice.
+Discover open and commercial fonts, compare them using your real text, and hand an AI agent the exact files and styles to implement. Type Evidence combines a **browser font explorer**, an **offline family directory**, **reproducible open-font packs**, and a **local typography toolkit with CLI and MCP interfaces**.
 
-Use it for interfaces, games, branding, editorial layouts and documents through a **JSON CLI or local MCP server**. Bring fonts you already have, or build the pinned mixed open/proprietary collection. Optional FontCLIP retrieval searches rendered letterforms, including fonts with incomplete category metadata. Fonts, model weights, indexes and project text stay local.
+[Explore fonts](https://gavinjudd.github.io/type-evidence/) · [Get started](docs/getting-started.md) · [Agent / MCP setup](docs/agents.md) · [Font packs](docs/collection-v3.md) · [Directory provenance](docs/font-directory.md)
 
-[Get started](docs/getting-started.md) · [MCP / agent integration](docs/agents.md) · [Visual examples](https://gavinjudd.github.io/type-evidence/#examples) · [Contribute](CONTRIBUTING.md) · [License and font rights](docs/licensing.md)
+## A useful starting point
+
+Browse the directory before installing anything. Search by family, foundry or category, filter open and commercial options, try your text, and save a shortlist with a portable brief. Open-font browser previews load only when requested. Commercial entries link to their official providers; purchased files can be brought into the local toolkit.
+
+Directory listings, browser previews and exact local faces are different kinds of evidence. The explorer makes those states visible. A family name or provider preview is not a verified local font file.
+
+## From discovery to real typography
+
+| Start with | What you can do |
+| --- | --- |
+| A project direction | Search the bundled open/commercial directory offline, filter by category, provider, variable status and tags |
+| An open-font shortlist | Inspect download sizes, fetch a small task-specific pack or named families, resume verified downloads |
+| Purchased or existing fonts | Register their local directory, preserve provenance, and index exact faces without copying or installing them |
+| Real project copy | Check glyph coverage and required styles, compare candidates at actual sizes, compose roles together |
+| An AI agent | Use the same bounded discovery, inspection and rendering operations through JSON CLI or local stdio MCP |
+
+The local renderer uses verified bytes through HarfBuzz and FreeType, refuses missing glyphs instead of substituting a fallback, and writes PNG evidence plus implementation recipes. Optional FontCLIP retrieval adds rendered-letterform similarity. Scores and metadata inform a choice; the final design decision still needs judgment.
+
+## Get started
+
+Python 3.10+ and Git are required. Install from source; no package-registry publication is assumed:
+
+```sh
+git clone https://github.com/gavinjudd/type-evidence.git
+cd type-evidence
+python3 -m venv .venv
+.venv/bin/python -m pip install -e .
+source .venv/bin/activate
+type-evidence doctor
+```
+
+On Windows, create the environment with `py -3 -m venv .venv` and run `.\.venv\Scripts\python.exe -m pip install -e .`; use `.\.venv\Scripts\type-evidence.exe` for subsequent commands. [Full platform instructions](docs/getting-started.md).
+
+### Discover immediately
+
+```sh
+type-evidence directory --query 'serif' --limit 6
+type-evidence directory --license-kind commercial --limit 6
+type-evidence directory --stats
+type-evidence packs
+```
+
+No local catalog, font download or model is required for directory search. Results retain their source URLs and dated provenance. Directory IDs describe families; exact local face IDs come from indexing.
+
+### Get real open fonts
+
+```sh
+type-evidence fetch --pack starter --plan
+type-evidence fetch --pack starter
+type-evidence index
+type-evidence search --role ui --text 'Review 24 requests' --weight 400 --upright --visual off --limit 6
+```
+
+Use repeated `--pack` flags to combine packs or `--family 'Inter'` to select one family. The download plan shows source bytes before acquisition. [Available packs and source pins](docs/collection-v3.md).
+
+### Bring purchased fonts
+
+```sh
+type-evidence import-local /absolute/path/to/fonts --id my-fonts --index
+```
+
+Local files stay in place. Registration preserves existing sources and refuses conflicting IDs. Font availability does not establish usage rights; [font licensing remains separate](docs/licensing.md).
+
+### Compare and apply
+
+Copy exact IDs from local search results, then replace these placeholders:
+
+```sh
+type-evidence family EXACT_ID
+type-evidence compare BASELINE_ID CANDIDATE_ID --text 'Review 24 requests' --sizes 15 24 48 --out library/comparison
+type-evidence compose --spec project-composition.json --out library/composition
+type-evidence resolve EXACT_ID
+```
+
+Start a composition from [examples](examples/) and replace its role IDs with fonts in your catalog. Render roles together, inspect the result, and revise. Recipes record exact assets, axes, features and line heights; stage authorized assets and verify the target browser before shipping.
+
+Put `--catalog /absolute/path/catalog.sqlite` **before** each subcommand when using a custom catalog. Successful CLI output is JSON.
 
 ## See typography in context
 
@@ -16,83 +92,22 @@ These are actual harness outputs using exact local faces, with fictional sample 
 
 Each image links to its exact-face manifest. [Composition specs](examples/) and the [recorded browser checks](evidence/v0.2/composition-browser/README.md) show how previews become implementation recipes.
 
-## What you can do
+## Connect an agent
 
-- **Discover beyond familiar names.** Search a brief, page through alternatives, or explore neighbors of an inspected font or typography crop. Visual retrieval is optional and reports its actual coverage.
-- **Choose for the project.** Supply real text, language, audience, medium, size, density and required styles. Compare finalists in a specimen or a composition with roles, columns, panels and tables.
-- **Revise and apply.** Inspect images, change the choice or layout, and resolve exact files, weights, variation axes and features. Keep the existing font or a single family when it works best.
-- **Use the same operations from different agents.** CLI and MCP share discovery and rendering. MCP supplies bounded results and inline PNG previews; a nonvisual agent receives measurements without pretending to judge the image.
+Read [AGENTS.md](AGENTS.md) for the bounded discover → acquire → inspect → compose → apply loop. [MCP setup](docs/agents.md#local-setup-and-mcp) uses a local stdio process and works before a local catalog exists. `font_directory` and `font_packs` help the agent get started; exact font operations become available after indexing.
 
-The harness provides candidates and evidence. You or your agent still make the design decision. It does not generate font files or install fonts into the operating system.
+Optional visual discovery requires `.[visual]`, an explicit approximately 653 MB pinned checkpoint download, and a local rendered-font index. Search never downloads weights. [Setup, script coverage and storage](docs/getting-started.md#add-optional-visual-discovery).
 
-## Get started
+## Scope and verification
 
-**Python 3.10+** is required; use Git to clone the repository. Install from source—no package-registry install is assumed:
+The new [directory snapshot](docs/font-directory.md) and [open-font packs](docs/collection-v3.md) report their own counts and provenance. Listings, downloadable families, font files and indexed faces are counted separately. The older mixed collection remains available through an unfiltered `fetch`; allow roughly 6 GB for those source collections. Its historical catalog recorded **27,520 faces and 8,041 distinct family names**. [Legacy collection scope](docs/collection-v2.md).
 
-```sh
-git clone https://github.com/gavinjudd/type-evidence.git
-cd type-evidence
-python3 -m venv .venv
-.venv/bin/python -m pip install -e .
-.venv/bin/type-evidence doctor
-```
+The [v0.3 verification report](evidence/v0.3/README.md) records tests, acquired/indexed font counts, browser checks and remaining limits for this overhaul. Historical visual coverage and evaluations remain in the [v0.2 evidence](evidence/v0.2/README.md). The three-case v0.2 held-out study did not improve final compositions over basic access to the same fonts; broader coverage and passing tests do not demonstrate better taste.
 
-On Windows, use `py -3 -m venv .venv`, then `.\.venv\Scripts\python.exe -m pip install -e .` and `.\.venv\Scripts\type-evidence.exe doctor`.
+## Contribute
 
-Choose the setup that matches your task:
-
-| Start with | What it needs | Next step |
-| --- | --- | --- |
-| Fonts you already have | An authorized local font directory; no collection or model download | [Index your fonts](docs/getting-started.md#use-fonts-you-already-have) |
-| The pinned broad collection | Roughly 6 GB for the source collections, plus catalogs and caches; review source/font rights | [Fetch and index](docs/getting-started.md#use-the-pinned-collection) |
-| A code contribution | Core and test dependencies only; synthetic test fonts are generated locally | [Develop without the corpus](CONTRIBUTING.md#develop-without-downloading-fonts-or-a-model) |
-
-### Enable visual discovery
-
-After creating a catalog, optional `.[visual]` dependencies, the approximately **653 MB pinned checkpoint**, and a local rendered-font index enable FontCLIP text/image retrieval. Search itself never downloads weights. Start with a bounded index, then resume; see [visual setup, storage and script coverage](docs/getting-started.md#add-optional-visual-discovery). Ordinary metadata/measurement discovery works without the model.
-
-## Find, inspect, revise, apply
-
-After activating your virtual environment and creating a catalog:
-
-```sh
-type-evidence search --query 'warm humanist, not playful or handwritten' --role ui --text 'Review 24 requests' --weight 400 --upright --size 15 --limit 6
-type-evidence search --query 'warm humanist, not playful or handwritten' --role ui --text 'Review 24 requests' --weight 400 --upright --size 15 --limit 6 --offset 6
-```
-
-Take an exact `id` from a result, inspect its family and render the actual text. `EXACT_ID`, `BASELINE_ID` and `CANDIDATE_ID` below are placeholders to replace:
-
-```sh
-type-evidence family EXACT_ID
-type-evidence compare BASELINE_ID CANDIDATE_ID --text 'Review 24 requests' --sizes 15 24 48 --out library/first-comparison
-type-evidence compose --spec examples/composition-interface.json --out library/interface-study
-type-evidence resolve EXACT_ID
-```
-
-The supplied composition examples use exact IDs from the pinned collection. For your own fonts, replace their role IDs and settings first. See the [composition schema](docs/contract.md), [reference-led recovery loop](docs/agents.md#recover-from-a-weak-first-result), and [source maintenance guide](docs/maintenance.md).
-
-Compositions produce an immediate PNG preview and an HTML/CSS/JS implementation recipe. Stage authorized exact font assets to use the live recipe; its loading gate checks hashes and font loading before displaying it. A screenshot is not proof of browser, printer or game-engine equivalence.
-
-## Use from an agent
-
-Read [AGENTS.md](AGENTS.md) for the bounded decision loop, or configure the [stdio MCP server](docs/agents.md#local-setup-and-mcp). MCP supports search, paging, family inspection, exact assets, comparisons, contextual compositions and reopening preview images. No particular agent model or editor is required.
-
-All successful CLI output is JSON. Put `--catalog /absolute/path/catalog.sqlite` **before** the subcommand. `doctor`, `stats`, `issues` and `visual-status` describe the current local setup. Agent setup instructions help after an agent reaches this repository; they do not guarantee discovery in search results.
-
-## Collection and evidence
-
-The recorded v0.2 catalog contains **27,520 faces, 8,041 distinct family names and 8,710 family groups**, including 378 variable faces. Family groups preserve vendor/version/width differences; faces are not unique families. The collection retains both original mixed sources and adds selected Google Fonts and Arrow Type sources. [Collection scope and pins](docs/collection-v2.md).
-
-The default visual index covers **26,313 faces (95.61%)** in the recorded catalog, using configured sample text at default axes. Unsupported render formats, incomplete samples and explicit rendering failures remain visible. Language support and final styles need their own checks. [Visual coverage](evidence/v0.2/visual-coverage.json).
-
-In the [three-case held-out evaluation](evidence/v0.2/heldout/README.md), the harness did **not** improve final compositions over basic access to the same fonts. Semantic retrieval sometimes missed the intended tone; supplied references recovered more useful directions in a separate development study. Tests establish behavior, not better taste. [Full evidence index](evidence/v0.2/README.md).
-
-## Development
-
-Contributions can improve retrieval, source metadata, platform behavior or design evaluation. [CONTRIBUTING.md](CONTRIBUTING.md) maps the extension points, gives starter tasks and explains how to test without the large downloads. Use the [issue forms](https://github.com/gavinjudd/type-evidence/issues/new/choose) for reproducible bugs, poor recommendations or proposals.
-
-The current core suite passed **268 tests with 10 optional skips** on native Linux, macOS and Windows, including the review-package regression added in this documentation update. Full collection, optional visual-model and browser workflows remain unverified on Windows; CUDA is unverified. [Current CI scope](evidence/public-identity-v1/ci.json) · [Earlier v0.2 test evidence](evidence/v0.2/tests-scope.json).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for synthetic-font development and extension points. Useful contributions include source metadata corrections, additional official catalogs, acquisition improvements, retrieval failures and actual design evaluations. Report reproducible issues with the [issue forms](https://github.com/gavinjudd/type-evidence/issues/new/choose).
 
 ## License
 
-The original harness code and documentation are available under the [MIT License](LICENSE). **This does not license the fonts or model weights.** Dependencies and third-party assets retain their own terms; mixed-source availability is not permission to use or redistribute every face. No font binaries or model weights are included here. Read the [licensing and attribution guide](docs/licensing.md) before distributing assets.
+The harness code and documentation are [MIT licensed](LICENSE). Fonts, model weights and other third-party assets retain their own terms. No font binaries or model weights are included in this repository. Read the [licensing and attribution guide](docs/licensing.md) before distributing assets.

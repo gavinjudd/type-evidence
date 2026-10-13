@@ -8,6 +8,8 @@ This grant covers the original harness work. **It does not grant rights to third
 
 ## Fonts and source metadata
 
+The v0.3 family directory includes official open-font records and commercial/proprietary listings. Commercial records link to the provider for acquisition and terms; no commercial binaries are shipped. A listing does not establish that the user owns a font or may embed it. Purchased files can be registered locally with `import-local`; the harness continues to preserve unknown rights and inspect the exact bytes. Open-font packs retain the upstream license sidecars. [Directory provenance](font-directory.md) and [pack pins](collection-v3.md) document their scope.
+
 The pinned library deliberately preserves mixed open, proprietary and unknown-rights sources. A public GitHub repository, source pin, file hash, embedded notice or catalog entry is not universal permission to use, embed, modify or redistribute a font. Review the applicable authoritative license for the exact face and intended use. Unknown rights stay unknown.
 
 The selected Google Fonts families and Arrow Type Recursive include upstream OFL files in their pinned selections. The [official SIL Open Font License](https://openfontlicense.org/open-font-license-official-text/) specifies its own redistribution, notice and reserved-name conditions. Those terms should not be inferred for the two broad mixed collections or for every file with a familiar family name. See [sources.lock.json](../sources.lock.json) and [collection scope](collection-v2.md).

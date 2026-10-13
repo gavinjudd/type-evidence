@@ -16,3 +16,6 @@ work/
 *.otc
 *.zip
 *.DS_Store
+build/
+dist/
+*.whl

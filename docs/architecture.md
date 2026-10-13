@@ -27,6 +27,14 @@ At search time, positive appearance terms, negative terms, neighbor/avoidance re
 
 [Fontmap](https://github.com/tfrere/fontmap) informed the investigation of rendered-font discovery; its application and pipeline code are not used here. [fontTools](https://fonttools.readthedocs.io/en/latest/ttLib/ttFont.html), [HarfBuzz](https://uharfbuzz.readthedocs.io/) and [FreeType](https://freetype.org/freetype2/docs/) remain the inspection/shaping/rasterization foundation. Pillow composes pixels and separate specimen-interface labels.
 
+## Directory, acquisition and local evidence
+
+The v0.3 bundled directory is an offline family-discovery layer, separate from the SQLite face catalog. `directory.py` reads a versioned metadata snapshot and returns bounded search results, facets and official acquisition links. Directory identifiers never resolve to files. Commercial entries contain descriptive metadata and provider links, not font binaries or inferred rights.
+
+`sources.py` exposes pack planning and reproducible subset downloads from pinned upstream files. `library.py` merges source registrations atomically and rejects identity collisions, so fetching another pack or registering an owned directory preserves the existing source set. Indexing still operates on the complete explicit source configuration and assigns exact byte-and-face IDs.
+
+The static browser explorer consumes a copy of the packaged directory. Search and shortlists run locally. Optional Google previews require an explicit load action; unavailable previews remain labeled. Provider previews are distinct from the harness's hash-verified local rendering path.
+
 ## Interfaces and context budget
 
 `operations.discover` is shared by CLI search and MCP `font_search`. It selects the retrieval mode, then calls the deterministic ranker with optional visual evidence. The remaining operations expose exact metadata, resolution, family inventory, bounded project hints, specimens, compositions, issues and status.

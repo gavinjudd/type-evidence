@@ -1,0 +1,12 @@
+{
+  "family": "Helvetica Neue",
+  "id": "f589d70dc741853a336fcb0d11aa1505d1646898fba2340a0f5999ea920406b3:0",
+  "rights_status": "unknown",
+  "no_fallback": {
+    "verified": true,
+    "system_font_lookup": false,
+    "glyph_zero_count": 0,
+    "statement": "Every specimen glyph is shaped by HarfBuzz and drawn by FreeType from its exact verified source face. No system lookup, substitute font, or fallback font is used. Labels and page UI are separate."
+  },
+  "scope": "Local system-font import and exact rendering check. No font binaries distributed."
+}
