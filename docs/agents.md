@@ -4,7 +4,7 @@ Start with [AGENTS.md](../AGENTS.md). Keep the catalog outside the agent's conte
 
 ## Local setup and MCP
 
-[Getting started](getting-started.md) creates a catalog from your own fonts or the pinned collection. For rendered-content discovery, install `.[visual]`, run `visual-setup`, then `visual-index`. These are explicit local setup operations. The MCP server does not download sources or model weights.
+[Getting started](getting-started.md) creates a catalog from open packs or your own fonts. MCP also starts before a catalog exists: `font_directory`, `font_directory_detail` and `font_packs` provide immediate discovery and acquisition information. Tools requiring local bytes return an actionable missing-catalog error until you index. The same server can retry after the catalog is created, and subsequent requests see atomic index rebuilds without reconnecting. For rendered-content discovery, install `.[visual]`, run `visual-setup`, then `visual-index`. These are explicit local setup operations. The MCP server does not download sources or model weights.
 
 Use absolute paths because clients may start processes in a different directory:
 
@@ -23,6 +23,9 @@ On Windows, use `C:\\path\\type-evidence\\.venv\\Scripts\\type-evidence.exe` as 
 
 | Task | CLI | MCP |
 | --- | --- | --- |
+| Open/commercial directory discovery | `directory` | `font_directory` |
+| Official family and acquisition details | `directory --id DIRECTORY_ID` | `font_directory_detail` |
+| Download pack sizes and scope | `packs` | `font_packs` |
 | Search, page, refine, reference image | `search` | `font_search` |
 | Exact metadata / verified asset | `inspect`, `resolve` | `font_inspect`, `font_resolve` |
 | Observed sibling styles and versions | `family` | `font_family` |
@@ -31,6 +34,8 @@ On Windows, use `C:\\path\\type-evidence\\.venv\\Scripts\\type-evidence.exe` as 
 | Catalog / bounded issues / visual coverage | `stats`, `issues`, `visual-status` | `font_stats`, `font_issues`, `font_visual_status` |
 | Reopen generated PNG | Open returned local PNG | `font_image` |
 | Fetch, index, add source, model setup | Explicit CLI commands | Intentionally outside MCP |
+
+Directory search and local face search serve different stages. Directory results have `directory:` IDs, source URLs and declared family metadata. They do not establish local availability, glyph coverage, or rendering. Follow an official acquisition link or fetch a pack, then register and index authorized files. Use the exact IDs returned by `font_search` for rendering and resolution. Directory tags support discovery; they are not measured aesthetic quality scores.
 
 The adapter uses newline-delimited stdio JSON-RPC and supports protocol versions 2024-11-05, 2025-03-26 and 2025-06-18. Initialize, send `notifications/initialized`, then call tools. It opens no network port. Rendering writes unique directories under `--out`; project inspection reads only the explicitly supplied root. Client process/filesystem permissions remain the client's responsibility.
 

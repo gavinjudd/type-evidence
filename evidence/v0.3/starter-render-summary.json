@@ -1,0 +1,70 @@
+{
+  "ids": [
+    {
+      "id": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031:0",
+      "family": "Inter",
+      "axes": {
+        "wght": 400
+      }
+    },
+    {
+      "id": "b24f1812584816958afcf22e22d08e44318c5e51651e25d2438efdde389b33b1:0",
+      "family": "Instrument Sans",
+      "axes": {
+        "wght": 400
+      }
+    },
+    {
+      "id": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b:0",
+      "family": "Source Serif 4",
+      "axes": {
+        "wght": 400
+      }
+    },
+    {
+      "id": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb:0",
+      "family": "Fraunces",
+      "axes": {
+        "wght": 400
+      }
+    }
+  ],
+  "images": [
+    {
+      "file": "comparison.png",
+      "sha256": "c3c45e1d17bf8a538ec7e619b926837378386d7d59e65ae38f84a55c33fd5c2f",
+      "width": 1440,
+      "height": 1868
+    },
+    {
+      "file": "specimen-01-29160a80ff49.png",
+      "sha256": "0834cfba0ab9b1fe81d72904f1d8d2ec8354f9d61f28063b5343f6baac670323",
+      "width": 1440,
+      "height": 597
+    },
+    {
+      "file": "specimen-02-b24f18125848.png",
+      "sha256": "89b7048b1f5692755a6bd6490c663aa2c08cc7593c4dff24a8cda593bbcb5a78",
+      "width": 1440,
+      "height": 598
+    },
+    {
+      "file": "specimen-03-97b2d4da6e3c.png",
+      "sha256": "ef39c894333df7b956be9aca49916dce4460e29dfa81fa9784d3b224a98aa42e",
+      "width": 1440,
+      "height": 611
+    },
+    {
+      "file": "specimen-04-177ff6c0f14e.png",
+      "sha256": "7e464c87fe3aed270e1a31f20bbe041ff6ea506a744403864de344984cf35d89",
+      "width": 1440,
+      "height": 599
+    }
+  ],
+  "no_fallback": {
+    "verified": true,
+    "system_font_lookup": false,
+    "glyph_zero_count": 0,
+    "statement": "Every specimen glyph is shaped by HarfBuzz and drawn by FreeType from its exact verified source face. No system lookup, substitute font, or fallback font is used. Labels and page UI are separate."
+  }
+}

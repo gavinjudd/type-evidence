@@ -1,0 +1,68 @@
+{
+  "version": "0.3.0",
+  "checked_date": "2026-10-12",
+  "timezone": "America/New_York",
+  "base_commit": "6d1cbd773721bb33b8a5bdfff22d7c22807623bb",
+  "tests": {
+    "python_passed": 347,
+    "python_skipped": 10,
+    "javascript_passed": 12,
+    "python_runtime": "3.12.13",
+    "node_runtime": "26.0.0",
+    "platform": "macOS arm64"
+  },
+  "directory": {
+    "listings": 2167,
+    "open": 1950,
+    "commercial": 217,
+    "sha256": "f6ed9a3aeca0a9c9b53d9d2a060275681c9dae18bde8ef4c2c43840ac4303459",
+    "web_copy_identical": true
+  },
+  "packs": {
+    "manifest_sha256": "197be5434e53c52bbb8875716b19641917c67c133b3e2efdf6b28a0c9ed04eed",
+    "current_open_families": 1940,
+    "including_archive_families": 2021,
+    "actual_acquired_families": 349,
+    "actual_font_files": 849,
+    "actual_source_bytes": 446782963
+  },
+  "wheel": {
+    "file": "type_evidence-0.3.0-py3-none-any.whl",
+    "sha256": "f261393117ae64c9201f770b1920a1cdb5af4d6ca681e28937b44871c99b2ba0",
+    "installed_outside_repository": true,
+    "directory_listings": 2167,
+    "named_family_plan_without_repository_lock": true
+  },
+  "browser": {
+    "desktop_viewport": [
+      1280,
+      900
+    ],
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "mobile_scroll_width": 390,
+    "explicit_previews": "Instrument Serif and Instrument Sans loaded",
+    "commercial_preview": "provider link only",
+    "shortlist_persistence": "passed",
+    "markdown_export": "passed"
+  },
+  "native_ci": {
+    "status": "pending GitHub run"
+  },
+  "limits": [
+    "10 optional visual tests skipped",
+    "Whole all-open acquisition not executed",
+    "No new held-out design-quality evaluation",
+    "No claim that browser previews verify glyph coverage or exact pinned bytes",
+    "PR candidate; not merged or deployed"
+  ],
+  "local_links_checked": 92,
+  "combined_catalog": {
+    "faces": 29091,
+    "family_names": 8668,
+    "added_exact_faces": 1571,
+    "removed_baseline_faces": 0
+  }
+}

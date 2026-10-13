@@ -1,0 +1,34 @@
+{
+  "files_seen": 41909,
+  "font_files": 31372,
+  "source_count": 356,
+  "unique_files": 28662,
+  "exact_duplicate_files": 2709,
+  "faces": 29091,
+  "family_groups": 9425,
+  "family_names": 8668,
+  "variable_faces": 659,
+  "rights_counts": {
+    "unknown": 20320,
+    "embedded-open-license": 8389,
+    "restricted-notice": 382
+  },
+  "category_counts": {
+    "unknown": 21468,
+    "mono": 2422,
+    "sans": 3990,
+    "serif": 1091,
+    "display": 74,
+    "script": 46
+  },
+  "issue_counts": {
+    "unsupported-or-archive-not-indexed": 469,
+    "invalid-signature": 369,
+    "oversize-not-indexed": 1,
+    "font-parse-or-render-failed": 148
+  },
+  "scope": "Unicode OpenType/TrueType faces with successful metadata, outline sample and FreeType load probes. No claim all glyphs are correct or families are complete.",
+  "baseline_faces": 27520,
+  "added_exact_faces": 1571,
+  "removed_baseline_faces": 0
+}
