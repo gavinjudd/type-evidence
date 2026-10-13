@@ -12,15 +12,15 @@ import sqlite3
 from concurrent.futures import ProcessPoolExecutor
 from collections import Counter, defaultdict
 
+import freetype
 from fontTools.ttLib import TTFont, TTCollection
 from fontTools.pens.boundsPen import BoundsPen
-from PIL import ImageFont
 
 SCHEMA = 1
 EXTENSIONS = {'.ttf', '.otf', '.woff', '.woff2', '.ttc', '.otc'}
 MAGICS = {b'\x00\x01\x00\x00', b'OTTO', b'true', b'typ1', b'wOFF', b'wOF2', b'ttcf'}
 MAX_BYTES = 128 * 1024 * 1024
-LICENSE_NAMES = re.compile(r'^(ofl|licen[sc]e|copying|copyright|eula)([._ -]|$)', re.I)
+LICENSE_NAMES = re.compile(r'^(ofl|ufl|licen[sc]e|copying|copyright|eula)([._ -]|$)', re.I)
 
 
 def digest(data):
@@ -148,14 +148,16 @@ def _inspect_face(font, sha, index):
         axes = [{'tag': a.axisTag, 'min': a.minValue, 'default': a.defaultValue, 'max': a.maxValue} for a in font['fvar'].axes]
     features = sorted({r.FeatureTag for table in ['GSUB', 'GPOS'] if table in font and font[table].table.FeatureList for r in font[table].table.FeatureList.FeatureRecord})
     canonical = _canonical(font)
-    # Validate FreeType can load a decoded face; never a system font lookup.
+    # Probe the same unhinted outlines used by exact rendering. A hinted Pillow
+    # mask can reject usable outlines when unrelated TrueType hinting fails.
+    from .render import _raster_glyph
     sfnt = io.BytesIO()
     font.flavor = None
     font.save(sfnt)
-    probe = ImageFont.truetype(io.BytesIO(sfnt.getvalue()), 20)
+    probe = freetype.Face(io.BytesIO(sfnt.getvalue()))
     sample = ''.join(chr(cp) for cp in sorted(cmap) if 33 <= cp <= 126)[:60]
-    if sample:
-        probe.getmask(sample)
+    for character in sample:
+        _raster_glyph(probe, font.getGlyphID(cmap[ord(character)]), 20)
     family_key = digest(json.dumps([family.casefold(), vendor, version], ensure_ascii=False).encode())[:24]
     return dict(id=f'{sha}:{index}', sha256=sha, face_index=index, family=family, style=style,
                 full_name=_name(font, 4), postscript_name=_name(font, 6), vendor=vendor,
